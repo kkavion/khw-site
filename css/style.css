@@ -223,7 +223,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      text-transform: uppercase;
      font-size: 12px;
      text-align: center;
-     margin: 10px 60px 0 60px;
+     
 }
  .travel-booking-btn-lg {
      padding: 10px 25px;
@@ -2017,6 +2017,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      opacity: 0;
      position: relative;
      transition: all 0.5s ease 0s;
+     margin: 10px 60px 0 60px;
 }
  .popular-country .destination-countrys .tab-content figure:hover figcaption {
      bottom: 0;
