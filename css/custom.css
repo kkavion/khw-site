@@ -136,6 +136,7 @@
 }
 .popular-packages-carasoul .owl-nav .owl-prev:hover,.popular-packages-carasoul .owl-nav .owl-next:hover{
      background: #f17b37 !important;
+     box-shadow: 0 0 10px;
 }
 .popular-packages-carasoul .owl-dots{
      display: none;
@@ -339,4 +340,19 @@
 	width: 100%;
 	height:500px;
 	object-fit: cover;
+}
+.fig-text
+{
+	padding: 10px 0 5px 0;
+	text-align: center;
+	z-index: 1;
+}
+.fig-text h4
+{
+	color: #5e5e5e;
+}
+.fig-text h4:hover
+{
+	color: #01018a;
+	transition: all 1s ease 0s;
 }
