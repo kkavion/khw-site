@@ -322,3 +322,22 @@
 .section-title2 h2:after, .section-title-white h2:after, .section-title-white-2 h2:after {
      left: 180px;
 }
+.demo {
+    width:auto;
+}
+.demo ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+.demo li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+.demo img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
