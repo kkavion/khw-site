@@ -191,7 +191,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      box-shadow: none;
 }
  .section-paddings {
-     padding: 100px 0;    padding-top:25px;
+     padding: 50px 0;    padding-top:25px;
 }
 /*=====basce css end here=========*/
 /*============================== theme buttons css goes here ===============================*/
@@ -3787,7 +3787,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      margin-right: 15px;
 }
  .related-tour {
-     padding-bottom: 100px;
+     padding-bottom: 50px;
 }
  .related-tour .single-package {
      margin-bottom: 0 !important;
