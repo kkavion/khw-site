@@ -331,7 +331,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      left: 0;
      right: 0;
      margin: 0 auto;
-     bottom: -70%;
+     bottom: -20%;
      text-align: center;
      opacity: 0;
      visibility: hidden;
@@ -392,7 +392,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      width: 100%;
      opacity: 1;
      visibility: visible;
-     bottom: -15px;
+     bottom: -5px;
 }
  .header-bottom-area.sticky {
      position: none;
