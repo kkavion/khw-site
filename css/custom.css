@@ -1,0 +1,341 @@
+.d-flex {
+
+    display:flex;
+
+}
+
+.d-flex>div {
+
+    float: none;
+
+}
+
+.col-auto {
+
+    flex: 0 0 auto;
+
+    width: 20%;
+
+    max-width: none;
+
+}
+
+
+/* Page content */
+
+.content {
+
+  padding: 0px;
+
+}
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+.sticky {
+
+  position: fixed;
+
+  top: 0;
+
+  width: 100%;
+
+}
+
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky + .content {
+
+  padding-top: 60px;
+
+}
+
+.padding-bottom{
+
+  padding-bottom:20px;
+
+}
+
+.internal-tab1{
+
+  padding-left:5px;
+
+  padding-right:5px;
+
+  width: 10%;
+}
+
+.package-tab-menu .package-tab-menu li a{
+
+  padding-left:0;
+
+  padding-right:0;
+
+}
+
+.section-title-3 h3 {
+
+     background-color: transparent;
+
+     background-color: transparent;
+
+     background-image: url("../images/line.png");
+
+     background-position: left 54px bottom;
+
+     background-repeat: no-repeat;
+
+     color: #454545;
+
+     font-size: 20px;
+
+     font-weight: 500;
+
+     padding-bottom: 20px;
+
+     position: relative;
+          text-transform: capitalize;
+
+     z-index: 2;
+
+}
+
+.section-title-3 h3:before, .section-title-3 h3:after {
+
+     background: #454545 none repeat scroll 0 0;
+
+     bottom: 4.8px;
+
+     content: "";
+
+     height: 1px;
+
+     left: 0;
+
+     position: absolute;
+
+     width: 45px;
+
+}
+
+.section-title-3 h3:after {
+
+     left: 88px;
+
+}
+.popular-packages-carasoul .owl-nav {
+     text-align: center;
+}
+.popular-packages-carasoul .owl-nav .owl-prev,.popular-packages-carasoul .owl-nav .owl-next{
+     margin: 10px;
+     background: #37b721 !important;
+     border-radius: 4px;
+     transition: all ease-in-out 0.3s !important;
+     padding: 10px 20px 10px 20px; 
+}
+.popular-packages-carasoul .owl-nav .owl-prev:hover,.popular-packages-carasoul .owl-nav .owl-next:hover{
+     background: #f17b37 !important;
+}
+.popular-packages-carasoul .owl-dots{
+     display: none;
+}
+.package-tab-menu .int-tab li a{
+     padding:0px;
+}
+.package-tab-menu .int-tab2{
+     width:12%;
+}
+.header-top-area .header-top-left .header-top-contact a{
+     color: white;
+}
+.col-sm-6 h5{
+     margin-bottom: 0px;
+}
+.timeline-content img{
+     width: 5%;
+}
+.popular-country .container{
+     padding: 0;
+}
+.resort-table .col-md-2{
+
+}
+.resort-table li:before{
+     content: "\2731";
+     padding-right:2px;
+}
+.resort-table{
+     padding: 5px 0 5px 0;
+     font-size: 13px;
+}
+.amenities-sec
+{
+	display:grid;
+	text-align:center;
+	font-weight:bold;
+	align-content:center;
+}
+.amenities-sec img
+{
+	width:40%;
+}
+.amenities-sec span
+{
+	font-size:13px;
+}
+.sec1
+{
+	padding: 20px 0 20px 0;
+}
+.fact-file p
+{
+	margin-bottom: 15px;
+}
+.fact-file span
+{
+     	color: #727272;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	padding-bottom:10px;
+}
+.fact-file .col-md-7, .col-md-5
+{
+     	padding-bottom:10px;
+}
+.resort-table .row
+{
+	padding-bottom:3px;
+	padding-top:3px;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.3); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  opacity:1;
+  color: white;
+  font-size: 13px;
+  padding: 3px;
+  text-align: left;
+}
+
+.resort-table li
+{
+	padding:3px 0 3px 0;
+}
+.single-country
+{
+	box-shadow: 0 0 7px rgba(62, 51, 51, 0.8) !important;
+	border-radius: 6px;
+}
+.single-package-carasoul:hover
+{
+	box-shadow: 0 0 7px rgba(62, 51, 51, 0.8);
+	transition: all 0.3s ease 0s;
+}
+.booking-title
+{
+	font-size:25px;	
+	text-align:center;
+}
+.timeline-content
+{
+	text-align:left;
+}
+.header-bottom-area .tab-a > li > a {
+     display: block;
+     color: black !important;
+     font-size: 15px;
+     text-transform: uppercase;
+     text-decoration: none;
+     font-weight: 500;
+     position: relative;
+     text-align:center;
+}
+.header-bottom-area .main-menu > li:hover > a {
+     color: #37b721 !important;
+}
+.header-bottom-area .tab-a > li.active a {
+     color: #37b721 !important;
+}
+.header-bottom-area .tab-a > li {
+     display: inline-block;
+     padding: 30px 20px 30px 20px;
+     position: relative;
+}
+.header-bottom-area .tab-b
+{
+	text-align:center;
+}
+.header-bottom-area .tab-b > li > a {
+     display: block;
+     color: black !important;
+     font-size: 15px;
+     text-transform: uppercase;
+     text-decoration: none;
+     font-weight: 500;
+     position: relative;
+     text-align:center;
+}
+.header-bottom-area .tab-b > li.active a {
+     color: #37b721 !important;
+}
+.header-bottom-area .tab-b > li {
+     display: inline-block;
+     padding: 0px 20px 0px 20px;
+     position: relative;
+}
+.section-title2 h2, .section-title-white h2, .section-title-white-2 h2 {
+     background-color: transparent;
+     background-image: url("../images/line4.png");
+     background-repeat: no-repeat;
+     color: #454545;
+     font-size: 30px;
+     font-weight: 500;
+     padding-bottom: 20px;
+     position: relative;
+     background-position: center bottom;
+     z-index: 2;
+}
+.section-title2 h2:before, .section-title2 h2:after, .section-title-white h2:before, .section-title-white h2:after, .section-title-white-2 h2:before, .section-title-white-2 h2:after {
+     background: #454545 none repeat scroll 0 0;
+     bottom: 3.8px;
+     content: "";
+     height: 1px;
+     left: -180px;
+     margin: 0 auto;
+     position: absolute;
+     right: 0;
+     text-align: center;
+     width: 160px;
+}
+.section-title2 h2:after, .section-title-white h2:after, .section-title-white-2 h2:after {
+     left: 180px;
+}
+.demo ul{
+	list-style: none outside none;
+	padding-left: 0;
+	margin: 0;
+}
+.demo .item{
+	margin: 10px 0 10px 0;
+}
+.demo{
+	width: px;
+}
+.demo img
+{
+	width: 100%;
+	height:500px;
+	object-fit: cover;
+}
