@@ -86,7 +86,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      padding-bottom: 70px;
 }
  .mbt-100 {
-     margin-bottom: 45px;
+     margin-bottom: 30px;
 }
  .image-bg-padding-100 {
      padding: 100px 0;
@@ -202,7 +202,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      border-radius: 3px;
      font-size: 15px;
      color: #fff;
-     text-transform: uppercase;
      font-family: "Poppins", sans-serif;
      font-size: 15px;
      text-decoration: none;
@@ -220,7 +219,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: #fefefe;
      border-radius: 4px;
      font-weight: 500;
-     text-transform: uppercase;
      font-size: 12px;
      text-align: center;
      
@@ -315,9 +313,9 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .header-bottom-area .main-menu > li > a {
      display: block;
-     color: #ffffff;
-     font-size: 15px;
-     text-transform: uppercase;
+     color: #000;
+     font-size: 17px;
+     text-transform: ;
      text-decoration: none;
      font-weight: 500;
      position: relative;
@@ -772,6 +770,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      overflow: hidden;
      position: relative;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     text-align: left;
 }
  .popular-packages .single-package img {
      display: block;
@@ -779,6 +778,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .popular-packages .single-package .package-content {
      padding: 20px;
+     padding-bottom: 0;
 }
  .popular-packages .single-package .package-content h3 {
      font-weight: 600px;
@@ -2970,7 +2970,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 /*===================================================== 35.Home version 4 header top section start here =======================================================*/
  .header-bottom-area.header-bottom-area-4 {
-     background: rgb(0, 0, 0) !important;
+     background: rgb(255, 253, 253) !important;
 }
  .header-bottom-area.header-bottom-area-4.sticky {
      background: #333537 none repeat scroll 0 0 !important;
@@ -3027,7 +3027,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      position: relative;
      background: url("../images/bgimage/discount.jpg") no-repeat scroll center center/cover;
      margin-top: 25px;
-     margin-bottom: 25px;
+     margin-bottom: 40px;
 }
  .discount-package-4:before {
      position: absolute;
@@ -4369,7 +4369,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 	top: 100% !important;
 }
 .header-bottom-area .logo-area {
-    padding: 15px 0;
+    padding: 5px 35px;
 }
 .single-bredcurms .bredcrums-content ul li a {
     font-size: 15px;
