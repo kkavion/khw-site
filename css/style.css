@@ -154,7 +154,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      text-decoration: none;
 }
  a:active, a:hover {
-     outline: 0 none;
+     outline: 1px none;
 }
  ul {
      list-style: outside none none;
@@ -1816,13 +1816,13 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: #ffffff;
      font-size: 20px;
      font-weight: 600;
-     height: 40px;
+     height: 25px;
      left: 0;
-     line-height: 43px;
+     line-height: 25px;
      position: absolute;
      text-align: center;
      transition: all 0.3s ease-in-out 0s;
-     width: 125px;
+     width: 110px;
      z-index: 99;
 }
  .single-package-carasoul .package-details {
@@ -3069,6 +3069,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 /*===================================================== 40.Home version 4 top destination section start here =======================================================*/
  .top-destination-area figure {
      position: relative;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
  .top-destination-area figure img {
      transition: all ease-in-out 0.5s;
@@ -3095,6 +3096,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      visibility: hidden;
      transition: all ease-in-out 0.5s;
      z-index: 33;
+     transform: scale(1.2);
 }
  .top-destination-area figure figcaption h4 {
      color: #ffffff;
@@ -3102,7 +3104,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-weight: normal;
 }
  .top-destination-area figure:hover img {
-     transform: scale(1.2);
+     transform: scale(0.9);
 }
  .top-destination-area figure:hover figcaption {
      opacity: 1;
@@ -3151,22 +3153,20 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      position: relative;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
      margin-bottom: 30px;
+     border-radius: 10px;
 }
  .single-hotels .hotel-image {
      position: relative;
      overflow: hidden;
+     border-radius: 10px 10px 0 0;
 }
- .single-hotels .hotel-image:before {
-     position: absolute;
-     content: '';
-     width: 100%;
-     height: 100%;
-     left: -30px;
-     top: 0;
-     background: rgba(0, 0, 0, 0.45);
-     z-index: 1;
-     opacity: 0;
-     transition: all ease-in-out 0.5s;
+.single-hotels .hotel-image img{
+     transform: scale(1);
+     transition: all 0.6s ease-in-out;
+     border-radius: 0;
+}
+ .single-hotels:hover .hotel-image img {
+     transform: scale(1.2);
 }
  .single-hotels .hotel-image img {
      width: 100%;
@@ -4370,6 +4370,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 .header-bottom-area .logo-area {
     padding: 0px 35px;
+    : 115%;
 }
 .single-bredcurms .bredcrums-content ul li a {
     font-size: 15px;
@@ -4483,9 +4484,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 .top-destination-area figure img{
      transform: scale(1);
      transition: all ease-in-out 0.5s;
-}
-.top-destination-area figure:hover img {
-     transform: scale(0.9);
 }
 
  .top-destination-area-5 .single-destionation-5 {

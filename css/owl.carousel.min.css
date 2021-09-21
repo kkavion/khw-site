@@ -73,9 +73,10 @@
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel button.owl-dot {
  background:0 0;
- color:inherit;
+ color:white;
  border:none;
- font:inherit
+ font:inherit;
+ font-size: 25px;
 }
 .owl-carousel.owl-loading {
  opacity:0;

@@ -126,17 +126,19 @@
 }
 .popular-packages-carasoul .owl-nav {
      text-align: center;
+     top: -20px;
+     position: relative;
 }
 .popular-packages-carasoul .owl-nav .owl-prev,.popular-packages-carasoul .owl-nav .owl-next{
      margin: 10px;
      background: #37b721 !important;
      border-radius: 4px;
      transition: all ease-in-out 0.3s !important;
-     padding: 7px 15px 7px 15px; 
+     padding: 0 12px; 
 }
 .popular-packages-carasoul .owl-nav .owl-prev:hover,.popular-packages-carasoul .owl-nav .owl-next:hover{
      background: #f17b37 !important;
-     box-shadow: 0 0 10px;
+     box-shadow: 0 0 10px gray;
 }
 .popular-packages-carasoul .owl-dots{
      display: none;
@@ -379,4 +381,9 @@
 .tab-pane .section-title
 {
 	margin: 5px 0;
+}
+.logo-area img
+{
+     width: 135%;
+     max-width: none;
 }
