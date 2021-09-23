@@ -82,6 +82,16 @@
 									</li>
 									<li><a href="contact.html" onselectstart="return false">Contact Us</a>
 									</li>
+									<li>
+										<a href="tel://+913323292329">
+											<div class="fa fa-phone" aria-hidden="true">
+											</div>
+										</a>
+									</li>
+									<li><a href="enquiry-form.html"><div class="fa fa-envelope" aria-hidden="true"></div></a>
+									</li>
+									<li><a href="#"><div class="fa fa-search" aria-hidden="true"></div></a>
+									</li>
 								</ul>
 							</nav>
 						</div>
@@ -1878,7 +1888,8 @@
 								</li>
 								<li class="gplus"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
 								</li>
-								<li class="youtube"><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+								<li class="youtube"><a href="#"><i class="fa fa-youtube-play"
+											aria-hidden="true"></i></a>
 								</li>
 							</ul>
 
@@ -2032,15 +2043,11 @@
 		var sticky = navbar.offsetTop;
 
 		// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-		function myFunction() 
-		{
-			
-			if (window.pageYOffset >= sticky) 
-			{
+		function myFunction() {			
+			if (window.pageYOffset >= sticky) {
 				navbar.classList.add("sticky");
 			}
-			else 
-			{
+			else {
 				navbar.classList.remove("sticky");
 			}
 		}
