@@ -3158,6 +3158,10 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      border-radius: 10px;
      background: white;
 }
+.single-hotels:hover {
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     transition: all 1s ease-in-out;
+}
  .single-hotels .hotel-image {
      position: relative;
      overflow: hidden;
@@ -4373,7 +4377,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 	top: 100% !important;
 }
 .header-bottom-area .logo-area {
-    padding: 0px 35px;
+    padding: 0 35px 0 0;
     : 115%;
 }
 .single-bredcurms .bredcrums-content ul li a {
