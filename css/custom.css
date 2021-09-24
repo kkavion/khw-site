@@ -1,130 +1,77 @@
-.d-flex {
-
+.d-flex
+{
     display:flex;
-
 }
-
-.d-flex>div {
-
+.d-flex>div
+{
     float: none;
-
 }
 
-.col-auto {
-
+.col-auto
+{
     flex: 0 0 auto;
-
     width: 20%;
-
     max-width: none;
-
 }
-
-
 /* Page content */
-
-.content {
-
+.content{
   padding: 0px;
-
 }
-
-
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-
-.sticky {
-
+.sticky{
   position: fixed;
-
   top: 0;
-
   width: 100%;
-
   box-shadow: 0 0 3px gray;
-
 }
-
-
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-
-.sticky + .content {
-
+.sticky + .content
+{
   padding-top: 60px;
-
 }
-
-.padding-bottom{
-
+.padding-bottom
+{
   padding-bottom:20px;
-
 }
-
-.internal-tab1{
-
+.internal-tab1
+{
   padding-left:5px;
-
   padding-right:5px;
-
   width: 10%;
 }
-
-.package-tab-menu .package-tab-menu li a{
-
+.package-tab-menu .package-tab-menu li a
+{
   padding-left:0;
-
   padding-right:0;
-
 }
-
-.section-title-3 h3 {
-
+.section-title-3 h3
+{
      background-color: transparent;
-
      background-color: transparent;
-
      background-image: url("../images/line.png");
-
      background-position: left 54px bottom;
-
      background-repeat: no-repeat;
-
      color: #454545;
-
      font-size: 20px;
-
      font-weight: 500;
-
      padding-bottom: 20px;
-
      position: relative;
           text-transform: capitalize;
-
      z-index: 2;
-
 }
-
-.section-title-3 h3:before, .section-title-3 h3:after {
-
+.section-title-3 h3:before, .section-title-3 h3:after
+{
      background: #454545 none repeat scroll 0 0;
-
      bottom: 4.8px;
-
      content: "";
-
      height: 1px;
-
      left: 0;
-
      position: absolute;
-
      width: 45px;
-
 }
-
-.section-title-3 h3:after {
-
+.section-title-3 h3:after
+{
      left: 88px;
-
 }
 .popular-packages-carasoul .owl-nav {
      text-align: center;
@@ -256,6 +203,15 @@
 {
 	text-align:left;
 }
+.timeline-content .box
+{
+	background-color: #f0f0f0;
+}
+.timeline-content .box:hover
+{
+	box-shadow: 0 0 5px;
+     transition: all 0.3s ease-in-out;
+}
 .header-bottom-area .main-menu > li:hover > a {
      color: #37b721 !important;
 }
@@ -277,6 +233,7 @@
      padding: 10px 40px 10px 40px;
      position: relative;
      box-shadow: 0 0px 1px gray;
+     background: #004cff1c;
 }
 .header-bottom-area .tab-a
 {
@@ -442,4 +399,8 @@
 .top-destination-area a
 {
      text-decoration: none;
+}
+.hotels-area
+{
+     padding: 20px 0;
 }

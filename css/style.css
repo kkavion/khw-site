@@ -3156,6 +3156,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
      margin-bottom: 30px;
      border-radius: 10px;
+     background: white;
 }
  .single-hotels .hotel-image {
      position: relative;
@@ -3791,6 +3792,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .related-tour .single-package {
      margin-bottom: 0 !important;
      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+     border-radius: 5px;
 }
  aside {
      border: 1px solid #cccccc;
