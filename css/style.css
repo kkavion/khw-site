@@ -815,7 +815,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: #ffef3b;
 }
  .popular-packages .single-package:hover {
-     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
  .popular-packages .single-package:hover .ct-action a {
      background: #f17b37;
@@ -1507,6 +1507,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      width: 40px;
      text-align: center;
      border-radius: 50%;
+     margin-left: 20px;
 }
  .footer-area .footer-bottom {
      position: relative;
@@ -1973,7 +1974,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      position: absolute;
      width: 100%;
      height: 100%;
-     background: rgba(0, 0, 0, 0.25);
+     background: rgba(0, 0, 0, 0.2);
      content: '';
      left: 0;
      top: 0;
@@ -2024,6 +2025,10 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .popular-country .destination-countrys .tab-content figure:hover figcaption {
      bottom: 0;
      background: #00000052;
+}
+ .popular-country .destination-countrys .tab-content figure:hover {
+     box-shadow: 0 0px 5px black;
+     transition: all 0.4s ease-in-out;
 }
  .popular-country .destination-countrys .tab-content figure:hover figcaption .city-name span {
      color: #37b721;
@@ -3599,6 +3604,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      padding-top: 150px;
      position: relative;
      z-index: 9;
+     text-shadow: 0 0 10px black;
 }
  .single-bredcurms .bredcrums-content h2 {
      color: #ffffff;
@@ -3810,7 +3816,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      text-transform: capitalize;
   }
  aside .booking-form .form-group {
-     margin-bottom: 10px !important;
+     margin-bottom: 15px !important;
 }
  aside .booking-form .form-group input.form-control, aside .booking-form .form-group textarea.form-control {
      border-radius: 3px;
