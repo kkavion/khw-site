@@ -403,9 +403,10 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .mean-container .mean-bar {
      position: relative;
 }
+
  .mean-container .mean-bar:before {
      color: #ffffff;
-     content: "menu";
+     
      font-size: 15px;
      left: 10px;
      position: absolute;
@@ -798,6 +799,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .popular-packages .single-package .package-calto-action {
      padding: 0 20px 25px;
+     float: right;
 }
  .popular-packages .single-package .package-calto-action .ct-action li {
      display: inline-block;
@@ -1482,32 +1484,43 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      display: inline-block;
 }
  .footer-area .single-footer .footer-social-media .footer-social-link li:nth-child(1):hover a {
-     color: #3b5998 !important;
+     background: #3b5998 !important;
+     color: #fff;
+     border: none;
 }
  .footer-area .single-footer .footer-social-media .footer-social-link li:nth-child(2):hover a {
-     color: #0084b4 !important;
+     background: #0084b4 !important;
+     color: #fff;
+     border: none;
 }
  .footer-area .single-footer .footer-social-media .footer-social-link li:nth-child(5):hover a {
-     color: #0077B5 !important;
+     background: #0077B5 !important;
+     color: #fff;
+     border: none;
 }
  .footer-area .single-footer .footer-social-media .footer-social-link li:nth-child(4):hover a {
-     color: #d34836 !important;
+     background: #d34836 !important;
+     color: #fff;
+     border: none;
 }
  .footer-area .single-footer .footer-social-media .footer-social-link li:nth-child(3):hover a {
-     color: #bb0000 !important;
+     background: #bb0000 !important;
+     color: #fff;
+     border: none;
 }
  .footer-area .single-footer .footer-social-media .footer-social-link li a {
      display: block;
      font-size: 20px;
      font-weight: 400;
-     color: #ffffff;
-     transition: all ease-in-out 0.3s;
+     color: #666;
      padding: 5px;
-     background: gray;
+     background: #fff;
      width: 40px;
      text-align: center;
      border-radius: 50%;
      margin-left: 20px;
+     border: 1px solid gray;
+     transition: all ease-in 0.3s;
 }
  .footer-area .footer-bottom {
      position: relative;
