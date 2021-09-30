@@ -76,7 +76,7 @@
 									</li>
 									<li><a href="offers-tab.html" onselectstart="return false">Amazing Offer</a>
 									</li>
-									<li><a href="resorts-tab.html" onselectstart="return false">Resort Collection</a>
+									<li><a href="resorts-tab.html" onselectstart="return false">Resorts</a>
 									</li>
 									<li><a href="contact.html" onselectstart="return false">Contact Us</a>
 									</li>
@@ -92,6 +92,8 @@
 									<li><a href="#">
 											<div class="fa fa-search" aria-hidden="true"></div>
 										</a>
+									</li>
+									<li><a href="#">COVID-19</a>
 									</li>
 								</ul>
 							</nav>
@@ -140,14 +142,10 @@
 		</div>
 		<div class="container">
 			<div class="row">
-
-
-				<form class="form" data-netlify="true">
+				<form class="your-query-form" data-netlify="true" data-netlify-recaptcha="true">
 					<p>Holiday Requirement</p>
-
 					<!--div class="form-group col-md-6">
-						<input type="text" class="form-control" id="sel-dest-type"
-							placeholder="Select Destination Type*" name="select-destination-type">
+						<input type="text" class="form-control" id="sel-dest-type" placeholder="Select Destination Type*" name="select-destination-type">
 							<select id="sel-dest-type" aria-placeholder="Select Destination Type*" class="form-control" name="select-destination-type">
 								<option value="" hidden>Select Destination Type*</option>
 								<option value="Altius">Altius</option>
@@ -158,7 +156,7 @@
 								<option value="Heritage">Heritage</option>
 								<option value="Wildlife">Wildlife</option>
 							</select>
-					</div-->
+					/div-->
 					<div class="form-group col-md-6">
 						<input type="text" class="form-control" id="desti-name" placeholder="Destination Name*"
 							name="destination-name" required>
@@ -170,14 +168,15 @@
 					<div class="form-group col-md-6">
 						<!--input type="text" class="form-control" id="sel-res-cat" placeholder="Select Resort Category*"
 							name="select-resort-category"-->
-							<select id="sel-res-cat" aria-placeholder="Select Resort Category" class="form-control" name="select-resort-category">
-								<option value="" hidden>Select Resort Category</option>
-								<option value="Luxury">Luxury</option>
-								<option value="Premium">Premium</option>
-								<option value="Standard">Standard</option>
-								<option value="Boutique">Boutique</option>
-								<option value="Economy">Economy</option>
-							</select>
+						<select id="sel-res-cat" aria-placeholder="Select Resort Category" class="form-control"
+							name="select-resort-category">
+							<option value="" hidden>Select Resort Category</option>
+							<option value="Luxury">Luxury</option>
+							<option value="Premium">Premium</option>
+							<option value="Standard">Standard</option>
+							<option value="Boutique">Boutique</option>
+							<option value="Economy">Economy</option>
+						</select>
 					</div>
 					<div class="form-group col-md-6">
 						<input type="text" class="form-control" id="choose-res" placeholder="Resort Name"
@@ -218,26 +217,25 @@
 							name="rooms" min="1">
 					</div>
 					<div class="form-group col-md-3">
-						<input type="number" class="form-control" id="adult-nos" placeholder="Adults*"
-							name="adults" min="1" required>
+						<input type="number" class="form-control" id="adult-nos" placeholder="Adults*" name="adults"
+							min="1" required>
 					</div>
 					<div class="form-group col-md-3">
 						<input type="number" class="form-control" id="child-above11" placeholder="Child(Above11)"
 							name="child-above11" min="0">
 					</div>
 					<div class="form-group col-md-3">
-						<input type="number" class="form-control chld" id="child-below11"
-							placeholder="Child(below11)" name="childbelow11" min="0">
+						<input type="number" class="form-control chld" id="child-below11" placeholder="Child(below11)"
+							name="childbelow11" min="0">
 					</div>
 
 
 
 					<div class="form-group col-md-12">
-						<textarea class="form-control" rows="3" id="comment" placeholder="Let us know about your holiday aspiration." name="comment"></textarea>
+						<textarea class="form-control" rows="3" id="comment"
+							placeholder="Let us know about your holiday aspiration." name="comment"></textarea>
 					</div>
 					<!-- holiday box ends -->
-
-					<br>
 
 					<!-- contact box start -->
 					<p>Your Contact Details</p>
@@ -257,7 +255,8 @@
 							name="firstname" required>
 					</div>
 					<div class="form-group col-md-5">
-						<input type="text" class="form-control" id="lastname" placeholder="Surname *" name="lastname" required>
+						<input type="text" class="form-control" id="lastname" placeholder="Surname *" name="lastname"
+							required>
 					</div>
 
 
@@ -268,7 +267,8 @@
 						<input type="email" class="form-control" id="email" placeholder="Email *" name="email" required>
 					</div>
 					<div class="form-group col-md-5">
-						<input type="number" class="form-control" id="phone" placeholder="Phone *" name="phone" style="appearance:textfield" required>
+						<input type="number" class="form-control" id="phone" placeholder="Phone *" name="phone"
+							style="appearance:textfield" required>
 					</div>
 
 					<div class="form-group col-md-12">
@@ -314,94 +314,92 @@
 						</select>
 					</div>
 					<div class="form-group col-md-4">
-						<input type="number" class="form-control" id="pincode" placeholder="Pincode *" name="pincode" style="appearance:textfield" required>
+						<input type="number" class="form-control" id="pincode" placeholder="Pincode *" name="pincode"
+							style="appearance:textfield" required>
 					</div>
-					<br>
-					<br>
 					<!-- contact box start -->
 
+					<p style="margin-bottom: 0;">Additional Information </p>
+
 					<!-- additional box start -->
-					<p>Additional Information </p>
+					<div class="container">
+						<div class="form-group">
+							<p>What is the best way to contact you? Kindly tick appropriately</p>
+							<label class="checkbox-inline col-md-3 col-xs-4">
+								<input type="checkbox" id="phonecheck" name="phonecheck" value="OK">Phone
+							</label>
+							<label class="checkbox-inline col-md-3 col-xs-4">
+								<input type="checkbox" id="emailcheck" name="emailcheck" value="OK">Email
+							</label>
+							<label class="checkbox-inline col-md-3 col-xs-4">
+								<input type="checkbox" id="whatsappcheck" name="whatsappcheck" value="OK">WhatsApp
+							</label>
+						</div>
 
-					<p>What is the best way to contact you? Kindly tick appropriately</p>
-					<div class="form-group">
-						<label class="checkbox-inline col-md-4">
-							<input type="checkbox" id="phonecheck" name="phonecheck" value="OK">Phone
-						</label>
-						<label class="checkbox-inline col-md-4">
-							<input type="checkbox" id="emailcheck" name="emailcheck" value="OK">Email
-						</label>
-						<label class="checkbox-inline col-md-4">
-							<input type="checkbox" id="whatsappcheck" name="whatsappcheck" value="OK">WhatsApp
-						</label>
-					</div>
-					<br>
-					<br>
+						<br>
 
-					<p>If phone, when is the best time of day for a call-back?</p>
+						<div class="form-group">
+							<p>If phone, when is the best time of day for a call-back?</p>
+							<label class="checkbox-inline col-md-3 col-xs-4">
+								<input type="checkbox" id="hour1" name="hour1" value="OK"> 11 &nbsp;-&nbsp; 1pm
+							</label>
+							<label class="checkbox-inline col-md-3 col-xs-4">
+								<input type="checkbox" id="hour2" name="hour2" value="OK"> 2 &nbsp;-&nbsp; 4pm
+							</label>
+							<label class="checkbox-inline col-md-3 col-xs-4">
+								<input type="checkbox" id="hour3" name="hour3" value="OK"> 4 &nbsp;-&nbsp; 6pm
+							</label>
+						</div>
 
+						<br>
 
-					<div class="form-group">
-						<label class="checkbox-inline col-md-4">
-							<input type="checkbox" id="hour1" name="hour1" value="OK"> 11 &nbsp;-&nbsp; 1pm
-						</label>
-						<label class="checkbox-inline col-md-4">
-							<input type="checkbox" id="hour2" name="hour2" value="OK"> 2 &nbsp;-&nbsp; 4pm
-						</label>
-						<label class="checkbox-inline col-md-4">
-							<input type="checkbox" id="hour3" name="hour3" value="OK"> 4 &nbsp;-&nbsp; 6pm
-						</label>
-					</div>
-					<br>
-					<br>
+						<div class="form-group">
+							<p>And lastly, how did you hear about us?</p>
+							<label class="checkbox-inline col-md-3 col-xs-12">
+								<input type="checkbox" id="email" name="email" value="OK">E-Mail
+							</label>
+							<label class="checkbox-inline col-md-3 col-xs-12">
+								<input type="checkbox" id="sms" name="sms" value="OK">SMS
+							</label>
+							<label class="checkbox-inline col-md-3 col-xs-12">
+								<input type="checkbox" id="whatsapp" name="whatsapp" value="OK">WhatsApp
+							</label>
+							<label class="checkbox-inline col-md-3 col-xs-12">
+								<input type="checkbox" id="socialmedia" name="socialmedia" value="OK">Social
+								Media(Facebook, Twitter)
+							</label>
+							<br><br>
+							<label class="checkbox-inline col-md-3 col-xs-12">
+								<input type="checkbox" id="onlinead" name="onlinead" value="OK">Online Ad
+							</label>
+							<label class="checkbox-inline col-md-3 col-xs-12">
+								<input type="checkbox" id="newspaper" name="newspaper" value="OK">Newspaper
+							</label>
+							<label class="checkbox-inline col-md-3 col-xs-12">
+								<input type="checkbox" id="wordofmouth" name="word-of-mouth" value="OK">Word of Mouth
+							</label>
+							<label class="checkbox-inline col-md-3 col-xs-12">
+								<input type="checkbox" id="other" name="other" value="">Other
+								<input type="text" id="other" name="other" class="">
+							</label>
+						</div>
 
-					<p>And lastly, how did you hear about us?</p>
-					<div class="form-group">
-						<label class="checkbox-inline col-md-3">
-							<input type="checkbox" id="email" name="email" value="OK">E-Mail
-						</label>
-						<label class="checkbox-inline col-md-3">
-							<input type="checkbox" id="sms" name="sms" value="OK">SMS
-						</label>
-						<label class="checkbox-inline col-md-3">
-							<input type="checkbox" id="whatsapp" name="whatsapp" value="OK">WhatsApp
-						</label>
-						<label class="checkbox-inline col-md-3">
-							<input type="checkbox" id="socialmedia" name="socialmedia" value="OK">Social Media(Facebook, Twitter)
-						</label>
-						<br><br>
-						<label class="checkbox-inline col-md-3">
-							<input type="checkbox" id="onlinead" name="onlinead" value="OK">Online Ad
-						</label>
-						<label class="checkbox-inline col-md-3">
-							<input type="checkbox" id="newspaper" name="newspaper" value="OK">Newspaper
-						</label>
-						<label class="checkbox-inline col-md-3">
-							<input type="checkbox" id="wordofmouth" name="word-of-mouth" value="OK">Word of Mouth
-						</label>
-						<label class="checkbox-inline col-md-3">
-							<input type="checkbox" id="other" name="other" value="">Other
-							<input type="text" id="other" name="other" class="">
-						</label>
-					</div>
-					<br><br>
-					<span>* &nbsp; Mandatory information</span>
+						<div class="form-group">
+							<span>* &nbsp; Mandatory information</span>
+						</div>
 
-					<br>
-					<br>
+						<div class="form-group">
+							<label class="checkbox-inline">
+								<input type="checkbox" id="offer" name="offer" value="OK">
+								Kindly tick the box to know more about our exclusive offers.
+							</label>
+						</div>
 
-					<div class="form-group">
-						<label class="checkbox-inline">
-							<input type="checkbox" id="offer" name="offer" value="OK">&nbsp; Kindly tick the box to know
-							more about our
-							exclusive offers.
-						</label>
-					</div>
-
-					<p>
-						Thank you for giving us an opportunity to plan a holiday you</p>
-					<div class="form-group">
-						<button type="submit" class="btn btn-primary">Submit</button>
+						<div class="form-group">
+							<p>Thank you for giving us an opportunity to plan your holiday</p>
+							<div data-netlify-recaptcha="true"></div>
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</div>
 					</div>
 
 

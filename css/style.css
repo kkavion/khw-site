@@ -309,7 +309,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .header-bottom-area .main-menu > li {
      display: inline-block;
-     padding: 20px 0 15px 42px;
+     padding: 20px;
      position: relative;
 }
  .header-bottom-area .main-menu > li > a {

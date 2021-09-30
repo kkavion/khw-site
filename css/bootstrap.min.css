@@ -2756,7 +2756,9 @@ input[type=search] {
  margin-bottom:0;
  font-weight:400;
  vertical-align:middle;
- cursor:pointer
+ cursor:pointer;
+ text-align: left;
+ padding-bottom: 10px;
 }
 .checkbox-inline+.checkbox-inline,
 .radio-inline+.radio-inline {

@@ -464,3 +464,33 @@
      top: 15px;
      font-weight: 700;
 }
+.form-group p,
+.form-group span
+{
+     margin: 20px 0px;
+     font-weight: 600;
+     color: #454545;
+     font-size: 15px;
+}
+form p
+{
+     margin: 20px 15px;
+     font-weight: 600;
+     color: #454545;
+     font-size: 18px;
+}
+.header-bottom-area .main-menu li:last-child
+{
+     background: #37b721 !important;
+     padding: 10px;
+     margin: 5px;
+}
+.header-bottom-area .main-menu li:last-child a
+{
+     color: white;
+     font-size: small;
+}
+.mean-nav li:last-child
+{
+     background: #37b721 !important;
+}
