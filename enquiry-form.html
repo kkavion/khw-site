@@ -111,10 +111,10 @@
 				<div class="row">
 					<div class="col-sm-12 col-md-12">
 						<div class="bredcrums-content">
-							<h2>Outskirts</h2>
+							<h2>Your Query</h2>
 							<ul>
 								<li><a href="index.html">Home</a></li>
-								<li class="active"><a href="outskirts-page.html">OUTSKIRTS</a></li>
+								<li class="active"><a href="enquiry-form.html">YOUR QUERY</a></li>
 							</ul>
 						</div>
 					</div>
@@ -129,7 +129,7 @@
 			<div class="col-md-12 col-sm-12" style="padding: 0;">
 				<div class="single-package-details">
 					<div class="section-title" style="text-align:center; margin-bottom:0px;">
-						<h2>Outskirts</h2>
+						<h2>Plan Your Holiday</h2>
 						<p>Passionate about adventuring into the mountains? Here’s your chance of witnessing the
 							mountains and nature for what it truly is, beautiful and pure! Whether be it heli-skiing in
 							the Himalayas, paragliding in Bir/Himachal Pradesh, river rafting in Coorg, bunjee jumping
@@ -145,9 +145,9 @@
 				<form class="form" data-netlify="true">
 					<p>Holiday Requirement</p>
 
-					<div class="form-group col-md-6">
-						<!--input type="text" class="form-control" id="sel-dest-type"
-							placeholder="Select Destination Type*" name="select-destination-type"-->
+					<!--div class="form-group col-md-6">
+						<input type="text" class="form-control" id="sel-dest-type"
+							placeholder="Select Destination Type*" name="select-destination-type">
 							<select id="sel-dest-type" aria-placeholder="Select Destination Type*" class="form-control" name="select-destination-type">
 								<option value="" hidden>Select Destination Type*</option>
 								<option value="Altius">Altius</option>
@@ -158,10 +158,10 @@
 								<option value="Heritage">Heritage</option>
 								<option value="Wildlife">Wildlife</option>
 							</select>
-					</div>
+					</div-->
 					<div class="form-group col-md-6">
-						<input type="text" class="form-control" id="choose-dest" placeholder="Choose a Destination*"
-							name="choose-destination">
+						<input type="text" class="form-control" id="desti-name" placeholder="Destination Name*"
+							name="destination-name" required>
 					</div>
 
 
@@ -170,17 +170,17 @@
 					<div class="form-group col-md-6">
 						<!--input type="text" class="form-control" id="sel-res-cat" placeholder="Select Resort Category*"
 							name="select-resort-category"-->
-							<select id="sel-res-cat" aria-placeholder="Select Resort Category*" class="form-control" name="select-resort-category">
-								<option value="" hidden>Select Resort Category*</option>
-								<option value="Premium">Premium</option>
+							<select id="sel-res-cat" aria-placeholder="Select Resort Category" class="form-control" name="select-resort-category">
+								<option value="" hidden>Select Resort Category</option>
 								<option value="Luxury">Luxury</option>
+								<option value="Premium">Premium</option>
 								<option value="Standard">Standard</option>
 								<option value="Boutique">Boutique</option>
 								<option value="Economy">Economy</option>
 							</select>
 					</div>
 					<div class="form-group col-md-6">
-						<input type="text" class="form-control" id="choose-res" placeholder="Choose a Resort*"
+						<input type="text" class="form-control" id="choose-res" placeholder="Resort Name"
 							name="choose-resort">
 					</div>
 
@@ -188,10 +188,10 @@
 
 
 
-					<div class="form-group col-md-6">
-						<!--input type="text" class="form-control" id="room-cat" placeholder="Room Category*"
-							name="room-category"-->
-							<select id="room-cat" aria-placeholder="Room Category*" class="form-control" name="room-category">
+					<!--div class="form-group col-md-6">
+						<input type="text" class="form-control" id="room-cat" placeholder="Room Category*"
+							name="room-category">
+							<select id="room-cat" aria-placeholder="Room Category" class="form-control" name="room-category">
 								<option value="" hidden>Select Room Category*</option>
 								<option value="Premium">Premium</option>
 								<option value="Luxury">Luxury</option>
@@ -199,14 +199,14 @@
 								<option value="Boutique">Boutique</option>
 								<option value="Economy">Economy</option>
 							</select>
-					</div>
+					</div-->
 					<div class="form-group col-md-3">
 						<input type="date" class="form-control" id="check-in" placeholder="Check-In Date"
-							name="check-in">
+							name="check-in" required>
 					</div>
 					<div class="form-group col-md-3">
 						<input type="date" class="form-control" id="check-out" placeholder="Check-Out Date"
-							name="check-out">
+							name="check-out" required>
 					</div>
 
 
@@ -215,19 +215,19 @@
 
 					<div class="form-group col-md-3">
 						<input type="number" class="form-control" id="room-nos" placeholder="Number of Rooms"
-							name="number-of-rooms" min="1">
+							name="rooms" min="1">
 					</div>
 					<div class="form-group col-md-3">
 						<input type="number" class="form-control" id="adult-nos" placeholder="Adults*"
-							name="number-of-adults" min="1">
+							name="adults" min="1" required>
 					</div>
 					<div class="form-group col-md-3">
-						<input type="number" class="form-control" id="child-nos-above11" placeholder="Child(Above11)*"
-							name="number-of-child-above11" min="0">
+						<input type="number" class="form-control" id="child-above11" placeholder="Child(Above11)"
+							name="child-above11" min="0">
 					</div>
 					<div class="form-group col-md-3">
-						<input type="number" class="form-control chld" id="child-nos-below11"
-							placeholder="Child(below11)*" name="number-of-child-below11" min="0">
+						<input type="number" class="form-control chld" id="child-below11"
+							placeholder="Child(below11)" name="childbelow11" min="0">
 					</div>
 
 
@@ -242,21 +242,22 @@
 					<!-- contact box start -->
 					<p>Your Contact Details</p>
 
-					<div class="form-group col-md-2">
+					<div class="form-group col-md-1">
 						<!--input type="text" class="form-control" id="title" placeholder="Title *" name="title"-->
 						<select id="title" aria-placeholder="Title*" class="form-control" name="title">
-							<option value="" hidden>Select Title*</option>
+							<option value="" hidden>Title*</option>
 							<option value="Mr.">Mr.</option>
 							<option value="Mrs.">Mrs.</option>
 							<option value="Ms.">Ms.</option>
+							<option value="Dr.">Dr.</option>
 						</select>
 					</div>
-					<div class="form-group col-md-5">
+					<div class="form-group col-md-6">
 						<input type="text" class="form-control" id="firstname" placeholder="First Name *"
-							name="firstname">
+							name="firstname" required>
 					</div>
 					<div class="form-group col-md-5">
-						<input type="text" class="form-control" id="lastname" placeholder="Surname *" name="lastname">
+						<input type="text" class="form-control" id="lastname" placeholder="Surname *" name="lastname" required>
 					</div>
 
 
@@ -264,10 +265,10 @@
 
 
 					<div class="form-group col-md-7">
-						<input type="email" class="form-control" id="email" placeholder="Email *" name="email">
+						<input type="email" class="form-control" id="email" placeholder="Email *" name="email" required>
 					</div>
 					<div class="form-group col-md-5">
-						<input type="number" class="form-control" id="phone" placeholder="Phone *" name="phone" style="appearance:textfield">
+						<input type="number" class="form-control" id="phone" placeholder="Phone *" name="phone" style="appearance:textfield" required>
 					</div>
 
 					<div class="form-group col-md-12">
@@ -276,7 +277,7 @@
 					</div>
 
 					<div class="form-group col-md-4">
-						<input type="text" class="form-control" id="city" placeholder="City *" name="city">
+						<input type="text" class="form-control" id="city" placeholder="City *" name="city" required>
 					</div>
 					<div class="form-group col-md-4">
 						<!--input type="text" class="form-control" id="state" placeholder="State *" name="state"-->
@@ -313,7 +314,7 @@
 						</select>
 					</div>
 					<div class="form-group col-md-4">
-						<input type="number" class="form-control" id="pincode" placeholder="Pincode *" name="pincode" style="appearance:textfield">
+						<input type="number" class="form-control" id="pincode" placeholder="Pincode *" name="pincode" style="appearance:textfield" required>
 					</div>
 					<br>
 					<br>
@@ -355,10 +356,35 @@
 					<br>
 
 					<p>And lastly, how did you hear about us?</p>
-
 					<div class="form-group">
-						<textarea class="form-control" rows="3" id="feedback" placeholder="Kindly share" name="feedback"></textarea>
+						<label class="checkbox-inline col-md-3">
+							<input type="checkbox" id="email" name="email" value="OK">E-Mail
+						</label>
+						<label class="checkbox-inline col-md-3">
+							<input type="checkbox" id="sms" name="sms" value="OK">SMS
+						</label>
+						<label class="checkbox-inline col-md-3">
+							<input type="checkbox" id="whatsapp" name="whatsapp" value="OK">WhatsApp
+						</label>
+						<label class="checkbox-inline col-md-3">
+							<input type="checkbox" id="socialmedia" name="socialmedia" value="OK">Social Media(Facebook, Twitter)
+						</label>
+						<br><br>
+						<label class="checkbox-inline col-md-3">
+							<input type="checkbox" id="onlinead" name="onlinead" value="OK">Online Ad
+						</label>
+						<label class="checkbox-inline col-md-3">
+							<input type="checkbox" id="newspaper" name="newspaper" value="OK">Newspaper
+						</label>
+						<label class="checkbox-inline col-md-3">
+							<input type="checkbox" id="wordofmouth" name="word-of-mouth" value="OK">Word of Mouth
+						</label>
+						<label class="checkbox-inline col-md-3">
+							<input type="checkbox" id="other" name="other" value="">Other
+							<input type="text" id="other" name="other" class="">
+						</label>
 					</div>
+					<br><br>
 					<span>* &nbsp; Mandatory information</span>
 
 					<br>
