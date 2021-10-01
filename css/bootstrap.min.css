@@ -1089,9 +1089,9 @@ button,
 input,
 select,
 textarea {
- font-family:inherit;
- font-size:inherit;
- line-height:inherit
+ font-family:initial;
+ font-size:initial;
+ line-height:initial;
 }
 a {
  color:#337ab7;
@@ -2719,7 +2719,9 @@ input[type=search] {
  }
 }
 .form-group {
- margin-bottom:15px
+ margin-bottom:15px;
+ font-family: 'poppins';
+ font-size: 15px;
 }
 .checkbox,
 .radio {

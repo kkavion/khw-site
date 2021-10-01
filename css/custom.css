@@ -474,10 +474,11 @@
 }
 form p
 {
-     margin: 20px 15px;
-     font-weight: 600;
+     margin: 20px 15px 0px 15px;
+     font-weight: 900;
      color: #454545;
      font-size: 18px;
+     font: "Poppins", sans-serif;
 }
 .header-bottom-area .main-menu li:last-child
 {
@@ -493,4 +494,10 @@ form p
 .mean-nav li:last-child
 {
      background: #37b721 !important;
+}
+.form-group
+{
+     font-family: 'Poppins', sans-serif;
+     font-size: 15px;
+     color: #454545;
 }
