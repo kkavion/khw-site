@@ -480,13 +480,13 @@ form p
      font-size: 18px;
      font: "Poppins", sans-serif;
 }
-.header-bottom-area .main-menu li:last-child
+header .header-bottom-area .main-menu li:last-child
 {
      background: #37b721 !important;
      padding: 10px;
      margin: 5px;
 }
-.header-bottom-area .main-menu li:last-child a
+header .header-bottom-area .main-menu li:last-child a
 {
      color: white;
      font-size: small;
