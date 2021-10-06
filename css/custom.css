@@ -449,6 +449,7 @@
 .timeline-content .discount-package-4-btn
 {
      float: right;
+     padding-bottom: 10px;
 }
 .resort-table .discount-package-4-btn
 {
@@ -507,5 +508,14 @@ header .header-bottom-area .main-menu li:last-child a
 }
 .single-hotels ul
 {
-     padding: 2% 30%;
+     padding: 2% 40%;
+}
+.single-package-carasoul .package-location span img
+{
+     padding: 0 25px 25px 0 ;
+}
+.tab-content .travel-booking-btn
+{
+     float: right;
+     margin-right: 15px;
 }
