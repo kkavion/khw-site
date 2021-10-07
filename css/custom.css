@@ -6,7 +6,6 @@
 {
     float: none;
 }
-
 .col-auto
 {
     flex: 0 0 auto;
@@ -177,7 +176,6 @@
   width: 100%;
   height: auto;
 }
-
 .overlay {
   position: absolute; 
   bottom: 0; 
@@ -191,7 +189,6 @@
   padding: 3px;
   text-align: left;
 }
-
 .resort-table li
 {
 	padding:3px 0 3px 0;
@@ -518,4 +515,18 @@ header .header-bottom-area .main-menu li:last-child a
 {
      float: right;
      margin-right: 15px;
+}
+.box .resort-table .discount-package-4-btn  a
+{
+     background: #049dd9;
+}
+.box .resort-table .discount-package-4-btn a:hover
+{
+     background: #f17b37;
+     color: white;
+     transition: 0.3s all ease-in;
+}
+.fact-file
+{
+     text-align: left;
 }
