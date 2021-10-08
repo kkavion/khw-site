@@ -282,7 +282,7 @@
      text-align:center;
 }
 .header-bottom-area .tab-c > li.active a {
-     color: #37b721 !important;
+     color: black !important;
 }
 .header-bottom-area .tab-c > li {
      display: inline-block;
@@ -529,4 +529,12 @@ header .header-bottom-area .main-menu li:last-child a
 .fact-file
 {
      text-align: left;
+}
+.amenities-row span
+{
+     padding: 0 5px;
+}
+.amenities-row span:nth-child(1)
+{
+     padding-left: 0;
 }
