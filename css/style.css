@@ -2045,9 +2045,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      box-shadow: 0 0px 5px black;
      transition: all 0.4s ease-in-out;
 }
- .popular-country .destination-countrys .tab-content figure:hover figcaption .city-name span {
-     color: #37b721;
-}
+
  .popular-country .destination-countrys .tab-content figure:hover figcaption .city-name .tower-bridge li {
      color: #ffffff;
 }
