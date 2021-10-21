@@ -162,7 +162,7 @@
 	font-size: 15px;
 	padding-bottom:10px;
 }
-.fact-file .col-md-7, .col-md-5
+.fact-file .col-md-7,.fact-file .col-md-5
 {
      padding-bottom:15px;
 }
@@ -510,11 +510,6 @@ header .header-bottom-area .main-menu li:last-child a
 .single-package-carasoul .package-location span img
 {
      padding: 0 25px 25px 0 ;
-}
-.tab-content .travel-booking-btn
-{
-     float: right;
-     margin-right: 15px;
 }
 .box .resort-table .discount-package-4-btn  a
 {

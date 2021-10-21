@@ -135,7 +135,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      overflow: hidden;
 }
  p {
-     margin: 0 0 25px;
+     margin: 0 0 15px;
      font-size: 15px;
      color: #727272;
      font-weight: 400;
@@ -4063,6 +4063,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-weight: 500;
      padding: 10px;
      float: right;
+     margin-top: 15px;
 }
  .contact-form .form-group .button:hover {
      background: #f17b37;
