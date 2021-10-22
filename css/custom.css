@@ -88,7 +88,7 @@
 }
 .popular-packages-carasoul .owl-nav .owl-prev:hover,.popular-packages-carasoul .owl-nav .owl-next:hover
 {
-     background: #f17b37 !important;
+     background: #faa61a !important;
      box-shadow: 0 0 10px gray;
 }
 .popular-packages-carasoul .owl-dots
@@ -282,7 +282,7 @@
      text-align:center;
 }
 .header-bottom-area .tab-c > li.active a {
-     color: black !important;
+     color: #049dd9 !important;
 }
 .header-bottom-area .tab-c > li {
      display: inline-block;
@@ -408,7 +408,7 @@
 }
 .top-destination-area .hotel-description h4:hover
 {
-     color: #f17b37;
+     color: #faa61a;
 	transition: all 1s ease 0s;
 }
 .top-destination-area a
@@ -455,7 +455,7 @@
 .mean-container .mean-bar .mean-link
 {
      color: #ffffff;
-     font-size: 15px;
+     font-size: 18px;
      left: 10px;
      position: absolute;
      text-transform: uppercase;
@@ -480,18 +480,41 @@ form p
 }
 header .header-bottom-area .main-menu li:last-child
 {
-     background: #37b721 !important;
+     background: #71bf44 !important;
      padding: 10px;
      margin: 5px;
+}
+header .header-bottom-area .main-menu .dropdown li:last-child
+{
+     background: none !important;
+     padding: 0;
+     margin: 0;
 }
 header .header-bottom-area .main-menu li:last-child a
 {
      color: white;
      font-size: small;
 }
+
+header a:hover,a:focus
+{
+     background: none;
+}
+header .main-menu a:focus
+{
+     color: #049dd9;
+}
+.main-menu a:focus, a:hover
+{
+     background: none;
+}
 .mean-nav li:last-child
 {
-     background: #37b721 !important;
+     background: #71bf44 !important;
+}
+.mean-nav .dropdown li:last-child
+{
+     background: none !important;
 }
 .form-group
 {
@@ -517,7 +540,7 @@ header .header-bottom-area .main-menu li:last-child a
 }
 .box .resort-table .discount-package-4-btn a:hover
 {
-     background: #f17b37;
+     background: #faa61a;
      color: white;
      transition: 0.3s all ease-in;
 }
