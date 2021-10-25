@@ -3596,7 +3596,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      background-size: cover;
      position: relative;
      overflow: hidden;
-     padding: 250px 0 92px;
+     padding: 120px 120px 0 120px;
      height: 550px;
 }
  .single-bredcurms:before, .single-bredcurms:after {
@@ -3613,7 +3613,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      background: rgba(241, 123, 55, 0.1);
 }
  .single-bredcurms .bredcrums-content {
-     padding-top: 150px;
+     padding-top: 250px;
      position: relative;
      z-index: 9;
      text-shadow: 0 0 10px black;
