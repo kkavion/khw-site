@@ -86,21 +86,34 @@
 						<div class="col-md-10 col-sm-10" style="padding: 15px 10px; ">
 							<nav>
 								<ul class="main-menu text-right">
-									<li><a href="interest-tab.html" onselectstart="return false">Holiday</a>
+									<li><a href="#" onselectstart="return false">Getaway</a>										
+										<ul class="dropdown">
+											<li><a href="outskirts-page.html" onselectstart="return false">Outskirts</a></li>
+											<li><a href="destination-page.html" onselectstart="return false">Digha</a>
+											</li>
+											<li><a href="destination-page.html" onselectstart="return false">Mandarmani</a></li>
+											<li><a href="destination-page.html" onselectstart="return false">Shantiniketan</a></li>
+											<li><a href="destination-page.html"
+													onselectstart="return false">Sundarbans</a></li>
+										</ul>
 									</li>
 									<li><a href="#" onselectstart="return false">Interest</a>
 										<ul class="dropdown">
 											<li><a href="gourmet-tab.html" onselectstart="return false">Gourmet</a></li>
 											<li><a href="wellness-tab.html" onselectstart="return false">Wellness</a>
 											</li>
-											<li><a href="recreation-tab.html"
-													onselectstart="return false">Recreation</a></li>
+											<li><a href="leisure-tab.html" onselectstart="return false">Leisure</a></li>
 											<li><a href="wedding-tab.html" onselectstart="return false">Wedding</a></li>
 											<li><a href="conference-tab.html"
 													onselectstart="return false">Conference</a></li>
 										</ul>
 									</li>
-									<li><a href="offers-tab.html" onselectstart="return false">Offers</a>
+									<li>
+										<a href="day-out-tab.html" onselectstart="return false">
+											Day Out
+										</a>
+									</li>
+									<li><a href="offers-tab.html" onselectstart="return false">Offer</a>
 									</li>
 									<li class="active"><a href="#" onselectstart="return false">Sale</a>
 										<ul class="dropdown">
@@ -108,20 +121,21 @@
 											</li>
 											<li><a href="sale0-tab.html" onselectstart="return false">Holiday Sale @
 													Zero</a></li>
+											<li><a href="surprise-holiday-tab.html" onselectstart="return false">Suprise
+													Holiday</a></li>
 										</ul>
 									</li>
-									<li><a href="resorts-tab.html" onselectstart="return false">Resorts</a>
+									<li><a href="resorts-tab.html" onselectstart="return false">Resort</a>
+									</li>
+									<li><a href="#">Query</a>
+										<ul class="dropdown">
+											<li><a href="enquiry-form.html" onselectstart="return false">Leisure</a></li>
+											<li><a href="enquiry-form.html" onselectstart="return false">Wedding</a>
+											</li>
+											<li><a href="enquiry-form.html" onselectstart="return false">Conference</a></li>
+										</ul>
 									</li>
 									<li><a href="contact.html" onselectstart="return false">Contact</a>
-									</li>
-									<li><a href="enquiry-form.html">Query</a>
-									</li>
-									<li>
-										<a href="https://api.whatsapp.com/send?phone=+916289850502" target="_blank"
-											rel="noopener noreferrer">
-											<div class="fab fa-whatsapp" aria-hidden="true">
-											</div>
-										</a>
 									</li>
 									<li><a href="#">
 											<div class="fa fa-search" aria-hidden="true"></div>
@@ -1303,6 +1317,30 @@
 	<!-- footer ends -->
 
 
+	<script>
+		(function (w, d, s, u) {
+			w.gbwawc = {
+				url: u,
+				options: {
+					waId: "+916289850502",
+					siteName: "Instaholiday",
+					siteTag: "Chat with us",
+					siteLogo: "https://instaholiday.co.in/images/logo.png",
+					widgetPosition: "RIGHT",
+					triggerMessage: "",
+					welcomeMessage: "Welcome to Instaholiday. How may I help you?",
+					brandColor: "#25D366",
+					messageText: "",
+					replyOptions: [''],
+				},
+			};
+			var h = d.getElementsByTagName(s)[0],
+				j = d.createElement(s);
+			j.async = true;
+			j.src = u + "/whatsapp-widget.min.js?_=" + Math.random();
+			h.parentNode.insertBefore(j, h);
+		})(window, document, "script", "https://waw.gallabox.com");
+	</script>
 	<div class="to-top pos-rtive">
 		<a href="#"><i class="fa fa-angle-up"></i></a>
 	</div>

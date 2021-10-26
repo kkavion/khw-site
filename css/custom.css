@@ -222,12 +222,12 @@
 	box-shadow: 0 0 5px;
      transition: all 0.3s ease-in-out;
 }
-.header-bottom-area .main-menu > li:hover > a {
-     color: #049dd9 !important;
+.header-bottom-area .main-menu  li:hover  a {
+     color: #049dd9;
 }
 .header-bottom-area .tab-a > li > a {
      display: block;
-     color: black !important;
+     color: black;
      font-size: 17px;
      text-decoration: none;
      font-weight: 500;
@@ -256,7 +256,7 @@
 }
 .header-bottom-area .tab-b > li > a {
      display: block;
-     color: black !important;
+     color: black;
      font-size: 15px;
      text-decoration: none;
      font-weight: 500;
@@ -274,7 +274,7 @@
 
 .header-bottom-area .tab-c > li > a {
      display: block;
-     color: black !important;
+     color: black;
      font-size: 17px;
      text-decoration: none;
      font-weight: 500;
@@ -496,6 +496,7 @@ header .header-bottom-area .main-menu li:last-child a
      font-size: small;
 }
 
+
 header a:hover,a:focus
 {
      background: none;
@@ -504,9 +505,13 @@ header .main-menu a:focus
 {
      color: #049dd9;
 }
-.main-menu a:focus, a:hover
+#tab7 .main-menu a:focus, a:hover
 {
      background: none;
+}
+.discount-package-4-btn a:hover
+{
+     background: #faa61a !important;
 }
 .mean-nav li:last-child
 {
@@ -555,4 +560,16 @@ header .main-menu a:focus
 .amenities-row span:nth-child(1)
 {
      padding-left: 0;
+}
+.logo-box img
+{
+     border: 1px solid gray;
+}
+.tab-content .timeline
+{
+     padding: 0 15px 0 15px;
+}
+.to-top a:hover
+{
+     background: #049dd9;
 }
