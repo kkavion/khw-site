@@ -101,7 +101,7 @@
     .mean-bar { position: fixed !important;}
     .tap-v-responsive{ width:100%;}
     .logo-area {  width: 25%; margin: 0px auto;} 
-    .header-top-left { display: none;}  
+    .header-top-left { display: block;}  
     .logo-area { position: absolute;top: -70px;}
     .book-btn { margin-top: 52px;}
     .slider-area .tparrows {display: none;}
@@ -254,5 +254,13 @@
 /*========= index 05 ==========*/
     .top-destination-area-5 .single-destionation-5 .destination-5-description .rating-review-5 li:last-child { float: none; }
     .hotels-area-2 .single-hotels-2 .hotel-image img{width: 100%;}
+}
 
+@media only screen and (max-width: 600px)
+{
+    .single-bredcurms
+    {
+        padding: 120px 0 0 0 !important;
+        height: 850px !important;
+    }
 }
