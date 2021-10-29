@@ -99,7 +99,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  html, body {
      height: 100%;
-     font-family: 'Poppins', sans-serif;
+     font-family: 'Open Sans', sans-serif;
 }
  body {
      position: relative;
@@ -139,11 +139,11 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-size: 15px;
      color: #727272;
      font-weight: 400;
-     font-family: 'Poppins', sans-serif;
+     font-family: 'Open Sans', sans-serif;
 }
  h1, h2, h3, h4, h5, h6 {
      margin: 0 0 0;
-     font-family: 'Poppins', sans-serif;
+     font-family: 'Open Sans', sans-serif;
 }
  a {
      -webkit-transition: all 0.3s ease 0s;
@@ -165,7 +165,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      clear: both;
 }
  body {
-     font-family: 'Roboto', sans-serif;
+     font-family: 'Oxygen', sans-serif;
      color: #252525;
      font-size: 16px;
      font-weight: 400;
@@ -202,7 +202,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      border-radius: 3px;
      font-size: 15px;
      color: #fff;
-     font-family: "Poppins", sans-serif;
+     font-family: "Open Sans", sans-serif;
      font-size: 15px;
      text-decoration: none;
 }
