@@ -86,13 +86,16 @@
 						<div class="col-md-10 col-sm-10" style="padding: 12px 10px; ">
 							<nav>
 								<ul class="main-menu text-right">
-									<li><a href="#" onselectstart="return false">Getaway</a>										
+									<li><a href="#" onselectstart="return false">Getaway</a>
 										<ul class="dropdown">
-											<li><a href="outskirts-page.html" onselectstart="return false">Outskirts</a></li>
+											<li><a href="outskirts-page.html" onselectstart="return false">Outskirts</a>
+											</li>
 											<li><a href="destination-page.html" onselectstart="return false">Digha</a>
 											</li>
-											<li><a href="destination-page.html" onselectstart="return false">Mandarmani</a></li>
-											<li><a href="destination-page.html" onselectstart="return false">Shantiniketan</a></li>
+											<li><a href="destination-page.html"
+													onselectstart="return false">Mandarmani</a></li>
+											<li><a href="destination-page.html"
+													onselectstart="return false">Shantiniketan</a></li>
 											<li><a href="destination-page.html"
 													onselectstart="return false">Sundarbans</a></li>
 										</ul>
@@ -121,7 +124,8 @@
 											</li>
 											<li><a href="sale0-tab.html" onselectstart="return false">Holiday Sale @
 													Zero</a></li>
-											<li><a href="surprise-holiday-tab.html" onselectstart="return false">Surprise
+											<li><a href="surprise-holiday-tab.html"
+													onselectstart="return false">Surprise
 													Holiday</a></li>
 										</ul>
 									</li>
@@ -129,10 +133,12 @@
 									</li>
 									<li class="active"><a href="#">Query</a>
 										<ul class="dropdown">
-											<li><a href="form-leisure.html" onselectstart="return false">Leisure</a></li>
+											<li><a href="form-leisure.html" onselectstart="return false">Leisure</a>
+											</li>
 											<li><a href="form-wedding.html" onselectstart="return false">Wedding</a>
 											</li>
-											<li><a href="form-conference.html" onselectstart="return false">Conference</a></li>
+											<li><a href="form-conference.html"
+													onselectstart="return false">Conference</a></li>
 										</ul>
 									</li>
 									<li><a href="contact.html" onselectstart="return false">Contact</a>
@@ -193,9 +199,9 @@
 				<form name="conference-query" method="post" class="your-query-form" data-netlify="true">
 					<p>Conference Requirement</p>
 
-					
 
-					
+
+
 					<!--div class="form-group col-md-6">
 						<input type="text" class="form-control" id="sel-dest-type" placeholder="Select Destination Type*" name="select-destination-type">
 							<select id="sel-dest-type" aria-placeholder="Select Destination Type*" class="form-control" name="select-destination-type">
@@ -261,9 +267,9 @@
 					</div>
 
 
-					
-					
-					
+
+
+
 					<div class="form-group col-md-3">
 						<select id="restype" aria-placeholder="Residential Type*" class="form-control" name="restype">
 							<option value="residential">Residential</option>
@@ -273,16 +279,30 @@
 					<div class="form-group col-md-3">
 						<input type="number" class="form-control" id="adult-nos" placeholder="Adults*" name="adults"
 							min="1" required>
-					</div><div class="form-group col-md-3">
-						<input type="text" class="form-control" id="conf-type" placeholder="Conference Type*"
-							name="conf-type" required>
-					</div><div class="form-group col-md-3">
-						<select id="seattype" aria-placeholder="Seating Type*" class="form-control" name="seattype">							
-							<option value="" hidden>Select Seating Type</option>
-							<option value="theatre">Theatre</option>
-							<option value="cluster">Cluster</option>
-							<option value="u-shape">U-Shape</option>
+					</div>
+					<div class="form-group col-md-3">
+						<select id="conf-type" aria-placeholder="Seating Type*" class="form-control" name="conf-type">
+							<option value="" hidden>Conference Type *</option>
+							<option value="annual-retreat">Annual Retreat</option>
+							<option value="board-meeting">Board Meeting</option>
+							<option value="dealer-meet">Dealer's Meet</option>
+							<option value="doctors-conference">Doctor's Conference</option>
+							<option value="exhibition">Exhibition</option>
+							<option value="merit-ceremony">Reward and Recognition</option>
+							<option value="team-building">Team Building</option>
+							<option value="others">Others</option>
+						</select>
+					</div>
+					<div class="form-group col-md-3">
+						<select id="seattype" aria-placeholder="Seating Type*" class="form-control" name="seattype">
+							<option value="" hidden>Select Seating Style</option>
+							<option value="boardroom">Board Room</option>
 							<option value="classroom">Classroom</option>
+							<option value="cluster">Cluster</option>
+							<option value="informal">Informal</option>
+							<option value="theatre">Theatre</option>
+							<option value="u-shape">U-Shape</option>
+							<option value="others">Others</option>
 						</select>
 					</div>
 
@@ -300,12 +320,24 @@
 						<input type="text" class="form-control" id="compname" placeholder="Company Name *"
 							name="compname" required>
 					</div>
-					<div class="form-group col-md-6">
-						<input type="text" class="form-control" id="compsect" placeholder="Company Sector *" name="compsect"
-							required>
+					<div class="form-group col-md-3">
+						<select id="compsect" aria-placeholder="Company Sector*" class="form-control" name="compsect">
+							<option value="" hidden>Company Sector *</option>
+							<option value="boardroom">Board Room</option>
+							<option value="classroom">Classroom</option>
+							<option value="cluster">Cluster</option>
+							<option value="informal">Informal</option>
+							<option value="theatre">Theatre</option>
+							<option value="u-shape">U-Shape</option>
+							<option value="others">Others</option>
+						</select>
+					</div>
+					<div class="form-group col-md-3">
+						<input type="text" class="form-control" id="compseg" placeholder="Company Segment *"
+							name="compseg" required>
 					</div>
 
-					
+
 
 					<div class="form-group col-md-6">
 						<input type="email" class="form-control" id="email" placeholder="Email *" name="email" required>
@@ -383,10 +415,12 @@
 							required>
 					</div>
 					<div class="form-group col-md-4">
-						<input type="text" class="form-control" id="designation" placeholder="Designation *" name="designation"
+						<input type="text" class="form-control" id="designation" placeholder="Designation *"
+							name="designation" required>
+					</div>
+					<div class="form-group col-md-6">
+						<input type="email" class="form-control" id="cpemail" placeholder="Email *" name="cpemail"
 							required>
-					</div><div class="form-group col-md-6">
-						<input type="email" class="form-control" id="cpemail" placeholder="Email *" name="cpemail" required>
 					</div>
 					<div class="form-group col-md-6">
 						<input type="number" class="form-control" id="cpphone" placeholder="Phone *" name="cpphone"

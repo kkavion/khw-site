@@ -400,7 +400,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      z-index: 99;
 }
  .mean-container .mean-bar {
-     position: relative;
+     position: fixed;
 }
 
  .mean-container .mean-bar:before {

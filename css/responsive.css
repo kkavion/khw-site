@@ -87,6 +87,12 @@
 .single .blog-comments .single-comments .head { width: 20%;}
 .single .blog-comments .single-comments .body {width: 80%;}
 .single .blog-comments .single-comments h4 {text-align: center;}
+
+
+.header-bottom-area
+{
+    display: none !important;
+}
 }
 
 /*======================  Mobile Layout: 320px. =======================  */
@@ -262,5 +268,9 @@
     {
         padding: 120px 0 0 0;
         height: 850px;
+    }
+    .footer-title img
+    {
+        padding: 0 100px;
     }
 }
