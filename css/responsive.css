@@ -260,7 +260,7 @@
 {
     .single-bredcurms
     {
-        padding: 120px 0 0 0 !important;
-        height: 850px !important;
+        padding: 120px 0 0 0;
+        height: 850px;
     }
 }
