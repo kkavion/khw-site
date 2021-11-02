@@ -1595,7 +1595,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      top: 100% !important;
 }
  .slider-area-2 .image-overlay, .slider-area-3 .image-overlay {
-     height: 550px;
+     height: 800px;
      left: 0;
      position: absolute;
      top: 0;
@@ -3203,6 +3203,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: #454545;
      font-size: 20px;
      font-weight: 600;
+     margin-bottom: 10px;
 }
  .single-hotels .hotel-description p span {
      color: #71bf44;

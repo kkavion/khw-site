@@ -578,7 +578,18 @@ i
      font-family: 'Open Sans', sans-serif;
      font-size: 17px;
 }
-.form-control { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.form-control 
+{ 
+     /* Chrome, Firefox, Opera, Safari 10.1+ */
      font-family: 'Open Sans', sans-serif;
      opacity: 1; /* Firefox */
-   }
+}
+.footer-contact-form .form-group
+{
+     margin-bottom: 5px;
+     padding: 0;
+}
+.tagline i
+{
+     font-size: 24px;
+}
