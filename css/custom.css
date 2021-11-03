@@ -405,6 +405,7 @@
 .top-destination-area .hotel-description h4
 {
      color: #049dd9;
+     margin-bottom: 0;
 }
 .top-destination-area .hotel-description h4:hover
 {
