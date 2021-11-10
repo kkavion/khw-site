@@ -2050,10 +2050,12 @@
 							<h4>Write To Us</h4>
 						</div>
 						<div class="footer-contact-form">
-							<form name="footer-query" class="your-query-form" data-netlify="true">
+							<form name="footer-query" class="your-query-form" netlify-honeypot="bot-field" data-netlify="true">
 
 
-
+								<p class="hidden">
+									<label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+								</p>
 								<div class="form-group col-md-12">
 									<select id="compsect" aria-placeholder="Holiday Sale*" class="form-control"
 										name="compsect">
@@ -2085,7 +2087,6 @@
 								</div>
 
 								<div class="form-group col-md-12">
-									<div data-netlify-recaptcha="true" style="padding-bottom: 10px;"></div>
 									<button class="btn btn-primary" style="float: right;">Send</button>
 								</div>
 							</form>
