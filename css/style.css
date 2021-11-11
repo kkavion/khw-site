@@ -1923,7 +1923,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .single-package-carasoul:hover .package-long-btn {
      opacity: 1;
      visibility: visible;
-     bottom: 10px;
+     bottom: 0;
 }
  .single-package-carasoul:hover .package-location span {
      background: #faa61a;
