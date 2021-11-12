@@ -143,7 +143,7 @@
     .phone-layout-s { padding-bottom: 30px;}
     .phone-layout-s:last-child { padding-bottom: 0;}
     .footer-area { padding-top: 100px;}
-    .footer-area .single-footer .footer-title { padding: 0px 0 20px;}
+    .footer-area .single-footer .footer-title { padding: 20px 0 10px;}
     .footer-area .single-footer { padding:0 !important;}
     .footer-area .single-footer .single-recent-post .recent-post li { display: inline-flex;}
     .footer-social-media { text-align: center;}
@@ -293,5 +293,9 @@
     .slider-area-2
     {
         height: 550px;
+    }
+    .footer-area .single-footer .foot
+    {
+        padding-top: 50px;
     }
 }
