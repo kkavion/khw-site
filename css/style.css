@@ -3597,7 +3597,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      background-size: cover;
      position: relative;
      overflow: hidden;
-     padding: 120px 120px 0 120px;
+     padding: 120px 0 0 0;
      height: 550px;
 }
  .single-bredcurms:before, .single-bredcurms:after {
