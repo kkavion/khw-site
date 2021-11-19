@@ -299,6 +299,29 @@
 {
      background: #004cff1c;
 }
+.header-bottom-area .tab-d > li > a {
+     display: block;
+     color: black;
+     font-size: 17px;
+     text-decoration: none;
+     font-weight: 500;
+     position: relative;
+     text-align:center;
+}
+.header-bottom-area .tab-d > li.active a {
+     color:  #049dd9 !important;
+}
+.header-bottom-area .tab-d > li {
+     display: inline-block;
+     padding: 10px 32px 10px 32px;
+     position: relative;
+     box-shadow: 0 0px 1px gray;
+     background: #004cff1c;
+}
+.header-bottom-area .tab-d
+{
+	text-align:center;
+}
 .section-title2 h2, .section-title-white h2, .section-title-white-2 h2 {
      background-color: transparent;
      background-image: url("../images/line4.png");
