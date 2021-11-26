@@ -1258,6 +1258,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      background-repeat: no-repeat;
      background-position: center right 147px;
      padding-bottom: 0;
+     font-family: 'Open Sans', sans-serif;
 }
  .subscribe-area .subscribe-form .serach-form input:focus {
      outline: none;
@@ -1617,7 +1618,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      z-index: -1;
 }
  .slider-area-2 .tparrows, .slider-area-3 .tparrows {
-     background: #0095da !important;
+     background: #3063771f !important;
      transition: all ease-in-out 0.3s !important;
      width: 40px !important;
      height: 40px !important;

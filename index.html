@@ -101,12 +101,12 @@
 											</li>
 											<li><a href="digha.html" onselectstart="return false">Digha</a>
 											</li>
-											<li><a href="mandarmani.html"
-													onselectstart="return false">Mandarmani</a></li>
+											<li><a href="mandarmani.html" onselectstart="return false">Mandarmani</a>
+											</li>
 											<li><a href="shantiniketan.html"
 													onselectstart="return false">Shantiniketan</a></li>
-											<li><a href="sundarbans.html"
-													onselectstart="return false">Sundarbans</a></li>
+											<li><a href="sundarbans.html" onselectstart="return false">Sundarbans</a>
+											</li>
 										</ul>
 									</li>
 									<li><a href="#" onselectstart="return false">Interest</a>
@@ -489,8 +489,7 @@
 								<h5>Digha</h5>
 							</a>
 							<div class="hotet-book-btn">
-								<a href="digha.html"
-									class="travel-primary-btn hvr-shutter-out-horizontal">Explore</a>
+								<a href="digha.html" class="travel-primary-btn hvr-shutter-out-horizontal">Explore</a>
 							</div>
 						</div>
 					</div>
@@ -1311,7 +1310,8 @@
 									<div class="package-details">
 										<div class="package-places">
 											<h4>Sana Beach Resort
-												<span style="float:right; font-weight: normal; font-size: 16px;">Boutique</span>
+												<span
+													style="float:right; font-weight: normal; font-size: 16px;">Boutique</span>
 											</h4>
 											<span>Lorem ipsium sium kn sium kn knreum ipsium</span>
 										</div>
@@ -1606,15 +1606,16 @@
 				<!-- subscribe form start here -->
 				<div class="col-md-7 col-sm-7 col-xs-12 subscribe-form-box">
 					<div class="subscribe-form">
-						<form action="#" method="post">
+						<form name="subscribe-form" netlify-honeypot="bot-field" data-netlify="true">
+							<p class="hidden">
+								<label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+							</p>
 							<div class="serach-form">
-								<input type="text" name="search" id="search" placeholder=""
-									value="Enter Your Email To subscribe"
-									onblur="if(this.value==''){this.value='Enter Your Email To subscribe'}"
-									onfocus="if(this.value=='Enter Your Email To subscribe'){this.value=''}">
+								<input type="text" name="search" id="search"
+									placeholder="Enter Your Email To subscribe">
 							</div>
 							<div class="search-btn">
-								<button type="button">Send</button>
+								<button class="btn-primary">Send</button>
 							</div>
 						</form>
 					</div>
@@ -1643,21 +1644,23 @@
 							<div class="footer-logo">
 							</div>
 							<ul class="footer-contact" style="text-align: justify;">
-								<li>
+								<li style="padding-bottom: 5px">
 									<a class="ftrr-txt-ttl-dsc"
 										style=" margin: 0; color: black; font-size: 14px; font-weight: 400; line-height: 20px;">
-										KKavion offers value-proposition through its curated offerings and customer-centric services.
-									</a>
-								</li>								
-								<li>
-									<a class="ftrr-txt-ttl-dsc"
-										style=" margin: 0; color: black; font-size: 14px; font-weight: 400; line-height: 20px;">
-										Being accountable and earning the trust of its patrons is its pursuit of excellence.
+										KKavion offers value-proposition through its curated offerings and
+										customer-centric services.
 									</a>
 								</li>
 								<li>
 									<a class="ftrr-txt-ttl-dsc"
 										style=" margin: 0; color: black; font-size: 14px; font-weight: 400; line-height: 20px;">
+										Being accountable and earning the trust of its patrons is its pursuit of
+										excellence.
+									</a>
+								</li>
+								<li>
+									<a class="ftrr-txt-ttl-dsc"
+										style=" margin: 0; color: rgb(80, 80, 80); font-size: 14px; font-weight: 400; line-height: 20px;">
 										KKavion is a registered trademark of KKavion Marketing Enterprise LLP.
 									</a>
 								</li>
@@ -1683,19 +1686,19 @@
 										style="color: black; font-weight: 400; line-height: 20px; font-size: 15px;">
 										Interest
 									</a>-
-									<a href="#"
+									<a href="leisure-tab.html"
 										style="font-weight: 400; line-height: 20px; font-size: 14px; color:black !important; text-decoration:none;">Leisure</a>
 									I
-									<a href="#"
+									<a href="gourmet-tab.html"
 										style="font-weight: 400; line-height: 20px; font-size: 14px; color:black !important; text-decoration:none;">Gourmet
 									</a> I
-									<a href="#"
+									<a href="wellness-tab.html"
 										style="font-weight: 400; line-height: 20px; font-size: 14px; color:black !important; text-decoration:none;">Wellness
 									</a> I
-									<a href="#"
+									<a href="wedding-tab.html"
 										style="font-weight: 400; line-height: 20px; font-size: 14px; color:black !important; text-decoration:none;">Wedding
 									</a> I
-									<a href="#"
+									<a href="conference-tab.html"
 										style="font-weight: 400; line-height: 20px; font-size: 14px; color:black !important; text-decoration:none;">Conference
 									</a>
 								</li>
@@ -1704,21 +1707,21 @@
 										style="color: black; font-weight: 400; line-height: 20px; font-size: 14px;">
 										Day Out
 									</a>-
-									<a href="#"
+									<a href="day-out-tab.html"
 										style="font-weight: 400; line-height: 20px; font-size: 14px; color:black !important; text-decoration:none;">Fundays</a>
 									I
-									<a href="#"
+									<a href="day-out-tab.html"
 										style="font-weight: 400; line-height: 20px; font-size: 14px; color:black !important; text-decoration:none;">Celebration
 									</a> I
-									<a href="#"
+									<a href="day-out-tab.html"
 										style="font-weight: 400; line-height: 20px; font-size: 14px; color:black !important; text-decoration:none;">Food
 										Fiesta
 									</a>
 									I
-									<a href="#"
+									<a href="day-out-tab.html"
 										style="font-weight: 400; line-height: 20px; font-size: 14px; color:black !important; text-decoration:none;">Corporate
 									</a> I
-									<a href="#"
+									<a href="day-out-tab.html"
 										style="font-weight: 400; line-height: 20px; font-size: 14px; color:black !important; text-decoration:none;">Event
 									</a>
 								</li>
@@ -1727,29 +1730,29 @@
 										style="color: black; font-weight: 400; line-height: 20px; font-size: 14px;">
 										Sale
 									</a>-
-									<a href="#"
+									<a href="sale-tab.html"
 										style="font-weight: 400; line-height: 20px; font-size: 14px; color:black !important; text-decoration:none;">Holiday
 										Sale</a>
 									I
-									<a href="#"
+									<a href="sale0-tab.html"
 										style="font-weight: 400; line-height: 20px; font-size: 14px; color:black !important; text-decoration:none;">Holiday
 										Sale @ Zero
 									</a> I
-									<a href="#"
+									<a href="surprise-holiday-tab.html"
 										style="font-weight: 400; line-height: 20px; font-size: 14px; color:black !important; text-decoration:none;">Holiday
 										Surprize
 									</a>
 								</li>
 								<li>
-									<a href="#"
+									<a href="about-us.html"
 										style="font-weight: 400; line-height: 20px; font-size: 14px; color:black !important; text-decoration:none;">About
 										Us</a>
 									I
-									<a href="#"
-										style="font-weight: 400; line-height: 20px; font-size: 14px; color:black !important; text-decoration:none;">Career
-									</a> I
-									<a href="#"
+									<a href="policy.html"
 										style="font-weight: 400; line-height: 20px; font-size: 14px; color:black !important; text-decoration:none;">Policy
+									</a> I
+									<a href="covid-info.html"
+										style="font-weight: 400; line-height: 20px; font-size: 14px; color:black !important; text-decoration:none;">COVID-19
 									</a>
 								</li>
 
@@ -1773,20 +1776,21 @@
 								<li class="">
 									<span class="mdi mdi-phone-classic"
 										style="padding-right: 10px; padding-bottom: 10px;color:#37b721; font-size: 17px;"></span>
-									<a href="#"
+									<a href="tel://+913323292329"
 										style="text-decoration:none;color:black;font-weight: 400; line-height: 20px; font-size: 14px;">+91
 										33 2329 2329/30</a>
 								</li>
 								<li class="">
 									<i class="fab fa-whatsapp" aria-hidden="true"
 										style="padding-right: 10px; padding-bottom: 10px;color:#37b721"></i>
-									<a href="#"
-										style="text-decoration:none;color:black;font-weight: 400; line-height: 20px; font-size: 14px;">+91 62898 50502</a>
+									<a href="https://wa.me/+916289850502"
+										style="text-decoration:none;color:black;font-weight: 400; line-height: 20px; font-size: 14px;"
+										target="_blank" rel="noopener noreferrer">+91 62898 50502</a>
 								</li>
 								<li class="">
 									<i class="far fa-envelope" aria-hidden="true"
 										style="padding-right: 10px; padding-bottom: 10px;color:#37b721"></i>
-									<a href="#"
+									<a href="mailto://kkavion.com@gmail.com"
 										style="text-decoration:none;color:black;font-weight: 400; line-height: 20px; font-size: 15px;">kkavion.com@gmail.com</a>
 								</li>
 							</ul>
@@ -1889,10 +1893,9 @@
 				<!-- footer destination -->
 
 			</div>
-			
+
 			<span class="material-icons map" style="font-size:12px; ">copyright</span>
-			<a
-				style="text-decoration:none;color: black; font-weight: 400; line-height: 10px; font-size: 12px;">
+			<a style="text-decoration:none;color: black; font-weight: 400; line-height: 10px; font-size: 12px;">
 				KKavion Marketing Enterprise LLP
 			</a>
 			<hr style="border-top: 1px solid #dadada;margin-top: 0px;margin-bottom: 10px;">
