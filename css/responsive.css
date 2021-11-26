@@ -14,6 +14,10 @@
         padding: 0 110px;
     }
     .tparrows {display: none;}
+    .tp-bannertimer
+    {
+        top: 495px;
+    }
 
 
 .header-top-area .header-top-left .header-top-contact li {
@@ -246,6 +250,11 @@
     .single .blog-sidebar .single-sidebar { margin-top: 100px;}
     .single .blog-sidebar .single-sidebar ul{text-align: left;}
     .post-info {text-align: left;}
+
+    .tp-bannertimer
+    {
+        bottom: 0;
+    }
 }
 
 
@@ -297,6 +306,10 @@
     }
     .footer-area .single-footer .foot
     {
-        padding-top: 55px;
+        padding-top: 60px;
+    }
+    .tp-bannertimer
+    {
+        top: 545px
     }
 }

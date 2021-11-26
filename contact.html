@@ -87,15 +87,18 @@
 						<div class="col-md-10 col-sm-10" style="padding: 12px 10px; ">
 							<nav>
 								<ul class="main-menu text-right">
-									<li><a href="#" onselectstart="return false">Getaway</a>										
+									<li><a href="#" onselectstart="return false">Getaway</a>
 										<ul class="dropdown">
-											<li><a href="outskirts-page.html" onselectstart="return false">Outskirts</a></li>
+											<li><a href="outskirts-page.html" onselectstart="return false">Outskirts</a>
+											</li>
 											<li><a href="digha.html" onselectstart="return false">Digha</a>
 											</li>
-											<li><a href="mandarmani.html" onselectstart="return false">Mandarmani</a></li>
-											<li><a href="shantiniketan.html" onselectstart="return false">Shantiniketan</a></li>
-											<li><a href="sundarbans.html"
-													onselectstart="return false">Sundarbans</a></li>
+											<li><a href="mandarmani.html" onselectstart="return false">Mandarmani</a>
+											</li>
+											<li><a href="shantiniketan.html"
+													onselectstart="return false">Shantiniketan</a></li>
+											<li><a href="sundarbans.html" onselectstart="return false">Sundarbans</a>
+											</li>
 										</ul>
 									</li>
 									<li><a href="#" onselectstart="return false">Interest</a>
@@ -122,17 +125,20 @@
 											</li>
 											<li><a href="sale0-tab.html" onselectstart="return false">Holiday Sale @
 													Zero</a></li>
-											<li><a href="surprise-holiday-tab.html" onselectstart="return false">Surprise Holiday</a></li>
+											<li><a href="surprise-holiday-tab.html"
+													onselectstart="return false">Surprise Holiday</a></li>
 										</ul>
 									</li>
 									<li><a href="resorts-tab.html" onselectstart="return false">Resort</a>
 									</li>
 									<li><a href="#">Query</a>
 										<ul class="dropdown">
-											<li><a href="form-leisure.html" onselectstart="return false">Leisure</a></li>
+											<li><a href="form-leisure.html" onselectstart="return false">Leisure</a>
+											</li>
 											<li><a href="form-wedding.html" onselectstart="return false">Wedding</a>
 											</li>
-											<li><a href="form-conference.html" onselectstart="return false">Conference</a></li>
+											<li><a href="form-conference.html"
+													onselectstart="return false">Conference</a></li>
 										</ul>
 									</li>
 									<li class="active"><a href="contact.html" onselectstart="return false">Contact</a>
@@ -188,7 +194,11 @@
 						<div id="contact">
 							<div id="message"></div>
 							<!-- Contact Form -->
-							<form class="form" method="post" action="contact.php" name="contactform" id="contactform">
+							<form class="form" name="contactform" id="contactform" netlify-honeypot="bot-field"
+								data-netlify="true">
+								<p class="hidden">
+									<label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+								</p>
 								<div class="form-group">
 									<input type="text" placeholder="Name" required="required" name="name" id="name">
 								</div>

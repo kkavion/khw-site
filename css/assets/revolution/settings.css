@@ -1231,7 +1231,6 @@ img.tp-slider-alternative-image {
  width:100%;
  position:absolute;
  z-index:200;
- top:0
 }
 .tp-bannertimer.tp-bottom {
  top:auto;
@@ -1579,7 +1578,7 @@ img.tp-slider-alternative-image {
 }
 .tp-bannertimer {
  background:#000;
- background:rgba(0,0,0,.15);
+ background: #faa81a8c;
  height:5px
 }
 .tparrows {
