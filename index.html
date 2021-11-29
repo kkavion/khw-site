@@ -67,9 +67,21 @@
 
 		gtag('config', 'G-EB2CYW0LY8');
 	</script>
+	<script language="javascript">
+		function clearData() {
+			window.clipboardData.setData('text', '')
+		}
+		function cldata() {
+			if (clipboardData) {
+				clipboardData.clearData();
+			}
+		}
+		setInterval("cldata();", 1000);
+	</script>
 </head>
 
-<body>
+<body ondragstart="return false;" onselectstart="return false;" oncontextmenu="return false;" onload="clearData();"
+	onblur="clearData();">
 	<!-- Preloader -->
 	<div id="preloader">
 		<div id="status">&nbsp;</div>
@@ -1765,9 +1777,7 @@
 				<div class="col-md-3 col-sm-6 f-phone-responsive">
 					<div class="single-footer" style="padding: 0;">
 						<div class="footer-title foot">
-							<a href="contact.html" style="color: black; text-decoration: none;">
-								<h4>Contact Us</h4>
-							</a>
+							<h4>Contact Us</h4>
 						</div>
 						<div class="footer-left">
 							<ul class="footer-contact">
@@ -1789,16 +1799,16 @@
 									<i class="far fa-envelope" aria-hidden="true"
 										style="padding-right: 10px; padding-bottom: 10px;color:#71bf44"></i>
 									<a href="mailto://kkavion.com@gmail.com"
-										style="text-decoration:none;font-weight: 400; line-height: 20px; font-size: 15px; color:rgba(62, 51, 51, 0.8)">kkavion.com@gmail.com</a>
+										style="text-decoration:none;font-weight: 400; line-height: 20px; font-size: 14px; color:rgba(62, 51, 51, 0.8)">kkavion.com@gmail.com</a>
 								</li>
 								<li class="">
 									<i class="fas fa-map-marker-alt" aria-hidden="true"
 										style="padding-right: 10px; padding-bottom: 10px;color:#71bf44; font-size: 19px;"></i>
 									<a
-										style="text-decoration:none;font-weight: 400; line-height: 20px; font-size: 15px; color:rgba(62, 51, 51, 0.8)">14C,
+										style="text-decoration:none;font-weight: 400; line-height: 20px; font-size: 14px; color:rgba(62, 51, 51, 0.8)">14C,
 										Radhanath Chowdhury Road</a><br>
 									<a
-										style="text-decoration:none;font-weight: 400; line-height: 20px; font-size: 15px; color:rgba(62, 51, 51, 0.8);padding-left: 31px;">Kolkata
+										style="text-decoration:none;font-weight: 400; line-height: 20px; font-size: 14px; color:rgba(62, 51, 51, 0.8);padding-left: 30px;">Kolkata
 										- 700015</a>
 								</li>
 							</ul>

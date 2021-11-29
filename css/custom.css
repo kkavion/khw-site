@@ -632,3 +632,10 @@ button
 {
      font-family: 'Open Sans', sans-serif !important;
 }
+.carousel .carousel-control span
+{
+     top: 50%;
+     position: absolute;
+     font-size: 30px;
+     margin-top: -20px;
+}

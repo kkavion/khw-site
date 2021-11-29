@@ -255,6 +255,10 @@
     {
         bottom: 0;
     }
+    .carousel-indicators
+    {
+        visibility: hidden;
+    }
 }
 
 
@@ -280,6 +284,11 @@
 /*========= index 05 ==========*/
     .top-destination-area-5 .single-destionation-5 .destination-5-description .rating-review-5 li:last-child { float: none; }
     .hotels-area-2 .single-hotels-2 .hotel-image img{width: 100%;}
+    
+    .carousel-indicators
+    {
+        visibility: hidden;
+    }
 }
 
 @media only screen and (max-width: 600px)
