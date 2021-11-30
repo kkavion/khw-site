@@ -626,7 +626,7 @@ i
 }
 .demo .overlay
 {
-     width: 6%;
+     width: inherit;
 }
 button
 {
