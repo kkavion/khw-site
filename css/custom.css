@@ -639,3 +639,12 @@ button
      font-size: 30px;
      margin-top: -20px;
 }
+.hotel-description h5
+{
+     font-weight: bold;
+}
+.top-destination-area .single-hotels:hover .hotel-description h5
+{
+     color: #faa61a;
+     transition: all ease-in-out 0.3s;
+}

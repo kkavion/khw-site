@@ -3208,8 +3208,8 @@ fieldset[disabled] .btn-default:hover {
 }
 .btn-primary {
  color:#fff;
- background-color:#337ab7;
- border-color:#2e6da4;
+ background-color:#049dd9;
+ border-color:#08f;
   font-family: 'Open Sans', sand-serif;
 }
 .btn-primary.focus,
@@ -3220,8 +3220,9 @@ fieldset[disabled] .btn-default:hover {
 }
 .btn-primary:hover {
  color:#fff;
- background-color:#286090;
- border-color:#204d74
+ background-color:#faa61a;
+ border-color:#ff8f00;
+ transition: all linear 0.3s;
 }
 .btn-primary.active,
 .btn-primary:active,
