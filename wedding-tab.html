@@ -61,9 +61,21 @@
 
 		gtag('config', 'G-EB2CYW0LY8');
 	</script>
+	<script language="javascript">
+		function clearData() {
+			window.clipboardData.setData('text', '')
+		}
+		function cldata() {
+			if (clipboardData) {
+				clipboardData.clearData();
+			}
+		}
+		setInterval("cldata();", 1000);
+	</script>
 </head>
 
-<body>
+<body ondragstart="return false;" onselectstart="return false;" oncontextmenu="return false;" onload="clearData();"
+	onblur="clearData();">
 	<!-- Preloader -->
 	<div id="preloader">
 		<div id="status">&nbsp;</div>
@@ -88,16 +100,19 @@
 								<ul class="main-menu text-right">
 									<li><a href="#" onselectstart="return false">Getaway</a>
 										<ul class="dropdown">
-											<li><a href="outskirts-page.html" onselectstart="return false">Outskirts</a></li>
+											<li><a href="outskirts-page.html" onselectstart="return false">Outskirts</a>
+											</li>
 											<li><a href="digha.html" onselectstart="return false">Digha</a>
 											</li>
-											<li><a href="mandarmani.html" onselectstart="return false">Mandarmani</a></li>
-											<li><a href="shantiniketan.html" onselectstart="return false">Shantiniketan</a></li>
-											<li><a href="sundarbans.html"
-													onselectstart="return false">Sundarbans</a></li>
+											<li><a href="mandarmani.html" onselectstart="return false">Mandarmani</a>
+											</li>
+											<li><a href="shantiniketan.html"
+													onselectstart="return false">Shantiniketan</a></li>
+											<li><a href="sundarbans.html" onselectstart="return false">Sundarbans</a>
+											</li>
 										</ul>
 									</li>
-									<li class="active"><a href="#" onselectstart="return false">Interest</a>
+									<li><a href="#" onselectstart="return false">Interest</a>
 										<ul class="dropdown">
 											<li><a href="leisure-tab.html" onselectstart="return false">Leisure</a></li>
 											<li><a href="gourmet-tab.html" onselectstart="return false">Gourmet</a></li>
@@ -127,6 +142,8 @@
 									</li>
 									<li><a href="resorts-tab.html" onselectstart="return false">Resort</a>
 									</li>
+									<li><a href="x-essense.html" onselectstart="return false">X-Essense</a>
+									</li>
 									<li><a href="#">Query</a>
 										<ul class="dropdown">
 											<li><a href="form-leisure.html" onselectstart="return false">Leisure</a>
@@ -138,13 +155,11 @@
 											</li>
 										</ul>
 									</li>
-									<li><a href="contact.html" onselectstart="return false">Contact</a>
-									</li>
 									<li><a href="#">
 											<div class="fa fa-search" aria-hidden="true"></div>
 										</a>
 									</li>
-									<li><a href="covid-info.html">COVID-19</a>
+									<li><a href="tel://+916289850502">+91 62898 50502</a>
 									</li>
 								</ul>
 							</nav>
@@ -2041,25 +2056,29 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="single-footer" style=" padding: 0;">
 						<div class="footer-title">
-							<img src="images/kkavion.png" style="padding: 0px 50px;">
+							<img src="images/logos/kkavion.png">
 						</div>
 						<div class="footer-left">
-							<div class="footer-logo">
-							</div>
-							<ul class="footer-contact">
+							<ul class="footer-contact" style="text-align: justify; margin-top: 3px;">
 								<li>
-									<p class="ftrr-txt-ttl-dsc"
-										style=" margin: 0; color: black; font-size: 15px; font-weight: 400; line-height: 20px;">
-										Lorem ipsium sium kn sium kn knreum ipsium Lorem ipsium sium kn sium kn knreum
-										ipsium
-
-									</p>
+									<a class="ftrr-txt-ttl-dsc"
+										style=" margin: 0; color: black; font-size: 14px; font-weight: 400; line-height: 20px;">
+										KKavion offers value-proposition through its curated offerings and
+										customer-centric services.
+									</a>
 								</li>
 								<li>
-									<p class="ftrr-txt-ttl-dsc"
-										style=" margin: 0; color: black; font-size: 15px; font-weight: 400; line-height: 20px;">
-										Kkavion is a registered trademark of Kkavion Marketing Enterprise LLP.
-									</p>
+									<a class="ftrr-txt-ttl-dsc"
+										style=" margin: 0; color: black; font-size: 14px; font-weight: 400; line-height: 20px;">
+										Being accountable and earning the trust of its patrons is its pursuit of
+										excellence.
+									</a>
+								</li><br>
+								<li>
+									<a class="ftrr-txt-ttl-dsc"
+										style=" margin: 0; font-size: 14px; font-weight: 400; line-height: 20px; color:rgba(62, 51, 51, 0.8)">
+										KKavion is a registered trademark of KKavion Marketing Enterprise LLP.
+									</a>
 								</li>
 							</ul>
 						</div>
@@ -2068,50 +2087,89 @@
 				<!-- footer left -->
 				<div class="col-md-3 col-sm-6">
 					<div class="single-footer" style=" padding: 0;">
-						<div class="footer-title">
+						<div class="footer-title foot">
 							<h4>Quick Links</h4>
 						</div>
 						<div class="footer-left">
-							<div class="footer-logo">
-							</div>
 
 							<ul class="footer-contact">
 
+
 								<li>
-									<a href="#"
-										style="text-decoration:none; color: black; font-weight: 400; line-height: 20px; font-size: 15px;">About
-										Us
+									<a class="ftrr-text"
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">
+										Interest
+									</a><br>
+									<a href="leisure-tab.html"
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">Leisure</a>
+									I
+									<a href="gourmet-tab.html"
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">Gourmet
+									</a> I
+									<a href="wellness-tab.html"
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">Wellness
+									</a> I
+									<a href="wedding-tab.html"
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">Wedding
+									</a> I
+									<a href="conference-tab.html"
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">Conference
 									</a>
 								</li>
 								<li>
 									<a class="ftrr-text"
-										style="color: black; font-weight: 400; line-height: 20px; font-size: 15px;">
-										Policy
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">
+										Day Out
+									</a><br>
+									<a href="day-out-tab.html"
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">Fundays</a>
+									I
+									<a href="day-out-tab.html"
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">Celebration
+									</a> I
+									<a href="day-out-tab.html"
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">Food
+										Fiesta
 									</a>
-									<div>
-										<a href="#"
-											style="font-weight: 400; line-height: 20px; font-size: 15px; color:black !important; text-decoration:none;">Privacy</a>
-										I
-										<a href="#"
-											style="font-weight: 400; line-height: 20px; font-size: 15px; color:black !important; text-decoration:none;">Usage
-										</a> I
-										<a href="#"
-											style="font-weight: 400; line-height: 20px; font-size: 15px; color:black !important; text-decoration:none;">Advertisement
-										</a>
-									</div>
+									I
+									<a href="day-out-tab.html"
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">Corporate
+									</a> I
+									<a href="day-out-tab.html"
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">Event
+									</a>
 								</li>
-
 								<li>
-									<a href="#"
-										style="text-decoration:none; color: black; font-weight: 400; line-height: 20px; font-size: 15px;">Career
+									<a class="ftrr-text"
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">
+										Sale
+									</a><br>
+									<a href="sale-tab.html"
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">Holiday
+										Sale</a>
+									I
+									<a href="sale0-tab.html"
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">Holiday
+										Sale @ Zero
+									</a> I
+									<a href="surprise-holiday-tab.html"
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">Surprise
+										Holiday
+									</a>
+								</li>
+								<li>
+									<a href="about-us.html"
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">About
+										Us</a>
+									I
+									<a href="policy.html"
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">Policy
+									</a> I
+									<a href="covid-info.html"
+										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">COVID-19
 									</a>
 								</li>
 
-
-
-								<li><span class="material-icons map" style="font-size:17px;">copyright</span><a
-										style="text-decoration:none;color: black; font-weight: 400; line-height: 20px; font-size: 15px;">KKavion
-										Marketing Enterprise LLP</a></li>
 
 							</ul>
 
@@ -2124,39 +2182,49 @@
 				<!-- footer contact -->
 				<div class="col-md-3 col-sm-6 f-phone-responsive">
 					<div class="single-footer" style="padding: 0;">
-						<div class="footer-title">
+						<div class="footer-title foot">
 							<h4>Contact Us</h4>
 						</div>
-						<div>
-							<ul>
-								<li>
-									<i class="fa fa-phone" aria-hidden="true"
-										style="padding-right: 10px; padding-bottom: 10px;color:#71bf44"></i>
-									<a href="#"
-										style="text-decoration:none;color:black;font-weight: 400; line-height: 20px; font-size: 15px;">+91
-										33 2329 2329</a>
+						<div class="footer-left">
+							<ul class="footer-contact">
+								<li class="">
+									<span class="mdi mdi-phone-classic"
+										style="padding-right: 10px; padding-bottom: 10px;color:#71bf44; font-size: 17px;"></span>
+									<a href="tel://+913323292329"
+										style="text-decoration:none;font-weight: 400; line-height: 20px; font-size: 14px; color:rgba(62, 51, 51, 0.8)">+91
+										33 2329 2329/30</a>
 								</li>
-								<li>
-									<i class="far fa-envelope" aria-hidden="true"
-										style="padding-right: 10px; padding-bottom: 10px;color:#71bf44"></i>
-									<a href="#"
-										style="text-decoration:none;color:black;font-weight: 400; line-height: 20px; font-size: 15px;">kkavion.com@gmail.com</a>
-								</li>
-								<li>
+								<li class="">
 									<i class="fab fa-whatsapp" aria-hidden="true"
 										style="padding-right: 10px; padding-bottom: 10px;color:#71bf44"></i>
-									<a href="#"
-										style="text-decoration:none;color:black;font-weight: 400; line-height: 20px; font-size: 15px;">+91
-										6289850502</a>
+									<a href="https://wa.me/+916289850502"
+										style="text-decoration:none;font-weight: 400; line-height: 20px; font-size: 14px; color:rgba(62, 51, 51, 0.8)"
+										target="_blank" rel="noopener noreferrer">+91 62898 50502</a>
+								</li>
+								<li class="">
+									<i class="far fa-envelope" aria-hidden="true"
+										style="padding-right: 10px; padding-bottom: 10px;color:#71bf44"></i>
+									<a href="mailto://kkavion.com@gmail.com"
+										style="text-decoration:none;font-weight: 400; line-height: 20px; font-size: 14px; color:rgba(62, 51, 51, 0.8)">kkavion.com@gmail.com</a>
+								</li>
+								<li class="">
+									<i class="fas fa-map-marker-alt" aria-hidden="true"
+										style="padding-right: 10px; padding-bottom: 10px;color:#71bf44; font-size: 19px;"></i>
+									<a
+										style="text-decoration:none;font-weight: 400; line-height: 20px; font-size: 14px; color:rgba(62, 51, 51, 0.8)">14C,
+										Radhanath Chowdhury Road</a><br>
+									<a
+										style="text-decoration:none;font-weight: 400; line-height: 20px; font-size: 14px; color:rgba(62, 51, 51, 0.8);padding-left: 30px;">Kolkata
+										- 700015</a>
 								</li>
 							</ul>
 
 
 						</div>
 
-						<div class="footer-social-media" style="margin-top:15px;">
-							<div class="social-footer-title">
-								<h4 style="margin-bottom: 10px;">Follow Us</h4>
+						<div class="footer-social-media" style="margin:0 0 15px 0;">
+							<div class="footer-title">
+								<h4>Follow Us</h4>
 							</div>
 							<ul class="footer-social-link">
 
@@ -2189,36 +2257,53 @@
 				<!-- footer destination -->
 				<div class="col-md-3 col-sm-6 f-phone-responsive">
 					<div class="single-footer" style="padding: 0;">
-						<div class="footer-title">
+						<div class="footer-title foot">
 							<h4>Write To Us</h4>
 						</div>
 						<div class="footer-contact-form">
-							<form action="#">
-								<ul class="footer-form-element">
+							<form name="footer-query" class="your-query-form" netlify-honeypot="bot-field"
+								data-netlify="true">
 
 
-									<li style="margin-bottom: 10px;">
-										<input type="text" name="Name" id="name" placeholder="Name">
-									</li>
+								<p class="hidden">
+									<label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+								</p>
+								<div class="form-group col-md-12">
+									<select id="compsect" aria-placeholder="Holiday Sale*" class="form-control"
+										name="compsect">
+										<option value="" hidden>Wish To Avail</option>
+										<option value="holidaysale">Holiday Sale</option>
+										<option value="hs@0">Holiday Sale @ Zero</option>
+										<option value="holidaysurprise">Holiday Surprise</option>
+										<option value="wedding">Wedding</option>
+										<option value="conference">Conference</option>
+									</select>
+								</div>
 
 
-									<li style="margin-bottom: 10px;">
-										<input type="number" name="number" id="number" placeholder="Whatsapp Number">
-									</li>
+								<div class="form-group col-md-12">
+									<input type="text" name="Name" id="name" placeholder="Name" class="form-control"
+										required>
+								</div>
 
-									<li style="margin-bottom: 10px;">
-										<input type="text" name="email" id="email" placeholder="Email Address">
-									</li>
+								<div class="form-group col-md-12">
+									<input type="number" name="number" id="number" placeholder="Whatsapp Number"
+										class="form-control" required>
+								</div>
 
+								<div class="form-group col-md-12">
+									<input type="email" name="email" id="email" placeholder="Email Address"
+										class="form-control" required>
+								</div>
 
-									<li style="margin-bottom: 10px;">
-										<textarea name="message" id="message" cols="30" rows="5"
-											placeholder="Message"></textarea>
-									</li>
-									<li style="margin: 10px;">
-										<button>Send</button>
-									</li>
-								</ul>
+								<div class="form-group col-md-12">
+									<textarea name="message" id="message" placeholder="Message" class="form-control"
+										required></textarea>
+								</div>
+
+								<div class="form-group col-md-12">
+									<button class="btn btn-primary" style="float: right;">SEND</button>
+								</div>
 							</form>
 						</div>
 						<div>
@@ -2233,12 +2318,17 @@
 				<!-- footer destination -->
 
 			</div>
-			<hr style="border-top: 1px solid #717273;margin-top: 10px;margin-bottom: 10px;">
 
-			<div class="row">
+			<span class="material-icons map" style="font-size:12px; ">copyright</span>
+			<a style="text-decoration:none;color: black; font-weight: 400; line-height: 10px; font-size: 12px;">
+				KKavion Marketing Enterprise LLP
+			</a>
+			<hr style="border-top: 1px solid #dadada;margin-top: 0px;margin-bottom: 10px;">
+
+			<div class="row tagline">
 				<ul class="list-inline" style="text-align:center; color:black; font-size:24px; padding-bottom: 20px;">
-					<li><a href="#" style="text-decoration:none; color:black;">
-							<i>Chal Kahin Nikal Jaayein</i>
+					<li><a href="#" style="text-decoration:none; color:#71bf44;">
+							<i>Let's Drive Out!</i>
 
 
 						</a></li>
@@ -2255,30 +2345,19 @@
 	<!-- footer ends -->
 
 
-	<script>
-		(function (w, d, s, u) {
-			w.gbwawc = {
-				url: u,
-				options: {
-					waId: "+916289850502",
-					siteName: "Instaholiday",
-					siteTag: "Chat with us",
-					siteLogo: "https://instaholiday.co.in/images/logos/logo.png",
-					widgetPosition: "RIGHT",
-					triggerMessage: "",
-					welcomeMessage: "Welcome to Instaholiday. How may I help you?",
-					brandColor: "#25D366",
-					messageText: "",
-					replyOptions: [''],
-				},
-			};
-			var h = d.getElementsByTagName(s)[0],
-				j = d.createElement(s);
-			j.async = true;
-			j.src = u + "/whatsapp-widget.min.js?_=" + Math.random();
-			h.parentNode.insertBefore(j, h);
-		})(window, document, "script", "https://waw.gallabox.com");
+	<!--Start of Tawk.to Script-->
+	<script type="text/javascript">
+		var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+		(function () {
+			var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+			s1.async = true;
+			s1.src = 'https://embed.tawk.to/617bca1f86aee40a5738f55d/1fj5or39a';
+			s1.charset = 'UTF-8';
+			s1.setAttribute('crossorigin', '*');
+			s0.parentNode.insertBefore(s1, s0);
+		})();
 	</script>
+	<!--End of Tawk.to Script-->
 	<div class="to-top pos-rtive">
 		<a href="#"><i class="fa fa-angle-up"></i></a>
 	</div>

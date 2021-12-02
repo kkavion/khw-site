@@ -217,7 +217,12 @@
 	background-color: #f0f0f0;
 	border-radius: 5px;
 }
-.timeline-content .box:hover
+.timeline-content .resort-box
+{
+     background-color: rgba(245, 245, 220, 0.550);
+	border-radius: 5px;
+}
+.timeline-content .box:hover, .timeline-content .resort-box:hover
 {
 	box-shadow: 0 0 5px;
      transition: all 0.3s ease-in-out;
