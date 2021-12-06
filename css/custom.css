@@ -327,6 +327,30 @@
 {
 	text-align:center;
 }
+
+.header-bottom-area .tab-e > li > a {
+     display: block;
+     color: black;
+     font-size: 17px;
+     text-decoration: none;
+     font-weight: 500;
+     position: relative;
+     text-align:center;
+}
+.header-bottom-area .tab-e > li.active a {
+     color:  #049dd9 !important;
+}
+.header-bottom-area .tab-e > li {
+     display: inline-block;
+     padding: 10px 20px;
+     position: relative;
+     box-shadow: 0 0px 1px gray;
+     background: #004cff1c;
+}
+.header-bottom-area .tab-e
+{
+	text-align:center;
+}
 .section-title2 h2, .section-title-white h2, .section-title-white-2 h2 {
      background-color: transparent;
      background-image: url("../images/line4.png");
@@ -488,7 +512,6 @@
      left: 10px;
      position: absolute;
      text-transform: uppercase;
-     top: 15px;
      font-weight: 700;
 }
 .form-group p,
@@ -594,10 +617,6 @@ header .main-menu a:focus
 {
      border: 1px solid gray;
 }
-.tab-content .timeline
-{
-     padding: ;
-}
 .to-top a:hover
 {
      background: #049dd9;
@@ -656,4 +675,50 @@ button
 .testimonial-area-5 .owl-nav
 {
      visibility: hidden;
+}
+.career-menu a
+{
+     text-decoration: none;
+}
+.career-menu .career-top-area
+{
+     background: rgb(4,157,217);
+     background: -moz-linear-gradient(90deg, rgba(4,157,217,1) 0%, rgba(250,166,26,1) 100%);
+     background: -webkit-linear-gradient(90deg, rgba(4,157,217,1) 0%, rgba(250,166,26,1) 100%);
+     background: linear-gradient(90deg, rgba(4,157,217,1) 0%, rgba(250,166,26,1) 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#049dd9",endColorstr="#faa61a",GradientType=1); 
+     padding: 50px 50px 50px 25px;
+     border-radius: 10px 10px 0 0;
+     color: white;
+}
+.career-menu .col-md-4:hover .career-top-area
+{
+     transition: all 1s ease-in-out;
+     background: rgb(4,157,217);
+     background: -moz-linear-gradient(90deg, rgba(4,157,217,1) 65%, rgba(250,166,26,1) 100%);
+     background: -webkit-linear-gradient(90deg, rgba(4,157,217,1) 65%, rgba(250,166,26,1) 100%);
+     background: linear-gradient(90deg, rgba(4,157,217,1) 65%, rgba(250,166,26,1) 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#049dd9",endColorstr="#faa61a",GradientType=1); 
+}
+.career-menu .career-bottom-area
+{
+     padding: 25px;
+     border: 1px solid gray;
+     border-radius: 0 0 10px 10px;
+}
+.career-menu .career-bottom-area .career-button
+{
+     text-align: center;
+     border: 1px solid lightgray;
+     background: #71bf44;
+     border-radius: 5px;
+     color: white;
+     margin: 0px 90px;
+     padding: 10px;
+}
+.career-content
+{
+     border: 1px solid gray;
+     border-radius: 5px;
+     margin: 15px;
 }

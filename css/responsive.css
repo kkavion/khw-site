@@ -18,6 +18,15 @@
     {
         top: 495px;
     }
+    .mean-bar img
+    {
+        max-height: 45px;
+        padding-left: 11px;
+    }
+    .section-title img
+    {
+        height: 100px;
+    }
 
 
 .header-top-area .header-top-left .header-top-contact li {
@@ -115,6 +124,16 @@
 @media only screen and (max-width: 767px) {
     .single-item{margin-bottom: 30px;}
     .single-item:last-child{margin-bottom: 0px;}
+    .mean-bar img
+    {
+        max-height: 45px;
+        padding-left: 11px;
+    }
+    .section-title img
+    {
+        height: 100px;
+    }
+
 
 /*========= index ==========*/
     .bredcrums-content {text-align: center;}
@@ -320,5 +339,9 @@
     .tp-bannertimer
     {
         top: 545px
+    }
+    .section-title img
+    {
+        width: 15%;
     }
 }
