@@ -687,7 +687,7 @@ button
      background: -webkit-linear-gradient(90deg, rgba(4,157,217,1) 0%, rgba(128,219,255,1) 100%);
      background: linear-gradient(90deg, rgba(4,157,217,1) 0%, rgba(128,219,255,1) 100%);
      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#049dd9",endColorstr="#80dbff",GradientType=1);  
-     padding: 35px 50px 35px 25px;
+     padding: 25px 50px 25px 25px;
      border-radius: 10px 10px 0 0;
      color: white;
      transition: transform 1s ease-in-out;
@@ -725,4 +725,8 @@ button
      border: 1px solid gray;
      border-radius: 5px;
      margin: 15px;
+}
+.career-content img
+{
+     width: max-content;
 }
