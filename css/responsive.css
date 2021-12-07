@@ -27,6 +27,11 @@
     {
         height: 100px;
     }
+    .modal-dialog-centered
+    {
+         top: calc(100% - (30rem * 2));
+         align-items: center;
+    }
 
 
 .header-top-area .header-top-left .header-top-contact li {
@@ -132,6 +137,11 @@
     .section-title img
     {
         height: 100px;
+    }
+    .modal-dialog-centered
+    {
+         top: calc(100% - (30rem * 2));
+         align-items: center;
     }
 
 
@@ -308,6 +318,11 @@
     {
         visibility: hidden;
     }
+    .modal-dialog-centered
+    {
+         top: calc(100% - (30rem * 2));
+         align-items: center;
+    }
 }
 
 @media only screen and (max-width: 600px)
@@ -343,5 +358,11 @@
     .section-title img
     {
         width: 15%;
+    }
+    .modal-dialog-centered
+    {
+         min-height: calc(100% - (1.75rem * 2));
+         display: flex;
+         align-items: center;
     }
 }

@@ -683,28 +683,32 @@ button
 .career-menu .career-top-area
 {
      background: rgb(4,157,217);
-     background: -moz-linear-gradient(90deg, rgba(4,157,217,1) 0%, rgba(250,166,26,1) 100%);
-     background: -webkit-linear-gradient(90deg, rgba(4,157,217,1) 0%, rgba(250,166,26,1) 100%);
-     background: linear-gradient(90deg, rgba(4,157,217,1) 0%, rgba(250,166,26,1) 100%);
-     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#049dd9",endColorstr="#faa61a",GradientType=1); 
-     padding: 50px 50px 50px 25px;
+     background: -moz-linear-gradient(90deg, rgba(4,157,217,1) 0%, rgba(128,219,255,1) 100%);
+     background: -webkit-linear-gradient(90deg, rgba(4,157,217,1) 0%, rgba(128,219,255,1) 100%);
+     background: linear-gradient(90deg, rgba(4,157,217,1) 0%, rgba(128,219,255,1) 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#049dd9",endColorstr="#80dbff",GradientType=1);  
+     padding: 35px 50px 35px 25px;
      border-radius: 10px 10px 0 0;
      color: white;
+     transition: transform 1s ease-in-out;
+     text-align: left;
 }
 .career-menu .col-md-4:hover .career-top-area
 {
-     transition: all 1s ease-in-out;
      background: rgb(4,157,217);
-     background: -moz-linear-gradient(90deg, rgba(4,157,217,1) 65%, rgba(250,166,26,1) 100%);
-     background: -webkit-linear-gradient(90deg, rgba(4,157,217,1) 65%, rgba(250,166,26,1) 100%);
-     background: linear-gradient(90deg, rgba(4,157,217,1) 65%, rgba(250,166,26,1) 100%);
-     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#049dd9",endColorstr="#faa61a",GradientType=1); 
+     background: -moz-linear-gradient(90deg, rgba(4,157,217,1) 65%, rgba(128,219,255,1) 100%);
+     background: -webkit-linear-gradient(90deg, rgba(4,157,217,1) 65%, rgba(128,219,255,1) 100%);
+     background: linear-gradient(90deg, rgba(4,157,217,1) 65%, rgba(128,219,255,1) 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#049dd9",endColorstr="#80dbff",GradientType=1); 
 }
 .career-menu .career-bottom-area
 {
      padding: 25px;
      border: 1px solid gray;
      border-radius: 0 0 10px 10px;
+     border-top: none;
+     margin-bottom: 15px;
+     text-align: left;
 }
 .career-menu .career-bottom-area .career-button
 {
@@ -713,8 +717,8 @@ button
      background: #71bf44;
      border-radius: 5px;
      color: white;
-     margin: 0px 90px;
-     padding: 10px;
+     width: 80px;
+     font-size: 14px;
 }
 .career-content
 {
