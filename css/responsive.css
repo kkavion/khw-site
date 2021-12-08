@@ -143,6 +143,16 @@
          top: calc(100% - (30rem * 2));
          align-items: center;
     }
+    .partner-slider-2 .single-partner-slider-2
+    {
+        margin: 10px 50px 10px 50px;
+    }
+    .career-menu .col-md-4:hover .career-bottom-area-hidden-btn
+    {
+         opacity: 1;
+         visibility: visible;
+         bottom: 0px;
+    }
 
 
 /*========= index ==========*/
@@ -322,6 +332,20 @@
     {
          top: calc(100% - (30rem * 2));
          align-items: center;
+    }
+    .partner-slider-2 .single-partner-slider-2
+    {
+        margin: 10px;
+    }
+    .footer-title img
+    {
+        padding: 0 200px;
+    }
+    .career-menu .col-md-4:hover .career-bottom-area-hidden-btn
+    {
+         opacity: 1;
+         visibility: visible;
+         bottom: 0px;
     }
 }
 
