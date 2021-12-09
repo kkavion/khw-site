@@ -3441,7 +3441,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .testimonial-area-5 {
      position: relative;
      overflow: hidden;
-     padding: 50px 0;
+     padding: 30px 0 20px 0;
 }
  .testimonial-area-5:before {
      position: absolute;
@@ -3467,7 +3467,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .testimonial-area-5 .single-testimonial .testimonial-messages p {
      margin: 0 auto;
      max-width: 764px;
-     font-size: 20px;
+     font-size: 14px;
      color: #ffffff;
 }
  .testimonial-area-5 .single-testimonial .author-bio h3 {
@@ -3483,7 +3483,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .testimonial-area-5 .owl-dots {
      text-align: center;
-     padding: 20px 0;
+     padding: 0;
 }
  .testimonial-area-5 .owl-dots .owl-dot {
      display: inline-block;
@@ -3823,7 +3823,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      border: 1px solid #cccccc;
      border-radius: 3px;
      padding: 0px 20px;
-     background: #004cff1c;
+     background: #8080801a;
 }
  aside .booking-form h2 {
      color: #454545;

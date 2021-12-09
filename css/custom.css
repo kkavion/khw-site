@@ -219,7 +219,7 @@
 }
 .timeline-content .resort-box
 {
-     background-color: rgba(245, 245, 220, 0.550);
+     background-color: #f5f5dc;
 	border-radius: 5px;
 }
 .timeline-content .box:hover, .timeline-content .resort-box:hover
@@ -675,6 +675,7 @@ button
 .testimonial-area-5 .owl-nav
 {
      visibility: hidden;
+     position: absolute;
 }
 .career-menu a
 {
@@ -682,11 +683,11 @@ button
 }
 .career-menu .career-top-area
 {
-     background: rgb(4,157,217);
-     background: -moz-linear-gradient(90deg, rgba(4,157,217,1) 0%, rgba(128,219,255,1) 100%);
-     background: -webkit-linear-gradient(90deg, rgba(4,157,217,1) 0%, rgba(128,219,255,1) 100%);
-     background: linear-gradient(90deg, rgba(4,157,217,1) 0%, rgba(128,219,255,1) 100%);
-     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#049dd9",endColorstr="#80dbff",GradientType=1);  
+     background: rgb(3,78,162);
+     background: -moz-linear-gradient(90deg, rgba(3,78,162,1) 0%, rgba(0,81,255,1) 100%);
+     background: -webkit-linear-gradient(90deg, rgba(3,78,162,1) 0%, rgba(0,81,255,1) 100%);
+     background: linear-gradient(90deg, rgba(3,78,162,1) 0%, rgba(0,81,255,1) 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#034ea2",endColorstr="#0051ff",GradientType=1);
      padding: 25px 50px 25px 25px;
      border-radius: 10px 10px 0 0;
      color: white;
@@ -695,11 +696,11 @@ button
 }
 .career-menu .col-md-4:hover .career-top-area
 {
-     background: rgb(4,157,217);
-     background: -moz-linear-gradient(90deg, rgba(4,157,217,1) 65%, rgba(128,219,255,1) 100%);
-     background: -webkit-linear-gradient(90deg, rgba(4,157,217,1) 65%, rgba(128,219,255,1) 100%);
-     background: linear-gradient(90deg, rgba(4,157,217,1) 65%, rgba(128,219,255,1) 100%);
-     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#049dd9",endColorstr="#80dbff",GradientType=1); 
+     background: rgb(3,78,162);
+     background: -moz-linear-gradient(90deg, rgba(3,78,162,1) 65%, rgba(0,81,255,1) 100%);
+     background: -webkit-linear-gradient(90deg, rgba(3,78,162,1) 65%, rgba(0,81,255,1) 100%);
+     background: linear-gradient(90deg, rgba(3,78,162,1) 65%, rgba(0,81,255,1) 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#034ea2",endColorstr="#0051ff",GradientType=1);
 }
 .career-menu .career-bottom-area
 {
@@ -754,4 +755,17 @@ button
 .career-menu .hvr-shutter-out-horizontal:before
 {
      border-radius: 0 0 10px 10px;
+}
+.testimonial-area-5 .single-testimonial .img-box img
+{
+     width: auto;
+     height: 250px;
+}
+.testimonial-area-5 .single-testimonial .testimonial-messages i
+{
+     font-size: 20px;
+}
+.resort-box h3,h4
+{
+     color: rgb(133, 61, 9);
 }
