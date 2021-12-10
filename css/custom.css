@@ -769,7 +769,7 @@ button
 {
      color: rgb(133, 61, 9);
 }
-.footer-contact li:hover a
+.footer-contact li a:hover
 {
      color: black !important;
 }
