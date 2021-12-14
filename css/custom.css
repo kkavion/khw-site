@@ -654,7 +654,7 @@ i
 }
 button
 {
-     font-family: 'Open Sans', sans-serif !important;
+     font-family: 'Oxygen', sans-serif !important;
 }
 .carousel .carousel-control span
 {
@@ -756,18 +756,19 @@ button
 {
      border-radius: 0 0 10px 10px;
 }
-.testimonial-area-5 .single-testimonial .img-box img
+.management-area .single-testimonial .img-box img
 {
      width: auto;
      height: 250px;
 }
-.testimonial-area-5 .single-testimonial .testimonial-messages i
+.management-area .single-testimonial .testimonial-messages i
 {
      font-size: 20px;
 }
-.resort-box h3,.resort-box h4
+.resort-box h3,.resort-box h4,.resort-box span
 {
      color: rgb(133, 61, 9);
+     font-family: 'Open Sans', sans-serif;
 }
 .footer-contact li a:hover
 {

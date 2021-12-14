@@ -389,12 +389,12 @@
          display: flex;
          align-items: center;
     }
-    .testimonial-area-5 .single-testimonial .testimonial-messages p
+    .management-area .single-testimonial .testimonial-messages p
     {
         margin: 0 30px 0 auto;
         text-align: left;
     }
-    .testimonial-area-5 .single-testimonial .container .author-bio
+    .management-area .single-testimonial .container .author-bio
     {
          text-align: left;
     }

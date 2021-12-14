@@ -1286,6 +1286,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .footer-area {
      background: #ececec url("") no-repeat scroll 99% center/cover;
      padding-bottom: 10px;
+     box-shadow: 0px 5px 15px;
 }
  .footer-area .single-footer {
      padding: 80px 0;
