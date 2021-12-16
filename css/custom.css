@@ -770,6 +770,11 @@ button
      color: rgb(133, 61, 9);
      font-family: 'Open Sans', sans-serif;
 }
+.resort-box .material-icons
+{     
+     font-family: 'Material Icons';
+     color: black;
+}
 .footer-contact li a:hover
 {
      color: black !important;
