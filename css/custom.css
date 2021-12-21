@@ -778,4 +778,10 @@ button
 .footer-contact li a:hover
 {
      color: black !important;
+     font-weight: bold !important;
+}
+.footer-contact li .ftrr-txt-ttl-dsc:hover
+{
+     color: black !important;
+     font-weight: 400 !important;
 }
