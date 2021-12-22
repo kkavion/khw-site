@@ -594,12 +594,12 @@ header .main-menu a:focus
 .box .resort-table .discount-package-4-btn  a
 {
      background: #049dd9;
+     transition: 0.3s all ease-in;
 }
 .box .resort-table .discount-package-4-btn a:hover
 {
      background: #faa61a;
      color: white;
-     transition: 0.3s all ease-in;
 }
 .fact-file
 {

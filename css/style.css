@@ -1597,7 +1597,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      top: 100% !important;
 }
  .slider-area-2 .image-overlay, .slider-area-3 .image-overlay {
-     height: 800px;
+     height: 100%;
      left: 0;
      position: absolute;
      top: 0;

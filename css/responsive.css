@@ -153,6 +153,22 @@
          visibility: visible;
          bottom: 0px;
     }
+    .tp-parallax-wrap:nth-child(3)
+    {
+         top: 30% !important;
+    }
+    .tp-parallax-wrap:nth-child(4)
+    {
+         top: 37% !important;
+    }
+    .tp-parallax-wrap:nth-child(5)
+    {
+         top: 37% !important;
+    }
+    .tp-parallax-wrap:nth-child(6)
+    {
+         top: 37% !important;
+    }
 
 
 /*========= index ==========*/
@@ -367,10 +383,6 @@
     {
         padding: 0 60px;
     }
-    .slider-area-2
-    {
-        height: 550px;
-    }
     .footer-area .single-footer .foot
     {
         padding-top: 60px;
@@ -397,5 +409,25 @@
     .management-area .single-testimonial .container .author-bio
     {
          text-align: left;
+    }
+    .tp-parallax-wrap:nth-child(3)
+    {
+         top: 40% !important;
+    }
+    .tp-parallax-wrap:nth-child(4)
+    {
+         top: 50% !important;
+    }
+    .tp-parallax-wrap:nth-child(5)
+    {
+         top: 60% !important;
+    }
+    .tp-parallax-wrap:nth-child(6)
+    {
+         top: 65% !important;
+    }
+    .tp-parallax-wrap:nth-child(7)
+    {
+         top: 75% !important;
     }
 }
