@@ -150,6 +150,11 @@
 {
 	padding: 20px 0 20px 0;
 }
+.sec1 div
+{
+     display: block;
+     margin-bottom: 10px;
+}
 .fact-file p
 {
 	margin-bottom: 15px;
@@ -216,16 +221,17 @@
 {
 	background-color: #f0f0f0;
 	border-radius: 5px;
+     transition: all .3s ease-in-out;
 }
 .timeline-content .resort-box
 {
      background-color: #f5f5dc;
 	border-radius: 5px;
+     transition: all .3s ease-in-out;
 }
 .timeline-content .box:hover, .timeline-content .resort-box:hover
 {
 	box-shadow: 0 0 5px;
-     transition: all 0.3s ease-in-out;
 }
 .header-bottom-area .main-menu  li:hover  a {
      color: #049dd9;
@@ -765,7 +771,7 @@ button
 {
      font-size: 20px;
 }
-.resort-box h3,.resort-box h4,.resort-box span
+.resort-box h3,.resort-box h4,.resort-box span:nth-child(1)
 {
      color: rgb(133, 61, 9);
      font-family: 'Open Sans', sans-serif;
@@ -774,6 +780,11 @@ button
 {     
      font-family: 'Material Icons';
      color: black;
+}
+.resort-box .resort-table .row:nth-child(1)
+{
+     background: #8080801a !important;
+     color: rgb(133, 61, 9);
 }
 .footer-contact li a:hover
 {
