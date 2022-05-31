@@ -7,7 +7,7 @@
 	<meta name="description" content="A KHW website">
 	<meta name="keywords" content="Tour, Travel">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Insta-Holiday - Holiday Sale @ Zero</title>
+	<title>Insta-Holiday - Surprise Holiday</title>
 	<!-- Google Fonts Includes -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 	<!-- Favi icon -->
@@ -52,10 +52,6 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
 	<link rel="stylesheet"
 		href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-EB2CYW0LY8"></script>
 	<script>
@@ -136,12 +132,11 @@
 									</li>
 									<li class="active"><a onselectstart="return false">Sale</a>
 										<ul class="dropdown">
+											<li><a href="bargain-holiday-tab.html"
+													onselectstart="return false">Bargain Holiday</a></li>
+											<li><a href="surprise-holiday-tab.html" onselectstart="return false">Surprise Holiday</a></li>
 											<li><a href="sale-tab.html" onselectstart="return false">Holiday Sale</a>
 											</li>
-											<li><a href="sale0-tab.html" onselectstart="return false">Holiday Sale @
-													Zero</a></li>
-											<li><a href="surprise-holiday-tab.html"
-													onselectstart="return false">Surprise Holiday</a></li>
 										</ul>
 									</li>
 									<li><a href="resorts-tab.html" onselectstart="return false">Resort</a>
@@ -178,7 +173,7 @@
 	<!-- header area end here -->
 
 	<section class="breadcrumb-blog-version-one">
-		<div class="single-bredcurms" style="background-image:url('images/sale/salezero/ban.jpg');">
+		<div class="single-bredcurms" style="background-image:url('images/sale/surprise/ban.jpg');">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 col-md-12">
@@ -186,7 +181,7 @@
 							<h2>Sale</h2>
 							<ul>
 								<li><a href="index.html">Home</a></li>
-								<li class="active"><a href="sale0-tab.html">HOLIDAY SALE @ ZERO</a></li>
+								<li class="active"><a href="bargain-holiday-tab.html">Bargain Holiday</a></li>
 							</ul>
 						</div>
 					</div>
@@ -203,7 +198,7 @@
 					<div class="single-package-details timeline-content">
 						<h2
 							style="margin-left: 0px; margin-left: px; padding-bottom: 10px; text-align:left; font-size:30px; font-weight: bolder">
-							Holiday Sale @ Zero
+							Bargain Holiday
 						</h2>
 						<p style="text-align:justify;margin:auto;">
 							Passionate about adventuring into the mountains?
@@ -245,7 +240,10 @@
 							<div class="booking-title">
 								<span>Your Query</span>
 							</div>
-							<form name="hs@zero" method="post" data-netlify="true" data-netlify-recaptcha="true">
+							<form name="surprise-holiday-form" method="post" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+								<p class="hidden">
+									<label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+								</p>
 								<div class="form-group">
 									<input type="text" class="form-control" id="name" placeholder="Name *" required>
 								</div>
@@ -426,7 +424,7 @@
 				</section>
 
 				<div class="row" style="border:1px solid #fff;text-align:justify;">
-					<h3 style="margin-top:10px; padding: 5px 10px 5px 10px;text-align:left;background:#004cff1c">
+					<h3 style="margin-top:10px; padding: 5px 10px 5px 10px;text-align:left;background:#8080803b">
 						How to Avail</h3>
 					<ol type="1" style="padding: 10px 20px 10px 40px;">
 						<li style="padding-bottom: 5px;">Check-in will be allowed only on
@@ -621,11 +619,11 @@
 										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">Holiday
 										Sale</a>
 									I
-									<a href="sale0-tab.html"
+									<a href="surprise-holiday-tab.html"
 										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">Holiday
 										Sale @ Zero
 									</a> I
-									<a href="surprise-holiday-tab.html"
+									<a href="bargain-holiday-tab.html"
 										style="font-weight: 400; line-height: 20px; font-size: 14px;text-decoration:none; color:rgba(62, 51, 51, 0.8)">Surprise
 										Holiday
 									</a>
@@ -747,7 +745,7 @@
 										name="compsect">
 										<option value="" hidden>Your Query</option>
 										<option value="holidaysale">Holiday Sale</option>
-										<option value="hs@0">Holiday Sale @ Zero</option>
+										<option value="hs@0">Surprise Holiday</option>
 										<option value="holidaysurprise">Holiday Surprise</option>
 										<option value="wedding">Wedding</option>
 										<option value="conference">Conference</option>
