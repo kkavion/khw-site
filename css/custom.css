@@ -779,7 +779,7 @@ button
 .resort-box .material-icons
 {     
      font-family: 'Material Icons';
-     color: black;
+     color: black !important;
 }
 .resort-box .resort-table .row:nth-child(1)
 {
