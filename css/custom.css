@@ -152,7 +152,11 @@
 }
 .sec1
 {
-	padding: 10px 0 10px 0;
+	padding: 5px 0px;
+}
+.sec1 .mdi
+{
+     color: #525252;
 }
 .sec1 div
 {
