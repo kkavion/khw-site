@@ -146,9 +146,13 @@
 {
 	font-size:13px;
 }
+.amenities-sec span:nth-child(1)
+{
+	font-size:25px;
+}
 .sec1
 {
-	padding: 20px 0 20px 0;
+	padding: 10px 0 10px 0;
 }
 .sec1 div
 {
@@ -802,4 +806,8 @@ button
      color: black;
      font-size: 30px;
      font-weight: bold;
+}
+.carousel-control .mdi
+{
+     color: white !important;
 }

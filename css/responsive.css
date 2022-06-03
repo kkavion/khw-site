@@ -169,6 +169,14 @@
     {
          top: 37% !important;
     }
+    .sec1 span:nth-child(3)
+    {
+        display: none;
+    }
+    .sec1
+    {
+        padding-bottom: 0px;
+    }
 
 
 /*========= index ==========*/
