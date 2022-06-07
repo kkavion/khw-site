@@ -173,6 +173,10 @@
     {
         display: none;
     }
+    .sec1 span:nth-child(2)
+    {
+        display: none;
+    }
     .sec1
     {
         padding-bottom: 0px;
