@@ -167,6 +167,14 @@
 {
      color: rgb(133, 61, 9);
 }
+.policy-sec h4
+{
+     background-color: #c0c0c0;
+}
+.policy-sec ol
+{
+     background-color: #f0f0f0;
+}
 .sec1 div
 {
      display: block;
