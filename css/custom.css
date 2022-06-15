@@ -134,9 +134,9 @@
 .amenities-sec
 {
 	display:grid;
-	text-align:center;
+	text-align:left;
 	font-weight:bold;
-	align-content:center;
+	align-content:left;
 }
 .amenities-sec img
 {
@@ -145,10 +145,18 @@
 .amenities-sec span
 {
 	font-size:13px;
+     text-align: left;
+     padding-top: 10px;
+     padding-left: 5px;
 }
 .amenities-sec span:nth-child(1)
 {
 	font-size:25px;
+     padding: 0;
+}
+.amenities-sec .col-sm-12
+{
+     margin-bottom: 25px;
 }
 .sec1
 {
@@ -177,7 +185,7 @@
 }
 .sec1 div
 {
-     display: block;
+     display: flex;
      margin-bottom: 10px;
 }
 .fact-file p
@@ -831,4 +839,42 @@ button
 .carousel-control .mdi
 {
      color: white !important;
+}
+#discstick 
+{
+     width: 130px;
+     height: 35px;
+     background: red;
+     position: relative;
+     -moz-border-radius: 10px;
+     -webkit-border-radius: 10px;
+     border-radius: 50px;
+     margin: 10px;
+}
+#discstick span, #discstick a
+{
+     margin: 25px;
+     font-size: 23px;
+     font-weight: bold;
+     color: white;
+     text-align: center;
+}
+.package-location #discstick 
+{
+     width: 100px;
+     height: 35px;
+     background: red;
+     position: relative;
+     -moz-border-radius: 10px;
+     -webkit-border-radius: 10px;
+     margin: 0;
+}
+.package-location #discstick a
+{
+     font-size: 20px;
+     font-weight: bold;
+     color: white;
+     position: relative;
+     top: 4px;
+     margin: 0;
 }

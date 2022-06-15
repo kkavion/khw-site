@@ -181,6 +181,27 @@
     {
         padding-bottom: 0px;
     }
+    #discstick 
+    {
+        width: 90px !important;
+        height: 30px !important;
+        background: red !important;
+        position: relative !important;
+        -moz-border-radius: 10px !important;
+        -webkit-border-radius: 10px !important;
+        border-radius: 50px !important;
+        margin: 10px !important;
+    }
+    #discstick span, #discstick a
+    {
+        margin: 10px !important;
+        font-size: 20px !important;
+    }
+    .package-location #discstick a
+    {
+        top: 1px !important;
+        margin: 0 !important;
+    }
 
 
 /*========= index ==========*/
@@ -375,6 +396,27 @@
          visibility: visible;
          bottom: 0px;
     }
+    #discstick 
+    {
+         width: 100px !important;
+         height: 35px !important;
+         background: red !important;
+         position: relative !important;
+         -moz-border-radius: 10px !important;
+         -webkit-border-radius: 10px !important;
+         border-radius: 50px !important;
+         margin: 10px !important;
+    }
+    #discstick span
+    {
+         margin: 12px !important;
+    }
+    .package-location #discstick a
+    {
+        top: 1px !important;
+        margin: 0 !important;
+    }
+
 }
 
 @media only screen and (max-width: 600px)
