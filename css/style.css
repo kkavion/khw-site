@@ -1286,7 +1286,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .footer-area {
      background: #ececec url("") no-repeat scroll 99% center/cover;
      padding-bottom: 10px;
-     box-shadow: 0px 5px 15px;
 }
  .footer-area .single-footer {
      padding: 80px 0;
@@ -3822,9 +3821,10 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  aside {
      border: 1px solid #cccccc;
-     border-radius: 3px;
+     border-radius: 10px;
      padding: 0px 20px;
-     background: #8080801a;
+     background: #034ea2;
+     color: white;
 }
  aside .booking-form h2 {
      color: #454545;

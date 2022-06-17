@@ -197,6 +197,11 @@
         margin: 10px !important;
         font-size: 20px !important;
     }
+    .package-location #discstick
+    {
+        margin: 0 !important;
+        transform: translate(-5px,1px);
+    }
     .package-location #discstick a
     {
         top: 1px !important;

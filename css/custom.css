@@ -136,7 +136,6 @@
 	display:grid;
 	text-align:left;
 	font-weight:bold;
-	align-content:left;
 }
 .amenities-sec img
 {
@@ -177,7 +176,7 @@
 }
 .policy-sec h4
 {
-     background-color: #c0c0c0;
+     background-color: #f0f0f0;
 }
 .policy-sec ol
 {
@@ -194,7 +193,7 @@
 }
 .fact-file span
 {
-     color: #727272;
+     color: #eaeaea;
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
@@ -337,7 +336,6 @@
 .header-bottom-area .tab-c
 {
 	text-align:center;
-	padding: px;
 }
 .header-bottom-area .tab-c li
 {
@@ -843,7 +841,7 @@ button
 #discstick 
 {
      width: 130px;
-     height: 35px;
+     height: 31px;
      background: red;
      position: relative;
      -moz-border-radius: 10px;
@@ -862,12 +860,17 @@ button
 .package-location #discstick 
 {
      width: 100px;
-     height: 35px;
+     height: 31px;
      background: red;
      position: relative;
      -moz-border-radius: 10px;
      -webkit-border-radius: 10px;
      margin: 0;
+     transition: all 0.3s ease-in-out;
+}
+.single-package-carasoul:hover .package-location #discstick
+{
+     transform: scale(1.1);
 }
 .package-location #discstick a
 {
