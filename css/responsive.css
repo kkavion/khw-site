@@ -207,6 +207,10 @@
         top: 1px !important;
         margin: 0 !important;
     }
+    .main-menu .search-pc
+    {
+         display: none !important;
+    }
 
 
 /*========= index ==========*/
