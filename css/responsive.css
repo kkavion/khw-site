@@ -129,6 +129,10 @@
 @media only screen and (max-width: 767px) {
     .single-item{margin-bottom: 30px;}
     .single-item:last-child{margin-bottom: 0px;}
+    .turn-off
+    {
+        display: none;
+    }
     .mean-bar img
     {
         max-height: 45px;
@@ -210,6 +214,10 @@
     .main-menu .search-pc
     {
          display: none !important;
+    }
+    .footer-social-media .footer-title
+    {
+        padding: 20px 0 20px !important;
     }
 
 
@@ -435,20 +443,29 @@
         padding: 120px 0 0 0;
         height: 850px;
     }
-    .footer-title img
+    .footer-title .logo1
     {
         padding: 0 110px;
+    }
+    .footer-title .logo2
+    {
+        display: none;
     }
 }
 @media screen and (min-width: 991px)
 {
-    .footer-title img
+    .footer-title .logo1
     {
         padding: 0 60px;
+        display: none;
+    }
+    .footer-title .logo2
+    {
+        padding: 0 40px;
     }
     .footer-area .single-footer .foot
     {
-        padding-top: 60px;
+        padding-top: 15px;
     }
     .tp-bannertimer
     {

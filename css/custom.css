@@ -265,12 +265,21 @@
 {
 	box-shadow: 0 0 5px;
 }
-.header-bottom-area .main-menu  li:hover  a {
-     color: #049dd9;
+.header-bottom-area .tab-a li:hover a, .header-bottom-area .tab-c li:hover a, .header-bottom-area .tab-d li:hover a
+{
+     color: white;
+}
+.header-bottom-area .tab-a li, .header-bottom-area .tab-c li, .header-bottom-area .tab-d li
+{
+     transition: all 0.3s;
+}
+.header-bottom-area .tab-a li:hover, .header-bottom-area .tab-c li:hover, .header-bottom-area .tab-d li:hover
+{
+     background: #f2911b ;
 }
 .header-bottom-area .tab-a > li > a {
      display: block;
-     color: black;
+     color: white;
      font-size: 17px;
      text-decoration: none;
      font-weight: 500;
@@ -278,14 +287,14 @@
      text-align:center;
 }
 .header-bottom-area .tab-a > li.active a {
-     color:  #049dd9 !important;
+     color:  white !important;
 }
 .header-bottom-area .tab-a > li {
      display: inline-block;
      padding: 10px 40px 10px 40px;
      position: relative;
      box-shadow: 0 0px 1px gray;
-     background: #004cff1c;
+     background: #049dd9;
 }
 .header-bottom-area .tab-a
 {
@@ -317,7 +326,7 @@
 
 .header-bottom-area .tab-c > li > a {
      display: block;
-     color: black;
+     color: white;
      font-size: 17px;
      text-decoration: none;
      font-weight: 500;
@@ -325,7 +334,7 @@
      text-align:center;
 }
 .header-bottom-area .tab-c > li.active a {
-     color: #049dd9 !important;
+     color: white !important;
 }
 .header-bottom-area .tab-c > li {
      display: inline-block;
@@ -339,11 +348,11 @@
 }
 .header-bottom-area .tab-c li
 {
-     background: #004cff1c;
+     background: #049dd9;
 }
 .header-bottom-area .tab-d > li > a {
      display: block;
-     color: black;
+     color: white;
      font-size: 17px;
      text-decoration: none;
      font-weight: 500;
@@ -351,14 +360,14 @@
      text-align:center;
 }
 .header-bottom-area .tab-d > li.active a {
-     color:  #049dd9 !important;
+     color:   white !important;
 }
 .header-bottom-area .tab-d > li {
      display: inline-block;
      padding: 10px 32px 10px 32px;
      position: relative;
      box-shadow: 0 0px 1px gray;
-     background: #004cff1c;
+     background: #049dd9;
 }
 .header-bottom-area .tab-d
 {
@@ -840,19 +849,20 @@ button
 }
 #discstick 
 {
-     width: 130px;
+     width: 110px;
      height: 31px;
      background: red;
      position: relative;
      -moz-border-radius: 10px;
      -webkit-border-radius: 10px;
-     border-radius: 50px;
+     border-radius: 10px;
      margin: 10px;
+     margin-left: 20px;
 }
 #discstick span, #discstick a
 {
-     margin: 25px;
-     font-size: 23px;
+     margin: 20px;
+     font-size: 20px;
      font-weight: bold;
      color: white;
      text-align: center;
