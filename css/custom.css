@@ -295,6 +295,19 @@
      position: relative;
      box-shadow: 0 0px 1px gray;
      background: #049dd9;
+     margin: 1px 0;
+}
+.header-bottom-area .tab-a > li > a:before
+{
+     background: white !important;
+}
+.header-bottom-area .tab-c > li > a:before
+{
+     background: white !important;
+}
+.header-bottom-area .tab-d > li > a:before
+{
+     background: white !important;
 }
 .header-bottom-area .tab-a
 {
@@ -890,4 +903,14 @@ button
      position: relative;
      top: 4px;
      margin: 0;
+}
+.box
+{
+     margin-top:20px;
+     margin-bottom:50px;
+}
+.resort-box
+{
+     margin-top:20px;
+     margin-bottom:50px;
 }
