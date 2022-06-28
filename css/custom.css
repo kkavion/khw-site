@@ -265,15 +265,15 @@
 {
 	box-shadow: 0 0 5px;
 }
-.header-bottom-area .tab-a li:hover a, .header-bottom-area .tab-c li:hover a, .header-bottom-area .tab-d li:hover a
+.header-bottom-area .tab-a li:hover a, .header-bottom-area .tab-c li:hover a, .header-bottom-area .tab-d li:hover a, .header-bottom-area .tab-e li:hover a
 {
      color: white;
 }
-.header-bottom-area .tab-a li, .header-bottom-area .tab-c li, .header-bottom-area .tab-d li
+.header-bottom-area .tab-a li, .header-bottom-area .tab-c li, .header-bottom-area .tab-d li, .header-bottom-area .tab-e li
 {
      transition: all 0.3s;
 }
-.header-bottom-area .tab-a li:hover, .header-bottom-area .tab-c li:hover, .header-bottom-area .tab-d li:hover
+.header-bottom-area .tab-a li:hover, .header-bottom-area .tab-c li:hover, .header-bottom-area .tab-d li:hover, .header-bottom-area .tab-e li:hover
 {
      background: #f2911b ;
 }
@@ -306,6 +306,10 @@
      background: white !important;
 }
 .header-bottom-area .tab-d > li > a:before
+{
+     background: white !important;
+}
+.header-bottom-area .tab-e > li > a:before
 {
      background: white !important;
 }
@@ -389,7 +393,7 @@
 
 .header-bottom-area .tab-e > li > a {
      display: block;
-     color: black;
+     color: white;
      font-size: 17px;
      text-decoration: none;
      font-weight: 500;
@@ -397,14 +401,14 @@
      text-align:center;
 }
 .header-bottom-area .tab-e > li.active a {
-     color:  #049dd9 !important;
+     color:  white !important;
 }
 .header-bottom-area .tab-e > li {
      display: inline-block;
      padding: 10px 20px;
      position: relative;
      box-shadow: 0 0px 1px gray;
-     background: #004cff1c;
+     background: #049dd9;
 }
 .header-bottom-area .tab-e
 {
