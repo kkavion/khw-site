@@ -111,10 +111,6 @@
 {
      margin-bottom: 0px;
 }
-.timeline-content img
-{
-     width: 3%;
-}
 .popular-country .container
 {
      padding: 0;
@@ -912,9 +908,23 @@ button
 {
      margin-top:20px;
      margin-bottom:50px;
+     border: 1px solid #fff;
 }
 .resort-box
 {
      margin-top:20px;
      margin-bottom:50px;
+     border: 1px solid #fff;
+}
+.x-text-center
+{
+     padding: 50px 0;
+     font-size: 15px;
+}
+.floated-text-right
+{
+     font-weight: normal;
+     font-size: 17px;
+     float: right;
+     padding: 4px;
 }
