@@ -405,6 +405,7 @@
      position: relative;
      box-shadow: 0 0px 1px gray;
      background: #049dd9;
+     margin: 1px 0;
 }
 .header-bottom-area .tab-e
 {
@@ -921,10 +922,46 @@ button
      padding: 50px 0;
      font-size: 15px;
 }
+.x-margin
+{
+     margin: 0px 15px;
+}
 .floated-text-right
 {
      font-weight: normal;
      font-size: 17px;
      float: right;
      padding: 4px;
+}
+.x-essence .subscribe-form-box
+{
+     text-align: center;
+}
+.x-essence .btn
+{
+     padding: 0;
+}
+.x-essence .form-group .btn
+{
+     padding: 6px 12px;
+}
+.x-essence .subscribe-title
+{
+     margin-top: 0;
+     padding: 6px 12px;
+     color: white;
+}
+.x-essence button.close
+{
+     padding: 7px !important;
+}
+.x-essence .subscribe-form-box .btn-primary
+{
+     background-color: #f2911b;
+     border-color: #ff8f00;
+}
+.x-essence .subscribe-form-box .btn-primary:hover
+{
+     background-color: #049dd9;
+     border-color: #08f;
 }

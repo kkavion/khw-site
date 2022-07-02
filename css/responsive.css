@@ -219,6 +219,10 @@
     {
         padding: 20px 0 20px !important;
     }
+    .x-text-center
+    {
+        padding: 10px 0 !important;
+    }
 
 
 /*========= index ==========*/
@@ -480,6 +484,7 @@
          min-height: calc(100% - (1.75rem * 2));
          display: flex;
          align-items: center;
+         width: fit-content;
     }
     .management-area .single-testimonial .testimonial-messages p
     {
