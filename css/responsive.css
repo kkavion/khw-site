@@ -195,6 +195,7 @@
         -webkit-border-radius: 10px !important;
         border-radius: 50px !important;
         margin: 10px !important;
+        right: 15px !important;
     }
     #discstick span, #discstick a
     {
@@ -205,6 +206,7 @@
     {
         margin: 0 !important;
         transform: translate(-5px,1px);
+        right: 0 !important;
     }
     .package-location #discstick a
     {
@@ -222,6 +224,24 @@
     .x-text-center
     {
         padding: 10px 0 !important;
+    }
+    .x-margin 
+    {
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    .x-margin h3
+    {
+        text-align: center;
+    }
+    .related-tour .row
+    {
+        padding-top: 0 !important;
+    }
+    .related-tour .single-package
+    {
+        margin-bottom: 30px !important;
     }
 
 
