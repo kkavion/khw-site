@@ -195,7 +195,7 @@
 	font-size: 15px;
 	padding-bottom:10px;
 }
-.fact-file .col-md-7,.fact-file .col-md-5
+.fact-file .col-md-6
 {
      padding-bottom:15px;
 }
@@ -995,4 +995,8 @@ button
 .wellness-btn
 {
      float: right !important;
+}
+.ct-action
+{
+     margin-bottom: 35px;
 }
