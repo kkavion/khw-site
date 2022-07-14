@@ -724,6 +724,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      z-index: 33;
      position: relative;
      padding-left: 30px;
+     text-align: left;
 }
  .section-title-3 h2 {
      background-color: transparent;

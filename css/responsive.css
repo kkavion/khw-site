@@ -243,6 +243,11 @@
     {
         margin-bottom: 30px !important;
     }
+    .amenities-sec h4
+    {
+        text-align: center !important;
+        margin-left: 0 !important;
+    }
 
 
 /*========= index ==========*/
