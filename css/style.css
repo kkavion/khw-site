@@ -3471,17 +3471,17 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      margin: 0 auto;
      max-width: 764px;
      font-size: 14px;
-     color: black;
+     color: white;
 }
  .testimonial-area-5 .single-testimonial .author-bio h3 {
      font-size: 20px;
      font-weight: 600;
-     color: black;
+     color: white;
      margin: 0;
 }
  .testimonial-area-5 .single-testimonial .author-bio span {
      font-size: 14px;
-     color: black;
+     color: white;
      font-weight: 400;
 }
  .testimonial-area-5 .owl-dots {
@@ -3995,6 +3995,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: #454545;
      font-size: 18px;
      font-weight: 500;
+     padding-top: 30px;
 }
  .main-timeline .timeline .timeline-content .timeline-icon {
      background: #71bf44 none repeat scroll 0 0;
@@ -4013,7 +4014,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      transition: all ease-in-out 0.5s;
 }
  .main-timeline .timeline .left {
-     margin-left: 40px;
+     margin-left: 20px;
 }
  .main-timeline .timeline:hover .timeline-icon {
      background: #faa61a;

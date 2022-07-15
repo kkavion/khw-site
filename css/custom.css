@@ -746,6 +746,15 @@ button
      visibility: hidden;
      position: absolute;
 }
+.testimonial-area-5 .single-testimonial .img-box img
+{
+     width: auto;
+     height: 250px;
+}
+.testimonial-area-5 .single-testimonial .testimonial-messages i
+{
+     font-size: 20px;
+}
 .career-menu a
 {
      text-decoration: none;
@@ -1003,4 +1012,25 @@ button
 .query
 {
      background: #78bf45;
+}
+.tour-description
+{
+     padding: 50px 0px 50px 20px;
+}
+.tour-description ul
+{
+     list-style: disc;
+     padding-left: 15px;
+}
+.tour-description ul h5
+{
+     padding-top: 20px;
+}
+.tour-description ul p
+{
+     margin-bottom: 0;
+}
+.tour-description .col-md-4
+{
+     margin-top: 100px;
 }
