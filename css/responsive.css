@@ -9,9 +9,13 @@
     {
         height: 500px;
     }
-    .footer-title img
+    .footer-title .logo1
     {
-        padding: 0 110px;
+        display: none;
+    }
+    .footer-title .logo2
+    {
+        padding: 0 90px;
     }
     .tparrows {display: none;}
     .tp-bannertimer
@@ -31,6 +35,10 @@
     {
          top: calc(100% - (30rem * 2));
          align-items: center;
+    }
+    .x-essence .subscribe-form-box
+    {
+        margin: 0 !important;
     }
 
 
@@ -248,9 +256,21 @@
         text-align: center !important;
         margin-left: 0 !important;
     }
-    .tour-description .col-md-4
+    .tour-description .carousel
     {
         margin-top: 20px !important;
+    }
+    .tour-description h4, h5, p
+    {
+        text-align: justify;
+    }
+    .tour-description .tail h4, .tour-description .head h4
+    {
+        text-align: left !important;
+    }
+    .timeline-content .discount-package-4-btn
+    {
+        padding-bottom: 20px;
     }
 
 

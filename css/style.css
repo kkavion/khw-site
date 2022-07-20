@@ -2264,7 +2264,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-size: 30px;
      font-weight: 600;
      margin-top: 14px;
-     text-transform: uppercase;
+     text-transform: ;
 }
 /*===================================================== 26.home version 2 gallery section css goes here =======================================================*/
  .grid-3 {
@@ -3967,7 +3967,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .main-timeline:before {
      content: "";
      width: 2px;
-     height: 88%;
+     height: 81%;
      background: #cccccc;
      margin: 0 auto;
      position: absolute;
@@ -3990,10 +3990,9 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      transition: all 0.3s ease 0s;
      width: 100%;
 }
- .main-timeline .timeline .timeline-content h4 {
+ .main-timeline .timeline .timeline-content h3 {
      transition: all ease-in-out 0.5s;
      color: #454545;
-     font-size: 18px;
      font-weight: 500;
      padding-top: 30px;
 }
@@ -4019,8 +4018,8 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .main-timeline .timeline:hover .timeline-icon {
      background: #faa61a;
 }
- .main-timeline .timeline:hover .timeline-content h4 {
-     color: #faa61a;
+ .main-timeline .timeline:hover .timeline-content h3 {
+     color: #454545;
 }
 /*===================================================== 55.contact section start here =======================================================*/
  #googleMap {

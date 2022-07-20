@@ -382,6 +382,7 @@
      position: relative;
      box-shadow: 0 0px 1px gray;
      background: #049dd9;
+     margin: 1px;
 }
 .header-bottom-area .tab-d
 {
@@ -560,7 +561,6 @@
 .timeline-content .discount-package-4-btn
 {
      float: right;
-     padding-bottom: 10px;
 }
 .resort-table .discount-package-4-btn
 {
@@ -953,7 +953,7 @@ button
 }
 .x-essence
 {
-     background: #049dd9 !important;
+     background: white !important;
 }
 .x-essence .subscribe-form-box
 {
@@ -1022,15 +1022,28 @@ button
      list-style: disc;
      padding-left: 15px;
 }
-.tour-description ul h5
+.tour-description h4
 {
-     padding-top: 20px;
+     padding-top: 10px;
 }
-.tour-description ul p
+.carousel .left
 {
-     margin-bottom: 0;
+     margin-left: 0 !important;
 }
-.tour-description .col-md-4
+.tour-description p
 {
-     margin-top: 100px;
+     text-align: justify;
+     font-size: 14px;
+}
+.tour-description .head h4
+{
+     color: #f2911b;
+}
+.tour-description .tail h4
+{
+     color: #049dd9;
+}
+.tour-description .carousel
+{
+    margin-top: 15px;
 }
