@@ -44,6 +44,18 @@
     {
         display: none !important;
     }
+    .overlay input[type=text]
+    {
+        width: 75% !important;
+    }
+    .overlay button
+    {
+        height: 52px !important;
+    }
+    .mean-bar .search-pc
+    {
+        display: none;
+    }
 
 
 .header-top-area .header-top-left .header-top-contact li {
@@ -280,6 +292,26 @@
     {
         display: none !important;
     }
+    .single-bredcurms
+    {
+        background-position: center bottom;
+        padding: 0;
+        height: auto;
+    }
+    .single-bredcurms .bredcrums-content
+    {
+        padding-top: 150px;
+        padding-bottom: 30px;
+    }
+    .overlay input[type=text]
+    {
+        width: 75% !important;
+    }
+    .overlay button
+    {
+        height: 52px !important;
+    }
+
 
 
 /*========= index ==========*/
@@ -493,6 +525,14 @@
     {
         top: 1px !important;
         margin: 0 !important;
+    }
+    .overlay input[type=text]
+    {
+        width: 75% !important;
+    }
+    .overlay button
+    {
+        height: 52px !important;
     }
 
 }

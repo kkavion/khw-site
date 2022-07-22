@@ -151,8 +151,18 @@
 											</li>
 										</ul>
 									</li>
-									<li><a>
-											<div class="fa fa-search" aria-hidden="true"></div>
+									<li class="search-pc">
+										<a>
+											<button class="openBtn" onclick="openSearch()"><div class="fa fa-search" aria-hidden="true"></div></button>
+											<div id="myOverlay" class="overlay">
+												<span class="closebtn" onclick="closeSearch()" title="Close Overlay">x</span>
+												<div class="overlay-content">
+													<form action="action_page.php">
+													<input type="text" placeholder="Search.." name="search">
+													<button type="submit"><i class="fa fa-search"></i></button>
+													</form>
+												</div>
+											</div> 
 										</a>
 									</li>
 									<li><a href="tel://+916289850502">+91 62898 50502</a>
