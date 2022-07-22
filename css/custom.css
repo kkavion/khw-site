@@ -669,6 +669,7 @@ header .main-menu a:focus
 .amenities-row
 {
      padding-bottom: 10px;
+     cursor: pointer;
 }
 .resort-box .amenities-row
 {
@@ -1025,6 +1026,7 @@ button
 .tour-description h4
 {
      padding-top: 10px;
+     padding-bottom: 10px;
 }
 .carousel .left
 {

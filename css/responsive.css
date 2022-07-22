@@ -40,6 +40,10 @@
     {
         margin: 0 !important;
     }
+    .carousel-inner .img2
+    {
+        display: none !important;
+    }
 
 
 .header-top-area .header-top-left .header-top-contact li {
@@ -271,6 +275,10 @@
     .timeline-content .discount-package-4-btn
     {
         padding-bottom: 20px;
+    }
+    .carousel-inner .img1
+    {
+        display: none !important;
     }
 
 
@@ -563,5 +571,9 @@
     .tp-parallax-wrap:nth-child(7)
     {
          top: 75% !important;
+    }
+    .carousel-inner .img2
+    {
+        display: none !important;
     }
 }
