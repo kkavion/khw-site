@@ -181,7 +181,8 @@
 .sec1 div
 {
      display: flex;
-     margin-bottom: 10px;
+     margin: 5px 15px;
+     padding: 0;
 }
 .fact-file p
 {
@@ -1050,7 +1051,7 @@ button
     margin-top: 15px;
 }
 /* The overlay effect with black background */
-.overlay
+.overlay1
 {
      height: 100%;
      width: 100%;
@@ -1063,13 +1064,13 @@ button
      background-color: rgba(0,0,0, 0.9); /* Black with a little bit see-through */
      color: gray;
 }
-.overlay input::placeholder
+.overlay1 input::placeholder
 {
      color: gray;
      opacity: 1;
      padding-left: 10px;
 }
-.overlay input::-ms-input-placeholder
+.overlay1 input::-ms-input-placeholder
 {
      color: gray;
      opacity: 1;
@@ -1086,7 +1087,7 @@ button
      margin: auto;
 }
 /* Close button */
-.overlay .closebtn 
+.overlay1 .closebtn 
 {
      position: absolute;
      top: 20px;
@@ -1095,12 +1096,12 @@ button
      cursor: pointer;
      color: white;
 }   
-.overlay .closebtn:hover
+.overlay1 .closebtn:hover
 {
      color: #ccc;
 }
 /* Style the search field */
-.overlay input[type=text]
+.overlay1 input[type=text]
 {
      height: 50px;
      font-size: 17px;
@@ -1109,12 +1110,12 @@ button
      width: 80%;
      background: white;
 } 
-.overlay input[type=text]:hover
+.overlay1 input[type=text]:hover
 {
      background: #f1f1f1;
 }
 /* Style the submit button */
-.overlay button
+.overlay1 button
 {
      float: left;
      width: 20%;
@@ -1125,7 +1126,7 @@ button
      height: 50px;
 
 }
-.overlay button:hover
+.overlay1 button:hover
 {
      background: #bbb;
 }

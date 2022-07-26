@@ -10,10 +10,10 @@
         useCSS: true,
         cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',
         easing: 'linear', //'for jquery animation',//
-        speed: 400, //ms'
+        speed: 500, //ms'
         auto: false,
-        pauseOnHover: false,
-        loop: false,
+        pauseOnHover: true,
+        loop: true,
         slideEndAnimation: true,
         pause: 5000,
         keyPress: false,
@@ -29,7 +29,7 @@
         pager: true,
         gallery: false,
         galleryMargin: 5,
-        thumbMargin: 5,
+        thumbMargin: 3,
         currentPagerPosition: 'middle',
         enableTouch: true,
         enableDrag: true,
