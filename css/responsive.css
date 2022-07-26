@@ -44,14 +44,6 @@
     {
         display: none !important;
     }
-    .overlay1 input[type=text]
-    {
-        width: 75% !important;
-    }
-    .overlay1 button
-    {
-        height: 52px !important;
-    }
     .mean-bar .search-pc
     {
         display: none;
@@ -302,14 +294,20 @@
     {
         padding-top: 150px;
         padding-bottom: 30px;
-    }
-    .overlay1 input[type=text]
+    }  
+    .gsc-control-cse
     {
-        width: 75% !important;
+        margin: 100px 10px !important;
     }
-    .overlay1 button
+    .gsc-control-cse button
     {
-        height: 52px !important;
+        padding: 15px !important;
+        border: none;
+        background: gray;
+    }
+    .overlay1 .closebtn
+    {
+        font-size: 40px !important;
     }
 
 
@@ -525,14 +523,6 @@
     {
         top: 1px !important;
         margin: 0 !important;
-    }
-    .overlay1 input[type=text]
-    {
-        width: 75% !important;
-    }
-    .overlay1 button
-    {
-        height: 52px !important;
     }
 
 }

@@ -1091,7 +1091,7 @@ button
 {
      position: absolute;
      top: 20px;
-     right: 45px;
+     right: 25px;
      font-size: 60px;
      cursor: pointer;
      color: white;
@@ -1099,36 +1099,6 @@ button
 .overlay1 .closebtn:hover
 {
      color: #ccc;
-}
-/* Style the search field */
-.overlay1 input[type=text]
-{
-     height: 50px;
-     font-size: 17px;
-     border: none;
-     float: left;
-     width: 80%;
-     background: white;
-} 
-.overlay1 input[type=text]:hover
-{
-     background: #f1f1f1;
-}
-/* Style the submit button */
-.overlay1 button
-{
-     float: left;
-     width: 20%;
-     background: #ddd !important;
-     font-size: 17px;
-     border: none;
-     cursor: pointer;
-     height: 50px;
-
-}
-.overlay1 button:hover
-{
-     background: #bbb;
 }
 .main-menu button
 {
@@ -1171,4 +1141,15 @@ button
 {
      padding-left: 20px !important;
      padding-top: 5px !important;
+}
+.gsc-control-cse
+{
+     margin: 150px 300px;
+     border-radius: 10px;
+}
+.gsc-control-cse button
+{
+     padding: 10px;
+     border: none;
+     background: gray;
 }
