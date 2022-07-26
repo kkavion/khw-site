@@ -151,8 +151,15 @@
 											</li>
 										</ul>
 									</li>
-									<li><a>
-											<div class="fa fa-search" aria-hidden="true"></div>
+									<li class="search-pc">
+										<a>
+											<button class="openBtn" onclick="openSearch()"><div class="fa fa-search" aria-hidden="true"></div></button>
+											<div id="myOverlay" class="overlay1">
+												<span class="closebtn" onclick="closeSearch()" title="Close Overlay">x</span>
+												<script async src="https://cse.google.com/cse.js?cx=026f43117b6ce4175">
+												</script>
+												<div class="gcse-search"></div>
+											</div> 
 										</a>
 									</li>
 									<li><a href="tel://+916289850502">+91 62898 50502</a>
