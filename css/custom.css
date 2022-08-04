@@ -539,6 +539,10 @@
 {
      font-size: 19px;
 }
+.main-menu
+{
+     cursor: pointer;
+}
 .left-btn
 {
      float: left;
@@ -751,7 +755,12 @@ button
 .testimonial-area-5 .single-testimonial .img-box img
 {
      width: auto;
-     height: 250px;
+     height: 350px;
+     margin-left: 20px;
+}
+.testimonial-area-5 .single-testimonial .col-md-5
+{
+     padding: 60px 0;
 }
 .testimonial-area-5 .single-testimonial .testimonial-messages i
 {
