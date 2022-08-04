@@ -309,6 +309,24 @@
     {
         font-size: 40px !important;
     }
+    .testimonial-area-5 .single-testimonial .img-box img
+    {
+        width: auto !important;
+        height: 250px !important;
+        margin-left: 0 !important;
+    }
+    .testimonial-area-5 .single-testimonial .col-md-5
+    {
+        padding: 0 !important;
+    }
+    .testimonial-area-5
+    {
+        margin: -20px 0 auto !important;
+    }
+    .owl-carousel
+    {
+        padding: 20px !important;
+    }
 
 
 
