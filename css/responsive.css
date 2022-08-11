@@ -270,7 +270,7 @@
     }
     .tour-description h4, h5, p
     {
-        text-align: justify;
+        text-align: center;
     }
     .tour-description .tail h4, .tour-description .head h4
     {
@@ -325,7 +325,7 @@
     }
     .owl-carousel
     {
-        padding: 20px !important;
+        padding: 0 20px !important;
     }
 
 
