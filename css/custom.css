@@ -282,13 +282,14 @@
      font-weight: 500;
      position: relative;
      text-align:center;
+     padding: 10px 40px;
 }
 .header-bottom-area .tab-a > li.active a {
      color:  white !important;
 }
 .header-bottom-area .tab-a > li {
      display: inline-block;
-     padding: 10px 40px 10px 40px;
+     padding: 0;
      position: relative;
      box-shadow: 0 0px 1px gray;
      background: #049dd9;
@@ -297,6 +298,8 @@
 .header-bottom-area .tab-a > li > a:before
 {
      background: white !important;
+     bottom: 15% !important;
+     width: 50% !important;
 }
 .header-bottom-area .tab-c > li > a:before
 {
@@ -305,6 +308,8 @@
 .header-bottom-area .tab-d > li > a:before
 {
      background: white !important;
+     bottom: 15% !important;
+     width: 50% !important;
 }
 .header-bottom-area .tab-e > li > a:before
 {
@@ -373,13 +378,14 @@
      font-weight: 500;
      position: relative;
      text-align:center;
+     padding: 10px 32px 10px 32px;
 }
 .header-bottom-area .tab-d > li.active a {
      color:   white !important;
 }
 .header-bottom-area .tab-d > li {
      display: inline-block;
-     padding: 10px 32px 10px 32px;
+     padding: 0;
      position: relative;
      box-shadow: 0 0px 1px gray;
      background: #049dd9;

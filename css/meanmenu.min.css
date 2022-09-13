@@ -12,10 +12,15 @@
  float:left;
  width:100%;
  position:relative;
- background:#2c3035;
- padding:4px 0;
  min-height:42px;
- z-index:999999
+ z-index:999999;
+ overflow: hidden;
+}
+.mean-container .mean-bar1
+{
+	height: 44px;
+	padding: 4px 0;
+	background: #2c3035;
 }
 .mean-container a.meanmenu-reveal {
  width:22px;
@@ -44,14 +49,18 @@
 .mean-container .mean-nav {
  float:left;
  width:100%;
- background:#0c1923;
- margin-top:44px
+ overflow: hidden;
+}
+.mean-container .mean-nav .main-menu
+{	
+	height: 80vh;
+	overflow: scroll;
 }
 .mean-container .mean-nav ul {
  padding:0;
  margin:0;
  width:100%;
- list-style-type:none
+ list-style-type:none;
 }
 .mean-container .mean-nav ul li {
  position:relative;
