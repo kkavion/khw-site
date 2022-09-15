@@ -22,11 +22,45 @@
   top: 0;
   width: 100%;
   box-shadow: 0 0 3px gray;
+  background: rgb(255, 253, 253) !important;
+  transition: all linear 0.3s;
+}
+.sticky .main-menu > li > a
+{
+     color: black;
 }
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content
 {
   padding-top: 60px;
+}
+header .header-bottom-area .main-menu > li:hover > a
+{
+     color: #f2911b;
+}
+.sticky .header-bottom-area .main-menu > li:hover > a
+{
+     color: #049dd9;
+}
+.sticky .header-bottom-area-4 .main-menu > li ul.dropdown
+{
+     border-top: 2px solid #049dd9;
+}
+.sticky .header-bottom-area .main-menu > li ul.dropdown li a:hover
+{
+     color: #049dd9 !important;
+}
+.sticky .header-bottom-area .main-menu > li > a:before
+{
+     background: #049dd9;
+}
+header .sticky .header-bottom-area .main-menu > li.active a
+{
+     color: #049dd9;
+}
+.sticky .dropdown li a
+{
+     color: black !important;
 }
 .padding-bottom
 {
@@ -342,6 +376,10 @@
      padding: 0px 20px 0px 20px;
      position: relative;
 }
+.tab-b > li > a::before
+{
+     background: #049dd9 !important;
+}
 
 .header-bottom-area .tab-c > li > a {
      display: block;
@@ -481,7 +519,7 @@
 }
 .logo-area img
 {
-     max-width: 90%;
+     max-width: 61%;
 }
 .subscribe-form
 {
@@ -606,7 +644,6 @@ header .header-bottom-area .main-menu li:last-child
 {
      background: #71bf44 !important;
      padding: 10px;
-     margin: 5px;
 }
 header .header-bottom-area .main-menu .dropdown li:last-child
 {
@@ -615,6 +652,11 @@ header .header-bottom-area .main-menu .dropdown li:last-child
      margin: 0;
 }
 header .header-bottom-area .main-menu li:last-child a
+{
+     color: white;
+     font-size: small;
+}
+header .sticky .header-bottom-area .main-menu li:last-child a
 {
      color: white;
      font-size: small;
@@ -1022,6 +1064,10 @@ button
 {
      float: right !important;
 }
+.single-hotels .ct-action, .package-calto-action .ct-action
+{
+     margin-bottom: 0;
+}
 .ct-action
 {
      margin-bottom: 35px;
@@ -1105,15 +1151,15 @@ button
 .overlay1 .closebtn 
 {
      position: absolute;
-     top: 20px;
-     right: 25px;
-     font-size: 60px;
+     top: 5%;
+     right: 10%;
+     font-size: 2.5em;
      cursor: pointer;
      color: white;
 }   
 .overlay1 .closebtn:hover
 {
-     color: #ccc;
+     color: #888;
 }
 .main-menu button
 {

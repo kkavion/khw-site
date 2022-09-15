@@ -265,7 +265,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      width: 100%;
      top: 0;
      left: 0;
-     box-shadow: 0 0 5px gray;
 }
  .header-top-area {
      background: rgb(49, 49, 49);
@@ -309,12 +308,12 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .header-bottom-area .main-menu > li {
      display: inline-block;
-     padding: 20px 18px;
+     padding: 16px 18px;
      position: relative;
 }
  .header-bottom-area .main-menu > li > a {
      display: block;
-     color: #404040;
+     color: white;
      font-size: 17px;
      text-transform: ;
      text-decoration: none;
@@ -325,7 +324,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      position: absolute;
      width: 100%;
      height: 2px;
-     background: #049dd9;
+     background: #f2911b;
      content: '';
      left: 0;
      right: 0;
@@ -382,6 +381,9 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .header-bottom-area .main-menu > li:hover a:before {
      opacity: 1;
      visibility: visible;
+}
+ header .header-bottom-area .main-menu > li.active a {
+     color: #f2911b;
 }
  .header-bottom-area .main-menu > li.active a {
      color: #049dd9;
@@ -794,6 +796,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-size: 15px;
      font-weight: 400;
      margin: 0 0 25px;
+     text-align: left;
 }
  .popular-packages .single-package .package-content p span {
      color: #71bf44;
@@ -2992,7 +2995,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 /*===================================================== 35.Home version 4 header top section start here =======================================================*/
  .header-bottom-area.header-bottom-area-4 {
-     background: rgb(255, 253, 253) !important;
+     background: none;
 }
  .header-bottom-area.header-bottom-area-4.sticky {
      background: #333537 none repeat scroll 0 0 !important;
@@ -3200,7 +3203,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .single-hotels .hotel-description {
      text-align: center;
-     padding: 25px 0;
+     padding: 10px;
 }
  .single-hotels .hotel-description h4 {
      color: #454545;
@@ -4403,7 +4406,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 	top: 100% !important;
 }
 .header-bottom-area .logo-area {
-    padding: 7px 35px 7px 0;
+    padding: 5px 35px 0 0;
     : 115%;
 }
 .single-bredcurms .bredcrums-content ul li a {
@@ -4446,7 +4449,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      border-top: 2px solid #71bf44;
 }
 .header-bottom-area .main-menu > li ul.dropdown li a:hover {
-     color: #049dd9;
+     color: #f2911b;
      margin-left: 5px;
 }
 .tabbased-search-area .tabbable-menu .tab-menu li a {
@@ -4473,8 +4476,8 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      top: 97% !important;
 }
 .header-bottom-area-4 .main-menu > li ul.dropdown {
-     top: 90% !important;
-     border-top: 2px solid #049dd9;
+     top: 96% !important;
+     border-top: 2px solid #f2911b;
 }
 
 /*========= 05.popular packajge section css goes here ================*/
