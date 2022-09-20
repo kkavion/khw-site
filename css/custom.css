@@ -699,7 +699,7 @@ header .main-menu a:focus
 }
 .single-hotels ul
 {
-     padding: 2% 40%;
+     padding: 2% 20%;
 }
 .single-package-carasoul .package-location span img
 {
@@ -1389,4 +1389,30 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .mean-nav .dropdown3 li
 {
      background-color: #2c3035 !important;
+}
+.sticky2
+{
+     background: #2c3035 !important;
+}
+.home-interest-area .single-hotels .ct-action .travel-booking-btn
+{
+     background: red;
+}
+.home-interest-area .single-hotels .ct-action li:nth-child(1)
+{
+     display: grid;
+}
+.home-interest-area .single-hotels .ct-action li:nth-child(2)
+{
+     display: none;
+}
+.home-interest-area .single-hotels:hover .ct-action li:nth-child(1)
+{
+     display: none;
+     transition: all linear 0.6s;
+}
+.home-interest-area .single-hotels:hover .ct-action li:nth-child(2)
+{
+     display: grid;
+     transition: all linear 0.6s;
 }

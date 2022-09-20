@@ -219,7 +219,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: #fefefe;
      border-radius: 4px;
      font-weight: 500;
-     font-size: 12px;
+     font-size: 14px;
      text-align: center;
      
 }
@@ -845,7 +845,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .count-down-bg .count-down-titile h3 {
      line-height: 40px;
-     margin-bottom: 20px;
+     margin-bottom: 20px0;
      font-size: 30px;
      font-weight: 600;
 }
@@ -858,20 +858,20 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .count-down-bg .count-timer .time-wrapper p {
      color: #ffffff;
      font-size: 20px;
-     padding-bottom: 20px;
+     padding-bottom: ;
 }
  .count-down-bg .count-timer .time-wrapper .timer {
      overflow: hidden;
 }
  .count-down-bg .count-timer .time-wrapper .timer li {
      display: inline-block;
-     height: 132px;
+     height: 117px;
      width: 117px;
      background: rgba(0, 0, 0, 0.5);
      margin: 0 10px;
      text-align: center;
      color: #ffffff;
-     padding: 20px 0px;
+     padding: 10px 0px;
      font-size: 45px;
      font-weight: 500;
      border-radius: 4px;
@@ -1910,9 +1910,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .single-package-carasoul .package-long-btn {
      background: #0095da none repeat scroll 0 0;
      display: block;
-     width: 100%;
      text-align: center;
-     padding: 15px 0;
      position: absolute;
      bottom: -63px;
      opacity: 0;
@@ -1921,10 +1919,14 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      right: 0;
      font-size: 17px;
      font-weight: 500;
+     width: 100%;
 }
  .single-package-carasoul .package-long-btn a {
      color: #ffffff;
      text-transform: uppercase;
+     width: 100%;
+     display: block;
+     padding: 15px 0;
 }
  .single-package-carasoul:hover .package-long-btn {
      opacity: 1;

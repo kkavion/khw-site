@@ -175,11 +175,11 @@
     }
     .tp-parallax-wrap:nth-child(3)
     {
-         top: 30% !important;
+         top: 40% !important;
     }
     .tp-parallax-wrap:nth-child(4)
     {
-         top: 37% !important;
+         top: 47% !important;
     }
     .tp-parallax-wrap:nth-child(5)
     {
@@ -187,7 +187,7 @@
     }
     .tp-parallax-wrap:nth-child(6)
     {
-         top: 37% !important;
+         top: 25% !important;
     }
     .sec1 div
     {
@@ -473,6 +473,10 @@
     {
         visibility: hidden;
     }
+    .single-hotels ul
+    {
+         padding: 0 !important;
+    }
 }
 
 
@@ -502,6 +506,10 @@
     .carousel-indicators
     {
         visibility: hidden;
+    }
+    .single-hotels ul
+    {
+         padding: 0 !important;
     }
     .modal-dialog-centered
     {
@@ -542,6 +550,22 @@
         top: 1px !important;
         margin: 0 !important;
     }
+    .tp-parallax-wrap:nth-child(3)
+    {
+         top: 25% !important;
+    }
+    .tp-parallax-wrap:nth-child(4)
+    {
+         top: 40% !important;
+    }
+    .tp-parallax-wrap:nth-child(5)
+    {
+         top: 37% !important;
+    }
+    .tp-parallax-wrap:nth-child(6)
+    {
+         top: 65% !important;
+    }
 
 }
 
@@ -578,7 +602,7 @@
     }
     .tp-bannertimer
     {
-        top: 545px
+        top: 445px
     }
     .section-title img
     {
@@ -611,14 +635,6 @@
     .tp-parallax-wrap:nth-child(5)
     {
          top: 60% !important;
-    }
-    .tp-parallax-wrap:nth-child(6)
-    {
-         top: 65% !important;
-    }
-    .tp-parallax-wrap:nth-child(7)
-    {
-         top: 75% !important;
     }
     .carousel-inner .img2
     {
