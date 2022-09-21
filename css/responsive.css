@@ -179,7 +179,7 @@
     }
     .tp-parallax-wrap:nth-child(4)
     {
-         top: 47% !important;
+         top: 50% !important;
     }
     .tp-parallax-wrap:nth-child(5)
     {
@@ -326,6 +326,11 @@
     .owl-carousel
     {
         padding: 0 20px !important;
+    }
+    .sbuttons
+    {
+        margin: 0 !important;
+        left: -5px !important;
     }
 
 
@@ -477,6 +482,30 @@
     {
          padding: 0 !important;
     }
+    .single-package-carasoul
+    {
+        margin-bottom: 0;
+    }
+    .popular-packages-carasoul .owl-nav
+    {
+        top: 20vw !important;
+        position: absolute !important;
+    }
+    .popular-packages-carasoul .owl-nav .owl-next
+    {
+        position: absolute;
+        left: 74vw; 
+    }
+    .popular-packages-carasoul .owl-nav .owl-prev, .popular-packages-carasoul .owl-nav .owl-next
+    {
+        background: #3063771f !important;
+    }
+    .popular-packages-carasoul .owl-nav .owl-prev:hover, .popular-packages-carasoul .owl-nav .owl-next:hover
+    {
+        background: #3063771f !important;
+    }
+
+
 }
 
 
@@ -566,6 +595,11 @@
     {
          top: 65% !important;
     }
+    .popular-packages-carasoul .owl-nav .owl-next
+    {
+        position: absolute;
+        left: 80vw;
+    }
 
 }
 
@@ -594,7 +628,7 @@
     }
     .footer-title .logo2
     {
-        padding: 0 40px;
+        padding: 0 500px;
     }
     .footer-area .single-footer .foot
     {
@@ -630,7 +664,7 @@
     }
     .tp-parallax-wrap:nth-child(4)
     {
-         top: 50% !important;
+         top: 52% !important;
     }
     .tp-parallax-wrap:nth-child(5)
     {
@@ -639,5 +673,21 @@
     .carousel-inner .img2
     {
         display: none !important;
+    }
+    .popular-packages-carasoul .owl-nav .owl-prev, .popular-packages-carasoul .owl-nav .owl-next
+    {
+        background: #049dd9 !important;
+    }
+    .popular-packages-carasoul .owl-nav .owl-prev:hover, .popular-packages-carasoul .owl-nav .owl-next:hover
+    {
+        background: #049dd9 !important;
+    }
+    .header-bottom-area .row
+    {
+         background: rgba(255, 255, 255, 0.075) !important;
+    }
+    .sticky .header-bottom-area .row
+    {
+         background: none;
     }
 }

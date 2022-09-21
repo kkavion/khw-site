@@ -1273,7 +1273,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      position: absolute;
      right: 15px;
      top: 3px;
-     background: #faa61a;
+     background: #f2911b;
      font-size: 14px;
      padding: 18.5px;
      width: 20%;
@@ -1289,7 +1289,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 /*===================================================== 14.Footer area section css goes here =======================================================*/
  .footer-area {
-     background: #ececec url("") no-repeat scroll 99% center/cover;
+     background: #202124;
      padding-bottom: 10px;
 }
  .footer-area .single-footer {
@@ -1298,7 +1298,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .footer-area .single-footer .footer-title {
      font-weight: 600;
      font-size: 20px;
-     color: black;
+     color: white;
      padding: 10px 0;
 }
  .footer-area .single-footer .footer-left .footer-logo p {
@@ -1310,7 +1310,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .footer-area .single-footer .footer-left .footer-contact li {
      color: #80808082;
      display: block;
-     padding-bottom: 10px;
+     padding-bottom: 8px;
 }
  .footer-area .single-footer .footer-left .footer-contact li img.map,  .footer-area .single-footer .footer-left .footer-contact li span.map {
      margin-right: 5px;
@@ -1568,7 +1568,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      display: none;
 }
  .to-top a {
-     background: #faa61a none repeat scroll 0 0;
+     background: #f2911b none repeat scroll 0 0;
      border-radius: 4px;
      color: #ffffff;
      font-size: 35px;
@@ -1634,7 +1634,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-size: 20px;
 }
  .slider-area-2 .tparrows:hover, .slider-area-3 .tparrows:hover {
-     background: #faa61a !important;
+     background: #f2911b !important;
 }
  .slider-area-2 span, .slider-area-3 span {
      font-size: 25px !important;
@@ -1828,7 +1828,8 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .single-package-carasoul {
      overflow: hidden;
      position: relative;
-     margin-bottom: 30px;
+     margin-bottom: 0;
+     border-radius: 10px;
 }
  .single-package-carasoul .package-location {
      position: relative;
