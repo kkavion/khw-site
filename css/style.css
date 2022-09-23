@@ -1289,8 +1289,9 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 /*===================================================== 14.Footer area section css goes here =======================================================*/
  .footer-area {
-     background: #202124;
+     background: #2f3133 url("../images/footer.jpg") no-repeat 99% center/cover;
      padding-bottom: 10px;
+     background-position-y: -85px;
 }
  .footer-area .single-footer {
      padding: 80px 0;
@@ -1756,7 +1757,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .section-title-version-2-white p, .section-title-version-2-black p {
      color: #ffffff;
      font-size: 15px;
-     padding-bottom: 45px;
+     padding: 10px;
 }
  .section-title-version-2-black h2 {
      color: #454545;
@@ -1802,7 +1803,8 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      position: relative;
      z-index: 1;
      overflow: hidden;
-     background: #f0f0f0;
+     background: ;
+     background-image: url(https://images.pexels.com/photos/1533720/pexels-photo-1533720.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
  .tour-package-bg:before {
      position: absolute;
@@ -4529,9 +4531,11 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .top-destination-area-5 .single-destionation-5 {
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
      transition: all ease-in-out 0.5s;
+     border-radius: 10px;
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-image {
      overflow: hidden;
+     border-radius: 10px 10px 0 0;
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-image a img {
      transform: scale(1.1);

@@ -149,6 +149,15 @@
     {
         display: none;
     }
+    .bidnwin
+    {
+        background-position: center !important;
+        background-size: cover !important;
+    }
+    .top-destination-area .search-btn
+    {
+        padding: 0 20% !important;
+    }
     .mean-bar img
     {
         max-height: 45px;
@@ -498,7 +507,7 @@
     }
     .popular-packages-carasoul .owl-nav .owl-prev, .popular-packages-carasoul .owl-nav .owl-next
     {
-        background: #3063771f !important;
+        background: #00000054 !important;
     }
     .popular-packages-carasoul .owl-nav .owl-prev:hover, .popular-packages-carasoul .owl-nav .owl-next:hover
     {
@@ -684,10 +693,11 @@
     }
     .header-bottom-area .row
     {
-         background: rgba(255, 255, 255, 0.075) !important;
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.075) 20%, rgba(255,255,255,0.075) 85%, rgba(255,255,255,0) 100%); 
     }
     .sticky .header-bottom-area .row
     {
-         background: none;
+        background: none;
     }
 }

@@ -6330,11 +6330,13 @@ button.close {
 .carousel {
  position:relative;
  width: ;
+ border-radius: 10px;
 }
 .carousel-inner {
  position:relative;
  width:100%;
- overflow:hidden
+ overflow:hidden;
+ border-radius: 10px;
 }
 .carousel-inner>.item {
  position:relative;
