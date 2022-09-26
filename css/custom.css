@@ -288,7 +288,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .timeline-content .resort-box
 {
      background-color: #f5f5dc;
-	border-radius: 5px;
+	border-radius: 10px;
      transition: all .3s ease-in-out;
 }
 .timeline-content .box:hover, .timeline-content .resort-box:hover
@@ -1595,7 +1595,8 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .timeline .carousel, .timeline .carousel-inner
 {
-     border-radius: 0;
+     border-radius: 10px;
+     box-shadow: 0 0 3px gray;
 }
 .top-destination-area .search-btn button
 {
@@ -1637,4 +1638,64 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .bidnwin p
 {
      color: black;
+}
+.top-destination-area-5 .amenities-row span
+{
+     font-size: 18px !important;
+     padding: 0 7px;
+}
+.turnoff
+{
+     display: none !important;
+}
+.leisure-page-area .container, .wellness-page-area .container, .gourmet-page-area .container, .conference-page-area .container, .wedding-page-area .container
+{
+     padding-top: 15px;
+}
+.leisure-page-area .destination-5-description, .wellness-page-area .destination-5-description, .gourmet-page-area .destination-5-description, .conference-page-area .destination-5-description, .wedding-page-area .destination-5-description
+{
+     background-color: white;
+     border-radius: 0 0 10px 10px;
+}
+.leisure-page-area
+{
+     background-image: url("https://transparenttextures.com/patterns/subtle-white-feathers.png");
+}
+.gourmet-page-area
+{
+     background-image: url("https://transparenttextures.com/patterns/subtle-white-feathers.png");
+}
+.wellness-page-area
+{
+     background-image: url("https://transparenttextures.com/patterns/xv.png");
+}
+.wedding-page-area
+{
+     background-image: url("https://transparenttextures.com/patterns/subtle-white-feathers.png");
+}
+.conference-page-area
+{
+     background-image: url("https://transparenttextures.com/patterns/subtle-white-feathers.png");
+}
+.section-margins
+{
+     margin-top: 25px;
+     margin-bottom: 25px;
+}
+.wedding-page-area .discount-package, .conference-page-area .discount-package
+{
+     margin-bottom: 0px;
+}
+.wedding-page-area .section-margins, .conference-page-area .section-margins
+{
+     margin-top: 0;
+     margin-bottom: 50px;
+}
+.tab-content .carousel-inner
+{
+     border-radius: 10px;
+}
+.leisure-page-area .section-title-3, .wellness-page-area .section-title-3, .gourmet-page-area .section-title-3, .conference-page-area .section-title-3, .wedding-page-area .section-title-3
+{
+     font-family: 'Open Sans', sans-serif;
 }

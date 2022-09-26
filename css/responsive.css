@@ -149,6 +149,14 @@
     {
         display: none;
     }
+    .top-destination-area-5 .single-destionation-5 .destination-5-description
+    {
+        padding: 25px 10px;
+    }
+    .top-destination-area-5 .amenities-row span
+    {
+        padding: 0 3px !important;
+    }
     .bidnwin
     {
         background-position: center !important;
