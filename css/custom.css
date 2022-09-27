@@ -282,7 +282,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .timeline-content .box
 {
 	background-color: #f0f0f0;
-	border-radius: 5px;
+	border-radius: 10px;
      transition: all .3s ease-in-out;
 }
 .timeline-content .resort-box
@@ -1063,7 +1063,9 @@ button
      font-weight: normal;
      font-size: 17px;
      float: right;
-     padding: 4px;
+     padding: 6px;
+     border: 1px solid gray;
+     border-radius: 10px;
 }
 .x-essence
 {
@@ -1698,4 +1700,57 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .leisure-page-area .section-title-3, .wellness-page-area .section-title-3, .gourmet-page-area .section-title-3, .conference-page-area .section-title-3, .wedding-page-area .section-title-3
 {
      font-family: 'Open Sans', sans-serif;
+     font-weight: 500;
+}
+.faq-section .panel-heading
+{
+     padding: 0;
+}
+.faq-section .panel-title a
+{
+     width: 100%;
+     display: block;
+     text-align: left;
+     text-decoration: none;
+     padding: 10px 15px;
+     font-weight: 600;
+}
+.faq-section
+{
+     padding-bottom: 50px;
+}
+.sale-tab-2
+{
+     background: #f0f0f0;
+}
+.sale-tab-2 .timeline-content .box
+{
+     background: white;
+}
+.resort-rooms
+{
+     background: #f5f5dc;
+}
+.resort-rooms .timeline-content .resort-box
+{
+     background: white;
+}
+.resort-rooms .resort-box h3, .resort-rooms .resort-box h4, .resort-rooms .resort-box h5, .resort-rooms .resort-box span:nth-child(1)
+{
+     color: black;
+     font-family: 'Open Sans', sans-serif;
+}
+.resort-rooms .resort-box .resort-table .row:nth-child(1)
+{
+     background: #8080801a !important;
+     color: black;
+}
+.resort-rooms .terms-sec h4
+{
+     color: black;
+}
+.resort-rooms .terms-sec
+{
+     background: white;
+     border-radius: 10px;
 }

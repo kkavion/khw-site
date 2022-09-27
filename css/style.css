@@ -787,12 +787,12 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .popular-packages .single-package .package-content h3 {
      font-weight: 600px;
-     color: #454545;
+     color: black;
      font-size: 20px;
      transition: all ease-in-out 0.5s;
 }
  .popular-packages .single-package .package-content p {
-     color: #727272;
+     color: #353535;
      font-size: 15px;
      font-weight: 400;
      margin: 0 0 25px;
@@ -865,13 +865,12 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .count-down-bg .count-timer .time-wrapper .timer li {
      display: inline-block;
-     height: 117px;
      width: 117px;
      background: rgba(0, 0, 0, 0.5);
      margin: 0 10px;
      text-align: center;
      color: #ffffff;
-     padding: 10px 0px;
+     padding: ;
      font-size: 45px;
      font-weight: 500;
      border-radius: 4px;
@@ -3608,7 +3607,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      background-size: cover;
      position: relative;
      overflow: hidden;
-     padding: 120px 0 0 0;
+     padding: 155px 0 0 0;
      height: 400px;
 }
  .single-bredcurms:before, .single-bredcurms:after {
@@ -3834,8 +3833,8 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      border: 1px solid #cccccc;
      border-radius: 10px;
      padding: 0px 20px;
-     background: #049dd9;
-     color: white;
+     background: white;
+     color: black;
      margin-top: 50px;
 }
  aside .booking-form h2 {

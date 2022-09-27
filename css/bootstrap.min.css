@@ -5755,7 +5755,7 @@ button.list-group-item-danger.active:hover {
  border:0
 }
 .panel-group {
- margin-bottom:20px
+ margin:auto 15px;
 }
 .panel-group .panel {
  margin-bottom:0;
