@@ -1827,7 +1827,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .single-package-carasoul {
      overflow: hidden;
      position: relative;
-     margin-bottom: 0;
+     margin-bottom: 25px;
      border-radius: 10px;
 }
  .single-package-carasoul .package-location {
@@ -1845,8 +1845,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      position: absolute;
      text-align: center;
      transition: all 0.3s ease-in-out 0s;
-     width: 110px;
-     z-index: 99;
 }
  .single-package-carasoul .package-details {
      background: #ffffff;
@@ -1867,7 +1865,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-weight: 500;
 }
  .single-package-carasoul .package-details .package-places > span i {
-     margin-right: 10px;
+     margin-right: 0;
 }
  .single-package-carasoul .package-details .package-places .details {
      margin-top: 18px;
@@ -2998,6 +2996,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 /*===================================================== 35.Home version 4 header top section start here =======================================================*/
  .header-bottom-area.header-bottom-area-4 {
      background: none;
+     z-index: 10;
 }
  .header-bottom-area.header-bottom-area-4.sticky {
      background: #333537 none repeat scroll 0 0 !important;

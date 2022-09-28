@@ -223,7 +223,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .fact-file span
 {
-     color: #eaeaea;
+     color: #353535;
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
@@ -232,6 +232,11 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .fact-file .col-md-6
 {
      padding-bottom:15px;
+}
+.fact-file .col-md-6:last-child span, .fact-file .col-md-6:last-child i
+{
+     font-size: 24px;
+     padding-right: 4px;
 }
 .resort-table .row
 {
@@ -1022,6 +1027,7 @@ button
      position: relative;
      -moz-border-radius: 10px;
      -webkit-border-radius: 10px;
+     border-radius: 10px;
      margin: 0;
      transition: all 0.3s ease-in-out;
      right: 0;
@@ -1038,6 +1044,7 @@ button
      position: relative;
      top: 4px;
      margin: 0;
+     width: 100%;
 }
 .box
 {
@@ -1061,7 +1068,7 @@ button
 .floated-text-right
 {
      font-weight: normal;
-     font-size: 17px;
+     font-size: 15px;
      float: right;
      padding: 6px;
      border: 1px solid gray;
@@ -1257,8 +1264,7 @@ button
 }
 .single-package-details .timeline-content
 {
-     padding-left: 20px !important;
-     padding-top: 5px !important;
+     padding: 1px 15px;
 }
 .gsc-control-cse
 {
@@ -1705,6 +1711,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .faq-section .panel-heading
 {
      padding: 0;
+     border-radius: 10px;
 }
 .faq-section .panel-title a
 {
@@ -1713,25 +1720,35 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      text-align: left;
      text-decoration: none;
      padding: 10px 15px;
-     font-weight: 600;
+     border-radius: 10px;
 }
 .faq-section
 {
      padding-bottom: 50px;
 }
-.sale-tab-2
+.sale-tab-2, .resort-rooms, .day-out, .offer-tab
 {
      background: #f0f0f0;
 }
-.sale-tab-2 .timeline-content .box
+.sale-tab-2 .resort-table .row:nth-child(2), .resort-rooms .resort-table .row:nth-child(2), .day-out .resort-table .row:nth-child(2), .offer-tab .resort-table .row:nth-child(2)
 {
-     background: white;
+     padding: 0;
+     text-align: left;
+     background: #f0f0f0;
+     border-radius: 10px;
 }
-.resort-rooms
+.sale-tab-2 .resort-table .row:nth-child(2) .col-md-3, .resort-rooms .resort-table .row:nth-child(2) .col-md-3, .day-out .resort-table .row:nth-child(2) .col-md-3, .offer-tab .resort-table .row:nth-child(2) .col-md-3
 {
-     background: #f5f5dc;
+     font-size: 15px;
+     text-align: right;
+     border-left: 1px solid #d0d0d0;
 }
-.resort-rooms .timeline-content .resort-box
+.sale-tab-2 .carousel, .resort-rooms .carousel, .day-out .carousel, .offer-tab .carousel
+{
+     border-radius: 10px;
+     box-shadow: 0 0 3px gray;
+}
+.sale-tab-2 .timeline-content .box, .resort-rooms .timeline-content .resort-box, .day-out .timeline-content .box, .offer-tab .timeline-content .box
 {
      background: white;
 }
@@ -1753,4 +1770,28 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      background: white;
      border-radius: 10px;
+}
+.tour-package-bg .package-location a
+{
+     text-decoration: none;
+     color: white;
+     width: 110px;
+     display: block;
+}
+.resort-tab .single-package-carasoul
+{
+     box-shadow: 0 0 5px gray;
+     transition: all ease-in 0.3s;
+}
+.resort-tab .single-package-carasoul .package-details .package-ratings-review .two-column
+{
+     text-align: center;
+}
+.resort-tab .single-package-carasoul .package-details .package-ratings-review .two-column li:last-child
+{
+     float: none;
+}
+.destination-bg
+{
+     background-color: #f0f0f0;
 }
