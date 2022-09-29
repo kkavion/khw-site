@@ -145,6 +145,7 @@
 @media only screen and (max-width: 767px) {
     .single-item{margin-bottom: 30px;}
     .single-item:last-child{margin-bottom: 0px;}
+    
     .turn-off
     {
         display: none;
