@@ -103,6 +103,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  body {
      position: relative;
+     cursor: default;
 }
  .floatleft {
      float: left;
@@ -3834,7 +3835,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      padding: 0px 20px;
      background: white;
      color: black;
-     margin-top: 50px;
 }
  aside .booking-form h2 {
      color: #454545;

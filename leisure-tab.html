@@ -65,7 +65,7 @@
 	</script>
 </head>
 
-<body>
+<body onselectstart="return false">
 	<!-- Preloader -->
 	<div id="preloader">
 		<div id="status">&nbsp;</div>
@@ -295,8 +295,7 @@
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
 													<div id="indoor" class="carousel slide"
-														data-ride="carousel"
-														style="">
+														data-ride="carousel">
 														<!-- Indicators -->
 														<ol class="carousel-indicators">
 															<li data-target="#indoor" data-slide-to="3"
@@ -502,8 +501,7 @@
 											<div class="col-sm-6"
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
-													<div id="outdoor" class="carousel slide" data-ride="carousel"
-														style="">
+													<div id="outdoor" class="carousel slide" data-ride="carousel">
 														<!-- Indicators -->
 														<ol class="carousel-indicators">
 															<li data-target="#outdoor" data-slide-to="0" class="">
@@ -572,8 +570,7 @@
 											<div class="col-sm-6"
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
-													<div id="aqua" class="carousel slide" data-ride="carousel"
-														style="">
+													<div id="aqua" class="carousel slide" data-ride="carousel">
 														<!-- Indicators -->
 														<ol class="carousel-indicators">
 															<li data-target="#aqua" data-slide-to="0" class="active">
@@ -694,7 +691,7 @@
 										</li>
 										<li>
 											<a
-												class="travel-booking-btn hvr-shutter-out-horizontal query"
+												class="travel-booking-btn hvr-shutter-out-horizontal query turnoff"
 												style="float: right;margin-right: 15px;"href="day-out-tab.html">View Dayout Packages</a>
 										</li>
 										<li>
@@ -1219,8 +1216,7 @@
 											<div class="col-sm-6"
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
-													<div id="indoor2" class="carousel slide" data-ride="carousel"
-														style="">
+													<div id="indoor2" class="carousel slide" data-ride="carousel">
 														<!-- Indicators -->
 														<ol class="carousel-indicators">
 															<li data-target="#indoor2" data-slide-to="0" class="active">
@@ -1289,50 +1285,70 @@
 												<div class="resort-table">
 													<div class="row" style="background:#f2911b36; font-weight:bold;">
 														<div class="col-md-4 col-xs-4">Activity</div>
-														<div class="col-md-4 col-xs-4">Timing</div>
-														<div class="col-md-4 col-xs-4">Rate</div>
+														<div class="col-md-2 col-xs-2">Duration</div>
+														<div class="col-md-2 col-xs-2">A-la-Carte</div>
+														<div class="col-md-2 col-xs-2">Day Use</div>
+														<div class="col-md-2 col-xs-2">Stay</div>
+													</div>
+													<div class="row" style="background:#8080800a">
+														<div class="col-md-4 col-xs-4">Board Games</div>
+														<div class="col-md-2 col-xs-2">30 minutes
+														</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
 														<div class="col-md-4 col-xs-4">Carrom</div>
-														<div class="col-md-4 col-xs-4">11.00 am - 11.00 pm
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Dart</div>
-														<div class="col-md-4 col-xs-4">11.00 am - 11.00 pm
+														<div class="col-md-4 col-xs-4">Chess</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
 														<div class="col-md-4 col-xs-4">Kids Corner</div>
-														<div class="col-md-4 col-xs-4">11.00 am - 11.00 pm
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
 														<div class="col-md-4 col-xs-4">Pool Table</div>
-														<div class="col-md-4 col-xs-4">11.00 am - 11.00 pm
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
 														<div class="col-md-4 col-xs-4">Table Tennis</div>
-														<div class="col-md-4 col-xs-4">11.00 am - 11.00 pm
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
-													</div>
-													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Trampoline</div>
-														<div class="col-md-4 col-xs-4">11.00 am - 11.00 pm
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 												</div>
 												<ul class="resort-table" style="list-style-type: none;">
 													<li
 														style="font-size:11px; font-weight:normal; margin-bottom:0px; text-align:left">
-														Rates exclusive of GST</li>
+														POP - Part Of Package | GST Applicable</li>
 												</ul>
 											</div>
 										</div>
@@ -1352,81 +1368,76 @@
 												<div class="resort-table">
 													<div class="row" style="background:#f2911b36; font-weight:bold;">
 														<div class="col-md-4 col-xs-4">Activity</div>
-														<div class="col-md-4 col-xs-4">Timing</div>
-														<div class="col-md-4 col-xs-4">Rate</div>
+														<div class="col-md-2 col-xs-2">Duration</div>
+														<div class="col-md-2 col-xs-2">A-la-Carte</div>
+														<div class="col-md-2 col-xs-2">Day Use</div>
+														<div class="col-md-2 col-xs-2">Stay</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Angling</div>
-														<div class="col-md-4 col-xs-4">11.00 am - 11.00 pm
+														<div class="col-md-4 col-xs-4">Board Games</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Archery</div>
-														<div class="col-md-4 col-xs-4">11.00 am - 11.00 pm
+														<div class="col-md-4 col-xs-4">Carrom</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Badminton</div>
-														<div class="col-md-4 col-xs-4">11.00 am - 11.00 pm
+														<div class="col-md-4 col-xs-4">Chess</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Balloon Shooting</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Kids Corner</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Cricket Bowling</div>
-														<div class="col-md-4 col-xs-4">11.00 am - 11.00 pm
+														<div class="col-md-4 col-xs-4">Pool Table</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Cycling / Duo Cycling</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Table Tennis</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
-													</div>
-													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Football</div>
-														<div class="col-md-4 col-xs-4">11.00 am - 11.00 pm
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
-													</div>
-													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Kids Car</div>
-														<div class="col-md-4 col-xs-4">11.00 am - 11.00 pm
-														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
-													</div>
-													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Rickshaw Riding</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
-														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
-													</div>
-													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Volleyball</div>
-														<div class="col-md-4 col-xs-4">11.00 am - 11.00 pm
-														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 												</div>
 												<ul class="resort-table" style="list-style-type: none;">
 													<li
 														style="font-size:11px; font-weight:normal; margin-bottom:0px; text-align:left">
-														Rates exclusive of GST</li>
+														POP - Part Of Package | GST Applicable</li>
 												</ul>
 											</div>
 											<div class="col-sm-6"
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
-													<div id="outdoor2" class="carousel slide" data-ride="carousel"
-														style="">
+													<div id="outdoor2" class="carousel slide" data-ride="carousel">
 														<!-- Indicators -->
 														<ol class="carousel-indicators">
 															<li data-target="#outdoor2" data-slide-to="0" class="">
@@ -1496,8 +1507,7 @@
 											<div class="col-sm-6"
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
-													<div id="aqua2" class="carousel slide" data-ride="carousel"
-														style="">
+													<div id="aqua2" class="carousel slide" data-ride="carousel">
 														<!-- Indicators -->
 														<ol class="carousel-indicators">
 															<li data-target="#aqua2" data-slide-to="0" class="active">
@@ -1542,50 +1552,70 @@
 												<div class="resort-table">
 													<div class="row" style="background:#f2911b36; font-weight:bold;">
 														<div class="col-md-4 col-xs-4">Activity</div>
-														<div class="col-md-4 col-xs-4">Timing</div>
-														<div class="col-md-4 col-xs-4">Rate</div>
+														<div class="col-md-2 col-xs-2">Duration</div>
+														<div class="col-md-2 col-xs-2">A-la-Carte</div>
+														<div class="col-md-2 col-xs-2">Day Use</div>
+														<div class="col-md-2 col-xs-2">Stay</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Boating</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Board Games</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Kayaking</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Carrom</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Kids Pool</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Chess</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Swmming Pool</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Kids Corner</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Water Sport (Non-motorised)</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Pool Table</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Zorbing</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Table Tennis</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 												</div>
 												<ul class="resort-table" style="list-style-type: none;">
 													<li
 														style="font-size:11px; font-weight:normal; margin-bottom:0px; text-align:left">
-														Rates exclusive of GST</li>
+														POP - Part Of Package | GST Applicable</li>
 												</ul>
 											</div>
 										</div>
@@ -1605,57 +1635,76 @@
 												<div class="resort-table">
 													<div class="row" style="background:#f2911b36; font-weight:bold;">
 														<div class="col-md-4 col-xs-4">Activity</div>
-														<div class="col-md-4 col-xs-4">Timing</div>
-														<div class="col-md-4 col-xs-4">Rate</div>
+														<div class="col-md-2 col-xs-2">Duration</div>
+														<div class="col-md-2 col-xs-2">A-la-Carte</div>
+														<div class="col-md-2 col-xs-2">Day Use</div>
+														<div class="col-md-2 col-xs-2">Stay</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">ATV Bike</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Board Games</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Mini Segway</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Carrom</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Segway</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Chess</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Wave Roller</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Kids Corner</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Zipline</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Pool Table</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Zorbing</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Table Tennis</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 												</div>
 												<ul class="resort-table" style="list-style-type: none;">
 													<li
 														style="font-size:11px; font-weight:normal; margin-bottom:0px; text-align:left">
-														Rates exclusive of GST</li>
+														POP - Part Of Package | GST Applicable</li>
 												</ul>
 											</div>
 											<div class="col-sm-6"
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
-													<div id="adventure2" class="carousel slide" data-ride="carousel"
-														style="">
+													<div id="adventure2" class="carousel slide" data-ride="carousel">
 														<!-- Indicators -->
 														<ol class="carousel-indicators">
 															<li data-target="#adventure2" data-slide-to="0" class="">
@@ -1739,7 +1788,7 @@
 												</li>
 												<li>
 													<a
-														class="travel-booking-btn hvr-shutter-out-horizontal"
+														class="travel-booking-btn hvr-shutter-out-horizontal query turnoff"
 														style="float: right;margin-right: 15px;"href="day-out-tab.html">View Dayout Packages</a>
 												</li>
 												<li>
@@ -1758,7 +1807,7 @@
 							</div>
 
 							<section class="section-margins top-destination-area top-destination-area-5">
-								<div class="container">
+								<div class="">
 									<div class="row">
 										<div class="col-sm-12">
 											<div class="section-title-3 mbt-100 related-title"
@@ -1883,7 +1932,7 @@
 
 							<!-- realted tour start here -->
 							<section class="related-tour popular-packages">
-								<div class="container">
+								<div class="">
 									<div class="row">
 										<div class="col-sm-12">
 											<div class="section-title-3 mbt-100 related-title"
@@ -2152,8 +2201,7 @@
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
 													<div id="indoor3" class="carousel slide"
-														data-ride="carousel"
-														style="">
+														data-ride="carousel">
 														<!-- Indicators -->
 														<ol class="carousel-indicators">
 															<li data-target="#indoor3" data-slide-to="3"
@@ -2189,50 +2237,70 @@
 												<div class="resort-table">
 													<div class="row" style="background:#f2911b36; font-weight:bold;">
 														<div class="col-md-4 col-xs-4">Activity</div>
-														<div class="col-md-4 col-xs-4">Timing</div>
-														<div class="col-md-4 col-xs-4">Rate</div>
+														<div class="col-md-2 col-xs-2">Duration</div>
+														<div class="col-md-2 col-xs-2">A-la-Carte</div>
+														<div class="col-md-2 col-xs-2">Day Use</div>
+														<div class="col-md-2 col-xs-2">Stay</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Bowling</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Board Games</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Paylimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
 														<div class="col-md-4 col-xs-4">Carrom</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
 														<div class="col-md-4 col-xs-4">Chess</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Foosball</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Kids Corner</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
 														<div class="col-md-4 col-xs-4">Pool Table</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
 														<div class="col-md-4 col-xs-4">Table Tennis</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 												</div>
 												<ul class="resort-table" style="list-style-type: none;">
 													<li
 														style="font-size:11px; font-weight:normal; margin-bottom:0px; text-align:left">
-														Rates exclusive of GST</li>
+														POP - Part Of Package | GST Applicable</li>
 												</ul>
 											</div>
 										</div>
@@ -2252,81 +2320,76 @@
 												<div class="resort-table">
 													<div class="row" style="background:#f2911b36; font-weight:bold;">
 														<div class="col-md-4 col-xs-4">Activity</div>
-														<div class="col-md-4 col-xs-4">Timing</div>
-														<div class="col-md-4 col-xs-4">Rate</div>
+														<div class="col-md-2 col-xs-2">Duration</div>
+														<div class="col-md-2 col-xs-2">A-la-Carte</div>
+														<div class="col-md-2 col-xs-2">Day Use</div>
+														<div class="col-md-2 col-xs-2">Stay</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Archery</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Board Games</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Badminton</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Carrom</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Childrens Playground</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Chess</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Cycling</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Kids Corner</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Nature Walk</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Pool Table</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4"></div>
-														<div class="col-md-4 col-xs-4">
+														<div class="col-md-4 col-xs-4">Table Tennis</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4"></div>
-													</div>
-													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4"></div>
-														<div class="col-md-4 col-xs-4">
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
 														</div>
-														<div class="col-md-4 col-xs-4"></div>
-													</div>
-													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4"></div>
-														<div class="col-md-4 col-xs-4">
-														</div>
-														<div class="col-md-4 col-xs-4"></div>
-													</div>
-													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4"></div>
-														<div class="col-md-4 col-xs-4">
-														</div>
-														<div class="col-md-4 col-xs-4"></div>
-													</div>
-													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4"></div>
-														<div class="col-md-4 col-xs-4">
-														</div>
-														<div class="col-md-4 col-xs-4"></div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 												</div>
 												<ul class="resort-table" style="list-style-type: none;">
 													<li
 														style="font-size:11px; font-weight:normal; margin-bottom:0px; text-align:left">
-														Rates exclusive of GST</li>
+														POP - Part Of Package | GST Applicable</li>
 												</ul>
 											</div>
 											<div class="col-sm-6"
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
-													<div id="outdoor3" class="carousel slide" data-ride="carousel"
-														style="">
+													<div id="outdoor3" class="carousel slide" data-ride="carousel">
 														<!-- Indicators -->
 														<ol class="carousel-indicators">
 															<li data-target="#outdoor3" data-slide-to="0" class="active">
@@ -2373,8 +2436,7 @@
 											<div class="col-sm-6"
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
-													<div id="aqua3" class="carousel slide" data-ride="carousel"
-														style="">
+													<div id="aqua3" class="carousel slide" data-ride="carousel">
 														<!-- Indicators -->
 														<ol class="carousel-indicators">
 															<li data-target="#aqua3" data-slide-to="0" class="active">
@@ -2418,50 +2480,70 @@
 												<div class="resort-table">
 													<div class="row" style="background:#f2911b36; font-weight:bold;">
 														<div class="col-md-4 col-xs-4">Activity</div>
-														<div class="col-md-4 col-xs-4">Timing</div>
-														<div class="col-md-4 col-xs-4">Rate</div>
+														<div class="col-md-2 col-xs-2">Duration</div>
+														<div class="col-md-2 col-xs-2">A-la-Carte</div>
+														<div class="col-md-2 col-xs-2">Day Use</div>
+														<div class="col-md-2 col-xs-2">Stay</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Boating</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Board Games</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Kids Pool</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Carrom</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Swimming Pool</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Chess</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4"></div>
-														<div class="col-md-4 col-xs-4">
+														<div class="col-md-4 col-xs-4">Kids Corner</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4"></div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4"></div>
-														<div class="col-md-4 col-xs-4">
+														<div class="col-md-4 col-xs-4">Pool Table</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4"></div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4"></div>
-														<div class="col-md-4 col-xs-4">
+														<div class="col-md-4 col-xs-4">Table Tennis</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4"></div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 												</div>
 												<ul class="resort-table" style="list-style-type: none;">
 													<li
 														style="font-size:11px; font-weight:normal; margin-bottom:0px; text-align:left">
-														Rates exclusive of GST</li>
+														POP - Part Of Package | GST Applicable</li>
 												</ul>
 											</div>
 										</div>
@@ -2480,57 +2562,76 @@
 												<div class="resort-table">
 													<div class="row" style="background:#f2911b36; font-weight:bold;">
 														<div class="col-md-4 col-xs-4">Activity</div>
-														<div class="col-md-4 col-xs-4">Timing</div>
-														<div class="col-md-4 col-xs-4">Rate</div>
+														<div class="col-md-2 col-xs-2">Duration</div>
+														<div class="col-md-2 col-xs-2">A-la-Carte</div>
+														<div class="col-md-2 col-xs-2">Day Use</div>
+														<div class="col-md-2 col-xs-2">Stay</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Kayaking</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Board Games</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Trampoline</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Carrom</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Zipline</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Chess</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Pay Per Use</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4"></div>
-														<div class="col-md-4 col-xs-4">
+														<div class="col-md-4 col-xs-4">Kids Corner</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4"></div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4"></div>
-														<div class="col-md-4 col-xs-4">
+														<div class="col-md-4 col-xs-4">Pool Table</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4"></div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4"></div>
-														<div class="col-md-4 col-xs-4">
+														<div class="col-md-4 col-xs-4">Table Tennis</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4"></div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 												</div>
 												<ul class="resort-table" style="list-style-type: none;">
 													<li
 														style="font-size:11px; font-weight:normal; margin-bottom:0px; text-align:left">
-														Rates exclusive of GST</li>
+														POP - Part Of Package | GST Applicable</li>
 												</ul>
 											</div>
 											<div class="col-sm-6"
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
-													<div id="adventure3" class="carousel slide" data-ride="carousel"
-														style="">
+													<div id="adventure3" class="carousel slide" data-ride="carousel">
 														<!-- Indicators -->
 														<ol class="carousel-indicators">
 															<li data-target="#adventure3" data-slide-to="0" class="">
@@ -2614,7 +2715,7 @@
 												</li>
 												<li>
 													<a
-														class="travel-booking-btn hvr-shutter-out-horizontal query"
+														class="travel-booking-btn hvr-shutter-out-horizontal query turnoff"
 														style="float: right;margin-right: 15px;"href="day-out-tab.html">View Dayout Packages</a>
 												</li>
 												<li>
@@ -3028,8 +3129,7 @@
 											<div class="col-sm-6"
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
-													<div id="indoor4" class="carousel slide" data-ride="carousel"
-														style="">
+													<div id="indoor4" class="carousel slide" data-ride="carousel">
 														<!-- Indicators -->
 														<ol class="carousel-indicators">
 															<li data-target="#indoor4" data-slide-to="0" class="active">
@@ -3098,50 +3198,70 @@
 												<div class="resort-table">
 													<div class="row" style="background:#f2911b36; font-weight:bold;">
 														<div class="col-md-4 col-xs-4">Activity</div>
-														<div class="col-md-4 col-xs-4">Timing</div>
-														<div class="col-md-4 col-xs-4">Rate</div>
+														<div class="col-md-2 col-xs-2">Duration</div>
+														<div class="col-md-2 col-xs-2">A-la-Carte</div>
+														<div class="col-md-2 col-xs-2">Day Use</div>
+														<div class="col-md-2 col-xs-2">Stay</div>
 													</div>
 													<div class="row" style="background:#8080800a">
 														<div class="col-md-4 col-xs-4">Board Games</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
 														<div class="col-md-4 col-xs-4">Carrom</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Foosball</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Chess</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
+													</div>
+													<div class="row" style="background:#8080800a">
+														<div class="col-md-4 col-xs-4">Kids Corner</div>
+														<div class="col-md-2 col-xs-2">30 minutes
+														</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
 														<div class="col-md-4 col-xs-4">Pool Table</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">&#8377 200/- for 30 minutes</div>
-													</div>
-													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">PS4</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
 														</div>
-														<div class="col-md-4 col-xs-4">&#8377 400/- for 30 minutes</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
 														<div class="col-md-4 col-xs-4">Table Tennis</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 												</div>
 												<ul class="resort-table" style="list-style-type: none;">
 													<li
 														style="font-size:11px; font-weight:normal; margin-bottom:0px; text-align:left">
-														Rates exclusive of GST</li>
+														POP - Part Of Package | GST Applicable</li>
 												</ul>
 											</div>
 										</div>
@@ -3161,81 +3281,76 @@
 												<div class="resort-table">
 													<div class="row" style="background:#f2911b36; font-weight:bold;">
 														<div class="col-md-4 col-xs-4">Activity</div>
-														<div class="col-md-4 col-xs-4">Timing</div>
-														<div class="col-md-4 col-xs-4">Rate</div>
+														<div class="col-md-2 col-xs-2">Duration</div>
+														<div class="col-md-2 col-xs-2">A-la-Carte</div>
+														<div class="col-md-2 col-xs-2">Day Use</div>
+														<div class="col-md-2 col-xs-2">Stay</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Archery</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Board Games</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">&#8377 200/- 6 arrows</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Air Gun Shooting</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Carrom</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">&#8377 200/- for 6 bullets</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Badminton</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Chess</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Basketball</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Kids Corner</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Cricket</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Pool Table</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Cycling</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Table Tennis</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">&#8377 200/- for 30 minutes</div>
-													</div>
-													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Duo Cycling</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
 														</div>
-														<div class="col-md-4 col-xs-4">&#8377 300/- for 30 minutes</div>
-													</div>
-													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Dart</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
-														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
-													</div>
-													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Frisbee</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
-														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
-													</div>
-													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4"></div>
-														<div class="col-md-4 col-xs-4">
-														</div>
-														<div class="col-md-4 col-xs-4"></div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 												</div>
 												<ul class="resort-table" style="list-style-type: none;">
 													<li
 														style="font-size:11px; font-weight:normal; margin-bottom:0px; text-align:left">
-														Rates exclusive of GST</li>
+														POP - Part Of Package | GST Applicable</li>
 												</ul>
 											</div>
 											<div class="col-sm-6"
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
-													<div id="outdoor4" class="carousel slide" data-ride="carousel"
-														style="">
+													<div id="outdoor4" class="carousel slide" data-ride="carousel">
 														<!-- Indicators -->
 														<ol class="carousel-indicators">
 															<li data-target="#outdoor4" data-slide-to="0" class="">
@@ -3305,8 +3420,7 @@
 											<div class="col-sm-6"
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
-													<div id="aqua4" class="carousel slide" data-ride="carousel"
-														style="">
+													<div id="aqua4" class="carousel slide" data-ride="carousel">
 														<!-- Indicators -->
 														<ol class="carousel-indicators">
 															<li data-target="#aqua4" data-slide-to="0" class="active">
@@ -3351,50 +3465,70 @@
 												<div class="resort-table">
 													<div class="row" style="background:#f2911b36; font-weight:bold;">
 														<div class="col-md-4 col-xs-4">Activity</div>
-														<div class="col-md-4 col-xs-4">Timing</div>
-														<div class="col-md-4 col-xs-4">Rate</div>
+														<div class="col-md-2 col-xs-2">Duration</div>
+														<div class="col-md-2 col-xs-2">A-la-Carte</div>
+														<div class="col-md-2 col-xs-2">Day Use</div>
+														<div class="col-md-2 col-xs-2">Stay</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Paddle Boating</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Board Games</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">&#8377 200/- for 30 minutes</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Paddle Scooter</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Carrom</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">&#8377 600/- for 30 minutes</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Kids Pool</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Chess</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Swimming Pool</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Kids Corner</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">Complimentary</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4"></div>
-														<div class="col-md-4 col-xs-4">
+														<div class="col-md-4 col-xs-4">Pool Table</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4"></div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4"></div>
-														<div class="col-md-4 col-xs-4">
+														<div class="col-md-4 col-xs-4">Table Tennis</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4"></div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 												</div>
 												<ul class="resort-table" style="list-style-type: none;">
 													<li
 														style="font-size:11px; font-weight:normal; margin-bottom:0px; text-align:left">
-														Rates exclusive of GST</li>
+														POP - Part Of Package | GST Applicable</li>
 												</ul>
 											</div>
 										</div>
@@ -3414,57 +3548,76 @@
 												<div class="resort-table">
 													<div class="row" style="background:#f2911b36; font-weight:bold;">
 														<div class="col-md-4 col-xs-4">Activity</div>
-														<div class="col-md-4 col-xs-4">Timing</div>
-														<div class="col-md-4 col-xs-4">Rate</div>
+														<div class="col-md-2 col-xs-2">Duration</div>
+														<div class="col-md-2 col-xs-2">A-la-Carte</div>
+														<div class="col-md-2 col-xs-2">Day Use</div>
+														<div class="col-md-2 col-xs-2">Stay</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Electric Scooter</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Board Games</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">&#8377 500/- for 30 minutes</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Kayaking</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Carrom</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">&#8377 500/- for 30 minutes</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4">Trampoline</div>
-														<div class="col-md-4 col-xs-4">10.00 am - 6.00 pm
+														<div class="col-md-4 col-xs-4">Chess</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4">&#8377 130/- for 30 minutes</div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4"></div>
-														<div class="col-md-4 col-xs-4">
+														<div class="col-md-4 col-xs-4">Kids Corner</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4"></div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4"></div>
-														<div class="col-md-4 col-xs-4">
+														<div class="col-md-4 col-xs-4">Pool Table</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4"></div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 													<div class="row" style="background:#8080800a">
-														<div class="col-md-4 col-xs-4"></div>
-														<div class="col-md-4 col-xs-4">
+														<div class="col-md-4 col-xs-4">Table Tennis</div>
+														<div class="col-md-2 col-xs-2">30 minutes
 														</div>
-														<div class="col-md-4 col-xs-4"></div>
+														<div class="col-md-2 col-xs-2">&#8377 100/-</div>
+														<div class="col-md-2 col-xs-2">POP
+														</div>
+														<div class="col-md-2 col-xs-2">POP</div>
 													</div>
 												</div>
 												<ul class="resort-table" style="list-style-type: none;">
 													<li
 														style="font-size:11px; font-weight:normal; margin-bottom:0px; text-align:left">
-														Rates exclusive of GST</li>
+														POP - Part Of Package | GST Applicable</li>
 												</ul>
 											</div>
 											<div class="col-sm-6"
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
-													<div id="adventure4" class="carousel slide" data-ride="carousel"
-														style="">
+													<div id="adventure4" class="carousel slide" data-ride="carousel">
 														<!-- Indicators -->
 														<ol class="carousel-indicators">
 															<li data-target="#adventure4" data-slide-to="0" class="">
@@ -3548,7 +3701,7 @@
 												</li>
 												<li>
 													<a
-														class="travel-booking-btn hvr-shutter-out-horizontal query"
+														class="travel-booking-btn hvr-shutter-out-horizontal query turnoff"
 														style="float: right;margin-right: 15px;"href="day-out-tab.html">View Dayout Packages</a>
 												</li>
 												<li>
@@ -3566,7 +3719,7 @@
 							</div>
 
 							<section class="section-margins top-destination-area top-destination-area-5">
-								<div class="container">
+								<div class="">
 									<div class="row">
 										<div class="col-sm-12">
 											<div class="section-title-3 mbt-100 related-title"
@@ -3689,7 +3842,7 @@
 
 							<!-- realted tour start here -->
 							<section class="related-tour popular-packages">
-								<div class="container">
+								<div class="">
 									<div class="row">
 										<div class="col-sm-12">
 											<div class="section-title-3 mbt-100 related-title"
@@ -3861,8 +4014,7 @@
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
 													<div id="indoor5" class="carousel slide"
-														data-ride="carousel"
-														style="">
+														data-ride="carousel">
 														<ol class="carousel-indicators">
 															<li data-target="#indoor5" data-slide-to="3"
 																class="active"></li>
@@ -4038,8 +4190,7 @@
 											<div class="col-sm-6"
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
-													<div id="outdoor5" class="carousel slide" data-ride="carousel"
-														style="">
+													<div id="outdoor5" class="carousel slide" data-ride="carousel">
 														<ol class="carousel-indicators">
 															<li data-target="#outdoor5" data-slide-to="0" class="active">
 															</li>
@@ -4091,8 +4242,7 @@
 											<div class="col-sm-6"
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
-													<div id="aqua5" class="carousel slide" data-ride="carousel"
-														style="">
+													<div id="aqua5" class="carousel slide" data-ride="carousel">
 														<ol class="carousel-indicators">
 															<li data-target="#aqua5" data-slide-to="0" class="active">
 															</li>
@@ -4257,8 +4407,7 @@
 											<div class="col-sm-6"
 												style="padding: 0 30px 10px 30px; padding-bottom:10px;">
 												<div class="row">
-													<div id="adventure5" class="carousel slide" data-ride="carousel"
-														style="">
+													<div id="adventure5" class="carousel slide" data-ride="carousel">
 														<ol class="carousel-indicators">
 															<li data-target="#adventure5" data-slide-to="0" class="">
 															</li>
