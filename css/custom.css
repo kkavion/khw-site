@@ -159,7 +159,6 @@ header .sticky .header-bottom-area .main-menu > li.active a
      padding: 0px 0 5px 0;
      font-size: 13px;
      margin-right: 10px;
-     font-family: 'Open Sans', sans-serif;
 }
 .amenities-sec
 {
@@ -195,7 +194,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
      color: #525252;
 }
-.amenities-sec h4
+.amenities-sec h3
 {
      color: black;
      padding: 20px 0px;
@@ -287,7 +286,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .timeline-content .box
 {
-	background-color: #f0f0f0;
+	background-color: white;
 	border-radius: 10px;
      transition: all .3s ease-in-out;
 }
@@ -793,7 +792,7 @@ header .main-menu a:focus
 i
 {
      font-family: 'Open Sans', sans-serif;
-     font-size: 17px;
+     font-size: 18px;
 }
 .form-control 
 { 
@@ -1660,13 +1659,21 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      background-color: white;
      border-radius: 0 0 10px 10px;
 }
-.leisure-page-area, .gourmet-page-area, .wedding-page-area, .conference-page-area, .resorts-bg
+.leisure-page-area, .gourmet-page-area, .wedding-page-area, .conference-page-area, .wellness-page-area
 {
      background-image: url("https://transparenttextures.com/patterns/subtle-white-feathers.png");
 }
-.wellness-page-area
+.resorts-bg, .rate-pg
 {
      background-image: url("https://transparenttextures.com/patterns/xv.png");
+}
+.rate-pg
+{
+     background-color: cornsilk;
+}
+.destination-bg
+{
+     background: #f5f5f5;
 }
 .section-margins
 {
@@ -1711,13 +1718,13 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .sale-tab-2, .resort-rooms, .day-out, .offer-tab
 {
-     background: #f0f0f0;
+     background: #f5f5f5;
 }
 .sale-tab-2 .resort-table .row:nth-child(2), .resort-rooms .resort-table .row:nth-child(2), .day-out .resort-table .row:nth-child(2), .offer-tab .resort-table .row:nth-child(2)
 {
      padding: 0;
      text-align: left;
-     background: #f0f0f0;
+     background: #f5f5f5;
      border-radius: 10px;
 }
 .sale-tab-2 .resort-table .row:nth-child(2) .col-md-3, .resort-rooms .resort-table .row:nth-child(2) .col-md-3, .day-out .resort-table .row:nth-child(2) .col-md-3, .offer-tab .resort-table .row:nth-child(2) .col-md-3
@@ -1797,4 +1804,22 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .resorts-bg .visit-site span
 {
      color: #049dd9;
+}
+.rate-pg .resort-table, .conf-rate-pg .resort-table
+{
+     font-size: 15px;
+}
+.rate-pg .resort-table .row, .conf-rate-pg, .resort-table .row
+{
+     padding-top: 6px;
+     padding-bottom: 6px;
+}
+.rate-pg .resort-table .col-md-2, .rate-pg .resort-table .col-md-1, 
+.conf-rate-pg .resort-table .col-md-2, .conf-rate-pg .resort-table .col-md-1
+{
+     text-align: center;
+}
+.conf-rate-pg
+{
+     background-image: url("https://transparenttextures.com/patterns/subtle-white-feathers.png");
 }

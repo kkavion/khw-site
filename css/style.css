@@ -200,7 +200,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      background: #0095da;
      display: inline-block;
      padding: 5px 10px !important;
-     border-radius: 3px;
+     border-radius: 5px;
      font-size: 15px;
      color: #fff;
      font-family: "Open Sans", sans-serif;
@@ -791,6 +791,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: black;
      font-size: 20px;
      transition: all ease-in-out 0.5s;
+     margin-bottom: 5px;
 }
  .popular-packages .single-package .package-content p {
      color: #353535;
@@ -3865,7 +3866,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  aside .booking-form .form-group .check-availability, aside .booking-form .form-group .booking-confirm {
      background: transparent none repeat scroll 0 0;
      border: 1px solid #cccccc;
-     border-radius: 3px;
+     border-radius: 5px;
      font-size: 15px;
      font-weight: 400;
      color: #454545;
