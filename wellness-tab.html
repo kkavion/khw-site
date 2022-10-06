@@ -535,7 +535,7 @@
 													<div class="section-title-3 mbt-100 related-title"
 														style="padding-left:0px;margin-top:20px">
 														<span
-															style="font-size: 24px;">Dayout Packages</span>
+															style="font-size: 24px;">Dayout Packages ~ Wellness</span>
 														<p>Going to a resort and doing nothing at all is barely any fun so Raichak provides you with all that you need to amuse yourself! From lounges where you can groove to the lively music to playing games in a club overlooking the Ganges or going for a riverside cruise, you have all that you need to keep yourself happily occupied and spend a fun-filled day with your loved ones!!</p>
 													</div>
 												</div>
@@ -548,8 +548,8 @@
 															<a href="#"><img src="images/home/dayout/1.jpg" alt=""></a>
 														</div>
 														<div class="destination-5-description">
-															<span>Dayout</span>
-															<h3>Fundays</h3>
+															<span>Balinese</span>
+															<h3>Head & Shoulder</h3>
 															<p>Starting @ <span> &#8377
 																6,599/-</span>
 															</p>
@@ -560,7 +560,7 @@
 																<span class="material-icons" title="Restaurant">restaurant</span>
 																<span class="material-icons" title="Bar">local_bar</span>
 															</div>
-															<p>Premium</p>
+															<p>45 minutes</p>
 																</li>
 															</ul>
 															<a href="resort-page.html" class="travel-primary-btn-sm hvr-shutter-out-horizontal">Explore</a>
@@ -574,10 +574,10 @@
 															<a href="#"><img src="images/home/dayout/2.jpg" alt=""></a>
 														</div>
 														<div class="destination-5-description">
-															<span>Dayout</span>
-															<h3>Celebration</h3>
+															<span>Ayurvedic</span>
+															<h3>Shirodhara</h3>
 															<p>Starting @ <span> &#8377
-																1,999/-</span>
+																6,999/-</span>
 															</p>
 															<div class="amenities-row">
 																<span class="material-icons" title="Swimming Pool">pool</span>
@@ -586,7 +586,7 @@
 																<span class="material-icons" title="Restaurant">restaurant</span>
 																<span class="material-icons" title="Bar">local_bar</span>
 															</div>
-															<p>Standard</p>
+															<p>90 Minutes</p>
 																</li>
 															</ul>
 															<a href="resort-page.html" class="travel-primary-btn-sm hvr-shutter-out-horizontal">Explore</a>
@@ -600,8 +600,8 @@
 															<a href="#"><img src="images/home/dayout/3.jpg" alt=""></a>
 														</div>
 														<div class="destination-5-description">
-															<span>Dayout</span>
-															<h3>Food Fiesta</h3>
+															<span>Swedish</span>
+															<h3>Full Body</h3>
 															<p>Starting @<span> &#8377
 																1,699/-</span>
 															</p>
@@ -612,7 +612,7 @@
 																<span class="material-icons" title="Restaurant">restaurant</span>
 																<span class="material-icons" title="Bar">local_bar</span>
 															</div>
-															<p>Luxury</p>
+															<p>120 Minutes</p>
 																</li>
 															</ul>
 															<a href="resort-page.html" class="travel-primary-btn-sm hvr-shutter-out-horizontal">Explore</a>
@@ -626,8 +626,8 @@
 															<a href="#"><img src="images/home/dayout/4.jpg" alt=""></a>
 														</div>
 														<div class="destination-5-description">
-															<span>Dayout</span>
-															<h3>Events</h3>
+															<span>Thai</span>
+															<h3>Hot Stone</h3>
 															<p>Starting @ <span> &#8377
 																6,999/-</span>
 															</p>
@@ -638,7 +638,9 @@
 																<span class="material-icons" title="Restaurant">restaurant</span>
 																<span class="material-icons" title="Bar">local_bar</span>
 															</div>
-															<p>Luxury</p>
+															<p>30 
+																Minutes
+															</p>
 																</li>
 															</ul>
 															<a href="resort-page.html" class="travel-primary-btn-sm hvr-shutter-out-horizontal">Explore</a>
@@ -4248,18 +4250,27 @@
 
 		// Get the navbar
 		var navbar = document.getElementById("navbar");
+		var mobnav = document.getElementById("mobnav");
 
 		// Get the offset position of the navbar
 		var sticky = navbar.offsetTop+450;
+		var sticky2 = mobnav.offsetTop+150;
 
 		// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 		function myFunction() {
 			if (window.pageYOffset >= sticky) {
-				navbar.classList.add("sticky")
+				navbar.classList.add("sticky");
 			}
 			else {
 				navbar.classList.remove("sticky");
 			}
+			if (window.pageYOffset >= sticky2) {
+				mobnav.classList.add("sticky2");
+			}
+			else {
+				mobnav.classList.remove("sticky2");
+			}
+
 		}
 	</script>
 </body>
