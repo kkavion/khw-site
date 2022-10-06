@@ -273,6 +273,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .single-package-carasoul:hover
 {
 	transition: all 0.3s ease 0s;
+	box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
 }
 .booking-title
 {
@@ -337,10 +338,10 @@ header .sticky .header-bottom-area .main-menu > li.active a
      display: inline-block;
      padding: 0;
      position: relative;
-     box-shadow: 0 0px 1px gray;
      background: white;
      margin: 2px 0;
      border-radius: 10px;
+     border: 1px solid lightgray;
 }
 .header-bottom-area .tab-a > li > a:before
 {
@@ -376,7 +377,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .header-bottom-area .tab-b > li > a {
      display: block;
-     color: #049dd9;
+     color: #f2911b;
      font-size: 15px;
      text-decoration: none;
      font-weight: 500;
@@ -389,11 +390,11 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .header-bottom-area .tab-b > li.active
 {
-     background: #049dd9;
+     background: #f2911b;
 }
 .header-bottom-area .tab-b > li:hover
 {
-     background: #049dd9;
+     background: #f2911b;
 }
 .header-bottom-area .tab-b > li:hover a
 {
@@ -402,7 +403,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .header-bottom-area .tab-b > li {
      display: inline-block;
      position: relative;
-     box-shadow: 0 0 1px 0 gray;
+     border: 1px solid lightgray;
      border-radius: 10px;
      margin: 3px 0;
      transition: all ease-in 0.3s;
@@ -435,7 +436,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .header-bottom-area .tab-c > li {
      display: inline-block;
      position: relative;
-     box-shadow: 0 0px 1px gray;
+     border: 1px solid lightgray;
      margin: 1px;
      border-radius: 10px;
      padding: 0;
@@ -469,7 +470,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
      display: inline-block;
      padding: 0;
      position: relative;
-     box-shadow: 0 0px 1px gray;
+     border: 1px solid lightgray;
      background: white;
      margin: 1px;
      border-radius: 10px;
@@ -495,7 +496,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
      display: inline-block;
      padding: 10px 20px;
      position: relative;
-     box-shadow: 0 0px 1px gray;
+     border: 1px solid lightgray;
      background: #049dd9;
      margin: 1px 0;
 }
@@ -744,7 +745,7 @@ header .main-menu a:focus
 }
 .single-hotels ul
 {
-     padding: 2% 20%;
+     padding: 5% 30%;
 }
 .single-package-carasoul .package-location span img
 {
@@ -1458,7 +1459,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .home-interest-area .single-hotels .ct-action .travel-booking-btn
 {
-     background: red;
+     background: #049dd9;
 }
 .home-interest-area .single-hotels .ct-action li:nth-child(1)
 {
@@ -1606,16 +1607,16 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      position: relative;
      background: #f2911b;
      font-size: 14px;
-     padding: 18.5px;
+     padding: 10px;
      width: 100%;
-     border-radius: 10px;
+     border-radius: 5px;
      color: #ffffff;
      text-transform: uppercase;
      font-weight: 600;
 }
 .top-destination-area .search-btn
 {
-     padding: 0px 42%;
+     padding: 0% 46%;
 }
 .bidnwin
 {
@@ -1697,6 +1698,10 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      font-family: 'Open Sans', sans-serif;
      font-weight: 500;
+}
+.leisure-page-area .col-md-2, .wellness-page-area .col-md-2, .gourmet-page-area .col-md-2, .conference-page-area .col-md-2, .wedding-page-area .col-md-2
+{
+     text-align: center;
 }
 .faq-section .panel-heading
 {
@@ -1822,4 +1827,8 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .conf-rate-pg
 {
      background-image: url("https://transparenttextures.com/patterns/subtle-white-feathers.png");
+}
+.mean-nav .dropdown-text
+{
+     width: 89% !important;
 }
