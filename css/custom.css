@@ -325,7 +325,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
      font-weight: 500;
      position: relative;
      text-align:center;
-     padding: 10px 40px;
+     padding: 10px 30px;
 }
 .header-bottom-area .tab-a > li.active a {
      color:  white !important;
@@ -383,7 +383,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
      font-weight: 500;
      position: relative;
      text-align:center;
-     padding: 10px 20px 10px 20px;
+     padding: 10px 30px;
 }
 .header-bottom-area .tab-b > li.active a {
      color:   white !important;
@@ -424,7 +424,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
      font-weight: 500;
      position: relative;
      text-align:center;
-     padding: 10px 23px 10px 23px;
+     padding: 10px 20px;
 }
 .header-bottom-area .tab-c > li.active a {
      color: white !important;
@@ -457,7 +457,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
      font-weight: 500;
      position: relative;
      text-align:center;
-     padding: 10px 32px 10px 32px;
+     padding: 10px 30px;
 }
 .header-bottom-area .tab-d > li.active a {
      color:   white !important;
@@ -1831,4 +1831,21 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .mean-nav .dropdown-text
 {
      width: 89% !important;
+}
+#intoverlay, #intoverlay2, #intoverlay3, #intoverlay4, #intoverlay5
+{
+     position: fixed; /* Sit on top of the page content */
+     display: none; /* Hidden by default */
+     width: 100%; /* Full width (cover the whole page) */
+     height: 100%; /* Full height (cover the whole page) */
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+     z-index: 1000; /* Specify a stack order in case you're using a different order for other elements */
+     cursor: pointer; /* Add a pointer on hover */
+     overflow-y: scroll;
+     text-align: center;
+     padding-top: 40px;
 }

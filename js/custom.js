@@ -419,3 +419,19 @@ function openSearch() {
   function closeSearch() {
 	document.getElementById("myOverlay").style.display = "none";
   }
+function openOverlay()
+{
+	document.getElementById("intoverlay").style.display = "block";
+	document.getElementById("intoverlay2").style.display = "block";
+	document.getElementById("intoverlay3").style.display = "block";
+	document.getElementById("intoverlay4").style.display = "block";
+	document.getElementById("intoverlay5").style.display = "block";
+}
+function closeOverlay()
+{
+	document.getElementById("intoverlay").style.display = "none";
+	document.getElementById("intoverlay2").style.display = "none";
+	document.getElementById("intoverlay3").style.display = "none";
+	document.getElementById("intoverlay4").style.display = "none";
+	document.getElementById("intoverlay5").style.display = "none";
+}

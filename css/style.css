@@ -1842,12 +1842,13 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: #ffffff;
      font-size: 20px;
      font-weight: 600;
-     height: 25px;
      left: 0;
      line-height: 25px;
      position: absolute;
      text-align: center;
      transition: all 0.3s ease-in-out 0s;
+     padding: 5px;
+     border-radius: 0 10px 0 0;
 }
  .single-package-carasoul .package-details {
      background: #ffffff;
