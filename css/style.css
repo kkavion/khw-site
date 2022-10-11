@@ -192,7 +192,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      box-shadow: none;
 }
  .section-paddings {
-     padding: 50px 0;    padding-top:25px;
+     padding: 50px 0;    
 }
 /*=====basce css end here=========*/
 /*============================== theme buttons css goes here ===============================*/
@@ -1840,7 +1840,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      background: #0095da none repeat scroll 0 0;
      bottom: 0;
      color: #ffffff;
-     font-size: 20px;
+     font-size: 14px;
      font-weight: 600;
      left: 0;
      line-height: 25px;
@@ -1925,7 +1925,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .single-package-carasoul .package-long-btn a {
      color: #ffffff;
-     text-transform: uppercase;
      width: 100%;
      display: block;
      padding: 15px 0;
