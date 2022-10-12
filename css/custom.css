@@ -273,7 +273,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .single-package-carasoul:hover
 {
 	transition: all 0.3s ease 0s;
-	box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+	box-shadow: 0 0 10px rgb(0, 0, 0, 0.5) !important;
 }
 .booking-title
 {
@@ -1783,7 +1783,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .resort-tab .single-package-carasoul
 {
-     box-shadow: 0 0 5px gray;
+     box-shadow: 0 0 3px gray;
      transition: all ease-in 0.3s;
 }
 .resort-tab .single-package-carasoul .package-details .package-ratings-review .two-column
@@ -1827,8 +1827,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      padding-top: 6px;
      padding-bottom: 6px;
 }
-.rate-pg .resort-table .col-md-2, .rate-pg .resort-table .col-md-1, 
-.conf-rate-pg .resort-table .col-md-2, .conf-rate-pg .resort-table .col-md-1
+.resort-table .col-md-2, .box .col-md-3:not(:first-child)
 {
      text-align: center;
 }
@@ -1899,4 +1898,10 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      color: red;
      font-weight: 600;
+}
+iframe
+{
+     border: 1px solid lightgray;
+     border-radius: 10px;
+     width: 100%;
 }

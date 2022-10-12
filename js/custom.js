@@ -426,6 +426,7 @@ function openOverlay()
 	document.getElementById("intoverlay3").style.display = "block";
 	document.getElementById("intoverlay4").style.display = "block";
 	document.getElementById("intoverlay5").style.display = "block";
+	document.getElementById("intoverlay6").style.display = "block";
 }
 function closeOverlay()
 {
@@ -434,4 +435,5 @@ function closeOverlay()
 	document.getElementById("intoverlay3").style.display = "none";
 	document.getElementById("intoverlay4").style.display = "none";
 	document.getElementById("intoverlay5").style.display = "none";
+	document.getElementById("intoverlay6").style.display = "none";
 }
