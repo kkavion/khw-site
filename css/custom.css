@@ -290,12 +290,14 @@ header .sticky .header-bottom-area .main-menu > li.active a
 	background-color: white;
 	border-radius: 10px;
      transition: all .3s ease-in-out;
+	border: 1px solid lightgray;
 }
 .timeline-content .resort-box
 {
      background-color: white;
 	border-radius: 10px;
      transition: all .3s ease-in-out;
+     border: 1px solid lightgray;
 }
 .timeline-content .box:hover, .timeline-content .resort-box:hover
 {
@@ -750,6 +752,10 @@ header .main-menu a:focus
 .single-package-carasoul .package-location span img
 {
      padding: 0 25px 25px 0 ;
+}
+.box h3
+{
+     margin-bottom: 5px;
 }
 .box .resort-table .discount-package-4-btn  a
 {
@@ -1241,6 +1247,7 @@ button
 .popular-country
 {
      padding-bottom: 0px;
+     padding-top: 25px;
 }
 .single-package-details .tour-description
 {
@@ -1711,6 +1718,10 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      text-align: center;
 }
+.faq-section h3
+{
+     padding-bottom: 25px;
+}
 .faq-section .panel-heading
 {
      padding: 0;
@@ -1822,7 +1833,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      font-size: 15px;
 }
-.rate-pg .resort-table .row, .conf-rate-pg, .resort-table .row
+.rate-pg .resort-table .row, .conf-rate-pg .resort-table .row
 {
      padding-top: 6px;
      padding-bottom: 6px;
@@ -1834,6 +1845,14 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .conf-rate-pg
 {
      background-image: url("https://transparenttextures.com/patterns/subtle-white-feathers.png");
+}
+.conf-rate-pg .related-tour
+{
+     padding-bottom: 0;
+}
+.conf-rate-pg .col-md-1
+{
+     text-align: center;
 }
 .mean-nav .dropdown-text
 {
@@ -1893,6 +1912,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      border-radius: 10px;
      border: 1px solid gray;
      display: inline-block;
+     cursor: pointer;
 }
 .room-rate span
 {
