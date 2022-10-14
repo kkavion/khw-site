@@ -830,7 +830,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      background: #faa61a;
 }
  .popular-packages .single-package:hover .package-content h3 {
-     color: #71bf44;
+     color: #049dd9;
 }
 /*===================================================== 06.Counter section css goes here =======================================================*/
  .count-down-bg {
@@ -1015,8 +1015,8 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 /*===================================================== 09.Blog section css goes here =======================================================*/
  .single-travel-blog {
-     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
      transition: box-shadow 0.3s ease-in-out;
+     border-radius: 10px;
 }
  .single-travel-blog .blog-image {
      overflow: hidden;
@@ -1072,7 +1072,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      transition: all ease-in-out 0.5s;
 }
  .single-travel-blog .blog-content .blog-post-content p {
-     color: #727272;
+     color: #454545;
      font-size: 15px;
      font-weight: 400;
      line-height: 25px;
@@ -3398,6 +3398,8 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .top-destination-area-5 .single-destionation-5 .destination-5-description {
      text-align: center;
      padding: 25px;
+     background: white;
+     border-radius: 0 0 10px 10px;
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-description span {
      color: #454545;
@@ -3467,12 +3469,11 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .testimonial-area-5 .single-testimonial {
      text-align: center;
+     padding-bottom: 25px;
 }
  .testimonial-area-5 .single-testimonial img {
-     width: 120px;
-     height: 120px;
      display: inline-block;
-     margin-left: 25px;
+     border-radius: 10px;
 }
  .testimonial-area-5 .single-testimonial .testimonial-messages {
      padding: 30px 0;
@@ -3480,18 +3481,18 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .testimonial-area-5 .single-testimonial .testimonial-messages p {
      margin: 0 auto;
      max-width: 764px;
-     font-size: 14px;
-     color: white;
+     font-size: 15px;
+     color: #454545;
 }
  .testimonial-area-5 .single-testimonial .author-bio h3 {
      font-size: 20px;
      font-weight: 600;
-     color: white;
+     color: #454545;
      margin: 0;
 }
  .testimonial-area-5 .single-testimonial .author-bio span {
-     font-size: 14px;
-     color: white;
+     font-size: 15px;
+     color: #454545;
      font-weight: 400;
 }
  .testimonial-area-5 .owl-dots {
@@ -4159,27 +4160,22 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .single .single-blog:hover .blog-head img {
      transform: scale(1.2);
 }
- .single .blog-comments {
-     padding: 30px 15px;
-     background: #fff;
-     margin-top: 30px;
-}
  .single .blog-comments h2 {
      text-transform: capitalize;
-     font-size: 20px;
+     font-size: 30px;
      margin-bottom: 15px;
      padding-bottom: 15px;
      position: relative;
      display: inline-block;
-     color: #454545;
+     font-weight: 600;
 }
  .single .blog-comments h2:before {
      position: absolute;
      left: 0;
      bottom: -1px;
      content: "";
-     width: 10%;
-     height: 2px;
+     width: 40%;
+     height: 3px;
      content: "";
      background: #faa61a;
      transition: all ease-in-out 0.3s;
@@ -4250,7 +4246,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-weight: 400;
 }
  .single .blog-comments:hover h2:before {
-     width: 50%;
+     width: 100%;
 }
  .single .comment-respond {
      margin-top: 50px;
@@ -4551,7 +4547,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 .single-travel-blog .blog-image {
      overflow: hidden;
      position: relative;
-     border-radius: 3px;
+     border-radius: 10px;
 }
  .single-travel-blog .blog-image a {
      display: block;

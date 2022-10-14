@@ -1681,11 +1681,11 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .resorts-bg, .rate-pg
 {
-     background-image: url("https://transparenttextures.com/patterns/xv.png");
+     background-image: url("https://transparenttextures.com/patterns/xv.png") !important;
 }
 .rate-pg
 {
-     background-color: cornsilk;
+     background-color: cornsilk !important;
 }
 .destination-bg
 {
@@ -1829,11 +1829,11 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      color: #049dd9;
 }
-.rate-pg .resort-table, .conf-rate-pg .resort-table
+.rate-pg .resort-table, .conf-rate-pg .resort-table, .rate-pg .resort-table
 {
      font-size: 15px;
 }
-.rate-pg .resort-table .row, .conf-rate-pg .resort-table .row
+.rate-pg .resort-table .row, .conf-rate-pg .resort-table .row, .rate-pg .resort-table .row
 {
      padding-top: 6px;
      padding-bottom: 6px;
@@ -1846,13 +1846,24 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      background-image: url("https://transparenttextures.com/patterns/subtle-white-feathers.png");
 }
-.conf-rate-pg .related-tour
+.conf-rate-pg .related-tour, .rate-pg .related-tour
 {
      padding-bottom: 0;
 }
-.conf-rate-pg .col-md-1
+.conf-rate-pg .col-md-1, .conf-rate-pg .col-md-6,
+.rate-pg .col-md-1, .rate-pg .col-md-6
 {
      text-align: center;
+}
+.conf-rate-pg .col-md-6 .travel-primary-btn,
+.rate-pg .col-md-6 .travel-primary-btn
+{
+     width: 50%;
+}
+.conf-rate-pg .col-md-3, .conf-rate-pg .col-md-11,
+.rate-pg .col-md-3, .rate-pg .col-md-11
+{
+     text-align: left;
 }
 .mean-nav .dropdown-text
 {
@@ -1924,4 +1935,19 @@ iframe
      border: 1px solid lightgray;
      border-radius: 10px;
      width: 100%;
+}
+.blog-comments p
+{
+     font-size: 18px;
+}
+.blog-post-content .blog-text-coloured
+{
+     font-size: 18px !important;
+     color: #f2911b !important;
+}
+.testimonial-messages h4
+{
+     margin-bottom: 25px;
+     line-height: 1.5;
+     font-weight: 600;
 }
