@@ -1836,7 +1836,9 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .single-package-carasoul .package-location {
      position: relative;
 }
- .single-package-carasoul .package-location span {
+ .single-package-carasoul .package-location span,
+ .single-package-carasoul .package-location a
+{
      background: #0095da none repeat scroll 0 0;
      bottom: 0;
      color: #ffffff;
@@ -3997,7 +3999,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      clear: both;
 }
  .main-timeline .timeline .timeline-content {
-     padding: 0 50px;
+     padding: 0 30px;
      transition: all 0.3s ease 0s;
      width: 100%;
 }
@@ -4008,7 +4010,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      padding-top: 30px;
 }
  .main-timeline .timeline .timeline-content .timeline-icon {
-     background: #71bf44 none repeat scroll 0 0;
+     background: #049dd9 none repeat scroll 0 0;
      border-radius: 100%;
      color: #ffffff;
      font-size: 35px;
@@ -4022,12 +4024,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      width: 82px;
      z-index: 1;
      transition: all ease-in-out 0.5s;
-}
- .main-timeline .timeline .left {
-     margin-left: 20px;
-}
- .main-timeline .timeline:hover .timeline-icon {
-     background: #faa61a;
 }
  .main-timeline .timeline:hover .timeline-content h3 {
      color: #454545;
