@@ -1083,6 +1083,7 @@ button
 .x-essence
 {
      background: white !important;
+     text-align: left;
 }
 .x-essence .subscribe-form-box
 {
@@ -1168,7 +1169,6 @@ button
 .tour-description p
 {
      text-align: justify;
-     font-size: 16px;
 }
 .tour-description .head h4
 {
@@ -1869,7 +1869,10 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      cursor: pointer;
 }
-#intoverlay, #intoverlay2, #intoverlay3, #intoverlay4, #intoverlay5
+#intoverlay, #intoverlay2, #intoverlay3, #intoverlay4, #intoverlay5,
+#intoverlaya, #intoverlayb, #intoverlayc, #intoverlayd, #intoverlaye, #intoverlayf,
+#intoverlayaa,
+#intoverlayaaa, #intoverlaybbb
 {
      position: fixed; /* Sit on top of the page content */
      display: none; /* Hidden by default */
@@ -1940,6 +1943,11 @@ iframe
 {
      font-size: 18px;
 }
+.blog-post-content .floated-text-right
+{
+     font-size: 13px;
+     padding: 4px;
+}
 .blog-post-content .blog-text-coloured
 {
      font-size: 18px !important;
@@ -1962,9 +1970,9 @@ iframe
 {
      color: white;
 }
-.tour-description .head .col-md-12
+.tour-description .col-md-12, .tour-description .head .col-md-12
 {
-     margin: 5px 0 10px 0;
+     margin: 3px 0 10px 0;
 }
 .tour-description .head p
 {
@@ -1979,7 +1987,7 @@ iframe
      bottom: -3px;
      content: "";
      width: 0%;
-     height: 3px;
+     height: 1px;
      content: "";
      background: #faa61a;
      transition: all ease-in-out 1s;

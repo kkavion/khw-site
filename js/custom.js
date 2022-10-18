@@ -437,3 +437,57 @@ function closeOverlay()
 	document.getElementById("intoverlay5").style.display = "none";
 	document.getElementById("intoverlay6").style.display = "none";
 }
+function openOverlay1()
+{
+	document.getElementById("intoverlaya").style.display = "block";
+	document.getElementById("intoverlayaa").style.display = "block";
+	document.getElementById("intoverlayaaa").style.display = "block";
+}
+function closeOverlay1()
+{
+	document.getElementById("intoverlaya").style.display = "none";
+	document.getElementById("intoverlayaa").style.display = "none";
+	document.getElementById("intoverlayaaa").style.display = "none";
+}
+function openOverlay2()
+{
+	document.getElementById("intoverlayb").style.display = "block";
+	document.getElementById("intoverlaybbb").style.display = "block";
+}
+function closeOverlay2()
+{
+	document.getElementById("intoverlayb").style.display = "none";
+	document.getElementById("intoverlaybbb").style.display = "none";
+}
+function openOverlay3()
+{
+	document.getElementById("intoverlayc").style.display = "block";
+}
+function closeOverlay3()
+{
+	document.getElementById("intoverlayc").style.display = "none";
+}
+function openOverlay4()
+{
+	document.getElementById("intoverlayd").style.display = "block";
+}
+function closeOverlay4()
+{
+	document.getElementById("intoverlayd").style.display = "none";
+}
+function openOverlay5()
+{
+	document.getElementById("intoverlaye").style.display = "block";
+}
+function closeOverlay5()
+{
+	document.getElementById("intoverlaye").style.display = "none";
+}
+function openOverlay6()
+{
+	document.getElementById("intoverlayf").style.display = "block";
+}
+function closeOverlay6()
+{
+	document.getElementById("intoverlayf").style.display = "none";
+}

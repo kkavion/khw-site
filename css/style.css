@@ -1093,7 +1093,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      transform: scale(1.05);
 }
  .single-travel-blog:hover .blog-post-content a {
-     color: #71bf44;
+     color: #049dd9;
 }
 /*===================================================== 10.Testimonial section css goes here =======================================================*/
  .testimonial-area {
@@ -3989,7 +3989,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      z-index: -1;
 }
  .main-timeline .timeline {
-     margin-bottom: 30px;
+     margin-bottom: 15px;
      position: relative;
 }
  .main-timeline .timeline:before, .main-timeline .timeline:after {
@@ -4433,6 +4433,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 .single-travel-blog .blog-content .blog-post-content a {
     font-size: 14px;
     text-transform: uppercase;
+    color: #049dd9;
 }
 
 

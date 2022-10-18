@@ -290,6 +290,14 @@
     {
         text-align: center;
     }
+    .single-travel-blog .blog-content
+    {
+     padding: 10px;
+    }
+    .blog-post-content h4, h5, p
+    {
+        text-align: left
+    }
     .tour-description .tail h4, .tour-description .head h4
     {
         text-align: left !important;
