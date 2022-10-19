@@ -484,7 +484,6 @@
 			</div>
 			<div class="modal fade booking-form aside" id="myModal" role="dialog">
 				<div class="modal-dialog">
-				
 				  <!-- Modal content-->
 				  <div class="modal-content">
 					<div class="modal-header">
@@ -496,8 +495,8 @@
 							<p class="hidden">
 								<label>Don’t fill this out if you’re human: <input name="bot-field"></label>
 							</p>
-							<div class="form-group">
-								<input type="text" class="form-control" id="property">
+							<div class="form-group hidden" >
+								<input type="text" class="form-control" id="property" name="Property">
 							</div>
 							<div class="form-group">
 								<input type="text" class="form-control" id="name" placeholder="Name *" name="Name" required="">
@@ -518,14 +517,11 @@
 								<textarea name="messgae" id="message" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
 							</div>
 							<div class="form-group">
-								<button type="submit" class="booking-confirm hvr-shutter-out-horizontal">
+								<button type="submit" class="travel-booking-btn hvr-shutter-out-horizontal">
 									Send
 								</button>
 							</div>
 						</form>
-					</div>
-					<div class="modal-footer">
-					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				  </div>
 				  

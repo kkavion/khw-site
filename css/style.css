@@ -3211,6 +3211,10 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      text-align: center;
      padding: 10px;
 }
+.single-hotels .hotel-description p
+{
+    text-align: center;
+}
  .single-hotels .hotel-description h4 {
      color: #454545;
      font-size: 20px;
@@ -3419,6 +3423,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .top-destination-area-5 .single-destionation-5 .destination-5-description > p {
      font-weight: 500;
      margin-top: 5px;
+     text-align: center;
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-description > p span {
      font-weight: 600;
