@@ -1762,7 +1762,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: #454545;
 }
  .section-title-version-2-black p {
-     color: #727272;
+     color: #353535;
 }
 /*===================================================== 19.home version 2 welcome section css goes here =======================================================*/
  .welcome-area .single-welcome-area {
@@ -1836,8 +1836,18 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .single-package-carasoul .package-location {
      position: relative;
 }
- .single-package-carasoul .package-location span,
  .single-package-carasoul .package-location a
+{
+     
+     color: #ffffff;
+     font-size: 14px;
+     font-weight: 600;
+     left: 0;
+     line-height: 25px;
+     text-align: center;
+     transition: all 0.3s ease-in-out 0s;
+}
+ .single-package-carasoul .package-location span
 {
      background: #0095da none repeat scroll 0 0;
      bottom: 0;

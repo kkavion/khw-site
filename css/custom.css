@@ -1997,3 +1997,75 @@ iframe
 {
      width: 100%;
 }
+.club-area
+{
+     background-image: url("https://transparenttextures.com/patterns/subtle-white-feathers.png");
+}
+.club-area .kkavion-ico
+{
+     padding: 10px;
+     background: #ccc;
+     border-radius: 100%;
+     margin: 0 auto;
+     width: 80px;
+     transition: all ease-in-out 0.5s;
+}
+.club-area .kkavion-ico i
+{
+     font-size: 40px;
+     color: #034ea2;
+     transition: all ease-in-out 0.5s;
+}
+.club-area .single-travel:hover .kkavion-ico
+{
+     background: #034ea2;
+}
+.club-area .single-travel:hover .kkavion-ico i
+{
+     color: white;
+}
+.club-area .single-travel 
+{
+     background: #ffffff none repeat scroll 0 0;
+     padding: 15px;
+     margin-bottom: 40px;
+     border-radius: 20px;
+     position: relative;
+     z-index: 2;
+     transition: all ease-in-out 0.5s;
+     margin-bottom: 20px;
+     border: 1px solid #c0c0c0;
+}
+.club-area .single-travel .travel-number
+{
+     float: left;
+     margin-right: 5px;
+     margin-top: -5px;
+}
+.club-area .single-travel .travel-number span 
+{
+     color: #034ea2;
+     font-weight: 500;
+     font-size: 33px;
+}
+.club-area .single-travel .travel-content h4 
+{
+     font-size: 20px;
+     color: #454545;
+     font-weight: 600;
+}
+.club-area .single-travel .travel-content p 
+{
+     margin: 0;
+     line-height: 24px;
+     width: 100%;
+}
+.club-area .single-travel a
+{
+     color: #034ea2;
+}
+.club-area .single-travel:hover 
+{
+     box-shadow: 0 0 10px gray;
+     cursor: pointer;
+}
