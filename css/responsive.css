@@ -1,4 +1,4 @@
-/*      Tablet Layout: 768px.    */
+/*      Tablet Layout: 768px-991px    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .single-item{margin-bottom: 30px;}
@@ -142,7 +142,7 @@
 
 /*======================  Mobile Layout: 320px. =======================  */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 479px) {
     .single-item{margin-bottom: 30px;}
     .single-item:last-child{margin-bottom: 0px;}
     
@@ -353,11 +353,7 @@
     {
         padding: 0 20px !important;
     }
-    .sbuttons
-    {
-        margin: 0 !important;
-        left: -5px !important;
-    }
+    
 
 
 
@@ -529,9 +525,14 @@
     .popular-packages-carasoul .owl-nav .owl-prev:hover, .popular-packages-carasoul .owl-nav .owl-next:hover
     {
         background: #3063771f !important;
+    }.footer-title .logo1
+    {
+        padding: 0 110px;
     }
-
-
+    .footer-title .logo2
+    {
+        display: none;
+    }
 }
 
 
@@ -629,22 +630,8 @@
 
 }
 
-@media only screen and (max-width: 600px)
-{
-    .sale-tab .single-bredcurms
-    {
-        padding: 120px 0 0 0;
-        height: 850px;
-    }
-    .footer-title .logo1
-    {
-        padding: 0 110px;
-    }
-    .footer-title .logo2
-    {
-        display: none;
-    }
-}
+
+/*      Desktop Layout: >768px      */
 @media screen and (min-width: 991px)
 {
     .footer-title .logo1

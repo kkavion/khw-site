@@ -1487,8 +1487,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .sbuttons {
      bottom: 10%;
      position: fixed;
-     margin: 10px;
-     left: -1px;
+     left: 1%;
      z-index: 10;
    }
    .sbutton {
@@ -1504,7 +1503,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      -webkit-transition: all .1s ease-out;
      transition: all .1s ease-out;
      position: relative;
-     left: 10px;
+     left: 1%;
    }
    .sbutton > i {
      font-size: 24px;
@@ -1873,7 +1872,8 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 #intoverlay, #intoverlay2, #intoverlay3, #intoverlay4, #intoverlay5,
 #intoverlaya, #intoverlayb, #intoverlayc, #intoverlayd, #intoverlaye, #intoverlayf,
 #intoverlayaa,
-#intoverlayaaa, #intoverlaybbb
+#intoverlayaaa, #intoverlaybbb,
+#compare-section
 {
      position: fixed; /* Sit on top of the page content */
      display: none; /* Hidden by default */
@@ -2068,4 +2068,55 @@ iframe
 {
      box-shadow: 0 0 10px gray;
      cursor: pointer;
+}
+.compare-btn
+{
+     position: fixed;
+     bottom: 10%;
+     right: -100px;
+     z-index: 10;
+     transition: all ease-in-out 0.3s;
+}
+.compare-btn:hover
+{
+     right: 0;
+}
+.compare-btn .buttons
+{
+     background-color: #f2911b;
+     color: white;
+     display: block;
+     text-align: center;
+     cursor: pointer;
+     font-size: 18px;
+     text-transform: uppercase;
+     border-radius: 10px 0 0 10px;
+     font-weight: 600
+}
+.compare-btn i
+{
+     font-size: 24px;
+     padding-left: 5px;
+}
+.compare-btn span
+{
+     padding: 10px 5px;
+     display: inline-block;
+}
+#compare-section .container
+{
+     background: white;
+     font-size: 15px;
+}
+#compare-section .row
+{
+     padding: 5px 0;
+}
+#compare-section .col-md-3
+{
+     text-align: left;
+}
+#compare-section .col-md-2
+{
+     text-align: center;
 }

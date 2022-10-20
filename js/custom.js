@@ -491,3 +491,11 @@ function closeOverlay6()
 {
 	document.getElementById("intoverlayf").style.display = "none";
 }
+function openCompare()
+{
+	document.getElementById("compare-section").style.display = "block";
+}
+function closeCompare()
+{
+	document.getElementById("compare-section").style.display = "none";
+}
