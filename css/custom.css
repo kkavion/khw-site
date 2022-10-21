@@ -1379,7 +1379,7 @@ header .sticky .header-bottom-area .main-menu .dropdown2 li a
      transition: all ease-in-out 0.2s;
      text-align: left;
      display: inline;
-     width: 25vw;
+     width: 20vw;
      visibility: hidden;
      transform-origin: 0 0 0;
      transform: scaleY(-0.4);
@@ -1873,7 +1873,8 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 #intoverlaya, #intoverlayb, #intoverlayc, #intoverlayd, #intoverlaye, #intoverlayf,
 #intoverlayaa,
 #intoverlayaaa, #intoverlaybbb,
-#compare-section
+#compare-section,
+#room-compare-section
 {
      position: fixed; /* Sit on top of the page content */
      display: none; /* Hidden by default */
@@ -1889,6 +1890,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      overflow-y: scroll;
      text-align: center;
      padding-top: 55px;
+     padding-bottom: 50px;
 }
 .package-places span
 {
@@ -2103,20 +2105,33 @@ iframe
      padding: 10px 5px;
      display: inline-block;
 }
-#compare-section .container
+#compare-section .container, #room-compare-section .container
 {
      background: white;
      font-size: 15px;
 }
-#compare-section .row
+#compare-section .row, #room-compare-section .row
 {
      padding: 5px 0;
 }
-#compare-section .col-md-3
+#compare-section .row div:first-child, #room-compare-section .row div:first-child
 {
      text-align: left;
 }
-#compare-section .col-md-2
+#compare-section .col-md-2, #room-compare-section .col-md-2
 {
      text-align: center;
+}
+#compare-section .section-title-version-2-black, #room-compare-section .section-title-version-2-black
+{
+     text-align: center !important;
+}
+#compare-section .comparison-title h1, #room-compare-section .comparison-title h1
+{
+     padding: 17% 0;
+}
+.room-compare
+{
+     top: -35px;
+     position: relative;
 }

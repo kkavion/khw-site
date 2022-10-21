@@ -3732,6 +3732,9 @@
 										</div>
 									</div>
 								</div>
+								<div class="discount-package-4-btn room-compare">
+									<a class="travel-primary-btn-2" onclick="openRoomCompare()"><i class="mdi mdi-scale-unbalanced"></i> Compare Rooms</a>
+								</div>
 							</div>
 						</div>
 						
@@ -12033,33 +12036,557 @@
 	</div>
 	<div id="compare-section" onclick="closeCompare()">
 		<div class="container">
-			<div class="row" style="background: lightgray">
-				<div class="col-md-1 col-xs-1 col-md-offset-1">A.</div>
-				<div class="col-md-3 col-xs-3">Property Detail</div>
-				<div class="col-md-2 col-xs-2 col-xs-offset-1 col-md-offset-0"></div>
-				<div class="col-md-2 col-xs-2"></div>
-				<div class="col-md-2 col-xs-2"></div>
+			<div class="row comparison-title"><!--image row-->
+				<div class="col-md-3 col-xs-3">
+					<span style="font-weight: 600;">Property Comparison</span>
+					<h1>Property Comparison</h1>
+				</div>
+				<div class="col-md-3 col-xs-3"><img src="images/resort/outskirts/1.jpg"></div>
+				<div class="col-md-3 col-xs-3"><img src="images/resort/outskirts/2.jpg"></div>
+				<div class="col-md-3 col-xs-3"><img src="images/resort/outskirts/3.jpg"></div>
 			</div>
-			<div class="row">
-				<div class="col-md-1 col-xs-1 col-md-offset-1">1.</div>
+			<div class="row" style="background: lightgray; font-weight: 600;"> <!--heading for the section-->
+				<div class="col-md-12 col-xs-12">A. Property Details</div>
+			</div>
+			<div class="row" style="font-weight: 600;"><!--title row-->
 				<div class="col-md-3 col-xs-3">Name</div>
-				<div class="col-md-2 col-xs-2 col-xs-offset-1 col-md-offset-0">The Ffort Raichak</div>
-				<div class="col-md-2 col-xs-2">Vedic Village</div>
-				<div class="col-md-2 col-xs-2">Fern Ibiza</div>
+				<div class="col-md-3 col-xs-3">The Ffort</div>
+				<div class="col-md-3 col-xs-3">Vedic Village</div>
+				<div class="col-md-3 col-xs-3">Fern Ibiza</div>
 			</div>
-			<div class="row">
-				<div class="col-md-1 col-xs-1 col-md-offset-1">2.</div>
+			<div class="row"><!--text row-->
 				<div class="col-md-3 col-xs-3">Location</div>
-				<div class="col-md-2 col-xs-2 col-xs-offset-1 col-md-offset-0">Raichak</div>
-				<div class="col-md-2 col-xs-2">Rajarhat</div>
-				<div class="col-md-2 col-xs-2">Amtala</div>
+				<div class="col-md-3 col-xs-3">Raichak</div>
+				<div class="col-md-3 col-xs-3">Rajarhat</div>
+				<div class="col-md-3 col-xs-3">Amtala</div>
 			</div>
-			<div class="row">
-				<div class="col-md-1 col-xs-1 col-md-offset-1">2.</div>
+			<div class="row"><!--text row-->
 				<div class="col-md-3 col-xs-3">Type</div>
-				<div class="col-md-2 col-xs-2 col-xs-offset-1 col-md-offset-0">Resort</div>
-				<div class="col-md-2 col-xs-2">Resort</div>
-				<div class="col-md-2 col-xs-2">Resort</div>
+				<div class="col-md-3 col-xs-3">Resort</div>
+				<div class="col-md-3 col-xs-3">Resort</div>
+				<div class="col-md-3 col-xs-3">Resort</div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Category</div>
+				<div class="col-md-3 col-xs-3">Premium</div>
+				<div class="col-md-3 col-xs-3">Premium</div>
+				<div class="col-md-3 col-xs-3">Premium</div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Check-in</div>
+				<div class="col-md-3 col-xs-3">1.00 pm</div>
+				<div class="col-md-3 col-xs-3">1.00 pm</div>
+				<div class="col-md-3 col-xs-3">1.00 pm</div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Check-out</div>
+				<div class="col-md-3 col-xs-3">11.00 am</div>
+				<div class="col-md-3 col-xs-3">11.00 am</div>
+				<div class="col-md-3 col-xs-3">11.00 am</div>
+			</div>
+			<div class="row" style="background: lightgray; font-weight: 600;"> <!--heading for the section-->
+				<div class="col-md-12 col-xs-12">B.	Property Amenity</div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Coffee Shop</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Restaurant</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Bar</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Spa</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Club Activity</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Children Activity</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Adventure Activity</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Swimming Pool</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Gym</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Night Club</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row" style="background: lightgray; font-weight: 600;"> <!--heading for the section-->
+				<div class="col-md-12 col-xs-12">C. Room Amenity</div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Air-conditioner</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Mini Bar</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Tea / Coffee Maker</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Hot & Cold Water</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Bath Tub</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Safe</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Television</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Telephone</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Key Card</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Wi-Fi</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Kitchenette</div>
+				<div class="col-md-3 col-xs-3">Partial</div>
+				<div class="col-md-3 col-xs-3">N/A</div>
+				<div class="col-md-3 col-xs-3">N/A</div>
+			</div>
+			<div class="row" style="background: lightgray; font-weight: 600;"> <!--heading for the section-->
+				<div class="col-md-12 col-xs-12">D.	Package Inclusion</div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">2 Bottles Drinking Water</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Breakfast</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Lunch</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Dinner</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Swimming Pool</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Gym</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Club Activitiesp</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row" style="background: lightgray; font-weight: 600;"> <!--heading for the section-->
+				<div class="col-md-12 col-xs-12">E. Package Rate</div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Continental Plan</div>
+				<div class="col-md-3 col-xs-3">&#8377 9,999/-</div>
+				<div class="col-md-3 col-xs-3">&#8377 9,999/-</div>
+				<div class="col-md-3 col-xs-3">&#8377 9,999/-</div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Modified American Plan </div>
+				<div class="col-md-3 col-xs-3">&#8377 9,999/-</div>
+				<div class="col-md-3 col-xs-3">&#8377 9,999/-</div>
+				<div class="col-md-3 col-xs-3">&#8377 9,999/-</div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">American Plan </div>
+				<div class="col-md-3 col-xs-3">&#8377 13,999/-</div>
+				<div class="col-md-3 col-xs-3">&#8377 13,999/-</div>
+				<div class="col-md-3 col-xs-3">&#8377 13,999/-</div>
+			</div>
+			<div class="row" style="background: lightgray; font-weight: 600;"> <!--heading for the section-->
+				<div class="col-md-12 col-xs-12">F.	Terms</div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Cancellation Policy</div>
+				<div class="col-md-3 col-xs-3">7 days prior to Cin</div>
+				<div class="col-md-3 col-xs-3">Non-Cancellable</div>
+				<div class="col-md-3 col-xs-3">3 days prior </div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Cancellation Charges</div>
+				<div class="col-md-3 col-xs-3">40%</div>
+				<div class="col-md-3 col-xs-3">100%</div>
+				<div class="col-md-3 col-xs-3">30% </div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Refundable</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-1"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-3 col-md-offset-0 col-xs-offset-1">100%</div>
+				<div class="col-md-3 col-xs-3">40%</div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Re-Scheduling</div>
+				<div class="col-md-3 col-xs-3">-</div>
+				<div class="col-md-3 col-xs-3">-</div>
+				<div class="col-md-3 col-xs-3">7 days prior to Cin</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<div id="room-compare-section" onclick="closeRoomCompare()">
+		<div class="container">
+			<div class="row comparison-title"><!--image row-->
+				<div class="col-md-3 col-xs-3">
+					<span style="font-weight: 600;">Property Comparison</span>
+					<h1>Property Comparison</h1>
+				</div>
+				<div class="col-md-3 col-xs-3"><img src="images/resort-page/room/1.jpg"></div>
+				<div class="col-md-3 col-xs-3"><img src="images/resort-page/room/2.jpg"></div>
+				<div class="col-md-3 col-xs-3"><img src="images/resort-page/room/5.jpg"></div>
+			</div>
+			<div class="row" style="background: lightgray; font-weight: 600;"> <!--heading for the section-->
+				<div class="col-md-12 col-xs-12">A. Property Details</div>
+			</div>
+			<div class="row" style="font-weight: 600;"><!--title row-->
+				<div class="col-md-3 col-xs-3">Name</div>
+				<div class="col-md-3 col-xs-3">The Ffort</div>
+				<div class="col-md-3 col-xs-3">Vedic Village</div>
+				<div class="col-md-3 col-xs-3">Fern Ibiza</div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Location</div>
+				<div class="col-md-3 col-xs-3">Raichak</div>
+				<div class="col-md-3 col-xs-3">Rajarhat</div>
+				<div class="col-md-3 col-xs-3">Amtala</div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Type</div>
+				<div class="col-md-3 col-xs-3">Resort</div>
+				<div class="col-md-3 col-xs-3">Resort</div>
+				<div class="col-md-3 col-xs-3">Resort</div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Category</div>
+				<div class="col-md-3 col-xs-3">Premium</div>
+				<div class="col-md-3 col-xs-3">Premium</div>
+				<div class="col-md-3 col-xs-3">Premium</div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Check-in</div>
+				<div class="col-md-3 col-xs-3">1.00 pm</div>
+				<div class="col-md-3 col-xs-3">1.00 pm</div>
+				<div class="col-md-3 col-xs-3">1.00 pm</div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Check-out</div>
+				<div class="col-md-3 col-xs-3">11.00 am</div>
+				<div class="col-md-3 col-xs-3">11.00 am</div>
+				<div class="col-md-3 col-xs-3">11.00 am</div>
+			</div>
+			<div class="row" style="background: lightgray; font-weight: 600;"> <!--heading for the section-->
+				<div class="col-md-12 col-xs-12">B.	Property Amenity</div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Coffee Shop</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Restaurant</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Bar</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Spa</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Club Activity</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Children Activity</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Adventure Activity</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Swimming Pool</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Gym</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Night Club</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row" style="background: lightgray; font-weight: 600;"> <!--heading for the section-->
+				<div class="col-md-12 col-xs-12">C. Room Amenity</div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Air-conditioner</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Mini Bar</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Tea / Coffee Maker</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Hot & Cold Water</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Bath Tub</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Safe</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Television</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Telephone</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Key Card</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Wi-Fi</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Kitchenette</div>
+				<div class="col-md-3 col-xs-3">Partial</div>
+				<div class="col-md-3 col-xs-3">N/A</div>
+				<div class="col-md-3 col-xs-3">N/A</div>
+			</div>
+			<div class="row" style="background: lightgray; font-weight: 600;"> <!--heading for the section-->
+				<div class="col-md-12 col-xs-12">D.	Package Inclusion</div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">2 Bottles Drinking Water</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Breakfast</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Lunch</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Dinner</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Swimming Pool</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Gym</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row"><!--features row with tick marks-->
+				<div class="col-md-3 col-xs-4">Club Activitiesp</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-2"><span class="mdi mdi-check-circle-outline"></div>
+			</div>
+			<div class="row" style="background: lightgray; font-weight: 600;"> <!--heading for the section-->
+				<div class="col-md-12 col-xs-12">E. Package Rate</div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Continental Plan</div>
+				<div class="col-md-3 col-xs-3">&#8377 9,999/-</div>
+				<div class="col-md-3 col-xs-3">&#8377 9,999/-</div>
+				<div class="col-md-3 col-xs-3">&#8377 9,999/-</div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Modified American Plan </div>
+				<div class="col-md-3 col-xs-3">&#8377 9,999/-</div>
+				<div class="col-md-3 col-xs-3">&#8377 9,999/-</div>
+				<div class="col-md-3 col-xs-3">&#8377 9,999/-</div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">American Plan </div>
+				<div class="col-md-3 col-xs-3">&#8377 13,999/-</div>
+				<div class="col-md-3 col-xs-3">&#8377 13,999/-</div>
+				<div class="col-md-3 col-xs-3">&#8377 13,999/-</div>
+			</div>
+			<div class="row" style="background: lightgray; font-weight: 600;"> <!--heading for the section-->
+				<div class="col-md-12 col-xs-12">F.	Terms</div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Cancellation Policy</div>
+				<div class="col-md-3 col-xs-3">7 days prior to Cin</div>
+				<div class="col-md-3 col-xs-3">Non-Cancellable</div>
+				<div class="col-md-3 col-xs-3">3 days prior </div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Cancellation Charges</div>
+				<div class="col-md-3 col-xs-3">40%</div>
+				<div class="col-md-3 col-xs-3">100%</div>
+				<div class="col-md-3 col-xs-3">30% </div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Refundable</div>
+				<div class="col-md-3 col-xs-1 col-md-offset-0 col-xs-offset-1"><span class="mdi mdi-check-circle-outline"></div>
+				<div class="col-md-3 col-xs-3 col-md-offset-0 col-xs-offset-1">100%</div>
+				<div class="col-md-3 col-xs-3">40%</div>
+			</div>
+			<div class="row"><!--text row-->
+				<div class="col-md-3 col-xs-3">Re-Scheduling</div>
+				<div class="col-md-3 col-xs-3">-</div>
+				<div class="col-md-3 col-xs-3">-</div>
+				<div class="col-md-3 col-xs-3">7 days prior to Cin</div>
 			</div>
 		</div>
 	</div>

@@ -1,4 +1,4 @@
-/*      Tablet Layout: 768px-991px    */
+/*      Tablet Layout: 768px.    */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .single-item{margin-bottom: 30px;}
@@ -142,11 +142,15 @@
 
 /*======================  Mobile Layout: 320px. =======================  */
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 767px) {
     .single-item{margin-bottom: 30px;}
     .single-item:last-child{margin-bottom: 0px;}
     
     .turn-off
+    {
+        display: none;
+    }    
+    #compare-section .comparison-title h1, #compare-section .comparison-title h1
     {
         display: none;
     }
@@ -353,7 +357,11 @@
     {
         padding: 0 20px !important;
     }
-    
+    .sbuttons
+    {
+        margin: 0 !important;
+        left: -5px !important;
+    }
 
 
 
@@ -525,14 +533,9 @@
     .popular-packages-carasoul .owl-nav .owl-prev:hover, .popular-packages-carasoul .owl-nav .owl-next:hover
     {
         background: #3063771f !important;
-    }.footer-title .logo1
-    {
-        padding: 0 110px;
     }
-    .footer-title .logo2
-    {
-        display: none;
-    }
+
+
 }
 
 
@@ -630,8 +633,22 @@
 
 }
 
-
-/*      Desktop Layout: >768px      */
+@media only screen and (max-width: 600px)
+{
+    .sale-tab .single-bredcurms
+    {
+        padding: 120px 0 0 0;
+        height: 850px;
+    }
+    .footer-title .logo1
+    {
+        padding: 0 110px;
+    }
+    .footer-title .logo2
+    {
+        display: none;
+    }
+}
 @media screen and (min-width: 991px)
 {
     .footer-title .logo1
@@ -703,5 +720,13 @@
     .sticky .header-bottom-area .row
     {
         background: none;
+    }
+    #compare-section .comparison-title span, #room-compare-section .comparison-title span
+    {
+        display: none;
+    }
+    #compare-section .comparison-title, #room-compare-section .comparison-title
+    {
+        padding: 20px 0 !important;
     }
 }

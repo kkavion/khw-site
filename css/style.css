@@ -1581,6 +1581,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      transition: all 0.5s ease-in-out 0s;
      width: 40px;
      z-index: 999;
+     cursor: pointer;
 }
  .to-top:hover {
      background: #ffff00 none repeat scroll 0 0;

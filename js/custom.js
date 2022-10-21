@@ -499,3 +499,11 @@ function closeCompare()
 {
 	document.getElementById("compare-section").style.display = "none";
 }
+function openRoomCompare()
+{
+	document.getElementById("room-compare-section").style.display = "block";
+}
+function closeRoomCompare()
+{
+	document.getElementById("room-compare-section").style.display = "none";
+}
