@@ -3,24 +3,18 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .single-item{margin-bottom: 30px;}
     .single-item:last-child{margin-bottom: 0px;}
-
-    
-    .slider-area-2
-    {
-        height: 500px;
-    }
     .footer-title .logo1
     {
         display: none;
     }
     .footer-title .logo2
     {
-        padding: 0 90px;
+        padding: 0 35%;
     }
     .tparrows {display: none;}
     .tp-bannertimer
     {
-        top: 495px;
+        bottom: 0;
     }
     .mean-bar img
     {
@@ -47,6 +41,26 @@
     .mean-bar .search-pc
     {
         display: none;
+    }
+    .tp-parallax-wrap:nth-child(4)
+    {
+         top: 50% !important;
+    }
+    .tp-parallax-wrap:nth-child(3)
+    {
+         top: 35% !important;
+    }
+    .title-line-4 h2, .title-line-42 h3
+    {
+        padding-left: 15px !important;
+    }
+    .header-btn-4 
+    {
+     padding-left:15px!important
+    }
+    .top-destination-area .search-btn
+    {
+        padding: 0% 45% !important;;
     }
 
 
@@ -117,7 +131,7 @@
 
 
 /*========= index 04 ==========*/
-.header-bottom-area-4 .logo-area {padding: 65px 0 15px;}
+.header-bottom-area-4 .logo-area {padding: 65px 0 15px;display: none;}
 .tabbased-search-area-4 { background: #ffffff;}
 
 /*========= index 05 ==========*/
@@ -134,10 +148,7 @@
 .single .blog-comments .single-comments h4 {text-align: center;}
 
 
-.header-bottom-area
-{
-    display: none !important;
-}
+
 }
 
 /*======================  Mobile Layout: 320px. =======================  */
@@ -169,7 +180,7 @@
     }
     .top-destination-area .search-btn
     {
-        padding: 0 20% !important;
+        padding: 0 40% !important;
     }
     .mean-bar img
     {
@@ -356,11 +367,6 @@
     .owl-carousel
     {
         padding: 0 20px !important;
-    }
-    .sbuttons
-    {
-        margin: 0 !important;
-        left: -5px !important;
     }
 
 
@@ -583,6 +589,14 @@
     {
         padding: 0 200px;
     }
+    .footer-title .logo1
+    {
+        padding: 0 35%
+    }
+    .footer-title .logo2
+    {
+        display: none;
+    }
     .career-menu .col-md-4:hover .career-bottom-area-hidden-btn
     {
          opacity: 1;
@@ -642,7 +656,7 @@
     }
     .footer-title .logo1
     {
-        padding: 0 110px;
+        padding: 0 25%;
     }
     .footer-title .logo2
     {
@@ -666,7 +680,7 @@
     }
     .tp-bannertimer
     {
-        top: 445px
+        bottom: 0;
     }
     .section-title img
     {

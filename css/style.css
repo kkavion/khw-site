@@ -1257,7 +1257,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-size: 14px;
      height: 57px;
      padding-left: 20px;
-     padding-right: 190px;
+     padding-right: 25%;
      position: relative;
      text-transform: capitalize;
      width: 100%;
@@ -1575,7 +1575,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      height: 40px;
      line-height: 40px;
      position: fixed;
-     left: 1%;
+     left: 0.5%;
      text-align: center;
      top: 91%;
      transition: all 0.5s ease-in-out 0s;

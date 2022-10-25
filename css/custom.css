@@ -1487,7 +1487,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .sbuttons {
      bottom: 10%;
      position: fixed;
-     left: 1%;
+     left: 0.5%;
      z-index: 10;
    }
    .sbutton {
