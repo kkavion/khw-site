@@ -1834,7 +1834,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      padding-top: 6px;
      padding-bottom: 6px;
 }
-.resort-table .col-md-2, .box .col-md-3:not(:first-child)
+.resort-table .col-md-2:not(:first-child), .box .col-md-3:not(:first-child)
 {
      text-align: center;
 }
