@@ -2135,3 +2135,19 @@ iframe
      top: -35px;
      position: relative;
 }
+#mobnav .mean-link:nth-child(1)
+{
+     display: block;
+}
+#mobnav .mean-link:nth-child(2)
+{
+     display: none;
+}
+.pois-page #mobnav .mean-link:nth-child(1)
+{
+     display: none;
+}
+.pois-page #mobnav .mean-link:nth-child(2)
+{
+     display: block;
+}
