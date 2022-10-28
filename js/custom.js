@@ -511,3 +511,23 @@ function bid1()
 {
 	document.forms["bidnwin"]["Property"].value = "Vedic Village";
 }
+function bid2()
+{
+	document.forms["bidnwin"]["Property"].value = "The Amaya Resort";
+}
+function bid3()
+{
+	document.forms["bidnwin"]["Property"].value = "The Ffort Raichak";
+}
+function bid4()
+{
+	document.forms["bidnwin"]["Property"].value = "Fortune Park Panchawati";
+}
+function bid5()
+{
+	document.forms["bidnwin"]["Property"].value = "The Rajbari Bawali";
+}
+function bid6()
+{
+	document.forms["bidnwin"]["Property"].value = "Ibiza The Fern Resort & Spa";
+}
