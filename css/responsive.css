@@ -7,6 +7,11 @@
     {
         display: none;
     }
+    .tparrows
+    {
+        top: 90% !important;
+        transform: matrix(1) !important;
+    }
     #discstick
     {
         margin: 5% 30% !important;
@@ -15,7 +20,6 @@
     {
         padding: 0 35%;
     }
-    .tparrows {display: none;}
     .tp-bannertimer
     {
         bottom: 0;
@@ -160,6 +164,7 @@
 @media only screen and (max-width: 767px) {
     .single-item{margin-bottom: 30px;}
     .single-item:last-child{margin-bottom: 0px;}
+    .tparrows {display: none;}
     
     .turn-off
     {
@@ -607,6 +612,7 @@
          visibility: visible;
          bottom: 0px;
     }
+    .tparrows {display: none;}
     #discstick 
     {
          width: 100px !important;
