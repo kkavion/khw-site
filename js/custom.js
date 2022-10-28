@@ -507,3 +507,7 @@ function closeRoomCompare()
 {
 	document.getElementById("room-compare-section").style.display = "none";
 }
+function bid1()
+{
+	document.forms["bidnwin"]["Property"].value = "Vedic Village";
+}
