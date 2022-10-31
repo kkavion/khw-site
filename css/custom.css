@@ -2155,3 +2155,38 @@ iframe
 {
      cursor: pointer;
 }
+
+.calendar
+{
+     position: fixed;
+     top: 91%;
+     right: -107px;
+     z-index: 10;
+     transition: all ease-in-out 0.3s;
+}
+.calendar:hover
+{
+     right: 0;
+}
+.calendar .buttons
+{
+     background-color: #f2911b;
+     color: white;
+     display: block;
+     text-align: center;
+     cursor: pointer;
+     font-size: 18px;
+     text-transform: uppercase;
+     border-radius: 10px 0 0 10px;
+     font-weight: 600
+}
+.calendar i
+{
+     font-size: 24px;
+     padding-left: 5px;
+}
+.calendar span
+{
+     padding: 10px 5px;
+     display: inline-block;
+}
