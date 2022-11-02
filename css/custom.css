@@ -2006,7 +2006,7 @@ iframe
 .club-area .kkavion-ico
 {
      padding: 10px;
-     background: #ccc;
+     background: #049dd9;
      border-radius: 100%;
      margin: 0 auto;
      width: 80px;
@@ -2015,12 +2015,12 @@ iframe
 .club-area .kkavion-ico i
 {
      font-size: 40px;
-     color: #034ea2;
+     color: white;
      transition: all ease-in-out 0.5s;
 }
 .club-area .single-travel:hover .kkavion-ico
 {
-     background: #034ea2;
+     background: #f2911b;
 }
 .club-area .single-travel:hover .kkavion-ico i
 {
@@ -2061,10 +2061,11 @@ iframe
      margin: 0;
      line-height: 24px;
      width: 100%;
+     text-align: center;
 }
 .club-area .single-travel a
 {
-     color: #034ea2;
+     color: #454545;
 }
 .club-area .single-travel:hover 
 {
@@ -2075,7 +2076,7 @@ iframe
 {
      position: fixed;
      bottom: 10%;
-     right: -100px;
+     right: -98px;
      z-index: 10;
      transition: all ease-in-out 0.3s;
 }
@@ -2160,7 +2161,7 @@ iframe
 {
      position: fixed;
      top: 91%;
-     right: -107px;
+     right: -105px;
      z-index: 10;
      transition: all ease-in-out 0.3s;
 }
@@ -2170,7 +2171,7 @@ iframe
 }
 .calendar .buttons
 {
-     background-color: #f2911b;
+     background-color: #049dd9;
      color: white;
      display: block;
      text-align: center;
