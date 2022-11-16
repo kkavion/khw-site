@@ -2110,6 +2110,7 @@ iframe
 {
      background: white;
      font-size: 15px;
+     border-radius: 10px;
 }
 #compare-section .row, #room-compare-section .row
 {
