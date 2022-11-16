@@ -410,6 +410,13 @@
     });
 
 })(jQuery);
+
+function formSuccess()
+{
+	alert("Thank you for submitting the form.");
+}
+
+
 // Open the full screen search box
 function openSearch() {
 	document.getElementById("myOverlay").style.display = "block";
