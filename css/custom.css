@@ -1873,7 +1873,8 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 #intoverlayaa,
 #intoverlayaaa, #intoverlaybbb,
 #compare-section,
-#room-compare-section
+#room-compare-section,
+#calendar-sec
 {
      position: fixed; /* Sit on top of the page content */
      display: none; /* Hidden by default */
@@ -2157,7 +2158,7 @@ iframe
      cursor: pointer;
 }
 
-.calendar
+.calendar-sec
 {
      position: fixed;
      top: 91%;
@@ -2165,11 +2166,11 @@ iframe
      z-index: 10;
      transition: all ease-in-out 0.3s;
 }
-.calendar:hover
+.calendar-sec:hover
 {
      right: 0;
 }
-.calendar .buttons
+.calendar-sec .buttons
 {
      background-color: #049dd9;
      color: white;
@@ -2181,12 +2182,12 @@ iframe
      border-radius: 10px 0 0 10px;
      font-weight: 600
 }
-.calendar i
+.calendar-sec i
 {
      font-size: 24px;
      padding-left: 5px;
 }
-.calendar span
+.calendar-sec span
 {
      padding: 10px 5px;
      display: inline-block;

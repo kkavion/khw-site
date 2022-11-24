@@ -408,13 +408,9 @@
         title: 'Text content!',
         content: 'Simple modal!',
     });
-
 })(jQuery);
 
-function formSuccess()
-{
-	alert("Thank you for submitting the form.");
-}
+
 
 
 // Open the full screen search box
@@ -426,6 +422,17 @@ function openSearch() {
   function closeSearch() {
 	document.getElementById("myOverlay").style.display = "none";
   }
+
+function openCalendar() 
+{
+	document.getElementById("calendar-sec").style.display = "block";
+}
+
+// Close the full screen search box
+function closeCalendar()
+{
+	document.getElementById("calendar-sec").style.display = "none";
+}
 function openOverlay()
 {
 	document.getElementById("intoverlay").style.display = "block";

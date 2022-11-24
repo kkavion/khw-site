@@ -64,6 +64,86 @@
 
 		gtag('config', 'G-EB2CYW0LY8');
 	</script>
+	
+    <link href='css/main.css' rel='stylesheet'>
+    <script src='js/main.js'></script>
+    <script>
+
+		document.addEventListener('DOMContentLoaded', function() {
+		  var calendarEl = document.getElementById('calendar');
+	  
+		  var calendar = new FullCalendar.Calendar(calendarEl, {
+			headerToolbar: {
+			  left: 'prev today',
+			  center: 'title',
+			  right: 'next'
+			},
+			initialDate: '2022-11-12',
+			navLinks: false, // can click day/week names to navigate views
+			editable: false,
+			dayMaxEvents: true, // allow "more" link when too many events
+			events: [
+			  {
+				title: 'All Day Event',
+				start: '2022-11-01'
+			  },
+			  {
+				title: 'Long Event',
+				start: '2022-11-07',
+				end: '2022-11-10'
+			  },
+			  {
+				groupId: 999,
+				title: 'Repeating Event',
+				start: '2022-11-09T16:00:00'
+			  },
+			  {
+				groupId: 999,
+				title: 'Repeating Event',
+				start: '2022-11-16T16:00:00'
+			  },
+			  {
+				title: 'Conference',
+				start: '2022-11-11',
+				end: '2022-11-13'
+			  },
+			  {
+				title: 'Meeting',
+				start: '2022-11-12T10:30:00',
+				end: '2022-11-12T12:30:00'
+			  },
+			  {
+				title: 'Lunch',
+				start: '2022-11-12T12:00:00'
+			  },
+			  {
+				title: 'Meeting',
+				start: '2022-11-12T14:30:00'
+			  },
+			  {
+				title: 'Happy Hour',
+				start: '2022-11-12T17:30:00'
+			  },
+			  {
+				title: 'Dinner',
+				start: '2022-11-12T20:00:00'
+			  },
+			  {
+				title: 'Birthday Party',
+				start: '2022-11-13T07:00:00'
+			  },
+			  {
+				title: 'Click for Google',
+				url: 'http://google.com/',
+				start: '2022-11-28'
+			  }
+			]
+		  });
+	  
+		  calendar.render();
+		});
+	  
+	  </script>
 </head>
 
 <body onselectstart="return false">
@@ -136,7 +216,7 @@
 										</ul>
 									</li>
 									<li class="active"><a href="resorts-tab.html" onselectstart="return false">Resort</a></li>
-									<li><a href="x-essence.html" onselectstart="return false">X-Essence</a></li>
+									<li><a href="encircle.html" onselectstart="return false">Encircle</a></li>
 									<li>
 										<a>Query</a>
 										<ul class="dropdown3 main-menu2">
@@ -417,8 +497,8 @@
 				<div class="header-bottom-area">
 					<ul class="main-menu tab-c" role="tablist" id="tab7">
 						<li role="presentation" class="col internal-tab active">
-							<a href="#room" aria-controls="description" role="tab" data-toggle="tab">
-								Room
+							<a href="#package" aria-controls="description" role="tab" data-toggle="tab">
+								Package
 							</a>
 						</li>
 						<li role="presentation" class="col internal-tab">
@@ -474,7 +554,7 @@
 			<div class="row">
 				<!-- tabs content -->
 				<div class="tab-content container">
-					<div role="tabpanel" class="tab-pane fade in active" id="room">
+					<div role="tabpanel" class="tab-pane fade in active" id="package">
 						<div class="timeline">
 							<div class="timeline-content left">
 								<div class="row" style="margin: 20px;text-align:justify;">
@@ -487,7 +567,7 @@
 						<div class="row">
 							<div class="header-bottom-area">
 								<ul class="main-menu tab-b" role="tablist" id="tab7" style="padding:0;">
-									<li role="presentation" class="active"><a href="#package" aria-controls="package" role="tab" data-toggle="tab" aria-expanded="true">Package</a>
+									<li role="presentation" class="active"><a href="#room" aria-controls="package" role="tab" data-toggle="tab" aria-expanded="true">Room</a>
 									</li>
 									<li role="presentation" class=""><a href="#offer" aria-controls="offer" role="tab" data-toggle="tab" aria-expanded="true">Offer</a>
 									</li>
@@ -501,7 +581,7 @@
 						</div>
 						<div class="row">
 							<div class="tab-content container">
-								<div role="tabpanel" class="tab-pane fade in active" id="package">
+								<div role="tabpanel" class="tab-pane fade in active" id="room">
 									<div class="timeline">
 										<div class="timeline-content left">
 											<div class="row resort-box">
@@ -12024,13 +12104,20 @@
 	</footer>
 
 
-
 	<!-- footer ends -->
 
 
-	<div class="calendar">
+	<div class="calendar-sec">
 		<div class="buttons" onclick="openCalendar()"><i class="mdi mdi-calendar-month-outline"></i>
 			<span>Calendar</span>
+		</div>
+	</div>
+	
+	<div id="calendar-sec">
+		<div class="container">
+			<div class="row">
+				<div id='calendar'></div>
+			</div>
 		</div>
 	</div>
 	
