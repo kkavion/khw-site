@@ -6041,6 +6041,7 @@ button.close {
  margin:0;
  line-height:1.42857143;
  font-weight: bold;
+ text-align: center;
 }
 .modal-body {
  position:relative;

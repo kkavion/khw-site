@@ -303,15 +303,23 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
 	box-shadow: 0 0 5px;
 }
-.header-bottom-area .tab-a li:hover a, .header-bottom-area .tab-c li:hover a, .header-bottom-area .tab-d li:hover a, .header-bottom-area .tab-e li:hover a
+.header-bottom-area .tab-a li:hover a,
+.header-bottom-area .tab-c li:hover a,
+.header-bottom-area .tab-d li:hover a,
+.header-bottom-area .tab-e li:hover a
 {
      color: white;
 }
-.header-bottom-area .tab-a li, .header-bottom-area .tab-c li, .header-bottom-area .tab-d li, .header-bottom-area .tab-e li
+.header-bottom-area .tab-a li,
+.header-bottom-area .tab-c li,
+.header-bottom-area .tab-d li, 
+.header-bottom-area .tab-e li
 {
      transition: all 0.3s;
 }
-.header-bottom-area .tab-a li:hover, .header-bottom-area .tab-d li:hover, .header-bottom-area .tab-e li:hover
+.header-bottom-area .tab-a li:hover,
+.header-bottom-area .tab-d li:hover,
+.header-bottom-area .tab-e li:hover
 {
      background: #f2911b;
 }
@@ -518,7 +526,12 @@ header .sticky .header-bottom-area .main-menu > li.active a
      background-position: center bottom;
      z-index: 2;
 }
-.section-title2 h2:before, .section-title2 h2:after, .section-title-white h2:before, .section-title-white h2:after, .section-title-white-2 h2:before, .section-title-white-2 h2:after 
+.section-title2 h2:before,
+.section-title2 h2:after,
+.section-title-white h2:before,
+.section-title-white h2:after,
+.section-title-white-2 h2:before,
+.section-title-white-2 h2:after 
 {
      background: #454545 none repeat scroll 0 0;
      bottom: 3.8px;
@@ -1661,11 +1674,19 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      display: none !important;
 }
-.leisure-page-area .container, .wellness-page-area .container, .gourmet-page-area .container, .conference-page-area .container, .wedding-page-area .container
+.leisure-page-area .container,
+.wellness-page-area .container,
+.gourmet-page-area .container,
+.conference-page-area .container,
+.wedding-page-area .container
 {
      padding-top: 15px;
 }
-.leisure-page-area .destination-5-description, .wellness-page-area .destination-5-description, .gourmet-page-area .destination-5-description, .conference-page-area .destination-5-description, .wedding-page-area .destination-5-description
+.leisure-page-area .destination-5-description,
+.wellness-page-area .destination-5-description,
+.gourmet-page-area .destination-5-description,
+.conference-page-area .destination-5-description,
+.wedding-page-area .destination-5-description
 {
      background-color: white;
      border-radius: 0 0 10px 10px;
@@ -1704,12 +1725,20 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      border-radius: 10px;
 }
-.leisure-page-area .section-title-3, .wellness-page-area .section-title-3, .gourmet-page-area .section-title-3, .conference-page-area .section-title-3, .wedding-page-area .section-title-3
+.leisure-page-area .section-title-3,
+.wellness-page-area .section-title-3,
+.gourmet-page-area .section-title-3,
+.conference-page-area .section-title-3,
+.wedding-page-area .section-title-3
 {
      font-family: 'Open Sans', sans-serif;
      font-weight: 500;
 }
-.leisure-page-area .col-md-2, .wellness-page-area .col-md-2, .gourmet-page-area .col-md-2, .conference-page-area .col-md-2, .wedding-page-area .col-md-2
+.leisure-page-area .col-md-2,
+.wellness-page-area .col-md-2,
+.gourmet-page-area .col-md-2,
+.conference-page-area .col-md-2,
+.wedding-page-area .col-md-2
 {
      text-align: center;
 }
@@ -1739,14 +1768,23 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      background: #f5f5f5;
 }
-.sale-tab-2 .resort-table .row:nth-child(2), .resort-rooms .resort-table .row:nth-child(2), .day-out .resort-table .row:nth-child(2), .offer-tab .resort-table .row:nth-child(2)
+.sale-tab-2 .resort-table .row:nth-child(2),
+.resort-rooms .resort-table .row:nth-child(2),
+.day-out .resort-table .row:nth-child(2),
+.offer-tab .resort-table .row:nth-child(2),
+.interest-dayout .resort-table .row:nth-child(2)
 {
      padding: 0;
      text-align: left;
      background: #f5f5f5;
      border-radius: 10px;
 }
-.sale-tab-2 .resort-table .row:nth-child(2) .col-md-3, .resort-rooms .resort-table .row:nth-child(2) .col-md-3, .day-out .resort-table .row:nth-child(2) .col-md-3, .offer-tab .resort-table .row:nth-child(2) .col-md-3
+.sale-tab-2 .resort-table .row:nth-child(2) .col-md-3,
+.resort-rooms .resort-table .row:nth-child(2) .col-md-3,
+.day-out .resort-table .row:nth-child(2) .col-md-3,
+.offer-tab .resort-table .row:nth-child(2) .col-md-3,
+.interest-dayout .resort-table .row:nth-child(2) .col-md-3
+
 {
      font-size: 15px;
      text-align: right;
@@ -1757,7 +1795,10 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      border-radius: 10px;
      box-shadow: 0 0 3px gray;
 }
-.sale-tab-2 .timeline-content .box, .resort-rooms .timeline-content .resort-box, .day-out .timeline-content .box, .offer-tab .timeline-content .box
+.sale-tab-2 .timeline-content .box,
+.resort-rooms .timeline-content .resort-box,
+.day-out .timeline-content .box,
+.offer-tab .timeline-content .box
 {
      background: white;
 }
@@ -2161,7 +2202,7 @@ iframe
 .calendar-sec
 {
      position: fixed;
-     top: 91%;
+     bottom: 5%;
      right: -105px;
      z-index: 10;
      transition: all ease-in-out 0.3s;
@@ -2191,4 +2232,8 @@ iframe
 {
      padding: 10px 5px;
      display: inline-block;
+}
+.interest-dayout
+{
+     padding-top: 15px;
 }

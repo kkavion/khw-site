@@ -1577,7 +1577,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      position: fixed;
      left: 0.5%;
      text-align: center;
-     top: 91%;
+     bottom: 5%;
      transition: all 0.5s ease-in-out 0s;
      width: 40px;
      z-index: 999;
