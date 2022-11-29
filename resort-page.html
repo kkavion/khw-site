@@ -65,8 +65,8 @@
 		gtag('config', 'G-EB2CYW0LY8');
 	</script>
 	
-    <link href='css/main.css' rel='stylesheet'>
-    <script src='js/main.js'></script>
+    <link href="css/main.css" rel="stylesheet">
+	<link href="css/css.css" rel="stylesheet">
     <script>
 
 		document.addEventListener('DOMContentLoaded', function() {
@@ -78,9 +78,7 @@
 			  center: 'title',
 			  right: 'next'
 			},
-			initialDate: '2022-11-12',
-			navLinks: false, // can click day/week names to navigate views
-			editable: false,
+			initialView: 'dayGridMonth',
 			dayMaxEvents: true, // allow "more" link when too many events
 			events: [
 			  {
@@ -170,7 +168,7 @@
 						<!-- logo area start here -->
 						<div class="col-md-2">
 							<div class="logo-area">
-								<a href="index.html"><img src="images/logos/logo.png" alt="">
+								<a href="index.html"><img src="images/logos/ih-logo.webp" alt="">
 								</a>
 							</div>
 						</div>
@@ -11953,8 +11951,8 @@
 			<div class="row">
 				<div class="tagline foot">
 					<div class="footer-title">
-						<img src="images/logos/kkavion.png" class="logo1">
-						<img src="images/logos/kkavion1.png" class="logo2">
+						<img src="images/logos/kkavionwhite.webp" class="logo1">
+						<img src="images/logos/kkavionside.webp" class="logo2">
 					</div>
 					<ul class="list-inline" style="text-align:center; padding-bottom: 10px; padding-top: 10px;">
 						<li><a style="text-decoration:none;">
@@ -12098,21 +12096,27 @@
 		</div>
 	</footer>
 
+	<section id="calendar-section" class="modal fade" role="dialog">
+		
+		<div class="modal-dialog modal-lg">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-body">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<iframe src="calendar.html"></iframe>
+			  </div>
+			</div>
+		
+		  </div>
+	</section>
 
 	<!-- footer ends -->
 
 
 	<div class="calendar-sec">
-		<div class="buttons" onclick="openCalendar()"><i class="mdi mdi-calendar-month-outline"></i>
+		<div class="buttons" data-target="#calendar-section" data-toggle="modal"><i class="mdi mdi-calendar-month-outline"></i>
 			<span>Calendar</span>
-		</div>
-	</div>
-	
-	<div id="calendar-sec">
-		<div class="container">
-			<div class="row">
-				<div id='calendar'></div>
-			</div>
 		</div>
 	</div>
 	
@@ -12727,7 +12731,8 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIW0B_E3g-Yg533xy3yF0WHThi-mFvSNQ "></script>
 	<!-- map js -->
 	<script src="js/google-map.js"></script>
-	<!-- main js -->
+	<!-- main js -->	
+    <script src="js/main.js"></script>
 	<script src="js/custom.js"></script>
 	<script>
 		// When the user scrolls the page, execute myFunction

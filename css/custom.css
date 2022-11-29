@@ -735,6 +735,10 @@ header .main-menu a:focus
 {
      background: none;
 }
+#calendar a:hover
+{
+     background: #3788d8 !important;;
+}
 .discount-package-4-btn a:hover
 {
      background: #faa61a !important;
@@ -1914,8 +1918,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 #intoverlayaa,
 #intoverlayaaa, #intoverlaybbb,
 #compare-section,
-#room-compare-section,
-#calendar-sec
+#room-compare-section
 {
      position: fixed; /* Sit on top of the page content */
      display: none; /* Hidden by default */
@@ -2232,8 +2235,4 @@ iframe
 {
      padding: 10px 5px;
      display: inline-block;
-}
-.interest-dayout
-{
-     padding-top: 15px;
 }

@@ -425,13 +425,15 @@ function openSearch() {
 
 function openCalendar() 
 {
-	document.getElementById("calendar-sec").style.display = "block";
+	const cal = document.getElementsByClassName("calendar-section");
+	cal[0].style.display = "block";
 }
 
 // Close the full screen search box
 function closeCalendar()
 {
-	document.getElementById("calendar-sec").style.display = "none";
+	const cal = document.getElementsByClassName("calendar-section");
+	cal[0].style.display = "none";
 }
 function openOverlay()
 {
