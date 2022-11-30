@@ -63,6 +63,81 @@
 
 		gtag('config', 'G-EB2CYW0LY8');
 	</script>
+	
+    <link href="css/main.css" rel="stylesheet">
+	<link href="css/css.css" rel="stylesheet">
+    <script>
+
+		document.addEventListener('DOMContentLoaded', function() {
+		  var calendarEl = document.getElementById('calendar');
+	  
+		  var calendar = new FullCalendar.Calendar(calendarEl, {
+			headerToolbar: {
+			  left: 'prev today',
+			  center: 'title',
+			  right: 'next'
+			},
+			initialView: 'dayGridMonth',
+			dayMaxEvents: true, // allow "more" link when too many events
+			events: [
+			  {
+				title: 'All Day Event',
+				start: '2022-11-01'
+			  },
+			  {
+				title: 'Long Event',
+				start: '2022-11-07',
+				end: '2022-11-10'
+			  },
+			  {
+				title: 'Repeating Event',
+				start: '2022-11-09'
+			  },
+			  {
+				title: 'Repeating Event',
+				start: '2022-11-16'
+			  },
+			  {
+				title: 'Conference',
+				start: '2022-11-11',
+				end: '2022-11-13'
+			  },
+			  {
+				title: 'Meeting',
+				start: '2022-11-12'
+			  },
+			  {
+				title: 'Lunch',
+				start: '2022-11-12'
+			  },
+			  {
+				title: 'Meeting',
+				start: '2022-11-12'
+			  },
+			  {
+				title: 'Happy Hour',
+				start: '2022-11-12'
+			  },
+			  {
+				title: 'Dinner',
+				start: '2022-11-12'
+			  },
+			  {
+				title: 'Birthday Party',
+				start: '2022-11-13'
+			  },
+			  {
+				title: 'Click for Google',
+				url: 'http://google.com/',
+				start: '2022-11-28'
+			  }
+			]
+		  });
+	  
+		  calendar.render();
+		});
+	  
+	</script>
 </head>
 
 <body onselectstart="return false">
@@ -170,7 +245,7 @@
 	<!-- header area end here -->
 
 	<section class="breadcrumb-blog-version-one">
-		<div class="single-bredcurms" style="background-image:url('images/query/wed.jpg');">
+		<div class="single-bredcurms" style="background-image:url('images/banners/query3.webp');">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 col-md-12">

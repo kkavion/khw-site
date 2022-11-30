@@ -8982,8 +8982,6 @@ var FullCalendar = (function (exports) {
                 }
             }
             return (createElement("div", { ref: this.handleEl, className: className.join(' '), style: {
-                    overflowX: props.overflowX,
-                    overflowY: props.overflowY,
                     left: (isAbsolute && -(props.overcomeLeft || 0)) || '',
                     right: (isAbsolute && -(props.overcomeRight || 0)) || '',
                     bottom: (isAbsolute && -(props.overcomeBottom || 0)) || '',
@@ -9322,7 +9320,7 @@ var FullCalendar = (function (exports) {
                 ref: chunkConfig.elRef,
                 role: 'presentation',
             }, createElement("div", { className: "fc-scroller-harness" + (isLiquid ? ' fc-scroller-harness-liquid' : '') },
-                createElement(Scroller, { ref: this.scrollerRefs.createRef(sectionKey), elRef: this.scrollerElRefs.createRef(sectionKey), overflowY: overflowY, overflowX: !props.liquid ? 'visible' : 'hidden' /* natural height? */, maxHeight: sectionConfig.maxHeight, liquid: isLiquid, liquidIsAbsolute // because its within a harness
+                createElement(Scroller, { ref: this.scrollerRefs.createRef(sectionKey), elRef: this.scrollerElRefs.createRef(sectionKey), overflowX: !props.liquid ? 'visible' : 'hidden' /* natural height? */, maxHeight: sectionConfig.maxHeight, liquid: isLiquid, liquidIsAbsolute // because its within a harness
                     : true }, content)));
         };
         SimpleScrollGrid.prototype._handleScrollerEl = function (scrollerEl, key) {
@@ -9548,7 +9546,7 @@ var FullCalendar = (function (exports) {
         } }, innerContent)); })); };
     function renderInnerContent$3(props) {
         var title = props.event.title;
-        return title && (createElement("div", { className: "fc-event-title" }, props.event.title));
+        return title && (createElement("div", { className: "fc-event-title cal-scroll"}, props.event.title));
     }
 
     var WeekNumberRoot = function (props) { return (createElement(ViewContextType.Consumer, null, function (context) {

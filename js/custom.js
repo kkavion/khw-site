@@ -423,18 +423,7 @@ function openSearch() {
 	document.getElementById("myOverlay").style.display = "none";
   }
 
-function openCalendar() 
-{
-	const cal = document.getElementsByClassName("calendar-section");
-	cal[0].style.display = "block";
-}
 
-// Close the full screen search box
-function closeCalendar()
-{
-	const cal = document.getElementsByClassName("calendar-section");
-	cal[0].style.display = "none";
-}
 function openOverlay()
 {
 	document.getElementById("intoverlay").style.display = "block";

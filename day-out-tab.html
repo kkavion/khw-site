@@ -61,6 +61,81 @@
 
 		gtag('config', 'G-EB2CYW0LY8');
 	</script>
+	
+    <link href="css/main.css" rel="stylesheet">
+	<link href="css/css.css" rel="stylesheet">
+    <script>
+
+		document.addEventListener('DOMContentLoaded', function() {
+		  var calendarEl = document.getElementById('calendar');
+	  
+		  var calendar = new FullCalendar.Calendar(calendarEl, {
+			headerToolbar: {
+			  left: 'prev today',
+			  center: 'title',
+			  right: 'next'
+			},
+			initialView: 'dayGridMonth',
+			dayMaxEvents: true, // allow "more" link when too many events
+			events: [
+			  {
+				title: 'All Day Event',
+				start: '2022-11-01'
+			  },
+			  {
+				title: 'Long Event',
+				start: '2022-11-07',
+				end: '2022-11-10'
+			  },
+			  {
+				title: 'Repeating Event',
+				start: '2022-11-09'
+			  },
+			  {
+				title: 'Repeating Event',
+				start: '2022-11-16'
+			  },
+			  {
+				title: 'Conference',
+				start: '2022-11-11',
+				end: '2022-11-13'
+			  },
+			  {
+				title: 'Meeting',
+				start: '2022-11-12'
+			  },
+			  {
+				title: 'Lunch',
+				start: '2022-11-12'
+			  },
+			  {
+				title: 'Meeting',
+				start: '2022-11-12'
+			  },
+			  {
+				title: 'Happy Hour',
+				start: '2022-11-12'
+			  },
+			  {
+				title: 'Dinner',
+				start: '2022-11-12'
+			  },
+			  {
+				title: 'Birthday Party',
+				start: '2022-11-13'
+			  },
+			  {
+				title: 'Click for Google',
+				url: 'http://google.com/',
+				start: '2022-11-28'
+			  }
+			]
+		  });
+	  
+		  calendar.render();
+		});
+	  
+	</script>
 </head>
 
 <body onselectstart="return false">
@@ -168,7 +243,7 @@
 	<!-- header area end here -->
 
 	<section class="breadcrumb-blog-version-one">
-		<div class="single-bredcurms" style="background-image:url('images/dayout/ban.jpg');">
+		<div class="single-bredcurms" style="background-image:url('images/banners/dayout.webp');">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 col-md-12">
@@ -239,8 +314,8 @@
 										<div class="carousel-inner">
 											<div class="item active">
 												<a href="#">
-													<img class="img1" src="images/dayout/fundays/1.jpg" style="width:100%; height:100%;">
-													<img class="img2" src="images/dayout/mobile/fun.jpg" style="width:100%; height:100%;"
+													<img class="img1" src="images/ads1/day_fun.webp" style="width:100%; height:100%;">
+													<img class="img2" src="images/ads-mobile/day_fun.webp" style="width:100%; height:100%;"
 														style="width:100%; height:100%;">
 												</a>
 											</div>
@@ -1684,8 +1759,8 @@
 										<div class="carousel-inner">
 											<div class="item active">
 												<a href="#">
-													<img class="img1" src="images/dayout/celebration/1.jpg" style="width:100%; height:100%;">
-													<img class="img2" src="images/dayout/mobile/cel.jpg" style="width:100%; height:100%;"
+													<img class="img1" src="images/ads1/day_cel.webp" style="width:100%; height:100%;">
+													<img class="img2" src="images/ads-mobile/day_cel.webp" style="width:100%; height:100%;"
 														style="width:100%; height:100%;">
 												</a>
 											</div>
@@ -3126,8 +3201,8 @@
 										<div class="carousel-inner">
 											<div class="item active">
 												<a href="#">
-													<img class="img1" src="images/dayout/wellness/1.jpg" style="width:100%; height:100%;">
-													<img class="img2" src="images/dayout/mobile/well.jpg" style="width:100%; height:100%;"
+													<img class="img1" src="images/ads1/day_well.webp" style="width:100%; height:100%;">
+													<img class="img2" src="images/ads-mobile/day_well.webp" style="width:100%; height:100%;"
 														style="width:100%; height:100%;">
 												</a>
 											</div>
@@ -4568,8 +4643,8 @@
 										<div class="carousel-inner">
 											<div class="item active">
 												<a href="#">
-													<img class="img1" src="images/dayout/foodfiesta/1.jpg" style="width:100%; height:100%;">
-													<img class="img2" src="images/dayout/mobile/food.jpg" style="width:100%; height:100%;"
+													<img class="img1" src="images/ads1/day_fiesta.webp" style="width:100%; height:100%;">
+													<img class="img2" src="images/ads-mobile/day_fiesta.webp" style="width:100%; height:100%;"
 														style="width:100%; height:100%;">
 												</a>
 											</div>
@@ -6029,8 +6104,8 @@
 										<div class="carousel-inner">
 											<div class="item active">
 												<a href="#">
-													<img class="img1" src="images/dayout/corporate/1.jpg" style="width:100%; height:100%;">
-													<img class="img2" src="images/dayout/mobile/corp.jpg" style="width:100%; height:100%;"
+													<img class="img1" src="images/ads1/day_corp.webp" style="width:100%; height:100%;">
+													<img class="img2" src="images/ads-mobile/day_corp.webp" style="width:100%; height:100%;"
 														style="width:100%; height:100%;">
 												</a>
 										</div>
@@ -7460,8 +7535,8 @@
 										<div class="carousel-inner">
 											<div class="item active">
 												<a href="#">
-													<img class="img1" src="images/dayout/event/1.jpg" style="width:100%; height:100%;">
-													<img class="img2" src="images/dayout/mobile/event.jpg" style="width:100%; height:100%;"
+													<img class="img1" src="images/ads1/day_event.webp" style="width:100%; height:100%;">
+													<img class="img2" src="images/ads-mobile/day_event.webp" style="width:100%; height:100%;"
 														style="width:100%; height:100%;">
 												</a>
 											</div>
@@ -7488,7 +7563,7 @@
 								<div class="timeline">
 									<div class="timeline-content left">
 										<div class="row" style="margin: 10px 15px 20px 15px;;">
-											<img src="images/bottom/dayout/1.jpg" style="width: 100%;">
+											<img src="images/ads2/tfrfunday.webp" style="width: 100%;">
 										</div>
 									</div>
 									<!-- single timeline -->
@@ -7497,7 +7572,7 @@
 								<div class="timeline">
 									<div class="timeline-content left">
 										<div class="row" style="margin: 50px 15px 20px 15px;;">
-											<img src="images/bottom/dayout/2.jpg" style="width: 100%;">
+											<img src="images/ads2/tfrcelebration.webp" style="width: 100%;">
 										</div>
 									</div>
 									<!-- single timeline -->
@@ -7506,7 +7581,7 @@
 								<div class="timeline">
 									<div class="timeline-content left">
 										<div class="row" style="margin: 50px 15px 20px 15px;;">
-											<img src="images/bottom/dayout/3.jpg" style="width: 100%;">
+											<img src="images/ads2/tfrfoodfiesta.webp" style="width: 100%;">
 										</div>
 									</div>
 									<!-- single timeline -->
@@ -7515,7 +7590,7 @@
 								<div class="timeline">
 									<div class="timeline-content left">
 										<div class="row" style="margin: 50px 15px 20px 15px;;">
-											<img src="images/bottom/dayout/4.jpg" style="width: 100%;">
+											<img src="images/ads2/tfrcorporate.webp" style="width: 100%;">
 										</div>
 									</div>
 									<!-- single timeline -->
@@ -7524,7 +7599,7 @@
 								<div class="timeline">
 									<div class="timeline-content left">
 										<div class="row" style="margin: 50px 15px 20px 15px;;">
-											<img src="images/bottom/dayout/1.jpg" style="width: 100%;">
+											<img src="images/ads2/tfrfunday.webp" style="width: 100%;">
 										</div>
 									</div>
 									<!-- single timeline -->
@@ -7533,7 +7608,7 @@
 								<div class="timeline">
 									<div class="timeline-content left">
 										<div class="row" style="margin: 50px 15px 20px 15px;;">
-											<img src="images/bottom/dayout/2.jpg" style="width: 100%;">
+											<img src="images/ads2/tfrcelebration.webp" style="width: 100%;">
 										</div>
 									</div>
 									<!-- single timeline -->
@@ -7791,38 +7866,38 @@
 			<div class="carousel-inner">
 				<div class="item active">
 					<a href="#">
-						<img class="img1" src="images/bottom/dayout/1.jpg" style="width:100%; height:100%;">
-						<img class="img2" src="images/bottom/mobile/dout/1.jpg" style="width:100%; height:100%;">
+						<img class="img1" src="images/ads2/tfrfunday.webp" style="width:100%; height:100%;">
+						<img class="img2" src="images/ads-mobile/tfrfunday.webp" style="width:100%; height:100%;">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#">
-						<img class="img1" src="images/bottom/dayout/2.jpg" style="width:100%; height:100%;">
-						<img class="img2" src="images/bottom/mobile/dout/2.jpg" style="width:100%; height:100%;">
+						<img class="img1" src="images/ads2/tfrcelebration.webp" style="width:100%; height:100%;">
+						<img class="img2" src="images/ads-mobile/tfrcelebration.webp" style="width:100%; height:100%;">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#">
-						<img class="img1" src="images/bottom/dayout/3.jpg" style="width:100%; height:100%;">
-						<img class="img2" src="images/bottom/mobile/dout/3.jpg" style="width:100%; height:100%;">
+						<img class="img1" src="images/ads2/tfrfoodfiesta.webp" style="width:100%; height:100%;">
+						<img class="img2" src="images/ads-mobile/tfrfoodfiesta.webp" style="width:100%; height:100%;">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#">
-						<img class="img1" src="images/bottom/dayout/4.jpg" style="width:100%; height:100%;">
-						<img class="img2" src="images/bottom/mobile/dout/4.jpg" style="width:100%; height:100%;">
+						<img class="img1" src="images/ads2/tfrcorporate.webp" style="width:100%; height:100%;">
+						<img class="img2" src="images/ads-mobile/tfrcorporate.webp" style="width:100%; height:100%;">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#">
-						<img class="img1" src="images/bottom/dayout/1.jpg" style="width:100%; height:100%;">
-						<img class="img2" src="images/bottom/mobile/dout/1.jpg" style="width:100%; height:100%;">
+						<img class="img1" src="images/ads2/tfrfunday.webp" style="width:100%; height:100%;">
+						<img class="img2" src="images/ads-mobile/tfrfunday.webp" style="width:100%; height:100%;">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#">
-						<img class="img1" src="images/bottom/dayout/2.jpg" style="width:100%; height:100%;">
-						<img class="img2" src="images/bottom/mobile/dout/2.jpg" style="width:100%; height:100%;">
+						<img class="img1" src="images/ads2/tfrcelebration.webp" style="width:100%; height:100%;">
+						<img class="img2" src="images/ads-mobile/tfrcelebration.webp" style="width:100%; height:100%;">
 					</a>
 				</div>
 			</div>
