@@ -1577,7 +1577,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      position: fixed;
      left: 0.5%;
      text-align: center;
-     bottom: 5%;
+     bottom: 40px;
      transition: all 0.5s ease-in-out 0s;
      width: 40px;
      z-index: 999;
@@ -2274,7 +2274,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 /*===================================================== 25.home version 2 subscribe section css goes here =======================================================*/
  .subscribe-area-2 {
-     background: transparent url("../images/bgimage/subs.jpg") repeat scroll 0 0;
+     background: transparent url("../images/homepage/subs.webp") repeat scroll 0 0;
      padding: 10px 0;
      background-position: center center;
 }
