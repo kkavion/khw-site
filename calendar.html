@@ -74,66 +74,58 @@
 	  
 		  var calendar = new FullCalendar.Calendar(calendarEl, {
 			headerToolbar: {
-			  left: 'prev today',
-			  center: 'title',
-			  right: 'next'
+				left: 'prev',
+			  	center: 'title today',
+				right: 'next'
 			},
+			firstDay: 1,
 			initialView: 'dayGridMonth',
 			dayMaxEvents: true, // allow "more" link when too many events
 			events: [
 			  {
 				title: 'All Day Event',
-				start: '2022-11-01'
+				start: '2022-12-01',
+				backgroundColor: 'green',
+				borderColor: 'green'
 			  },
 			  {
 				title: 'Long Event',
-				start: '2022-11-07',
-				end: '2022-11-10'
+				start: '2022-12-07',
+				end: '2022-12-10',
+				backgroundColor: 'orange',
+				borderColor: 'orange'
 			  },
 			  {
-				groupId: 999,
-				title: 'Repeating Event',
-				start: '2022-11-09T16:00:00'
-			  },
-			  {
-				groupId: 999,
-				title: 'Repeating Event',
-				start: '2022-11-16T16:00:00'
+				title: 'Long Event',
+				start: '2022-12-01',
+				end: '2022-12-10',
+				backgroundColor: 'orange',
+				borderColor: 'orange'
 			  },
 			  {
 				title: 'Conference',
-				start: '2022-11-11',
-				end: '2022-11-13'
+				start: '2022-12-11',
+				end: '2022-12-13',
+				backgroundColor: 'yellow',
+				borderColor: 'yellow',
+				textColor: 'gray'
 			  },
 			  {
-				title: 'Meeting',
-				start: '2022-11-12T10:30:00',
-				end: '2022-11-12T12:30:00'
-			  },
-			  {
-				title: 'Lunch',
-				start: '2022-11-12T12:00:00'
-			  },
-			  {
-				title: 'Meeting',
-				start: '2022-11-12T14:30:00'
-			  },
-			  {
-				title: 'Happy Hour',
-				start: '2022-11-12T17:30:00'
-			  },
-			  {
-				title: 'Dinner',
-				start: '2022-11-12T20:00:00'
-			  },
-			  {
-				title: 'Birthday Party',
-				start: '2022-11-13T07:00:00'
+				title: 'Conference',
+				start: '2022-12-01',
+				end: '2022-12-03',
+				backgroundColor: 'yellow',
+				borderColor: 'yellow',
+				textColor: 'gray'
 			  },
 			  {
 				title: 'Click for Google',
 				url: 'http://google.com/',
-				start: '2022-11-28'
+				start: '2022-12-28'
+			  },
+			  {
+				daysOfWeek: [0,6],
+				display: 'background'
 			  }
 			],
             eventClick: function(info) {

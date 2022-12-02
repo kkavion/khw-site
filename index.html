@@ -70,38 +70,6 @@
 
 		gtag('config', 'G-EB2CYW0LY8');
 	</script>
-	
-    <link href="css/main.css" rel="stylesheet">
-	<link href="css/css.css" rel="stylesheet">
-    <script>
-
-		document.addEventListener('DOMContentLoaded', function() {
-		  var calendarEl = document.getElementById('calendar');
-	  
-		  var calendar = new FullCalendar.Calendar(calendarEl, {
-			headerToolbar: {
-			  left: 'prev today',
-			  center: 'title',
-			  right: 'next'
-			},
-			dayMaxEvents: true, // allow "more" link when too many events
-			events: [
-			  {
-				title: 'All Day Event',
-				start: '2022-11-01'
-			  },
-			  {
-				title: 'Click for Google',
-				url: 'http://google.com/',
-				start: '2022-11-28'
-			  }
-			]
-		  });
-	  
-		  calendar.render();
-		});
-	  
-	</script>
 </head>
 
 <body onselectstart="return false">
@@ -2989,7 +2957,7 @@
 			<div class="modal-content">
 			  <div class="modal-body">
 				<button type="button" class="close" data-dismiss="modal">&times;</button>
-				<iframe src="calendar.html"></iframe>
+				<iframe id="cals" src="calendar.html"></iframe>
 			  </div>
 			</div>
 		
@@ -3067,8 +3035,7 @@
 	<script src="js/colors.js"></script>
 	<!-- Jquery plugin -->
 	<script src="js/jquery-customselect.js"></script>
-	<!-- main js -->	
-    <script src="js/main.js"></script>
+	<!-- main js -->
 	<script src="js/custom.js"></script>
 	<!-- jquery confirm js-->
 	<script src="js/jquery-confirm.min.js"></script>
