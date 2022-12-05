@@ -2174,6 +2174,7 @@ iframe
 {
      top: -35px;
      position: relative;
+     text-align: center;
 }
 #mobnav .mean-link:nth-child(1)
 {
@@ -2244,9 +2245,8 @@ iframe
 }
 #calendar .fc-header-toolbar
 {
-     background: url(../images/banners/destmandar.webp);
-     background-size: cover;
-     background-repeat: round;
+     background-size: cover !important;
+     background-repeat: round !important;
 }
 #calendar .fc-col-header-cell
 {
@@ -2255,4 +2255,9 @@ iframe
 #calendar .fc-col-header-cell a
 {
      color: white;
+}
+.halfstar
+{
+     width: 11px;
+     overflow: clip;
 }
