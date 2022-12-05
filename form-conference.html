@@ -682,11 +682,29 @@
 
 
 		</div>
-	</footer>
+	</footer><section id="calendar-section" class="modal fade" role="dialog">
+		
+		<div class="modal-dialog modal-lg">
 
-
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-body">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<iframe id="cals" src="../calendar.html"></iframe>
+			  </div>
+			</div>
+		
+		  </div>
+	</section>
 
 	<!-- footer ends -->
+
+
+	<div class="calendar-sec">
+		<div class="buttons" data-target="#calendar-section" data-toggle="modal"><i class="mdi mdi-calendar-month-outline"></i>
+			<span>Calendar</span>
+		</div>
+	</div>
 
 
 	
