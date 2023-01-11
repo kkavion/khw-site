@@ -1832,6 +1832,12 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      box-shadow: 0 0 3px gray;
      transition: all ease-in 0.3s;
 }
+.two-column p
+{
+     margin: 0;
+     text-align: center;
+     font-weight: bold;
+}
 .resort-tab .single-package-carasoul .package-details .package-ratings-review .two-column
 {
      text-align: center;
@@ -2256,8 +2262,29 @@ iframe
 {
      color: white;
 }
-.halfstar
+.stars 
 {
-     width: 11px;
-     overflow: clip;
+     color: gold;
+     position: relative;
+     font-size: 18px;
+     display: inline-block;
+}
+.cover
+{
+     background: white;
+     height: 100%;
+     overflow: hidden;
+     mix-blend-mode: color;
+     top: 0;
+     right: 0;
+     position: absolute;
+}
+.package-places .stars, 
+.outskirts-pg .stars
+{
+     float: right;
+}
+.package-ratings-review .stars
+{
+     text-align: center;
 }
