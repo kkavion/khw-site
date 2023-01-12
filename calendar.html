@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="description" content="A KHW website">
+	<meta name="keywords" content="Tour, Travel">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Insta-Holiday</title>
+	<!-- Google Fonts Includes -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen" rel="stylesheet">
+	<!-- Favi icon -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+	<!-- bootstrap v3.3.6 css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Button Hover animate css -->
+	<link rel="stylesheet" href="css/hover-min.css">
+	<!-- jquery-ui.min css -->
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<!-- meanmenu css -->
+	<link rel="stylesheet" href="css/meanmenu.min.css">
+	<!-- owl.carousel css -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<!-- slick css -->
+	<link rel="stylesheet" href="css/slick.css">
+	<!-- chosen.min-->
+	<link rel="stylesheet" href="css/chosen.min.css">
+	<!-- chosen.min-->
+	<link rel="stylesheet" href="css/jquery-customselect.css">
+	<!-- font-awesome css -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- magnific Css -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Revolution Slider -->
+	<link rel="stylesheet" href="css/assets/revolution/layers.css">
+	<link rel="stylesheet" href="css/assets/revolution/navigation.css">
+	<link rel="stylesheet" href="css/assets/revolution/settings.css">
+	<!-- custome css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- responsive css -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- modernizr css -->
+	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+	<!-- custom css -->
+	<link rel="stylesheet" href="css/custom.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/lightslider.css">
+	<link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+	<link rel="stylesheet"
+		href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-EB2CYW0LY8"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-EB2CYW0LY8');
+	</script>
+	
+    <link href="css/main.css" rel="stylesheet">
+	<link href="css/css.css" rel="stylesheet">
+    <script>
+
+		document.addEventListener('DOMContentLoaded', function() {
+		  var calendarEl = document.getElementById('calendar');
+	  
+		  var calendar = new FullCalendar.Calendar(calendarEl, {
+			googleCalendarApiKey:'AIzaSyD1jRR9_yVjPNcDfjTxao2UdW_6ZYOf_F0',
+			eventSources: [
+				{
+					googleCalendarId: 'kkavion.com@gmail.com',
+					color: 'red'
+				},
+				{
+					googleCalendarId: 'en.indian#holiday@group.v.calendar.google.com',
+					backgroundColor: 'red',
+					borderColor: 'red',
+					color: 'red',
+					textColor: 'white',
+					className: 'Indian Holidays'
+				},
+			],
+			headerToolbar: {
+				left: 'prev',
+			  	center: 'title today',
+				right: 'next'
+			},
+			firstDay: 1,
+			initialView: 'dayGridMonth',
+			dayMaxEvents: true, // allow "more" link when too many events
+			events: [				
+				{
+					title: 'All Day Event',
+					start: '2022-12-01',
+					backgroundColor: 'green',
+					borderColor: 'green'
+				},
+				{
+					title: 'Long Event',
+					start: '2022-12-07',
+					end: '2022-12-10',
+					backgroundColor: 'orange',
+					borderColor: 'orange'
+				},
+				{
+					title: 'Long Event',
+					start: '2022-12-01',
+					end: '2022-12-10',
+					backgroundColor: 'orange',
+					borderColor: 'orange'
+				},
+				{
+					title: 'Conference',
+					start: '2022-12-11',
+					end: '2022-12-13',
+					backgroundColor: 'yellow',
+					borderColor: 'yellow',
+					textColor: 'gray'
+				},
+				{
+					title: 'Conference',
+					start: '2022-12-01',
+					end: '2022-12-03',
+					backgroundColor: 'yellow',
+					borderColor: 'yellow',
+					textColor: 'gray'
+				},
+				{
+					title: 'Click for Google',
+					url: 'http://google.com/',
+					start: '2022-12-28'
+				},
+				{
+					daysOfWeek: [0,6],
+					display: 'background'
+				}
+			],
+            eventClick: function(info) {
+            info.jsEvent.preventDefault(); // don't let the browser navigate
+
+            if (info.event.url) {
+                    window.open(info.event.url);
+                }
+            }
+		  });
+	  
+		  calendar.render();
+		});
+	  
+	  </script>
+	<style>
+		#calendar .fc-header-toolbar
+		{
+			background: url(images/banners/destmandar.webp);
+		}
+	</style>
+</head>
+<body onselectstart="return false">
+    <div id='calendar'></div>
+    <!-- ============================
+            JavaScript Files
+    ============================= -->
+	<!-- jquery latest version -->
+	<script src="js/vendor/jquery-3.2.0.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- owl.carousel js -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- slick js -->
+	<script src="js/slick.min.js"></script>
+	<!-- meanmenu js -->
+	<script src="js/jquery.meanmenu.min.js"></script>
+	<!-- jquery-ui js -->
+	<script src="js/jquery-ui.min.js"></script>
+	<!-- wow js -->
+	<script src="js/wow.min.js"></script>
+	<!-- counter js -->
+	<script src="js/jquery.counterup.min.js"></script>
+	<!-- Countdown js -->
+	<script src="js/jquery.countdown.min.js"></script>
+	<!-- waypoints js -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Isotope js -->
+	<script src="js/isotope.pkgd.min.js"></script>
+	<!-- magnific js -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<!-- Image loaded js -->
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<!-- chossen js -->
+	<script src="js/chosen.jquery.min.js"></script>
+	<!-- Jquery plugin -->
+	<script src="js/plugins.js"></script>
+	<!-- select2 js plugin -->
+	<script src="js/select2.min.js"></script>
+	<script src="js/colors.js"></script>
+	<!-- Jquery plugin -->
+	<script src="js/jquery-customselect.js"></script>
+	<!-- google map api -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIW0B_E3g-Yg533xy3yF0WHThi-mFvSNQ "></script>
+	<!-- map js -->
+	<script src="js/google-map.js"></script>
+	<!-- main js -->	
+    <script src="js/main.js"></script>
+	<script src="js/custom.js"></script>
+	<script>
+		// When the user scrolls the page, execute myFunction
+		window.onscroll = function () { myFunction() };
+
+		// Get the navbar
+		var navbar = document.getElementById("navbar");
+		var mobnav = document.getElementById("mobnav");
+
+		// Get the offset position of the navbar
+		var sticky = navbar.offsetTop+450;
+		var sticky2 = mobnav.offsetTop+150;
+
+		// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+		function myFunction() {
+			if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky");
+			}
+			else {
+				navbar.classList.remove("sticky");
+			}
+			if (window.pageYOffset >= sticky2) {
+				mobnav.classList.add("sticky2");
+			}
+			else {
+				mobnav.classList.remove("sticky2");
+			}
+
+		}
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/lightslider.js"></script>
+	<script>
+		$(document).ready(function () {
+			$("#content-slider").lightSlider({
+				loop: true,
+				keyPress: true
+			});
+			$('#image-gallery').lightSlider({
+				gallery: true,
+				item: 1,
+				thumbItem: 9,
+				slideMargin: 0,
+				speed: 500,
+				auto: true,
+				loop: true,
+				onSliderLoad: function () {
+					$('#image-gallery').removeClass('cS-hidden');
+				}
+			});
+		});
+	</script>
+</body>
+
+</html>

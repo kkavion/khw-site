@@ -7,6 +7,10 @@
     {
         display: none;
     }
+    #calendar-section iframe
+    {
+        height: 43vmax;
+    }
     .tparrows
     {
         top: 90% !important;
@@ -165,6 +169,22 @@
     .single-item{margin-bottom: 30px;}
     .single-item:last-child{margin-bottom: 0px;}
     .tparrows {display: none;}
+    #calendar .fc-toolbar-title
+    {
+        font-size: 1.4em;
+    }
+    #calendar-section iframe
+    {
+        height: 355px;
+    }
+    #calendar .fc-button
+    {
+        font-size: 0.8em !important;
+    }
+    #calendar table
+    {
+        font-size: 0.8em !important;
+    }
     
     .turn-off
     {
@@ -576,6 +596,20 @@
 /*========= index 05 ==========*/
     .top-destination-area-5 .single-destionation-5 .destination-5-description .rating-review-5 li:last-child { float: none; }
     .hotels-area-2 .single-hotels-2 .hotel-image img{width: 100%;}
+
+    
+    #calendar .fc-button
+    {
+        font-size: 0.8em !important;
+    }
+    #calendar-section iframe
+    {
+        height: 65vmax;
+    }
+    #calendar table
+    {
+        font-size: 0.85em !important;
+    }
     
     .carousel-indicators
     {
@@ -659,11 +693,7 @@
 
 @media only screen and (max-width: 600px)
 {
-    .sale-tab .single-bredcurms
-    {
-        padding: 120px 0 0 0;
-        height: 850px;
-    }
+    
     .footer-title .logo1
     {
         padding: 0 25%;
@@ -675,10 +705,15 @@
 }
 @media screen and (min-width: 991px)
 {
+    
     .footer-title .logo1
     {
         padding: 0 60px;
         display: none;
+    }
+    #calendar-section iframe
+    {
+        height: 775px;
     }
     .footer-title .logo2
     {
