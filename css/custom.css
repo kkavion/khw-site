@@ -2283,8 +2283,17 @@ iframe
 .outskirts-pg .stars
 {
      float: right;
+     top: -3px;
 }
-.package-ratings-review .stars
+.sale-tab-2 .stars
+{
+     top: 0px;;
+}
+.package-ratings-review .stars, .resort-tab .package-ratings-review
 {
      text-align: center;
+}
+.out-stars .stars
+{
+     float: left;
 }
