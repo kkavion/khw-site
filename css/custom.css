@@ -1090,8 +1090,9 @@ button
      font-size: 15px;
      float: right;
      padding: 6px;
-     border: 1px solid gray;
      border-radius: 10px;
+     position: relative;
+     top: 1px;
 }
 .x-essence
 {
@@ -2283,7 +2284,7 @@ iframe
 .outskirts-pg .stars
 {
      float: right;
-     top: -3px;
+     top: 1px;
 }
 .sale-tab-2 .stars
 {
