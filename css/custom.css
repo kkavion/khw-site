@@ -273,7 +273,6 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .single-package-carasoul:hover
 {
 	transition: all 0.3s ease 0s;
-	box-shadow: 0 0 10px rgb(0, 0, 0, 0.5) !important;
 }
 .booking-title
 {
@@ -759,7 +758,7 @@ header .main-menu a:focus
 }
 .single-hotels ul
 {
-     padding: 5% 30%;
+     padding: 5% 40%;
 }
 .single-package-carasoul .package-location span img
 {
@@ -787,6 +786,7 @@ header .main-menu a:focus
 {
      padding-bottom: 10px;
      cursor: pointer;
+     color: #454545;
 }
 .resort-box .amenities-row
 {
@@ -1940,7 +1940,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .package-places span
 {
-     font-weight: 600;
+     font-weight: 400;
 }
 .package-places .details span
 {
@@ -2280,7 +2280,11 @@ iframe
      right: 0;
      position: absolute;
 }
-.package-places .stars, 
+.package-places .stars
+{
+     float: right;
+     top: -3px;
+}
 .outskirts-pg .stars
 {
      float: right;
@@ -2297,4 +2301,54 @@ iframe
 .out-stars .stars
 {
      float: left;
+}
+.popular-packages-carasoul .package-details .package-two-col
+{
+     position: relative;
+     padding-top: 10px;
+}
+.popular-packages-carasoul .package-details .package-two-col .two-column li
+{
+     display: inline-block;
+     font-size: 15px;
+     font-weight: 600;
+     color: #353535;
+}
+.popular-packages-carasoul .package-details .package-two-col .two-column li:last-child
+{
+     float: right;
+}
+.popular-packages-carasoul .package-details .package-two-col .two-column li:last-child p
+{
+     font-weight: 400;
+}
+.red
+{
+     color: red;
+     font-weight: 600 !important;
+}
+.package-5-area .single-package-carasoul
+{
+     box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+.package-5-area .single-package-carasoul:hover
+{
+     box-shadow: 0 0 10px rgb(0,0,0,.5) !important;
+}
+.leisure-page-area .btn
+{
+     background: none;
+     border: 1px solid #049dd9;
+     transition: all 0.3s ease-in-out;
+     background: white;
+}
+.leisure-page-area .btn:hover
+{
+     color: white;
+     border: 1px solid #049dda;
+     background: #049dd9;
+}
+.quick-links
+{     
+     padding: 25px 0;
 }
