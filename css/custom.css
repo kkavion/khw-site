@@ -1090,8 +1090,9 @@ button
      font-size: 15px;
      float: right;
      padding: 6px;
-     border: 1px solid gray;
      border-radius: 10px;
+     position: relative;
+     top: 1px;
 }
 .x-essence
 {
@@ -2283,8 +2284,17 @@ iframe
 .outskirts-pg .stars
 {
      float: right;
+     top: 1px;
 }
-.package-ratings-review .stars
+.sale-tab-2 .stars
+{
+     top: 0px;;
+}
+.package-ratings-review .stars, .resort-tab .package-ratings-review
 {
      text-align: center;
+}
+.out-stars .stars
+{
+     float: left;
 }

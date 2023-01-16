@@ -1904,6 +1904,14 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      padding: 14px 0;
      position: relative;
 }
+.package-5-area .single-package-carasoul .package-details .package-ratings-review
+{
+    background: #049dd9;
+}
+.package-5-area .single-package-carasoul .package-details .package-ratings-review .two-column p
+{
+    color: white;
+}
  .single-package-carasoul .package-details .package-ratings-review .two-column {
      padding: 0 25px;
 }
@@ -1923,7 +1931,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: #727272;
 }
  .single-package-carasoul .package-long-btn {
-     background: #0095da none repeat scroll 0 0;
+     background: #f2911b none repeat scroll 0 0;
      display: block;
      text-align: center;
      position: absolute;
@@ -3438,7 +3446,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-description > p span {
      font-weight: 600;
-     color: #71bf44;
+     color: red;
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-description .rating-review-5 {
      padding-bottom: 30px;
@@ -4542,6 +4550,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
      transition: all ease-in-out 0.5s;
      border-radius: 10px;
+     margin-bottom: 30px;
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-image {
      overflow: hidden;
