@@ -149,7 +149,13 @@ header .sticky .header-bottom-area .main-menu > li.active a
      padding: 0;
      width: unset;
 }
-.resort-table li:before
+.availability
+{
+     font-size: 12px;
+     padding: 7px 0;
+     display: block;
+}
+.availability::before
 {
      content: "\2731";
      padding-right:2px;
@@ -666,7 +672,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
      margin-top: 0px;
 }
-.timeline-content .discount-package-4-btn
+.box .travel-primary-btn-2
 {
      float: right;
 }
@@ -2351,4 +2357,8 @@ iframe
 .quick-links
 {     
      padding: 25px 0;
+}
+.resort-table li span:first-child
+{
+     font-weight: bold;
 }
