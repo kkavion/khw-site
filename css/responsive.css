@@ -265,8 +265,8 @@
     }
     #discstick 
     {
-        width: 90px !important;
-        height: 30px !important;
+        width: 85px !important;
+        height: 25px !important;
         background: red !important;
         position: relative !important;
         -moz-border-radius: 10px !important;
@@ -278,7 +278,8 @@
     #discstick span, #discstick a
     {
         margin: 10px !important;
-        font-size: 20px !important;
+        font-size: 18px !important;
+        margin-left: 8px !important;
     }
     .package-location #discstick
     {
@@ -338,7 +339,7 @@
     {
      padding: 10px;
     }
-    .blog-post-content h4, h5, p
+    .blog-post-content h4,.blog-post-content h5,.blog-post-content p
     {
         text-align: left
     }
@@ -787,5 +788,34 @@
     #compare-section .comparison-title, #room-compare-section .comparison-title
     {
         padding: 20px 0 !important;
+    }
+}
+@media screen and (max-width: 480px) {    
+    .disc-section li span
+    {
+        font-weight: 400;
+        font-size: 11px;
+    }
+    .disc-section li:first-child span
+    {
+        font-size: 14px !important;
+    }
+    .disc-section li:nth-child(2) span
+    {
+        font-size: 15px !important;
+        font-weight: bold !important;
+    }
+    .disc-section li:last-child span
+    {
+        font-size: 9px !important;
+        color: gray;
+    }
+    .amenities-row .material-icons
+    {
+        font-size: 17px !important;
+    }
+    .amenities-row
+    {
+        font-size: 0;
     }
 }

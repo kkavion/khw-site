@@ -790,9 +790,8 @@ header .main-menu a:focus
 }
 .amenities-row
 {
-     padding-bottom: 10px;
      cursor: pointer;
-     color: #454545;
+     color: gray;
 }
 .resort-box .amenities-row
 {
@@ -800,11 +799,11 @@ header .main-menu a:focus
 }
 .amenities-row span
 {
-     padding: 0 7px;
+     padding-right: 10px;
 }
-.amenities-row span:nth-child(1)
+.amenities-row .material-icons
 {
-     padding-left: 0;
+     font-size: 20px !important;
 }
 .logo-box img
 {
@@ -1043,6 +1042,7 @@ button
      font-weight: bold;
      color: white;
      text-align: center;
+     margin-left: 18px;
 }
 .package-location #discstick 
 {
@@ -2361,4 +2361,38 @@ iframe
 .resort-table li span:first-child
 {
      font-weight: bold;
+}
+.resort-table .col-md-9
+{
+     padding-top: 10px;
+}
+.disc-section
+{
+     padding-bottom: 5px;
+}
+.disc-section li
+{
+     padding: 0;
+}
+.disc-section li span
+{
+     font-weight: 400;
+}
+.disc-section li:first-child span
+{
+     font-size: 18px;
+}
+.disc-section li:nth-child(2) span
+{
+     font-size: 20px;
+     font-weight: bold !important;
+}
+.disc-section li:last-child span
+{
+     font-size: 11px;
+     color: gray;
+}
+.disc-section li span:first-child
+{
+     font-weight: 400;
 }
