@@ -154,6 +154,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
      font-size: 12px;
      padding: 7px 0;
      display: block;
+     font-style: italic;
 }
 .availability::before
 {
@@ -784,10 +785,10 @@ header .main-menu a:focus
 {
      text-align: left;
 }
-.amenities-row
+.amenities-row span
 {
      cursor: pointer;
-     color: gray;
+     color: gray !important;
 }
 .resort-box .amenities-row
 {
@@ -977,11 +978,6 @@ button
 {
      font-family: 'Open Sans', sans-serif;
      color: black;
-}
-.resort-box .material-icons
-{     
-     font-family: 'Material Icons';
-     color: black !important;
 }
 .resort-box .resort-table .row:nth-child(1)
 {
@@ -1775,7 +1771,9 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .resort-rooms .resort-table .row:nth-child(2),
 .day-out .resort-table .row:nth-child(2),
 .offer-tab .resort-table .row:nth-child(2),
-.interest-dayout .resort-table .row:nth-child(2)
+.interest-dayout .resort-table .row:nth-child(2),
+.resorts-bg .dayout-table .row:nth-child(2)
+
 {
      padding: 0;
      text-align: left;
@@ -1786,7 +1784,8 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .resort-rooms .resort-table .row:nth-child(2) .col-md-3,
 .day-out .resort-table .row:nth-child(2) .col-md-3,
 .offer-tab .resort-table .row:nth-child(2) .col-md-3,
-.interest-dayout .resort-table .row:nth-child(2) .col-md-3
+.interest-dayout .resort-table .row:nth-child(2) .col-md-3,
+.resorts-bg .dayout-table .row:nth-child(2) .col-md-3
 
 {
      font-size: 15px;
