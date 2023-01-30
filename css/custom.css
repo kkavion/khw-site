@@ -1916,12 +1916,17 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      cursor: pointer;
 }
+.compare-section-buttons
+{
+     margin: auto;
+     text-align: center;
+}
 #intoverlay, #intoverlay2, #intoverlay3, #intoverlay4, #intoverlay5,
 #intoverlaya, #intoverlayb, #intoverlayc, #intoverlayd, #intoverlaye, #intoverlayf,
 #intoverlayaa,
 #intoverlayaaa, #intoverlaybbb,
 #compare-section,
-#room-compare-section
+#room-compare-section, #villa-compare-section, #suite-compare-section
 {
      position: fixed; /* Sit on top of the page content */
      display: none; /* Hidden by default */
@@ -2152,29 +2157,29 @@ iframe
      padding: 10px 5px;
      display: inline-block;
 }
-#compare-section .container, #room-compare-section .container
+#compare-section .container, #room-compare-section .container, #villa-compare-section .container, #suite-compare-section .container
 {
      background: white;
      font-size: 15px;
      border-radius: 10px;
 }
-#compare-section .row, #room-compare-section .row
+#compare-section .row, #room-compare-section .row, #villa-compare-section .row, #suite-compare-section .row
 {
      padding: 5px 0;
 }
-#compare-section .row div:first-child, #room-compare-section .row div:first-child
+#compare-section .row div:first-child, #room-compare-section .row div:first-child, #villa-compare-section .row div:first-child, #suite-compare-section .row div:first-child
 {
      text-align: left;
 }
-#compare-section .col-md-2, #room-compare-section .col-md-2
+#compare-section .col-md-2, #room-compare-section .col-md-2, #villa-compare-section .col-md-2, #suite-compare-section .col-md-2
 {
      text-align: center;
 }
-#compare-section .section-title-version-2-black, #room-compare-section .section-title-version-2-black
+#compare-section .section-title-version-2-black, #room-compare-section .section-title-version-2-black, #villa-compare-section .section-title-version-2-black, #suite-compare-section .section-title-version-2-black
 {
      text-align: center !important;
 }
-#compare-section .comparison-title h1, #room-compare-section .comparison-title h1
+#compare-section .comparison-title h1, #room-compare-section .comparison-title h1, #villa-compare-section .comparison-title h1, #suite-compare-section .comparison-title h1
 {
      padding: 17% 0;
 }
@@ -2183,6 +2188,8 @@ iframe
      top: -35px;
      position: relative;
      text-align: center;
+     display: inline-block;
+     cursor: pointer;
 }
 #mobnav .mean-link:nth-child(1)
 {
@@ -2339,7 +2346,7 @@ iframe
 .leisure-page-area .btn, .resorts-bg .btn
 {
      background: none;
-     border: 1px solid #049dd9;
+     border: 1px solid lightgray;
      transition: all 0.3s ease-in-out;
      background: white;
 }
