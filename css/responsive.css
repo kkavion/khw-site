@@ -190,7 +190,7 @@
     {
         display: none;
     }    
-    #compare-section .comparison-title h1, #compare-section .comparison-title h1
+    #compare-section .comparison-title h1, #room-compare-section .comparison-title h1, #villa-compare-section .comparison-title h1, #suite-compare-section .comparison-title h1
     {
         display: none;
     }
