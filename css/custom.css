@@ -2186,10 +2186,7 @@ iframe
 .comparison-title
 {
      color: #f2911b;
-}
-#compare-section .comparison-title h1, #room-compare-section .comparison-title h1, #villa-compare-section .comparison-title h1, #suite-compare-section .comparison-title h1
-{
-     padding: 17% 0;
+     text-align: center;
 }
 #compare-section .heading div:not(:first-child), #room-compare-section .heading div:not(:first-child), #villa-compare-section .heading div:not(:first-child), #suite-compare-section .heading div:not(:first-child)
 {
@@ -2372,6 +2369,12 @@ iframe
 .quick-links
 {     
      padding: 25px 0;
+     font-size: 18px;
+}
+.quick-links .btn
+{
+     font-size: 16px;
+     padding: 6px;
 }
 .resort-table li span:first-child
 {
