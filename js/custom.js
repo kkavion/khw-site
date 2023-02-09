@@ -3,7 +3,7 @@
 
 	$(window).on('load', function(){
 		$('#status').fadeOut();
-		$('#preloader').delay(350).fadeOut('fast');
+		$('#preloader').delay(100).fadeOut('fast');
 		$(window).stellar({});
 	});
 
