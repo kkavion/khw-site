@@ -512,3 +512,19 @@ function closeRoomCompare()
 {
 	document.getElementById("room-compare-section").style.display = "none";
 }
+function openVillaCompare()
+{
+	document.getElementById("villa-compare-section").style.display = "block";
+}
+function closeVillaCompare()
+{
+	document.getElementById("villa-compare-section").style.display = "none";
+}
+function openSuiteCompare()
+{
+	document.getElementById("suite-compare-section").style.display = "block";
+}
+function closeSuiteCompare()
+{
+	document.getElementById("suite-compare-section").style.display = "none";
+}

@@ -149,7 +149,14 @@ header .sticky .header-bottom-area .main-menu > li.active a
      padding: 0;
      width: unset;
 }
-.resort-table li:before
+.availability
+{
+     font-size: 12px;
+     padding: 7px 0;
+     display: block;
+     font-style: italic;
+}
+.availability::before
 {
      content: "\2731";
      padding-right:2px;
@@ -658,15 +665,11 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
      min-width: 100px !important;
 }
-.single-package-area .header-bottom-area
-{
-     margin-top: 20px;
-}
 .tab-content .header-bottom-area
 {
      margin-top: 0px;
 }
-.timeline-content .discount-package-4-btn
+.box .travel-primary-btn-2
 {
      float: right;
 }
@@ -782,11 +785,10 @@ header .main-menu a:focus
 {
      text-align: left;
 }
-.amenities-row
+.amenities-row span
 {
-     padding-bottom: 10px;
      cursor: pointer;
-     color: #454545;
+     color: gray !important;
 }
 .resort-box .amenities-row
 {
@@ -794,11 +796,11 @@ header .main-menu a:focus
 }
 .amenities-row span
 {
-     padding: 0 7px;
+     padding-right: 10px;
 }
-.amenities-row span:nth-child(1)
+.amenities-row .material-icons
 {
-     padding-left: 0;
+     font-size: 20px !important;
 }
 .logo-box img
 {
@@ -827,7 +829,7 @@ i
 .foot i
 {
      font-size: 16px !important;
-     color: #aaa;
+     color: white;
 }
 .tagline i
 {
@@ -977,11 +979,6 @@ button
      font-family: 'Open Sans', sans-serif;
      color: black;
 }
-.resort-box .material-icons
-{     
-     font-family: 'Material Icons';
-     color: black !important;
-}
 .resort-box .resort-table .row:nth-child(1)
 {
      background: #8080801a !important;
@@ -1037,6 +1034,7 @@ button
      font-weight: bold;
      color: white;
      text-align: center;
+     margin-left: 18px;
 }
 .package-location #discstick 
 {
@@ -1773,7 +1771,9 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .resort-rooms .resort-table .row:nth-child(2),
 .day-out .resort-table .row:nth-child(2),
 .offer-tab .resort-table .row:nth-child(2),
-.interest-dayout .resort-table .row:nth-child(2)
+.interest-dayout .resort-table .row:nth-child(2),
+.resorts-bg .dayout-table .row:nth-child(2)
+
 {
      padding: 0;
      text-align: left;
@@ -1784,7 +1784,8 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .resort-rooms .resort-table .row:nth-child(2) .col-md-3,
 .day-out .resort-table .row:nth-child(2) .col-md-3,
 .offer-tab .resort-table .row:nth-child(2) .col-md-3,
-.interest-dayout .resort-table .row:nth-child(2) .col-md-3
+.interest-dayout .resort-table .row:nth-child(2) .col-md-3,
+.resorts-bg .dayout-table .row:nth-child(2) .col-md-3
 
 {
      font-size: 15px;
@@ -1915,12 +1916,17 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      cursor: pointer;
 }
+.compare-section-buttons
+{
+     margin: auto;
+     text-align: center;
+}
 #intoverlay, #intoverlay2, #intoverlay3, #intoverlay4, #intoverlay5,
 #intoverlaya, #intoverlayb, #intoverlayc, #intoverlayd, #intoverlaye, #intoverlayf,
 #intoverlayaa,
 #intoverlayaaa, #intoverlaybbb,
 #compare-section,
-#room-compare-section
+#room-compare-section, #villa-compare-section, #suite-compare-section
 {
      position: fixed; /* Sit on top of the page content */
      display: none; /* Hidden by default */
@@ -2151,37 +2157,49 @@ iframe
      padding: 10px 5px;
      display: inline-block;
 }
-#compare-section .container, #room-compare-section .container
+#compare-section .container, #room-compare-section .container, #villa-compare-section .container, #suite-compare-section .container
 {
      background: white;
      font-size: 15px;
      border-radius: 10px;
 }
-#compare-section .row, #room-compare-section .row
+#compare-section .row, #room-compare-section .row, #villa-compare-section .row, #suite-compare-section .row
 {
      padding: 5px 0;
 }
-#compare-section .row div:first-child, #room-compare-section .row div:first-child
+#compare-section .row div:first-child, #room-compare-section .row div:first-child, #villa-compare-section .row div:first-child, #suite-compare-section .row div:first-child
 {
      text-align: left;
 }
-#compare-section .col-md-2, #room-compare-section .col-md-2
+#compare-section .col-md-2, #room-compare-section .col-md-2, #villa-compare-section .col-md-2, #suite-compare-section .col-md-2
 {
      text-align: center;
 }
-#compare-section .section-title-version-2-black, #room-compare-section .section-title-version-2-black
+#compare-section .section-title-version-2-black, #room-compare-section .section-title-version-2-black, #villa-compare-section .section-title-version-2-black, #suite-compare-section .section-title-version-2-black
 {
      text-align: center !important;
 }
-#compare-section .comparison-title h1, #room-compare-section .comparison-title h1
+#compare-section .comparison-title
 {
-     padding: 17% 0;
+     color: #049dd9;
+}
+.comparison-title
+{
+     color: #f2911b;
+     text-align: center;
+}
+#compare-section .heading div:not(:first-child), #room-compare-section .heading div:not(:first-child), #villa-compare-section .heading div:not(:first-child), #suite-compare-section .heading div:not(:first-child)
+{
+     font-weight: 600;
 }
 .room-compare
 {
      top: -35px;
      position: relative;
      text-align: center;
+     display: inline-block;
+     cursor: pointer;
+     padding: 5px;
 }
 #mobnav .mean-link:nth-child(1)
 {
@@ -2338,7 +2356,7 @@ iframe
 .leisure-page-area .btn, .resorts-bg .btn
 {
      background: none;
-     border: 1px solid #049dd9;
+     border: 1px solid lightgray;
      transition: all 0.3s ease-in-out;
      background: white;
 }
@@ -2351,4 +2369,48 @@ iframe
 .quick-links
 {     
      padding: 25px 0;
+     font-size: 18px;
+}
+.quick-links .btn
+{
+     font-size: 16px;
+     padding: 6px 10px;
+}
+.resort-table li span:first-child
+{
+     font-weight: bold;
+}
+.resort-table .col-md-9
+{
+     padding-top: 10px;
+}
+.disc-section
+{
+     padding-bottom: 5px;
+}
+.disc-section li
+{
+     padding: 0;
+}
+.disc-section li span
+{
+     font-weight: 400;
+}
+.disc-section li:first-child span
+{
+     font-size: 18px;
+}
+.disc-section li:nth-child(2) span
+{
+     font-size: 20px;
+     font-weight: bold !important;
+}
+.disc-section li:last-child span
+{
+     font-size: 11px;
+     color: gray;
+}
+.disc-section li span:first-child
+{
+     font-weight: 400;
 }
