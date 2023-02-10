@@ -2055,26 +2055,28 @@ iframe
 }
 .club-area
 {
-     background-image: url("https://transparenttextures.com/patterns/subtle-white-feathers.png");
+     background-image: url(../images/wavesNegative.svg), url("https://transparenttextures.com/patterns/subtle-white-feathers.png");
+     background-repeat: repeat-x, repeat;
+     background-position: bottom left, top center;
+     background-size: 160% 60%, 100%;
 }
 .club-area .kkavion-ico
 {
-     padding: 10px;
      margin: 0 auto;
-     width: 60px;
      transition: all ease-in-out 0.5s;
 }
-.club-area .kkavion-ico span
+.club-area .kkavion-ico img
 {
+     width: 90px;
      transition: all ease-in-out 0.5s;
 }
-.club-area .single-travel:hover .kkavion-ico span
+.club-area .single-travel:hover img
 {
-     color: white;
+     filter: invert(100%);
 }
-.club-area .single-travel:hover .kkavion-ico i
+.club-area .single-travel:hover a, .club-area .single-travel:hover p
 {
-     color: white;
+     color: white !important;
 }
 .club-area .single-travel 
 {
@@ -2105,6 +2107,7 @@ iframe
      font-size: 20px;
      color: #454545;
      font-weight: 600;
+     transition: all 0.5s ease-in-out;
 }
 .club-area .single-travel .travel-content p 
 {
@@ -2112,10 +2115,12 @@ iframe
      line-height: 24px;
      width: 100%;
      text-align: center;
+     transition: all 0.5s ease-in-out;
 }
 .club-area .single-travel a
 {
      color: #454545;
+     transition: all 0.5s ease-in-out;
 }
 .club-area .single-travel:hover 
 {
