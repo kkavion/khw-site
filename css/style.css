@@ -192,7 +192,8 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      box-shadow: none;
 }
  .section-paddings {
-     padding: 50px 0;    
+     padding: 50px 0;  
+     padding-top: 0px; 
 }
 /*=====basce css end here=========*/
 /*============================== theme buttons css goes here ===============================*/
@@ -1758,7 +1759,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: #ffffff;
      font-size: 15px;
      padding: 10px;
-     margin-bottom: 0;
+     margin-bottom: 15px;
 }
  .section-title-version-2-black h2 {
      color: #454545;
@@ -1955,7 +1956,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .single-package-carasoul:hover .package-long-btn {
      opacity: 1;
      visibility: visible;
-     bottom: 0;
+     bottom: -1px;
 }
  .single-package-carasoul:hover .package-location span {
      background: #faa61a;
