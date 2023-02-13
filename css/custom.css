@@ -2419,3 +2419,10 @@ iframe
 {
      font-weight: 400;
 }
+#search
+{
+     width: 70%;
+     margin: auto;
+     top: 7%;
+     position: relative;
+}
