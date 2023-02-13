@@ -1626,6 +1626,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      border-radius: 5px;
      color: #ffffff;
      font-weight: 500;
+     transition: all 0.3s ease-in-out;
 }
 .top-destination-area .search-btn
 {
@@ -1663,7 +1664,6 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .bidnwin button:hover
 {
      background: #f2911b !important;
-     transition: all 0.3s ease-in-out;
 }
 .top-destination-area-5 .amenities-row span
 {
