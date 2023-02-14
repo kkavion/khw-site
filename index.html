@@ -73,13 +73,15 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
 	<script type="text/javascript">
-	  algoliasearchNetlify({
+	algoliasearchNetlify({
 		appId: 'VOMABA35RP',
 		apiKey: 'db6ced25361786896be4a3f4624de37b',
 		siteId: '004bd610-9593-4b9e-bd0c-68443134a563',
 		branch: 'main',
 		selector: 'div#search',
-	  });
+		hitsPerPage: 10,
+		detached: false,
+	});
 	</script>
 </head>
 
@@ -168,6 +170,14 @@
 										</ul>
 									</li>
 									<li class="search-pc">
+										<a><div class="fa fa-search" aria-hidden="true"></div></a>
+										<ul class="dropdown3 main-menu2">
+											<div class="row">
+												<li class="col-md-1 dropdown-text"><div id="search"></div></li>
+											</div>
+										</ul>
+									</li>
+									<li class="hidden">
 										<a>
 											<button class="openBtn" onclick="openSearch()"><div class="fa fa-search" aria-hidden="true"></div></button>
 											<div id="myOverlay" class="overlay1">

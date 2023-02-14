@@ -2419,10 +2419,18 @@ iframe
 {
      font-weight: 400;
 }
-#search
+#mobnav #search
 {
      width: 70%;
-     margin: auto;
      top: 7%;
      position: relative;
+     margin-left: 35px;
+}
+.search-pc #search
+{
+     transform: scaleX(-1);
+}
+.aa-Panel
+{
+     z-index: 999999 !important;
 }
