@@ -2428,7 +2428,10 @@ iframe
 }
 .search-pc #search
 {
-     transform: scaleX(-1);
+     width: 70%;
+     margin: auto;     
+     top: 7%;
+     position: relative;
 }
 .aa-Panel
 {

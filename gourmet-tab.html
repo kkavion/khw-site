@@ -63,6 +63,8 @@
 
 		gtag('config', 'G-EB2CYW0LY8');
 	</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
 </head>
 
 <body onselectstart="return false">
@@ -141,8 +143,7 @@
 											<button class="openBtn" onclick="openSearch()"><div class="fa fa-search" aria-hidden="true"></div></button>
 											<div id="myOverlay" class="overlay1">
 												<span class="closebtn" onclick="closeSearch()" title="Close Overlay">x</span>
-												<script async src="https://cse.google.com/cse.js?cx=026f43117b6ce4175"></script>
-												<div class="gcse-search"></div>
+												<div id="search"></div>
 											</div> 
 										</a>
 									</li>
