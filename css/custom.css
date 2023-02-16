@@ -1691,11 +1691,20 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      background-color: white;
      border-radius: 0 0 10px 10px;
 }
-.leisure-page-area, .gourmet-page-area, .wedding-page-area, .conference-page-area, .wellness-page-area
+.leisure-page-area,
+.gourmet-page-area,
+.wedding-page-area,
+.conference-page-area,
+.wellness-page-area,
+.sale-tab-2,
+.homepage .home-interest-area,
+.homepage .packages-section
 {
      background-image: url("https://transparenttextures.com/patterns/subtle-white-feathers.png");
 }
-.resorts-bg, .rate-pg
+.resorts-bg,
+.rate-pg,
+.resort-rooms
 {
      background-image: url("https://transparenttextures.com/patterns/xv.png") !important;
 }
@@ -1746,6 +1755,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .faq-section h3
 {
      padding-bottom: 25px;
+     text-align: left;
 }
 .faq-section .panel-heading
 {
@@ -1765,7 +1775,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      padding-bottom: 50px;
 }
-.sale-tab-2, .resort-rooms, .day-out, .offer-tab
+.day-out, .offer-tab
 {
      background: #f5f5f5;
 }
@@ -2363,13 +2373,12 @@ iframe
      background: none;
      border: 1px solid lightgray;
      transition: all 0.3s ease-in-out;
-     background: white;
+     background: #049dd9;
 }
 .leisure-page-area .btn:hover, .resorts-bg .btn:hover
 {
      color: white;
-     border: 1px solid #049dda;
-     background: #049dd9;
+     background: #f2911b;
 }
 .quick-links
 {     
@@ -2436,4 +2445,9 @@ iframe
 .aa-Panel
 {
      z-index: 999999 !important;
+}
+.homepage,
+.resort-tab
+{
+     background: #f5f5f5;
 }

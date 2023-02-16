@@ -193,7 +193,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .section-paddings {
      padding: 50px 0;  
-     padding-top: 0px; 
+     padding-top: 25px; 
 }
 /*=====basce css end here=========*/
 /*============================== theme buttons css goes here ===============================*/
@@ -215,15 +215,14 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      padding: 10px 15px !important;
 }
  .travel-booking-btn, .travel-booking-btn-lg {
-     display: grid;
      background: #0095da;
-     padding: 5px 5px;
+     padding: 5px 10px;
      color: #fefefe;
      border-radius: 5px;
      font-weight: 500;
-     font-size: 14px;
-     text-align: center;
-     
+     font-size: 15px;
+     text-align: center;     
+     margin: auto;
 }
  .travel-booking-btn-lg {
      padding: 10px 25px;
