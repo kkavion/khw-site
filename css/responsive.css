@@ -168,7 +168,7 @@
 @media only screen and (max-width: 767px) {
     .club-area
     {
-        background-size: 150% 70% !important;
+        background-size: 200% 30% !important;
     }
     .single-item{margin-bottom: 30px;}
     .single-item:last-child{margin-bottom: 0px;}
