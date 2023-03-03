@@ -1094,7 +1094,7 @@ textarea {
  line-height:initial;
 }
 a {
- color:#007dc5;
+ color:#0495ff;
  text-decoration:none
 }
 a:focus,
@@ -3208,7 +3208,7 @@ fieldset[disabled] .btn-default:hover {
 }
 .btn-primary {
  color:#fff;
- background-color:#007dc5;
+ background-color:#0495ff;
  border-color:#08f;
   font-family: 'Open Sans', sand-serif;
 }
