@@ -5683,7 +5683,7 @@ tp-caption.Team-Thumb,
     }
     #mc_embed_signup input[type="email"]:focus {
         background-color: #f5f5f5;
-        color: #353535;
+        color: black;
     }
     #mc_embed_signup input#mc-embedded-subscribe,
     #mc_embed_signup input#mc-embedded-subscribe:focus {
