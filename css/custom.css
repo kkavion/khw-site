@@ -841,7 +841,7 @@ i
 {
      font-size: 17px !important;
      color: white;
-     font-family: 'Oxygen', sans-serif !important;
+     font-family: 'Merriweather', sans-serif !important;
      font-style: italic !important;
 }
 .tagline i
@@ -2043,7 +2043,7 @@ iframe
 {
      margin-bottom: 25px;
      line-height: 1.5;
-     font-weight: 600;
+     font-weight: 500;
      color: #fb6a00;
 }
 .resorts-bg .testimonial-area-5 .single-testimonial img
