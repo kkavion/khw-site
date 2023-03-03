@@ -141,7 +141,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: black;
      font-weight: 400;
      font-family: 'Open Sans', sans-serif;
-     line-height: 23px;
+     line-height: 20px;
 }
  h1, h2, h3, h4, h5, h6 {
      margin: 0 0 0;
@@ -1071,6 +1071,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      text-transform: capitalize;
      line-height: 30px;
      transition: all ease-in-out 0.5s;
+     font-style: normal;
 }
  .single-travel-blog .blog-content .blog-post-content p {
      color: black;
@@ -1274,10 +1275,10 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      border: medium none;
      position: absolute;
      right: 15px;
-     top: 3px;
+     top: 2px;
      background: #fb6a00;
      font-size: 14px;
-     padding: 18.5px;
+     padding: 19.5px;
      width: 20%;
      border-radius: 0 4px 4px 0;
      color: #ffffff;
@@ -1760,6 +1761,8 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-size: 16px;
      padding: 10px;
      margin-bottom: 15px;
+     width: 70%;
+     margin: auto;
 }
  .section-title-version-2-black h2 {
      color: black;
@@ -1878,6 +1881,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: black;
      font-size: 19px;
      font-weight: 600;
+     font-style: normal;
 }
  .single-package-carasoul .package-details .package-places > span {
      color: black;
@@ -2297,6 +2301,10 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-weight: 600;
      margin-top: 14px;
      text-transform: ;
+}
+.subscribe-area-2 .subscribe-title h2
+{
+    font-style: normal;
 }
 /*===================================================== 26.home version 2 gallery section css goes here =======================================================*/
  .grid-3 {
@@ -3246,6 +3254,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-weight: 600;
      margin-bottom: 10px;
      margin-top: 10px;
+     font-style: normal;
 }
  .single-hotels .hotel-description p span {
      font-weight: 600;
@@ -3673,6 +3682,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-size: 42px;
      font-weight: 600;
      text-transform: uppercase;
+     font-style: normal;
 }
  .single-bredcurms .bredcrums-content ul li {
      display: inline-block;
@@ -4189,7 +4199,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      transform: scale(1.2);
 }
  .single .blog-comments h2 {
-     text-transform: capitalize;
      font-size: 30px;
      margin-bottom: 15px;
      padding-bottom: 15px;
