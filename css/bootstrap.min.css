@@ -1099,7 +1099,7 @@ a {
 }
 a:focus,
 a:hover {
- background: #faa61a;
+ background: #fb6a00;
  text-decoration:underline;
 }
 a:focus {
@@ -3220,7 +3220,7 @@ fieldset[disabled] .btn-default:hover {
 }
 .btn-primary:hover {
  color:#fff;
- background-color:#faa61a;
+ background-color:#fb6a00;
  border-color:#ff8f00;
  transition: all linear 0.3s;
 }

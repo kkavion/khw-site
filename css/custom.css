@@ -121,7 +121,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .popular-packages-carasoul .owl-nav .owl-prev:hover,.popular-packages-carasoul .owl-nav .owl-next:hover
 {
-     background: #faa61a !important;
+     background: #fb6a00 !important;
      box-shadow: 0 0 10px gray;
 }
 .popular-packages-carasoul .owl-dots
@@ -634,7 +634,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .top-destination-area .hotel-description h4:hover
 {
-     color: #faa61a;
+     color: #fb6a00;
 	transition: all 1s ease 0s;
 }
 .top-destination-area a
@@ -739,7 +739,7 @@ header .main-menu a:focus
 }
 .discount-package-4-btn a:hover
 {
-     background: #faa61a !important;
+     background: #fb6a00 !important;
 }
 .mean-nav li:last-child
 {
@@ -779,7 +779,7 @@ header .main-menu a:focus
 }
 .box .resort-table .discount-package-4-btn a:hover
 {
-     background: #faa61a;
+     background: #fb6a00;
      color: white;
 }
 .fact-file
@@ -869,7 +869,7 @@ button
 }
 .top-destination-area .single-hotels:hover .hotel-description h5
 {
-     color: #faa61a;
+     color: #fb6a00;
      transition: all ease-in-out 0.3s;
 }
 .testimonial-area-5 .owl-nav
@@ -947,7 +947,7 @@ button
 }
 .career-menu .career-bottom-area-hidden-btn
 {
-     background: #0095da none repeat scroll 0 0;
+     background: #0495ff none repeat scroll 0 0;
      display: block;
      width: calc(100% - 30px);
      text-align: center;
@@ -1648,7 +1648,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .bidnwin::before
 {
-     background-color: #0095da;
+     background-color: #0495ff;
 }
 .bidnwin p
 {
@@ -2063,7 +2063,7 @@ iframe
      width: 0%;
      height: 1px;
      content: "";
-     background: #faa61a;
+     background: #fb6a00;
      transition: all ease-in-out 1s;
 }
 .tour-description .timeline:hover p::before
