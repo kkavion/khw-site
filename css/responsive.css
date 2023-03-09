@@ -574,10 +574,25 @@
     {
         background: #3063771f !important;
     }
+    .rev_slider h2
+    {
+        line-height: 75px !important;
+    }
 
 
 }
-
+@media only screen and (max-width: 600px)
+{
+    
+    .footer-title .logo1
+    {
+        padding: 0px 35%;
+    }
+    .footer-title .logo2
+    {
+        display: none;
+    }
+}
 
 /*  Wide Mobile Layout: 480px    */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -695,19 +710,37 @@
     }
 
 }
-
-@media only screen and (max-width: 600px)
-{
-    
-    .footer-title .logo1
+@media screen and (max-width: 480px) {    
+    .disc-section li span
     {
-        padding: 0px 35%;
+        font-weight: 400;
+        font-size: 11px;
     }
-    .footer-title .logo2
+    .disc-section li:first-child span
     {
-        display: none;
+        font-size: 14px !important;
+    }
+    .disc-section li:nth-child(2) span
+    {
+        font-size: 15px !important;
+        font-weight: bold !important;
+    }
+    .disc-section li:last-child span
+    {
+        font-size: 9px !important;
+        color: gray;
+    }
+    .amenities-row .material-icons
+    {
+        font-size: 17px !important;
+    }
+    .amenities-row
+    {
+        font-size: 0;
     }
 }
+
+/*  Desktop Layout: 991px    */
 @media screen and (min-width: 991px)
 {
     
@@ -758,7 +791,7 @@
     }
     .tp-parallax-wrap:nth-child(4)
     {
-         top: 52% !important;
+         top: 55% !important;
     }
     .tp-parallax-wrap:nth-child(5)
     {
@@ -793,33 +826,8 @@
     {
         padding: 20px 0 !important;
     }
-}
-@media screen and (max-width: 480px) {    
-    .disc-section li span
+    .rev_slider h2
     {
-        font-weight: 400;
-        font-size: 11px;
-    }
-    .disc-section li:first-child span
-    {
-        font-size: 14px !important;
-    }
-    .disc-section li:nth-child(2) span
-    {
-        font-size: 15px !important;
-        font-weight: bold !important;
-    }
-    .disc-section li:last-child span
-    {
-        font-size: 9px !important;
-        color: gray;
-    }
-    .amenities-row .material-icons
-    {
-        font-size: 17px !important;
-    }
-    .amenities-row
-    {
-        font-size: 0;
+        line-height: 65px !important;
     }
 }

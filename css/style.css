@@ -194,7 +194,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .section-paddings {
      padding: 50px 0;  
-     padding-top: 25px; 
 }
 /*=====basce css end here=========*/
 /*============================== theme buttons css goes here ===============================*/
@@ -1762,20 +1761,26 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: #ffffff;
 }
  .section-title-version-2-white p, .section-title-version-2-black p {
-     color: #ffffff;
-     font-size: 16px;
+     color: black;
+     font-size: 15px;
      padding: 10px;
-     margin-bottom: 15px;
      width: 70%;
-     margin: auto;
+     margin: 15px auto;
 }
  .section-title-version-2-black h2 {
      color: black;
      font-style: italic;
      font-weight: 700;
 }
- .section-title-version-2-black p {
-     color: black;
+ .section-title-version-2-black p:first-child {
+     padding-top: 15px;
+     padding-bottom: 25px;
+     color: #fb6a00;
+     font-style: italic;
+     font-family: 'Merriweather';
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 1.4;
 }
 /*===================================================== 19.home version 2 welcome section css goes here =======================================================*/
  .welcome-area .single-welcome-area {
@@ -3221,7 +3226,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      position: relative;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
      margin-bottom: 30px;
-     border-radius: 10px;
+     border-radius: 5px;
      background: white;
 }
 .single-hotels:hover {
@@ -3231,7 +3236,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .single-hotels .hotel-image {
      position: relative;
      overflow: hidden;
-     border-radius: 10px 10px 0 0;
+     border-radius: 5px 5px 0 0;
 }
 .single-hotels .hotel-image img{
      transform: scale(1);
@@ -3246,7 +3251,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .single-hotels .hotel-description {
      text-align: center;
-     padding: 10px;
+     padding: 5px;
 }
 .single-hotels .hotel-description p
 {
@@ -3257,8 +3262,8 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: black;
      font-size: 20px;
      font-weight: 600;
-     margin-bottom: 10px;
-     margin-top: 10px;
+     margin-bottom: 5px;
+     margin-top: 5px;
      font-style: normal;
 }
  .single-hotels .hotel-description p span {
@@ -3290,7 +3295,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 /*===================================================== 43.Home version partner 2 section start here =======================================================*/
  .partner-slider-2 .single-partner-slider-2 {
-     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);*/
      padding: 0 0;
      text-align: center;
      margin: 10px;
@@ -3892,7 +3897,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  aside .booking-form h2 {
      color: black;
-     font-size: 30px;
+     font-size: 24px;
      font-weight: 600;
      text-transform: capitalize;
   }
