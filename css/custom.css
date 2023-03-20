@@ -1685,14 +1685,6 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      display: none !important;
 }
-.leisure-page-area .container,
-.wellness-page-area .container,
-.gourmet-page-area .container,
-.conference-page-area .container,
-.wedding-page-area .container
-{
-     padding-top: 15px;
-}
 .leisure-page-area .destination-5-description,
 .wellness-page-area .destination-5-description,
 .gourmet-page-area .destination-5-description,
@@ -1784,6 +1776,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      border-radius: 10px;
      font-style: normal;
      font-weight: normal;
+     color: black;
 }
 .faq-section
 {
@@ -2139,7 +2132,7 @@ iframe
 }
 .club-area .single-travel .travel-content h4 
 {
-     font-size: 20px;
+     font-size: 18px;
      color: black;
      font-weight: 600;
      transition: all 0.5s ease-in-out;
@@ -2530,7 +2523,8 @@ h1, h2, h3, h4, h5, h6
 {
      font-weight: 600;
 }
-.destination-bg .single-package-details span
+.destination-bg .single-package-details span,
+.resorts-bg .single-package-details span
 {
      font-family: 'Merriweather', sans-serif;
      font-style: normal;
