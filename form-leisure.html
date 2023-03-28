@@ -63,7 +63,7 @@
 		  siteId: '004bd610-9593-4b9e-bd0c-68443134a563',
 		  branch: 'main',
 		  selector: 'div#search',
-		  hitsPerPage: 20,
+		  hitsPerPage: 15,
 		});
 	</script>
 </head>
@@ -206,6 +206,9 @@
 		<div class="container">
 			<div class="row">
 				<form name="leisure-query" method="post" class="your-query-form" data-netlify="true" data-netlify-recaptcha="true">
+					<p class="hidden">
+						<input type="text" id="form-name" class="form-control" value="Leisure Query Form">
+					</p>
 					<p>Holiday Requirement</p>
 					<!--div class="form-group col-md-6 col-sm-6">
 						<input type="text" class="form-control" id="sel-dest-type" placeholder="Select Destination Type*" name="select-destination-type">

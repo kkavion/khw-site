@@ -63,7 +63,7 @@
 		  siteId: '004bd610-9593-4b9e-bd0c-68443134a563',
 		  branch: 'main',
 		  selector: 'div#search',
-		  hitsPerPage: 20,
+		  hitsPerPage: 15,
 		});
 	</script>
 </head>
@@ -297,9 +297,9 @@
 							<div class="booking-title">
 								<h2>Join The Club</h2>
 							</div>
-							<form name="surprise-holiday-form" method="post" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+							<form name="encircle-form" method="post" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
 								<p class="hidden">
-									<label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+									<input type="text" id="form-name" class="form-control" value="Encircle Form">
 								</p>
 								<div class="form-group">
 									<input type="text" class="form-control" id="name" placeholder="Name *" required>

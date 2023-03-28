@@ -73,7 +73,7 @@
 		  siteId: '004bd610-9593-4b9e-bd0c-68443134a563',
 		  branch: 'main',
 		  selector: 'div#search',
-		  hitsPerPage: 20,
+		  hitsPerPage: 15,
 		});
 	</script>
 </head>
@@ -3397,8 +3397,7 @@
 					<div class="subscribe-form">
 						<form name="subscribe-form" netlify-honeypot="bot-field" data-netlify="true" method="post">
 							<p class="hidden">
-								<label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-								<input id="form-name" value="Subscribe Form">
+								<input type="text" id="form-name" class="form-control" value="Subscribe Form">
 							</p>
 							<div class="serach-form form-group">
 								<input type="email" class="form-control" id="email" placeholder="Enter Your Email To subscribe"
