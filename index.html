@@ -66,6 +66,15 @@
 		href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+	<script type="text/javascript">
+		algoliasearchNetlify({
+		  appId: 'VOMABA35RP',
+		  apiKey: 'db6ced25361786896be4a3f4624de37b',
+		  siteId: '004bd610-9593-4b9e-bd0c-68443134a563',
+		  branch: 'main',
+		  selector: 'div#search',
+		});
+	</script>
 </head>
 
 <body onselectstart="return false" class="homepage">
@@ -2879,7 +2888,7 @@
 													<div class="cover" style="width: 8.5%;"></div>
 												</div>
 											</div>
-											<h4>Aqua Marine Drive Inn
+											<h4>Aqua Marina Drive Inn
 											</h4>
 											<p>Dadanpatrabar | Resort | Standard</p></span>
 											<div class="amenities-row">
@@ -3385,16 +3394,17 @@
 				<!-- subscribe form start here -->
 				<div class="col-md-7 col-sm-7 col-xs-12 subscribe-form-box">
 					<div class="subscribe-form">
-						<form name="subscribe-form" netlify-honeypot="bot-field" data-netlify="true">
+						<form name="subscribe-form" netlify-honeypot="bot-field" data-netlify="true" method="post">
 							<p class="hidden">
 								<label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+								<input id="form-name" value="Subscribe Form">
 							</p>
-							<div class="serach-form">
-								<input type="email" name="email" id="email" placeholder="Enter Your Email To subscribe"
+							<div class="serach-form form-group">
+								<input type="email" class="form-control" id="email" placeholder="Enter Your Email To subscribe"
 									required>
 							</div>
-							<div class="search-btn">
-								<button class="btn-primary">Send</button>
+							<div class="search-btn form-group">
+								<button type="submit" class="btn-primary">Send</button>
 							</div>
 						</form>
 					</div>
@@ -3682,6 +3692,42 @@
 
 		}
 	</script>
+	<script>
+		(() => {
+		const form = document.querySelector('form');
+		const submitResponse = document.querySelector('#response');
+		const formURL = 'https://ap5bobpdue.execute-api.ap-south-1.amazonaws.com/Prod/submitForm';
+
+		form.onsubmit = e => {
+			e.preventDefault();
+
+			// Capture the form data
+			let data = {};
+			Array.from(form).map(input => (data[input.id] = input.value));
+			console.log('Sending: ', JSON.stringify(data));
+			submitResponse.innerHTML = 'Sending...'
+
+			// Create the AJAX request
+			var xhr = new XMLHttpRequest();
+			xhr.open(form.method, formURL, true);
+			xhr.setRequestHeader('Accept', 'application/json; charset=utf-8');
+			xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+
+			// Send the collected data as JSON
+			xhr.send(JSON.stringify(data));
+
+			xhr.onloadend = response => {
+			if (response.target.status === 200) {
+				form.reset();
+				submitResponse.innerHTML = 'Form submitted. Success!';
+			} else {
+				submitResponse.innerHTML = 'Error! Please try again.';
+				console.error(JSON.parse(response));
+			}
+			};    
+		};
+		})();
+  	</script>
 </body>
 
 </html>
