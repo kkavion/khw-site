@@ -5,6 +5,13 @@
 		$('#status').fadeOut();
 		$('#preloader').delay(100).fadeOut('fast');
 		$(window).stellar({});
+		$('#myModal2').addClass("show");
+	});
+	$('#myModal2').show();
+	$('#startModal').show();
+	$("#myModal2 button").click(function() {
+		$('#myModal2').fadeOut("slow");
+		$('#startModal').fadeOut("slow");
 	});
 
 	/*====== countdown ========*/

@@ -5939,18 +5939,17 @@ button.list-group-item-danger.active:hover {
  font-size:21px;
  font-weight:700;
  line-height:1;
- color:#000;
+ color:white;
  text-shadow:0 1px 0 #fff;
  filter:alpha(opacity=20);
- opacity:.2
+ opacity:;
 }
 .close:focus,
 .close:hover {
- color:#000;
+ color:white;
  text-decoration:none;
  cursor:pointer;
  filter:alpha(opacity=50);
- opacity:.5
 }
 button.close {
  -webkit-appearance:none;
@@ -5969,10 +5968,10 @@ button.close {
  bottom:0;
  left:0;
  z-index:1050;
- display:none;
  overflow:hidden;
  -webkit-overflow-scrolling:touch;
- outline:0
+ outline:0;
+ display: none;
 }
 .modal.fade .modal-dialog {
  -webkit-transition:-webkit-transform .3s ease-out;

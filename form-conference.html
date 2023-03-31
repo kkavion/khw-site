@@ -66,6 +66,7 @@
 		  hitsPerPage: 15,
 		});
 	</script>
+	<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 
 <body onselectstart="return false">
@@ -516,7 +517,7 @@
 
 						<div class="form-group">
 							<p>Thank you for giving us an opportunity to plan your conference</p>
-							<div data-netlify-recaptcha="true" style="padding-bottom: 20px;"></div>
+							<div class="cf-turnstile" data-sitekey="0x4AAAAAAADhklWUxP0t0Pvz" data-callback="javascriptCallback" style="padding-bottom: 20px;"></div>
 							<h4 id="response"></h4>
 							<button type="submit" class="btn btn-primary">Submit</button>
 						</div>

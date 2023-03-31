@@ -255,7 +255,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
   width: 100%;
   height: auto;
 }
-.overlay {
+.overlay{
   position: absolute; 
   bottom: 0; 
   background: rgb(0, 0, 0);
@@ -2540,4 +2540,16 @@ h1, h2, h3, h4, h5, h6
 .material-icons
 {
      font-family: 'Material Icons' !important;
+}
+#startModal
+{
+     background: rgba(0, 0, 0, 0.5);
+     position: fixed;
+     z-index: 999;
+     height: 100%;
+     width: 100%;
+}
+#myModal2
+{
+     transition: all ease-in-out 0.3s;
 }
