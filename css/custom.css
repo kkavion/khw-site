@@ -849,8 +849,8 @@ i
 }
 .tagline i
 {
-     font-size: 35px;
-     font-family: 'LaBelleAurora';
+     font-size: 30px;
+     font-family: 'fishtail';
      font-style: normal;
 }
 .anutri-logo
@@ -2552,4 +2552,11 @@ h1, h2, h3, h4, h5, h6
 #myModal2
 {
      transition: all ease-in-out 0.3s;
+}
+@font-face
+{
+     font-family: 'fishtail';
+     font-weight: normal;
+     font-size: normal;
+     src: url(../fonts/Fishtail.ttf) format('truetype');
 }
