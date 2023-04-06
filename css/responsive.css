@@ -74,6 +74,10 @@
     {
         padding: 0% 45% !important;;
     }
+    #myModal2 .modal-body
+    {
+        margin: 5%;
+    }
 
 
 .header-top-area .header-top-left .header-top-contact li {
@@ -169,6 +173,11 @@
     .club-area
     {
         background-size: 200% 30% !important;
+    }
+    #myModal2 .modal-body
+    {
+        margin: 0;
+        top: 20%;
     }
     .single-item{margin-bottom: 30px;}
     .single-item:last-child{margin-bottom: 0px;}
@@ -622,6 +631,10 @@
     {
         font-size: 0.8em !important;
     }
+    #myModal2 .modal-body
+    {
+        margin: 8%;
+    }
     #calendar-section iframe
     {
         height: 65vmax;
@@ -748,6 +761,10 @@
     {
         padding: 0 60px;
         display: none;
+    }
+    #myModal2 .modal-body
+    {
+        margin: 15%;
     }
     #calendar-section iframe
     {

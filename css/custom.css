@@ -1,23 +1,10 @@
-.d-flex
-{
-    display:flex;
-}
-.d-flex>div
-{
-    float: none;
-}
-.col-auto
-{
-    flex: 0 0 auto;
-    width: 20%;
-    max-width: none;
-}
 /* Page content */
 .content{
   padding: 0px;
 }
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky{
+.sticky
+{
   position: fixed;
   top: 0;
   width: 100%;
@@ -210,9 +197,17 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
      color: black;
 }
+.policy-sec
+{
+     font-size: 15px;
+}
 .policy-sec h4
 {
      background-color: #f0f0f0;
+}
+.policy-sec i
+{
+     font-size: 16px;
 }
 .policy-sec ol
 {
@@ -793,7 +788,7 @@ header .main-menu a:focus
 .amenities-row span
 {
      cursor: pointer;
-     color: gray !important;
+     color:  #454545 !important;
 }
 .resort-box .amenities-row
 {
@@ -842,14 +837,14 @@ i
 }
 .foot i
 {
-     font-size: 17px !important;
+     font-size: 16px !important;
      color: white;
      font-family: 'Merriweather', sans-serif !important;
      font-style: italic !important;
 }
 .tagline i
 {
-     font-size: 30px;
+     font-size: 22px;
      font-family: 'fishtail';
      font-style: normal;
 }
@@ -1000,7 +995,7 @@ button
 .footer-contact li a
 {
      color: #aaa;
-     font-size: 14px;
+     font-size: 13px;
 
 }
 .footer-contact a.ftrr-text
@@ -1276,6 +1271,7 @@ button
 {
      padding-bottom: 0px;
      padding-top: 25px;
+     display: none;
 }
 .single-package-details .tour-description
 {
@@ -1841,6 +1837,10 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      background: white;
      border-radius: 10px;
+}
+.terms-sec
+{
+     font-size: 15px;
 }
 .tour-package-bg .package-location a
 {
@@ -2411,7 +2411,7 @@ iframe
 }
 .quick-links .btn
 {
-     font-size: 16px;
+     font-size: 15px;
      padding: 6px 10px;
      color: white;
 }
@@ -2553,10 +2553,19 @@ h1, h2, h3, h4, h5, h6
 {
      transition: all ease-in-out 0.3s;
 }
+#myModal2 .modal-body
+{
+     display: inline-block;
+}
 @font-face
 {
      font-family: 'fishtail';
      font-weight: normal;
      font-size: normal;
      src: url(../fonts/Fishtail.ttf) format('truetype');
+}
+.hs2-row-text .floated-text-left
+{
+     display: inherit;
+     margin-top: 10px;
 }

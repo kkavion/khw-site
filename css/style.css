@@ -140,7 +140,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-size: 15px;
      color: black;
      font-weight: 400;
-     font-family: 'Open Sans', sans-serif;
+     font-family: 'Oxygen', sans-serif;
      line-height: 20px;
 }
  h1, h2, h3, h4, h5, h6 {
@@ -1304,8 +1304,10 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 .footer-area .single-footer .footer-title h4
 {
-    font-weight: 700;
+    font-weight: 500;
     font-style: normal;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
  .footer-area .single-footer .footer-left .footer-logo p {
      color: #ffffff;
@@ -1847,7 +1849,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .single-package-carasoul {
      overflow: hidden;
      position: relative;
-     margin-bottom: 25px;
      border-radius: 10px;
 }
  .single-package-carasoul .package-location {
