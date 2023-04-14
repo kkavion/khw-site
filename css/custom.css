@@ -1940,6 +1940,11 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      margin: auto;
      text-align: center;
 }
+.compare-section-buttons .discount-package-4-btn
+{
+     width: auto;
+     display: inline-block;
+}
 #intoverlay, #intoverlay2, #intoverlay3, #intoverlay4, #intoverlay5,
 #intoverlaya, #intoverlayb, #intoverlayc, #intoverlayd, #intoverlaye, #intoverlayf,
 #intoverlayaa,
@@ -2387,6 +2392,7 @@ iframe
 .package-5-area .single-package-carasoul
 {
      box-shadow: 0 0 10px rgba(0,0,0,.2);
+     margin-bottom: 25px;
 }
 .package-5-area .single-package-carasoul:hover
 {
@@ -2510,6 +2516,8 @@ h1, h2, h3, h4, h5, h6
 {
      font-family: 'Merriweather', sans-serif;
      font-weight: 700;
+     display: inline-block;
+     margin-top: 10px;
 }
 .rev_slider h2
 {
@@ -2517,7 +2525,8 @@ h1, h2, h3, h4, h5, h6
 }
 .discount-package-4-btn
 {
-     display: inline;
+     float: right;
+     display: block;
 }
 .info-title h2
 {

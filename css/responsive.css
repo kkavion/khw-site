@@ -78,6 +78,14 @@
     {
         margin: 5%;
     }
+    #myModal2 .modal-body img:nth-child(2)
+    {
+        display: none;
+    }
+    #myModal2 .modal-body img:nth-child(3)
+    {
+        display: inherit;
+    }
 
 
 .header-top-area .header-top-left .header-top-contact li {
@@ -174,10 +182,22 @@
     {
         background-size: 200% 30% !important;
     }
+    .section-title-version-2-white p, .section-title-version-2-black p
+    {
+        width: 100%;
+    }
     #myModal2 .modal-body
     {
         margin: 0;
-        top: 20%;
+        top: 10%;
+    }
+    #myModal2 .modal-body img:nth-child(2)
+    {
+        display: none;
+    }
+    #myModal2 .modal-body img:nth-child(3)
+    {
+        display: inherit;
     }
     .single-item{margin-bottom: 30px;}
     .single-item:last-child{margin-bottom: 0px;}
@@ -370,7 +390,7 @@
     }
     .single-bredcurms
     {
-        background-position: center bottom;
+        background-position: top;
         padding: 0;
         height: auto;
     }
@@ -635,6 +655,14 @@
     {
         margin: 8%;
     }
+    #myModal2 .modal-body img:nth-child(2)
+    {
+        display: none;
+    }
+    #myModal2 .modal-body img:nth-child(3)
+    {
+        display: inherit;
+    }
     #calendar-section iframe
     {
         height: 65vmax;
@@ -765,6 +793,14 @@
     #myModal2 .modal-body
     {
         margin: 5% 10%;
+    }
+    #myModal2 .modal-body img:nth-child(2)
+    {
+        display: inherit;
+    }
+    #myModal2 .modal-body img:nth-child(3)
+    {
+        display: none;
     }
     #calendar-section iframe
     {
