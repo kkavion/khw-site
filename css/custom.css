@@ -2525,8 +2525,7 @@ h1, h2, h3, h4, h5, h6
 }
 .discount-package-4-btn
 {
-     float: right;
-     display: block;
+     display: contents;
 }
 .info-title h2
 {
