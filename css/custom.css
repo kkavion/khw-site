@@ -2257,6 +2257,22 @@ iframe
 {
      display: block;
 }
+.pois-page #mobnav .mean-link:nth-child(3)
+{
+     display: none;
+}
+.property-page #mobnav .mean-link:nth-child(1)
+{
+     display: none;
+}
+.property-page #mobnav .mean-link:nth-child(2)
+{
+     display: none;
+}
+.property-page #mobnav .mean-link:nth-child(3)
+{
+     display: block;
+}
 .package-long-btn
 {
      cursor: pointer;
