@@ -201,12 +201,11 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .travel-primary-btn, .travel-primary-btn-sm, .read-more, .quick-shop, .thailan-btn, .travel-primary-btn-2 {
      background: #0495ff;
      display: inline-block;
-     padding: 5px 10px !important;
+     padding: 5px 5px !important;
      border-radius: 5px;
-     font-size: 15px;
+     font-size: 14px;
      color: #fff;
      font-family: "Open Sans", sans-serif;
-     font-size: 15px;
      text-decoration: none;
 }
  .thailan-btn {
