@@ -384,7 +384,7 @@
     {
         padding-bottom: 20px;
     }
-    .carousel-inner .img1
+    .carousel-inner .img1, #events .img1
     {
         display: none !important;
     }
@@ -850,7 +850,7 @@
     {
          top: 60% !important;
     }
-    .carousel-inner .img2
+    .carousel-inner .img2, #events .img2
     {
         display: none !important;
     }
