@@ -670,6 +670,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .resort-table .discount-package-4-btn
 {
      float: none;
+     display: block;
 }
 .mean-container .mean-bar .mean-link
 {
@@ -1157,6 +1158,7 @@ button
 .wellness-btn
 {
      float: right !important;
+     display: inline-block !important;
 }
 .single-hotels .ct-action, .package-calto-action .ct-action
 {
@@ -2249,6 +2251,10 @@ iframe
 {
      display: none;
 }
+#mobnav .mean-link:nth-child(3)
+{
+     display: none;
+}
 .pois-page #mobnav .mean-link:nth-child(1)
 {
      display: none;
@@ -2537,7 +2543,7 @@ h1, h2, h3, h4, h5, h6
 }
 .rev_slider h2
 {
-     letter-spacing: 5px !important;
+     letter-spacing: 3px !important;
 }
 .discount-package-4-btn
 {
