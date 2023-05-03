@@ -667,6 +667,13 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
      float: right;
 }
+.discount-package-4-btn .travel-primary-btn-2:nth-child(2)
+{
+     float: left;
+     left: -15px;
+     position: relative;
+     background: #78bf45;
+}
 .resort-table .discount-package-4-btn
 {
      float: none;

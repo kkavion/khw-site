@@ -431,6 +431,10 @@
     {
         padding: 0 20px !important;
     }
+    .discount-package-4-btn .travel-primary-btn-2:nth-child(2)
+    {
+        margin-bottom: 10px;
+    }
 
 
 
