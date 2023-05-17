@@ -592,12 +592,12 @@
     .popular-packages-carasoul .owl-nav
     {
         top: 20vw !important;
-        position: absolute !important;
+        position:  absolute !important;
     }
     .popular-packages-carasoul .owl-nav .owl-next
     {
         position: absolute;
-        left: 74vw; 
+        left: 70vw;
     }
     .popular-packages-carasoul .owl-nav .owl-prev, .popular-packages-carasoul .owl-nav .owl-next
     {
@@ -751,7 +751,7 @@
     .popular-packages-carasoul .owl-nav .owl-next
     {
         position: absolute;
-        left: 80vw;
+        left: 79vw;
     }
 
 }
