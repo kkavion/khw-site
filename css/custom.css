@@ -2612,3 +2612,13 @@ h1, h2, h3, h4, h5, h6
      display: inherit;
      margin-top: 10px;
 }
+.getaway a
+{
+     color: black !important;
+     display: inline-block;
+     padding-bottom: 5px;
+}
+.getaway a:first-child
+{
+     text-decoration: underline;
+}
