@@ -86,8 +86,8 @@
 	<div id="dialog">
 
 	</div>
-	<section id="startModal" onload="cookieChecker();">
-		<div id="myModal2" class="container modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<section id="startModal" onload="cookieChecker();" style="display: none;">
+		<div id="myModal2" class="container modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
 			<div class="modal-body">	
 				<button type="button" class="close" aria-hidden="true" onclick="acceptCookieConsent();">&times;</button>
 				<img src="images/test.png">
@@ -134,8 +134,32 @@
 											</div>
 										</ul>
 									</li>
-									<li><a href="day-out-tab.html" onselectstart="return false">Day Out</a></li>
-									<li><a href="offers-tab.html" onselectstart="return false">Offer</a></li>
+									<li>
+										<a onselectstart="return false">Day Out</a>
+										<ul class="dropdown2 main-menu2">
+											<div class="row">
+												<li class="col-md-1 dropdown-text"><a href="getaway/kolkata/day-out-tab.html" onselectstart="return false">Kolkata</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/bengaluru/day-out-tab.html" onselectstart="return false">Bengaluru</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/chandigarh/day-out-tab.html" onselectstart="return false">Chandigarh</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/chennai/day-out-tab.html" onselectstart="return false">Chennai</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/mumbai/day-out-tab.html" onselectstart="return false">Mumbai</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/newdelhi/day-out-tab.html" onselectstart="return false">New Delhi</a></li>
+											</div>
+										</ul>
+									</li>
+									<li>
+										<a onselectstart="return false">Offers</a>
+										<ul class="dropdown2 main-menu2">
+											<div class="row">
+												<li class="col-md-1 dropdown-text"><a href="getaway/kolkata/offers-tab.html" onselectstart="return false">Kolkata</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/bengaluru/offers-tab.html" onselectstart="return false">Bengaluru</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/chandigarh/offers-tab.html" onselectstart="return false">Chandigarh</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/chennai/offers-tab.html" onselectstart="return false">Chennai</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/mumbai/offers-tab.html" onselectstart="return false">Mumbai</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/newdelhi/offers-tab.html" onselectstart="return false">New Delhi</a></li>
+											</div>
+										</ul>
+									</li>
 									<li>
 										<a onselectstart="return false">Sale</a>
 										<ul class="dropdown2 main-menu2">
@@ -146,10 +170,22 @@
 											</div>
 										</ul>
 									</li>
-									<li><a href="resorts-tab.html" onselectstart="return false">Resort</a></li>
+									<li class="resort-menu">
+										<a onselectstart="return false">Resort</a>
+										<ul class="dropdown3 main-menu2">
+											<div class="row">
+												<li class="col-md-1 dropdown-text"><a href="getaway/kolkata/resorts-tab.html" onselectstart="return false">Kolkata</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/bengaluru/resorts-tab.html" onselectstart="return false">Bengaluru</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/chandigarh/resorts-tab.html" onselectstart="return false">Chandigarh</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/chennai/resorts-tab.html" onselectstart="return false">Chennai</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/mumbai/resorts-tab.html" onselectstart="return false">Mumbai</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/newdelhi/resorts-tab.html" onselectstart="return false">New Delhi</a></li>
+											</div>
+										</ul>
+									</li>
 									<li><a href="encircle.html" onselectstart="return false">Encircle</a></li>
 									<li>
-										<a>Query</a>
+										<a onselectstart="return false">Query</a>
 										<ul class="dropdown3 main-menu2">
 											<div class="row">
 												<li class="col-md-1 dropdown-text"><a href="form-leisure.html" onselectstart="return false">Leisure</a></li>
@@ -463,11 +499,11 @@
 									<img src="images/homepage/kol_out.webp" alt="" class="border-raduis-3">
 								</div>
 								<div class="hotel-description">
-									<a href="outskirts-page.html">
+									<a href="getaway/kolkata/outskirts-page.html">
 										<h5>Outskirts</h5>
 									</a>
 									<div class="hotet-book-btn">
-										<a href="outskirts-page.html"
+										<a href="getaway/kolkata/outskirts-page.html"
 											class="travel-primary-btn hvr-shutter-out-horizontal">Explore</a>
 									</div>
 								</div>
@@ -481,11 +517,11 @@
 									<img src="images/homepage/kol_digha.webp" alt="" class="border-raduis-3">
 								</div>
 								<div class="hotel-description">
-									<a href="digha.html">
+									<a href="getaway/kolkata/digha.html">
 										<h5>Digha</h5>
 									</a>
 									<div class="hotet-book-btn">
-										<a href="digha.html" class="travel-primary-btn hvr-shutter-out-horizontal">Explore</a>
+										<a href="getaway/kolkata/digha.html" class="travel-primary-btn hvr-shutter-out-horizontal">Explore</a>
 									</div>
 								</div>
 							</div>
@@ -498,11 +534,11 @@
 									<img src="images/homepage/kol_mandar.webp" alt="" class="border-raduis-3">
 								</div>
 								<div class="hotel-description">
-									<a href="mandarmani.html">
+									<a href="getaway/kolkata/mandarmani.html">
 										<h5>Mandarmani</h5>
 									</a>
 									<div class="hotet-book-btn">
-										<a href="mandarmani.html"
+										<a href="getaway/kolkata/mandarmani.html"
 											class="travel-primary-btn hvr-shutter-out-horizontal">Explore</a>
 									</div>
 								</div>
@@ -516,11 +552,11 @@
 									<img src="images/homepage/kol_shanti.webp" alt="" class="border-raduis-3">
 								</div>
 								<div class="hotel-description">
-									<a href="shantiniketan.html">
+									<a href="getaway/kolkata/shantiniketan.html">
 										<h5>Shantiniketan</h5>
 									</a>
 									<div class="hotet-book-btn">
-										<a href="shantiniketan.html"
+										<a href="getaway/kolkata/shantiniketan.html"
 											class="travel-primary-btn hvr-shutter-out-horizontal">Explore</a>
 									</div>
 								</div>
@@ -534,11 +570,11 @@
 									<img src="images/homepage/kol_sundar.webp" alt="" class="border-raduis-3">
 								</div>
 								<div class="hotel-description">
-									<a href="sundarbans.html">
+									<a href="getaway/kolkata/sundarbans.html">
 										<h5>Sundarbans</h5>
 									</a>
 									<div class="hotet-book-btn">
-										<a href="sundarbans.html"
+										<a href="getaway/kolkata/sundarbans.html"
 											class="travel-primary-btn hvr-shutter-out-horizontal">Explore</a>
 									</div>
 								</div>
@@ -2838,11 +2874,11 @@
 									<img src="images/homepage/beng-out.webp" alt="" class="border-raduis-3">
 								</div>
 								<div class="hotel-description">
-									<a href="destination/bengaluru/outskirts.html">
+									<a href="getaway/bengaluru/outskirts.html">
 										<h5>Outskirts</h5>
 									</a>
 									<div class="hotet-book-btn">
-										<a href=""
+										<a href="getaway/bengaluru/outskirts.html"
 											class="travel-primary-btn hvr-shutter-out-horizontal">Explore</a>
 									</div>
 								</div>
@@ -2856,11 +2892,11 @@
 									<img src="images/homepage/beng-hassan.webp" alt="" class="border-raduis-3">
 								</div>
 								<div class="hotel-description">
-									<a href="destination/bengaluru/hassan.html">
+									<a href="getaway/bengaluru/hassan.html">
 										<h5>Hassan</h5>
 									</a>
 									<div class="hotet-book-btn">
-										<a href="" class="travel-primary-btn hvr-shutter-out-horizontal">Explore</a>
+										<a href="getaway/bengaluru/hassan.html" class="travel-primary-btn hvr-shutter-out-horizontal">Explore</a>
 									</div>
 								</div>
 							</div>
@@ -2873,11 +2909,11 @@
 									<img src="images/homepage/beng-mysuru.webp" alt="" class="border-raduis-3">
 								</div>
 								<div class="hotel-description">
-									<a href="">
+									<a href="getaway/bengaluru/mysuru.html">
 										<h5>Mysuru</h5>
 									</a>
 									<div class="hotet-book-btn">
-										<a href=""
+										<a href="getaway/bengaluru/mysuru.html"
 											class="travel-primary-btn hvr-shutter-out-horizontal">Explore</a>
 									</div>
 								</div>
@@ -2891,11 +2927,11 @@
 									<img src="images/homepage/beng-yelagiri.webp" alt="" class="border-raduis-3">
 								</div>
 								<div class="hotel-description">
-									<a href="">
+									<a href="getaway/bengaluru/yelagiri.html">
 										<h5>Yelagiri</h5>
 									</a>
 									<div class="hotet-book-btn">
-										<a href=""
+										<a href="getaway/bengaluru/yelagiri.html"
 											class="travel-primary-btn hvr-shutter-out-horizontal">Explore</a>
 									</div>
 								</div>

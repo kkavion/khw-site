@@ -199,7 +199,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 /*=====basce css end here=========*/
 /*============================== theme buttons css goes here ===============================*/
  .travel-primary-btn, .travel-primary-btn-sm, .read-more, .quick-shop, .thailan-btn, .travel-primary-btn-2 {
-     background: #0495ff;
+     background:   none !important;;
      display: inline-block;
      padding: 5px 5px !important;
      border-radius: 5px;
@@ -207,6 +207,10 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: #fff;
      font-family: "Open Sans", sans-serif;
      text-decoration: none;
+     transition: none;
+     font-weight: bold;
+     bottom: -80%;
+     position: relative;
 }
  .thailan-btn {
      padding: 10px 35px !important;
@@ -3229,6 +3233,10 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      border-radius: 5px;
      background: white;
 }
+.single-hotels .hotel-image img::before
+{
+    background: #0495ff !important;
+}
 .single-hotels:hover {
      box-shadow: 0 0 10px rgba(0,0,0,0.5);
      transition: all 1s ease-in-out;
@@ -3236,7 +3244,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .single-hotels .hotel-image {
      position: relative;
      overflow: hidden;
-     border-radius: 5px 5px 0 0;
+     border-radius: 5px;
 }
 .single-hotels .hotel-image img{
      transform: scale(1);
@@ -3251,7 +3259,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .single-hotels .hotel-description {
      text-align: center;
-     padding: 5px;
 }
 .single-hotels .hotel-description p
 {
@@ -3279,12 +3286,13 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      margin: 0 auto;
      position: absolute;
      right: 0;
-     text-align: center;
-     top: 50%;
-     transform: translateY(-40%);
-     opacity: 0;
+     text-align: left;
+     opacity: 1;
      transition: all ease-in-out 0.5s;
      z-index: 3;
+     height: 100%;
+     background: #0000003d;
+     border-radius: 5px;
 }
  .single-hotels:hover .hotel-image:before {
      opacity: 1;

@@ -122,8 +122,32 @@
 											</div>
 										</ul>
 									</li>
-									<li><a href="day-out-tab.html" onselectstart="return false">Day Out</a></li>
-									<li><a href="offers-tab.html" onselectstart="return false">Offer</a></li>
+									<li>
+										<a onselectstart="return false">Day Out</a>
+										<ul class="dropdown2 main-menu2">
+											<div class="row">
+												<li class="col-md-1 dropdown-text"><a href="getaway/kolkata/day-out-tab.html" onselectstart="return false">Kolkata</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/bengaluru/day-out-tab.html" onselectstart="return false">Bengaluru</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/chandigarh/day-out-tab.html" onselectstart="return false">Chandigarh</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/chennai/day-out-tab.html" onselectstart="return false">Chennai</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/mumbai/day-out-tab.html" onselectstart="return false">Mumbai</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/newdelhi/day-out-tab.html" onselectstart="return false">New Delhi</a></li>
+											</div>
+										</ul>
+									</li>
+									<li>
+										<a onselectstart="return false">Offers</a>
+										<ul class="dropdown2 main-menu2">
+											<div class="row">
+												<li class="col-md-1 dropdown-text"><a href="getaway/kolkata/offers-tab.html" onselectstart="return false">Kolkata</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/bengaluru/offers-tab.html" onselectstart="return false">Bengaluru</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/chandigarh/offers-tab.html" onselectstart="return false">Chandigarh</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/chennai/offers-tab.html" onselectstart="return false">Chennai</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/mumbai/offers-tab.html" onselectstart="return false">Mumbai</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/newdelhi/offers-tab.html" onselectstart="return false">New Delhi</a></li>
+											</div>
+										</ul>
+									</li>
 									<li>
 										<a onselectstart="return false">Sale</a>
 										<ul class="dropdown2 main-menu2">
@@ -134,10 +158,22 @@
 											</div>
 										</ul>
 									</li>
-									<li><a href="resorts-tab.html" onselectstart="return false">Resort</a></li>
+									<li class="resort-menu">
+										<a onselectstart="return false">Resort</a>
+										<ul class="dropdown3 main-menu2">
+											<div class="row">
+												<li class="col-md-1 dropdown-text"><a href="getaway/kolkata/resorts-tab.html" onselectstart="return false">Kolkata</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/bengaluru/resorts-tab.html" onselectstart="return false">Bengaluru</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/chandigarh/resorts-tab.html" onselectstart="return false">Chandigarh</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/chennai/resorts-tab.html" onselectstart="return false">Chennai</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/mumbai/resorts-tab.html" onselectstart="return false">Mumbai</a></li>
+												<li class="col-md-1 dropdown-text"><a href="getaway/newdelhi/resorts-tab.html" onselectstart="return false">New Delhi</a></li>
+											</div>
+										</ul>
+									</li>
 									<li><a href="encircle.html" onselectstart="return false">Encircle</a></li>
 									<li>
-										<a>Query</a>
+										<a onselectstart="return false">Query</a>
 										<ul class="dropdown3 main-menu2">
 											<div class="row">
 												<li class="col-md-1 dropdown-text"><a href="form-leisure.html" onselectstart="return false">Leisure</a></li>
@@ -202,7 +238,7 @@
 					<p>Get away from the usual humdrum of the city instantly to find comfort and solace in a haven away from home.</p>
 				</div>
 			</div>
-			<div class="row padding-bottom getaway" style="font-weight: bold;">
+			<div class="row padding-bottom getaway">
 				<div class="col-md-2 col-xs-6">
 					<a href="#">Kolkata</a><br>
 					<a href="getaway/kolkata/outskirts-page.html">Outskirts</a><br>
@@ -215,7 +251,7 @@
 					<a href="#">Bengaluru</a><br>
 					<a href="getaway/bengaluru/outskirts.html">Outskirts</a><br>
 					<a href="getaway/bengaluru/hassan.html">Hassan</a><br>
-					<a href="#">Mysuru</a><br>
+					<a href="getaway/bengaluru/mysuru.html">Mysuru</a><br>
 					<a href="getaway/bengaluru/yelagiri.html">Yelagiri</a><br><br>
 				</div>
 				<div class="col-md-2 col-xs-6">
@@ -513,23 +549,6 @@
 		// Get the offset position of the navbar
 		var sticky = navbar.offsetTop;
 		var sticky2 = mobnav.offsetTop;
-
-		// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-		function myFunction() {
-			if (window.pageYOffset >= sticky) {
-				navbar.classList.add("sticky");
-			}
-			else {
-				navbar.classList.remove("sticky");
-			}
-			if (window.pageYOffset >= sticky2) {
-				mobnav.classList.add("sticky2");
-			}
-			else {
-				mobnav.classList.remove("sticky2");
-			}
-
-		}
 	</script>
 	<script>
 		(() => {

@@ -757,10 +757,6 @@ header .main-menu a:focus
      font-size: 15px;
      color: black;
 }
-.hotet-book-btn .travel-primary-btn
-{
-     visibility: hidden;
-}
 .single-hotels ul
 {
      padding: 5% 40%;
@@ -1384,6 +1380,11 @@ header .sticky .header-bottom-area .main-menu .dropdown2 li a
      color: #fb6a00;
      margin-left: 5px;
 }
+.header-bottom-area .main-menu > li ul.dropdown3 li a:hover
+{
+     color: #fb6a00;
+     margin-left: 5px;
+}
 .sticky .header-bottom-area .main-menu .dropdown2 .row
 {
      position: absolute;
@@ -1416,12 +1417,27 @@ header .sticky .header-bottom-area .main-menu .dropdown2 li a
      transform-origin: 0 0 0;
      transform: scaleY(-0.4);
 }
+.header-bottom-area .main-menu .resort-menu .dropdown3, .sticky .header-bottom-area .main-menu .resort-menu .dropdown3
+{
+     width: 40vw;
+}
 
 .header-bottom-area .main-menu .dropdown3 .dropdown-text
 {
      width: auto;
      padding: 0;
      color: black;
+     left: 13px;
+}
+
+.sticky .header-bottom-area .main-menu .dropdown3 .dropdown-text
+{
+     left: 0;
+}
+.header-bottom-area .main-menu .resort-menu .dropdown3 .dropdown-text,
+.sticky .header-bottom-area .main-menu .resort-menu .dropdown3 .dropdown-text
+{
+     left: 0px;
 }
 .header-bottom-area .main-menu > li:hover .dropdown3
 {
@@ -1464,12 +1480,13 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      transform: scaleX(-1);
 
 }
-.header-bottom-area .main-menu .dropdown3 .row
+.header-bottom-area .main-menu .resort-menu .dropdown3 .row
 {
      position: absolute;
-     left: 13px;
+     left: 10px;
      border-left: 2px solid #fb6a00;
 }
+.header-bottom-area .main-menu .dropdown3 .row
 .header-bottom-area .main-menu > li ul.dropdown3 li a:hover
 {
      color: #fb6a00;
@@ -1480,6 +1497,10 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      position: absolute;
      left: 13px;
      border-left: 2px solid #0495ff;
+}
+.sticky .header-bottom-area .main-menu .resort-menu .dropdown3 .row
+{
+     left: 10px;
 }
 .sticky .header-bottom-area .main-menu > li ul.dropdown3 li a:hover
 {
@@ -2616,9 +2637,14 @@ h1, h2, h3, h4, h5, h6
 {
      color: black !important;
      display: inline-block;
-     padding-bottom: 5px;
+     margin-bottom: 5px;
 }
 .getaway a:first-child
 {
-     text-decoration: underline;
+     font-weight: bold;
+     margin-bottom: 10px;
+}
+.top-destination-area .hotet-book-btn
+{
+     visibility: hidden;
 }

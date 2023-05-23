@@ -1951,7 +1951,7 @@
 
 .hvr-shutter-out-horizontal:before {
     position: absolute;
-    background:#fb6a00;
+    background:#0495ff;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 50%;
