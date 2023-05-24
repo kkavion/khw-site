@@ -3152,8 +3152,9 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .top-destination-area figure {
      position: relative;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-     margin: 15px;
+     margin: 0 0 10px 0;
      border-radius: 5px;
+     overflow: hidden;
 }
  .top-destination-area figure img {
      transition: all ease-in-out 0.5s;
@@ -3195,7 +3196,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .top-destination-area figure:hover figcaption {
      opacity: 1;
      visibility: visible;
-     top: 40%;
+     top: 45%;
 }
 /*===================================================== 41.Home version 4 counter section start here =======================================================*/
  .achievment-bg {
