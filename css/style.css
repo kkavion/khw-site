@@ -199,7 +199,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 /*=====basce css end here=========*/
 /*============================== theme buttons css goes here ===============================*/
  .travel-primary-btn, .travel-primary-btn-sm, .read-more, .quick-shop, .thailan-btn, .travel-primary-btn-2 {
-     background:   none !important;;
+     background:   #0495ff;;
      display: inline-block;
      padding: 5px 5px !important;
      border-radius: 5px;
@@ -208,9 +208,14 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-family: "Open Sans", sans-serif;
      text-decoration: none;
      transition: none;
-     font-weight: bold;
      bottom: -80%;
      position: relative;
+}
+.faq-section .travel-primary-btn
+{
+    background: none !important;
+    font-weight: bold;
+    letter-spacing: 0.7px;
 }
  .thailan-btn {
      padding: 10px 35px !important;
@@ -3147,18 +3152,22 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .top-destination-area figure {
      position: relative;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     margin: 15px;
+     border-radius: 5px;
 }
  .top-destination-area figure img {
      transition: all ease-in-out 0.5s;
 }
  .top-destination-area figure:before {
      position: absolute;
-     width: 100%;
-     height: 50%;
+     width: 110%;
+     height: 110%;
      content: '';
-     top: 0;
-     left: 0;
+     top: -5%;
+     left: -5%;
      z-index: 1;
+     background: #0003;
+     border-radius: 5px;
 }
  .top-destination-area figure figcaption {
      position: absolute;
@@ -3181,7 +3190,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-weight: normal;
 }
  .top-destination-area figure:hover img {
-     transform: scale(0.9);
+     transform: scale(1);
 }
  .top-destination-area figure:hover figcaption {
      opacity: 1;
@@ -4577,8 +4586,9 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      transform: scale(1);
 }
 .top-destination-area figure img{
-     transform: scale(1);
+     transform: scale(1.1);
      transition: all ease-in-out 0.5s;
+     border-radius: 5px;
 }
 
  .top-destination-area-5 .single-destionation-5 {
