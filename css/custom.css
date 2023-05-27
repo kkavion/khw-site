@@ -1413,12 +1413,12 @@ header .sticky .header-bottom-area .main-menu .dropdown2 li a
      transition: all ease-in-out 0.2s;
      text-align: left;
      display: inline;
-     width: 15vw;
+     width: 20vw;
      visibility: hidden;
      transform-origin: 0 0 0;
      transform: scaleY(-0.4);
 }
-.header-bottom-area .main-menu .resort-menu .dropdown3, .sticky .header-bottom-area .main-menu .resort-menu .dropdown3
+.header-bottom-area .main-menu .resort-menu:hover .dropdown3, .sticky .header-bottom-area .main-menu .resort-menu .dropdown3:hover
 {
      width: 40vw;
 }
