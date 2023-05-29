@@ -2649,3 +2649,37 @@ h1, h2, h3, h4, h5, h6
 {
      visibility: hidden;
 }
+.destination-bg .owl-nav,
+.destination-bg .owl-dots
+{
+     display: none;
+}
+.destination-bg #interest-slide .carousel-indicators
+{
+     bottom: -50px;
+}
+.destination-bg #interest-slide .carousel-indicators li
+{
+     border-color: black;
+}
+.destination-bg #interest-slide .carousel-indicators .active
+{
+     background-color: black;
+}
+#interest-slide .carousel-inner
+{
+     width: 90%;
+     margin: auto;
+}
+#interest-slide .carousel-control.left
+{
+     left: 5px;
+}
+#interest-slide .single-package-details
+{
+     margin-top: 15px;
+}
+#interest-slide .carousel-control span
+{
+     font-size: 45px;
+}

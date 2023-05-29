@@ -1598,7 +1598,7 @@ pre code {
 }
 @media (min-width:1200px) {
  .container {
-  width:1170px
+  width:1170px;
  }
 }
 .container-fluid {
@@ -6340,9 +6340,10 @@ button.close {
 }
 .carousel-inner {
  position:relative;
- width:100%;
+ width:90%;
  overflow:hidden;
  border-radius: 10px 10px 0 0;
+ margin: auto;
 }
 .carousel-inner>.item {
  position:relative;
