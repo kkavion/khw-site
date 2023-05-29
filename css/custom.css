@@ -2649,8 +2649,8 @@ h1, h2, h3, h4, h5, h6
 {
      visibility: hidden;
 }
-.destination-bg .owl-nav,
-.destination-bg .owl-dots
+.single-package-area .owl-nav,
+.single-package-area .owl-dots
 {
      display: none;
 }

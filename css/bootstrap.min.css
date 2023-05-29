@@ -6340,7 +6340,7 @@ button.close {
 }
 .carousel-inner {
  position:relative;
- width:90%;
+ width:100%;
  overflow:hidden;
  border-radius: 10px 10px 0 0;
  margin: auto;
