@@ -207,7 +207,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: #fff;
      font-family: "Open Sans", sans-serif;
      text-decoration: none;
-     transition: none;
+     transition: 0.3s all ease-in-out;
      bottom: -80%;
      position: relative;
 }

@@ -870,7 +870,7 @@ button
 }
 .carousel .carousel-control span
 {
-     top: 50%;
+     top: 45%;
      position: absolute;
      font-size: 30px;
      margin-top: -20px;
@@ -2671,9 +2671,13 @@ h1, h2, h3, h4, h5, h6
      width: 90%;
      margin: auto;
 }
+#interest-slide .carousel-inner h3
+{
+     font-style: normal;
+}
 #interest-slide .carousel-control.left
 {
-     left: 5px;
+     left: -30px;
 }
 #interest-slide .single-package-details
 {
@@ -2681,5 +2685,5 @@ h1, h2, h3, h4, h5, h6
 }
 #interest-slide .carousel-control span
 {
-     font-size: 45px;
+     font-size: 70px;
 }
