@@ -704,7 +704,7 @@ form p
      font-size: 20px;
      font: "Open Sans", sans-serif;
 }
-header .header-bottom-area .main-menu li:last-child
+header .header-bottom-area .main-menu li.phone
 {
      background: #71bf44 !important;
      padding: 10px;

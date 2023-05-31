@@ -14,6 +14,8 @@
 	//	$('#startModal').fadeOut("slow");
 	//});
 
+	$('[data-toggle="tooltip"]').tooltip()
+
 	/*====== countdown ========*/
 	$('[data-countdown]').each(function () {
 		var $this = $(this),
