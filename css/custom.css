@@ -2670,10 +2670,12 @@ h1, h2, h3, h4, h5, h6
 {
      width: 90%;
      margin: auto;
+     border-radius: 0;
 }
 #interest-slide .carousel-inner h3
 {
      font-style: normal;
+     font-weight: 700;
 }
 #interest-slide .carousel-control.left
 {
@@ -2686,4 +2688,8 @@ h1, h2, h3, h4, h5, h6
 #interest-slide .carousel-control span
 {
      font-size: 70px;
+}
+.destination-bg .resort-tab
+{
+     margin-top: 25px;
 }
