@@ -1029,11 +1029,13 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .single-travel-blog {
      transition: box-shadow 0.3s ease-in-out;
      border-radius: 10px;
+     border: 1px solid #ccc;     
 }
  .single-travel-blog .blog-image {
      overflow: hidden;
      position: relative;
      border-radius: 3px;
+     margin-top: 15px
 }
  .single-travel-blog .blog-image a {
      display: block;
@@ -1044,9 +1046,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .single-travel-blog .blog-content {
      padding: 20px;
-     border: 1px solid #ccc;
-     border-top: none;
-     border-radius: 0 0 10px 10px;
 }
  .single-travel-blog .blog-content .blog-meta {
      color: black;
@@ -3250,14 +3249,14 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
      margin-bottom: 30px;
      border-radius: 5px;
-     background: white;
+     background: rgb(0,0,0,0);
 }
 .single-hotels .hotel-image img::before
 {
     background: #0495ff !important;
 }
 .single-hotels:hover {
-     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     box-shadow: 0 0 10px rgba(0,0,0,0.5) !important;
      transition: all 1s ease-in-out;
 }
  .single-hotels .hotel-image {
@@ -3476,6 +3475,12 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      padding: 25px;
      background: white;
      border-radius: 0 0 10px 10px;
+}
+ .top-destination-area-5 .single-destionation-5 .destination-5-description a
+{
+    color: white;
+    font-size: 14px;
+    display: initial;
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-description span {
      color: black;

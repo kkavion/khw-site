@@ -791,8 +791,12 @@
 
 /*  Desktop Layout: 991px    */
 @media screen and (min-width: 991px)
-{
-    
+{    
+    .desktop-only::after
+    {
+        content: "\a";
+        white-space: pre;
+    }   
     .footer-title .logo1
     {
         padding: 0 60px;
