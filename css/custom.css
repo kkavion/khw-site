@@ -2390,7 +2390,7 @@ iframe
 {
      color: gold;
      position: relative;
-     font-size: 18px;
+     font-size: 16px;
      display: inline-block;
 }
 .stars i
@@ -2727,4 +2727,8 @@ h1, h2, h3, h4, h5, h6
 .destination-bg .resort-tab
 {
      margin-top: 25px;
+}
+.offers .container:not(:first-child)
+{
+     margin: 20px auto;
 }

@@ -900,6 +900,15 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      transition: all ease-in-out 0.5s;
      margin-bottom: 30px;
 }
+.destination-slider-active .single-destination img
+{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+.destination-slider-active .single-destination:hover img
+{
+    transform: scale(1);
+}
  .destination-slider-active .single-destination figure {
      position: relative;
      overflow: hidden;
@@ -907,11 +916,11 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      border-radius: 0;
 }
  .destination-slider-active .single-destination figure:before {
-     position: absolute;
+     position: relative;
      width: 100%;
      height: 100%;
      content: '';
-     background: rgba(0, 0, 0, 0.3);
+     background: rgba(0, 0, 0, 0.0);
      left: 0;
      top: 0;
      visibility: hidden;
@@ -937,15 +946,19 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .destination-slider-active .single-destination figure figcaption a {
      overflow: hidden;
 }
- .destination-slider-active .single-destination .des-city div:nth-child(3)
+ .destination-slider-active .single-destination .des-city div
 {
-    margin: 5px 0
+    margin: 3px 0;
 }
  .destination-slider-active .single-destination .des-city {
      padding: 15px;
      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
      transition: box-shadow 0.3s ease-in-out 0s;
      text-align: center;
+}
+ .offers .destination-slider-active .single-destination .des-city
+{
+    text-align: left;
 }
  .destination-slider-active .single-destination .des-city a {
      color: black;
@@ -954,8 +967,15 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      transition: all ease-in-out 0.5s;
      font-size: 18px;
 }
+ .destination-slider-active .single-destination .des-city span
+{
+    font-size: 16px;
+}
  .destination-slider-active .single-destination .des-city a i {
      margin-right: 10px;
+}
+ .offers .destination-slider-active .single-destination .des-city a i {
+     margin-right: 0px;
 }
  .destination-slider-active .single-destination .des-city h4 {
      color: black;
@@ -978,7 +998,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      visibility: visible;
 }
  .destination-slider-active .single-destination:hover .des-city a {
-     color: #71bf44;
+     color: #0495ff;
 }
 /*===================================================== 08.Choose us strat section css goes here =======================================================*/
  .trabble-bg {

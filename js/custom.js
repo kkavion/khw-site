@@ -52,11 +52,11 @@
 	
 	/*====== carasol destination ========*/
 	$('.destination-slider-active').owlCarousel({
-		loop:true,
+		loop:false,
 		margin:10,
 		nav:true,
-		autoplay:false,
-		autoplayTimeout:1000,
+		autoplay:true,
+		autoplayTimeout:3000,
 		animateOut:true,
 		animateIn:true,
 		responsive:{
