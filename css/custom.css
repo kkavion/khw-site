@@ -561,7 +561,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .demo
 {
-	margin-top: 30px;
+	margin-top: 0;
 }
 .demo img
 {
@@ -1797,7 +1797,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .faq-section h3
 {
-     padding-bottom: 25px;
+     padding-bottom: 10px;
      text-align: left;
      font-weight: 700;
      font-style: normal;
@@ -2477,7 +2477,6 @@ iframe
 }
 .quick-links
 {     
-     padding: 25px 0;
      font-size: 18px;
 }
 .quick-links .btn
@@ -2731,4 +2730,12 @@ h1, h2, h3, h4, h5, h6
 .offers .container:not(:first-child)
 {
      margin: 20px auto;
+}
+.must-visit
+{
+     margin-top: 15px;
+}
+.must-visit h3
+{
+     margin-bottom: 10px;
 }
