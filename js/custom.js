@@ -362,6 +362,14 @@
 		maximumSelectionLength: 3
 	});
 
+	$('.slide').carousel(
+		{
+			interval: 0,
+			ride: false,
+			wrap: true,
+		}
+	)
+
 
 	//Testimonial Carousel (Slick2)
   	$('.slider-for-two').slick({

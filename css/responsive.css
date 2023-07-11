@@ -178,6 +178,10 @@
 /*======================  Mobile Layout: 320px. =======================  */
 
 @media only screen and (max-width: 767px) {
+    .quick-links .btn img
+    {
+        width: 80px !important;
+    }
     .club-area
     {
         background-size: 200% 30% !important;
