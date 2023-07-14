@@ -1756,10 +1756,10 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      background-color: cornsilk !important;
 }
-.destination-bg
+/*.destination-bg
 {
-     background: #f5f5f5;
-}
+     background: white;
+}*/
 .section-margins
 {
      margin-top: 25px;
@@ -2489,7 +2489,7 @@ iframe
 }
 .quick-links .btn img
 {
-     width: 135px;
+     width: 200px;
 }
 .resort-table li span:first-child
 {
@@ -2548,7 +2548,7 @@ iframe
      z-index: 999999 !important;
 }
 .homepage,
-.resort-tab
+.resort-bg
 {
      background: #f5f5f5;
 }

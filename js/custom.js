@@ -57,8 +57,8 @@
 		nav:true,
 		autoplay:true,
 		autoplayTimeout:3000,
-		animateOut:true,
-		animateIn:true,
+		animateOut:false,
+		animateIn:false,
 		responsive:{
 			0:{
 				items:1
