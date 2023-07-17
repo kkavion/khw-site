@@ -2286,6 +2286,7 @@ iframe
      cursor: pointer;
      padding: 5px;
 }
+/* active links for pages*/
 #mobnav .mean-link:nth-child(1)
 {
      display: block;
@@ -2298,15 +2299,47 @@ iframe
 {
      display: none;
 }
+#mobnav .mean-link:nth-child(4)
+{
+     display: none;
+}
 .pois-page #mobnav .mean-link:nth-child(1)
 {
      display: none;
 }
 .pois-page #mobnav .mean-link:nth-child(2)
 {
-     display: block;
+     display: none;
 }
 .pois-page #mobnav .mean-link:nth-child(3)
+{
+     display: none;
+}
+.pois-page #mobnav .mean-link:nth-child(4)
+{
+     display: none;
+}
+.pois-page #mobnav .mean-link:nth-child(5)
+{
+     display: block;
+}
+.getaway-page #mobnav .mean-link:nth-child(1)
+{
+     display: none;
+}
+.getaway-page #mobnav .mean-link:nth-child(2)
+{
+     display: none;
+}
+.getaway-page #mobnav .mean-link:nth-child(3)
+{
+     display: block;
+}
+.getaway-page #mobnav .mean-link:nth-child(4)
+{
+     display: none;
+}
+.getaway-page #mobnav .mean-link:nth-child(5)
 {
      display: none;
 }
@@ -2320,8 +2353,18 @@ iframe
 }
 .property-page #mobnav .mean-link:nth-child(3)
 {
+     display: none;
+}
+.property-page #mobnav .mean-link:nth-child(4)
+{
      display: block;
 }
+.property-page #mobnav .mean-link:nth-child(5)
+{
+     display: none;
+}
+/* active links for pages*/
+
 .package-long-btn
 {
      cursor: pointer;
