@@ -1363,7 +1363,7 @@ button
 }
 header .header-bottom-area .main-menu .dropdown2 li
 {
-     background: rgba(255, 255, 255, 0.075) !important;
+     background: rgba(0, 0, 0, 0.3) !important;
 }
 header .sticky .header-bottom-area .main-menu .dropdown2 li
 {
@@ -1471,7 +1471,7 @@ header .sticky .header-bottom-area .main-menu .dropdown2 li a
 }
 header .header-bottom-area .main-menu .dropdown3 li
 {
-     background: rgba(255, 255, 255, 0.075) !important;
+     background: rgba(0, 0, 0, 0.3) !important;
 }
 header .sticky .header-bottom-area .main-menu .dropdown3 li
 {
@@ -1928,9 +1928,10 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .visit-site
 {
      text-align: center;
-     border: 1px solid #ccc;
+     border: none;
      border-radius: 10px;
-     background: white;
+     background: none;
+     padding-bottom: 15px;
 }
 .resorts-bg .visit-site span
 {
