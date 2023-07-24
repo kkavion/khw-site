@@ -802,7 +802,7 @@ header .main-menu a:focus
 }
 .amenities-row
 {
-     padding-bottom: 10px;
+     padding: 5px 0;
 }
 .amenities-row span
 {
@@ -1176,7 +1176,6 @@ button
 .wellness-btn
 {
      float: right !important;
-     display: inline-block !important;
 }
 .single-hotels .ct-action, .package-calto-action .ct-action
 {
@@ -1840,13 +1839,16 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      background: #f5f5f5;
      border-radius: 10px;
 }
+.resorts-bg .resort-table .row:nth-child(2)
+{
+     background: #f5f5f5;
+}
 .sale-tab-2 .resort-table .row:nth-child(2) .col-md-3,
 .resort-rooms .resort-table .row:nth-child(2) .col-md-3,
 .day-out .resort-table .row:nth-child(2) .col-md-3,
 .offer-tab .resort-table .row:nth-child(2) .col-md-3,
 .interest-dayout .resort-table .row:nth-child(2) .col-md-3,
-.resorts-bg .dayout-table .row:nth-child(2) .col-md-3
-
+.resorts-bg .resort-table .row:nth-child(2) .col-md-3
 {
      font-size: 15px;
      text-align: right;
@@ -2711,6 +2713,10 @@ h1, h2, h3, h4, h5, h6
      color: black !important;
      transition: all ease-in-out 0.3s;
      cursor: pointer
+}
+.getaway .live a:first-child
+{
+     cursor: default;
 }
 .getaway .live a:not(:first-child):hover
 {
