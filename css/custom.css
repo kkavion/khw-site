@@ -1333,7 +1333,7 @@ button
      transition: all ease-in-out 0.2s;
      text-align: left;
      display: inline;
-     width: 40vw;
+     width: 30vw;
      visibility: hidden;
      transform-origin: 0 0 0;
      transform: scaleY(0.4);
@@ -2306,6 +2306,10 @@ iframe
 {
      display: none;
 }
+#mobnav .mean-link:nth-child(5)
+{
+     display: none;
+}
 .pois-page #mobnav .mean-link:nth-child(1)
 {
      display: none;
@@ -2794,4 +2798,8 @@ h1, h2, h3, h4, h5, h6
 .must-visit h3
 {
      margin-bottom: 10px;
+}
+.dayout-menu .disabled
+{
+     display: none;
 }
