@@ -2718,20 +2718,11 @@ h1, h2, h3, h4, h5, h6
      transition: all ease-in-out 0.3s;
      cursor: pointer
 }
-.getaway .live2 a:nth-child(1),
-.getaway .live2 a.active
-{
-     color: black !important;
-     transition: all ease-in-out 0.3s;
-     cursor: pointer
-}
-.getaway .live a:first-child,
-.getaway .live2 a:first-child
+.getaway .live a:first-child
 {
      cursor: default;
 }
-.getaway .live a:not(:first-child):hover,
-.getaway .live2 a.active:hover
+.getaway .live a:not(:first-child):hover
 {
      padding-left: 5px;
      color: #fb6a00 !important;
