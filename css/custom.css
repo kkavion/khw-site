@@ -1294,7 +1294,7 @@ button
 }
 .single-package-details .tour-description
 {
-     padding: 0 0 25px 40px;
+     padding: 0 0 25px 30px;
 }
 .single-package-details .main-timeline::before
 {
@@ -2534,7 +2534,7 @@ iframe
      font-size: 15px;
      padding: 6px 10px;
      color: black;
-     border-radius: 00;
+     border-radius: 5;
      background: none;
 }
 .quick-links .btn img
