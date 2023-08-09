@@ -849,6 +849,14 @@ i
      font-family: 'Open Sans', sans-serif;
      opacity: 1; /* Firefox */
 }
+.resort-tab form
+{
+     text-align: center;
+}
+.resort-tab .form-group
+{
+     display: inline-block;
+}
 .footer-contact-form .form-group
 {
      margin-bottom: 5px;
@@ -2802,4 +2810,8 @@ h1, h2, h3, h4, h5, h6
 .dayout-menu .disabled
 {
      display: none;
+}
+#filter .btn-primary
+{
+     border-radius: 5px;
 }
