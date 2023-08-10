@@ -808,6 +808,7 @@ header .main-menu a:focus
 {
      cursor: pointer;
      color:  #454545 !important;
+     font-style: normal;
 }
 .resort-box .amenities-row
 {
