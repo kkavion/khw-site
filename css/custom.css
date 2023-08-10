@@ -856,6 +856,7 @@ i
 .resort-tab .form-group
 {
      display: inline-block;
+     width: 250px;
 }
 .footer-contact-form .form-group
 {

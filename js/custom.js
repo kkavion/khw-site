@@ -185,7 +185,7 @@
 		$("#message").slideUp(750,function() {
 		$('#message').hide();
 		$('#submit')
-			.after('')
+			.after("")
 			.attr('disabled','disabled');
 		$.post(action, {
 			name: $('#name').val(),
@@ -555,40 +555,94 @@ function closeSuiteCompare()
 
 
 
- function filterRP() {
-	var subjectObject = {
-		"Front-end": {
-		  "HTML": ["Links", "Images", "Tables", "Lists"],
-		  "CSS": ["Borders", "Margins", "Backgrounds", "Float"],
-		  "JavaScript": ["Variables", "Operators", "Functions", "Conditions"]
-		},
-		"Back-end": {
-		  "PHP": ["Variables", "Strings", "Arrays"],
-		  "SQL": ["SELECT", "UPDATE", "DELETE"]
+function filterRP() {	
+	var destinationSelect = document.getElementById("destination-name");
+	var typeSelect = document.getElementById("resort-type");
+	var resortSelect = document.getElementById("resort-name");
+	for (var x in allDestination) {
+		destinationSelect.options[destinationSelect.options.length] = new Option(x, x);
+	}
+	destinationSelect.onchange = function () {
+		//empty Chapters- and Topics- dropdowns
+		resortSelect.length = 1;
+		typeSelect.length = 1;
+		//display correct values
+		for (var y in allDestination[this.value]) {
+			typeSelect.options[typeSelect.options.length] = new Option(y, y);
 		}
-	  }
-	var subjectSel = document.getElementById("destination-name");
-	var topicSel = document.getElementById("resort-type");
-	var chapterSel = document.getElementById("resort-name");
-	for (var x in subjectObject) {
-	  subjectSel.options[subjectSel.options.length] = new Option(x, x);
 	}
-	subjectSel.onchange = function() {
-	  //empty Chapters- and Topics- dropdowns
-	  chapterSel.length = 1;
-	  topicSel.length = 1;
-	  //display correct values
-	  for (var y in subjectObject[this.value]) {
-		topicSel.options[topicSel.options.length] = new Option(y, y);
-	  }
+	typeSelect.onchange = function () {
+		//empty Chapters dropdown
+		resortSelect.length = 1;
+		//display correct values
+		var z = allDestination[destinationSelect.value][this.value];
+		for (var i = 0; i < z.length; i++) {
+			resortSelect.options[resortSelect.options.length] = new Option(z[i], z[i]);
+		}
 	}
-	topicSel.onchange = function() {
-	  //empty Chapters dropdown
-	  chapterSel.length = 1;
-	  //display correct values
-	  var z = subjectObject[subjectSel.value][this.value];
-	  for (var i = 0; i < z.length; i++) {
-		chapterSel.options[chapterSel.options.length] = new Option(z[i], z[i]);
-	  }
+}
+
+function formSub()
+{
+	var resLocs = 
+	[
+		["Ganga Kutir", "properties/kolkata/outskirts/resort-page-gk.html"],
+		["The Amaya Resort", "properties/kolkata/outskirts/resort-page-amaya.html"],
+		["Vedic Village", "properties/kolkata/outskirts/resort-page-gk.html"],
+		["Fortune Park", "properties/kolkata/outskirts/resort-page-fpp.html"],
+		["The Ffort Raichak", "properties/kolkata/outskirts/resort-page-tfr.html"],
+		["The Rajbari Bawali", "properties/kolkata/outskirts/resort-page-rb.html"],
+		["Country Roads", "properties/kolkata/outskirts/resort-page-cr.html"],
+		["Hotel Sonar Bangla", "properties/kolkata/outskirts/resort-page-hsb.html"],
+		["Ibiza The Fern", "properties/kolkata/outskirts/resort-page-ibiza.html"],
+		["Breathing Earth", "properties/kolkata/outskirts/resort-page-be.html"],
+		["Hotel Seagull", ""],
+		["Abhyagama Hotel", ""],
+		["Cygnett Inn", ""],
+		["Hotel Coral", ""],
+		["Hotel Daltin", ""],
+		["Hotel Green Gate", ""],
+		["Hotel Nest", ""],
+		["Hotel Sea Sand", ""],
+		["Piku's Inn", ""],
+		["The Beach View Hotel", ""],
+		["The Palm Resort", ""],
+		["Aqua Marine", ""],
+		["Hotel Sonar Bangla", ""],
+		["Suncity Resort", ""],
+		["The Candlewood Park Beach Resort", ""],
+		["Anutri Beach Resort", ""],
+		["Sea Star Spa Resort", ""],
+		["Sun N Sand Resort", ""],
+		["Viceroy Bech & Spa Resort", ""],
+		["Victoria Beach Resort", ""],
+		["The Sana Beach Resort", ""],
+		["Camelia Resort", ""],
+		["Hotel Royal Bengal", ""],
+		["Baul Sangee", ""],
+		["Club Central Hotel", ""],
+		["Chhuti Holiday Resort", ""],
+		["Mohor Kutir Resort", ""],
+		["Ram Shyam Village Resort", ""],
+		["Shantiniketan Residency", ""],
+		["The Ananda Resort", ""],
+		["The Cristallo Resort", ""],
+		["Hotel Sonar Bangla", ""],
+		["Sundarban Tiger Camp", ""],
+		["Gramer Bari Eco Resort", ""],
+		["Royal Sindarban Wild Resort", ""],
+		["Solitary Nook Resort", ""],
+		["Sundarban Gateway Resort", ""],
+		["Sundarban Residency", ""],
+		["Sundarban Riverside Holiday Resort", ""],
+		["Sundarban Tiger Roar Resort", ""],
+		["Tora Eco Resort", ""]
+	]
+	var x = document.getElementById("resort-name");
+	var rows = resLocs.length;
+	for (var i = 0; i< rows; i++)
+	{
+		if (x == resLocs[i][0])
+			window.open('resLocs[i][1]');
 	}
-  } 
+}

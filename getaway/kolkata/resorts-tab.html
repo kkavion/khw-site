@@ -228,7 +228,7 @@
 									glimpse of your desirable abode for the weekend!</p>
 					</div>
 				</div><!-- tab menu strat -->
-				<form id="filter" onload="filterRP();">
+				<form id="filter">
 					<div class="form-group">
 						<select class="form-control" id="destination-name">
 							<option hidden>Destination Name</option>
@@ -244,7 +244,7 @@
 							<option hidden>Resort Name</option>
 						</select>
 					</div>
-					<button class="btn btn-primary">Go</button>
+					<a class="btn btn-primary" id="goBtn" href="../../properties/kolkata/outskirts/resort-page-tfr.html">Go</a>
 				</form>
 				<div class="row" style="padding: 10px;">
 					<div class="header-bottom-area">
@@ -1492,7 +1492,6 @@
 							</section>
 						</div>
 
-
 						<div role="tabpanel" class="tab-pane fade" id="shantiniketan">
 							<div class="row">
 								<section class="discount-package" style="padding: 15px;margin: 5px 0;">
@@ -2609,6 +2608,32 @@
 	<!-- main js -->
 	<script src="../../js/custom.js"></script>
 	<script>
+		window.onload = function() {filterRP()};
+		var allDestination = {
+			"Outskirts": {
+				"Luxury": ["Ganga Kutir", "The Amaya Resort", "Vedic Village"],
+				"Premium": ["Fortune Park", "The Ffort Raichak", "The Rajbari Bawali"],
+				"Standard": ["Country Roads", "Hotel Sonar Bangla", "Ibiza The Fern"],
+				"Boutique": ["Breathing Earth"]
+			},
+			"Digha": {
+				"Standard": ["Hotel Seagull"],
+				"Economy": ["Abhyagama Hotel", "Cygnett Inn", "Hotel Coral", "Hotel Daltin", "Hotel Green Gate", "Hotel Nest", "Hotel Sea Sand", "Piku's Inn", "The Beach View Hotel", "The Palm Resort"]
+			},
+			"Mandarmani": {
+				"Standard": ["Aqua Marine", "Hotel Sonar Bangla", "Suncity Resort", "The Candlewood Park Beach Resort"],
+				"Economy": ["Anutri Beach Resort", "Sea Star Spa Resort", "Sun N Sand Resort", "Viceroy Bech & Spa Resort", "Victoria Beach Resort"],
+				"Boutique": ["The Sana Beach Resort"]
+			},
+			"Shantiniketan": {
+				"Standard": ["Camelia Resort", "Hotel Royal Bengal"],
+				"Economy": ["Baul Sangee", "Club Central Hotel", "Chhuti Holiday Resort", "Mohor Kutir Resort", "Ram Shyam Village Resort", "Shantiniketan Residency", "The Ananda Resort", "The Cristallo Resort"]
+			},
+			"Sundarban": {
+				"Standard": ["Hotel Sonar Bangla", "Sundarban Tiger Camp"],
+				"Economy": ["Gramer Bari Eco Resort", "Royal Sindarban Wild Resort", "Solitary Nook Resort", "Sundarban Gateway Resort", "Sundarban Residency", "Sundarban Riverside Holiday Resort", "Sundarban Tiger Roar Resort", "Tora Eco Resort"]
+			}
+		};
 		// When the user scrolls the page, execute myFunction
 		window.onscroll = function () { myFunction() };
 
