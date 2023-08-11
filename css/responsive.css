@@ -805,7 +805,11 @@
     {
         content: "\a";
         white-space: pre;
-    }   
+    }
+    #filter .form-group
+    {
+        margin: 10px 0;
+    }
     .footer-title .logo1
     {
         padding: 0 60px;

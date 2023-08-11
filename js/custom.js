@@ -556,34 +556,6 @@ function closeSuiteCompare()
 
 
 function filterRP() {	
-	var destinationSelect = document.getElementById("destination-name");
-	var typeSelect = document.getElementById("resort-type");
-	var resortSelect = document.getElementById("resort-name");
-	for (var x in allDestination) {
-		destinationSelect.options[destinationSelect.options.length] = new Option(x, x);
-	}
-	destinationSelect.onchange = function () {
-		//empty Chapters- and Topics- dropdowns
-		resortSelect.length = 1;
-		typeSelect.length = 1;
-		//display correct values
-		for (var y in allDestination[this.value]) {
-			typeSelect.options[typeSelect.options.length] = new Option(y, y);
-		}
-	}
-	typeSelect.onchange = function () {
-		//empty Chapters dropdown
-		resortSelect.length = 1;
-		//display correct values
-		var z = allDestination[destinationSelect.value][this.value];
-		for (var i = 0; i < z.length; i++) {
-			resortSelect.options[resortSelect.options.length] = new Option(z[i], z[i]);
-		}
-	}
-}
-
-function formSub()
-{
 	var resLocs = 
 	[
 		["Ganga Kutir", "properties/kolkata/outskirts/resort-page-gk.html"],
@@ -638,11 +610,40 @@ function formSub()
 		["Sundarban Tiger Roar Resort", ""],
 		["Tora Eco Resort", ""]
 	]
-	var x = document.getElementById("resort-name");
 	var rows = resLocs.length;
-	for (var i = 0; i< rows; i++)
-	{
-		if (x == resLocs[i][0])
-			window.open('resLocs[i][1]');
+	var destinationSelect = document.getElementById("destination-name");
+	var typeSelect = document.getElementById("resort-type");
+	var resortSelect = document.getElementById("resort-name");
+	for (var x in allDestination) {
+		destinationSelect.options[destinationSelect.options.length] = new Option(x, x);
 	}
+	destinationSelect.onchange = function () {
+		//empty Chapters- and Topics- dropdowns
+		resortSelect.length = 1;
+		typeSelect.length = 1;
+		//display correct values
+		for (var y in allDestination[this.value]) {
+			typeSelect.options[typeSelect.options.length] = new Option(y, y);
+		}
+	}
+	typeSelect.onchange = function () {
+		//empty Chapters dropdown
+		resortSelect.length = 1;
+		//display correct values
+		var z = allDestination[destinationSelect.value][this.value];
+		for (var i = 0; i < z.length; i++) {
+			resortSelect.options[resortSelect.options.length] = new Option(z[i], z[i]);
+		}
+	}
+	document.getElementById("filter").onsubmit = function()
+	{
+		for (var j = 0; j < rows; j++) {
+
+			if (text == resLocs[j][0]) {
+				var a = document.getElementById("goBtn")
+				a.href = resLocs[j][1];
+			}
+		}
+	}
+	
 }

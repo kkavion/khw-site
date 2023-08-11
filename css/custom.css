@@ -849,12 +849,13 @@ i
      /* Chrome, Firefox, Opera, Safari 10.1+ */
      font-family: 'Open Sans', sans-serif;
      opacity: 1; /* Firefox */
+     border-radius: 0;
 }
-.resort-tab form
+#filter
 {
      text-align: center;
 }
-.resort-tab .form-group
+#filter .form-group
 {
      display: inline-block;
      width: 250px;
@@ -2816,4 +2817,5 @@ h1, h2, h3, h4, h5, h6
 #filter .btn-primary
 {
      border-radius: 5px;
+     filter: invert(1);
 }
