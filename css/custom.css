@@ -858,7 +858,15 @@ i
 #filter .form-group
 {
      display: inline-block;
-     width: 250px;
+     margin: 2px 0;
+}
+#filter .form-group:nth-child(3)
+{
+     width: 255px !important;
+}
+#filter .form-group:not(:last-child)
+{
+     width: 150px;
 }
 .footer-contact-form .form-group
 {
