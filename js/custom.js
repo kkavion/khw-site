@@ -4,7 +4,7 @@
 	$(window).on('load', function(){
 		$('#status').fadeOut();
 		$('#preloader').delay(100).fadeOut('fast');
-		$(window).stellar({});
+		//$(window).stellar({});
 		//$('#myModal2').addClass("show");
 	});
 	//$('#myModal2').show();
@@ -422,10 +422,10 @@
 		}
 	});
 
-	$.dialog({
-        title: 'Text content!',
-        content: 'Simple modal!',
-    });
+	//$dialog({
+        //title: 'Text content!',
+        //content: 'Simple modal!',
+    //});
 })(jQuery);
 
 
@@ -557,60 +557,59 @@ function closeSuiteCompare()
 
 function filterRP() {	
 	var resLocs = 
-	[
-		["Ganga Kutir", "properties/kolkata/outskirts/resort-page-gk.html"],
-		["The Amaya Resort", "properties/kolkata/outskirts/resort-page-amaya.html"],
-		["Vedic Village", "properties/kolkata/outskirts/resort-page-gk.html"],
-		["Fortune Park", "properties/kolkata/outskirts/resort-page-fpp.html"],
-		["The Ffort Raichak", "properties/kolkata/outskirts/resort-page-tfr.html"],
-		["The Rajbari Bawali", "properties/kolkata/outskirts/resort-page-rb.html"],
-		["Country Roads", "properties/kolkata/outskirts/resort-page-cr.html"],
-		["Hotel Sonar Bangla", "properties/kolkata/outskirts/resort-page-hsb.html"],
-		["Ibiza The Fern", "properties/kolkata/outskirts/resort-page-ibiza.html"],
-		["Breathing Earth", "properties/kolkata/outskirts/resort-page-be.html"],
-		["Hotel Seagull", ""],
-		["Abhyagama Hotel", ""],
-		["Cygnett Inn", ""],
-		["Hotel Coral", ""],
-		["Hotel Daltin", ""],
-		["Hotel Green Gate", ""],
-		["Hotel Nest", ""],
-		["Hotel Sea Sand", ""],
-		["Piku's Inn", ""],
-		["The Beach View Hotel", ""],
-		["The Palm Resort", ""],
-		["Aqua Marine", ""],
-		["Hotel Sonar Bangla", ""],
-		["Suncity Resort", ""],
-		["The Candlewood Park Beach Resort", ""],
-		["Anutri Beach Resort", ""],
-		["Sea Star Spa Resort", ""],
-		["Sun N Sand Resort", ""],
-		["Viceroy Bech & Spa Resort", ""],
-		["Victoria Beach Resort", ""],
-		["The Sana Beach Resort", ""],
-		["Camelia Resort", ""],
-		["Hotel Royal Bengal", ""],
-		["Baul Sangee", ""],
-		["Club Central Hotel", ""],
-		["Chhuti Holiday Resort", ""],
-		["Mohor Kutir Resort", ""],
-		["Ram Shyam Village Resort", ""],
-		["Shantiniketan Residency", ""],
-		["The Ananda Resort", ""],
-		["The Cristallo Resort", ""],
-		["Hotel Sonar Bangla", ""],
-		["Sundarban Tiger Camp", ""],
-		["Gramer Bari Eco Resort", ""],
-		["Royal Sindarban Wild Resort", ""],
-		["Solitary Nook Resort", ""],
-		["Sundarban Gateway Resort", ""],
-		["Sundarban Residency", ""],
-		["Sundarban Riverside Holiday Resort", ""],
-		["Sundarban Tiger Roar Resort", ""],
-		["Tora Eco Resort", ""]
-	]
-	var rows = resLocs.length;
+	{
+		"Ganga Kutir": "properties/kolkata/outskirts/resort-page-gk.html",
+		"The Amaya Resort": "properties/kolkata/outskirts/resort-page-amaya.html",
+		"Vedic Village": "properties/kolkata/outskirts/resort-page-gk.html",
+		"Fortune Park": "properties/kolkata/outskirts/resort-page-fpp.html",
+		"The Ffort Raichak": "properties/kolkata/outskirts/resort-page-tfr.html",
+		"The Rajbari Bawali": "properties/kolkata/outskirts/resort-page-rb.html",
+		"Country Roads": "properties/kolkata/outskirts/resort-page-cr.html",
+		"Hotel Sonar Bangla": "properties/kolkata/outskirts/resort-page-hsb.html",
+		"Ibiza The Fern": "properties/kolkata/outskirts/resort-page-ibiza.html",
+		"Breathing Earth": "properties/kolkata/outskirts/resort-page-be.html",
+		"Hotel Seagull": "",
+		"Abhyagama Hotel": "",
+		"Cygnett Inn": "",
+		"Hotel Coral": "",
+		"Hotel Daltin": "",
+		"Hotel Green Gate": "",
+		"Hotel Nest": "",
+		"Hotel Sea Sand": "",
+		"Piku's Inn": "",
+		"The Beach View Hotel": "",
+		"The Palm Resort": "",
+		"Aqua Marine": "",
+		"Hotel Sonar Bangla": "",
+		"Suncity Resort": "",
+		"The Candlewood Park Beach Resort": "",
+		"Anutri Beach Resort": "",
+		"Sea Star Spa Resort": "",
+		"Sun N Sand Resort": "",
+		"Viceroy Bech & Spa Resort": "",
+		"Victoria Beach Resort": "",
+		"The Sana Beach Resort": "",
+		"Camelia Resort": "",
+		"Hotel Royal Bengal": "",
+		"Baul Sangee": "",
+		"Club Central Hotel": "",
+		"Chhuti Holiday Resort": "",
+		"Mohor Kutir Resort": "",
+		"Ram Shyam Village Resort": "",
+		"Shantiniketan Residency": "",
+		"The Ananda Resort": "",
+		"The Cristallo Resort": "",
+		"Hotel Sonar Bangla": "",
+		"Sundarban Tiger Camp": "",
+		"Gramer Bari Eco Resort": "",
+		"Royal Sindarban Wild Resort": "",
+		"Solitary Nook Resort": "",
+		"Sundarban Gateway Resort": "",
+		"Sundarban Residency": "",
+		"Sundarban Riverside Holiday Resort": "",
+		"Sundarban Tiger Roar Resort": "",
+		"Tora Eco Resort": ""
+	}
 	var destinationSelect = document.getElementById("destination-name");
 	var typeSelect = document.getElementById("resort-type");
 	var resortSelect = document.getElementById("resort-name");
@@ -635,15 +634,15 @@ function filterRP() {
 			resortSelect.options[resortSelect.options.length] = new Option(z[i], z[i]);
 		}
 	}
-	document.getElementById("filter").onsubmit = function()
+	resortSelect.onchange = function () 
 	{
-		for (var j = 0; j < rows; j++) {
-
-			if (text == resLocs[j][0]) {
-				var a = document.getElementById("goBtn")
-				a.href = resLocs[j][1];
+		for (var x in resLocs)
+		{
+			if (resortSelect.value == x)
+			{
+				var a = document.getElementById("#goBtn");
+				a.href = resLocs[x][this.value];
 			}
 		}
 	}
-	
 }
