@@ -555,61 +555,7 @@ function closeSuiteCompare()
 
 
 
-function filterRP() {	
-	var resLocs = 
-	{
-		"Ganga Kutir": "properties/kolkata/outskirts/resort-page-gk.html",
-		"The Amaya Resort": "properties/kolkata/outskirts/resort-page-amaya.html",
-		"Vedic Village": "properties/kolkata/outskirts/resort-page-gk.html",
-		"Fortune Park": "properties/kolkata/outskirts/resort-page-fpp.html",
-		"The Ffort Raichak": "properties/kolkata/outskirts/resort-page-tfr.html",
-		"The Rajbari Bawali": "properties/kolkata/outskirts/resort-page-rb.html",
-		"Country Roads": "properties/kolkata/outskirts/resort-page-cr.html",
-		"Hotel Sonar Bangla": "properties/kolkata/outskirts/resort-page-hsb.html",
-		"Ibiza The Fern": "properties/kolkata/outskirts/resort-page-ibiza.html",
-		"Breathing Earth": "properties/kolkata/outskirts/resort-page-be.html",
-		"Hotel Seagull": "",
-		"Abhyagama Hotel": "",
-		"Cygnett Inn": "",
-		"Hotel Coral": "",
-		"Hotel Daltin": "",
-		"Hotel Green Gate": "",
-		"Hotel Nest": "",
-		"Hotel Sea Sand": "",
-		"Piku's Inn": "",
-		"The Beach View Hotel": "",
-		"The Palm Resort": "",
-		"Aqua Marine": "",
-		"Hotel Sonar Bangla": "",
-		"Suncity Resort": "",
-		"The Candlewood Park Beach Resort": "",
-		"Anutri Beach Resort": "",
-		"Sea Star Spa Resort": "",
-		"Sun N Sand Resort": "",
-		"Viceroy Bech & Spa Resort": "",
-		"Victoria Beach Resort": "",
-		"The Sana Beach Resort": "",
-		"Camelia Resort": "",
-		"Hotel Royal Bengal": "",
-		"Baul Sangee": "",
-		"Club Central Hotel": "",
-		"Chhuti Holiday Resort": "",
-		"Mohor Kutir Resort": "",
-		"Ram Shyam Village Resort": "",
-		"Shantiniketan Residency": "",
-		"The Ananda Resort": "",
-		"The Cristallo Resort": "",
-		"Hotel Sonar Bangla": "",
-		"Sundarban Tiger Camp": "",
-		"Gramer Bari Eco Resort": "",
-		"Royal Sindarban Wild Resort": "",
-		"Solitary Nook Resort": "",
-		"Sundarban Gateway Resort": "",
-		"Sundarban Residency": "",
-		"Sundarban Riverside Holiday Resort": "",
-		"Sundarban Tiger Roar Resort": "",
-		"Tora Eco Resort": ""
-	}
+function filterRP() {
 	var destinationSelect = document.getElementById("destination-name");
 	var typeSelect = document.getElementById("resort-type");
 	var resortSelect = document.getElementById("resort-name");
@@ -634,14 +580,160 @@ function filterRP() {
 			resortSelect.options[resortSelect.options.length] = new Option(z[i], z[i]);
 		}
 	}
-	resortSelect.onchange = function () 
+	resortSelect.onchange = function ()
 	{
+		var resLocs = 
+		{
+			"Ganga Kutir": "properties/kolkata/outskirts/resort-page-gk.html",
+			"The Amaya Resort": "properties/kolkata/outskirts/resort-page-amaya.html",
+			"Vedic Village": "properties/kolkata/outskirts/resort-page-gk.html",
+			"Fortune Park": "properties/kolkata/outskirts/resort-page-fpp.html",
+			"The Ffort Raichak": "properties/kolkata/outskirts/resort-page-tfr.html",
+			"The Rajbari Bawali": "properties/kolkata/outskirts/resort-page-rb.html",
+			"Country Roads": "properties/kolkata/outskirts/resort-page-cr.html",
+			"Hotel Sonar Bangla": "properties/kolkata/outskirts/resort-page-hsb.html",
+			"Ibiza The Fern": "properties/kolkata/outskirts/resort-page-ibiza.html",
+			"Breathing Earth": "properties/kolkata/outskirts/resort-page-be.html",
+			"Hotel Seagull": "properties/kolkata/digha/resort-page-seagull.html",
+			"Abhyagama Hotel": "properties/kolkata/digha/resort-page-abhyagama.html",
+			"Cygnett Inn": "properties/kolkata/digha/resort-page-cygnett.html",
+			"Hotel Coral": "properties/kolkata/digha/resort-page-coral.html",
+			"Hotel Daltin": "properties/kolkata/digha/resort-page-daltin.html",
+			"Hotel Green Gate": "properties/kolkata/digha/resort-page-greengate.html",
+			"Hotel Nest": "properties/kolkata/digha/resort-page-nest.html",
+			"Hotel Sea Sand": "properties/kolkata/digha/resort-page-seasand.html",
+			"Piku's Inn": "properties/kolkata/digha/resort-page-piku.html",
+			"The Beach View Hotel": "properties/kolkata/digha/resort-page-beachview.html",
+			"The Palm Resort": "properties/kolkata/digha/resort-page-palm.html",
+			"Aqua Marine": "properties/kolkata/mandarmani/resort-page-aquamarine.html",
+			"Hotel Sonar Bangla": "properties/kolkata/mandarmani/resort-page-hotelsonar.html",
+			"Suncity Resort": "properties/kolkata/mandarmani/resort-page-suncity.html",
+			"The Candlewood Park Beach Resort": "properties/kolkata/mandarmani/resort-page-candlewood.html",
+			"Anutri Beach Resort": "properties/kolkata/mandarmani/resort-page-anutri.html",
+			"Sea Star Spa Resort": "properties/kolkata/mandarmani/resort-page-seastar.html",
+			"Sun N Sand Resort": "properties/kolkata/mandarmani/resort-page-sunnsand.html",
+			"Viceroy Bech & Spa Resort": "properties/kolkata/mandarmani/resort-page-viceroy.html",
+			"Victoria Beach Resort": "properties/kolkata/mandarmani/resort-page-victoria.html",
+			"The Sana Beach Resort": "properties/kolkata/mandarmani/resort-page-sana.html",
+			"Camelia Resort": "properties/kolkata/shantiniketan/resort-page-camelia.html",
+			"Hotel Royal Bengal": "properties/kolkata/shantiniketan/resort-page-hotelroyal.html",
+			"Baul Sangee": "properties/kolkata/shantiniketan/resort-page-baul.html",
+			"Club Central Hotel": "properties/kolkata/shantiniketan/resort-page-clubcentral.html",
+			"Chhuti Holiday Resort": "properties/kolkata/shantiniketan/resort-page-chhuti.html",
+			"Mohor Kutir Resort": "properties/kolkata/shantiniketan/resort-page-mohor.html",
+			"Ram Shyam Village Resort": "properties/kolkata/shantiniketan/resort-page-ramshyam.html",
+			"Shantiniketan Residency": "properties/kolkata/shantiniketan/resort-page-residency.html",
+			"The Ananda Resort": "properties/kolkata/shantiniketan/resort-page-ananda.html",
+			"The Cristallo Resort": "properties/kolkata/shantiniketan/resort-page-cristallo.html",
+			"Hotel Sonar Bangla": "properties/kolkata/sundarban/resort-page-sundarhotelsonar.html",
+			"Sundarban Tiger Camp": "properties/kolkata/sundarban/resort-page-tigercamp.html",
+			"Gramer Bari Eco Resort": "properties/kolkata/sundarban/resort-page-gramerbari.html",
+			"Royal Sundarban Wild Resort": "properties/kolkata/sundarban/resort-page-royalwild.html",
+			"Solitary Nook Resort": "properties/kolkata/sundarban/resort-page-solitary.html",
+			"Sundarban Gateway Resort": "properties/kolkata/sundarban/resort-page-gateway.html",
+			"Sundarban Residency": "properties/kolkata/sundarban/resort-page-sundarresidency.html",
+			"Sundarban Riverside Holiday Resort": "properties/kolkata/sundarban/resort-page-riverside.html",
+			"Sundarban Tiger Roar Resort": "properties/kolkata/sundarban/resort-page-tigerroar.html",
+			"Tora Eco Resort": "properties/kolkata/sundarban/resort-page-toraeco.html"
+		}
+		var sel = document.getElementById("resort-name");
 		for (var x in resLocs)
 		{
-			if (resortSelect.value == x)
+			if (sel.options[sel.selectedIndex].value == x)
 			{
-				var a = document.getElementById("#goBtn");
-				a.href = resLocs[x][this.value];
+				window.location.assign(resLocs[x]);
+			}
+		}
+	}
+}
+
+function filterRP1() {
+	var destinationSelect = document.getElementById("destination-name");
+	var typeSelect = document.getElementById("resort-type");
+	var resortSelect = document.getElementById("resort-name");
+	for (var x in allDestination) {
+		destinationSelect.options[destinationSelect.options.length] = new Option(x, x);
+	}
+	destinationSelect.onchange = function () {
+		//empty Chapters- and Topics- dropdowns
+		resortSelect.length = 1;
+		typeSelect.length = 1;
+		//display correct values
+		for (var y in allDestination[this.value]) {
+			typeSelect.options[typeSelect.options.length] = new Option(y, y);
+		}
+	}
+	typeSelect.onchange = function () {
+		//empty Chapters dropdown
+		resortSelect.length = 1;
+		//display correct values
+		var z = allDestination[destinationSelect.value][this.value];
+		for (var i = 0; i < z.length; i++) {
+			resortSelect.options[resortSelect.options.length] = new Option(z[i], z[i]);
+		}
+	}
+	resortSelect.onchange = function ()
+	{
+		var resLocs = 
+		{
+			"Ganga Kutir": "../../properties/kolkata/outskirts/resort-page-gk.html",
+			"The Amaya Resort": "../../properties/kolkata/outskirts/resort-page-amaya.html",
+			"Vedic Village": "../../properties/kolkata/outskirts/resort-page-gk.html",
+			"Fortune Park": "../../properties/kolkata/outskirts/resort-page-fpp.html",
+			"The Ffort Raichak": "../../properties/kolkata/outskirts/resort-page-tfr.html",
+			"The Rajbari Bawali": "../../properties/kolkata/outskirts/resort-page-rb.html",
+			"Country Roads": "../../properties/kolkata/outskirts/resort-page-cr.html",
+			"Hotel Sonar Bangla": "../../properties/kolkata/outskirts/resort-page-hsb.html",
+			"Ibiza The Fern": "../../properties/kolkata/outskirts/resort-page-ibiza.html",
+			"Breathing Earth": "../../properties/kolkata/outskirts/resort-page-be.html",
+			"Hotel Seagull": "../../properties/kolkata/digha/resort-page-seagull.html",
+			"Abhyagama Hotel": "../../properties/kolkata/digha/resort-page-abhyagama.html",
+			"Cygnett Inn": "../../properties/kolkata/digha/resort-page-cygnett.html",
+			"Hotel Coral": "../../properties/kolkata/digha/resort-page-coral.html",
+			"Hotel Daltin": "../../properties/kolkata/digha/resort-page-daltin.html",
+			"Hotel Green Gate": "../../properties/kolkata/digha/resort-page-greengate.html",
+			"Hotel Nest": "../../properties/kolkata/digha/resort-page-nest.html",
+			"Hotel Sea Sand": "../../properties/kolkata/digha/resort-page-seasand.html",
+			"Piku's Inn": "../../properties/kolkata/digha/resort-page-piku.html",
+			"The Beach View Hotel": "../../properties/kolkata/digha/resort-page-beachview.html",
+			"The Palm Resort": "../../properties/kolkata/digha/resort-page-palm.html",
+			"Aqua Marine": "../../properties/kolkata/mandarmani/resort-page-aquamarine.html",
+			"Hotel Sonar Bangla": "../../properties/kolkata/mandarmani/resort-page-hotelsonar.html",
+			"Suncity Resort": "../../properties/kolkata/mandarmani/resort-page-suncity.html",
+			"The Candlewood Park Beach Resort": "../../properties/kolkata/mandarmani/resort-page-candlewood.html",
+			"Anutri Beach Resort": "../../properties/kolkata/mandarmani/resort-page-anutri.html",
+			"Sea Star Spa Resort": "../../properties/kolkata/mandarmani/resort-page-seastar.html",
+			"Sun N Sand Resort": "../../properties/kolkata/mandarmani/resort-page-sunnsand.html",
+			"Viceroy Bech & Spa Resort": "../../properties/kolkata/mandarmani/resort-page-viceroy.html",
+			"Victoria Beach Resort": "../../properties/kolkata/mandarmani/resort-page-victoria.html",
+			"The Sana Beach Resort": "../../properties/kolkata/mandarmani/resort-page-sana.html",
+			"Camelia Resort": "../../properties/kolkata/shantiniketan/resort-page-camelia.html",
+			"Hotel Royal Bengal": "../../properties/kolkata/shantiniketan/resort-page-hotelroyal.html",
+			"Baul Sangee": "../../properties/kolkata/shantiniketan/resort-page-baul.html",
+			"Club Central Hotel": "../../properties/kolkata/shantiniketan/resort-page-clubcentral.html",
+			"Chhuti Holiday Resort": "../../properties/kolkata/shantiniketan/resort-page-chhuti.html",
+			"Mohor Kutir Resort": "../../properties/kolkata/shantiniketan/resort-page-mohor.html",
+			"Ram Shyam Village Resort": "../../properties/kolkata/shantiniketan/resort-page-ramshyam.html",
+			"Shantiniketan Residency": "../../properties/kolkata/shantiniketan/resort-page-residency.html",
+			"The Ananda Resort": "../../properties/kolkata/shantiniketan/resort-page-ananda.html",
+			"The Cristallo Resort": "../../properties/kolkata/shantiniketan/resort-page-cristallo.html",
+			"Hotel Sonar Bangla": "../../properties/kolkata/sundarban/resort-page-sundarhotelsonar.html",
+			"Sundarban Tiger Camp": "../../properties/kolkata/sundarban/resort-page-tigercamp.html",
+			"Gramer Bari Eco Resort": "../../properties/kolkata/sundarban/resort-page-gramerbari.html",
+			"Royal Sundarban Wild Resort": "../../properties/kolkata/sundarban/resort-page-royalwild.html",
+			"Solitary Nook Resort": "../../properties/kolkata/sundarban/resort-page-solitary.html",
+			"Sundarban Gateway Resort": "../../properties/kolkata/sundarban/resort-page-gateway.html",
+			"Sundarban Residency": "../../properties/kolkata/sundarban/resort-page-sundarresidency.html",
+			"Sundarban Riverside Holiday Resort": "../../properties/kolkata/sundarban/resort-page-riverside.html",
+			"Sundarban Tiger Roar Resort": "../../properties/kolkata/sundarban/resort-page-tigerroar.html",
+			"Tora Eco Resort": "../../properties/kolkata/sundarban/resort-page-toraeco.html"
+		}
+		var sel = document.getElementById("resort-name");
+		for (var x in resLocs)
+		{
+			if (sel.options[sel.selectedIndex].value == x)
+			{
+				window.location.assign(resLocs[x]);
 			}
 		}
 	}
