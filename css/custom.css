@@ -860,7 +860,7 @@ i
      display: inline-block;
      margin: 2px 0;
 }
-#filter .form-group:nth-child(3)
+#filter .form-group:last-child
 {
      width: 255px !important;
 }
@@ -1956,7 +1956,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .resorts-bg .visit-site span
 {
-     color: white;
+     color: black;
 }
 .rate-pg .resort-table, .conf-rate-pg .resort-table, .rate-pg .resort-table
 {

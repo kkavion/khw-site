@@ -553,22 +553,55 @@ function closeSuiteCompare()
 	document.getElementById("suite-compare-section").style.display = "none";
 }
 
-
-
 function filterRP() {
+	var zones = 
+	{
+		"Ahmedabad": ["Ahmedabad Outskirts", "Gandhinagar", "Mt. Abu", "Udaipur", "Vadodara"],
+		"Bengaluru": ["Bengaluru Outskirts","Hassan", "Mysuru", "Nagarhole", "Yelagiri"],
+		"Bhopal": ["Bhopal Outskirts", "Indore", "Ujjain", "Panchmarhi"],
+		"Bhubaneshwar": ["Bhubaneshwar Outskirts", "Chilka", "Konark", "Puri", "Ratnagiri"],
+		"Chandigarh": ["Chandigarh Outskirts", "Kasauli", "Mussoorie", "Parwanoo", "Shimla"],
+		"Chennai": ["Chennai Outskirts", "Mahabalipuram", "Puducherry"],
+		"Indore": ["Indore Outskirts", "Bhopal", "Ujjain"],
+		"Kolkata": ["Kolkata Outskirts", "Digha", "Mandarmani", "Shantiniketan", "Sundarban"],
+		"Mumbai": ["Mumbai Outskirts", "Alibaug", "Khandala", "Lavasa", "Lonavala", "Matheran", "Panvel"],
+		"Nagpur": ["Nagpur Outskirts", "Kanha", "Panchmarchi", "Pench"],
+		"New Delhi": ["New Delhi Outskirts", "Agra", "Alwar", "Bharatpur", "Sariska"],
+		"Thiruvananthapuram": ["Thiruvananthapuram Outskirts", "Alleppey", "Kanyakumari", "Kollam", "Kovalam", "Kumarakom", "Poovar"]
+	}
+	var zoneSelect = document.getElementById("zone-name");
 	var destinationSelect = document.getElementById("destination-name");
 	var typeSelect = document.getElementById("resort-type");
 	var resortSelect = document.getElementById("resort-name");
-	for (var x in allDestination) {
-		destinationSelect.options[destinationSelect.options.length] = new Option(x, x);
+	for (var x in zones)
+	{
+		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
+	}
+	zoneSelect.onchange = function ()
+	{
+		var c = zones[this.value];
+		destinationSelect.length = 1;
+		resortSelect.length = 1;
+		typeSelect.length = 1;
+		for (var i = 0; i < c.length; i++) {
+			destinationSelect.options[destinationSelect.options.length] = new Option(c[i], c[i]);
+		}
 	}
 	destinationSelect.onchange = function () {
 		//empty Chapters- and Topics- dropdowns
 		resortSelect.length = 1;
 		typeSelect.length = 1;
 		//display correct values
-		for (var y in allDestination[this.value]) {
-			typeSelect.options[typeSelect.options.length] = new Option(y, y);
+		var sel = document.getElementById("destination-name");
+		for (var y in allDestination) {
+			if (sel.options[sel.selectedIndex].value == y)
+			{
+				for (var z in allDestination[this.value])
+				{
+					typeSelect.options[typeSelect.options.length] = new Option(z, z);
+				}
+			}
+				
 		}
 	}
 	typeSelect.onchange = function () {
