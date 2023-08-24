@@ -768,7 +768,11 @@
     }
 
 }
-@media screen and (max-width: 480px) {    
+@media screen and (max-width: 480px) {
+    #filter
+    {
+        padding: 10px 0;
+    }
     .disc-section li span
     {
         font-weight: 400;
@@ -801,6 +805,17 @@
 /*  Desktop Layout: 991px    */
 @media screen and (min-width: 991px)
 {    
+    .filter
+    {
+        padding: 10px 0;
+    }
+    #filter
+    {
+        padding: 10px 80px;
+        width: max-content;
+        margin: auto;
+        border-radius: 10px;
+    }
     .desktop-only::after
     {
         content: "\a";
