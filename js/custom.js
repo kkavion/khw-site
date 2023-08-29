@@ -771,3 +771,93 @@ function filterRP1() {
 		}
 	}
 }
+
+function interest()
+{
+	var interestSel = document.getElementById("interest-name");
+	var desSel = document.getElementById("destination-name1");
+	var interests = 
+	{
+		"Leisure":
+		{
+			"Kolkata Outskirts":"properties/kolkata/outskirts/interest/leisure.html",
+			"Digha":"Leisure",
+			"Mandarmani":"Leisure",
+			"Shanitiniketan":"Leisure",
+			"Sundarban":"Leisure"
+		},
+		"Gourmet":
+		{
+			"Kolkata Outskirts":"properties/kolkata/outskirts/interest/gourmet.html",
+			"Digha":"Leisure",
+			"Mandarmani":"Leisure",
+			"Shanitiniketan":"Leisure",
+			"Sundarban":"Leisure"
+		},
+		"Wellness":
+		{
+			"Kolkata Outskirts":"properties/kolkata/outskirts/interest/wellness.html",
+			"Digha":"Leisure",
+			"Mandarmani":"Leisure",
+			"Shanitiniketan":"Leisure",
+			"Sundarban":"Leisure"
+		},
+		"Honeymoon":
+		{
+			"Kolkata Outskirts":"properties/kolkata/outskirts/interest/honeymoon.html",
+			"Digha":"Leisure",
+			"Mandarmani":"Leisure",
+			"Shanitiniketan":"Leisure",
+			"Sundarban":"Leisure"
+		},
+		"Heritage":
+		{
+			"Kolkata Outskirts":"properties/kolkata/outskirts/interest/heritage.html",
+			"Digha":"Leisure",
+			"Mandarmani":"Leisure",
+			"Shanitiniketan":"Leisure",
+			"Sundarban":"Leisure"
+		},
+		"Wildlife":
+		{
+			"Kolkata Outskirts":"properties/kolkata/outskirts/interest/wildlife.html",
+			"Digha":"Leisure",
+			"Mandarmani":"Leisure",
+			"Shanitiniketan":"Leisure",
+			"Sundarban":"Leisure"
+		},
+		"Wedding":
+		{
+			"Kolkata Outskirts":"properties/kolkata/outskirts/interest/wedding.html",
+			"Digha":"Leisure",
+			"Mandarmani":"Leisure",
+			"Shanitiniketan":"Leisure",
+			"Sundarban":"Leisure"
+		},
+		"Conference":
+		{
+			"Kolkata Outskirts":"properties/kolkata/outskirts/interest/conference.html",
+			"Digha":"Leisure",
+			"Mandarmani":"Leisure",
+			"Shanitiniketan":"Leisure",
+			"Sundarban":"Leisure"
+		},
+	}
+	for (var x in interests)
+	{
+		interestSel.options[interestSel.options.length] = new Option(x, x);
+	}
+	interestSel.onchange = function()
+	{
+		desSel.length = 1;
+		for (var y in interests[this.value])
+		{
+			desSel.options[desSel.options.length] = new Option(y, y);
+		}
+	}
+	desSel.onchange = function()
+	{
+		var z = interests[interestSel.value][this.value];
+		console.log(window.location.assign(z));
+	}
+}
