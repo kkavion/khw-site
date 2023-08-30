@@ -556,18 +556,13 @@ function closeSuiteCompare()
 function filterRP() {
 	var zones = 
 	{
-		"Ahmedabad": ["Ahmedabad Outskirts", "Gandhinagar", "Mt. Abu", "Udaipur", "Vadodara"],
-		"Bengaluru": ["Bengaluru Outskirts","Hassan", "Mysuru", "Nagarhole", "Yelagiri"],
-		"Bhopal": ["Bhopal Outskirts", "Indore", "Ujjain", "Panchmarhi"],
-		"Bhubaneshwar": ["Bhubaneshwar Outskirts", "Chilka", "Konark", "Puri", "Ratnagiri"],
-		"Chandigarh": ["Chandigarh Outskirts", "Kasauli", "Mussoorie", "Parwanoo", "Shimla"],
-		"Chennai": ["Chennai Outskirts", "Mahabalipuram", "Puducherry"],
-		"Indore": ["Indore Outskirts", "Bhopal", "Ujjain"],
-		"Kolkata": ["Kolkata Outskirts", "Digha", "Mandarmani", "Shantiniketan", "Sundarban"],
-		"Mumbai": ["Mumbai Outskirts", "Alibaug", "Khandala", "Lavasa", "Lonavala", "Matheran", "Panvel"],
-		"Nagpur": ["Nagpur Outskirts", "Kanha", "Panchmarchi", "Pench"],
-		"New Delhi": ["New Delhi Outskirts", "Agra", "Alwar", "Bharatpur", "Sariska"],
-		"Thiruvananthapuram": ["Thiruvananthapuram Outskirts", "Alleppey", "Kanyakumari", "Kollam", "Kovalam", "Kumarakom", "Poovar"]
+		"Altius": ["Ahmedabad Outskirts", "Gandhinagar", "Mt. Abu", "Udaipur", "Vadodara"],
+		"Beach": ["Bengaluru Outskirts","Hassan", "Mysuru", "Nagarhole", "Yelagiri"],
+		"Backwater": ["Bhopal Outskirts", "Indore", "Ujjain", "Panchmarhi"],
+		"Heritage": ["Bhubaneshwar Outskirts", "Chilka", "Konark", "Puri", "Ratnagiri"],
+		"Wildlife": ["Chandigarh Outskirts", "Kasauli", "Mussoorie", "Parwanoo", "Shimla"],
+		"Wedding": ["Chennai Outskirts", "Mahabalipuram", "Puducherry"],
+		"Conference": ["Indore Outskirts", "Bhopal", "Ujjain"]
 	}
 	var zoneSelect = document.getElementById("zone-name");
 	var destinationSelect = document.getElementById("destination-name");
