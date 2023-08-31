@@ -556,13 +556,12 @@ function closeSuiteCompare()
 function filterRP() {
 	var zones = 
 	{
-		"Altius": ["Ahmedabad Outskirts", "Gandhinagar", "Mt. Abu", "Udaipur", "Vadodara"],
-		"Beach": ["Bengaluru Outskirts","Hassan", "Mysuru", "Nagarhole", "Yelagiri"],
-		"Backwater": ["Bhopal Outskirts", "Indore", "Ujjain", "Panchmarhi"],
-		"Heritage": ["Bhubaneshwar Outskirts", "Chilka", "Konark", "Puri", "Ratnagiri"],
-		"Wildlife": ["Chandigarh Outskirts", "Kasauli", "Mussoorie", "Parwanoo", "Shimla"],
-		"Wedding": ["Chennai Outskirts", "Mahabalipuram", "Puducherry"],
-		"Conference": ["Indore Outskirts", "Bhopal", "Ujjain"]
+		"Altius": ["Mt. Abu", "Kasauli", "Khandala", "Lavasa", "Lonavla", "Matheran", "Mussoorie", "Panchmarhi", "Panvel", "Parwanoo", "Shimla", "Yellagiri"],
+		"Beach": ["Alibaug", "Alleppey", "Chilka", "Digha", "Kanyakumari", "Kollam", "Kovalam", "Kumarakom", "Mahabalipuram", "Mandarmani", "Poovar", "Pudduchhery", "Puri", "Ratnagiri", "Varkala"],
+		"Cityscape": ["Ahmedabad Outskirts", "Bengaluru Outskirts", "Bhopal Outskirts", "Bhubaneshwar Outskirts", "Chandigarh Outskirts", "Chennai Outskirts", "Indore Outskirts",
+			"Kolkata Outskirts", "Mumbai Outskirts", "Nagpur Outskirts", "New Delhi Outskirts", "Thiruvananthapuram Outskirts"],
+		"Heritage": ["Agra", "Bhopal", "Gandhinagar", "Hassan", "Indore", "Konark", "Mysore", "Nagarhole", "Shantiniketan", "Udaipur", "Ujjain", "Vadodara"],
+		"Wildlife": ["Alwar", "Bharatpur", "Kanha", "Panchmarhi", "Pench", "Sariska", "Sundarban"]
 	}
 	var zoneSelect = document.getElementById("zone-name");
 	var destinationSelect = document.getElementById("destination-name");
@@ -770,16 +769,85 @@ function filterRP1() {
 function interest()
 {
 	var interestSel = document.getElementById("interest-name");
+	var zoneSel = document.getElementById("zone-name1");
 	var desSel = document.getElementById("destination-name1");
 	var interests = 
 	{
 		"Leisure":
 		{
-			"Kolkata Outskirts":"properties/kolkata/outskirts/interest/leisure.html",
-			"Digha":"Leisure",
-			"Mandarmani":"Leisure",
-			"Shanitiniketan":"Leisure",
-			"Sundarban":"Leisure"
+			"Altius":
+			{
+				"Mt. Abu":"properties/kolkata/outskirts/interest/leisure.html",
+				"Kasauli":"properties/kolkata/outskirts/interest/leisure.html",
+				"Khandala":"properties/kolkata/outskirts/interest/leisure.html",
+				"Lavasa":"properties/kolkata/outskirts/interest/leisure.html",
+				"Lonavla":"properties/kolkata/outskirts/interest/leisure.html",
+				"Matheran":"properties/kolkata/outskirts/interest/leisure.html",
+				"Mussoorie":"properties/kolkata/outskirts/interest/leisure.html",
+				"Panchmarhi":"properties/kolkata/outskirts/interest/leisure.html",
+				"Panvel":"properties/kolkata/outskirts/interest/leisure.html",
+				"Parwanoo":"properties/kolkata/outskirts/interest/leisure.html",
+				"Shimla":"properties/kolkata/outskirts/interest/leisure.html",
+				"Yellagiri":"properties/kolkata/outskirts/interest/leisure.html"
+			},
+			"Beach":
+			{
+				"Alibaug":"properties/kolkata/outskirts/interest/leisure.html",
+				"Alleppey":"properties/kolkata/outskirts/interest/leisure.html",
+				"Chilka":"properties/kolkata/outskirts/interest/leisure.html",
+				"Digha":"properties/kolkata/outskirts/interest/leisure.html",
+				"Kanyakumari":"properties/kolkata/outskirts/interest/leisure.html",
+				"Kollam":"properties/kolkata/outskirts/interest/leisure.html",
+				"Kovalam":"properties/kolkata/outskirts/interest/leisure.html",
+				"Kumarakom":"properties/kolkata/outskirts/interest/leisure.html",
+				"Mahabalipuram":"properties/kolkata/outskirts/interest/leisure.html",
+				"Mandarmani":"properties/kolkata/outskirts/interest/leisure.html",
+				"Poovar":"properties/kolkata/outskirts/interest/leisure.html",
+				"Pudduchhery":"properties/kolkata/outskirts/interest/leisure.html",
+				"Puri":"properties/kolkata/outskirts/interest/leisure.html",
+				"Ratnagiri":"properties/kolkata/outskirts/interest/leisure.html",
+				"Varkala":"properties/kolkata/outskirts/interest/leisure.html"
+			},
+			"Cityscape":
+			{
+				"Ahmedabad Outskirts":"properties/kolkata/outskirts/interest/leisure.html",
+				"Bengaluru Outskirts":"properties/kolkata/outskirts/interest/leisure.html",
+				"Bhopal Outskirts":"properties/kolkata/outskirts/interest/leisure.html",
+				"Bhubaneshwar Outskirts":"properties/kolkata/outskirts/interest/leisure.html",
+				"Chandigarh Outskirts":"properties/kolkata/outskirts/interest/leisure.html",
+				"Chennai Outskirts":"properties/kolkata/outskirts/interest/leisure.html",
+				"Indore Outskirts":"properties/kolkata/outskirts/interest/leisure.html",
+				"Kolkata Outskirts":"properties/kolkata/outskirts/interest/leisure.html",
+				"Mumbai Outskirts":"properties/kolkata/outskirts/interest/leisure.html",
+				"Nagpur Outskirts":"properties/kolkata/outskirts/interest/leisure.html",
+				"New Delhi Outskirts":"properties/kolkata/outskirts/interest/leisure.html",
+				"Thiruvananthapuram Outskirts":"properties/kolkata/outskirts/interest/leisure.html"
+			},
+			"Heritage":
+			{
+				"Agra":"properties/kolkata/outskirts/interest/leisure.html",
+				"Bhopal":"properties/kolkata/outskirts/interest/leisure.html",
+				"Gandhinagar":"properties/kolkata/outskirts/interest/leisure.html",
+				"Hassan":"properties/kolkata/outskirts/interest/leisure.html",
+				"Indore":"properties/kolkata/outskirts/interest/leisure.html",
+				"Konark":"properties/kolkata/outskirts/interest/leisure.html",
+				"Mysore":"properties/kolkata/outskirts/interest/leisure.html",
+				"Nagarhole":"properties/kolkata/outskirts/interest/leisure.html",
+				"Shantiniketan":"properties/kolkata/outskirts/interest/leisure.html",
+				"Udaipur":"properties/kolkata/outskirts/interest/leisure.html",
+				"Ujjain":"properties/kolkata/outskirts/interest/leisure.html",
+				"Vadodara":"properties/kolkata/outskirts/interest/leisure.html"
+			},
+			"Wildlife":
+			{
+				"Alwar":"properties/kolkata/outskirts/interest/leisure.html",
+				"Bharatpur":"properties/kolkata/outskirts/interest/leisure.html",
+				"Kanha":"properties/kolkata/outskirts/interest/leisure.html",
+				"Panchmarhi":"properties/kolkata/outskirts/interest/leisure.html",
+				"Pench":"properties/kolkata/outskirts/interest/leisure.html",
+				"Sariska":"properties/kolkata/outskirts/interest/leisure.html",
+				"Sundarban":"properties/kolkata/outskirts/interest/leisure.html"
+			}
 		},
 		"Gourmet":
 		{
@@ -844,15 +912,25 @@ function interest()
 	}
 	interestSel.onchange = function()
 	{
+		zoneSel.length = 1;
 		desSel.length = 1;
 		for (var y in interests[this.value])
 		{
-			desSel.options[desSel.options.length] = new Option(y, y);
+			zoneSel.options[zoneSel.options.length] = new Option(y, y);
+		}
+	}
+	zoneSel.onchange = function ()
+	{
+		desSel.length = 1;
+		var z = interests[interestSel.value][this.value];
+		for (var i = 0; i < z.length; i++)
+		{
+			desSel.options[desSel.options.length] = new Option(z[i], z[i]);
 		}
 	}
 	desSel.onchange = function()
 	{
-		var z = interests[interestSel.value][this.value];
-		console.log(window.location.assign(z));
+		var a = interests[interestSel.value][zoneSel.value][this.value];
+		window.location.assign(a);
 	}
 }
