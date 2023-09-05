@@ -121,7 +121,7 @@
 						<div class="col-md-10 col-sm-10">
 							<nav>
 								<ul class="main-menu text-right">
-									<li><a href="getaway.html" onselectstart="return false">Getaway</a></li>
+									<li><a href="getaway.html" onselectstart="return false">Destination</a></li>
 									<li>
 										<a onselectstart="return false">Interest</a>
 										<ul class="dropdown2 main-menu2">
@@ -475,7 +475,7 @@
 		</div>
 	</section>
 
-	<section class="filter">
+	<section class="filter" style="display: none;">
 		<div class="container">
 			<div class="row bg-gradent">				
 				<form id="filter">
@@ -13713,17 +13713,6 @@
 								<h4>Properties</h4>
 							</div>
 						</div> <!-- single popular destination  end-->
-
-						<div class="single-destination">
-							<figure>
-							</figure>
-						</div> <!-- single popular destination  end-->
-						
-
-						<div class="single-destination">
-							<figure>
-							</figure>
-						</div> <!-- single popular destination  end-->
 					</div>
 				</div>
 
@@ -20938,11 +20927,6 @@
 								<a href="getaway/nagpur/pench.html">Pench</a>
 								<h4>Properties</h4>
 							</div>
-						</div> <!-- single popular destination  end-->
-
-						<div class="single-destination">
-							<figure>
-							</figure>
 						</div> <!-- single popular destination  end-->
 					</div>
 				</div>
@@ -28247,7 +28231,7 @@
 	</section>
 	<!-- bidnwin end -->
 
-	<section class="subscribe-area subscribe-area-2">
+	<section class="subscribe-area subscribe-area-2" style="display: none;">
 		<div class="container">
 			<div class="row bg-gradent">
 				<div class="col-md-5 col-sm-6 col-xs-12 subscribe-title-box">
@@ -28258,7 +28242,7 @@
 				<!-- subscribe form start here -->
 				<div class="col-md-7 col-sm-7 col-xs-12 subscribe-form-box">
 					<div class="subscribe-form">
-						<form name="subscribe-form" netlify-honeypot="bot-field" data-netlify="true" method="post">
+						<form name="subscribe-form1" netlify-honeypot="bot-field" data-netlify="true" method="post">
 							<p class="hidden">
 								<input type="text" id="form-name" class="form-control" value="Subscribe Form">
 							</p>
@@ -28403,6 +28387,20 @@
 										14C, Radhanath Chowdhury Road, Kolkata - 700015
 									</a>
 								</li>
+								<div class="subscribe-form">
+									<form name="subscribe-form" netlify-honeypot="bot-field" data-netlify="true" method="post" style="display: flex;">
+										<p class="hidden">
+											<input type="text" id="form-name" class="form-control" value="Subscribe Form">
+										</p>
+										<div class="serach-form form-group" style="display: inline-block; width: 100%;">
+											<input type="email" class="form-control" id="email" placeholder="Enter Your Email To Subscribe"
+												required>
+										</div>
+										<div class="search-btn form-group" style="float: right; position: relative;">
+											<button type="submit" class="btn btn-primary" style="border-radius: 0;">Subscribe</button>
+										</div>
+									</form>
+								</div>
 							</ul>
 
 
@@ -28410,12 +28408,7 @@
 					</div>
 				</div>
 				<!-- footer contact -->
-			</div>
-			<div class="copyright" style="color: #aaa; font-size: 11px;">
-				<i class="bi bi-c-circle" style="font-size: 11px;"></i> KKavion 2023
-			</div>
-			<hr style="border-top: 1px solid #777;margin-top: 10px;margin-bottom: 20px;">
-			
+			</div>			
 			<div class="row tagline">
 				<ul class="list-inline" style="text-align:center; color:black; font-size:24px; padding-bottom: 10px;">
 					<li>
@@ -28425,9 +28418,10 @@
 					</li>
 				</ul>
 			</div>
-
-
-
+			<hr style="border-top: 1px solid #777;margin: 0;">
+			<div class="copyright" style="color: #aaa; font-size: 11px; margin-bottom: 10px;">
+				<i class="bi bi-c-circle" style="font-size: 11px;"></i> KKavion 2023
+			</div>
 		</div>
 	</footer>
 

@@ -1808,6 +1808,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      padding: 10px;
      width: 70%;
      margin: 15px auto;
+     margin-bottom: 30px;
 }
  .section-title-version-2-black h2 {
      color: black;
@@ -1889,7 +1890,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .single-package-carasoul {
      overflow: hidden;
      position: relative;
-     border-radius: 10px;
+     border-radius: 5px;
 }
  .single-package-carasoul .package-location {
      position: relative;
@@ -3498,7 +3499,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      text-align: center;
      padding: 25px;
      background: white;
-     border-radius: 0 0 10px 10px;
+     border-radius: 0 0 5px 5px;
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-description a
 {
@@ -4638,7 +4639,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-image {
      overflow: hidden;
-     border-radius: 10px 10px 0 0;
+     border-radius: 5px 5px 0 0;
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-image a img {
      transform: scale(1.1);

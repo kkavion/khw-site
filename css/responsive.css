@@ -807,14 +807,22 @@
 {    
     .filter
     {
-        padding: 10px 0;
+        padding: 25px 0;
     }
     #filter
     {
-        padding: 10px 80px;
+        padding: 10px 15px;
         width: max-content;
         margin: auto;
-        border-radius: 10px;
+        border-radius: 50px;
+    }
+    #filter .form-group:first-child select
+    {
+        border-radius: 50px 0 0 50px;
+    }
+    #filter .form-group:last-child select
+    {
+        border-radius: 0 50px 50px 0;
     }
     .desktop-only::after
     {

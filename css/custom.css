@@ -867,7 +867,7 @@ i
 }
 #filter .form-group:not(:last-child)
 {
-     width: 150px;
+     width: 170px;
 }
 .footer-contact-form .form-group
 {
@@ -1795,7 +1795,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .tab-content .carousel-inner
 {
-     border-radius: 10px;
+     border-radius: 5px;
 }
 .leisure-page-area .section-title-3,
 .wellness-page-area .section-title-3,
@@ -2184,7 +2184,7 @@ iframe
      background: #ffffff none repeat scroll 0 0;
      padding: 15px;
      margin-bottom: 40px;
-     border-radius: 20px;
+     border-radius: 5px;
      position: relative;
      z-index: 2;
      transition: all ease-in-out 0.5s;
