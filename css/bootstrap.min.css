@@ -3112,7 +3112,7 @@ textarea.input-lg {
  user-select:none;
  background-image:none;
  border:1px solid transparent;
- border-radius:10px;
+ border-radius:5px;
 }
 .btn.active.focus,
 .btn.active:focus,
@@ -5760,7 +5760,7 @@ button.list-group-item-danger.active:hover {
 }
 .panel-group .panel {
  margin-bottom:0;
- border-radius:10px;
+ border-radius:5px;
 }
 .panel-group .panel+.panel {
  margin-top:5px
@@ -6336,13 +6336,13 @@ button.close {
 .carousel {
  position:relative;
  width: ;
- border-radius: 10px;
+ border-radius: 5px;
 }
 .carousel-inner {
  position:relative;
  width:100%;
  overflow:hidden;
- border-radius: 10px 10px 0 0;
+ border-radius: 5px 5px 0 0;
  margin: auto;
 }
 .carousel-inner>.item {

@@ -805,6 +805,11 @@
 /*  Desktop Layout: 991px    */
 @media screen and (min-width: 991px)
 {    
+    
+    #interest-slide .single-package-details
+    {
+        margin: 25% 0 !important;
+    }
     .filter
     {
         padding: 25px 0;

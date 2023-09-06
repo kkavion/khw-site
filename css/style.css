@@ -899,6 +899,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .destination-slider-active .single-destination {
      transition: all ease-in-out 0.5s;
      margin-bottom: 30px;
+     background: white;
 }
 .destination-slider-active .single-destination img
 {
@@ -1052,7 +1053,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 /*===================================================== 09.Blog section css goes here =======================================================*/
  .single-travel-blog {
      transition: box-shadow 0.3s ease-in-out;
-     border-radius: 10px;
+     border-radius: 5px;
      border: 1px solid #ccc;     
 }
  .single-travel-blog .blog-image {
@@ -1617,7 +1618,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .to-top a {
      background: #fb6a00 none repeat scroll 0 0;
-     border-radius: 4px;
+     border-radius: 5px;
      color: #ffffff;
      font-size: 35px;
      height: 40px;
@@ -1919,11 +1920,11 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      text-align: center;
      transition: all 0.3s ease-in-out 0s;
      padding: 5px;
-     border-radius: 0 10px 0 0;
+     border-radius: 0 5px 0 0;
 }
  .single-package-carasoul .package-details {
      background: #ffffff;
-     border-radius: 0 0 4px 4px;
+     border-radius: 0 0 5px 5px;
 }
  .single-package-carasoul .package-details .package-places {
      padding: 25px;
@@ -3583,7 +3584,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .testimonial-area-5 .single-testimonial img {
      display: inline-block;
-     border-radius: 10px;
+     border-radius: 5px;
 }
  .testimonial-area-5 .single-testimonial .testimonial-messages {
      padding: 30px 0;
@@ -3947,7 +3948,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  aside {
      border: 1px solid #cccccc;
-     border-radius: 10px;
+     border-radius: 5px;
      padding: 0px 20px;
      background: white;
      color: black;
@@ -4654,7 +4655,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 .single-travel-blog .blog-image {
      overflow: hidden;
      position: relative;
-     border-radius: 10px 10px 0 0;
+     border-radius: 5px 5px 0 0;
 }
  .single-travel-blog .blog-image a {
      display: block;

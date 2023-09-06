@@ -102,7 +102,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .popular-packages-carasoul .owl-nav .owl-prev,.popular-packages-carasoul .owl-nav .owl-next
 {
      margin: 10px;
-     border-radius: 4px;
+     border-radius: 5px;
      transition: all ease-in-out 0.3s !important;
      padding: 0 12px; 
 }
@@ -289,14 +289,14 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .timeline-content .box
 {
 	background-color: white;
-	border-radius: 10px;
+	border-radius: 5px;
      transition: all .3s ease-in-out;
 	border: 1px solid lightgray;
 }
 .timeline-content .resort-box
 {
      background-color: white;
-	border-radius: 10px;
+	border-radius: 5px;
      transition: all .3s ease-in-out;
      border: 1px solid lightgray;
 }
@@ -351,7 +351,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
      position: relative;
      background: white;
      margin: 2px 0;
-     border-radius: 10px;
+     border-radius: 5px;
      border: 1px solid lightgray;
 }
 .header-bottom-area .tab-a > li > a:before
@@ -1068,9 +1068,9 @@ button
      height: 31px;
      background: red;
      position: relative;
-     -moz-border-radius: 10px;
-     -webkit-border-radius: 10px;
-     border-radius: 10px;
+     -moz-border-radius: 5px;
+     -webkit-border-radius: 5px;
+     border-radius: 5px;
      margin: 10px;
      margin-left: 20px;
      right: 25px;
@@ -1092,7 +1092,7 @@ button
      position: relative;
      -moz-border-radius: 10px;
      -webkit-border-radius: 10px;
-     border-radius: 10px;
+     border-radius: 5px;
      margin: 0;
      transition: all 0.3s ease-in-out;
      right: 0;
@@ -1667,7 +1667,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
    }
    .sbutton.mainsbutton {
      background: #0495ff;
-     border-radius: 10%;
+     border-radius: 5px;
    }
    .sbutton.youtube {
      background: red;
@@ -1824,7 +1824,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .faq-section .panel-heading
 {
      padding: 0;
-     border-radius: 10px;
+     border-radius: 5px;
 }
 .faq-section .panel-title a
 {
@@ -1833,7 +1833,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      text-align: left;
      text-decoration: none;
      padding: 10px 15px;
-     border-radius: 10px;
+     border-radius: 5px;
      font-style: normal;
      font-weight: normal;
      color: black;
@@ -1857,7 +1857,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      padding: 0;
      text-align: left;
      background: #f5f5f5;
-     border-radius: 10px;
+     border-radius: 5px;
 }
 .resorts-bg .resort-table .row:nth-child(2)
 {
@@ -2732,17 +2732,21 @@ h1, h2, h3, h4, h5, h6
      line-height: 15px;
      cursor: default;
 }
-.getaway .live a
+.getaway .live a, .getaway .live2
 {
      color: black !important;
      transition: all ease-in-out 0.3s;
      cursor: pointer
 }
+.getaway a:first-child
+{
+     color: black !important;
+}
 .getaway .live a:first-child
 {
      cursor: default;
 }
-.getaway .live a:not(:first-child):hover
+.getaway .live a:not(:first-child):hover, .getaway .live2:not(:first-child):hover
 {
      padding-left: 5px;
      color: #fb6a00 !important;
