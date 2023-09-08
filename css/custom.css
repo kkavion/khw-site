@@ -269,7 +269,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .single-country
 {
-	box-shadow: 0 0 7px rgba(62, 51, 51, 0.8) !important;
+	box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;
 	border-radius: 6px;
 }
 .single-package-carasoul:hover
@@ -639,6 +639,11 @@ header .sticky .header-bottom-area .main-menu > li.active a
      font-size: 18px;
      color: black;
      display: grid;
+}
+.top-destination-area .single-package-area a
+{
+     color: white;
+     font-size: 14px;
 }
 .top-destination-area .single-hotels:hover a
 {

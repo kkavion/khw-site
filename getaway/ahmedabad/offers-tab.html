@@ -199,7 +199,7 @@
 				<div class="row">
 					<div class="col-sm-12 col-md-12">
 						<div class="bredcrums-content">
-							<h2 style=>Amazing Offer</h2>
+							<h2>Amazing Offer</h2>
 							<ul>
 								<li><a href="../../index.html">Home</a></li>
 								<li class="active"><a href="offers-tab.html">AHMEDABAD</a></li>
@@ -210,6 +210,35 @@
 			</div>
 		</div>
 	</section><!-- blog breadcrumb version one end here -->
+
+	<section class="filter">
+		<div class="container">
+			<div class="row bg-gradent">				
+				<form id="filter">
+					<div class="form-group">
+						<select class="form-control" id="zone-name">
+							<option hidden>Destination Type</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<select class="form-control" id="destination-name">
+							<option hidden>Destination Name</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<select class="form-control" id="resort-type">
+							<option hidden>Resort Category</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<select class="form-control" id="resort-name">
+							<option hidden>Resort Name</option>
+						</select>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
 
 	<!-- popular destination strat -->
 	<section class="section-paddings single-package-area offer-tab">
@@ -255,7 +284,7 @@
 							<div class="row">
 								<section class="discount-package" style="padding: 15px;margin: 5px 0;">
 									<div id="ad" class="carousel slide" 
-										style="box-shadow: 0 0 7px rgba(62, 51, 51, 0.8) !important;">
+										style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
 										<!-- Indicators -->
 										<ol class="carousel-indicators">
 											<li data-target="#ad" data-slide-to="0" class="active">
@@ -1949,7 +1978,7 @@
 							<div class="row">
 								<section class="discount-package" style="padding: 15px;margin: 5px 0;">
 									<div id="ad2" class="carousel slide" 
-										style="box-shadow: 0 0 7px rgba(62, 51, 51, 0.8) !important;">
+										style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
 										<!-- Indicators -->
 										<ol class="carousel-indicators">
 											<li data-target="#ad2" data-slide-to="0" class="active">
@@ -3738,7 +3767,7 @@
 							<div class="row">
 								<section class="discount-package" style="padding: 15px;margin: 5px 0;">
 									<div id="ad3" class="carousel slide" 
-										style="box-shadow: 0 0 7px rgba(62, 51, 51, 0.8) !important;">
+										style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
 										<!-- Indicators -->
 										<ol class="carousel-indicators">
 											<li data-target="#ad3" data-slide-to="0" class="active">
@@ -5420,7 +5449,7 @@
 							<div class="row">
 								<section class="discount-package" style="padding: 15px;margin: 5px 0;">
 									<div id="ad4" class="carousel slide" 
-										style="box-shadow: 0 0 7px rgba(62, 51, 51, 0.8) !important;">
+										style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
 										<!-- Indicators -->
 										<ol class="carousel-indicators">
 											<li data-target="#ad4" data-slide-to="0" class="active">
@@ -7102,7 +7131,7 @@
 							<div class="row">
 								<section class="discount-package" style="padding: 15px;margin: 5px 0;">
 									<div id="ad4" class="carousel slide" 
-										style="box-shadow: 0 0 7px rgba(62, 51, 51, 0.8) !important;">
+										style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
 										<!-- Indicators -->
 										<ol class="carousel-indicators">
 											<li data-target="#ad4" data-slide-to="0" class="active">
@@ -9021,6 +9050,7 @@
 	<!-- main js -->
 	<script src="../../js/custom.js"></script>
 	<script>
+		window.onload = function (){filterRPs();};
 		// When the user scrolls the page, execute myFunction
 		window.onscroll = function () { myFunction() };
 

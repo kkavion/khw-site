@@ -148,6 +148,7 @@
 										<a onselectstart="return false">Sale</a>
 										<ul class="dropdown2 main-menu2">
 											<div class="row">
+												<li class="col-md-1 dropdown-text"><a href="bidnwin.html" onselectstart="return false">Bid & Win</a></li>
 												<li class="col-md-1 dropdown-text"><a href="bargain-holiday-tab.html" onselectstart="return false">Bargain Holiday</a></li>
 												<li class="col-md-1 dropdown-text"><a href="surprise-holiday-tab.html" onselectstart="return false">Surprise Holiday</a></li>
 												<li class="col-md-1 dropdown-text"><a href="sale-tab.html" onselectstart="return false">Holiday Sale</a></li>
@@ -218,6 +219,30 @@
 		</div>
 	</section><!-- blog breadcrumb version one end here -->
 
+	<section class="filter">
+		<div class="container">
+			<div class="row bg-gradent">				
+				<form id="filter">
+					<div class="form-group">
+						<select class="form-control" id="interest-name">
+							<option hidden>Interest Type</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<select class="form-control" id="zone-name1">
+							<option hidden>Destination Type</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<select class="form-control" id="destination-name1">
+							<option hidden>Destination Name</option>
+						</select>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
 	<section class="section-paddings single-package-area destination-bg" style="padding-bottom:25px">
 		<div class="container">
 			<div class="row">
@@ -274,7 +299,7 @@
 	</section>
 
 	
-	<section class="destination-bg section-paddings">
+	<section class="destination-bg section-paddings" style="padding: 100px 0; margin-bottom: 25px;background: url('https://transparenttextures.com/patterns/subtle-white-feathers.png')">
 		<div class="container">
 			<div id="interest-slide" class="carousel slide" 
 				style="margin: 0;">
@@ -288,13 +313,13 @@
 				<div class="carousel-inner">
 					<div class="item active">
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-7">
 								<img src="images/poster-mobile/brandtfr.webp" style="width:100%; height:100%;">
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-5">
 								<div class="single-package-details">
-									<h3 style="padding-bottom: 10px;">Gourmet</h3>
-									<p>One of the most popular beach destinations in West Bengal, Digha beckons travellers for a perfect weekend getaway. The translucent rays of the sun sparkle on the undulating surface of the sea, the waves crash over each other in a mad race to reach the powdery sands of the shoreline. You can lie on the sandy beach while sipping young coconut water under the shade of an umbrella. The smell of the salty sea permeates the air, interrupted only by the whiff of delicious seafood served on the shores and restaurants. 
+									<h1 style="padding-bottom: 10px;">Gourmet</h1>
+									<p style="line-height: 30px; font-size: 20px;">One of the most popular beach destinations in West Bengal, Digha beckons travellers for a perfect weekend getaway.
 									</p>
 								</div>
 							</div>
@@ -302,13 +327,13 @@
 					</div>
 					<div class="item">
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-7">
 								<img src="images/poster-mobile/brandtfr.webp" style="width:100%; height:100%;">
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-5">
 								<div class="single-package-details">
-									<h3 style="padding-bottom: 10px;">Gourmet</h3>
-									<p>One of the most popular beach destinations in West Bengal, Digha beckons travellers for a perfect weekend getaway. The translucent rays of the sun sparkle on the undulating surface of the sea, the waves crash over each other in a mad race to reach the powdery sands of the shoreline. You can lie on the sandy beach while sipping young coconut water under the shade of an umbrella. The smell of the salty sea permeates the air, interrupted only by the whiff of delicious seafood served on the shores and restaurants. 
+									<h1 style="padding-bottom: 10px;">Gourmet</h1>
+									<p style="line-height: 30px; font-size: 20px;">One of the most popular beach destinations in West Bengal, Digha beckons travellers for a perfect weekend getaway.
 									</p>
 								</div>
 							</div>
@@ -333,23 +358,42 @@
 			<div class="row">
 				<div class="header-bottom-area">
 					<ul class="main-menu tab-a" role="tablist" id="tab7">
-						<li role="presentation" class=""><a href="#bengaluru" aria-controls="dining" role="tab"
-								data-toggle="tab">Bengaluru</a>
+						<li role="presentation" class="hidden"><a href="#ahmedabad" aria-controls="dining" role="tab"
+								data-toggle="tab">Ahmedabad</a>
 						</li>
-						<li role="presentation" class=""><a href="#chandigarh" aria-controls="climate" role="tab"
-								data-toggle="tab">Chandigarh</a>
+						<li role="presentation" class="hidden"><a href="#bengaluru" aria-controls="dining" role="tab"
+							data-toggle="tab">Bengaluru</a>
 						</li>
-						<li role="presentation" class=""><a href="#chennai" aria-controls="transport" role="tab"
+						<li role="presentation" class="hidden"><a href="#bhopal" aria-controls="transport" role="tab"
+								data-toggle="tab">Bhopal</a>
+						</li>
+						<li role="presentation" class="hidden"><a href="#bhubaneswar" aria-controls="recreation" role="tab"
+								data-toggle="tab">Bhubaneswar</a>
+						</li>
+						<li role="presentation" class="hidden"><a href="#chandigarh" aria-controls="climate" role="tab"
+							data-toggle="tab">Chandigarh</a>
+						</li>
+						<li role="presentation" class="hidden"><a href="#chennai" aria-controls="transport" role="tab"
 								data-toggle="tab">Chennai</a>
 						</li>
-						<li role="presentation" class=""><a href="#kolkata" aria-controls="recreation" role="tab"
+						<span class="desktop-only"></span>
+						<li role="presentation" class="hidden"><a href="#indore" aria-controls="dining" role="tab"
+								data-toggle="tab">Indore</a>
+						</li>
+						<li role="presentation" class="active"><a href="#kolkata" aria-controls="recreation" role="tab"
 								data-toggle="tab">Kolkata</a>
 						</li>
-						<li role="presentation" class=""><a href="#mumbai" aria-controls="dining" role="tab"
+						<li role="presentation" class="hidden"><a href="#mumbai" aria-controls="dining" role="tab"
 								data-toggle="tab">Mumbai</a>
 						</li>
-						<li role="presentation" class=""><a href="#newdelhi" aria-controls="transport" role="tab"
+						<li role="presentation" class="hidden"><a href="#nagpur" aria-controls="recreation" role="tab"
+								data-toggle="tab">Nagpur</a>
+						</li>
+						<li role="presentation" class="hidden"><a href="#newdelhi" aria-controls="transport" role="tab"
 								data-toggle="tab">New Delhi</a>
+						</li>
+						<li role="presentation" class="hidden"><a href="#thiruvananthapuram" aria-controls="transport" role="tab"
+								data-toggle="tab">Thiruvananthapuram</a>
 						</li>
 					</ul>
 				</div><!-- tab menu end -->
@@ -359,7 +403,7 @@
 			<div class="row">
 				<!-- tabs content -->
 				<div class="tab-content container resort-tab">
-					<div role="tabpanel" class="tab-pane fade in active" id="kolkata">
+					<div role="tabpanel" class="tab-pane fade in active" id="ahmedabad">
 						<div class="destination-slider-active owl-carousel" style="padding-top: 25px;">
 							<div class="single-destination">
 								<figure>
@@ -367,7 +411,7 @@
 									</a>
 								</figure>
 								<div class="des-city">
-									<a href="properties/kolkata/outskirts/interest/gourmet.html">Outskirts</a>
+									<a href="properties/kolkata/outskirts/interest/leisure.html">Outskirts</a>
 									<h4>4 Properties</h4>
 								</div>
 							</div> <!-- single popular destination  end-->
@@ -466,7 +510,7 @@
 						</div>
 					</div>
 					
-					<div role="tabpanel" class="tab-pane fade" id="chandigarh">
+					<div role="tabpanel" class="tab-pane fade" id="bhopal">
 						<div class="destination-slider-active owl-carousel" style="padding-top: 25px;">
 							<div class="single-destination">
 								<figure>
@@ -503,7 +547,7 @@
 						</div>
 					</div>
 					
-					<div role="tabpanel" class="tab-pane fade" id="chennai">
+					<div role="tabpanel" class="tab-pane fade" id="bhubaneswar">
 						<div class="destination-slider-active owl-carousel" style="padding-top: 25px;">
 							<div class="single-destination">
 								<figure>
@@ -540,7 +584,247 @@
 						</div>
 					</div>
 					
+					<div role="tabpanel" class="tab-pane fade" id="chandigarh">
+						<div class="destination-slider-active owl-carousel" style="padding-top: 25px;">
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/mumbai_out.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Outskirts</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+							
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/mumbai_alibaug.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Alibaug</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+							
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/mumbai_khandala.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Khandala</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+							
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/mumbai_lavasa.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Lavasa</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+							
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/mumbai_lonavala.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Lonavala</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+							
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/mumbai_matheran.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Matheran</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+						</div>
+					</div>
+					
+					<div role="tabpanel" class="tab-pane fade" id="chennai">
+						<div class="destination-slider-active owl-carousel" style="padding-top: 25px;">
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/delhi_out.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Outskirts</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+							
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/delhi_agra.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Agra</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+							
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/delhi_alwar.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Alwar</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+							
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/delhi_bharat.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Bharatpur</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+						</div>
+					</div>
+					
+					<div role="tabpanel" class="tab-pane fade" id="indore">
+						<div class="destination-slider-active owl-carousel" style="padding-top: 25px;">
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/beng-out.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Outskirts</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+							
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/beng-hassan.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Hassan</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+							
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/beng-mysuru.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Mysuru</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+							
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/beng-yelagiri.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Yelagiri</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+						</div>
+					</div>
+					
+					<div role="tabpanel" class="tab-pane fade" id="kolkata">
+						<div class="destination-slider-active owl-carousel" style="padding-top: 25px;">
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/chand_out.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Outskirts</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+							
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/chand_kasauli.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Kasauli</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+							
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/chand_parwano.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Parwanoo</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+						</div>
+					</div>
+					
 					<div role="tabpanel" class="tab-pane fade" id="mumbai">
+						<div class="destination-slider-active owl-carousel" style="padding-top: 25px;">
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/chennai_out.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Outskirts</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+							
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/chennai_maha.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Mahabalipuram</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+							
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/chennai_pudu.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Puducherry</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+						</div>
+					</div>
+					
+					<div role="tabpanel" class="tab-pane fade" id="nagpur">
 						<div class="destination-slider-active owl-carousel" style="padding-top: 25px;">
 							<div class="single-destination">
 								<figure>
@@ -611,6 +895,54 @@
 					</div>
 					
 					<div role="tabpanel" class="tab-pane fade" id="newdelhi">
+						<div class="destination-slider-active owl-carousel" style="padding-top: 25px;">
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/delhi_out.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Outskirts</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+							
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/delhi_agra.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Agra</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+							
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/delhi_alwar.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Alwar</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+							
+							<div class="single-destination">
+								<figure>
+									<a href="#"><img src="images/homepage/delhi_bharat.webp" alt="">
+									</a>
+								</figure>
+								<div class="des-city">
+									<a href="#">Bharatpur</a>
+									<h4>Properties</h4>
+								</div>
+							</div> <!-- single popular destination  end-->
+						</div>
+					</div>
+					
+					<div role="tabpanel" class="tab-pane fade" id="thiruvananthapuram">
 						<div class="destination-slider-active owl-carousel" style="padding-top: 25px;">
 							<div class="single-destination">
 								<figure>
@@ -976,6 +1308,7 @@
 	<!-- main js -->
 	<script src="js/custom.js"></script>
 	<script>
+		windows.onload = function (){interest();};
 		// When the user scrolls the page, execute myFunction
 		window.onscroll = function () { myFunction() };
 
