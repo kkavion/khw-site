@@ -218,6 +218,25 @@
 			</div>
 		</div>
 	</section><!-- blog breadcrumb version one end here -->
+	
+	<section class="filter">
+		<div class="container">
+			<div class="row bg-gradent">				
+				<form id="filter">
+					<div class="form-group">
+						<select class="form-control" id="zone-name">
+							<option hidden>Destination Type</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<select class="form-control" id="destination-name">
+							<option hidden>Destination Name</option>
+						</select>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
 
 	<section class="section-paddings single-package-area destination-bg" style="padding-bottom:25px">
 		<div class="container">
@@ -613,6 +632,13 @@
 									you a respite from your tedious unadventurous everyday life.
 
 								</i>
+							</div>
+							<div class="header-bottom-area" style="margin: 0 0 40px 0;text-align:justify;">
+								<ul class="main-menu tab-a" role="tablist" id="tab7">
+									<li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab"
+											data-toggle="tab">All</a>
+									</li>
+								</ul>	
 							</div>
 							<section class="top-destination-area top-destination-area-5">
 								<div class="row">
@@ -5159,6 +5185,7 @@
 	<!-- main js -->
 	<script src="../../js/custom.js"></script>
 	<script>
+		window.onload = function () {desFilt()};
 		// When the user scrolls the page, execute myFunction
 		window.onscroll = function () { myFunction() };
 

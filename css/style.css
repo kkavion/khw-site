@@ -1077,10 +1077,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-size: 14px;
      font-weight: 400;
      overflow: hidden;
-     padding-bottom: 20px;
-     float: right;
-     top: 3px;
-     position: relative;
+     padding: 10px 0;
 }
  .single-travel-blog .blog-content .blog-meta .post-date {
      float: left;

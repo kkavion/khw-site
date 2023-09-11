@@ -552,393 +552,393 @@ function closeSuiteCompare()
 {
 	document.getElementById("suite-compare-section").style.display = "none";
 }
+var zones = 
+{
+	"Altius": ["Mt. Abu", "Kasauli", "Khandala", "Lavasa", "Lonavla", "Matheran", "Mussoorie", "Panchmarhi", "Panvel", "Parwanoo", "Shimla", "Yellagiri"],
+	"Beach": ["Alibaug", "Alleppey", "Chilka", "Digha", "Kanyakumari", "Kollam", "Kovalam", "Kumarakom", "Mahabalipuram", "Mandarmani", "Poovar", "Pudduchhery", "Puri", "Ratnagiri", "Varkala"],
+	"Outskirts": ["Ahmedabad Outskirts", "Bengaluru Outskirts", "Bhopal Outskirts", "Bhubaneshwar Outskirts", "Chandigarh Outskirts", "Chennai Outskirts", "Indore Outskirts",
+		"Kolkata Outskirts", "Mumbai Outskirts", "Nagpur Outskirts", "New Delhi Outskirts", "Thiruvananthapuram Outskirts"],
+	"Heritage": ["Agra", "Bhopal", "Gandhinagar", "Hassan", "Indore", "Konark", "Mysore", "Nagarhole", "Shantiniketan", "Udaipur", "Ujjain", "Vadodara"],
+	"Wildlife": ["Alwar", "Bharatpur", "Kanha", "Panchmarhi", "Pench", "Sariska", "Sundarban"]
+};
+var allDestination = 
+{
+	//Ahmedabad
+	"Ahmedabad Outskirts":{
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Gandhinagar": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Mt. Abu": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Udaipur": {				
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Vadodara": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	//bengaluru
+	"Bengaluru Outskirts": {
+		"Premium": ["Royal Orchid Resort", "The Golden Palm Resorts"],
+		"Standard": ["Angsana Oasis Spa & Resort", "Clarks Exotica Resort and Spa", "Guhantara Resort", "Windflower Prakruthi Resort & Spa", "Barog Heights", "Forest Hill Golf & Country Club", "Nalagarh Fort", "Ramshehar Fort"],
+		"Economy": ["The Bharatgarh Fort"]
+	},
+	"Hassan": {
+		"Premium": ["Mallige Residency"],
+		"Standard": ["Mayura International Tanneeruhalla", "Hoysala Village Resort", "Southern Star Hassan", "The Ashhok Hassan"]
+	},
+	"Mysuru": {
+		"Luxury": ["Grand Mercure", "Orange County Resort", "Radisson Blu Plaza Hotel"],
+		"Premium": ["Country Inn & Suites", "Fortune JP Palace", "Laliths Mahal Palace Hotel", "Royal Orchid Brindavan Gardens", "Royal Orchid Metropole Hotel", "Sandesh The Prince", "The Windflower Resort & Spa"],
+		"Standard": ["Golden Landmark Resort", "Hotel Southern Star", "Hotel Pai Vista", "Indus Valley Ayurvedic Centre", "Silent Shores Resort & Spa", "The Atrium Boutique Hotel", "The Hotel Viceroy", "The President Hotel"],
+		"Economy": ["Anahata Healing Arts Centre", "The Village"]
+	},
+	"Nagarhole": {
+		"Luxury": ["Kuruba Safari Lodge", "JLR Kings Sanctuary"],
+		"Premium": ["The Serai Kabini", "Machaan Wilderness Lodge", "Regenta Kabini Spring Resort", "Red Earth", "Waterwoods Lodge Kabini"],
+		"Standard": ["Kaav Safari Lodge", "The Peepal Tree", "Kabini River Lodge", "Kabini Lake View Resort"],
+		"Boutique": ["The Bison Resort"],
+		"Economy": ["Jungle Inn"]
+	},
+	"Yelagiri": {
+		"Premium": ["Marrigold Ridge Sterling Holiday Resort"],
+		"Standard": ["Hotel Emerald Dove & Hotel Nigress", "La Flora Cloud 9 Resort", "Kumararraja Palace"],
+		"Economy": ["Hotel Hill Breeze Yelagiri", "Hotel Landmark"],
+		"Homestay": ["Yelagiri Farmhouse"]
+	},
+	//bhopal
+	"Bhopal Outskirts":{
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Indore": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Ujjain": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Panchmarhi": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	//bhubaneshwar
+	"Bhubaneshwar Outskirts":{
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Chilka": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Konark": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Puri": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Ratnagiri": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	//chandigarh
+	"Chandigarh Outskirts": {
+		"Premium": ["Golden Tulip", "Surya Villas", "Nalagarh Fort"],
+		"Standard": ["Aura Vaseela Resort", "Casbsa Lodge", "Kikar Lodge"],
+		"Economy": ["Shilhaandara Resort", "Bheemeshwar Adventure & Nature Camp", "Galibore Nature Camp"]
+	},
+	"Kasauli": {
+		"Premium": ["Baikunth Resort Kasauli", "Baba Resorts"],
+		"Standard": ["Kasauli Hillls Resort", "The Fern Surya Resort", "Kasauli Resort by Piccadily", "Alasia Hotel", "Hotel Sanawar View", "Fortune Select Forest Hill", "Kasauli Exotica", "Safarmaina Resort", "Kasauli Castle Resort", "Birds View Kasauli", "Kasauli Regency Hotel", "Winnies Holiday Resort & Spa", "Shivalik Hotel & Resorts"]
+	},
+	"Musoorie": {
+		"Luxury": ["Walnut Grove Resort and Spa", "Welcomhotel, The Savoy"],
+		"Premium": ["Jaypee Residency Manor", "Fortune Resort Grace", "Royal Orchid Fort Resort", "The Oasis Mussoorie", "Ramada by Wyndham", "Rokeby Manor"],
+		"Standard": ["Mosaic Mussoorie", "Hotel Sun N Snow", "Sterling Mussoorie", "The Fern Brentwood Resort", "Jharpani Castle", "Country Inn Premier Pacific Resort", "Hotel Vishnu Palace", "WelcomHeritage Kasmanda Palace", "Hotel Himayan Club", "Karma Vilas By Howard", "Ceyone Classic Fall Resort", "The India Big Bend"]
+	},
+	"Parwanoo": {
+		"Premium": ["Moksha Himalaya Spa Resort"],
+		"Standard": ["Timber Trail Heights and Terraces", "Timber Trail Resort", "Hotel Windsmoor", "Surya Rock Rose Resort"],
+		"Economy": ["Hotel Royal Regency", "Hotel Shivalik", "Hotel Park Inn"]
+	},
+	"Shimla": {
+		"Luxury": ["The Oberoi Cecil", "Radisson Jass", "Hotel Sunrise", "Hotel Chaman Palace", "Hotel Satyam Paradise"],
+		"Premium": ["Sterling Legacy", "Larisa Shimla", "Clarkes Hotel", "Summit Le Royale Hotel", "Hotel Willow Banks", "Koti Resort", "Hotel Marina", "Shimla Havens Resort", "East Bourne Resort & Spa"],
+		"Standard": ["Marigold Sarovar Portico", "The Zion Shimla", "Hotel Silverine", "Hotel The Alpine Heritage Residency", "Maharaja", "Ashiana Clarks Inn"]
+	},
+	//chennai
+	"Chennai Outskirts": {
+		"Luxury": ["Taj Fisherman's Cove Resort"],
+		"Premium": ["MGM Beach Resort", "Silver Sand Beach Resort"],
+		"Standard": ["The Green Coconut Resort", "Park Inn Beach Resort", "Country Club Jade Beach Resort", "Ilara Hotel & Spa", "Green Meadows Resort",  "Pleasant Days Resort", "VGP Golden Beach Resort"],
+		"Economy": ["Green Meadows Resort"]
+	},
+	"Mahabalipuram": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Puducherry": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	//indore
+	"Indore Outskirts":{
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Bhopal": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	//kolkata
+	"Kolkata Outskirts": {
+		"Luxury": ["Ganga Kutir", "The Amaya Resort", "Vedic Village"],
+		"Premium": ["Fortune Park", "The Ffort Raichak", "The Rajbari Bawali"],
+		"Standard": ["Country Roads", "Hotel Sonar Bangla", "Ibiza The Fern"],
+		"Boutique": ["Breathing Earth"]
+	},
+	"Digha": {
+		"Standard": ["Hotel Seagull"],
+		"Economy": ["Abhyagama Hotel", "Cygnett Inn", "Hotel Coral", "Hotel Daltin", "Hotel Green Gate", "Hotel Nest", "Hotel Sea Sand", "Piku's Inn", "The Beach View Hotel", "The Palm Resort"]
+	},
+	"Mandarmani": {
+		"Standard": ["Aqua Marine", "Hotel Sonar Bangla", "Suncity Resort", "The Candlewood Park Beach Resort"],
+		"Economy": ["Anutri Beach Resort", "Sea Star Spa Resort", "Sun N Sand Resort", "Viceroy Bech & Spa Resort", "Victoria Beach Resort"],
+		"Boutique": ["The Sana Beach Resort"]
+	},
+	"Shantiniketan": {
+		"Standard": ["Camelia Resort", "Hotel Royal Bengal"],
+		"Economy": ["Baul Sangee", "Club Central Hotel", "Chhuti Holiday Resort", "Mohor Kutir Resort", "Ram Shyam Village Resort", "Shantiniketan Residency", "The Ananda Resort", "The Cristallo Resort"]
+	},
+	"Sundarban": {
+		"Standard": ["Hotel Sonar Bangla", "Sundarban Tiger Camp"],
+		"Economy": ["Gramer Bari Eco Resort", "Royal Sindarban Wild Resort", "Solitary Nook Resort", "Sundarban Gateway Resort", "Sundarban Residency", "Sundarban Riverside Holiday Resort", "Sundarban Tiger Roar Resort", "Tora Eco Resort"]
+	},
+	//mumbai
+	"Mumbai Outskirts":{
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Alibaug": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Khandala": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Lavasa": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Lonavala": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Matheran": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Panvel": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	//nagpur
+	"Nagpur Outskirts":{
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Kanha": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Pench": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	//new delhi
+	"New Delhi Outskirts":{
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Agra": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Alwar": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Bharatpur": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Sariska": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	//thiruvananthapuram
+	"Thiruvananthapuram Outskirts":{
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Alleppey": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Kanyakumari": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Kollam": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Kovalam": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Kumarakom": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	},
+	"Poovar": {
+		"Luxury": [],
+		"Premium": [],
+		"Standard": [],
+		"Boutique": [],
+		"Economy": []
+	}
+};
 
 function filterRP() {
-	var zones = 
-	{
-		"Altius": ["Mt. Abu", "Kasauli", "Khandala", "Lavasa", "Lonavla", "Matheran", "Mussoorie", "Panchmarhi", "Panvel", "Parwanoo", "Shimla", "Yellagiri"],
-		"Beach": ["Alibaug", "Alleppey", "Chilka", "Digha", "Kanyakumari", "Kollam", "Kovalam", "Kumarakom", "Mahabalipuram", "Mandarmani", "Poovar", "Pudduchhery", "Puri", "Ratnagiri", "Varkala"],
-		"Outskirts": ["Ahmedabad Outskirts", "Bengaluru Outskirts", "Bhopal Outskirts", "Bhubaneshwar Outskirts", "Chandigarh Outskirts", "Chennai Outskirts", "Indore Outskirts",
-			"Kolkata Outskirts", "Mumbai Outskirts", "Nagpur Outskirts", "New Delhi Outskirts", "Thiruvananthapuram Outskirts"],
-		"Heritage": ["Agra", "Bhopal", "Gandhinagar", "Hassan", "Indore", "Konark", "Mysore", "Nagarhole", "Shantiniketan", "Udaipur", "Ujjain", "Vadodara"],
-		"Wildlife": ["Alwar", "Bharatpur", "Kanha", "Panchmarhi", "Pench", "Sariska", "Sundarban"]
-	};
-	var allDestination = 
-	{
-		//Ahmedabad
-		"Ahmedabad Outskirts":{
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Gandhinagar": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Mt. Abu": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Udaipur": {				
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Vadodara": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		//bengaluru
-		"Bengaluru Outskirts": {
-			"Premium": ["Royal Orchid Resort", "The Golden Palm Resorts"],
-			"Standard": ["Angsana Oasis Spa & Resort", "Clarks Exotica Resort and Spa", "Guhantara Resort", "Windflower Prakruthi Resort & Spa", "Barog Heights", "Forest Hill Golf & Country Club", "Nalagarh Fort", "Ramshehar Fort"],
-			"Economy": ["The Bharatgarh Fort"]
-		},
-		"Hassan": {
-			"Premium": ["Mallige Residency"],
-			"Standard": ["Mayura International Tanneeruhalla", "Hoysala Village Resort", "Southern Star Hassan", "The Ashhok Hassan"]
-		},
-		"Mysuru": {
-			"Luxury": ["Grand Mercure", "Orange County Resort", "Radisson Blu Plaza Hotel"],
-			"Premium": ["Country Inn & Suites", "Fortune JP Palace", "Laliths Mahal Palace Hotel", "Royal Orchid Brindavan Gardens", "Royal Orchid Metropole Hotel", "Sandesh The Prince", "The Windflower Resort & Spa"],
-			"Standard": ["Golden Landmark Resort", "Hotel Southern Star", "Hotel Pai Vista", "Indus Valley Ayurvedic Centre", "Silent Shores Resort & Spa", "The Atrium Boutique Hotel", "The Hotel Viceroy", "The President Hotel"],
-			"Economy": ["Anahata Healing Arts Centre", "The Village"]
-		},
-		"Nagarhole": {
-			"Luxury": ["Kuruba Safari Lodge", "JLR Kings Sanctuary"],
-			"Premium": ["The Serai Kabini", "Machaan Wilderness Lodge", "Regenta Kabini Spring Resort", "Red Earth", "Waterwoods Lodge Kabini"],
-			"Standard": ["Kaav Safari Lodge", "The Peepal Tree", "Kabini River Lodge", "Kabini Lake View Resort"],
-			"Boutique": ["The Bison Resort"],
-			"Economy": ["Jungle Inn"]
-		},
-		"Yelagiri": {
-			"Premium": ["Marrigold Ridge Sterling Holiday Resort"],
-			"Standard": ["Hotel Emerald Dove & Hotel Nigress", "La Flora Cloud 9 Resort", "Kumararraja Palace"],
-			"Economy": ["Hotel Hill Breeze Yelagiri", "Hotel Landmark"],
-			"Homestay": ["Yelagiri Farmhouse"]
-		},
-		//bhopal
-		"Bhopal Outskirts":{
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Indore": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Ujjain": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Panchmarhi": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		//bhubaneshwar
-		"Bhubaneshwar Outskirts":{
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Chilka": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Konark": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Puri": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Ratnagiri": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		//chandigarh
-		"Chandigarh Outskirts": {
-			"Premium": ["Golden Tulip", "Surya Villas", "Nalagarh Fort"],
-			"Standard": ["Aura Vaseela Resort", "Casbsa Lodge", "Kikar Lodge"],
-			"Economy": ["Shilhaandara Resort", "Bheemeshwar Adventure & Nature Camp", "Galibore Nature Camp"]
-		},
-		"Kasauli": {
-			"Premium": ["Baikunth Resort Kasauli", "Baba Resorts"],
-			"Standard": ["Kasauli Hillls Resort", "The Fern Surya Resort", "Kasauli Resort by Piccadily", "Alasia Hotel", "Hotel Sanawar View", "Fortune Select Forest Hill", "Kasauli Exotica", "Safarmaina Resort", "Kasauli Castle Resort", "Birds View Kasauli", "Kasauli Regency Hotel", "Winnies Holiday Resort & Spa", "Shivalik Hotel & Resorts"]
-		},
-		"Musoorie": {
-			"Luxury": ["Walnut Grove Resort and Spa", "Welcomhotel, The Savoy"],
-			"Premium": ["Jaypee Residency Manor", "Fortune Resort Grace", "Royal Orchid Fort Resort", "The Oasis Mussoorie", "Ramada by Wyndham", "Rokeby Manor"],
-			"Standard": ["Mosaic Mussoorie", "Hotel Sun N Snow", "Sterling Mussoorie", "The Fern Brentwood Resort", "Jharpani Castle", "Country Inn Premier Pacific Resort", "Hotel Vishnu Palace", "WelcomHeritage Kasmanda Palace", "Hotel Himayan Club", "Karma Vilas By Howard", "Ceyone Classic Fall Resort", "The India Big Bend"]
-		},
-		"Parwanoo": {
-			"Premium": ["Moksha Himalaya Spa Resort"],
-			"Standard": ["Timber Trail Heights and Terraces", "Timber Trail Resort", "Hotel Windsmoor", "Surya Rock Rose Resort"],
-			"Economy": ["Hotel Royal Regency", "Hotel Shivalik", "Hotel Park Inn"]
-		},
-		"Shimla": {
-			"Luxury": ["The Oberoi Cecil", "Radisson Jass", "Hotel Sunrise", "Hotel Chaman Palace", "Hotel Satyam Paradise"],
-			"Premium": ["Sterling Legacy", "Larisa Shimla", "Clarkes Hotel", "Summit Le Royale Hotel", "Hotel Willow Banks", "Koti Resort", "Hotel Marina", "Shimla Havens Resort", "East Bourne Resort & Spa"],
-			"Standard": ["Marigold Sarovar Portico", "The Zion Shimla", "Hotel Silverine", "Hotel The Alpine Heritage Residency", "Maharaja", "Ashiana Clarks Inn"]
-		},
-		//chennai
-		"Chennai Outskirts": {
-			"Luxury": ["Taj Fisherman's Cove Resort"],
-			"Premium": ["MGM Beach Resort", "Silver Sand Beach Resort"],
-			"Standard": ["The Green Coconut Resort", "Park Inn Beach Resort", "Country Club Jade Beach Resort", "Ilara Hotel & Spa", "Green Meadows Resort",  "Pleasant Days Resort", "VGP Golden Beach Resort"],
-			"Economy": ["Green Meadows Resort"]
-		},
-		"Mahabalipuram": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Puducherry": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		//indore
-		"Indore Outskirts":{
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Bhopal": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		//kolkata
-		"Kolkata Outskirts": {
-			"Luxury": ["Ganga Kutir", "The Amaya Resort", "Vedic Village"],
-			"Premium": ["Fortune Park", "The Ffort Raichak", "The Rajbari Bawali"],
-			"Standard": ["Country Roads", "Hotel Sonar Bangla", "Ibiza The Fern"],
-			"Boutique": ["Breathing Earth"]
-		},
-		"Digha": {
-			"Standard": ["Hotel Seagull"],
-			"Economy": ["Abhyagama Hotel", "Cygnett Inn", "Hotel Coral", "Hotel Daltin", "Hotel Green Gate", "Hotel Nest", "Hotel Sea Sand", "Piku's Inn", "The Beach View Hotel", "The Palm Resort"]
-		},
-		"Mandarmani": {
-			"Standard": ["Aqua Marine", "Hotel Sonar Bangla", "Suncity Resort", "The Candlewood Park Beach Resort"],
-			"Economy": ["Anutri Beach Resort", "Sea Star Spa Resort", "Sun N Sand Resort", "Viceroy Bech & Spa Resort", "Victoria Beach Resort"],
-			"Boutique": ["The Sana Beach Resort"]
-		},
-		"Shantiniketan": {
-			"Standard": ["Camelia Resort", "Hotel Royal Bengal"],
-			"Economy": ["Baul Sangee", "Club Central Hotel", "Chhuti Holiday Resort", "Mohor Kutir Resort", "Ram Shyam Village Resort", "Shantiniketan Residency", "The Ananda Resort", "The Cristallo Resort"]
-		},
-		"Sundarban": {
-			"Standard": ["Hotel Sonar Bangla", "Sundarban Tiger Camp"],
-			"Economy": ["Gramer Bari Eco Resort", "Royal Sindarban Wild Resort", "Solitary Nook Resort", "Sundarban Gateway Resort", "Sundarban Residency", "Sundarban Riverside Holiday Resort", "Sundarban Tiger Roar Resort", "Tora Eco Resort"]
-		},
-		//mumbai
-		"Mumbai Outskirts":{
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Alibaug": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Khandala": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Lavasa": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Lonavala": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Matheran": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Panvel": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		//nagpur
-		"Nagpur Outskirts":{
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Kanha": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Pench": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		//new delhi
-		"New Delhi Outskirts":{
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Agra": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Alwar": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Bharatpur": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Sariska": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		//thiruvananthapuram
-		"Thiruvananthapuram Outskirts":{
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Alleppey": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Kanyakumari": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Kollam": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Kovalam": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Kumarakom": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Poovar": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		}
-	};
 	var zoneSelect = document.getElementById("zone-name");
 	var destinationSelect = document.getElementById("destination-name");
 	var typeSelect = document.getElementById("resort-type");
@@ -1050,392 +1050,92 @@ function filterRP() {
 	}
 }
 
-function filterRPs() {
-	var zones = 
+function desFilt() {
+	var zoneSelect = document.getElementById("zone-name");
+	var destinationSelect = document.getElementById("destination-name");
+	for (var x in zones)
 	{
-		"Altius": ["Mt. Abu", "Kasauli", "Khandala", "Lavasa", "Lonavla", "Matheran", "Mussoorie", "Panchmarhi", "Panvel", "Parwanoo", "Shimla", "Yellagiri"],
-		"Beach": ["Alibaug", "Alleppey", "Chilka", "Digha", "Kanyakumari", "Kollam", "Kovalam", "Kumarakom", "Mahabalipuram", "Mandarmani", "Poovar", "Pudduchhery", "Puri", "Ratnagiri", "Varkala"],
-		"Outskirts": ["Ahmedabad Outskirts", "Bengaluru Outskirts", "Bhopal Outskirts", "Bhubaneshwar Outskirts", "Chandigarh Outskirts", "Chennai Outskirts", "Indore Outskirts",
-			"Kolkata Outskirts", "Mumbai Outskirts", "Nagpur Outskirts", "New Delhi Outskirts", "Thiruvananthapuram Outskirts"],
-		"Heritage": ["Agra", "Bhopal", "Gandhinagar", "Hassan", "Indore", "Konark", "Mysore", "Nagarhole", "Shantiniketan", "Udaipur", "Ujjain", "Vadodara"],
-		"Wildlife": ["Alwar", "Bharatpur", "Kanha", "Panchmarhi", "Pench", "Sariska", "Sundarban"]
-	};
-	var allDestination = 
+		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
+	}
+	zoneSelect.onchange = function ()
 	{
-		//Ahmedabad
-		"Ahmedabad Outskirts":{
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Gandhinagar": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Mt. Abu": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Udaipur": {				
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Vadodara": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		//bengaluru
-		"Bengaluru Outskirts": {
-			"Premium": ["Royal Orchid Resort", "The Golden Palm Resorts"],
-			"Standard": ["Angsana Oasis Spa & Resort", "Clarks Exotica Resort and Spa", "Guhantara Resort", "Windflower Prakruthi Resort & Spa", "Barog Heights", "Forest Hill Golf & Country Club", "Nalagarh Fort", "Ramshehar Fort"],
-			"Economy": ["The Bharatgarh Fort"]
-		},
-		"Hassan": {
-			"Premium": ["Mallige Residency"],
-			"Standard": ["Mayura International Tanneeruhalla", "Hoysala Village Resort", "Southern Star Hassan", "The Ashhok Hassan"]
-		},
-		"Mysuru": {
-			"Luxury": ["Grand Mercure", "Orange County Resort", "Radisson Blu Plaza Hotel"],
-			"Premium": ["Country Inn & Suites", "Fortune JP Palace", "Laliths Mahal Palace Hotel", "Royal Orchid Brindavan Gardens", "Royal Orchid Metropole Hotel", "Sandesh The Prince", "The Windflower Resort & Spa"],
-			"Standard": ["Golden Landmark Resort", "Hotel Southern Star", "Hotel Pai Vista", "Indus Valley Ayurvedic Centre", "Silent Shores Resort & Spa", "The Atrium Boutique Hotel", "The Hotel Viceroy", "The President Hotel"],
-			"Economy": ["Anahata Healing Arts Centre", "The Village"]
-		},
-		"Nagarhole": {
-			"Luxury": ["Kuruba Safari Lodge", "JLR Kings Sanctuary"],
-			"Premium": ["The Serai Kabini", "Machaan Wilderness Lodge", "Regenta Kabini Spring Resort", "Red Earth", "Waterwoods Lodge Kabini"],
-			"Standard": ["Kaav Safari Lodge", "The Peepal Tree", "Kabini River Lodge", "Kabini Lake View Resort"],
-			"Boutique": ["The Bison Resort"],
-			"Economy": ["Jungle Inn"]
-		},
-		"Yelagiri": {
-			"Premium": ["Marrigold Ridge Sterling Holiday Resort"],
-			"Standard": ["Hotel Emerald Dove & Hotel Nigress", "La Flora Cloud 9 Resort", "Kumararraja Palace"],
-			"Economy": ["Hotel Hill Breeze Yelagiri", "Hotel Landmark"],
-			"Homestay": ["Yelagiri Farmhouse"]
-		},
-		//bhopal
-		"Bhopal Outskirts":{
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Indore": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Ujjain": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Panchmarhi": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		//bhubaneshwar
-		"Bhubaneshwar Outskirts":{
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Chilka": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Konark": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Puri": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Ratnagiri": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		//chandigarh
-		"Chandigarh Outskirts": {
-			"Premium": ["Golden Tulip", "Surya Villas", "Nalagarh Fort"],
-			"Standard": ["Aura Vaseela Resort", "Casbsa Lodge", "Kikar Lodge"],
-			"Economy": ["Shilhaandara Resort", "Bheemeshwar Adventure & Nature Camp", "Galibore Nature Camp"]
-		},
-		"Kasauli": {
-			"Premium": ["Baikunth Resort Kasauli", "Baba Resorts"],
-			"Standard": ["Kasauli Hillls Resort", "The Fern Surya Resort", "Kasauli Resort by Piccadily", "Alasia Hotel", "Hotel Sanawar View", "Fortune Select Forest Hill", "Kasauli Exotica", "Safarmaina Resort", "Kasauli Castle Resort", "Birds View Kasauli", "Kasauli Regency Hotel", "Winnies Holiday Resort & Spa", "Shivalik Hotel & Resorts"]
-		},
-		"Musoorie": {
-			"Luxury": ["Walnut Grove Resort and Spa", "Welcomhotel, The Savoy"],
-			"Premium": ["Jaypee Residency Manor", "Fortune Resort Grace", "Royal Orchid Fort Resort", "The Oasis Mussoorie", "Ramada by Wyndham", "Rokeby Manor"],
-			"Standard": ["Mosaic Mussoorie", "Hotel Sun N Snow", "Sterling Mussoorie", "The Fern Brentwood Resort", "Jharpani Castle", "Country Inn Premier Pacific Resort", "Hotel Vishnu Palace", "WelcomHeritage Kasmanda Palace", "Hotel Himayan Club", "Karma Vilas By Howard", "Ceyone Classic Fall Resort", "The India Big Bend"]
-		},
-		"Parwanoo": {
-			"Premium": ["Moksha Himalaya Spa Resort"],
-			"Standard": ["Timber Trail Heights and Terraces", "Timber Trail Resort", "Hotel Windsmoor", "Surya Rock Rose Resort"],
-			"Economy": ["Hotel Royal Regency", "Hotel Shivalik", "Hotel Park Inn"]
-		},
-		"Shimla": {
-			"Luxury": ["The Oberoi Cecil", "Radisson Jass", "Hotel Sunrise", "Hotel Chaman Palace", "Hotel Satyam Paradise"],
-			"Premium": ["Sterling Legacy", "Larisa Shimla", "Clarkes Hotel", "Summit Le Royale Hotel", "Hotel Willow Banks", "Koti Resort", "Hotel Marina", "Shimla Havens Resort", "East Bourne Resort & Spa"],
-			"Standard": ["Marigold Sarovar Portico", "The Zion Shimla", "Hotel Silverine", "Hotel The Alpine Heritage Residency", "Maharaja", "Ashiana Clarks Inn"]
-		},
-		//chennai
-		"Chennai Outskirts": {
-			"Luxury": ["Taj Fisherman's Cove Resort"],
-			"Premium": ["MGM Beach Resort", "Silver Sand Beach Resort"],
-			"Standard": ["The Green Coconut Resort", "Park Inn Beach Resort", "Country Club Jade Beach Resort", "Ilara Hotel & Spa", "Green Meadows Resort",  "Pleasant Days Resort", "VGP Golden Beach Resort"],
-			"Economy": ["Green Meadows Resort"]
-		},
-		"Mahabalipuram": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Puducherry": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		//indore
-		"Indore Outskirts":{
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Bhopal": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		//kolkata
-		"Kolkata Outskirts": {
-			"Luxury": ["Ganga Kutir", "The Amaya Resort", "Vedic Village"],
-			"Premium": ["Fortune Park", "The Ffort Raichak", "The Rajbari Bawali"],
-			"Standard": ["Country Roads", "Hotel Sonar Bangla", "Ibiza The Fern"],
-			"Boutique": ["Breathing Earth"]
-		},
-		"Digha": {
-			"Standard": ["Hotel Seagull"],
-			"Economy": ["Abhyagama Hotel", "Cygnett Inn", "Hotel Coral", "Hotel Daltin", "Hotel Green Gate", "Hotel Nest", "Hotel Sea Sand", "Piku's Inn", "The Beach View Hotel", "The Palm Resort"]
-		},
-		"Mandarmani": {
-			"Standard": ["Aqua Marine", "Hotel Sonar Bangla", "Suncity Resort", "The Candlewood Park Beach Resort"],
-			"Economy": ["Anutri Beach Resort", "Sea Star Spa Resort", "Sun N Sand Resort", "Viceroy Bech & Spa Resort", "Victoria Beach Resort"],
-			"Boutique": ["The Sana Beach Resort"]
-		},
-		"Shantiniketan": {
-			"Standard": ["Camelia Resort", "Hotel Royal Bengal"],
-			"Economy": ["Baul Sangee", "Club Central Hotel", "Chhuti Holiday Resort", "Mohor Kutir Resort", "Ram Shyam Village Resort", "Shantiniketan Residency", "The Ananda Resort", "The Cristallo Resort"]
-		},
-		"Sundarban": {
-			"Standard": ["Hotel Sonar Bangla", "Sundarban Tiger Camp"],
-			"Economy": ["Gramer Bari Eco Resort", "Royal Sindarban Wild Resort", "Solitary Nook Resort", "Sundarban Gateway Resort", "Sundarban Residency", "Sundarban Riverside Holiday Resort", "Sundarban Tiger Roar Resort", "Tora Eco Resort"]
-		},
-		//mumbai
-		"Mumbai Outskirts":{
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Alibaug": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Khandala": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Lavasa": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Lonavala": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Matheran": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Panvel": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		//nagpur
-		"Nagpur Outskirts":{
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Kanha": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Pench": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		//new delhi
-		"New Delhi Outskirts":{
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Agra": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Alwar": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Bharatpur": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Sariska": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		//thiruvananthapuram
-		"Thiruvananthapuram Outskirts":{
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Alleppey": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Kanyakumari": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Kollam": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Kovalam": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Kumarakom": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
-		},
-		"Poovar": {
-			"Luxury": [],
-			"Premium": [],
-			"Standard": [],
-			"Boutique": [],
-			"Economy": []
+		var c = zones[this.value];
+		destinationSelect.length = 1;
+		for (var i = 0; i < c.length; i++) {
+			destinationSelect.options[destinationSelect.options.length] = new Option(c[i], c[i]);
 		}
-	};
+	}
+	destinationSelect.onchange = function () {
+		var desLocs = 
+		{
+			"Alleppey" : "../../getaway/thiruvananthapuram/alleppey.html",
+			"Agra" : "../../getaway/newdelhi/agra.html",
+			"Gandhinagar" : "../../getaway/ahmedabad/gandhinagar.html",
+			"Udaipur" : "../../getaway/ahmedabad/udaipur.html",
+			"Vadodara" : "../../getaway/ahmedabad/vadodara.html",
+			"Kanha" : "../../getaway/nagpur/kanha.html",
+			"Kanyakumari" : "../../getaway/thiruvananthapuram/kanyakumari.html",
+			"Kollam" : "../../getaway/thiruvananthapuram/kollam.html",
+			"Kovalam" : "../../getaway/thiruvananthapuram/kovalam.html",
+			"Kumarakom" : "../../getaway/thiruvananthapuram/kumarakom.html",
+			"Mahabalipuram" : "../../getaway/chennai/mahabalipuram.html",
+			"Mysore" : "../../getaway/bengaluru/mysuru.html",
+			"Mt. Abu" : "../../getaway/ahmedabad/mtabu.html",
+			"Nagarhole" : "../../getaway/bengaluru/nagarhole.html",
+			"Pench" : "../../getaway/nagpur/pench.html",
+			"Mussoorie" : "../../getaway/chandigarh/mussoorie.html",
+			"Poovar" : "../../getaway/thiruvananthapuram/poovar.html",
+			"Puducherry" : "../../getaway/chennai/puducherry.html",
+			"Puri" : "../../getaway/bhubaneswar/puri.html",
+			"Sariska" : "../../getaway/newdelhi/sariska.html",
+			"Shimla" : "../../getaway/chandigarh/shimla.html",
+			"Yelagiri" : "../../getaway/bengaluru/yelagiri.html",
+			"Indore" : "../../getaway/bhopal/indore.html",
+			"Ujjain" : "../../getaway/bhopal/ujjain.html",
+			"Panchmarhi" : "../../getaway/bhopal/panchmarhi.html",
+			"Chilka" : "../../getaway/bhubaneswar/chilka.html",
+			"Konark" : "../../getaway/bhubaneswar/konark.html",
+			"Ratnagiri" : "../../getaway/bhubaneswar/ratnagiri.html",
+			"Kasauli" : "../../getaway/chandigarh/kasauli.html",
+			"Bhopal" : "../../getaway/indore/bhopal.html",
+			"Digha" : "../../getaway/kolkata/digha.html",
+			"Mandarmani" : "../../getaway/kolkata/mandarmani.html",
+			"Shantiniketan" : "../../getaway/kolkata/shantiniketan.html",
+			"Sundarban" : "../../getaway/kolkata/sundarbans.html",
+			"Alibaug" : "../../getaway/mumbai/alibaug.html",
+			"Khandala" : "../../getaway/mumbai/khandala.html",
+			"Lavasa" : "../../getaway/mumbai/lavasa.html",
+			"Lonavala" : "../../getaway/mumbai/lonavala.html",
+			"Matheran" : "../../getaway/mumbai/matheran.html",
+			"Panvel" : "../../getaway/mumbai/panvel.html",
+			"Alwar" : "../../getaway/newdelhi/alwar.html",
+			"Bharatpur" : "../../getaway/newdelhi/bharatpur.html",
+			"Hassan" : "../../getaway/bengaluru/hassan.html",
+			"Ahmedabad Outskirts" : "../../getaway/ahmedabad/outskirts-page.html",
+			"Bengaluru Outskirts" : "../../getaway/bengaluru/outskirts-page.html",
+			"Bhopal Outskirts" : "../../getaway/bhopal/outskirts-page.html",
+			"Bhubaneswar Outskirts" : "../../getaway/bhubaneswar/outskirts-page.html",
+			"Chandigarh Outskirts" : "../../getaway/chandigarh/outskirts-page.html",
+			"Chennai Outskirts" : "../../getaway/chennai/outskirts-page.html",
+			"Indore Outskirts" : "../../getaway/indore/outskirts-page.html",
+			"Kolkata Outskirts" : "../../getaway/kolkata/outskirts-page.html",
+			"Mumbai Outskirts" : "../../getaway/mumbai/outskirts-page.html",
+			"Nagpur Outskirts" : "../../getaway/nagpur/outskirts-page.html",
+			"New Delhi Outskirts" : "../../getaway/newdelhi/outskirts-page.html",
+			"Thiruvananthapuram Outskirts" : "../../getaway/thiruvananthapuram/outskirts-page.html"
+		}
+		var sel = document.getElementById("destination-name");
+		for (var x in desLocs)
+		{
+			if (sel.options[sel.selectedIndex].value == x)
+			{
+				window.location.assign(desLocs[x]);
+			}
+		}
+	}
+}
+
+function filterRPs() {
 	var zoneSelect = document.getElementById("zone-name");
 	var destinationSelect = document.getElementById("destination-name");
 	var typeSelect = document.getElementById("resort-type");
