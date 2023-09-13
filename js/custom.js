@@ -552,6 +552,8 @@ function closeSuiteCompare()
 {
 	document.getElementById("suite-compare-section").style.display = "none";
 }
+
+
 var zones = 
 {
 	"Altius": ["Mt. Abu", "Kasauli", "Khandala", "Lavasa", "Lonavla", "Matheran", "Mussoorie", "Panchmarhi", "Panvel", "Parwanoo", "Shimla", "Yellagiri"],
@@ -1050,91 +1052,6 @@ function filterRP() {
 	}
 }
 
-function desFilt() {
-	var zoneSelect = document.getElementById("zone-name");
-	var destinationSelect = document.getElementById("destination-name");
-	for (var x in zones)
-	{
-		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
-	}
-	zoneSelect.onchange = function ()
-	{
-		var c = zones[this.value];
-		destinationSelect.length = 1;
-		for (var i = 0; i < c.length; i++) {
-			destinationSelect.options[destinationSelect.options.length] = new Option(c[i], c[i]);
-		}
-	}
-	destinationSelect.onchange = function () {
-		var desLocs = 
-		{
-			"Alleppey" : "../../getaway/thiruvananthapuram/alleppey.html",
-			"Agra" : "../../getaway/newdelhi/agra.html",
-			"Gandhinagar" : "../../getaway/ahmedabad/gandhinagar.html",
-			"Udaipur" : "../../getaway/ahmedabad/udaipur.html",
-			"Vadodara" : "../../getaway/ahmedabad/vadodara.html",
-			"Kanha" : "../../getaway/nagpur/kanha.html",
-			"Kanyakumari" : "../../getaway/thiruvananthapuram/kanyakumari.html",
-			"Kollam" : "../../getaway/thiruvananthapuram/kollam.html",
-			"Kovalam" : "../../getaway/thiruvananthapuram/kovalam.html",
-			"Kumarakom" : "../../getaway/thiruvananthapuram/kumarakom.html",
-			"Mahabalipuram" : "../../getaway/chennai/mahabalipuram.html",
-			"Mysore" : "../../getaway/bengaluru/mysuru.html",
-			"Mt. Abu" : "../../getaway/ahmedabad/mtabu.html",
-			"Nagarhole" : "../../getaway/bengaluru/nagarhole.html",
-			"Pench" : "../../getaway/nagpur/pench.html",
-			"Mussoorie" : "../../getaway/chandigarh/mussoorie.html",
-			"Poovar" : "../../getaway/thiruvananthapuram/poovar.html",
-			"Puducherry" : "../../getaway/chennai/puducherry.html",
-			"Puri" : "../../getaway/bhubaneswar/puri.html",
-			"Sariska" : "../../getaway/newdelhi/sariska.html",
-			"Shimla" : "../../getaway/chandigarh/shimla.html",
-			"Yelagiri" : "../../getaway/bengaluru/yelagiri.html",
-			"Indore" : "../../getaway/bhopal/indore.html",
-			"Ujjain" : "../../getaway/bhopal/ujjain.html",
-			"Panchmarhi" : "../../getaway/bhopal/panchmarhi.html",
-			"Chilka" : "../../getaway/bhubaneswar/chilka.html",
-			"Konark" : "../../getaway/bhubaneswar/konark.html",
-			"Ratnagiri" : "../../getaway/bhubaneswar/ratnagiri.html",
-			"Kasauli" : "../../getaway/chandigarh/kasauli.html",
-			"Bhopal" : "../../getaway/indore/bhopal.html",
-			"Digha" : "../../getaway/kolkata/digha.html",
-			"Mandarmani" : "../../getaway/kolkata/mandarmani.html",
-			"Shantiniketan" : "../../getaway/kolkata/shantiniketan.html",
-			"Sundarban" : "../../getaway/kolkata/sundarbans.html",
-			"Alibaug" : "../../getaway/mumbai/alibaug.html",
-			"Khandala" : "../../getaway/mumbai/khandala.html",
-			"Lavasa" : "../../getaway/mumbai/lavasa.html",
-			"Lonavala" : "../../getaway/mumbai/lonavala.html",
-			"Matheran" : "../../getaway/mumbai/matheran.html",
-			"Panvel" : "../../getaway/mumbai/panvel.html",
-			"Alwar" : "../../getaway/newdelhi/alwar.html",
-			"Bharatpur" : "../../getaway/newdelhi/bharatpur.html",
-			"Hassan" : "../../getaway/bengaluru/hassan.html",
-			"Ahmedabad Outskirts" : "../../getaway/ahmedabad/outskirts-page.html",
-			"Bengaluru Outskirts" : "../../getaway/bengaluru/outskirts-page.html",
-			"Bhopal Outskirts" : "../../getaway/bhopal/outskirts-page.html",
-			"Bhubaneswar Outskirts" : "../../getaway/bhubaneswar/outskirts-page.html",
-			"Chandigarh Outskirts" : "../../getaway/chandigarh/outskirts-page.html",
-			"Chennai Outskirts" : "../../getaway/chennai/outskirts-page.html",
-			"Indore Outskirts" : "../../getaway/indore/outskirts-page.html",
-			"Kolkata Outskirts" : "../../getaway/kolkata/outskirts-page.html",
-			"Mumbai Outskirts" : "../../getaway/mumbai/outskirts-page.html",
-			"Nagpur Outskirts" : "../../getaway/nagpur/outskirts-page.html",
-			"New Delhi Outskirts" : "../../getaway/newdelhi/outskirts-page.html",
-			"Thiruvananthapuram Outskirts" : "../../getaway/thiruvananthapuram/outskirts-page.html"
-		}
-		var sel = document.getElementById("destination-name");
-		for (var x in desLocs)
-		{
-			if (sel.options[sel.selectedIndex].value == x)
-			{
-				window.location.assign(desLocs[x]);
-			}
-		}
-	}
-}
-
 function filterRPs() {
 	var zoneSelect = document.getElementById("zone-name");
 	var destinationSelect = document.getElementById("destination-name");
@@ -1242,6 +1159,91 @@ function filterRPs() {
 			if (sel.options[sel.selectedIndex].value == x)
 			{
 				window.location.assign(resLocs[x]);
+			}
+		}
+	}
+}
+
+function desFilt() {
+	var zoneSelect = document.getElementById("zone-name");
+	var destinationSelect = document.getElementById("destination-name");
+	for (var x in zones)
+	{
+		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
+	}
+	zoneSelect.onchange = function ()
+	{
+		var c = zones[this.value];
+		destinationSelect.length = 1;
+		for (var i = 0; i < c.length; i++) {
+			destinationSelect.options[destinationSelect.options.length] = new Option(c[i], c[i]);
+		}
+	}
+	destinationSelect.onchange = function () {
+		var desLocs = 
+		{
+			"Alleppey" : "../../getaway/thiruvananthapuram/alleppey.html",
+			"Agra" : "../../getaway/newdelhi/agra.html",
+			"Gandhinagar" : "../../getaway/ahmedabad/gandhinagar.html",
+			"Udaipur" : "../../getaway/ahmedabad/udaipur.html",
+			"Vadodara" : "../../getaway/ahmedabad/vadodara.html",
+			"Kanha" : "../../getaway/nagpur/kanha.html",
+			"Kanyakumari" : "../../getaway/thiruvananthapuram/kanyakumari.html",
+			"Kollam" : "../../getaway/thiruvananthapuram/kollam.html",
+			"Kovalam" : "../../getaway/thiruvananthapuram/kovalam.html",
+			"Kumarakom" : "../../getaway/thiruvananthapuram/kumarakom.html",
+			"Mahabalipuram" : "../../getaway/chennai/mahabalipuram.html",
+			"Mysore" : "../../getaway/bengaluru/mysuru.html",
+			"Mt. Abu" : "../../getaway/ahmedabad/mtabu.html",
+			"Nagarhole" : "../../getaway/bengaluru/nagarhole.html",
+			"Pench" : "../../getaway/nagpur/pench.html",
+			"Mussoorie" : "../../getaway/chandigarh/mussoorie.html",
+			"Poovar" : "../../getaway/thiruvananthapuram/poovar.html",
+			"Puducherry" : "../../getaway/chennai/puducherry.html",
+			"Puri" : "../../getaway/bhubaneswar/puri.html",
+			"Sariska" : "../../getaway/newdelhi/sariska.html",
+			"Shimla" : "../../getaway/chandigarh/shimla.html",
+			"Yelagiri" : "../../getaway/bengaluru/yelagiri.html",
+			"Indore" : "../../getaway/bhopal/indore.html",
+			"Ujjain" : "../../getaway/bhopal/ujjain.html",
+			"Panchmarhi" : "../../getaway/bhopal/panchmarhi.html",
+			"Chilka" : "../../getaway/bhubaneswar/chilka.html",
+			"Konark" : "../../getaway/bhubaneswar/konark.html",
+			"Ratnagiri" : "../../getaway/bhubaneswar/ratnagiri.html",
+			"Kasauli" : "../../getaway/chandigarh/kasauli.html",
+			"Bhopal" : "../../getaway/indore/bhopal.html",
+			"Digha" : "../../getaway/kolkata/digha.html",
+			"Mandarmani" : "../../getaway/kolkata/mandarmani.html",
+			"Shantiniketan" : "../../getaway/kolkata/shantiniketan.html",
+			"Sundarban" : "../../getaway/kolkata/sundarbans.html",
+			"Alibaug" : "../../getaway/mumbai/alibaug.html",
+			"Khandala" : "../../getaway/mumbai/khandala.html",
+			"Lavasa" : "../../getaway/mumbai/lavasa.html",
+			"Lonavala" : "../../getaway/mumbai/lonavala.html",
+			"Matheran" : "../../getaway/mumbai/matheran.html",
+			"Panvel" : "../../getaway/mumbai/panvel.html",
+			"Alwar" : "../../getaway/newdelhi/alwar.html",
+			"Bharatpur" : "../../getaway/newdelhi/bharatpur.html",
+			"Hassan" : "../../getaway/bengaluru/hassan.html",
+			"Ahmedabad Outskirts" : "../../getaway/ahmedabad/outskirts-page.html",
+			"Bengaluru Outskirts" : "../../getaway/bengaluru/outskirts-page.html",
+			"Bhopal Outskirts" : "../../getaway/bhopal/outskirts-page.html",
+			"Bhubaneswar Outskirts" : "../../getaway/bhubaneswar/outskirts-page.html",
+			"Chandigarh Outskirts" : "../../getaway/chandigarh/outskirts-page.html",
+			"Chennai Outskirts" : "../../getaway/chennai/outskirts-page.html",
+			"Indore Outskirts" : "../../getaway/indore/outskirts-page.html",
+			"Kolkata Outskirts" : "../../getaway/kolkata/outskirts-page.html",
+			"Mumbai Outskirts" : "../../getaway/mumbai/outskirts-page.html",
+			"Nagpur Outskirts" : "../../getaway/nagpur/outskirts-page.html",
+			"New Delhi Outskirts" : "../../getaway/newdelhi/outskirts-page.html",
+			"Thiruvananthapuram Outskirts" : "../../getaway/thiruvananthapuram/outskirts-page.html"
+		}
+		var sel = document.getElementById("destination-name");
+		for (var x in desLocs)
+		{
+			if (sel.options[sel.selectedIndex].value == x)
+			{
+				window.location.assign(desLocs[x]);
 			}
 		}
 	}
@@ -1831,6 +1833,650 @@ function interest()
 				"Chennai Outskirts":"#",
 				"Indore Outskirts":"#",
 				"Kolkata Outskirts":"properties/kolkata/outskirts/interest/wildlife.html",
+				"Mumbai Outskirts":"#",
+				"Nagpur Outskirts":"#",
+				"New Delhi Outskirts":"#",
+				"Thiruvananthapuram Outskirts":"#"
+			},
+			"Heritage":
+			{
+				"Agra":"#",
+				"Bhopal":"#",
+				"Gandhinagar":"#",
+				"Hassan":"#",
+				"Indore":"#",
+				"Konark":"#",
+				"Mysore":"#",
+				"Nagarhole":"#",
+				"Shantiniketan":"#",
+				"Udaipur":"#",
+				"Ujjain":"#",
+				"Vadodara":"#"
+			},
+			"Wildlife":
+			{
+				"Alwar":"#",
+				"Bharatpur":"#",
+				"Kanha":"#",
+				"Panchmarhi":"#",
+				"Pench":"#",
+				"Sariska":"#",
+				"Sundarban":"#"
+			}
+		}
+	}
+	for (var x in interests)
+	{
+		interestSel.options[interestSel.options.length] = new Option(x, x);
+	}
+	interestSel.onchange = function()
+	{
+		zoneSel.length = 1;
+		desSel.length = 1;
+		for (var y in interests[this.value])
+		{
+			zoneSel.options[zoneSel.options.length] = new Option(y, y);
+		}
+	}
+	zoneSel.onchange = function ()
+	{
+		desSel.length = 1;
+		for (var z in interests[interestSel.value][this.value])
+		{
+			desSel.options[desSel.options.length] = new Option(z, z);
+		}
+	}
+	desSel.onchange = function()
+	{
+		var a = interests[interestSel.value][zoneSel.value][this.value];
+		window.location.assign(a);
+	}
+}
+
+function interest2()
+{
+	var interestSel = document.getElementById("interest-name");
+	var zoneSel = document.getElementById("zone-name1");
+	var desSel = document.getElementById("destination-name1");
+	var interests = 
+	{
+		"Conference":
+		{
+			"Altius":
+			{
+				"Mt. Abu":"#",
+				"Kasauli":"#",
+				"Khandala":"#",
+				"Lavasa":"#",
+				"Lonavla":"#",
+				"Matheran":"#",
+				"Mussoorie":"#",
+				"Panchmarhi":"#",
+				"Panvel":"#",
+				"Parwanoo":"#",
+				"Shimla":"#",
+				"Yellagiri":"#"
+			},
+			"Beach":
+			{
+				"Alibaug":"#",
+				"Alleppey":"#",
+				"Chilka":"#",
+				"Digha":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kovalam":"#",
+				"Kumarakom":"#",
+				"Mahabalipuram":"#",
+				"Mandarmani":"#",
+				"Poovar":"#",
+				"Pudduchhery":"#",
+				"Puri":"#",
+				"Ratnagiri":"#",
+				"Varkala":"#"
+			},
+			"Cityscape":
+			{
+				"Ahmedabad Outskirts":"#",
+				"Bengaluru Outskirts":"#",
+				"Bhopal Outskirts":"#",
+				"Bhubaneshwar Outskirts":"#",
+				"Chandigarh Outskirts":"#",
+				"Chennai Outskirts":"#",
+				"Indore Outskirts":"#",
+				"Kolkata Outskirts":"../../../../properties/kolkata/outskirts/interest/conference.html",
+				"Mumbai Outskirts":"#",
+				"Nagpur Outskirts":"#",
+				"New Delhi Outskirts":"#",
+				"Thiruvananthapuram Outskirts":"#"
+			},
+			"Heritage":
+			{
+				"Agra":"#",
+				"Bhopal":"#",
+				"Gandhinagar":"#",
+				"Hassan":"#",
+				"Indore":"#",
+				"Konark":"#",
+				"Mysore":"#",
+				"Nagarhole":"#",
+				"Shantiniketan":"#",
+				"Udaipur":"#",
+				"Ujjain":"#",
+				"Vadodara":"#"
+			},
+			"Wildlife":
+			{
+				"Alwar":"#",
+				"Bharatpur":"#",
+				"Kanha":"#",
+				"Panchmarhi":"#",
+				"Pench":"#",
+				"Sariska":"#",
+				"Sundarban":"#"
+			}
+		},
+		"Gourmet":
+		{
+			"Altius":
+			{
+				"Mt. Abu":"#",
+				"Kasauli":"#",
+				"Khandala":"#",
+				"Lavasa":"#",
+				"Lonavla":"#",
+				"Matheran":"#",
+				"Mussoorie":"#",
+				"Panchmarhi":"#",
+				"Panvel":"#",
+				"Parwanoo":"#",
+				"Shimla":"#",
+				"Yellagiri":"#"
+			},
+			"Beach":
+			{
+				"Alibaug":"#",
+				"Alleppey":"#",
+				"Chilka":"#",
+				"Digha":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kovalam":"#",
+				"Kumarakom":"#",
+				"Mahabalipuram":"#",
+				"Mandarmani":"#",
+				"Poovar":"#",
+				"Pudduchhery":"#",
+				"Puri":"#",
+				"Ratnagiri":"#",
+				"Varkala":"#"
+			},
+			"Cityscape":
+			{
+				"Ahmedabad Outskirts":"#",
+				"Bengaluru Outskirts":"#",
+				"Bhopal Outskirts":"#",
+				"Bhubaneshwar Outskirts":"#",
+				"Chandigarh Outskirts":"#",
+				"Chennai Outskirts":"#",
+				"Indore Outskirts":"#",
+				"Kolkata Outskirts":"../../../../properties/kolkata/outskirts/interest/gourmet.html",
+				"Mumbai Outskirts":"#",
+				"Nagpur Outskirts":"#",
+				"New Delhi Outskirts":"#",
+				"Thiruvananthapuram Outskirts":"#"
+			},
+			"Heritage":
+			{
+				"Agra":"#",
+				"Bhopal":"#",
+				"Gandhinagar":"#",
+				"Hassan":"#",
+				"Indore":"#",
+				"Konark":"#",
+				"Mysore":"#",
+				"Nagarhole":"#",
+				"Shantiniketan":"#",
+				"Udaipur":"#",
+				"Ujjain":"#",
+				"Vadodara":"#"
+			},
+			"Wildlife":
+			{
+				"Alwar":"#",
+				"Bharatpur":"#",
+				"Kanha":"#",
+				"Panchmarhi":"#",
+				"Pench":"#",
+				"Sariska":"#",
+				"Sundarban":"#"
+			}
+		},
+		"Heritage":
+		{
+			"Altius":
+			{
+				"Mt. Abu":"#",
+				"Kasauli":"#",
+				"Khandala":"#",
+				"Lavasa":"#",
+				"Lonavla":"#",
+				"Matheran":"#",
+				"Mussoorie":"#",
+				"Panchmarhi":"#",
+				"Panvel":"#",
+				"Parwanoo":"#",
+				"Shimla":"#",
+				"Yellagiri":"#"
+			},
+			"Beach":
+			{
+				"Alibaug":"#",
+				"Alleppey":"#",
+				"Chilka":"#",
+				"Digha":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kovalam":"#",
+				"Kumarakom":"#",
+				"Mahabalipuram":"#",
+				"Mandarmani":"#",
+				"Poovar":"#",
+				"Pudduchhery":"#",
+				"Puri":"#",
+				"Ratnagiri":"#",
+				"Varkala":"#"
+			},
+			"Cityscape":
+			{
+				"Ahmedabad Outskirts":"#",
+				"Bengaluru Outskirts":"#",
+				"Bhopal Outskirts":"#",
+				"Bhubaneshwar Outskirts":"#",
+				"Chandigarh Outskirts":"#",
+				"Chennai Outskirts":"#",
+				"Indore Outskirts":"#",
+				"Kolkata Outskirts":"../../../../properties/kolkata/outskirts/interest/heritage.html",
+				"Mumbai Outskirts":"#",
+				"Nagpur Outskirts":"#",
+				"New Delhi Outskirts":"#",
+				"Thiruvananthapuram Outskirts":"#"
+			},
+			"Heritage":
+			{
+				"Agra":"#",
+				"Bhopal":"#",
+				"Gandhinagar":"#",
+				"Hassan":"#",
+				"Indore":"#",
+				"Konark":"#",
+				"Mysore":"#",
+				"Nagarhole":"#",
+				"Shantiniketan":"#",
+				"Udaipur":"#",
+				"Ujjain":"#",
+				"Vadodara":"#"
+			},
+			"Wildlife":
+			{
+				"Alwar":"#",
+				"Bharatpur":"#",
+				"Kanha":"#",
+				"Panchmarhi":"#",
+				"Pench":"#",
+				"Sariska":"#",
+				"Sundarban":"#"
+			}
+		},
+		"Honeymoon":
+		{
+			"Altius":
+			{
+				"Mt. Abu":"#",
+				"Kasauli":"#",
+				"Khandala":"#",
+				"Lavasa":"#",
+				"Lonavla":"#",
+				"Matheran":"#",
+				"Mussoorie":"#",
+				"Panchmarhi":"#",
+				"Panvel":"#",
+				"Parwanoo":"#",
+				"Shimla":"#",
+				"Yellagiri":"#"
+			},
+			"Beach":
+			{
+				"Alibaug":"#",
+				"Alleppey":"#",
+				"Chilka":"#",
+				"Digha":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kovalam":"#",
+				"Kumarakom":"#",
+				"Mahabalipuram":"#",
+				"Mandarmani":"#",
+				"Poovar":"#",
+				"Pudduchhery":"#",
+				"Puri":"#",
+				"Ratnagiri":"#",
+				"Varkala":"#"
+			},
+			"Cityscape":
+			{
+				"Ahmedabad Outskirts":"#",
+				"Bengaluru Outskirts":"#",
+				"Bhopal Outskirts":"#",
+				"Bhubaneshwar Outskirts":"#",
+				"Chandigarh Outskirts":"#",
+				"Chennai Outskirts":"#",
+				"Indore Outskirts":"#",
+				"Kolkata Outskirts":"../../../../properties/kolkata/outskirts/interest/honeymoon.html",
+				"Mumbai Outskirts":"#",
+				"Nagpur Outskirts":"#",
+				"New Delhi Outskirts":"#",
+				"Thiruvananthapuram Outskirts":"#"
+			},
+			"Heritage":
+			{
+				"Agra":"#",
+				"Bhopal":"#",
+				"Gandhinagar":"#",
+				"Hassan":"#",
+				"Indore":"#",
+				"Konark":"#",
+				"Mysore":"#",
+				"Nagarhole":"#",
+				"Shantiniketan":"#",
+				"Udaipur":"#",
+				"Ujjain":"#",
+				"Vadodara":"#"
+			},
+			"Wildlife":
+			{
+				"Alwar":"#",
+				"Bharatpur":"#",
+				"Kanha":"#",
+				"Panchmarhi":"#",
+				"Pench":"#",
+				"Sariska":"#",
+				"Sundarban":"#"
+			}
+		},
+		"Leisure":
+		{
+			"Altius":
+			{
+				"Mt. Abu":"#",
+				"Kasauli":"#",
+				"Khandala":"#",
+				"Lavasa":"#",
+				"Lonavla":"#",
+				"Matheran":"#",
+				"Mussoorie":"#",
+				"Panchmarhi":"#",
+				"Panvel":"#",
+				"Parwanoo":"#",
+				"Shimla":"#",
+				"Yellagiri":"#"
+			},
+			"Beach":
+			{
+				"Alibaug":"#",
+				"Alleppey":"#",
+				"Chilka":"#",
+				"Digha":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kovalam":"#",
+				"Kumarakom":"#",
+				"Mahabalipuram":"#",
+				"Mandarmani":"#",
+				"Poovar":"#",
+				"Pudduchhery":"#",
+				"Puri":"#",
+				"Ratnagiri":"#",
+				"Varkala":"#"
+			},
+			"Cityscape":
+			{
+				"Ahmedabad Outskirts":"#",
+				"Bengaluru Outskirts":"#",
+				"Bhopal Outskirts":"#",
+				"Bhubaneshwar Outskirts":"#",
+				"Chandigarh Outskirts":"#",
+				"Chennai Outskirts":"#",
+				"Indore Outskirts":"#",
+				"Kolkata Outskirts":"../../../../properties/kolkata/outskirts/interest/leisure.html",
+				"Mumbai Outskirts":"#",
+				"Nagpur Outskirts":"#",
+				"New Delhi Outskirts":"#",
+				"Thiruvananthapuram Outskirts":"#"
+			},
+			"Heritage":
+			{
+				"Agra":"#",
+				"Bhopal":"#",
+				"Gandhinagar":"#",
+				"Hassan":"#",
+				"Indore":"#",
+				"Konark":"#",
+				"Mysore":"#",
+				"Nagarhole":"#",
+				"Shantiniketan":"#",
+				"Udaipur":"#",
+				"Ujjain":"#",
+				"Vadodara":"#"
+			},
+			"Wildlife":
+			{
+				"Alwar":"#",
+				"Bharatpur":"#",
+				"Kanha":"#",
+				"Panchmarhi":"#",
+				"Pench":"#",
+				"Sariska":"#",
+				"Sundarban":"#"
+			}
+		},
+		"Wedding":
+		{
+			"Altius":
+			{
+				"Mt. Abu":"#",
+				"Kasauli":"#",
+				"Khandala":"#",
+				"Lavasa":"#",
+				"Lonavla":"#",
+				"Matheran":"#",
+				"Mussoorie":"#",
+				"Panchmarhi":"#",
+				"Panvel":"#",
+				"Parwanoo":"#",
+				"Shimla":"#",
+				"Yellagiri":"#"
+			},
+			"Beach":
+			{
+				"Alibaug":"#",
+				"Alleppey":"#",
+				"Chilka":"#",
+				"Digha":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kovalam":"#",
+				"Kumarakom":"#",
+				"Mahabalipuram":"#",
+				"Mandarmani":"#",
+				"Poovar":"#",
+				"Pudduchhery":"#",
+				"Puri":"#",
+				"Ratnagiri":"#",
+				"Varkala":"#"
+			},
+			"Cityscape":
+			{
+				"Ahmedabad Outskirts":"#",
+				"Bengaluru Outskirts":"#",
+				"Bhopal Outskirts":"#",
+				"Bhubaneshwar Outskirts":"#",
+				"Chandigarh Outskirts":"#",
+				"Chennai Outskirts":"#",
+				"Indore Outskirts":"#",
+				"Kolkata Outskirts":"../../../../properties/kolkata/outskirts/interest/wedding.html",
+				"Mumbai Outskirts":"#",
+				"Nagpur Outskirts":"#",
+				"New Delhi Outskirts":"#",
+				"Thiruvananthapuram Outskirts":"#"
+			},
+			"Heritage":
+			{
+				"Agra":"#",
+				"Bhopal":"#",
+				"Gandhinagar":"#",
+				"Hassan":"#",
+				"Indore":"#",
+				"Konark":"#",
+				"Mysore":"#",
+				"Nagarhole":"#",
+				"Shantiniketan":"#",
+				"Udaipur":"#",
+				"Ujjain":"#",
+				"Vadodara":"#"
+			},
+			"Wildlife":
+			{
+				"Alwar":"#",
+				"Bharatpur":"#",
+				"Kanha":"#",
+				"Panchmarhi":"#",
+				"Pench":"#",
+				"Sariska":"#",
+				"Sundarban":"#"
+			}
+		},
+		"Wellness":
+		{
+			"Altius":
+			{
+				"Mt. Abu":"#",
+				"Kasauli":"#",
+				"Khandala":"#",
+				"Lavasa":"#",
+				"Lonavla":"#",
+				"Matheran":"#",
+				"Mussoorie":"#",
+				"Panchmarhi":"#",
+				"Panvel":"#",
+				"Parwanoo":"#",
+				"Shimla":"#",
+				"Yellagiri":"#"
+			},
+			"Beach":
+			{
+				"Alibaug":"#",
+				"Alleppey":"#",
+				"Chilka":"#",
+				"Digha":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kovalam":"#",
+				"Kumarakom":"#",
+				"Mahabalipuram":"#",
+				"Mandarmani":"#",
+				"Poovar":"#",
+				"Pudduchhery":"#",
+				"Puri":"#",
+				"Ratnagiri":"#",
+				"Varkala":"#"
+			},
+			"Cityscape":
+			{
+				"Ahmedabad Outskirts":"#",
+				"Bengaluru Outskirts":"#",
+				"Bhopal Outskirts":"#",
+				"Bhubaneshwar Outskirts":"#",
+				"Chandigarh Outskirts":"#",
+				"Chennai Outskirts":"#",
+				"Indore Outskirts":"#",
+				"Kolkata Outskirts":"../../../../properties/kolkata/outskirts/interest/wellness.html",
+				"Mumbai Outskirts":"#",
+				"Nagpur Outskirts":"#",
+				"New Delhi Outskirts":"#",
+				"Thiruvananthapuram Outskirts":"#"
+			},
+			"Heritage":
+			{
+				"Agra":"#",
+				"Bhopal":"#",
+				"Gandhinagar":"#",
+				"Hassan":"#",
+				"Indore":"#",
+				"Konark":"#",
+				"Mysore":"#",
+				"Nagarhole":"#",
+				"Shantiniketan":"#",
+				"Udaipur":"#",
+				"Ujjain":"#",
+				"Vadodara":"#"
+			},
+			"Wildlife":
+			{
+				"Alwar":"#",
+				"Bharatpur":"#",
+				"Kanha":"#",
+				"Panchmarhi":"#",
+				"Pench":"#",
+				"Sariska":"#",
+				"Sundarban":"#"
+			}
+		},
+		"Wildlife":
+		{
+			"Altius":
+			{
+				"Mt. Abu":"#",
+				"Kasauli":"#",
+				"Khandala":"#",
+				"Lavasa":"#",
+				"Lonavla":"#",
+				"Matheran":"#",
+				"Mussoorie":"#",
+				"Panchmarhi":"#",
+				"Panvel":"#",
+				"Parwanoo":"#",
+				"Shimla":"#",
+				"Yellagiri":"#"
+			},
+			"Beach":
+			{
+				"Alibaug":"#",
+				"Alleppey":"#",
+				"Chilka":"#",
+				"Digha":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kovalam":"#",
+				"Kumarakom":"#",
+				"Mahabalipuram":"#",
+				"Mandarmani":"#",
+				"Poovar":"#",
+				"Pudduchhery":"#",
+				"Puri":"#",
+				"Ratnagiri":"#",
+				"Varkala":"#"
+			},
+			"Cityscape":
+			{
+				"Ahmedabad Outskirts":"#",
+				"Bengaluru Outskirts":"#",
+				"Bhopal Outskirts":"#",
+				"Bhubaneshwar Outskirts":"#",
+				"Chandigarh Outskirts":"#",
+				"Chennai Outskirts":"#",
+				"Indore Outskirts":"#",
+				"Kolkata Outskirts":"../../../../properties/kolkata/outskirts/interest/wildlife.html",
 				"Mumbai Outskirts":"#",
 				"Nagpur Outskirts":"#",
 				"New Delhi Outskirts":"#",
