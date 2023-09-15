@@ -344,7 +344,7 @@
     .x-margin 
     {
         border: 1px solid gray;
-        border-radius: 10px;
+        border-radius: 5px;
         padding: 5px;
     }
     .x-margin h3

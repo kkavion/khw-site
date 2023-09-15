@@ -56,7 +56,7 @@
 		margin:10,
 		nav:true,
 		autoplay:true,
-		autoplayTimeout:5000,
+		autoplayTimeout:8000,
 		autoplayHoverPause:true,
 		animateOut:false,
 		animateIn:false,
@@ -365,8 +365,8 @@
 
 	$('.slide').carousel(
 		{
-			interval: 0,
-			ride: false,
+			interval: 8000,
+			ride: true,
 			wrap: true,
 		}
 	)

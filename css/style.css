@@ -141,7 +141,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: black;
      font-weight: 400;
      font-family: 'Oxygen', sans-serif;
-     line-height: 20px;
+     line-height: 22px;
 }
  h1, h2, h3, h4, h5, h6 {
      margin: 0 0 0;
@@ -1802,7 +1802,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .section-title-version-2-white p, .section-title-version-2-black p {
      color: black;
-     font-size: 15px;
+     font-size: 16px;
      padding: 10px;
      width: 70%;
      margin: 15px auto;
@@ -2602,7 +2602,11 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 /*===================================================== 29.why choose travelser section css goes here =======================================================*/
  .choose-trabble-version-2 {
-     background: #f4f4f4;
+     background: ;
+}
+.choose-trabble-version-2 .pt-50
+{
+    margin: 12% 0;
 }
  .choose-trabble-version-2 .single-travel {
      margin-bottom: 30px;
@@ -2636,7 +2640,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .choose-trabble-version-2 .ImageBackground__holder {
      background-repeat: no-repeat;
-     background-size: cover;
+     background-size: contain;
      height: 100%;
      left: 100%;
      position: absolute;
@@ -2669,6 +2673,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .choose-trabble-version-2 .ImageBlock {
      position: relative;
+     height: 400px;
 }
  .choose-trabble-version-2 .ImageBlock__image {
      position: absolute;
@@ -3939,7 +3944,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .related-tour .single-package {
      margin-bottom: 0 !important;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-     border-radius: 10px;
+     border-radius: 5px;
      margin: 5px;
      background-color: white;
 }
@@ -4632,8 +4637,8 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .top-destination-area-5 .single-destionation-5 {
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
      transition: all ease-in-out 0.5s;
-     border-radius: 10px;
-     margin-bottom: 30px;
+     border-radius: 5px;
+     margin-bottom: 25px;
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-image {
      overflow: hidden;

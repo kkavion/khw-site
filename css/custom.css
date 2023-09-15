@@ -216,7 +216,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .sec1 div
 {
      display: flex;
-     margin: 5px 15px;
+     margin: 5px 15px 5px 20px;
      padding: 0;
 }
 .fact-file p
@@ -304,6 +304,12 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
 	box-shadow: 0 0 5px;
 }
+.timeline-content p
+{
+     font-size: 16px;
+     font-weight: normal;
+     line-height: 1.5;
+}
 .header-bottom-area .tab-a li:hover a,
 .header-bottom-area .tab-c li:hover a,
 .header-bottom-area .tab-d li:hover a,
@@ -384,7 +390,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
 	text-align:center;
 	padding: 10px;
-	margin-top: 10px;
+	margin-top: ;
 }
 .header-bottom-area .tab-b > li > a {
      display: block;
@@ -415,7 +421,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
      display: inline-block;
      position: relative;
      border: 1px solid lightgray;
-     border-radius: 10px;
+     border-radius: 5px;
      margin: 3px 0;
      transition: all ease-in 0.3s;
      padding: 0;
@@ -449,7 +455,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
      position: relative;
      border: 1px solid lightgray;
      margin: 1px;
-     border-radius: 10px;
+     border-radius: 5px;
      padding: 0;
 }
 .header-bottom-area .tab-c
@@ -484,7 +490,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
      border: 1px solid lightgray;
      background: white;
      margin: 1px;
-     border-radius: 10px;
+     border-radius: 5px;
 }
 .header-bottom-area .tab-d
 {
@@ -561,7 +567,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .demo
 {
-	margin-top: 0;
+	margin-top: 25px;
 }
 .demo img
 {
@@ -588,8 +594,8 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .discount-package
 {
-     margin-top: 40px;
-     margin-bottom: 40px;
+     margin-top: 25px;
+     margin-bottom: 50px;
 }
 .top-destination-area .single-hotels
 {
@@ -839,11 +845,6 @@ i
 {
      font-family: 'Merriweather', sans-serif;
      font-size: 18px;
-}
-.resorts-bg i
-{
-     font-size: 16px;
-     font-weight: 300;
 }
 .resort-table i
 {
@@ -1095,8 +1096,8 @@ button
      height: 31px;
      background: red;
      position: relative;
-     -moz-border-radius: 10px;
-     -webkit-border-radius: 10px;
+     -moz-border-radius: 5px;
+     -webkit-border-radius: 5px;
      border-radius: 5px;
      margin: 0;
      transition: all 0.3s ease-in-out;
@@ -1141,7 +1142,7 @@ button
      font-size: 15px;
      float: right;
      padding: 6px;
-     border-radius: 10px;
+     border-radius: 5px;
      position: relative;
      top: 1px;
      color: #fb6a00;
@@ -1338,10 +1339,22 @@ button
 {
      padding: 1px 15px;
 }
+.single-package-details p
+{
+     font-size: 16px;
+     font-weight: normal;
+     line-height: 24px;
+     text-align: justify;
+}
+.single-package-details p i
+{
+     font-size: 20px;
+     color: #fb6a00;
+}
 .gsc-control-cse
 {
      margin: 150px 300px;
-     border-radius: 10px;
+     border-radius: 5px;
 }
 .gsc-control-cse button
 {
@@ -1580,7 +1593,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      bottom: 90px;
      position: fixed;
      left: 0.5%;
-     z-index: 10;
+     z-index: 34;
    }
    .sbutton {
      display: block;
@@ -1693,7 +1706,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .timeline .carousel, .timeline .carousel-inner
 {
-     border-radius: 10px;
+     border-radius: 5px;
      box-shadow: 0 0 3px gray;
 }
 .top-destination-area .search-btn button
@@ -1845,7 +1858,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .faq-section
 {
-     padding-bottom: 50px;
+     padding-bottom: 25px;
 }
 .day-out, .offer-tab
 {
@@ -1881,7 +1894,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .sale-tab-2 .carousel, .resort-rooms .carousel, .day-out .carousel, .offer-tab .carousel
 {
-     border-radius: 10px;
+     border-radius: 5px;
      box-shadow: 0 0 3px gray;
 }
 .sale-tab-2 .timeline-content .box,
@@ -1908,7 +1921,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .resort-rooms .terms-sec
 {
      background: white;
-     border-radius: 10px;
+     border-radius: 5px;
 }
 .terms-sec
 {
@@ -1946,7 +1959,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .resorts-bg .top-destination-area-5
 {
      margin-top: -20px;
-     padding-bottom: 50px;
+     padding-bottom: 25px;
 }
 .savour-sec
 {
@@ -1956,13 +1969,13 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      text-align: center;
      border: none;
-     border-radius: 10px;
+     border-radius: 5px;
      background: none;
      padding-bottom: 15px;
 }
 .resorts-bg .visit-site span
 {
-     color: black;
+     color: white;
 }
 .rate-pg .resort-table, .conf-rate-pg .resort-table, .rate-pg .resort-table
 {
@@ -2076,7 +2089,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .room-rate
 {
      padding: 5px;
-     border-radius: 10px;
+     border-radius: 5px;
      border: 1px solid gray;
      display: inline-block;
      cursor: pointer;
@@ -2089,7 +2102,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 iframe
 {
      border: 1px solid lightgray;
-     border-radius: 10px;
+     border-radius: 5px;
      width: 100%;
 }
 .blog-comments
@@ -2241,7 +2254,7 @@ iframe
 {
      position: fixed;
      bottom: 90px;
-     right: -98px;
+     right: -87px;
      z-index: 10;
      transition: all ease-in-out 0.3s;
 }
@@ -2257,7 +2270,6 @@ iframe
      text-align: center;
      cursor: pointer;
      font-size: 18px;
-     text-transform: uppercase;
      border-radius: 5px 0 0 5px;
 }
 .compare-btn i
@@ -2274,7 +2286,7 @@ iframe
 {
      background: white;
      font-size: 15px;
-     border-radius: 10px;
+     border-radius: 5px;
 }
 #compare-section .row, #room-compare-section .row, #villa-compare-section .row, #suite-compare-section .row
 {
@@ -2406,7 +2418,7 @@ iframe
 {
      position: fixed;
      bottom: 40px;
-     right: -105px;
+     right: -87px;
      z-index: 10;
      transition: all ease-in-out 0.3s;
 }
@@ -2422,7 +2434,6 @@ iframe
      text-align: center;
      cursor: pointer;
      font-size: 18px;
-     text-transform: uppercase;
      border-radius: 5px 0 0 5px;
 }
 .calendar-sec i
@@ -2633,7 +2644,7 @@ iframe
 }
 h1, h2, h3, h4, h5, h6
 {
-     font-weight: 900;
+     font-weight: 700;
      font-style: italic;
 }
 .slider-area-2 h3
@@ -2685,10 +2696,11 @@ h1, h2, h3, h4, h5, h6
 .ital-text
 {
      font-weight: 300;
-     font-size: 16px;
+     font-size: 17px;
      width: 90%;
      margin: auto;
      display: block;
+     line-height: 1.5;
 }
 .material-icons
 {
@@ -2714,7 +2726,7 @@ h1, h2, h3, h4, h5, h6
 }
 #myModal2 .modal-body img
 {
-     border-radius: 10px;
+     border-radius: 5px;
 }
 @font-face
 {
@@ -2791,7 +2803,6 @@ h1, h2, h3, h4, h5, h6
 }
 #interest-slide .carousel-inner
 {
-     width: 90%;
      margin: auto;
      border-radius: 0;
 }
@@ -2812,9 +2823,13 @@ h1, h2, h3, h4, h5, h6
 {
      font-size: 70px;
 }
+#interest-slide .carousel-inner img
+{
+     border-radius: 5px;
+}
 .destination-bg .resort-tab
 {
-     margin-top: 25px;
+     margin-top: 0;
 }
 .offers .container:not(:first-child)
 {
@@ -2822,7 +2837,7 @@ h1, h2, h3, h4, h5, h6
 }
 .must-visit
 {
-     margin-top: 15px;
+     margin-top: 25px;
 }
 .must-visit h3
 {
