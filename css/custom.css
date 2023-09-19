@@ -1889,8 +1889,6 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .resorts-bg .resort-table .row:nth-child(2) .col-md-3
 {
      font-size: 15px;
-     text-align: right;
-     border-left: 1px solid #d0d0d0;
 }
 .sale-tab-2 .carousel, .resort-rooms .carousel, .day-out .carousel, .offer-tab .carousel
 {
@@ -1958,8 +1956,8 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .resorts-bg .top-destination-area-5
 {
-     margin-top: -20px;
-     padding-bottom: 25px;
+     margin-top: -25px;
+     padding-bottom: 0;
 }
 .savour-sec
 {
