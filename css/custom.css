@@ -304,6 +304,10 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
 	box-shadow: 0 0 5px;
 }
+#conference .timeline:last-child .resort-box
+{
+     margin-bottom: 0;
+}
 .timeline-content p
 {
      font-size: 16px;
@@ -390,7 +394,6 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
 	text-align:center;
 	padding: 10px;
-	margin-top: ;
 }
 .header-bottom-area .tab-b > li > a {
      display: block;
@@ -400,7 +403,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
      font-weight: 500;
      position: relative;
      text-align:center;
-     padding: 10px 30px;
+     padding: 10px 20px;
 }
 .header-bottom-area .tab-b > li.active a {
      color:   white !important;
@@ -422,7 +425,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
      position: relative;
      border: 1px solid lightgray;
      border-radius: 5px;
-     margin: 3px 0;
+     margin: 1px;
      transition: all ease-in 0.3s;
      padding: 0;
 }
@@ -2835,7 +2838,7 @@ h1, h2, h3, h4, h5, h6
 }
 .must-visit
 {
-     margin-top: 25px;
+     margin-top: 50px;
 }
 .must-visit h3
 {
