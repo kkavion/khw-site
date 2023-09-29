@@ -557,7 +557,8 @@ function closeSuiteCompare()
 var zones = 
 {
 	"Altius": ["Mt. Abu", "Kasauli", "Khandala", "Lavasa", "Lonavla", "Matheran", "Mussoorie", "Panchmarhi", "Panvel", "Parwanoo", "Shimla", "Yellagiri"],
-	"Beach": ["Alibaug", "Alleppey", "Chilka", "Digha", "Kanyakumari", "Kollam", "Kovalam", "Kumarakom", "Mahabalipuram", "Mandarmani", "Poovar", "Pudduchhery", "Puri", "Ratnagiri", "Varkala"],
+	"Backwater":["Alleppey", "Kanyakumari", "Kollam", "Kumarakom", "Poovar", "Varkala"],
+	"Beach": ["Alibaug", "Chilka", "Digha", "Kovalam", "Mahabalipuram", "Mandarmani", "Pudduchhery", "Puri", "Ratnagiri"],
 	"Outskirts": ["Ahmedabad Outskirts", "Bengaluru Outskirts", "Bhopal Outskirts", "Bhubaneshwar Outskirts", "Chandigarh Outskirts", "Chennai Outskirts", "Indore Outskirts",
 		"Kolkata Outskirts", "Mumbai Outskirts", "Nagpur Outskirts", "New Delhi Outskirts", "Thiruvananthapuram Outskirts"],
 	"Heritage": ["Agra", "Bhopal", "Gandhinagar", "Hassan", "Indore", "Konark", "Mysore", "Nagarhole", "Shantiniketan", "Udaipur", "Ujjain", "Vadodara"],
@@ -1273,25 +1274,28 @@ function interest()
 				"Shimla":"#",
 				"Yellagiri":"#"
 			},
+			"Backwater":
+			{
+				"Alleppey":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kumarakom":"#",
+				"Poovar":"#",
+				"Varkala":"#",
+			},
 			"Beach":
 			{
 				"Alibaug":"#",
-				"Alleppey":"#",
 				"Chilka":"#",
 				"Digha":"#",
-				"Kanyakumari":"#",
-				"Kollam":"#",
 				"Kovalam":"#",
-				"Kumarakom":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Poovar":"#",
 				"Pudduchhery":"#",
 				"Puri":"#",
-				"Ratnagiri":"#",
-				"Varkala":"#"
+				"Ratnagiri":"#"
 			},
-			"Cityscape":
+			"Out":
 			{
 				"Ahmedabad Outskirts":"#",
 				"Bengaluru Outskirts":"#",
@@ -1349,25 +1353,28 @@ function interest()
 				"Shimla":"#",
 				"Yellagiri":"#"
 			},
+			"Backwater":
+			{
+				"Alleppey":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kumarakom":"#",
+				"Poovar":"#",
+				"Varkala":"#",
+			},
 			"Beach":
 			{
 				"Alibaug":"#",
-				"Alleppey":"#",
 				"Chilka":"#",
 				"Digha":"#",
-				"Kanyakumari":"#",
-				"Kollam":"#",
 				"Kovalam":"#",
-				"Kumarakom":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Poovar":"#",
 				"Pudduchhery":"#",
 				"Puri":"#",
-				"Ratnagiri":"#",
-				"Varkala":"#"
+				"Ratnagiri":"#"
 			},
-			"Cityscape":
+			"Outskirt":
 			{
 				"Ahmedabad Outskirts":"#",
 				"Bengaluru Outskirts":"#",
@@ -1425,25 +1432,28 @@ function interest()
 				"Shimla":"#",
 				"Yellagiri":"#"
 			},
+			"Backwater":
+			{
+				"Alleppey":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kumarakom":"#",
+				"Poovar":"#",
+				"Varkala":"#",
+			},
 			"Beach":
 			{
 				"Alibaug":"#",
-				"Alleppey":"#",
 				"Chilka":"#",
 				"Digha":"#",
-				"Kanyakumari":"#",
-				"Kollam":"#",
 				"Kovalam":"#",
-				"Kumarakom":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Poovar":"#",
 				"Pudduchhery":"#",
 				"Puri":"#",
-				"Ratnagiri":"#",
-				"Varkala":"#"
+				"Ratnagiri":"#"
 			},
-			"Cityscape":
+			"Outskirt":
 			{
 				"Ahmedabad Outskirts":"#",
 				"Bengaluru Outskirts":"#",
@@ -1501,25 +1511,28 @@ function interest()
 				"Shimla":"#",
 				"Yellagiri":"#"
 			},
+			"Backwater":
+			{
+				"Alleppey":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kumarakom":"#",
+				"Poovar":"#",
+				"Varkala":"#",
+			},
 			"Beach":
 			{
 				"Alibaug":"#",
-				"Alleppey":"#",
 				"Chilka":"#",
 				"Digha":"#",
-				"Kanyakumari":"#",
-				"Kollam":"#",
 				"Kovalam":"#",
-				"Kumarakom":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Poovar":"#",
 				"Pudduchhery":"#",
 				"Puri":"#",
-				"Ratnagiri":"#",
-				"Varkala":"#"
+				"Ratnagiri":"#"
 			},
-			"Cityscape":
+			"Outskirt":
 			{
 				"Ahmedabad Outskirts":"#",
 				"Bengaluru Outskirts":"#",
@@ -1577,25 +1590,28 @@ function interest()
 				"Shimla":"#",
 				"Yellagiri":"#"
 			},
+			"Backwater":
+			{
+				"Alleppey":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kumarakom":"#",
+				"Poovar":"#",
+				"Varkala":"#",
+			},
 			"Beach":
 			{
 				"Alibaug":"#",
-				"Alleppey":"#",
 				"Chilka":"#",
 				"Digha":"#",
-				"Kanyakumari":"#",
-				"Kollam":"#",
 				"Kovalam":"#",
-				"Kumarakom":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Poovar":"#",
 				"Pudduchhery":"#",
 				"Puri":"#",
-				"Ratnagiri":"#",
-				"Varkala":"#"
+				"Ratnagiri":"#"
 			},
-			"Cityscape":
+			"Outskirt":
 			{
 				"Ahmedabad Outskirts":"#",
 				"Bengaluru Outskirts":"#",
@@ -1653,25 +1669,28 @@ function interest()
 				"Shimla":"#",
 				"Yellagiri":"#"
 			},
+			"Backwater":
+			{
+				"Alleppey":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kumarakom":"#",
+				"Poovar":"#",
+				"Varkala":"#",
+			},
 			"Beach":
 			{
 				"Alibaug":"#",
-				"Alleppey":"#",
 				"Chilka":"#",
 				"Digha":"#",
-				"Kanyakumari":"#",
-				"Kollam":"#",
 				"Kovalam":"#",
-				"Kumarakom":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Poovar":"#",
 				"Pudduchhery":"#",
 				"Puri":"#",
-				"Ratnagiri":"#",
-				"Varkala":"#"
+				"Ratnagiri":"#"
 			},
-			"Cityscape":
+			"Outskirt":
 			{
 				"Ahmedabad Outskirts":"#",
 				"Bengaluru Outskirts":"#",
@@ -1729,25 +1748,28 @@ function interest()
 				"Shimla":"#",
 				"Yellagiri":"#"
 			},
+			"Backwater":
+			{
+				"Alleppey":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kumarakom":"#",
+				"Poovar":"#",
+				"Varkala":"#",
+			},
 			"Beach":
 			{
 				"Alibaug":"#",
-				"Alleppey":"#",
 				"Chilka":"#",
 				"Digha":"#",
-				"Kanyakumari":"#",
-				"Kollam":"#",
 				"Kovalam":"#",
-				"Kumarakom":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Poovar":"#",
 				"Pudduchhery":"#",
 				"Puri":"#",
-				"Ratnagiri":"#",
-				"Varkala":"#"
+				"Ratnagiri":"#"
 			},
-			"Cityscape":
+			"Outskirt":
 			{
 				"Ahmedabad Outskirts":"#",
 				"Bengaluru Outskirts":"#",
@@ -1805,25 +1827,28 @@ function interest()
 				"Shimla":"#",
 				"Yellagiri":"#"
 			},
+			"Backwater":
+			{
+				"Alleppey":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kumarakom":"#",
+				"Poovar":"#",
+				"Varkala":"#",
+			},
 			"Beach":
 			{
 				"Alibaug":"#",
-				"Alleppey":"#",
 				"Chilka":"#",
 				"Digha":"#",
-				"Kanyakumari":"#",
-				"Kollam":"#",
 				"Kovalam":"#",
-				"Kumarakom":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Poovar":"#",
 				"Pudduchhery":"#",
 				"Puri":"#",
-				"Ratnagiri":"#",
-				"Varkala":"#"
+				"Ratnagiri":"#"
 			},
-			"Cityscape":
+			"Outskirt":
 			{
 				"Ahmedabad Outskirts":"#",
 				"Bengaluru Outskirts":"#",
@@ -1917,25 +1942,28 @@ function interest2()
 				"Shimla":"#",
 				"Yellagiri":"#"
 			},
+			"Backwater":
+			{
+				"Alleppey":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kumarakom":"#",
+				"Poovar":"#",
+				"Varkala":"#",
+			},
 			"Beach":
 			{
 				"Alibaug":"#",
-				"Alleppey":"#",
 				"Chilka":"#",
 				"Digha":"#",
-				"Kanyakumari":"#",
-				"Kollam":"#",
 				"Kovalam":"#",
-				"Kumarakom":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Poovar":"#",
 				"Pudduchhery":"#",
 				"Puri":"#",
-				"Ratnagiri":"#",
-				"Varkala":"#"
+				"Ratnagiri":"#"
 			},
-			"Cityscape":
+			"Outskirt":
 			{
 				"Ahmedabad Outskirts":"#",
 				"Bengaluru Outskirts":"#",
@@ -1993,25 +2021,28 @@ function interest2()
 				"Shimla":"#",
 				"Yellagiri":"#"
 			},
+			"Backwater":
+			{
+				"Alleppey":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kumarakom":"#",
+				"Poovar":"#",
+				"Varkala":"#",
+			},
 			"Beach":
 			{
 				"Alibaug":"#",
-				"Alleppey":"#",
 				"Chilka":"#",
 				"Digha":"#",
-				"Kanyakumari":"#",
-				"Kollam":"#",
 				"Kovalam":"#",
-				"Kumarakom":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Poovar":"#",
 				"Pudduchhery":"#",
 				"Puri":"#",
-				"Ratnagiri":"#",
-				"Varkala":"#"
+				"Ratnagiri":"#"
 			},
-			"Cityscape":
+			"Outskirt":
 			{
 				"Ahmedabad Outskirts":"#",
 				"Bengaluru Outskirts":"#",
@@ -2069,25 +2100,28 @@ function interest2()
 				"Shimla":"#",
 				"Yellagiri":"#"
 			},
+			"Backwater":
+			{
+				"Alleppey":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kumarakom":"#",
+				"Poovar":"#",
+				"Varkala":"#",
+			},
 			"Beach":
 			{
 				"Alibaug":"#",
-				"Alleppey":"#",
 				"Chilka":"#",
 				"Digha":"#",
-				"Kanyakumari":"#",
-				"Kollam":"#",
 				"Kovalam":"#",
-				"Kumarakom":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Poovar":"#",
 				"Pudduchhery":"#",
 				"Puri":"#",
-				"Ratnagiri":"#",
-				"Varkala":"#"
+				"Ratnagiri":"#"
 			},
-			"Cityscape":
+			"Outskirt":
 			{
 				"Ahmedabad Outskirts":"#",
 				"Bengaluru Outskirts":"#",
@@ -2145,25 +2179,28 @@ function interest2()
 				"Shimla":"#",
 				"Yellagiri":"#"
 			},
+			"Backwater":
+			{
+				"Alleppey":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kumarakom":"#",
+				"Poovar":"#",
+				"Varkala":"#",
+			},
 			"Beach":
 			{
 				"Alibaug":"#",
-				"Alleppey":"#",
 				"Chilka":"#",
 				"Digha":"#",
-				"Kanyakumari":"#",
-				"Kollam":"#",
 				"Kovalam":"#",
-				"Kumarakom":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Poovar":"#",
 				"Pudduchhery":"#",
 				"Puri":"#",
-				"Ratnagiri":"#",
-				"Varkala":"#"
+				"Ratnagiri":"#"
 			},
-			"Cityscape":
+			"Outskirt":
 			{
 				"Ahmedabad Outskirts":"#",
 				"Bengaluru Outskirts":"#",
@@ -2221,25 +2258,28 @@ function interest2()
 				"Shimla":"#",
 				"Yellagiri":"#"
 			},
+			"Backwater":
+			{
+				"Alleppey":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kumarakom":"#",
+				"Poovar":"#",
+				"Varkala":"#",
+			},
 			"Beach":
 			{
 				"Alibaug":"#",
-				"Alleppey":"#",
 				"Chilka":"#",
 				"Digha":"#",
-				"Kanyakumari":"#",
-				"Kollam":"#",
 				"Kovalam":"#",
-				"Kumarakom":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Poovar":"#",
 				"Pudduchhery":"#",
 				"Puri":"#",
-				"Ratnagiri":"#",
-				"Varkala":"#"
+				"Ratnagiri":"#"
 			},
-			"Cityscape":
+			"Outskirt":
 			{
 				"Ahmedabad Outskirts":"#",
 				"Bengaluru Outskirts":"#",
@@ -2297,25 +2337,28 @@ function interest2()
 				"Shimla":"#",
 				"Yellagiri":"#"
 			},
+			"Backwater":
+			{
+				"Alleppey":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kumarakom":"#",
+				"Poovar":"#",
+				"Varkala":"#",
+			},
 			"Beach":
 			{
 				"Alibaug":"#",
-				"Alleppey":"#",
 				"Chilka":"#",
 				"Digha":"#",
-				"Kanyakumari":"#",
-				"Kollam":"#",
 				"Kovalam":"#",
-				"Kumarakom":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Poovar":"#",
 				"Pudduchhery":"#",
 				"Puri":"#",
-				"Ratnagiri":"#",
-				"Varkala":"#"
+				"Ratnagiri":"#"
 			},
-			"Cityscape":
+			"Outskirt":
 			{
 				"Ahmedabad Outskirts":"#",
 				"Bengaluru Outskirts":"#",
@@ -2373,25 +2416,28 @@ function interest2()
 				"Shimla":"#",
 				"Yellagiri":"#"
 			},
+			"Backwater":
+			{
+				"Alleppey":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kumarakom":"#",
+				"Poovar":"#",
+				"Varkala":"#",
+			},
 			"Beach":
 			{
 				"Alibaug":"#",
-				"Alleppey":"#",
 				"Chilka":"#",
 				"Digha":"#",
-				"Kanyakumari":"#",
-				"Kollam":"#",
 				"Kovalam":"#",
-				"Kumarakom":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Poovar":"#",
 				"Pudduchhery":"#",
 				"Puri":"#",
-				"Ratnagiri":"#",
-				"Varkala":"#"
+				"Ratnagiri":"#"
 			},
-			"Cityscape":
+			"Outskirt":
 			{
 				"Ahmedabad Outskirts":"#",
 				"Bengaluru Outskirts":"#",
@@ -2449,25 +2495,28 @@ function interest2()
 				"Shimla":"#",
 				"Yellagiri":"#"
 			},
+			"Backwater":
+			{
+				"Alleppey":"#",
+				"Kanyakumari":"#",
+				"Kollam":"#",
+				"Kumarakom":"#",
+				"Poovar":"#",
+				"Varkala":"#",
+			},
 			"Beach":
 			{
 				"Alibaug":"#",
-				"Alleppey":"#",
 				"Chilka":"#",
 				"Digha":"#",
-				"Kanyakumari":"#",
-				"Kollam":"#",
 				"Kovalam":"#",
-				"Kumarakom":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Poovar":"#",
 				"Pudduchhery":"#",
 				"Puri":"#",
-				"Ratnagiri":"#",
-				"Varkala":"#"
+				"Ratnagiri":"#"
 			},
-			"Cityscape":
+			"Outskirt":
 			{
 				"Ahmedabad Outskirts":"#",
 				"Bengaluru Outskirts":"#",
