@@ -2565,6 +2565,10 @@ iframe
 {     
      font-size: 18px;
 }
+.resorts-bg .quick-links .btn
+{
+     cursor: pointer;
+}
 .quick-links .btn
 {
      font-size: 15px;
