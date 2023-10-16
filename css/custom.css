@@ -300,6 +300,10 @@ header .sticky .header-bottom-area .main-menu > li.active a
      transition: all .3s ease-in-out;
      border: 1px solid lightgray;
 }
+.timeline-content .resort-box .col-sm-6
+{
+     padding: 20px 30px;
+}
 .timeline-content .box:hover, .timeline-content .resort-box:hover
 {
 	box-shadow: 0 0 5px;
