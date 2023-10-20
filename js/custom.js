@@ -556,9 +556,9 @@ function closeSuiteCompare()
 
 var zones = 
 {
-	"Altius": ["Mt. Abu", "Kasauli", "Khandala", "Lavasa", "Lonavala", "Matheran", "Mussoorie", "Panchmarhi", "Panvel", "Parwanoo", "Shimla", "Yellagiri"],
+	"Altius": ["Mt. Abu", "Kasauli", "Khandala", "Lavasa", "Lonavala", "Matheran", "Mussoorie", "Panchmarhi", "Panvel", "Parwanoo", "Shimla", "Yelagiri"],
 	"Backwater":["Alleppey", "Kanyakumari", "Kollam", "Kumarakom", "Poovar", "Varkala"],
-	"Beach": ["Alibaug", "Chilka", "Digha", "Kovalam", "Mahabalipuram", "Mandarmani", "Pudduchhery", "Puri", "Ratnagiri"],
+	"Beach": ["Alibaug", "Chilka", "Digha", "Kovalam", "Mahabalipuram", "Mandarmani", "Puducherry", "Puri", "Ratnagiri"],
 	"Outskirts": ["Ahmedabad Outskirts", "Bengaluru Outskirts", "Bhopal Outskirts", "Bhubaneshwar Outskirts", "Chandigarh Outskirts", "Chennai Outskirts", "Indore Outskirts",
 		"Kolkata Outskirts", "Mumbai Outskirts", "Nagpur Outskirts", "New Delhi Outskirts", "Thiruvananthapuram Outskirts"],
 	"Heritage": ["Agra", "Bhopal", "Gandhinagar", "Hassan", "Indore", "Konark", "Mysore", "Nagarhole", "Shantiniketan", "Udaipur", "Ujjain", "Vadodara"],
@@ -1272,7 +1272,7 @@ function interest()
 				"Panvel":"#",
 				"Parwanoo":"#",
 				"Shimla":"#",
-				"Yellagiri":"#"
+				"Yelagiri":"#"
 			},
 			"Backwater":
 			{
@@ -1291,7 +1291,7 @@ function interest()
 				"Kovalam":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Pudduchhery":"#",
+				"Puducherry":"#",
 				"Puri":"#",
 				"Ratnagiri":"#"
 			},
@@ -1351,7 +1351,7 @@ function interest()
 				"Panvel":"#",
 				"Parwanoo":"#",
 				"Shimla":"#",
-				"Yellagiri":"#"
+				"Yelagiri":"#"
 			},
 			"Backwater":
 			{
@@ -1370,7 +1370,7 @@ function interest()
 				"Kovalam":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Pudduchhery":"#",
+				"Puducherry":"#",
 				"Puri":"#",
 				"Ratnagiri":"#"
 			},
@@ -1430,7 +1430,7 @@ function interest()
 				"Panvel":"#",
 				"Parwanoo":"#",
 				"Shimla":"#",
-				"Yellagiri":"#"
+				"Yelagiri":"#"
 			},
 			"Backwater":
 			{
@@ -1449,7 +1449,7 @@ function interest()
 				"Kovalam":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Pudduchhery":"#",
+				"Puducherry":"#",
 				"Puri":"#",
 				"Ratnagiri":"#"
 			},
@@ -1509,7 +1509,7 @@ function interest()
 				"Panvel":"#",
 				"Parwanoo":"#",
 				"Shimla":"#",
-				"Yellagiri":"#"
+				"Yelagiri":"#"
 			},
 			"Backwater":
 			{
@@ -1528,7 +1528,7 @@ function interest()
 				"Kovalam":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Pudduchhery":"#",
+				"Puducherry":"#",
 				"Puri":"#",
 				"Ratnagiri":"#"
 			},
@@ -1588,7 +1588,7 @@ function interest()
 				"Panvel":"#",
 				"Parwanoo":"#",
 				"Shimla":"#",
-				"Yellagiri":"#"
+				"Yelagiri":"#"
 			},
 			"Backwater":
 			{
@@ -1607,7 +1607,7 @@ function interest()
 				"Kovalam":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Pudduchhery":"#",
+				"Puducherry":"#",
 				"Puri":"#",
 				"Ratnagiri":"#"
 			},
@@ -1667,7 +1667,7 @@ function interest()
 				"Panvel":"#",
 				"Parwanoo":"#",
 				"Shimla":"#",
-				"Yellagiri":"#"
+				"Yelagiri":"#"
 			},
 			"Backwater":
 			{
@@ -1686,7 +1686,7 @@ function interest()
 				"Kovalam":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Pudduchhery":"#",
+				"Puducherry":"#",
 				"Puri":"#",
 				"Ratnagiri":"#"
 			},
@@ -1746,7 +1746,7 @@ function interest()
 				"Panvel":"#",
 				"Parwanoo":"#",
 				"Shimla":"#",
-				"Yellagiri":"#"
+				"Yelagiri":"#"
 			},
 			"Backwater":
 			{
@@ -1765,7 +1765,7 @@ function interest()
 				"Kovalam":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Pudduchhery":"#",
+				"Puducherry":"#",
 				"Puri":"#",
 				"Ratnagiri":"#"
 			},
@@ -1825,7 +1825,7 @@ function interest()
 				"Panvel":"#",
 				"Parwanoo":"#",
 				"Shimla":"#",
-				"Yellagiri":"#"
+				"Yelagiri":"#"
 			},
 			"Backwater":
 			{
@@ -1844,7 +1844,7 @@ function interest()
 				"Kovalam":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Pudduchhery":"#",
+				"Puducherry":"#",
 				"Puri":"#",
 				"Ratnagiri":"#"
 			},
@@ -1940,7 +1940,7 @@ function interest2()
 				"Panvel":"#",
 				"Parwanoo":"#",
 				"Shimla":"#",
-				"Yellagiri":"#"
+				"Yelagiri":"#"
 			},
 			"Backwater":
 			{
@@ -1959,7 +1959,7 @@ function interest2()
 				"Kovalam":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Pudduchhery":"#",
+				"Puducherry":"#",
 				"Puri":"#",
 				"Ratnagiri":"#"
 			},
@@ -2019,7 +2019,7 @@ function interest2()
 				"Panvel":"#",
 				"Parwanoo":"#",
 				"Shimla":"#",
-				"Yellagiri":"#"
+				"Yelagiri":"#"
 			},
 			"Backwater":
 			{
@@ -2038,7 +2038,7 @@ function interest2()
 				"Kovalam":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Pudduchhery":"#",
+				"Puducherry":"#",
 				"Puri":"#",
 				"Ratnagiri":"#"
 			},
@@ -2098,7 +2098,7 @@ function interest2()
 				"Panvel":"#",
 				"Parwanoo":"#",
 				"Shimla":"#",
-				"Yellagiri":"#"
+				"Yelagiri":"#"
 			},
 			"Backwater":
 			{
@@ -2117,7 +2117,7 @@ function interest2()
 				"Kovalam":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Pudduchhery":"#",
+				"Puducherry":"#",
 				"Puri":"#",
 				"Ratnagiri":"#"
 			},
@@ -2177,7 +2177,7 @@ function interest2()
 				"Panvel":"#",
 				"Parwanoo":"#",
 				"Shimla":"#",
-				"Yellagiri":"#"
+				"Yelagiri":"#"
 			},
 			"Backwater":
 			{
@@ -2196,7 +2196,7 @@ function interest2()
 				"Kovalam":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Pudduchhery":"#",
+				"Puducherry":"#",
 				"Puri":"#",
 				"Ratnagiri":"#"
 			},
@@ -2256,7 +2256,7 @@ function interest2()
 				"Panvel":"#",
 				"Parwanoo":"#",
 				"Shimla":"#",
-				"Yellagiri":"#"
+				"Yelagiri":"#"
 			},
 			"Backwater":
 			{
@@ -2275,7 +2275,7 @@ function interest2()
 				"Kovalam":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Pudduchhery":"#",
+				"Puducherry":"#",
 				"Puri":"#",
 				"Ratnagiri":"#"
 			},
@@ -2335,7 +2335,7 @@ function interest2()
 				"Panvel":"#",
 				"Parwanoo":"#",
 				"Shimla":"#",
-				"Yellagiri":"#"
+				"Yelagiri":"#"
 			},
 			"Backwater":
 			{
@@ -2354,7 +2354,7 @@ function interest2()
 				"Kovalam":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Pudduchhery":"#",
+				"Puducherry":"#",
 				"Puri":"#",
 				"Ratnagiri":"#"
 			},
@@ -2414,7 +2414,7 @@ function interest2()
 				"Panvel":"#",
 				"Parwanoo":"#",
 				"Shimla":"#",
-				"Yellagiri":"#"
+				"Yelagiri":"#"
 			},
 			"Backwater":
 			{
@@ -2433,7 +2433,7 @@ function interest2()
 				"Kovalam":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Pudduchhery":"#",
+				"Puducherry":"#",
 				"Puri":"#",
 				"Ratnagiri":"#"
 			},
@@ -2493,7 +2493,7 @@ function interest2()
 				"Panvel":"#",
 				"Parwanoo":"#",
 				"Shimla":"#",
-				"Yellagiri":"#"
+				"Yelagiri":"#"
 			},
 			"Backwater":
 			{
@@ -2512,7 +2512,7 @@ function interest2()
 				"Kovalam":"#",
 				"Mahabalipuram":"#",
 				"Mandarmani":"#",
-				"Pudduchhery":"#",
+				"Puducherry":"#",
 				"Puri":"#",
 				"Ratnagiri":"#"
 			},
