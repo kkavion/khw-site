@@ -151,8 +151,9 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .resort-table
 {
      padding: 0px 0 5px 0;
-     font-size: 13px;
+     font-size: 14px;
      margin-right: 10px;
+     line-height: 22px;
 }
 .amenities-sec
 {
@@ -316,7 +317,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
      font-size: 16px;
      font-weight: normal;
-     line-height: 1.5;
+     line-height: 24px;
 }
 .header-bottom-area .tab-a li:hover a,
 .header-bottom-area .tab-c li:hover a,
@@ -364,7 +365,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
      padding: 0;
      position: relative;
      background: white;
-     margin: 2px 0;
+     margin: 1px;
      border-radius: 5px;
      border: 1px solid lightgray;
 }
@@ -820,7 +821,7 @@ header .main-menu a:focus
 }
 .amenities-row
 {
-     padding: 5px 0;
+     padding: 0;
 }
 .amenities-row span
 {
@@ -862,14 +863,15 @@ i
      /* Chrome, Firefox, Opera, Safari 10.1+ */
      font-family: 'Open Sans', sans-serif;
      opacity: 1; /* Firefox */
-     border-radius: 0;
-     box-shadow: 0px 0px 5px 1px inset;
+     border-radius: 5px;
      border: none;
 }
 #filter
 {
      text-align: center;
-     background: #0495ff;
+     background: #aaa9;
+     position: relative;
+     z-index: 3;
 }
 #filter .form-group
 {
@@ -953,6 +955,11 @@ button
 .testimonial-area-5 .single-testimonial .testimonial-messages i
 {
      font-size: 20px;
+}
+.testimonial-area-5 .section-title-version-2-black p
+{
+     font-size: 18px;
+     line-height: 27px;
 }
 .career-menu a
 {
@@ -1224,6 +1231,10 @@ button
 {
      background: #78bf45;
      cursor: pointer;
+}
+.ct-action a:hover
+{
+     background: #fb6a00;
 }
 .tour-description
 {
@@ -2867,9 +2878,15 @@ h1, h2, h3, h4, h5, h6
      width: 70%;
      margin: 0 auto;
 }
+.w-70 p
+{
+     line-height: 27px;
+     text-align: center;
+}
 .good-to-know
 {
      margin-bottom: 15px;
+     font-size: 16px;
 }
 .box .resort-table .row:first-child
 {
