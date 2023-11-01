@@ -309,10 +309,6 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
 	box-shadow: 0 0 5px;
 }
-#conference .timeline:last-child .resort-box
-{
-     margin-bottom: 0;
-}
 .timeline-content p
 {
      font-size: 16px;
@@ -872,6 +868,7 @@ i
      background: #aaa9;
      position: relative;
      z-index: 20;
+     bottom: -60%;
 }
 #filter .form-group
 {

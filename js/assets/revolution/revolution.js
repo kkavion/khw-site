@@ -46,9 +46,11 @@ $(document).ready(function () {
   //Revolution Slider
   jQuery('#rev_slider_2').show().revolution({
     /* Options are 'auto', 'fullwidth' or 'fullscreen' */
-    sliderLayout: 'auto',
+    //sliderLayout: 'auto',
     // gridwidth: 1140,
-    gridheight:450,
+    responsiveLevels: [768, 480],
+    gridwidth: [768, 480],
+    gridheight: [550, 390],
     /* Navigation arrows and bullets */
     	navigation: {
      

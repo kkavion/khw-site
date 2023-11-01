@@ -1,6 +1,19 @@
 /*      Tablet Layout: 768px.    */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+    
+    #filter
+    {
+        padding: 15px;
+        width: max-content;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .slider-area-2 #filter
+    {
+        bottom: -80%;
+    }
     .single-item{margin-bottom: 30px;}
     .single-item:last-child{margin-bottom: 0px;}
     .footer-title .logo1
@@ -13,7 +26,7 @@
     }
     .tparrows
     {
-        top: 90% !important;
+        top: 50% !important;
         transform: matrix(1) !important;
     }
     #discstick
@@ -274,11 +287,11 @@
     }
     .tp-parallax-wrap:nth-child(3)
     {
-         top: 40% !important;
+         top: 25% !important;
     }
     .tp-parallax-wrap:nth-child(4)
     {
-         top: 50% !important;
+         top: 30% !important;
     }
     .tp-parallax-wrap:nth-child(5)
     {
@@ -286,7 +299,7 @@
     }
     .tp-parallax-wrap:nth-child(6)
     {
-         top: 25% !important;
+         top: 15% !important;
     }
     .sec1 div
     {
@@ -664,6 +677,12 @@
     .hotels-area-2 .single-hotels-2 .hotel-image img{width: 100%;}
 
     
+    .slider-area-2 #filter
+    {
+        bottom: -75%;
+    }
+
+    
     #calendar .fc-button
     {
         font-size: 0.8em !important;
@@ -771,7 +790,7 @@
 @media screen and (max-width: 480px) {
     #filter
     {
-        padding: 10px 0;
+        padding: 5px 0;
     }
     .disc-section li span
     {
@@ -809,6 +828,10 @@
     #interest-slide .single-package-details
     {
         margin: 25% 0 !important;
+    }
+    .slider-area-2 #filter
+    {
+        bottom: -80%;
     }
     .filter
     {
@@ -881,13 +904,17 @@
     }
     .tp-parallax-wrap:nth-child(3)
     {
-         top: 40% !important;
+         top: 35% !important;
     }
     .tp-parallax-wrap:nth-child(4)
     {
-         top: 55% !important;
+         top: 48% !important;
     }
     .tp-parallax-wrap:nth-child(5)
+    {
+         top: 60% !important;
+    }
+    .tp-parallax-wrap:nth-child(6)
     {
          top: 60% !important;
     }
