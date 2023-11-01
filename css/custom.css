@@ -871,7 +871,7 @@ i
      text-align: center;
      background: #aaa9;
      position: relative;
-     z-index: 3;
+     z-index: 20;
 }
 #filter .form-group
 {

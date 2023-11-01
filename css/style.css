@@ -137,7 +137,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  p {
      margin: 0 0 15px;
-     font-size: 18px;
+     font-size: 17px;
      color: black;
      font-weight: 400;
      font-family: 'Oxygen', sans-serif;
@@ -735,7 +735,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .section-title-3 {
      z-index: 33;
      position: relative;
-     padding-left: 30px;
      text-align: left;
 }
  .section-title-3 h2 {
