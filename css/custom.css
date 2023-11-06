@@ -208,7 +208,9 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .policy-sec i
 {
-     font-size: 16px;
+     font-size: 17px;
+     line-height: 27px;
+     font-weight: 300;
 }
 .policy-sec ol
 {
@@ -596,6 +598,14 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
      padding: 2px 0;
 }
+.subscribe-form .serach-form .form-control
+{
+     border-radius: 5px 0 0 5px;
+}
+.subscribe-form .search-btn .btn-primary
+{
+     border-radius: 0 5px 5px 0;
+}
 .discount-package
 {
      margin-top: 25px;
@@ -860,7 +870,8 @@ i
      font-family: 'Open Sans', sans-serif;
      opacity: 1; /* Firefox */
      border-radius: 5px;
-     border: none;
+     border: 1px solid lightgray;
+     box-shadow: none;
 }
 #filter
 {
@@ -955,7 +966,7 @@ button
 }
 .testimonial-area-5 .section-title-version-2-black p
 {
-     font-size: 18px;
+     font-size: 17px;
      line-height: 27px;
 }
 .career-menu a
@@ -1354,9 +1365,9 @@ button
 }
 .single-package-details p
 {
-     font-size: 16px;
+     font-size: 17px;
      font-weight: normal;
-     line-height: 24px;
+     line-height: 27px;
 }
 .single-package-details p i
 {
@@ -1866,7 +1877,12 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      border-radius: 5px;
      font-style: normal;
      font-weight: normal;
-     color: black;
+     color: black;     
+}
+.faq-section .panel-title a, .faq-section .panel-body p
+{
+     font-size: 16px;
+     line-height: 24px;
 }
 .faq-section
 {
@@ -2083,6 +2099,8 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .package-places, .package-places p
 {
      text-align: left !important;
+     font-size: 16px;
+     line-height: 24px;
 }
 .package-5-area .tour-description
 {
@@ -2143,9 +2161,10 @@ iframe
 .testimonial-messages h4
 {
      margin-bottom: 25px;
-     line-height: 1.5;
+     line-height: 27px;
      font-weight: 500;
      color: #fb6a00;
+     font-size: 19px;
 }
 .resorts-bg .testimonial-area-5 .single-testimonial img
 {
@@ -2245,10 +2264,11 @@ iframe
 .club-area .single-travel .travel-content p 
 {
      margin: 0;
-     line-height: 20px;
+     line-height: 24px;
      width: 100%;
      text-align: center;
      transition: all 0.5s ease-in-out;
+     font-size: 16px;
 }
 .club-area .single-travel a
 {
@@ -2892,4 +2912,10 @@ h1, h2, h3, h4, h5, h6
 .box .resort-table .row
 {
      background: #8080800a;
+}
+.policy-intro
+{
+  width: 70%;
+  margin: auto;
+  text-align: center;
 }
