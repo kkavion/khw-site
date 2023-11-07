@@ -663,7 +663,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .top-destination-area .single-package-area a
 {
      color: white;
-     font-size: 14px;
+     font-size: 16px;
 }
 .top-destination-area .single-hotels:hover a
 {
@@ -2011,8 +2011,8 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .rate-pg .resort-table .row, .conf-rate-pg .resort-table .row, .rate-pg .resort-table .row
 {
-     padding-top: 6px;
-     padding-bottom: 6px;
+     padding-top: 0;
+     padding-bottom: 0;
 }
 .resort-table .col-md-2:not(:first-child), .box .col-md-3:not(:first-child)
 {
@@ -2161,7 +2161,7 @@ iframe
 .testimonial-messages h4
 {
      margin-bottom: 25px;
-     line-height: 27px;
+     line-height: 28px;
      font-weight: 500;
      color: #fb6a00;
      font-size: 19px;
@@ -2319,6 +2319,10 @@ iframe
      background: white;
      font-size: 15px;
      border-radius: 5px;
+}
+#room-compare-section .row:nth-child(even)
+{
+     background: #ddd
 }
 #compare-section .row, #room-compare-section .row, #villa-compare-section .row, #suite-compare-section .row
 {
@@ -2718,7 +2722,6 @@ h1, h2, h3, h4, h5, h6
 }
 .discount-package-4-btn
 {
-     display: contents;
 }
 .info-title h2
 {
