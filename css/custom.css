@@ -313,7 +313,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .timeline-content p
 {
-     font-size: 16px;
+     font-size: 15px;
      font-weight: normal;
      line-height: 24px;
 }
@@ -1805,6 +1805,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .homepage .packages-section
 {
      background-image: url("https://transparenttextures.com/patterns/subtle-white-feathers.png");
+     background-color: white;
 }
 .resorts-bg,
 .rate-pg,
@@ -1949,6 +1950,10 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      background: white;
      border-radius: 5px;
 }
+.resort-rooms .resort-table .row:nth-child(2) div:not(:first-child)
+{
+     text-decoration: line-through;
+}
 .terms-sec
 {
      font-size: 16px;
@@ -2011,8 +2016,8 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .rate-pg .resort-table .row, .conf-rate-pg .resort-table .row, .rate-pg .resort-table .row
 {
-     padding-top: 0;
-     padding-bottom: 0;
+     padding-top: 2px;
+     padding-bottom: 2px;
 }
 .resort-table .col-md-2:not(:first-child), .box .col-md-3:not(:first-child)
 {
@@ -2320,7 +2325,7 @@ iframe
      font-size: 15px;
      border-radius: 5px;
 }
-#room-compare-section .row:nth-child(even)
+#compare-section .row:nth-child(even), #room-compare-section .row:nth-child(even), #villa-compare-section .row:nth-child(even), #suite-compare-section .row:nth-child(even)
 {
      background: #ddd
 }
@@ -2348,6 +2353,18 @@ iframe
 {
      color: #fb6a00;
      text-align: center;
+}
+.compare-heading
+{
+     background: #fb6a00 !important;
+     color: white;
+     font-size: 16px;
+}
+.rp-compare-heading
+{
+     background: #0495ff !important; 
+     color: white;
+     font-size: 16px;
 }
 #compare-section .heading div:not(:first-child), #room-compare-section .heading div:not(:first-child), #villa-compare-section .heading div:not(:first-child), #suite-compare-section .heading div:not(:first-child)
 {
@@ -2541,7 +2558,8 @@ iframe
 }
 .sale-tab-2 .stars
 {
-     top: 0px;;
+     top: 0px;
+     float: none;
 }
 .package-ratings-review .stars, .resort-tab .package-ratings-review
 {
@@ -2871,6 +2889,10 @@ h1, h2, h3, h4, h5, h6
 .destination-bg .resort-tab
 {
      margin-top: 0;
+}
+.offers
+{
+     background: white;
 }
 .offers .container:not(:first-child)
 {
