@@ -1952,11 +1952,11 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: black;
 }
  .single-package-carasoul .package-details .package-ratings-review {
-     border-top: 1px solid #71bf44;
      padding: 14px 0;
      position: relative;
      background: #0495ff;
      text-align: center;
+     border: none;
 }
 .package-5-area .single-package-carasoul .package-details .package-ratings-review
 {
@@ -2007,7 +2007,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .single-package-carasoul:hover .package-long-btn {
      opacity: 1;
      visibility: visible;
-     bottom: -1px;
+     bottom: 0px;
 }
  .single-package-carasoul:hover .package-location span {
      background: #fb6a00;

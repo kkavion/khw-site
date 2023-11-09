@@ -1170,7 +1170,7 @@ button
 }
 .x-essence
 {
-     background: white !important;
+     background: white;
      text-align: left;
 }
 .x-essence .subscribe-form-box
@@ -1795,17 +1795,13 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      background-color: white;
      border-radius: 0 0 10px 10px;
 }
-.leisure-page-area,
-.gourmet-page-area,
-.wedding-page-area,
-.conference-page-area,
-.wellness-page-area,
-.sale-tab-2,
-.homepage .home-interest-area,
-.homepage .packages-section
+.leisure-page-area, .gourmet-page-area, .wedding-page-area, .conference-page-area, .wellness-page-area, .sale-tab-2, .homepage .home-interest-area
 {
      background-image: url("https://transparenttextures.com/patterns/subtle-white-feathers.png");
-     background-color: white;
+}
+.homepage .packages-section
+{
+     background: white;
 }
 .resorts-bg,
 .rate-pg,
@@ -2104,7 +2100,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .package-places, .package-places p
 {
      text-align: left !important;
-     font-size: 16px;
+     font-size: 15px;
      line-height: 24px;
 }
 .package-5-area .tour-description
@@ -2546,11 +2542,6 @@ iframe
      right: 0;
      position: absolute;
 }
-.package-places .stars
-{
-     float: right;
-     top: -3px;
-}
 .outskirts-pg .stars
 {
      float: right;
@@ -2628,7 +2619,7 @@ iframe
      font-size: 15px;
      padding: 6px 10px;
      color: black;
-     background: none;
+     background: white;
      cursor: default;
 }
 .quick-links .btn img
@@ -2737,9 +2728,6 @@ h1, h2, h3, h4, h5, h6
 .rev_slider h2
 {
      letter-spacing: 3px !important;
-}
-.discount-package-4-btn
-{
 }
 .info-title h2
 {
@@ -2943,4 +2931,13 @@ h1, h2, h3, h4, h5, h6
   width: 70%;
   margin: auto;
   text-align: center;
+}
+#offer .resort-table .row div:first-child,
+#event .resort-table .row div:first-child,
+#dayout .resort-table .row div:first-child,
+.day-out .resort-table .row div:first-child,
+.interest-dayout .resort-table .row div:first-child,
+.offer-tab .resort-table .row div:first-child
+{
+     border-right: 1px solid lightgray;
 }
