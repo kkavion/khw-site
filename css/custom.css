@@ -1368,6 +1368,7 @@ button
      font-size: 17px;
      font-weight: normal;
      line-height: 27px;
+     text-align: justify;
 }
 .single-package-details p i
 {
