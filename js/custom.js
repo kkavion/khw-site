@@ -1249,6 +1249,40 @@ function desFilt() {
 		}
 	}
 }
+function dayoutFilt()
+{
+	var dayoutZone =
+	{
+		"Ahmedabad":"../../getaway/ahmedabad/day-out-tab.html",
+		"Bengaluru":"../../getaway/bengaluru/day-out-tab.html",
+		"Bhopal":"../../getaway/bhopal/day-out-tab.html",
+		"Bhubaneswar":"../../getaway/bhubaneswar/day-out-tab.html",
+		"Chandigarh":"../../getaway/chandigarh/day-out-tab.html",
+		"Chennai":"../../getaway/chennai/day-out-tab.html",
+		"Indore":"../../getaway/indore/day-out-tab.html",
+		"Kolkata":"../../getaway/kolkata/day-out-tab.html",
+		"Mumbai":"../../getaway/mumbai/day-out-tab.html",
+		"Nagpur":"../../getaway/nagpur/day-out-tab.html",
+		"New Delhi":"../../getaway/newdelhi/day-out-tab.html",
+		"Thiruvananthapuram":"../../getaway/thiruvananthapuram/day-out-tab.html"
+	};
+	var zoneSelect = document.getElementById("zone-name");
+	for (var x in dayoutZone)
+	{
+		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
+	}
+	zoneSelect.onchange = function()
+	{
+		var sel = document.getElementById("zone-name");
+		for (var x in dayoutZone)
+		{
+			if (sel.options[sel.selectedIndex].value == x)
+			{
+				window.location.assign(dayoutZone[x]);
+			}
+		}
+	}
+}
 
 function interest()
 {
