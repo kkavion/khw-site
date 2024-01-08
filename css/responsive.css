@@ -321,15 +321,15 @@
         position: relative !important;
         -moz-border-radius: 10px !important;
         -webkit-border-radius: 10px !important;
-        border-radius: 50px !important;
+        border-radius: 5px !important;
         margin: 10px !important;
         right: 15px !important;
     }
     #discstick span, #discstick a
     {
-        margin: 10px !important;
+        margin:  3% !important;
         font-size: 18px !important;
-        margin-left: 8px !important;
+        margin-left: 15% !important;
     }
     .package-location #discstick
     {

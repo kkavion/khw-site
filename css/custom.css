@@ -676,7 +676,6 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .top-destination-area span
 {
-     padding-top: 5px;
      font-style: italic;
      font-family: "Merriweather", sans-serif;
      font-size: 14px;
@@ -710,6 +709,10 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .box .travel-primary-btn-2
 {
      float: right;
+}
+.discount-package-4-btn
+{
+     display: inline;
 }
 .discount-package-4-btn .travel-primary-btn-2:nth-child(2)
 {
@@ -842,7 +845,7 @@ header .main-menu a:focus
 }
 .resort-box .amenities-row
 {
-     padding-bottom: 0;
+     padding-bottom: 10px;
 }
 .amenities-row span
 {
@@ -2533,6 +2536,7 @@ iframe
      position: relative;
      font-size: 16px;
      display: inline-block;
+     margin: 5px 0;
 }
 .stars i
 {
@@ -2550,7 +2554,7 @@ iframe
 }
 .outskirts-pg .stars
 {
-     float: right;
+     float: ;
      top: 1px;
 }
 .sale-tab-2 .stars
@@ -2729,7 +2733,7 @@ h1, h2, h3, h4, h5, h6
      font-family: 'Merriweather', sans-serif;
      font-weight: 700;
      display: inline-block;
-     margin-top: 10px;
+     font-style: normal;
 }
 .rev_slider h2
 {
@@ -2891,6 +2895,14 @@ h1, h2, h3, h4, h5, h6
 .offers .container:not(:first-child)
 {
      margin: 20px auto;
+}
+.related-tour .must-visit
+{
+     margin-top: 0;
+}
+.related-tour .must-visit h3
+{
+     font-style: normal;
 }
 .must-visit
 {
