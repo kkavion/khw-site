@@ -799,7 +799,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .popular-packages .single-package .package-content p {
      color: black;
-     font-size: 15px;
+     font-size: 16px;
      font-weight: 400;
      margin: 0 0 25px;
      text-align: left;
@@ -1111,7 +1111,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .single-travel-blog .blog-content .blog-post-content p {
      color: black;
-     font-size: 15px;
+     font-size: 16px;
      font-weight: 400;
      line-height: 25px;
 }
@@ -3924,7 +3924,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      position: relative;
 }
  .tab-content .additional-info:before {
-     background: #cccccc none repeat scroll 0 0;
+     background: #ffffff00 none repeat scroll 0 0;
      content: "";
      height: 100%;
      left: -19px;
