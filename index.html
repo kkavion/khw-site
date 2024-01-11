@@ -125,7 +125,7 @@
 									<li><a onselectstart="return false" href="getaway/kolkata/resorts-tab.html">Resort</a></li>
 									<li><a onselectstart="return false" href="offer-tab.html">Offer</a></li>
 									<li><a onselectstart="return false" href="getaway/0template/offer-temp.html">Package</a></li>
-									<li><a onselectstart="return false" href="bidnwin.html">BidnWin</a></li>
+									<li><a onselectstart="return false" href="bidnwin.html">Bid & Win</a></li>
 									<li>
 										<a onselectstart="return false">Indulge</a>
 										<ul class="dropdown2 main-menu2">
@@ -153,6 +153,28 @@
 											<button class="openBtn" onclick="openSearch()"><div class="fa fa-search" aria-hidden="true"></div></button>
 											<div id="myOverlay" class="overlay1">
 												<span class="closebtn" onclick="closeSearch()" title="Close Overlay">x</span>
+												<form id="filter">
+													<div class="form-group">
+														<select class="form-control" id="zone-name">
+															<option hidden>Destination Type</option>
+														</select>
+													</div>
+													<div class="form-group">
+														<select class="form-control" id="destination-name">
+															<option hidden>Destination Name</option>
+														</select>
+													</div>
+													<div class="form-group">
+														<select class="form-control" id="resort-type">
+															<option hidden>Resort Category</option>
+														</select>
+													</div>
+													<div class="form-group">
+														<select class="form-control" id="resort-name">
+															<option hidden>Resort Name</option>
+														</select>
+													</div>
+												</form>
 												<div id="search"></div>
 											</div> 
 										</a>
@@ -413,16 +435,6 @@
 					<div class="form-group">
 						<select class="form-control" id="destination-name">
 							<option hidden>Destination Name</option>
-						</select>
-					</div>
-					<div class="form-group">
-						<select class="form-control" id="resort-type">
-							<option hidden>Resort Category</option>
-						</select>
-					</div>
-					<div class="form-group">
-						<select class="form-control" id="resort-name">
-							<option hidden>Resort Name</option>
 						</select>
 					</div>
 				</form>

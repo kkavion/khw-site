@@ -1148,7 +1148,7 @@ button
 .box
 {
      margin: 20px 0 50px 0;
-     border: 1px solid #fff;
+     border: 1px solid #ccc;
 }
 .resort-box
 {
@@ -1811,6 +1811,10 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .homepage .packages-section
 {
      background: white;
+}
+.interest-bg
+{
+     background-image: url("../images/cubes.png") !important;
 }
 .resorts-bg,
 .rate-pg,
