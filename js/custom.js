@@ -941,9 +941,37 @@ var allDestination =
 	}
 };
 
+function filterHome() {
+	var zoneSelect = document.getElementById("zone-type");
+	var destinationSelect = document.getElementById("destination-name");
+	for (var x in zones)
+	{
+		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
+	}
+	zoneSelect.onchange = function ()
+	{
+		var c = zones[this.value];
+		destinationSelect.length = 1;
+		for (var i = 0; i < c.length; i++) {
+			destinationSelect.options[destinationSelect.options.length] = new Option(c[i], c[i]);
+		}
+	}
+	resortSelect.onchange = function ()
+	{
+		var sel = document.getElementById("resort-name");
+		for (var x in resLocs)
+		{
+			if (sel.options[sel.selectedIndex].value == x)
+			{
+				window.location.assign(resLocs[x]);
+			}
+		}
+	}
+}
+
 function filterRP() {
 	var zoneSelect = document.getElementById("zone-name");
-	var destinationSelect = document.getElementById("destination-name");
+	var destinationSelect = document.getElementById("destination-name1");
 	var typeSelect = document.getElementById("resort-type");
 	var resortSelect = document.getElementById("resort-name");
 	for (var x in zones)
@@ -965,7 +993,7 @@ function filterRP() {
 		resortSelect.length = 1;
 		typeSelect.length = 1;
 		//display correct values
-		var sel = document.getElementById("destination-name");
+		var sel = document.getElementById("destination-name1");
 		for (var y in allDestination) {
 			if (sel.options[sel.selectedIndex].value == y)
 			{
@@ -1047,7 +1075,7 @@ function filterRP() {
 		{
 			if (sel.options[sel.selectedIndex].value == x)
 			{
-				window.location.assign(resLocs[x]);
+				window.top.location = resLocs[x];
 			}
 		}
 	}

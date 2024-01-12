@@ -2476,6 +2476,38 @@ iframe
      cursor: pointer;
 }
 
+.resort-filter
+{
+     position: fixed;
+     bottom: 90px;
+     right: -50px;
+     z-index: 10;
+     transition: all ease-in-out 0.3s;
+}
+.resort-filter:hover
+{
+     right: 0;
+}
+.resort-filter .buttons
+{
+     background-color: #0495ff;
+     color: white;
+     display: block;
+     text-align: center;
+     cursor: pointer;
+     font-size: 18px;
+     border-radius: 5px 0 0 5px;
+}
+.resort-filter i
+{
+     font-size: 24px;
+     padding-left: 5px;
+}
+.resort-filter span
+{
+     padding: 10px 5px;
+     display: inline-block;
+}
 .calendar-sec
 {
      position: fixed;
@@ -2558,7 +2590,6 @@ iframe
 }
 .outskirts-pg .stars
 {
-     float: ;
      top: 1px;
 }
 .sale-tab-2 .stars

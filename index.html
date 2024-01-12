@@ -153,28 +153,6 @@
 											<button class="openBtn" onclick="openSearch()"><div class="fa fa-search" aria-hidden="true"></div></button>
 											<div id="myOverlay" class="overlay1">
 												<span class="closebtn" onclick="closeSearch()" title="Close Overlay">x</span>
-												<form id="filter">
-													<div class="form-group">
-														<select class="form-control" id="zone-name">
-															<option hidden>Destination Type</option>
-														</select>
-													</div>
-													<div class="form-group">
-														<select class="form-control" id="destination-name">
-															<option hidden>Destination Name</option>
-														</select>
-													</div>
-													<div class="form-group">
-														<select class="form-control" id="resort-type">
-															<option hidden>Resort Category</option>
-														</select>
-													</div>
-													<div class="form-group">
-														<select class="form-control" id="resort-name">
-															<option hidden>Resort Name</option>
-														</select>
-													</div>
-												</form>
 												<div id="search"></div>
 											</div> 
 										</a>
@@ -428,7 +406,7 @@
 				</ul><!-- END SLIDES LIST -->
 				<form id="filter">
 					<div class="form-group">
-						<select class="form-control" id="zone-name">
+						<select class="form-control" id="zone-type">
 							<option hidden>Destination Type</option>
 						</select>
 					</div>
@@ -4007,6 +3985,27 @@
 
 	<!-- footer ends -->
 
+	
+
+	<div class="resort-filter">
+		<div class="buttons" data-target="#res-filt" data-toggle="modal"><i class="mdi mdi-map-search-outline"></i>
+			<span>filter</span>
+		</div>
+	</div>
+	
+	<section id="res-filt" class="modal fade" role="dialog">		
+		<div class="modal-dialog modal-lg">
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-body">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<iframe id="cals" src="filter.html"></iframe>
+			  </div>
+			</div>
+		
+		  </div>
+	</section>
+
 
 	<div class="calendar-sec">
 		<div class="buttons" data-target="#calendar-section" data-toggle="modal"><i class="mdi mdi-calendar-month-outline"></i>
@@ -4082,7 +4081,7 @@
 	<script src="js/jquery-confirm.min.js"></script>
 
 	<script>
-		window.onload = function() {filterRP();};		
+		window.onload = function() {filterHome()};
 		// When the user scrolls the page, execute myFunction
 		window.onscroll = function () { myFunction() };
 
