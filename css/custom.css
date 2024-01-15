@@ -2143,9 +2143,13 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      color: red;
      font-weight: 600;
 }
+.modal-body h2
+{
+     text-align: center;
+}
 iframe
 {
-     border: 1px solid lightgray;
+     border: none;
      border-radius: 5px;
      width: 100%;
 }
@@ -2480,7 +2484,7 @@ iframe
 {
      position: fixed;
      bottom: 90px;
-     right: -50px;
+     right: -127px;
      z-index: 10;
      transition: all ease-in-out 0.3s;
 }

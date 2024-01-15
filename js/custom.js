@@ -564,6 +564,7 @@ var zones =
 	"Heritage": ["Agra", "Bhopal", "Gandhinagar", "Hassan", "Indore", "Konark", "Mysore", "Nagarhole", "Shantiniketan", "Udaipur", "Ujjain", "Vadodara"],
 	"Wildlife": ["Alwar", "Bharatpur", "Kanha", "Panchmarhi", "Pench", "Sariska", "Sundarban"]
 };
+
 var allDestination = 
 {
 	//Ahmedabad
@@ -941,6 +942,200 @@ var allDestination =
 	}
 };
 
+var desLocs = 
+{
+	"Alleppey" : "getaway/thiruvananthapuram/alleppey.html",
+	"Agra" : "getaway/newdelhi/agra.html",
+	"Gandhinagar" : "getaway/ahmedabad/gandhinagar.html",
+	"Udaipur" : "getaway/ahmedabad/udaipur.html",
+	"Vadodara" : "getaway/ahmedabad/vadodara.html",
+	"Kanha" : "getaway/nagpur/kanha.html",
+	"Kanyakumari" : "getaway/thiruvananthapuram/kanyakumari.html",
+	"Kollam" : "getaway/thiruvananthapuram/kollam.html",
+	"Kovalam" : "getaway/thiruvananthapuram/kovalam.html",
+	"Kumarakom" : "getaway/thiruvananthapuram/kumarakom.html",
+	"Mahabalipuram" : "getaway/chennai/mahabalipuram.html",
+	"Mysore" : "getaway/bengaluru/mysuru.html",
+	"Mt. Abu" : "getaway/ahmedabad/mtabu.html",
+	"Nagarhole" : "getaway/bengaluru/nagarhole.html",
+	"Pench" : "getaway/nagpur/pench.html",
+	"Mussoorie" : "getaway/chandigarh/mussoorie.html",
+	"Poovar" : "getaway/thiruvananthapuram/poovar.html",
+	"Puducherry" : "getaway/chennai/puducherry.html",
+	"Puri" : "getaway/bhubaneswar/puri.html",
+	"Sariska" : "getaway/newdelhi/sariska.html",
+	"Shimla" : "getaway/chandigarh/shimla.html",
+	"Yelagiri" : "getaway/bengaluru/yelagiri.html",
+	"Indore" : "getaway/bhopal/indore.html",
+	"Ujjain" : "getaway/bhopal/ujjain.html",
+	"Panchmarhi" : "getaway/bhopal/panchmarhi.html",
+	"Chilka" : "getaway/bhubaneswar/chilka.html",
+	"Konark" : "getaway/bhubaneswar/konark.html",
+	"Ratnagiri" : "getaway/bhubaneswar/ratnagiri.html",
+	"Kasauli" : "getaway/chandigarh/kasauli.html",
+	"Bhopal" : "getaway/indore/bhopal.html",
+	"Digha" : "getaway/kolkata/digha.html",
+	"Mandarmani" : "getaway/kolkata/mandarmani.html",
+	"Shantiniketan" : "getaway/kolkata/shantiniketan.html",
+	"Sundarban" : "getaway/kolkata/sundarbans.html",
+	"Alibaug" : "getaway/mumbai/alibaug.html",
+	"Khandala" : "getaway/mumbai/khandala.html",
+	"Lavasa" : "getaway/mumbai/lavasa.html",
+	"Lonavala" : "getaway/mumbai/lonavala.html",
+	"Matheran" : "getaway/mumbai/matheran.html",
+	"Panvel" : "getaway/mumbai/panvel.html",
+	"Alwar" : "getaway/newdelhi/alwar.html",
+	"Bharatpur" : "getaway/newdelhi/bharatpur.html",
+	"Hassan" : "getaway/bengaluru/hassan.html",
+	"Ahmedabad Outskirts" : "getaway/ahmedabad/outskirts-page.html",
+	"Bengaluru Outskirts" : "getaway/bengaluru/outskirts-page.html",
+	"Bhopal Outskirts" : "getaway/bhopal/outskirts-page.html",
+	"Bhubaneswar Outskirts" : "getaway/bhubaneswar/outskirts-page.html",
+	"Chandigarh Outskirts" : "getaway/chandigarh/outskirts-page.html",
+	"Chennai Outskirts" : "getaway/chennai/outskirts-page.html",
+	"Indore Outskirts" : "getaway/indore/outskirts-page.html",
+	"Kolkata Outskirts" : "getaway/kolkata/outskirts-page.html",
+	"Mumbai Outskirts" : "getaway/mumbai/outskirts-page.html",
+	"Nagpur Outskirts" : "getaway/nagpur/outskirts-page.html",
+	"New Delhi Outskirts" : "getaway/newdelhi/outskirts-page.html",
+	"Thiruvananthapuram Outskirts" : "getaway/thiruvananthapuram/outskirts-page.html"
+};
+
+var resLocs = 
+{
+	"Ganga Kutir": "properties/kolkata/outskirts/resort-page-gk.html",
+	"The Amaya Resort": "properties/kolkata/outskirts/resort-page-amaya.html",
+	"Vedic Village": "properties/kolkata/outskirts/resort-page-gk.html",
+	"Fortune Park": "properties/kolkata/outskirts/resort-page-fpp.html",
+	"The Ffort Raichak": "properties/kolkata/outskirts/resort-page-tfr.html",
+	"The Rajbari Bawali": "properties/kolkata/outskirts/resort-page-rb.html",
+	"Country Roads": "properties/kolkata/outskirts/resort-page-cr.html",
+	"Hotel Sonar Bangla": "properties/kolkata/outskirts/resort-page-hsb.html",
+	"Ibiza The Fern": "properties/kolkata/outskirts/resort-page-ibiza.html",
+	"Breathing Earth": "properties/kolkata/outskirts/resort-page-be.html",
+	"Hotel Seagull": "properties/kolkata/digha/resort-page-seagull.html",
+	"Abhyagama Hotel": "properties/kolkata/digha/resort-page-abhyagama.html",
+	"Cygnett Inn": "properties/kolkata/digha/resort-page-cygnett.html",
+	"Hotel Coral": "properties/kolkata/digha/resort-page-coral.html",
+	"Hotel Daltin": "properties/kolkata/digha/resort-page-daltin.html",
+	"Hotel Green Gate": "properties/kolkata/digha/resort-page-greengate.html",
+	"Hotel Nest": "properties/kolkata/digha/resort-page-nest.html",
+	"Hotel Sea Sand": "properties/kolkata/digha/resort-page-seasand.html",
+	"Piku's Inn": "properties/kolkata/digha/resort-page-piku.html",
+	"The Beach View Hotel": "properties/kolkata/digha/resort-page-beachview.html",
+	"The Palm Resort": "properties/kolkata/digha/resort-page-palm.html",
+	"Aqua Marine": "properties/kolkata/mandarmani/resort-page-aquamarine.html",
+	"Hotel Sonar Bangla": "properties/kolkata/mandarmani/resort-page-hotelsonar.html",
+	"Suncity Resort": "properties/kolkata/mandarmani/resort-page-suncity.html",
+	"The Candlewood Park Beach Resort": "properties/kolkata/mandarmani/resort-page-candlewood.html",
+	"Anutri Beach Resort": "properties/kolkata/mandarmani/resort-page-anutri.html",
+	"Sea Star Spa Resort": "properties/kolkata/mandarmani/resort-page-seastar.html",
+	"Sun N Sand Resort": "properties/kolkata/mandarmani/resort-page-sunnsand.html",
+	"Viceroy Bech & Spa Resort": "properties/kolkata/mandarmani/resort-page-viceroy.html",
+	"Victoria Beach Resort": "properties/kolkata/mandarmani/resort-page-victoria.html",
+	"The Sana Beach Resort": "properties/kolkata/mandarmani/resort-page-sana.html",
+	"Camelia Resort": "properties/kolkata/shantiniketan/resort-page-camelia.html",
+	"Hotel Royal Bengal": "properties/kolkata/shantiniketan/resort-page-hotelroyal.html",
+	"Baul Sangee": "properties/kolkata/shantiniketan/resort-page-baul.html",
+	"Club Central Hotel": "properties/kolkata/shantiniketan/resort-page-clubcentral.html",
+	"Chhuti Holiday Resort": "properties/kolkata/shantiniketan/resort-page-chhuti.html",
+	"Mohor Kutir Resort": "properties/kolkata/shantiniketan/resort-page-mohor.html",
+	"Ram Shyam Village Resort": "properties/kolkata/shantiniketan/resort-page-ramshyam.html",
+	"Shantiniketan Residency": "properties/kolkata/shantiniketan/resort-page-residency.html",
+	"The Ananda Resort": "properties/kolkata/shantiniketan/resort-page-ananda.html",
+	"The Cristallo Resort": "properties/kolkata/shantiniketan/resort-page-cristallo.html",
+	"Hotel Sonar Bangla": "properties/kolkata/sundarban/resort-page-sundarhotelsonar.html",
+	"Sundarban Tiger Camp": "properties/kolkata/sundarban/resort-page-tigercamp.html",
+	"Gramer Bari Eco Resort": "properties/kolkata/sundarban/resort-page-gramerbari.html",
+	"Royal Sundarban Wild Resort": "properties/kolkata/sundarban/resort-page-royalwild.html",
+	"Solitary Nook Resort": "properties/kolkata/sundarban/resort-page-solitary.html",
+	"Sundarban Gateway Resort": "properties/kolkata/sundarban/resort-page-gateway.html",
+	"Sundarban Residency": "properties/kolkata/sundarban/resort-page-sundarresidency.html",
+	"Sundarban Riverside Holiday Resort": "properties/kolkata/sundarban/resort-page-riverside.html",
+	"Sundarban Tiger Roar Resort": "properties/kolkata/sundarban/resort-page-tigerroar.html",
+	"Tora Eco Resort": "properties/kolkata/sundarban/resort-page-toraeco.html"
+};
+
+var offerZone =
+{
+	"Ahmedabad":"getaway/ahmedabad/offers-tab.html",
+	"Bengaluru":"getaway/bengaluru/offers-tab.html",
+	"Bhopal":"getaway/bhopal/offers-tab.html",
+	"Bhubaneswar":"getaway/bhubaneswar/offers-tab.html",
+	"Chandigarh":"getaway/chandigarh/offers-tab.html",
+	"Chennai":"getaway/chennai/offers-tab.html",
+	"Indore":"getaway/indore/offers-tab.html",
+	"Kolkata":"getaway/kolkata/offers-tab.html",
+	"Mumbai":"getaway/mumbai/offers-tab.html",
+	"Nagpur":"getaway/nagpur/offers-tab.html",
+	"New Delhi":"getaway/newdelhi/offers-tab.html",
+	"Thiruvananthapuram":"getaway/thiruvananthapuram/offers-tab.html"
+};
+
+var dayoutZone =
+{
+	"Ahmedabad":"getaway/ahmedabad/day-out-tab.html",
+	"Bengaluru":"getaway/bengaluru/day-out-tab.html",
+	"Bhopal":"getaway/bhopal/day-out-tab.html",
+	"Bhubaneswar":"getaway/bhubaneswar/day-out-tab.html",
+	"Chandigarh":"getaway/chandigarh/day-out-tab.html",
+	"Chennai":"getaway/chennai/day-out-tab.html",
+	"Indore":"getaway/indore/day-out-tab.html",
+	"Kolkata":"getaway/kolkata/day-out-tab.html",
+	"Mumbai":"getaway/mumbai/day-out-tab.html",
+	"Nagpur":"getaway/nagpur/day-out-tab.html",
+	"New Delhi":"getaway/newdelhi/day-out-tab.html",
+	"Thiruvananthapuram":"getaway/thiruvananthapuram/day-out-tab.html"
+};
+
+var resortZone =
+{
+	"Ahmedabad":"getaway/ahmedabad/resorts-tab.html",
+	"Bengaluru":"getaway/bengaluru/resorts-tab.html",
+	"Bhopal":"getaway/bhopal/resorts-tab.html",
+	"Bhubaneswar":"getaway/bhubaneswar/resorts-tab.html",
+	"Chandigarh":"getaway/chandigarh/resorts-tab.html",
+	"Chennai":"getaway/chennai/resorts-tab.html",
+	"Indore":"getaway/indore/resorts-tab.html",
+	"Kolkata":"getaway/kolkata/resorts-tab.html",
+	"Mumbai":"getaway/mumbai/resorts-tab.html",
+	"Nagpur":"getaway/nagpur/resorts-tab.html",
+	"New Delhi":"getaway/newdelhi/resorts-tab.html",
+	"Thiruvananthapuram":"getaway/thiruvananthapuram/resorts-tab.html"
+};
+
+var outskirtsZone =
+{
+	"Ahmedabad":"getaway/ahmedabad/outskirts-page.html",
+	"Bengaluru":"getaway/bengaluru/outskirts-page.html",
+	"Bhopal":"getaway/bhopal/outskirts-page.html",
+	"Bhubaneswar":"getaway/bhubaneswar/outskirts-page.html",
+	"Chandigarh":"getaway/chandigarh/outskirts-page.html",
+	"Chennai":"getaway/chennai/outskirts-page.html",
+	"Indore":"getaway/indore/outskirts-page.html",
+	"Kolkata":"getaway/kolkata/outskirts-page.html",
+	"Mumbai":"getaway/mumbai/outskirts-page.html",
+	"Nagpur":"getaway/nagpur/outskirts-page.html",
+	"New Delhi":"getaway/newdelhi/outskirts-page.html",
+	"Thiruvananthapuram":"getaway/thiruvananthapuram/outskirts-page.html"
+};
+
+var bidnwinZone =
+{
+	"Ahmedabad":"#",
+	"Bengaluru":"#",
+	"Bhopal":"#",
+	"Bhubaneswar":"#",
+	"Chandigarh":"#",
+	"Chennai":"#",
+	"Indore":"#",
+	"Kolkata":"bidnwin.html",
+	"Mumbai":"#",
+	"Nagpur":"#",
+	"New Delhi":"#",
+	"Thiruvananthapuram":"#"
+};
+
 function filterHome() {
 	var zoneSelect = document.getElementById("zone-type");
 	var destinationSelect = document.getElementById("destination-name");
@@ -956,14 +1151,13 @@ function filterHome() {
 			destinationSelect.options[destinationSelect.options.length] = new Option(c[i], c[i]);
 		}
 	}
-	resortSelect.onchange = function ()
-	{
-		var sel = document.getElementById("resort-name");
-		for (var x in resLocs)
+	destinationSelect.onchange = function () {
+		var sel = document.getElementById("destination-name");
+		for (var x in desLocs)
 		{
 			if (sel.options[sel.selectedIndex].value == x)
 			{
-				window.location.assign(resLocs[x]);
+				window.location.assign(desLocs[x]);
 			}
 		}
 	}
@@ -1016,60 +1210,6 @@ function filterRP() {
 	}
 	resortSelect.onchange = function ()
 	{
-		var resLocs = 
-		{
-			"Ganga Kutir": "properties/kolkata/outskirts/resort-page-gk.html",
-			"The Amaya Resort": "properties/kolkata/outskirts/resort-page-amaya.html",
-			"Vedic Village": "properties/kolkata/outskirts/resort-page-gk.html",
-			"Fortune Park": "properties/kolkata/outskirts/resort-page-fpp.html",
-			"The Ffort Raichak": "properties/kolkata/outskirts/resort-page-tfr.html",
-			"The Rajbari Bawali": "properties/kolkata/outskirts/resort-page-rb.html",
-			"Country Roads": "properties/kolkata/outskirts/resort-page-cr.html",
-			"Hotel Sonar Bangla": "properties/kolkata/outskirts/resort-page-hsb.html",
-			"Ibiza The Fern": "properties/kolkata/outskirts/resort-page-ibiza.html",
-			"Breathing Earth": "properties/kolkata/outskirts/resort-page-be.html",
-			"Hotel Seagull": "properties/kolkata/digha/resort-page-seagull.html",
-			"Abhyagama Hotel": "properties/kolkata/digha/resort-page-abhyagama.html",
-			"Cygnett Inn": "properties/kolkata/digha/resort-page-cygnett.html",
-			"Hotel Coral": "properties/kolkata/digha/resort-page-coral.html",
-			"Hotel Daltin": "properties/kolkata/digha/resort-page-daltin.html",
-			"Hotel Green Gate": "properties/kolkata/digha/resort-page-greengate.html",
-			"Hotel Nest": "properties/kolkata/digha/resort-page-nest.html",
-			"Hotel Sea Sand": "properties/kolkata/digha/resort-page-seasand.html",
-			"Piku's Inn": "properties/kolkata/digha/resort-page-piku.html",
-			"The Beach View Hotel": "properties/kolkata/digha/resort-page-beachview.html",
-			"The Palm Resort": "properties/kolkata/digha/resort-page-palm.html",
-			"Aqua Marine": "properties/kolkata/mandarmani/resort-page-aquamarine.html",
-			"Hotel Sonar Bangla": "properties/kolkata/mandarmani/resort-page-hotelsonar.html",
-			"Suncity Resort": "properties/kolkata/mandarmani/resort-page-suncity.html",
-			"The Candlewood Park Beach Resort": "properties/kolkata/mandarmani/resort-page-candlewood.html",
-			"Anutri Beach Resort": "properties/kolkata/mandarmani/resort-page-anutri.html",
-			"Sea Star Spa Resort": "properties/kolkata/mandarmani/resort-page-seastar.html",
-			"Sun N Sand Resort": "properties/kolkata/mandarmani/resort-page-sunnsand.html",
-			"Viceroy Bech & Spa Resort": "properties/kolkata/mandarmani/resort-page-viceroy.html",
-			"Victoria Beach Resort": "properties/kolkata/mandarmani/resort-page-victoria.html",
-			"The Sana Beach Resort": "properties/kolkata/mandarmani/resort-page-sana.html",
-			"Camelia Resort": "properties/kolkata/shantiniketan/resort-page-camelia.html",
-			"Hotel Royal Bengal": "properties/kolkata/shantiniketan/resort-page-hotelroyal.html",
-			"Baul Sangee": "properties/kolkata/shantiniketan/resort-page-baul.html",
-			"Club Central Hotel": "properties/kolkata/shantiniketan/resort-page-clubcentral.html",
-			"Chhuti Holiday Resort": "properties/kolkata/shantiniketan/resort-page-chhuti.html",
-			"Mohor Kutir Resort": "properties/kolkata/shantiniketan/resort-page-mohor.html",
-			"Ram Shyam Village Resort": "properties/kolkata/shantiniketan/resort-page-ramshyam.html",
-			"Shantiniketan Residency": "properties/kolkata/shantiniketan/resort-page-residency.html",
-			"The Ananda Resort": "properties/kolkata/shantiniketan/resort-page-ananda.html",
-			"The Cristallo Resort": "properties/kolkata/shantiniketan/resort-page-cristallo.html",
-			"Hotel Sonar Bangla": "properties/kolkata/sundarban/resort-page-sundarhotelsonar.html",
-			"Sundarban Tiger Camp": "properties/kolkata/sundarban/resort-page-tigercamp.html",
-			"Gramer Bari Eco Resort": "properties/kolkata/sundarban/resort-page-gramerbari.html",
-			"Royal Sundarban Wild Resort": "properties/kolkata/sundarban/resort-page-royalwild.html",
-			"Solitary Nook Resort": "properties/kolkata/sundarban/resort-page-solitary.html",
-			"Sundarban Gateway Resort": "properties/kolkata/sundarban/resort-page-gateway.html",
-			"Sundarban Residency": "properties/kolkata/sundarban/resort-page-sundarresidency.html",
-			"Sundarban Riverside Holiday Resort": "properties/kolkata/sundarban/resort-page-riverside.html",
-			"Sundarban Tiger Roar Resort": "properties/kolkata/sundarban/resort-page-tigerroar.html",
-			"Tora Eco Resort": "properties/kolkata/sundarban/resort-page-toraeco.html"
-		}
 		var sel = document.getElementById("resort-name");
 		for (var x in resLocs)
 		{
@@ -1128,66 +1268,12 @@ function filterRPs() {
 	}
 	resortSelect.onchange = function ()
 	{
-		var resLocs = 
-		{
-			"Ganga Kutir": "../../properties/kolkata/outskirts/resort-page-gk.html",
-			"The Amaya Resort": "../../properties/kolkata/outskirts/resort-page-amaya.html",
-			"Vedic Village": "../../properties/kolkata/outskirts/resort-page-gk.html",
-			"Fortune Park": "../../properties/kolkata/outskirts/resort-page-fpp.html",
-			"The Ffort Raichak": "../../properties/kolkata/outskirts/resort-page-tfr.html",
-			"The Rajbari Bawali": "../../properties/kolkata/outskirts/resort-page-rb.html",
-			"Country Roads": "../../properties/kolkata/outskirts/resort-page-cr.html",
-			"Hotel Sonar Bangla": "../../properties/kolkata/outskirts/resort-page-hsb.html",
-			"Ibiza The Fern": "../../properties/kolkata/outskirts/resort-page-ibiza.html",
-			"Breathing Earth": "../../properties/kolkata/outskirts/resort-page-be.html",
-			"Hotel Seagull": "../../properties/kolkata/digha/resort-page-seagull.html",
-			"Abhyagama Hotel": "../../properties/kolkata/digha/resort-page-abhyagama.html",
-			"Cygnett Inn": "../../properties/kolkata/digha/resort-page-cygnett.html",
-			"Hotel Coral": "../../properties/kolkata/digha/resort-page-coral.html",
-			"Hotel Daltin": "../../properties/kolkata/digha/resort-page-daltin.html",
-			"Hotel Green Gate": "../../properties/kolkata/digha/resort-page-greengate.html",
-			"Hotel Nest": "../../properties/kolkata/digha/resort-page-nest.html",
-			"Hotel Sea Sand": "../../properties/kolkata/digha/resort-page-seasand.html",
-			"Piku's Inn": "../../properties/kolkata/digha/resort-page-piku.html",
-			"The Beach View Hotel": "../../properties/kolkata/digha/resort-page-beachview.html",
-			"The Palm Resort": "../../properties/kolkata/digha/resort-page-palm.html",
-			"Aqua Marine": "../../properties/kolkata/mandarmani/resort-page-aquamarine.html",
-			"Hotel Sonar Bangla": "../../properties/kolkata/mandarmani/resort-page-hotelsonar.html",
-			"Suncity Resort": "../../properties/kolkata/mandarmani/resort-page-suncity.html",
-			"The Candlewood Park Beach Resort": "../../properties/kolkata/mandarmani/resort-page-candlewood.html",
-			"Anutri Beach Resort": "../../properties/kolkata/mandarmani/resort-page-anutri.html",
-			"Sea Star Spa Resort": "../../properties/kolkata/mandarmani/resort-page-seastar.html",
-			"Sun N Sand Resort": "../../properties/kolkata/mandarmani/resort-page-sunnsand.html",
-			"Viceroy Bech & Spa Resort": "../../properties/kolkata/mandarmani/resort-page-viceroy.html",
-			"Victoria Beach Resort": "../../properties/kolkata/mandarmani/resort-page-victoria.html",
-			"The Sana Beach Resort": "../../properties/kolkata/mandarmani/resort-page-sana.html",
-			"Camelia Resort": "../../properties/kolkata/shantiniketan/resort-page-camelia.html",
-			"Hotel Royal Bengal": "../../properties/kolkata/shantiniketan/resort-page-hotelroyal.html",
-			"Baul Sangee": "../../properties/kolkata/shantiniketan/resort-page-baul.html",
-			"Club Central Hotel": "../../properties/kolkata/shantiniketan/resort-page-clubcentral.html",
-			"Chhuti Holiday Resort": "../../properties/kolkata/shantiniketan/resort-page-chhuti.html",
-			"Mohor Kutir Resort": "../../properties/kolkata/shantiniketan/resort-page-mohor.html",
-			"Ram Shyam Village Resort": "../../properties/kolkata/shantiniketan/resort-page-ramshyam.html",
-			"Shantiniketan Residency": "../../properties/kolkata/shantiniketan/resort-page-residency.html",
-			"The Ananda Resort": "../../properties/kolkata/shantiniketan/resort-page-ananda.html",
-			"The Cristallo Resort": "../../properties/kolkata/shantiniketan/resort-page-cristallo.html",
-			"Hotel Sonar Bangla": "../../properties/kolkata/sundarban/resort-page-sundarhotelsonar.html",
-			"Sundarban Tiger Camp": "../../properties/kolkata/sundarban/resort-page-tigercamp.html",
-			"Gramer Bari Eco Resort": "../../properties/kolkata/sundarban/resort-page-gramerbari.html",
-			"Royal Sundarban Wild Resort": "../../properties/kolkata/sundarban/resort-page-royalwild.html",
-			"Solitary Nook Resort": "../../properties/kolkata/sundarban/resort-page-solitary.html",
-			"Sundarban Gateway Resort": "../../properties/kolkata/sundarban/resort-page-gateway.html",
-			"Sundarban Residency": "../../properties/kolkata/sundarban/resort-page-sundarresidency.html",
-			"Sundarban Riverside Holiday Resort": "../../properties/kolkata/sundarban/resort-page-riverside.html",
-			"Sundarban Tiger Roar Resort": "../../properties/kolkata/sundarban/resort-page-tigerroar.html",
-			"Tora Eco Resort": "../../properties/kolkata/sundarban/resort-page-toraeco.html"
-		}
 		var sel = document.getElementById("resort-name");
 		for (var x in resLocs)
 		{
 			if (sel.options[sel.selectedIndex].value == x)
 			{
-				window.location.assign(resLocs[x]);
+				window.location.assign("../../"+resLocs[x]);
 			}
 		}
 	}
@@ -1209,91 +1295,19 @@ function desFilt() {
 		}
 	}
 	destinationSelect.onchange = function () {
-		var desLocs = 
-		{
-			"Alleppey" : "../../getaway/thiruvananthapuram/alleppey.html",
-			"Agra" : "../../getaway/newdelhi/agra.html",
-			"Gandhinagar" : "../../getaway/ahmedabad/gandhinagar.html",
-			"Udaipur" : "../../getaway/ahmedabad/udaipur.html",
-			"Vadodara" : "../../getaway/ahmedabad/vadodara.html",
-			"Kanha" : "../../getaway/nagpur/kanha.html",
-			"Kanyakumari" : "../../getaway/thiruvananthapuram/kanyakumari.html",
-			"Kollam" : "../../getaway/thiruvananthapuram/kollam.html",
-			"Kovalam" : "../../getaway/thiruvananthapuram/kovalam.html",
-			"Kumarakom" : "../../getaway/thiruvananthapuram/kumarakom.html",
-			"Mahabalipuram" : "../../getaway/chennai/mahabalipuram.html",
-			"Mysore" : "../../getaway/bengaluru/mysuru.html",
-			"Mt. Abu" : "../../getaway/ahmedabad/mtabu.html",
-			"Nagarhole" : "../../getaway/bengaluru/nagarhole.html",
-			"Pench" : "../../getaway/nagpur/pench.html",
-			"Mussoorie" : "../../getaway/chandigarh/mussoorie.html",
-			"Poovar" : "../../getaway/thiruvananthapuram/poovar.html",
-			"Puducherry" : "../../getaway/chennai/puducherry.html",
-			"Puri" : "../../getaway/bhubaneswar/puri.html",
-			"Sariska" : "../../getaway/newdelhi/sariska.html",
-			"Shimla" : "../../getaway/chandigarh/shimla.html",
-			"Yelagiri" : "../../getaway/bengaluru/yelagiri.html",
-			"Indore" : "../../getaway/bhopal/indore.html",
-			"Ujjain" : "../../getaway/bhopal/ujjain.html",
-			"Panchmarhi" : "../../getaway/bhopal/panchmarhi.html",
-			"Chilka" : "../../getaway/bhubaneswar/chilka.html",
-			"Konark" : "../../getaway/bhubaneswar/konark.html",
-			"Ratnagiri" : "../../getaway/bhubaneswar/ratnagiri.html",
-			"Kasauli" : "../../getaway/chandigarh/kasauli.html",
-			"Bhopal" : "../../getaway/indore/bhopal.html",
-			"Digha" : "../../getaway/kolkata/digha.html",
-			"Mandarmani" : "../../getaway/kolkata/mandarmani.html",
-			"Shantiniketan" : "../../getaway/kolkata/shantiniketan.html",
-			"Sundarban" : "../../getaway/kolkata/sundarbans.html",
-			"Alibaug" : "../../getaway/mumbai/alibaug.html",
-			"Khandala" : "../../getaway/mumbai/khandala.html",
-			"Lavasa" : "../../getaway/mumbai/lavasa.html",
-			"Lonavala" : "../../getaway/mumbai/lonavala.html",
-			"Matheran" : "../../getaway/mumbai/matheran.html",
-			"Panvel" : "../../getaway/mumbai/panvel.html",
-			"Alwar" : "../../getaway/newdelhi/alwar.html",
-			"Bharatpur" : "../../getaway/newdelhi/bharatpur.html",
-			"Hassan" : "../../getaway/bengaluru/hassan.html",
-			"Ahmedabad Outskirts" : "../../getaway/ahmedabad/outskirts-page.html",
-			"Bengaluru Outskirts" : "../../getaway/bengaluru/outskirts-page.html",
-			"Bhopal Outskirts" : "../../getaway/bhopal/outskirts-page.html",
-			"Bhubaneswar Outskirts" : "../../getaway/bhubaneswar/outskirts-page.html",
-			"Chandigarh Outskirts" : "../../getaway/chandigarh/outskirts-page.html",
-			"Chennai Outskirts" : "../../getaway/chennai/outskirts-page.html",
-			"Indore Outskirts" : "../../getaway/indore/outskirts-page.html",
-			"Kolkata Outskirts" : "../../getaway/kolkata/outskirts-page.html",
-			"Mumbai Outskirts" : "../../getaway/mumbai/outskirts-page.html",
-			"Nagpur Outskirts" : "../../getaway/nagpur/outskirts-page.html",
-			"New Delhi Outskirts" : "../../getaway/newdelhi/outskirts-page.html",
-			"Thiruvananthapuram Outskirts" : "../../getaway/thiruvananthapuram/outskirts-page.html"
-		}
 		var sel = document.getElementById("destination-name");
 		for (var x in desLocs)
 		{
 			if (sel.options[sel.selectedIndex].value == x)
 			{
-				window.location.assign(desLocs[x]);
+				window.location.assign("../../"+desLocs[x]);
 			}
 		}
 	}
 }
+//dayout filter
 function dayoutFilt()
 {
-	var dayoutZone =
-	{
-		"Ahmedabad":"../../getaway/ahmedabad/day-out-tab.html",
-		"Bengaluru":"../../getaway/bengaluru/day-out-tab.html",
-		"Bhopal":"../../getaway/bhopal/day-out-tab.html",
-		"Bhubaneswar":"../../getaway/bhubaneswar/day-out-tab.html",
-		"Chandigarh":"../../getaway/chandigarh/day-out-tab.html",
-		"Chennai":"../../getaway/chennai/day-out-tab.html",
-		"Indore":"../../getaway/indore/day-out-tab.html",
-		"Kolkata":"../../getaway/kolkata/day-out-tab.html",
-		"Mumbai":"../../getaway/mumbai/day-out-tab.html",
-		"Nagpur":"../../getaway/nagpur/day-out-tab.html",
-		"New Delhi":"../../getaway/newdelhi/day-out-tab.html",
-		"Thiruvananthapuram":"../../getaway/thiruvananthapuram/day-out-tab.html"
-	};
 	var zoneSelect = document.getElementById("zone-name");
 	for (var x in dayoutZone)
 	{
@@ -1301,34 +1315,69 @@ function dayoutFilt()
 	}
 	zoneSelect.onchange = function()
 	{
-		var sel = document.getElementById("zone-name");
-		for (var x in dayoutZone)
-		{
-			if (sel.options[sel.selectedIndex].value == x)
-			{
-				window.location.assign(dayoutZone[x]);
-			}
-		}
+		var sel = dayoutZone[zoneSelect.value];
+		window.location.assign(sel);
 	}
 }
-
+//offer filter
+function offerFilt()
+{	
+	var zoneSelect = document.getElementById("zone-name");
+	for (var x in offerZone)
+	{
+		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
+	}
+	zoneSelect.onchange = function()
+	{
+		var sel = offerZone[zoneSelect.value];
+		window.location.assign(sel);
+	}
+}
+//offer filter 2
+function offerFilt1()
+{	
+	var zoneSelect = document.getElementById("zone-name");
+	for (var x in offerZone)
+	{
+		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
+	}
+	zoneSelect.onchange = function()
+	{
+		var sel = offerZone[zoneSelect.value];
+		window.location.assign("../../"+sel);
+	}
+}
+//resort filter
+function resortFilt()
+{
+	var zoneSelect = document.getElementById("zone-name");
+	for (var x in resortZone)
+	{
+		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
+	}
+	zoneSelect.onchange = function()
+	{
+		var sel = resortZone[zoneSelect.value];
+		window.location.assign(sel);
+	}
+}
+//resort filter
+function resortFilt1()
+{
+	var zoneSelect = document.getElementById("zone-name");
+	for (var x in resortZone)
+	{
+		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
+	}
+	zoneSelect.onchange = function()
+	{
+		var sel = resortZone[zoneSelect.value];
+		window.location.assign("../../"+sel);
+	}
+}
+//outskirts filter
 function outskirtsFilt()
 {
-	var outskirtsZone =
-	{
-		"Ahmedabad":"../../getaway/ahmedabad/outskirts-page.html",
-		"Bengaluru":"../../getaway/bengaluru/outskirts-page.html",
-		"Bhopal":"../../getaway/bhopal/outskirts-page.html",
-		"Bhubaneswar":"../../getaway/bhubaneswar/outskirts-page.html",
-		"Chandigarh":"../../getaway/chandigarh/outskirts-page.html",
-		"Chennai":"../../getaway/chennai/outskirts-page.html",
-		"Indore":"../../getaway/indore/outskirts-page.html",
-		"Kolkata":"../../getaway/kolkata/outskirts-page.html",
-		"Mumbai":"../../getaway/mumbai/outskirts-page.html",
-		"Nagpur":"../../getaway/nagpur/outskirts-page.html",
-		"New Delhi":"../../getaway/newdelhi/outskirts-page.html",
-		"Thiruvananthapuram":"../../getaway/thiruvananthapuram/outskirts-page.html"
-	};
 	var zoneSelect = document.getElementById("zone-name");
 	for (var x in outskirtsZone)
 	{
@@ -1336,34 +1385,13 @@ function outskirtsFilt()
 	}
 	zoneSelect.onchange = function()
 	{
-		var sel = document.getElementById("zone-name");
-		for (var x in outskirtsZone)
-		{
-			if (sel.options[sel.selectedIndex].value == x)
-			{
-				window.location.assign(outskirtsZone[x]);
-			}
-		}
+		var sel = outskirtsZone[zoneSelect.value];
+		window.location.assign(sel);
 	}
 }
-
+//bidnwin filter
 function bidnwinFilt()
 {
-	var bidnwinZone =
-	{
-		"Ahmedabad":"#",
-		"Bengaluru":"#",
-		"Bhopal":"#",
-		"Bhubaneswar":"#",
-		"Chandigarh":"#",
-		"Chennai":"#",
-		"Indore":"#",
-		"Kolkata":"bidnwin.html",
-		"Mumbai":"#",
-		"Nagpur":"#",
-		"New Delhi":"#",
-		"Thiruvananthapuram":"#"
-	};
 	var zoneSelect = document.getElementById("zone-name");
 	for (var x in bidnwinZone)
 	{
@@ -1371,14 +1399,8 @@ function bidnwinFilt()
 	}
 	zoneSelect.onchange = function()
 	{
-		var sel = document.getElementById("zone-name");
-		for (var x in bidnwinZone)
-		{
-			if (sel.options[sel.selectedIndex].value == x)
-			{
-				window.location.assign(bidnwinZone[x]);
-			}
-		}
+		var sel = bidnwinZone[zoneSelect.value];
+		window.location.assign(sel);
 	}
 }
 
@@ -1524,7 +1546,7 @@ function interest()
 	zoneSel.onchange = function ()
 	{
 		var a = interests[interestSel.value][zoneSel.value];
-		window.location.assign(a);
+		window.location.assign("../../"+a);
 	}
 }
 

@@ -9,6 +9,7 @@
         width: max-content;
         margin: auto;
         border-radius: 5px;
+        bottom: -15% !important;
     }
     .slider-area-2 #filter
     {
@@ -791,6 +792,7 @@
     #filter
     {
         padding: 5px 0;
+        bottom: -70% !important;
     }
     .disc-section li span
     {
