@@ -178,26 +178,11 @@
 				</div>
 			</div>
 			<div class="container">
-				<div class="row bg-gradent">				
+				<div class="row bg-gradent">
 					<form id="filter">
 						<div class="form-group">
 							<select class="form-control" id="zone-name">
-								<option hidden>Destination Type</option>
-							</select>
-						</div>
-						<div class="form-group">
-							<select class="form-control" id="destination-name">
 								<option hidden>Destination Name</option>
-							</select>
-						</div>
-						<div class="form-group">
-							<select class="form-control" id="resort-type">
-								<option hidden>Resort Category</option>
-							</select>
-						</div>
-						<div class="form-group">
-							<select class="form-control" id="resort-name">
-								<option hidden>Resort Name</option>
 							</select>
 						</div>
 					</form>
@@ -7407,6 +7392,25 @@
 
 	<!-- footer ends -->
 
+	<div class="resort-filter">
+		<div class="buttons" data-target="#res-filt" data-toggle="modal"><i class="mdi mdi-map-search-outline"></i>
+			<span>Resort Search</span>
+		</div>
+	</div>
+	
+	<section id="res-filt" class="modal fade" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<iframe id="cals" src="../../filter.html"></iframe>
+				</div>
+			</div>
+		
+		  </div>
+	</section>
+
 
 	<div class="calendar-sec">
 		<div class="buttons" data-target="#calendar-section" data-toggle="modal"><i class="mdi mdi-calendar-month-outline"></i>
@@ -7463,7 +7467,7 @@
 	<!-- main js -->
 	<script src="../../js/custom.js"></script>
 	<script>
-		window.onload = function (){filterRPs();};
+		window.onload = function (){offerFilt1();};
 		// When the user scrolls the page, execute myFunction
 		window.onscroll = function () { myFunction() };
 

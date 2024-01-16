@@ -2143,10 +2143,6 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      color: red;
      font-weight: 600;
 }
-.modal-body h2
-{
-     text-align: center;
-}
 iframe
 {
      border: none;
@@ -2491,6 +2487,10 @@ iframe
 .resort-filter:hover
 {
      right: 0;
+}
+.resort-filter:hover .buttons, .calendar-sec:hover .buttons
+{
+     background: #fb6a00;
 }
 .resort-filter .buttons
 {
