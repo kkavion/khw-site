@@ -1389,6 +1389,20 @@ function outskirtsFilt()
 		window.location.assign(sel);
 	}
 }
+//outskirts filter
+function outskirtsFilt1()
+{
+	var zoneSelect = document.getElementById("zone-name");
+	for (var x in outskirtsZone)
+	{
+		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
+	}
+	zoneSelect.onchange = function()
+	{
+		var sel = outskirtsZone[zoneSelect.value];
+		window.location.assign("../../"+sel);
+	}
+}
 //bidnwin filter
 function bidnwinFilt()
 {
