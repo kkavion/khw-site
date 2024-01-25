@@ -714,6 +714,11 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
      display: inline;
 }
+.resort-box .travel-primary-btn-2,
+.ct-action .travel-primary-btn
+{
+     padding: 6px 12px !important;
+}
 .discount-package-4-btn .travel-primary-btn-2:nth-child(2)
 {
      float: left;
