@@ -1,21 +1,24 @@
+/*! lightslider - v1.1.6 - 2016-10-25
+* https://github.com/sachinchoolur/lightslider
+* Copyright (c) 2016 Sachin N; Licensed MIT */
 (function ($, undefined) {
     'use strict';
     var defaults = {
         item: 3,
         autoWidth: false,
-        slideMove: 0,
+        slideMove: 1,
         slideMargin: 10,
         addClass: '',
         mode: 'slide',
         useCSS: true,
         cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',
         easing: 'linear', //'for jquery animation',//
-        speed: 500, //ms'
-        auto: true,
-        pauseOnHover: true,
-        loop: true,
+        speed: 400, //ms'
+        auto: false,
+        pauseOnHover: false,
+        loop: false,
         slideEndAnimation: true,
-        pause: 5000,
+        pause: 2000,
         keyPress: false,
         controls: true,
         prevHtml: '',
@@ -29,7 +32,7 @@
         pager: true,
         gallery: false,
         galleryMargin: 5,
-        thumbMargin: 3,
+        thumbMargin: 5,
         currentPagerPosition: 'middle',
         enableTouch: true,
         enableDrag: true,

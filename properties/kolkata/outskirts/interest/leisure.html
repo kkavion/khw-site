@@ -373,7 +373,7 @@
 						<div class="demo">
 							<div class="item">
 								<div class="clearfix">
-									<ul class="image-gallery2 gallery list-unstyled cS-hidden">
+									<ul id="image-gallery" class="gallery list-unstyled cS-hidden">
 			
 										<li data-thumb="../../../../images/out-tfr/gallery/clubrio2.webp">
 											<img src="../../../../images/out-tfr/gallery/clubrio2.webp">
@@ -1671,7 +1671,7 @@
 						<div class="demo">
 							<div class="item">
 								<div class="clearfix">
-									<ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+									<ul id="image-gallery2" class="gallery list-unstyled cS-hidden">
 			
 										<li data-thumb="../../../../images/out-vedic/gallery/club.webp">
 											<img src="../../../../images/out-vedic/interestgallery/club.webp">
@@ -4195,7 +4195,7 @@
 						<div class="demo">
 							<div class="item">
 								<div class="clearfix">
-									<ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+									<ul id="image-gallery3" class="gallery list-unstyled cS-hidden">
 			
 										<li data-thumb="../../../../images/out-amaya/interestgallery/pool3.webp">
 											<img src="../../../../images/out-amaya/interestgallery/pool3.webp">
@@ -4214,6 +4214,7 @@
 											<div class="overlay">
 												Overview of Amaya
 											</div>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -5670,7 +5671,11 @@
 					$('#image-gallery').removeClass('cS-hidden');
 				}
 			});
-			$('.image-gallery2').lightSlider({
+		});
+	</script>
+	<script>
+		$(document).ready(function () {
+			$('#image-gallery2').lightSlider({
 				gallery: true,
 				item: 1,
 				thumbItem: 9,
@@ -5678,8 +5683,9 @@
 				speed: 500,
 				auto: false,
 				loop: true,
+				pager: false,
 				onSliderLoad: function () {
-					$('.image-gallery2').removeClass('cS-hidden');
+					$('#image-gallery2').removeClass('cS-hidden');
 				}
 			});
 		});
