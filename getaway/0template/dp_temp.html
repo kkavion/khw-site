@@ -173,9 +173,11 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="bredcrums-content">
-							<h2>Getaway</h2>
+							<h2> </h2>
 							<ul>
 								<li><a href="../../index.html">Home</a>
+								</li>
+								<li><a href="../../getaway.html">Destination</a>
 								</li>
 								<li class="active"><a href="digha.html">DIGHA</a>
 								</li>
@@ -263,12 +265,6 @@
 									<span>6 m (20 ft)</span>
 								</div>
 								<div class="col-md-6 col-xs-6">
-									<span>Language</span>
-								</div>
-								<div class="col-md-6 col-xs-6">
-									<span>Bengali, Hindi</span>
-								</div>
-								<div class="col-md-6 col-xs-6">
 									<span>Time Zone</span>
 								</div>
 								<div class="col-md-6 col-xs-6">
@@ -287,16 +283,20 @@
 									<span><i class="fa fa-inr" aria-hidden="true"></i> Rupee</span>
 								</div>
 								<div class="col-md-6 col-xs-6">
-									<span>Nearest Airport</span>
+									<span>Language</span>
 								</div>
 								<div class="col-md-6 col-xs-6">
-									<span>N.S.C Bose International Airport</span>
+									<span>Bengali, Hindi</span>
 								</div>
 								<div class="col-md-6 col-xs-6">
+									<span>Nearest</span><br>
+									<span>Airport</span><br>
 									<span>Railway Station</span>
 								</div>
 								<div class="col-md-6 col-xs-6">
-									<span>Howrah Junction, Digha Terminal</span>
+									<span> </span><br>
+									<span>N.S.C Bose Intl</span><br>
+									<span>Digha Terminal</span>
 								</div>
 								<div class="col-md-6 col-xs-6">
 									<span>Distance From</span><br>
@@ -320,7 +320,7 @@
 									<span>Holiday Interest</span>
 								</div>
 								<div class="col-md-6 col-xs-6">
-									<span>
+									<span class="amenities-row">
 										<span class="mdi mdi-beach"title="Beach"></span>
 										<span class="mdi mdi-sail-boat"title="Speed Boat"></span>
 										<span class="mdi mdi-ski-water"title="Water Ski"></span>
@@ -498,7 +498,7 @@
 						</li>
 						<li role="presentation" class=""><a href="#shopping" aria-controls="shopping" role="tab" data-toggle="tab">Shopping</a>
 						</li>
-						<li role="presentation" class=""><a href="#poi" aria-controls="poi" role="tab" data-toggle="tab">Interest</a>
+						<li role="presentation" class=""><a href="#poi" aria-controls="poi" role="tab" data-toggle="tab">Places of Interest</a>
 						</li>
 						<li role="presentation" class=""><a href="#season" aria-controls="season" role="tab" data-toggle="tab">Season</a>
 						</li>
@@ -3805,6 +3805,25 @@
 	</section>
 
 	<!-- footer ends -->
+
+	<div class="resort-filter">
+		<div class="buttons" data-target="#res-filt" data-toggle="modal"><i class="mdi mdi-map-search-outline"></i>
+			<span>Resort Search</span>
+		</div>
+	</div>
+	
+	<section id="res-filt" class="modal fade" role="dialog">		
+		<div class="modal-dialog modal-lg">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<iframe id="cals" src="../../filter.html"></iframe>
+				</div>
+			</div>
+		
+		  </div>
+	</section>
 
 
 	<div class="calendar-sec">
