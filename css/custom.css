@@ -1383,6 +1383,7 @@ button
      font-weight: normal;
      line-height: 27px;
      text-align: justify;
+     margin-bottom: 25px;
 }
 .single-package-details p i
 {
@@ -1814,9 +1815,9 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      background-image: url("https://transparenttextures.com/patterns/subtle-white-feathers.png");
 }
-.homepage .packages-section
+.homepage .bidnwin
 {
-     background: white;
+     background-color: white;
 }
 .interest-bg
 {
@@ -2789,7 +2790,8 @@ h1, h2, h3, h4, h5, h6
      font-weight: 600;
 }
 .destination-bg .single-package-details span,
-.resorts-bg .single-package-details span
+.resorts-bg .single-package-details span,
+.leisure-page-area .single-package-details span
 {
      font-family: 'Merriweather', sans-serif;
      font-style: normal;
