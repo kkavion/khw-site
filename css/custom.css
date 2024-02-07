@@ -2788,6 +2788,7 @@ h1, h2, h3, h4, h5, h6
 .info-title h2
 {
      font-weight: 600;
+     font-style: normal;
 }
 .destination-bg .single-package-details span,
 .resorts-bg .single-package-details span,

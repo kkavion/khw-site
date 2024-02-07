@@ -4640,6 +4640,11 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      border-radius: 5px;
 }
 
+.top-destination-area h3
+{
+    padding: 20px 0;
+}
+
  .top-destination-area-5 .single-destionation-5 {
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
      transition: all ease-in-out 0.5s;
