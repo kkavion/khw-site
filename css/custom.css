@@ -1823,7 +1823,6 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      background-image: url("../images/cubes.png") !important;
 }
-.resorts-bg,
 .rate-pg,
 .resort-rooms
 {
@@ -1915,7 +1914,6 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .offer-tab .resort-table .row:nth-child(2),
 .interest-dayout .resort-table .row:nth-child(2),
 .resorts-bg .dayout-table .row:nth-child(2)
-
 {
      padding: 0;
      text-align: left;
@@ -1975,6 +1973,25 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      font-size: 16px;
      line-height: 1.5;
 }
+.terms-sec h3
+{
+     padding: 5px 0;
+     text-align: left;
+     background: white;
+}
+.terms-sec ol
+{
+     list-style-type: decimal;
+     background: white;
+     padding-left: 15px;
+     padding-bottom: 20px;
+}
+.terms-sec ol ol
+{
+     list-style-type: lower-alpha;
+     background: white;
+     padding-bottom: 0;
+}
 .tour-package-bg .package-location a
 {
      text-decoration: none;
@@ -2006,7 +2023,6 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .resorts-bg .top-destination-area-5
 {
-     margin-top: -25px;
      padding-bottom: 0;
 }
 .savour-sec
@@ -2075,6 +2091,10 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      margin: auto;
      text-align: center;
 }
+.compare-section-buttons .travel-primary-btn-2
+{
+     padding: 6px 12px !important;
+}
 .compare-section-buttons .discount-package-4-btn
 {
      width: auto;
@@ -2085,7 +2105,8 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 #intoverlayaa,
 #intoverlayaaa, #intoverlaybbb,
 #compare-section,
-#room-compare-section, #villa-compare-section, #suite-compare-section
+#room-compare-section, #villa-compare-section, #suite-compare-section,
+#booking-form
 {
      position: fixed; /* Sit on top of the page content */
      display: none; /* Hidden by default */
@@ -3007,4 +3028,38 @@ h1, h2, h3, h4, h5, h6
 .offer-tab .resort-table .row div:first-child
 {
      border-right: 1px solid lightgray;
+}
+.query-btn
+{
+     padding-bottom: 15px;
+}
+.query-btn .buttons
+{
+     padding: 5px;
+     text-align: center;
+     background-color: #0495ff;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: all 0.3s ease-in-out;
+     margin: 0 30%;
+}
+.query-btn .buttons:hover
+{
+     background-color: #fb6a00;
+}
+.query-btn span
+{
+     color: white;
+}
+#events .timeline-content
+{
+     margin: 20px 0;
+}
+#events .section-title-version-2-black
+{
+     margin-top: 50px;
+}
+#events
+{
+     margin-bottom: 50px;
 }

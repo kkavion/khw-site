@@ -322,7 +322,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      display: block;
      color: white;
      font-size: 16px;
-     text-transform: ;
      text-decoration: none;
      font-weight: 500;
      position: relative;
@@ -864,7 +863,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .count-down-bg .count-timer .time-wrapper p {
      color: #ffffff;
      font-size: 20px;
-     padding-bottom: ;
 }
  .count-down-bg .count-timer .time-wrapper .timer {
      overflow: hidden;
@@ -876,7 +874,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      margin: 0 10px;
      text-align: center;
      color: #ffffff;
-     padding: ;
      font-size: 45px;
      font-weight: 500;
      border-radius: 4px;
@@ -1470,9 +1467,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
     /* Firefox 18- */
      color: #c3c3c3;
 }
- .footer-area .single-footer .footer-contact-form form .footer-form-element li input:hover {
-     background: #;
-}
  .footer-area .single-footer .footer-contact-form form .footer-form-element li textarea {
      background: #dfdfdf none repeat scroll 0 0;
      border: medium none;
@@ -1504,9 +1498,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .footer-area .single-footer .footer-contact-form form .footer-form-element li textarea :-moz-placeholder {
     /* Firefox 18- */
      color: #ffffff;
-}
- .footer-area .single-footer .footer-contact-form form .footer-form-element li textarea:hover {
-     background: #;
 }
  .footer-area .single-footer .footer-contact-form form .footer-form-element button {
      background: #0495ff none repeat scroll 0 0;
@@ -1860,7 +1851,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      position: relative;
      z-index: 1;
      overflow: hidden;
-     background: ;
      background-image: url(https://images.pexels.com/photos/1533720/pexels-photo-1533720.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
  .tour-package-bg:before {
@@ -2349,7 +2339,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-size: 30px;
      font-weight: 600;
      margin-top: 14px;
-     text-transform: ;
 }
 .subscribe-area-2 .subscribe-title h2
 {
@@ -2600,9 +2589,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      padding-left: 0;
 }
 /*===================================================== 29.why choose travelser section css goes here =======================================================*/
- .choose-trabble-version-2 {
-     background: ;
-}
+ 
 .choose-trabble-version-2 .pt-50
 {
     margin: 12% 0;
@@ -3151,7 +3138,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      width: 100%;
      height: 100%;
      content: '';
-     : transparent linear-gradient(to left, transparent 0%, transparent -10%, rgba(55, 183, 33, 0.7) 100%) repeat scroll 0 0;
+     background: transparent linear-gradient(to left, transparent 0%, transparent -10%, rgba(55, 183, 33, 0.7) 100%) repeat scroll 0 0;
      background: transparent -moz-linear-gradient(to left, transparent 0%, transparent -10%, rgba(55, 183, 33, 0) 100%) repeat scroll 0 0;
      background: transparent -webkit-linear-gradient(to left, transparent 0%, transparent -10%, rgba(55, 183, 33, 0.7) 100%) repeat scroll 0 0;
      left: 0;
@@ -4522,7 +4509,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 .header-bottom-area .logo-area {
     padding: 5px 35px 0 0;
-    : 115%;
 }
 .single-bredcurms .bredcrums-content ul li a {
     font-size: 15px;
