@@ -826,7 +826,11 @@
 /*  Desktop Layout: 991px    */
 @media screen and (min-width: 991px)
 {    
-    
+    #booking-form .modal-content
+    {
+        width: 50%;
+        margin: auto;
+    }
     #interest-slide .single-package-details
     {
         margin: 25% 0 !important;
