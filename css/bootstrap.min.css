@@ -3113,6 +3113,7 @@ textarea.input-lg {
  background-image:none;
  border:1px solid transparent;
  border-radius:5px;
+ transition: all 0.3s ease-in-out;
 }
 .btn.active.focus,
 .btn.active:focus,
