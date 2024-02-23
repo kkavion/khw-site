@@ -241,7 +241,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .fact-file .amenities-row span, .fact-file .amenities-row i
 {
      font-size: 24px;
-     padding-right: 4px;
+     padding-right: 10px;
 }
 .resort-table .row
 {
@@ -3036,7 +3036,7 @@ h1, h2, h3, h4, h5, h6
 }
 .query-btn
 {
-     padding-bottom: 15px;
+     padding: 15px 0;
 }
 .query-btn .buttons
 {
@@ -3068,4 +3068,9 @@ h1, h2, h3, h4, h5, h6
 #events
 {
      margin-bottom: 50px;
+}
+#booking-form .btn-primary
+{
+     display: block;
+     width: 100%;
 }
