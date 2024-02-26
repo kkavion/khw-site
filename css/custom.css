@@ -240,7 +240,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .fact-file .amenities-row span, .fact-file .amenities-row i
 {
-     font-size: 24px;
+     font-size: 20px;
      padding-right: 10px;
 }
 .resort-table .row
@@ -615,6 +615,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
      margin-top: 25px;
      margin-bottom: 50px;
+     padding-bottom: 0;
 }
 .top-destination-area .single-hotels
 {
@@ -712,7 +713,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .discount-package-4-btn
 {
-     display: inline;
+     display: flex;
 }
 .box .travel-primary-btn-2,
 .resort-box .travel-primary-btn-2,
@@ -1190,6 +1191,7 @@ button
 {
      background: white;
      text-align: left;
+     padding-bottom: 0;
 }
 .x-essence .subscribe-form-box
 {
@@ -1387,7 +1389,7 @@ button
      font-weight: normal;
      line-height: 27px;
      text-align: justify;
-     margin-bottom: 25px;
+     margin-bottom: 15px;
 }
 .single-package-details p i
 {
@@ -2670,7 +2672,7 @@ iframe
 .package-5-area .single-package-carasoul
 {
      box-shadow: 0 0 10px rgba(0,0,0,.2);
-     margin-bottom: 25px;
+     margin-bottom: 50px;
 }
 .package-5-area .single-package-carasoul:hover
 {
@@ -3036,7 +3038,7 @@ h1, h2, h3, h4, h5, h6
 }
 .query-btn
 {
-     padding: 15px 0;
+     padding: 15px;
 }
 .query-btn .buttons
 {
@@ -3046,7 +3048,6 @@ h1, h2, h3, h4, h5, h6
      border-radius: 5px;
      cursor: pointer;
      transition: all 0.3s ease-in-out;
-     margin: 0 30%;
 }
 .query-btn .buttons:hover
 {
