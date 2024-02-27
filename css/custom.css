@@ -243,6 +243,10 @@ header .sticky .header-bottom-area .main-menu > li.active a
      font-size: 20px;
      padding-right: 10px;
 }
+.fact-file .amenities-row
+{
+     text-align: center;
+}
 .resort-table .row
 {
 	padding-bottom:3px;
@@ -713,13 +717,13 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .discount-package-4-btn
 {
-     display: flex;
+     display: inline;
 }
 .box .travel-primary-btn-2,
 .resort-box .travel-primary-btn-2,
 .ct-action .travel-primary-btn
 {
-     padding: 6px 12px !important;
+     padding: 5px 10px !important;
 }
 .discount-package-4-btn .travel-primary-btn-2:nth-child(2)
 {
@@ -1249,7 +1253,7 @@ button
 }
 .ct-action
 {
-     margin-bottom: 35px;
+     margin: 35px 0;
 }
 .query
 {
@@ -3074,4 +3078,8 @@ h1, h2, h3, h4, h5, h6
 {
      display: block;
      width: 100%;
+}
+.tab-content .section-paddings:not(:last-child)
+{
+     padding-bottom: 0;
 }
