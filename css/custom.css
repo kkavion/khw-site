@@ -576,10 +576,6 @@ header .sticky .header-bottom-area .main-menu > li.active a
 	padding-left: 0;
 	margin: 0;
 }
-.demo .item
-{
-	margin: 10px 0 10px 0;
-}
 .demo
 {
 	margin-top: 25px;
@@ -1838,6 +1834,15 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      background-image: url("https://transparenttextures.com/patterns/xv.png") !important;
 }
+.resort-rooms .terms-sec h3,
+.resort-rooms .terms-sec ol
+{
+     background: transparent;
+}
+.faq-section.resort-rooms
+{
+     padding-bottom: 75px;
+}
 .rate-pg
 {
      background-color: cornsilk !important;
@@ -1968,11 +1973,6 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .resort-rooms .terms-sec h4
 {
      color: black;
-}
-.resort-rooms .terms-sec
-{
-     background: white;
-     border-radius: 5px;
 }
 .resort-rooms .resort-table .row:nth-child(2) div:not(:first-child)
 {
