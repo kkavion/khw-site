@@ -585,6 +585,10 @@ header .sticky .header-bottom-area .main-menu > li.active a
 	width: 100%;
 	object-fit: cover;
 }
+.demo .section-title-version-2-black h3
+{
+     padding-bottom: 15px;
+}
 .fig-text
 {
 	padding: 10px 0 5px 0;
@@ -1389,7 +1393,7 @@ button
      font-weight: normal;
      line-height: 27px;
      text-align: justify;
-     margin-bottom: 15px;
+     margin-bottom: 18px;
 }
 .single-package-details p i
 {
@@ -1841,7 +1845,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .faq-section.resort-rooms
 {
-     padding-bottom: 75px;
+     padding-bottom: 50px;
 }
 .rate-pg
 {
