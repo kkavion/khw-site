@@ -1249,7 +1249,7 @@ button
 }
 .single-hotels .ct-action, .package-calto-action .ct-action
 {
-     margin-bottom: 0;
+     margin: 0;
 }
 .ct-action
 {
@@ -1833,10 +1833,13 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      background-image: url("../images/cubes.png") !important;
 }
-.rate-pg,
-.resort-rooms
+.rate-pg
 {
      background-image: url("https://transparenttextures.com/patterns/xv.png") !important;
+}
+.resort-rooms
+{
+     background: #f4f4f4;
 }
 .resort-rooms .terms-sec h3,
 .resort-rooms .terms-sec ol
@@ -2819,7 +2822,7 @@ h1, h2, h3, h4, h5, h6
 }
 .rev_slider h2
 {
-     letter-spacing: 3px !important;
+     letter-spacing: 2px !important;
 }
 .info-title h2
 {
