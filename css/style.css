@@ -3948,6 +3948,11 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      padding: 0px 20px;
      background: white;
      color: black;
+     margin-bottom: 50px;
+}
+.additional-info
+{
+    margin-bottom: 0;
 }
  aside .booking-form h2 {
      color: black;

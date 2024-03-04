@@ -192,6 +192,14 @@
 /*======================  Mobile Layout: 320px. =======================  */
 
 @media only screen and (max-width: 767px) {
+    .section-margins.top-destination-area
+    {
+        margin: 0;
+    }
+    #stay .top-destination-area
+    {
+        margin: 20px 20px 30px;
+    }
     .quick-links .btn img
     {
         width: 80px !important;
@@ -455,7 +463,7 @@
     }
     .offers h2
     {
-        text-align: center;
+        text-align: left;
         margin-bottom: 10px;
     }
 
@@ -536,7 +544,7 @@
     .section-paddings {text-align: left;}
     .welcome-area .single-welcome-area .overlay-image {display: none;}
     .single-welcome-text { padding-top: 30px;}
-    .section-title-version-2 h2, .section-title-version-2-white h2, .section-title-version-2-black h2 {background-position: bottom center;}
+    .section-title-version-2 h2, .section-title-version-2-white h2, .section-title-version-2-black h2 {background-position: bottom center;text-align: center;}
     .tour-package-bg { padding: 100px 15px;}
     .img-responsive.img-rounded {width: 100%;}
     .popular-country .padding-bottom {margin-bottom: 30px;}
@@ -826,6 +834,10 @@
 /*  Desktop Layout: 991px    */
 @media screen and (min-width: 991px)
 {    
+    #amenities h3
+    {
+        margin-left: 20px;
+    }
     #booking-form .modal-content
     {
         width: 50%;
