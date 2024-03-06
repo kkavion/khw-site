@@ -159,7 +159,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
 	display:grid;
 	text-align:left;
-	font-weight:bold;
+	font-weight: normal;
 }
 .amenities-sec img
 {
@@ -2845,8 +2845,8 @@ h1, h2, h3, h4, h5, h6
 {
      font-weight: 300;
      font-size: 17px;
-     width: 90%;
-     margin: auto;
+     width: 80%;
+     margin: 20px auto;
      display: block;
      line-height: 1.5;
      text-align: justify;
