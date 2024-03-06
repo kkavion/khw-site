@@ -556,13 +556,14 @@ function closeSuiteCompare()
 
 var zones = 
 {
-	"Altius": ["Mt. Abu", "Kasauli", "Khandala", "Lavasa", "Lonavala", "Matheran", "Mussoorie", "Panchmarhi", "Panvel", "Parwanoo", "Shimla", "Yelagiri"],
-	"Backwater":["Alleppey", "Kanyakumari", "Kollam", "Kumarakom", "Poovar", "Varkala"],
-	"Beach": ["Alibaug", "Chilka", "Digha", "Kovalam", "Mahabalipuram", "Mandarmani", "Puducherry", "Puri", "Ratnagiri"],
-	"Outskirts": ["Ahmedabad Outskirts", "Bengaluru Outskirts", "Bhopal Outskirts", "Bhubaneshwar Outskirts", "Chandigarh Outskirts", "Chennai Outskirts", "Indore Outskirts",
-		"Kolkata Outskirts", "Mumbai Outskirts", "Nagpur Outskirts", "New Delhi Outskirts", "Thiruvananthapuram Outskirts"],
-	"Heritage": ["Agra", "Bhopal", "Gandhinagar", "Hassan", "Indore", "Konark", "Mysore", "Nagarhole", "Shantiniketan", "Udaipur", "Ujjain", "Vadodara"],
-	"Wildlife": ["Alwar", "Bharatpur", "Kanha", "Panchmarhi", "Pench", "Sariska", "Sundarban"]
+	"Altius": ["Kasauli", "Khandala", "Lavasa", "Lonavala", "Matheran", "Mt. Abu", "Mussoorie", "Panchgani", "Panchmarhi", "Parwanoo", "Shimla", "Yelagiri"],
+	"Backwater":["Alleppey", "Kollam", "Kottayam", "Kumarakom", "Poovar"],
+	"Beach": ["Alibaug", "Digha", "Kanyakumari", "Kovalam", "Mahabalipuram", "Mandarmani", "Puducherry", "Varkala"],
+	"Cityscape": ["Bhopal", "Indore", "Panvel"],
+	"Outskirts": ["Ahmedabad Outskirts", "Bengaluru Outskirts", "Bhopal Outskirts", "Chandigarh Outskirts", "Chennai Outskirts", "Indore Outskirts",
+		"Kolkata Outskirts", "Mumbai Outskirts", "Nagpur Outskirts", "New Delhi Outskirts", "Pune Outskirts", "Thiruvananthapuram Outskirts"],
+	"Heritage": ["Agra", "Gandhinagar", "Hassan", "Mysuru", "Shantiniketan", "Udaipur", "Vadodara"],
+	"Wildlife": ["Alwar", "Bharatpur", "Kanha", "Pench", "Sariska", "Sundarban"]
 };
 
 var allDestination = 
@@ -589,7 +590,7 @@ var allDestination =
 		"Boutique": [],
 		"Economy": []
 	},
-	"Udaipur": {				
+	"Udaipur": {
 		"Luxury": [],
 		"Premium": [],
 		"Standard": [],
@@ -655,42 +656,6 @@ var allDestination =
 		"Economy": []
 	},
 	"Panchmarhi": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
-	},
-	//bhubaneshwar
-	"Bhubaneshwar Outskirts":{
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
-	},
-	"Chilka": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
-	},
-	"Konark": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
-	},
-	"Puri": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
-	},
-	"Ratnagiri": {
 		"Luxury": [],
 		"Premium": [],
 		"Standard": [],
@@ -1136,7 +1101,7 @@ var bidnwinZone =
 	"Thiruvananthapuram":"#"
 };
 
-function filterHome() {
+function filterHome(inner) {
 	var zoneSelect = document.getElementById("zone-type");
 	var destinationSelect = document.getElementById("destination-name");
 	for (var x in zones)
@@ -1157,7 +1122,14 @@ function filterHome() {
 		{
 			if (sel.options[sel.selectedIndex].value == x)
 			{
-				window.location.assign(desLocs[x]);
+				if (inner == 1)
+				{
+					window.location.assign(desLocs[x]);
+				}
+				else if (inner == 2)
+				{
+					window.location.assign("../../"+desLocs[x]);
+				}
 			}
 		}
 	}
@@ -1319,90 +1291,6 @@ function dayoutFilt()
 		window.location.assign(sel);
 	}
 }
-//offer filter
-function offerFilt()
-{	
-	var zoneSelect = document.getElementById("zone-name");
-	for (var x in offerZone)
-	{
-		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
-	}
-	zoneSelect.onchange = function()
-	{
-		var sel = offerZone[zoneSelect.value];
-		window.location.assign(sel);
-	}
-}
-//offer filter 2
-function offerFilt1()
-{	
-	var zoneSelect = document.getElementById("zone-name");
-	for (var x in offerZone)
-	{
-		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
-	}
-	zoneSelect.onchange = function()
-	{
-		var sel = offerZone[zoneSelect.value];
-		window.location.assign("../../"+sel);
-	}
-}
-//resort filter
-function resortFilt()
-{
-	var zoneSelect = document.getElementById("zone-name");
-	for (var x in resortZone)
-	{
-		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
-	}
-	zoneSelect.onchange = function()
-	{
-		var sel = resortZone[zoneSelect.value];
-		window.location.assign(sel);
-	}
-}
-//resort filter
-function resortFilt1()
-{
-	var zoneSelect = document.getElementById("zone-name");
-	for (var x in resortZone)
-	{
-		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
-	}
-	zoneSelect.onchange = function()
-	{
-		var sel = resortZone[zoneSelect.value];
-		window.location.assign("../../"+sel);
-	}
-}
-//outskirts filter
-function outskirtsFilt()
-{
-	var zoneSelect = document.getElementById("zone-name");
-	for (var x in outskirtsZone)
-	{
-		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
-	}
-	zoneSelect.onchange = function()
-	{
-		var sel = outskirtsZone[zoneSelect.value];
-		window.location.assign(sel);
-	}
-}
-//outskirts filter
-function outskirtsFilt1()
-{
-	var zoneSelect = document.getElementById("zone-name");
-	for (var x in outskirtsZone)
-	{
-		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
-	}
-	zoneSelect.onchange = function()
-	{
-		var sel = outskirtsZone[zoneSelect.value];
-		window.location.assign("../../"+sel);
-	}
-}
 //bidnwin filter
 function bidnwinFilt()
 {
@@ -1421,7 +1309,7 @@ function bidnwinFilt()
 function interest()
 {
 	var interestSel = document.getElementById("interest-name");
-	var zoneSel = document.getElementById("zone-name1");
+	var desSel = document.getElementById("des-name1");
 	var interests = 
 	{
 		"Conference":
@@ -1551,15 +1439,15 @@ function interest()
 	}
 	interestSel.onchange = function()
 	{
-		zoneSel.length = 1;
+		desSel.length = 1;
 		for (var y in interests[this.value])
 		{
-			zoneSel.options[zoneSel.options.length] = new Option(y, y);
+			desSel.options[desSel.options.length] = new Option(y, y);
 		}
 	}
-	zoneSel.onchange = function ()
+	desSel.onchange = function ()
 	{
-		var a = interests[interestSel.value][zoneSel.value];
+		var a = interests[interestSel.value][desSel.value];
 		window.location.assign("../../"+a);
 	}
 }
@@ -1567,7 +1455,7 @@ function interest()
 function interest2()
 {
 	var interestSel = document.getElementById("interest-name");
-	var zoneSel = document.getElementById("zone-name1");
+	var desSel = document.getElementById("des-name1");
 	var interests = 
 	{
 		"Conference":
@@ -1697,15 +1585,15 @@ function interest2()
 	}
 	interestSel.onchange = function()
 	{
-		zoneSel.length = 1;
+		desSel.length = 1;
 		for (var y in interests[this.value])
 		{
-			zoneSel.options[zoneSel.options.length] = new Option(y, y);
+			desSel.options[desSel.options.length] = new Option(y, y);
 		}
 	}
-	zoneSel.onchange = function ()
+	desSel.onchange = function ()
 	{
-		var a = interests[interestSel.value][zoneSel.value];
+		var a = interests[interestSel.value][desSel.value];
 		window.location.assign(a);
 	}
 }
