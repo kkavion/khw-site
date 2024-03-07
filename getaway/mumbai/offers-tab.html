@@ -125,7 +125,7 @@
 										</ul>
 									</li>
 									<li><a href="../../encircle.html" onselectstart="return false">Encircle</a></li>
-									<li><a onselectstart="return false" href="../../blog.html">eXperience</a></li>
+									<li><a onselectstart="return false" href="../../blog.html">Experience</a></li>
 									<li>
 										<a onselectstart="return false">Query</a>
 										<ul class="dropdown3 main-menu2">
@@ -183,7 +183,12 @@
 				<div class="row bg-gradent">
 					<form id="filter">
 						<div class="form-group">
-							<select class="form-control" id="zone-name">
+							<select class="form-control" id="zone-type">
+								<option hidden>Destination Type</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<select class="form-control" id="destination-name">
 								<option hidden>Destination Name</option>
 							</select>
 						</div>
@@ -10188,7 +10193,7 @@
 	<!-- main js -->
 	<script src="../../js/custom.js"></script>
 	<script>
-		window.onload = function (){offerFilt1();};
+		window.onload = function (){filterHome(2);};
 		// When the user scrolls the page, execute myFunction
 		window.onscroll = function () { myFunction() };
 
