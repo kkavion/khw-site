@@ -566,7 +566,7 @@ var zones =
 	"Wildlife": ["Alwar", "Bharatpur", "Kanha", "Pench", "Sariska", "Sundarban"]
 };
 
-var allDestination = 
+var allResort = 
 {
 	//Ahmedabad
 	"Ahmedabad Outskirts":{
@@ -920,7 +920,7 @@ var desLocs =
 	"Kovalam" : "getaway/thiruvananthapuram/kovalam.html",
 	"Kumarakom" : "getaway/thiruvananthapuram/kumarakom.html",
 	"Mahabalipuram" : "getaway/chennai/mahabalipuram.html",
-	"Mysore" : "getaway/bengaluru/mysuru.html",
+	"Mysuru" : "getaway/bengaluru/mysuru.html",
 	"Mt. Abu" : "getaway/ahmedabad/mtabu.html",
 	"Nagarhole" : "getaway/bengaluru/nagarhole.html",
 	"Pench" : "getaway/nagpur/pench.html",
@@ -1101,6 +1101,130 @@ var bidnwinZone =
 	"Thiruvananthapuram":"#"
 };
 
+var interests = 
+{
+	"Conference":
+	{
+		"Ahmedabad":"#",
+		"Bengaluru":"#",
+		"Bhopal":"#",
+		"Bhubaneswar":"#",
+		"Chandigarh":"#",
+		"Chennai":"#",
+		"Indore":"#",
+		"Kolkata":"properties/kolkata/outskirts/interest/conference.html",
+		"Mumbai":"#",
+		"Nagpur":"#",
+		"New Delhi":"#",
+		"Thiruvananthapuram":"#"
+	},
+	"Gourmet":
+	{
+		"Ahmedabad":"#",
+		"Bengaluru":"#",
+		"Bhopal":"#",
+		"Bhubaneswar":"#",
+		"Chandigarh":"#",
+		"Chennai":"#",
+		"Indore":"#",
+		"Kolkata":"properties/kolkata/outskirts/interest/gourmet.html",
+		"Mumbai":"#",
+		"Nagpur":"#",
+		"New Delhi":"#",
+		"Thiruvananthapuram":"#"
+	},
+	"Heritage":
+	{
+		"Ahmedabad":"#",
+		"Bengaluru":"#",
+		"Bhopal":"#",
+		"Bhubaneswar":"#",
+		"Chandigarh":"#",
+		"Chennai":"#",
+		"Indore":"#",
+		"Kolkata":"properties/kolkata/outskirts/interest/heritage.html",
+		"Mumbai":"#",
+		"Nagpur":"#",
+		"New Delhi":"#",
+		"Thiruvananthapuram":"#"
+	},
+	"Honeymoon":
+	{
+		"Ahmedabad":"#",
+		"Bengaluru":"#",
+		"Bhopal":"#",
+		"Bhubaneswar":"#",
+		"Chandigarh":"#",
+		"Chennai":"#",
+		"Indore":"#",
+		"Kolkata":"properties/kolkata/outskirts/interest/honeymoon.html",
+		"Mumbai":"#",
+		"Nagpur":"#",
+		"New Delhi":"#",
+		"Thiruvananthapuram":"#"
+	},
+	"Leisure":
+	{
+		"Ahmedabad":"#",
+		"Bengaluru":"#",
+		"Bhopal":"#",
+		"Bhubaneswar":"#",
+		"Chandigarh":"#",
+		"Chennai":"#",
+		"Indore":"#",
+		"Kolkata":"properties/kolkata/outskirts/interest/leisure.html",
+		"Mumbai":"#",
+		"Nagpur":"#",
+		"New Delhi":"#",
+		"Thiruvananthapuram":"#"
+	},
+	"Wedding":
+	{
+		"Ahmedabad":"#",
+		"Bengaluru":"#",
+		"Bhopal":"#",
+		"Bhubaneswar":"#",
+		"Chandigarh":"#",
+		"Chennai":"#",
+		"Indore":"#",
+		"Kolkata":"properties/kolkata/outskirts/interest/wedding.html",
+		"Mumbai":"#",
+		"Nagpur":"#",
+		"New Delhi":"#",
+		"Thiruvananthapuram":"#"
+	},
+	"Wellness":
+	{
+		"Ahmedabad":"#",
+		"Bengaluru":"#",
+		"Bhopal":"#",
+		"Bhubaneswar":"#",
+		"Chandigarh":"#",
+		"Chennai":"#",
+		"Indore":"#",
+		"Kolkata":"properties/kolkata/outskirts/interest/wellness.html",
+		"Mumbai":"#",
+		"Nagpur":"#",
+		"New Delhi":"#",
+		"Thiruvananthapuram":"#"
+	},
+	"Wildlife":
+	{
+		"Ahmedabad":"#",
+		"Bengaluru":"#",
+		"Bhopal":"#",
+		"Bhubaneswar":"#",
+		"Chandigarh":"#",
+		"Chennai":"#",
+		"Indore":"#",
+		"Kolkata":"properties/kolkata/outskirts/interest/wildlife.html",
+		"Mumbai":"#",
+		"Nagpur":"#",
+		"New Delhi":"#",
+		"Thiruvananthapuram":"#"
+	}
+}
+
 function filterHome(inner) {
 	var zoneSelect = document.getElementById("zone-type");
 	var destinationSelect = document.getElementById("destination-name");
@@ -1160,10 +1284,10 @@ function filterRP() {
 		typeSelect.length = 1;
 		//display correct values
 		var sel = document.getElementById("destination-name1");
-		for (var y in allDestination) {
+		for (var y in allResort) {
 			if (sel.options[sel.selectedIndex].value == y)
 			{
-				for (var z in allDestination[this.value])
+				for (var z in allResort[this.value])
 				{
 					typeSelect.options[typeSelect.options.length] = new Option(z, z);
 				}
@@ -1175,7 +1299,7 @@ function filterRP() {
 		//empty Chapters dropdown
 		resortSelect.length = 1;
 		//display correct values
-		var z = allDestination[destinationSelect.value][this.value];
+		var z = allResort[destinationSelect.value][this.value];
 		for (var i = 0; i < z.length; i++) {
 			resortSelect.options[resortSelect.options.length] = new Option(z[i], z[i]);
 		}
@@ -1218,10 +1342,10 @@ function filterRPs() {
 		typeSelect.length = 1;
 		//display correct values
 		var sel = document.getElementById("destination-name");
-		for (var y in allDestination) {
+		for (var y in allResort) {
 			if (sel.options[sel.selectedIndex].value == y)
 			{
-				for (var z in allDestination[this.value])
+				for (var z in allResort[this.value])
 				{
 					typeSelect.options[typeSelect.options.length] = new Option(z, z);
 				}
@@ -1233,7 +1357,7 @@ function filterRPs() {
 		//empty Chapters dropdown
 		resortSelect.length = 1;
 		//display correct values
-		var z = allDestination[destinationSelect.value][this.value];
+		var z = allResort[destinationSelect.value][this.value];
 		for (var i = 0; i < z.length; i++) {
 			resortSelect.options[resortSelect.options.length] = new Option(z[i], z[i]);
 		}
@@ -1306,133 +1430,11 @@ function bidnwinFilt()
 	}
 }
 
-function interest()
+function interest(inner)
 {
 	var interestSel = document.getElementById("interest-name");
 	var desSel = document.getElementById("des-name1");
-	var interests = 
-	{
-		"Conference":
-		{
-			"Ahmedabad":"#",
-			"Bengaluru":"#",
-			"Bhopal":"#",
-			"Bhubaneswar":"#",
-			"Chandigarh":"#",
-			"Chennai":"#",
-			"Indore":"#",
-			"Kolkata":"properties/kolkata/outskirts/interest/conference.html",
-			"Mumbai":"#",
-			"Nagpur":"#",
-			"New Delhi":"#",
-			"Thiruvananthapuram":"#"
-		},
-		"Gourmet":
-		{
-			"Ahmedabad":"#",
-			"Bengaluru":"#",
-			"Bhopal":"#",
-			"Bhubaneswar":"#",
-			"Chandigarh":"#",
-			"Chennai":"#",
-			"Indore":"#",
-			"Kolkata":"properties/kolkata/outskirts/interest/gourmet.html",
-			"Mumbai":"#",
-			"Nagpur":"#",
-			"New Delhi":"#",
-			"Thiruvananthapuram":"#"
-		},
-		"Heritage":
-		{
-			"Ahmedabad":"#",
-			"Bengaluru":"#",
-			"Bhopal":"#",
-			"Bhubaneswar":"#",
-			"Chandigarh":"#",
-			"Chennai":"#",
-			"Indore":"#",
-			"Kolkata":"properties/kolkata/outskirts/interest/heritage.html",
-			"Mumbai":"#",
-			"Nagpur":"#",
-			"New Delhi":"#",
-			"Thiruvananthapuram":"#"
-		},
-		"Honeymoon":
-		{
-			"Ahmedabad":"#",
-			"Bengaluru":"#",
-			"Bhopal":"#",
-			"Bhubaneswar":"#",
-			"Chandigarh":"#",
-			"Chennai":"#",
-			"Indore":"#",
-			"Kolkata":"properties/kolkata/outskirts/interest/honeymoon.html",
-			"Mumbai":"#",
-			"Nagpur":"#",
-			"New Delhi":"#",
-			"Thiruvananthapuram":"#"
-		},
-		"Leisure":
-		{
-			"Ahmedabad":"#",
-			"Bengaluru":"#",
-			"Bhopal":"#",
-			"Bhubaneswar":"#",
-			"Chandigarh":"#",
-			"Chennai":"#",
-			"Indore":"#",
-			"Kolkata":"properties/kolkata/outskirts/interest/leisure.html",
-			"Mumbai":"#",
-			"Nagpur":"#",
-			"New Delhi":"#",
-			"Thiruvananthapuram":"#"
-		},
-		"Wedding":
-		{
-			"Ahmedabad":"#",
-			"Bengaluru":"#",
-			"Bhopal":"#",
-			"Bhubaneswar":"#",
-			"Chandigarh":"#",
-			"Chennai":"#",
-			"Indore":"#",
-			"Kolkata":"properties/kolkata/outskirts/interest/wedding.html",
-			"Mumbai":"#",
-			"Nagpur":"#",
-			"New Delhi":"#",
-			"Thiruvananthapuram":"#"
-		},
-		"Wellness":
-		{
-			"Ahmedabad":"#",
-			"Bengaluru":"#",
-			"Bhopal":"#",
-			"Bhubaneswar":"#",
-			"Chandigarh":"#",
-			"Chennai":"#",
-			"Indore":"#",
-			"Kolkata":"properties/kolkata/outskirts/interest/wellness.html",
-			"Mumbai":"#",
-			"Nagpur":"#",
-			"New Delhi":"#",
-			"Thiruvananthapuram":"#"
-		},
-		"Wildlife":
-		{
-			"Ahmedabad":"#",
-			"Bengaluru":"#",
-			"Bhopal":"#",
-			"Bhubaneswar":"#",
-			"Chandigarh":"#",
-			"Chennai":"#",
-			"Indore":"#",
-			"Kolkata":"properties/kolkata/outskirts/interest/wildlife.html",
-			"Mumbai":"#",
-			"Nagpur":"#",
-			"New Delhi":"#",
-			"Thiruvananthapuram":"#"
-		}
-	}
+	
 	for (var x in interests)
 	{
 		interestSel.options[interestSel.options.length] = new Option(x, x);
@@ -1447,153 +1449,15 @@ function interest()
 	}
 	desSel.onchange = function ()
 	{
-		var a = interests[interestSel.value][desSel.value];
-		window.location.assign("../../"+a);
-	}
-}
-
-function interest2()
-{
-	var interestSel = document.getElementById("interest-name");
-	var desSel = document.getElementById("des-name1");
-	var interests = 
-	{
-		"Conference":
+		if (inner == 1)
 		{
-			"Ahmedabad":"#",
-			"Bengaluru":"#",
-			"Bhopal":"#",
-			"Bhubaneswar":"#",
-			"Chandigarh":"#",
-			"Chennai":"#",
-			"Indore":"#",
-			"Kolkata":"../../../../properties/kolkata/outskirts/interest/conference.html",
-			"Mumbai":"#",
-			"Nagpur":"#",
-			"New Delhi":"#",
-			"Thiruvananthapuram":"#"
-		},
-		"Gourmet":
-		{
-			"Ahmedabad":"#",
-			"Bengaluru":"#",
-			"Bhopal":"#",
-			"Bhubaneswar":"#",
-			"Chandigarh":"#",
-			"Chennai":"#",
-			"Indore":"#",
-			"Kolkata":"../../../../properties/kolkata/outskirts/interest/gourmet.html",
-			"Mumbai":"#",
-			"Nagpur":"#",
-			"New Delhi":"#",
-			"Thiruvananthapuram":"#"
-		},
-		"Heritage":
-		{
-			"Ahmedabad":"#",
-			"Bengaluru":"#",
-			"Bhopal":"#",
-			"Bhubaneswar":"#",
-			"Chandigarh":"#",
-			"Chennai":"#",
-			"Indore":"#",
-			"Kolkata":"../../../../properties/kolkata/outskirts/interest/heritage.html",
-			"Mumbai":"#",
-			"Nagpur":"#",
-			"New Delhi":"#",
-			"Thiruvananthapuram":"#"
-		},
-		"Honeymoon":
-		{
-			"Ahmedabad":"#",
-			"Bengaluru":"#",
-			"Bhopal":"#",
-			"Bhubaneswar":"#",
-			"Chandigarh":"#",
-			"Chennai":"#",
-			"Indore":"#",
-			"Kolkata":"../../../../properties/kolkata/outskirts/interest/honeymoon.html",
-			"Mumbai":"#",
-			"Nagpur":"#",
-			"New Delhi":"#",
-			"Thiruvananthapuram":"#"
-		},
-		"Leisure":
-		{
-			"Ahmedabad":"#",
-			"Bengaluru":"#",
-			"Bhopal":"#",
-			"Bhubaneswar":"#",
-			"Chandigarh":"#",
-			"Chennai":"#",
-			"Indore":"#",
-			"Kolkata":"../../../../properties/kolkata/outskirts/interest/leisure.html",
-			"Mumbai":"#",
-			"Nagpur":"#",
-			"New Delhi":"#",
-			"Thiruvananthapuram":"#"
-		},
-		"Wedding":
-		{
-			"Ahmedabad":"#",
-			"Bengaluru":"#",
-			"Bhopal":"#",
-			"Bhubaneswar":"#",
-			"Chandigarh":"#",
-			"Chennai":"#",
-			"Indore":"#",
-			"Kolkata":"../../../../properties/kolkata/outskirts/interest/wedding.html",
-			"Mumbai":"#",
-			"Nagpur":"#",
-			"New Delhi":"#",
-			"Thiruvananthapuram":"#"
-		},
-		"Wellness":
-		{
-			"Ahmedabad":"#",
-			"Bengaluru":"#",
-			"Bhopal":"#",
-			"Bhubaneswar":"#",
-			"Chandigarh":"#",
-			"Chennai":"#",
-			"Indore":"#",
-			"Kolkata":"../../../../properties/kolkata/outskirts/interest/wellness.html",
-			"Mumbai":"#",
-			"Nagpur":"#",
-			"New Delhi":"#",
-			"Thiruvananthapuram":"#"
-		},
-		"Wildlife":
-		{
-			"Ahmedabad":"#",
-			"Bengaluru":"#",
-			"Bhopal":"#",
-			"Bhubaneswar":"#",
-			"Chandigarh":"#",
-			"Chennai":"#",
-			"Indore":"#",
-			"Kolkata":"../../../../properties/kolkata/outskirts/interest/wildlife.html",
-			"Mumbai":"#",
-			"Nagpur":"#",
-			"New Delhi":"#",
-			"Thiruvananthapuram":"#"
+			var a = interests[interestSel.value][desSel.value];
+			window.location.assign(a);
 		}
-	}
-	for (var x in interests)
-	{
-		interestSel.options[interestSel.options.length] = new Option(x, x);
-	}
-	interestSel.onchange = function()
-	{
-		desSel.length = 1;
-		for (var y in interests[this.value])
+		else if (inner == 2)
 		{
-			desSel.options[desSel.options.length] = new Option(y, y);
+			var a = interests[interestSel.value][desSel.value];
+			window.location.assign("../../../../"+a);
 		}
-	}
-	desSel.onchange = function ()
-	{
-		var a = interests[interestSel.value][desSel.value];
-		window.location.assign(a);
 	}
 }
