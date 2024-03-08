@@ -2693,7 +2693,7 @@ iframe
 .leisure-page-area .btn, .resorts-bg .btn
 {
      background: none;
-     /*border: 1px solid lightgray;*/
+     border: 1px solid lightgray !important;
      transition: all 0.3s ease-in-out;
      background: #0495ff;
 }
@@ -2983,7 +2983,7 @@ h1, h2, h3, h4, h5, h6
 }
 .offers
 {
-     background: white;
+     background: #f4f4f4;
 }
 .offers .container:not(:first-child)
 {

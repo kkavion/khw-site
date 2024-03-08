@@ -908,7 +908,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      position: relative;
      overflow: hidden;
      margin: 0;
-     border-radius: 0;
+     border-radius: 5px 5px 0 0;
 }
  .destination-slider-active .single-destination figure:before {
      position: relative;
@@ -954,6 +954,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .offers .destination-slider-active .single-destination .des-city
 {
     text-align: left;
+    border-radius: 0 0 5px 5px;
 }
  .destination-slider-active .single-destination .des-city a {
      color: black;
