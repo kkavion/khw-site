@@ -95,7 +95,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      border-radius: 3px;
 }
  .bg-f4f4f4 {
-     background: #f4f4f4;
+     background: #f4f4f4 !important;
 }
  html, body {
      height: 100%;

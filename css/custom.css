@@ -2983,7 +2983,7 @@ h1, h2, h3, h4, h5, h6
 }
 .offers
 {
-     background: #f4f4f4;
+     background: white;
 }
 .offers .container:not(:first-child)
 {
