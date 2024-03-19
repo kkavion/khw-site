@@ -2693,7 +2693,7 @@ iframe
 .leisure-page-area .btn, .resorts-bg .btn
 {
      background: none;
-     border: 1px solid lightgray !important;
+     border: 1px solid none !important;
      transition: all 0.3s ease-in-out;
      background: #0495ff;
 }
@@ -2715,7 +2715,7 @@ iframe
      font-size: 15px;
      padding: 6px 10px;
      color: black;
-     background: white;
+     background: none;
      cursor: default;
 }
 .quick-links .btn img
