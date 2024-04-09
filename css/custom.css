@@ -2927,7 +2927,8 @@ h1, h2, h3, h4, h5, h6
 {
      visibility: hidden;
 }
-.destination-slider-active .owl-nav
+.destination-slider-active .owl-nav,
+.destination-slider-active .owl-dots
 {
      display: none !important;
 }
