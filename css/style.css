@@ -316,7 +316,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .header-bottom-area .main-menu > li {
      display: inline-block;
-     padding: 15px;
+     padding: 25px 15px;
      position: relative;
 }
  .header-bottom-area .main-menu > li > a {
@@ -4519,7 +4519,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 	top: 100% !important;
 }
 .header-bottom-area .logo-area {
-    padding: 5px 35px 0 0;
+    padding: 10px 0px;
 }
 .single-bredcurms .bredcrums-content ul li a {
     font-size: 15px;
