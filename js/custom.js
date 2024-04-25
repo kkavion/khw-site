@@ -923,8 +923,8 @@ var desLocs =
 	
 	"Bhopal Outskirts" : "getaway/bhopal/outskirts-page.html",
 	"Indore" : "getaway/bhopal/indore.html",
-	"Ujjain" : "getaway/bhopal/indore.html",
-	"Panchmarhi" : "",
+	"Ujjain" : "getaway/bhopal/ujjain.html",
+	"Panchmarhi" : "getaway/bhopal/panchmarhi.html",
 	
 	"Chandigarh Outskirts" : "getaway/chandigarh/outskirts-page.html",
 	"Kasauli" : "getaway/chandigarh/kasauli.html",
@@ -1037,7 +1037,6 @@ var offerZone =
 	"Ahmedabad":"getaway/ahmedabad/offers-tab.html",
 	"Bengaluru":"getaway/bengaluru/offers-tab.html",
 	"Bhopal":"getaway/bhopal/offers-tab.html",
-	"Bhubaneswar":"getaway/bhubaneswar/offers-tab.html",
 	"Chandigarh":"getaway/chandigarh/offers-tab.html",
 	"Chennai":"getaway/chennai/offers-tab.html",
 	"Indore":"getaway/indore/offers-tab.html",
@@ -1045,6 +1044,7 @@ var offerZone =
 	"Mumbai":"getaway/mumbai/offers-tab.html",
 	"Nagpur":"getaway/nagpur/offers-tab.html",
 	"New Delhi":"getaway/newdelhi/offers-tab.html",
+	"Pune":"getaway/pune/offers-tab.html",
 	"Thiruvananthapuram":"getaway/thiruvananthapuram/offers-tab.html"
 };
 
@@ -1069,7 +1069,6 @@ var resortZone =
 	"Ahmedabad":"getaway/ahmedabad/resorts-tab.html",
 	"Bengaluru":"getaway/bengaluru/resorts-tab.html",
 	"Bhopal":"getaway/bhopal/resorts-tab.html",
-	"Bhubaneswar":"getaway/bhubaneswar/resorts-tab.html",
 	"Chandigarh":"getaway/chandigarh/resorts-tab.html",
 	"Chennai":"getaway/chennai/resorts-tab.html",
 	"Indore":"getaway/indore/resorts-tab.html",
@@ -1077,6 +1076,7 @@ var resortZone =
 	"Mumbai":"getaway/mumbai/resorts-tab.html",
 	"Nagpur":"getaway/nagpur/resorts-tab.html",
 	"New Delhi":"getaway/newdelhi/resorts-tab.html",
+	"Pune":"getaway/pune/resorts-tab.html",
 	"Thiruvananthapuram":"getaway/thiruvananthapuram/resorts-tab.html"
 };
 
@@ -1438,6 +1438,50 @@ function bidnwinFilt()
 	{
 		var sel = bidnwinZone[zoneSelect.value];
 		window.location.assign(sel);
+	}
+}
+//resort filter
+function resFilt(inner)
+{
+	var zoneSelect = document.getElementById("zone-name");
+	for (var x in resortZone)
+	{
+		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
+	}
+	zoneSelect.onchange = function()
+	{		
+		if (inner == 1)
+		{
+			var sel = resortZone[zoneSelect.value];
+			window.location.assign(sel);
+		}
+		else if (inner == 2)
+		{
+			var sel = resortZone[zoneSelect.value];
+			window.location.assign("../../"+sel);
+		}
+	}
+}
+//offer filter
+function offerFilt(inner)
+{
+	var zoneSelect = document.getElementById("zone-name");
+	for (var x in offerZone)
+	{
+		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
+	}
+	zoneSelect.onchange = function()
+	{		
+		if (inner == 1)
+		{
+			var sel = offerZone[zoneSelect.value];
+			window.location.assign(sel);
+		}
+		else if (inner == 2)
+		{
+			var sel = offerZone[zoneSelect.value];
+			window.location.assign("../../"+sel);
+		}
 	}
 }
 

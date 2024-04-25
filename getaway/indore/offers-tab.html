@@ -183,13 +183,8 @@
 				<div class="row bg-gradent">
 					<form id="filter">
 						<div class="form-group">
-							<select class="form-control" id="zone-type">
-								<option hidden>Destination Type</option>
-							</select>
-						</div>
-						<div class="form-group">
-							<select class="form-control" id="destination-name">
-								<option hidden>Destination Name</option>
+							<select class="form-control" id="zone-name">
+								<option hidden>Zone Name</option>
 							</select>
 						</div>
 					</form>
@@ -5457,7 +5452,7 @@
 	<!-- main js -->
 	<script src="../../js/custom.js"></script>
 	<script>
-		window.onload = function (){filterHome(2);};
+		window.onload = function() {offerFilt(2)};
 		// When the user scrolls the page, execute myFunction
 		window.onscroll = function () { myFunction() };
 
