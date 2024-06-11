@@ -1058,7 +1058,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      overflow: hidden;
      position: relative;
      border-radius: 3px;
-     margin-top: 15px
+     margin-top: 0;
 }
  .single-travel-blog .blog-image a {
      display: block;
