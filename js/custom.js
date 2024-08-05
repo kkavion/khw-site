@@ -566,6 +566,22 @@ var zones =
 	"Wildlife": ["Alwar", "Bharatpur", "Kanha", "Pench", "Sariska", "Sundarbans"]
 };
 
+var deszones = 
+{
+	"Ahmedabad": ["Outskirts", "Gandhinagar", "Mount Abu", "Udaipur", "Vadodara"],
+	"Bengaluru":["Outskirts", "Hassan", "Mysuru", "Nagarhole", "Yelagiri"],
+	"Bhopal": ["Outskirts", "Indore", "Panchmarhi", "Ujjain"],
+	"Chandigarh": ["Outskirts", "Kasauli", "Mussoorie", "Parwanoo", "Shimla"],
+	"Chennai": ["Outskirts", "Mahabalipuram", "Puducherry"],
+	"Indore": ["Outskirts", "Bhopal", "Ujjain"],
+	"Kolkata": ["Outskirts", "Digha", "Mandarmani", "Shantiniketan", "Sundarbans"],
+	"Mumbai": ["Outskirts", "Alibaug", "Khandala", "Lavasa", "Lonavala", "Matheran", "Panvel"],
+	"Nagpur": ["Outskirts", "Kanha", "Panchmarhi", "Pench"],
+	"New Delhi": ["Outskirts", "Agra", 'Alwar', 'Bharatpur', "Sariska"],
+	"Pune": ["Outskirts", "Khandala", "Lavasa", "Lonavala", "Panchgani"],
+	"Thiruvananthapuram": ["Outskirts", "Alleppey", "Kanyakumari", "Kollam", "Kottayam", "Kovalam", "Kumarakom", "Poovar", "Varkala"]
+};
+
 var allResort = 
 {
 	//Ahmedabad
