@@ -3087,7 +3087,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 /*===================================================== 36.Home version 4 slider section start here =======================================================*/
  .slider-area-3 .image-overlay:before {
-     background: rgba(0, 0, 0, 0.5) !important;
+     background: rgba(0, 0, 0, 0.2) !important;
 }
  .slider-area-3 .image-overlay:after {
      background: rgba(55, 183, 33, 0) !important;
