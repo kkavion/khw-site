@@ -62,6 +62,17 @@
 		animateIn:false,
 		items:3
 	});
+	$('.active-slider').owlCarousel({
+		loop:true,
+		margin:10,
+		nav:true,
+		autoplay:true,
+		autoplayTimeout:5000,
+		autoplayHoverPause:true,
+		animateOut:false,
+		animateIn:false,
+		items:3
+	});
 	$('.destination-slider-active').owlCarousel({
 		loop:true,
 		margin:10,
