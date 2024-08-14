@@ -51,7 +51,7 @@
 	}); 
 	
 	/*====== carasol destination ========*/
-	$('.active-slider2').owlCarousel({
+	$('.active-slider2 .destination-slider-active').owlCarousel({
 		loop:true,
 		margin:10,
 		nav:true,
@@ -60,7 +60,12 @@
 		autoplayHoverPause:true,
 		animateOut:false,
 		animateIn:false,
-		items:3
+		responsive:
+		{
+			360 : {items:2},
+			480 : {items:3},
+			1080 : {items:4},
+		}
 	});
 	$('.active-slider').owlCarousel({
 		loop:true,

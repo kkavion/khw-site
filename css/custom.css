@@ -2927,6 +2927,7 @@ h1, h2, h3, h4, h5, h6
 {
      visibility: hidden;
 }
+
 .destination-slider-active .owl-nav,
 .destination-slider-active .owl-dots
 {
@@ -3091,4 +3092,48 @@ h1, h2, h3, h4, h5, h6
 .tab-content .section-paddings:not(:last-child)
 {
      padding-bottom: 0;
+}
+.active-slider2
+{
+     background: #363b53 !important;
+     color: white;
+}
+.active-slider2 p
+{
+     color: white;
+     line-height: 1.8;
+     font-weight: lighter;
+}
+.active-slider2 h3
+{
+     font-size: 20px;
+}
+.active-slider2 .col-md-4 p
+{
+     margin-top: 20px;
+}
+.active-slider2 .destination-slider-active .single-destination
+{
+     background: none;
+     border: none;
+}
+.active-slider2 .destination-slider-active .single-destination .des-city
+{
+     box-shadow: none;
+     padding: 20px 0;
+     padding-right: 15px;
+}
+.active-slider2 .destination-slider-active .single-destination .des-city a span
+{
+     padding-top: 15px;
+     font-family: "Oxygen", sans-serif;
+     font-weight: lighter;
+     display: block;
+     font-size: 15px;
+     color: white;
+}
+.active-slider2 .destination-slider-active .single-destination .des-city a
+{
+     color: white;
+     text-align: left;
 }

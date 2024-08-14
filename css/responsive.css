@@ -308,7 +308,7 @@
     }
     .tp-parallax-wrap:nth-child(6)
     {
-         top: 15% !important;
+         top: 20% !important;
     }
     .sec1 div
     {
@@ -800,7 +800,7 @@
     #filter
     {
         padding: 5px 0;
-        bottom: -70% !important;
+        bottom: -80% !important;
     }
     .disc-section li span
     {
@@ -849,7 +849,7 @@
     }
     .slider-area-2 #filter
     {
-        bottom: -80%;
+        bottom: -90%;
     }
     .filter
     {
@@ -926,7 +926,7 @@
     }
     .tp-parallax-wrap:nth-child(4)
     {
-         top: 48% !important;
+         top: 43% !important;
     }
     .tp-parallax-wrap:nth-child(5)
     {
@@ -934,7 +934,7 @@
     }
     .tp-parallax-wrap:nth-child(6)
     {
-         top: 60% !important;
+         top: 55% !important;
     }
     .carousel-inner .img2, #events .img2
     {
@@ -968,5 +968,14 @@
     .rev_slider h2
     {
         line-height: 65px !important;
+    }
+    .active-slider2 p
+    {
+        font-size: 20px;
+    }
+    .active-slider2 .destination-slider-active
+    {
+        display: grid;
+        width: 55vw;
     }
 }
