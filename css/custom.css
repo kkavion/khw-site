@@ -3162,3 +3162,13 @@ h1, h2, h3, h4, h5, h6
 {
      width: 100%;
 }
+.destination-bg .col-md-12 span
+{
+     padding: 5px 10px;
+     border-radius: 5px;
+     margin: 10px 5px 10px 0;
+     display: inline-block;
+     font-size: 14px;
+     background: #0495ff;
+     color: white;
+}

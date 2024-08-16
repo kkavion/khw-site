@@ -48,7 +48,7 @@ $(document).ready(function () {
     /* Options are 'auto', 'fullwidth' or 'fullscreen' */
     //sliderLayout: 'auto',
     // gridwidth: 1140,
-    responsiveLevels: [1024, 768, 480],
+    responsiveLevels: [1920, 1366, 480],
     gridwidth: [1170, 1170, 480],
     gridheight: [800, 550, 550],
     /* Navigation arrows and bullets */

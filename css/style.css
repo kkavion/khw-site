@@ -530,6 +530,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .tabbased-search-area .tab-content .hotels-form input, .tabbased-search-area .tab-content .flights-form input {
      -moz-user-select: none;
+     user-select: none;
      background: #ffffff none repeat scroll 0 0;
      border: medium none;
      color: #555555;
@@ -991,7 +992,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .destination-slider-active .single-destination:hover figcaption {
      opacity: 1;
-     visivility: visible;
+     visibility: visible;
 }
  .destination-slider-active .single-destination:hover figure:before {
      opacity: 1;
@@ -1363,24 +1364,30 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      margin-right: 5px;
      margin-top: -5px;
 }
- .footer-area .single-footer .single-recent-post .recent-post li {
-     display: block;
+ .single-footer .single-recent-post .post-title
+ {
+     padding: 15px 0;
+ }
+ .single-footer .single-recent-post .recent-post li {
+     display: inline-block;
      margin-bottom: 20px;
      width: 100%;
 }
- .footer-area .single-footer .single-recent-post .recent-post li a .post-thum {
+ .single-footer .single-recent-post .recent-post li a .post-thum {
      float: left;
      margin-right: 15px;
+     width: 20%;
 }
- .footer-area .single-footer .single-recent-post .recent-post li a .post-content p {
-     color: #ffffff;
+ .single-footer .single-recent-post .recent-post li a .post-content p {
+     color: black;
      font-size: 15px;
      font-weight: 400;
      line-height: 20px;
      margin: 0;
      text-transform: capitalize;
+     padding: 10px 0;
 }
- .footer-area .single-footer .single-recent-post .recent-post li a .post-content span {
+ .single-footer .single-recent-post .recent-post li a .post-content span {
      color: #71bf44;
      font-size: 12px;
 }
@@ -1404,7 +1411,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      transition: all ease-in-out 0.5s;
      z-index: 1;
      opacity: 0;
-     visivility: hidden;
+     visibility: hidden;
 }
  .footer-area .single-footer .footer-gallery li a .image-overlay:after {
      right: 0;
