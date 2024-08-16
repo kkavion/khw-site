@@ -3127,8 +3127,9 @@ textarea.input-lg {
 .btn.focus,
 .btn:focus,
 .btn:hover {
- color:#333;
- text-decoration:none
+ color:white;
+ text-decoration:none;
+ background: #fb6a00;
 }
 .btn.active,
 .btn:active {
@@ -6026,7 +6027,7 @@ button.close {
  opacity:.5
 }
 .modal-header {
- padding:15px 15px 100px 15px;
+ padding:15px;
  border-bottom:1px solid #e5e5e5;
  background: url(../images/homepage/zbid2.webp);
  background-position: center;
@@ -6070,7 +6071,7 @@ button.close {
 }
 @media (min-width:768px) {
  .modal-dialog {
-  width:600px;
+  width:768px;
   margin:100px auto;
  }
  .modal-content {
