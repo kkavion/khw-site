@@ -308,7 +308,7 @@
     }
     .tp-parallax-wrap:nth-child(6)
     {
-         top: 20% !important;
+         top: 25% !important;
     }
     .sec1 div
     {
@@ -922,11 +922,11 @@
     }
     .tp-parallax-wrap:nth-child(3)
     {
-         top: 35% !important;
+         top: 38% !important;
     }
     .tp-parallax-wrap:nth-child(4)
     {
-         top: 43% !important;
+         top: 45% !important;
     }
     .tp-parallax-wrap:nth-child(5)
     {
@@ -934,7 +934,7 @@
     }
     .tp-parallax-wrap:nth-child(6)
     {
-         top: 55% !important;
+         top: 60% !important;
     }
     .carousel-inner .img2, #events .img2
     {
@@ -977,5 +977,24 @@
     {
         display: grid;
         width: 55vw;
+    }
+}
+@media only screen and (min-width: 991px) and (max-width: 1600px)
+{
+    .slider-area-2 #filter
+    {
+        bottom: -85%;
+    }
+    .tp-parallax-wrap:nth-child(3)
+    {
+         top: 35% !important;
+    }
+    .tp-parallax-wrap:nth-child(4)
+    {
+         top: 45% !important;
+    }
+    .tp-parallax-wrap:nth-child(6)
+    {
+         top: 65% !important;
     }
 }
