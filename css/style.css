@@ -211,7 +211,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 .faq-section .travel-primary-btn
 {
-    background: none !important;
+    background: none;
     font-weight: bold;
     letter-spacing: 0.7px;
 }
@@ -801,10 +801,11 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .popular-packages .single-package .package-content p {
      color: black;
-     font-size: 16px;
+     font-size: 17px;
      font-weight: 400;
      margin: 0 0 25px;
      text-align: left;
+     line-height: 25px;
 }
  .popular-packages .single-package .package-content p span {
      color: #71bf44;
@@ -1115,7 +1116,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .single-travel-blog .blog-content .blog-post-content p {
      color: black;
-     font-size: 16px;
+     font-size: 17px;
      font-weight: 400;
      line-height: 25px;
 }
@@ -1366,7 +1367,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .single-footer .single-recent-post .post-title
  {
-     padding: 15px 0;
+     padding: 18px 0 10px 0;
  }
  .single-footer .single-recent-post .post-title h3
 {
@@ -1380,13 +1381,13 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .single-footer .single-recent-post .recent-post li a .post-thum {
      float: left;
      margin-right: 15px;
-     width: 25%;
+     width: 40%;
 }
  .single-footer .single-recent-post .recent-post li a .post-content p {
      color: black;
-     font-size: 15px;
+     font-size: 16px;
      font-weight: 400;
-     line-height: 20px;
+     line-height: 24px;
      margin: 0;
      text-transform: capitalize;
      padding: 5px 0;
@@ -3524,8 +3525,9 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-weight: 600;
      text-transform: capitalize;
      color: black;
-     padding-bottom: 10px;
+     padding-bottom: ;
      font-style: normal;
+     text-align: center;
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-description > p {
      font-weight: 500;
@@ -4651,7 +4653,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 
 .top-destination-area h3
 {
-    padding: 20px 0;
+    padding: 5px 0;
 }
 
  .top-destination-area-5 .single-destionation-5 {
