@@ -192,6 +192,15 @@
 /*======================  Mobile Layout: 320px. =======================  */
 
 @media only screen and (max-width: 767px) {
+    .modal
+    {
+        top: 0;
+    }
+    .destination-bg .col-md-12 span
+    {
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
     #res-filt iframe
     {
         height: 200px;
@@ -199,10 +208,6 @@
     .section-margins.faq-section
     {
         margin: 0;
-    }
-    .quick-links .btn img
-    {
-        width: 80px !important;
     }
     .club-area
     {

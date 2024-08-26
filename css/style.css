@@ -777,7 +777,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 /*===================================================== 05.popular packajge section css goes here =======================================================*/
  .popular-packages .single-package {
-     margin-bottom: 30px;
+     margin-bottom: 0px;
      transition: all ease-in-out 0.5s;
      overflow: hidden;
      position: relative;
@@ -794,10 +794,11 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .popular-packages .single-package .package-content h3 {
      font-weight: 600px;
-     color: black;
+     color: black !important;
      font-size: 20px;
      transition: all ease-in-out 0.5s;
      margin-bottom: 5px;
+     font-style: normal;
 }
  .popular-packages .single-package .package-content p {
      color: black;
@@ -813,7 +814,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .popular-packages .single-package .package-calto-action {
      padding: 0 20px 25px;
-     float: right;
+     float: left;
 }
  .popular-packages .single-package .package-calto-action .ct-action li {
      display: inline-block;
@@ -821,6 +822,9 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .popular-packages .single-package .package-calto-action .ct-action li:first-child a {
      transition: all ease-in-out 0.5s;
      overflow: hidden;
+     color: white;
+     padding: 6px 12px;
+     font-size: 16px;
 }
  .popular-packages .single-package .package-calto-action .ct-action li:last-child {
      float: right;
@@ -1372,6 +1376,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .single-footer .single-recent-post .post-title h3
 {
     font-size: 20px;
+    line-height: 30px;
 }
  .single-footer .single-recent-post .recent-post li {
      display: inline-block;
@@ -1425,7 +1430,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .footer-area .single-footer .footer-gallery li a .image-overlay:hover:before {
      left: 0;
      opacity: 1;
-     visivility: visible;
+     visibility: visible;
 }
  .footer-area .single-footer .footer-gallery li a .image-overlay:hover .overly-city {
      opacity: 1;
@@ -3955,7 +3960,6 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      padding-bottom: 25px;
 }
  .related-tour .single-package {
-     margin-bottom: 0 !important;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
      border-radius: 5px;
      background-color: white;

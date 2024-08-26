@@ -1285,7 +1285,7 @@ button
 }
 .tour-description p
 {
-     text-align: justify;
+     text-align: left;
 }
 .tour-description .head h4
 {
@@ -1837,6 +1837,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .interest-bg .single-package-details p
 {
      margin: 40px auto;
+     margin-top: 20px;
 }
 .interest-bg .single-destionation-5 .travel-primary-btn
 {
@@ -1845,7 +1846,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .interest-bg .timeline .timeline-content h3
 {
      font-size: 30px;
-     margin-bottom: 20px;
+     margin: 20px 0;
 }
 .interest-bg .timeline .tour-description
 {
@@ -1858,13 +1859,13 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      width: 30px;
      font-size: 15px;
      left: -15px;
-     line-height: 30px;
+     line-height: 32px;
      background: #353535;
 }
 .interest-bg .main-timeline::before
 {
      left: 0;
-     height: 85%;
+     height: 80%;
 }
 .interest-bg .tour-description .timeline:hover p::before
 {
@@ -1872,11 +1873,16 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .interest-bg .main-timeline
 {
-     margin-top: 50px;
+     margin-top: 30px;
 }
 .interest-bg.popular-packages .tab-content
 {
      padding-top: 15px;
+}
+.interest-bg .col-md-3 .single-package
+{
+     box-shadow: none !important;
+     margin-bottom: 50px;
 }
 .rate-pg
 {
@@ -2750,6 +2756,12 @@ iframe
 {     
      font-size: 18px;
 }
+.quick-links .col-md-2,
+.quick-links .col-xs-4
+{
+     padding-left: 10px;
+     padding-right: 10px;
+}
 .resorts-bg .quick-links .btn
 {
      cursor: pointer;
@@ -2757,14 +2769,14 @@ iframe
 .quick-links .btn
 {
      font-size: 15px;
-     padding: 6px 10px;
+     padding: 6px 0;
      color: black;
      background: none;
      cursor: default;
 }
 .quick-links .btn img
 {
-     width: 200px;
+     width: 200px
 }
 .resort-table li span:first-child
 {
