@@ -1830,10 +1830,6 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      background-color: white;
 }
-.interest-bg
-{
-     background-image: url("../images/cubes.png") !important;
-}
 .interest-bg .single-package-details p
 {
      margin: 40px auto;
@@ -1846,7 +1842,6 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .interest-bg .timeline .timeline-content h3
 {
      font-size: 30px;
-     margin: 20px 0;
 }
 .interest-bg .timeline .tour-description
 {
@@ -1873,7 +1868,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .interest-bg .main-timeline
 {
-     margin-top: 30px;
+     margin-top: 25px;
 }
 .interest-bg.popular-packages .tab-content
 {
@@ -1883,6 +1878,11 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      box-shadow: none !important;
      margin-bottom: 50px;
+}
+.interest-bg .timeline .carousel,
+.interest-bg .timeline .carousel-inner
+{
+     border-radius: 0;
 }
 .rate-pg
 {
@@ -3176,6 +3176,10 @@ h1, h2, h3, h4, h5, h6
 {
      background: none;
      border: none;
+}
+.active-slider2 .destination-slider-active .single-destination figure
+{
+     border-radius: 0;
 }
 .active-slider2 .destination-slider-active .single-destination .des-city
 {

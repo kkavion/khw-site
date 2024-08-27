@@ -50,7 +50,7 @@ $(document).ready(function () {
     // gridwidth: 1140,
     responsiveLevels: [1920, 1400, 480],
     gridwidth: [1170, 1170, 480],
-    gridheight: [800, 550, 550],
+    gridheight: [800, 550, 700],
     /* Navigation arrows and bullets */
     	navigation: {
      
