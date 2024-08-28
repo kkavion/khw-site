@@ -823,8 +823,8 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      transition: all ease-in-out 0.5s;
      overflow: hidden;
      color: white;
-     padding: 6px 12px;
-     font-size: 16px;
+     padding: 5px 10px;
+     font-size: 14px;
 }
  .popular-packages .single-package .package-calto-action .ct-action li:last-child {
      float: right;
