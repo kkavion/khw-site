@@ -200,11 +200,6 @@
     {
         top: 0;
     }
-    .destination-bg .col-md-12 span
-    {
-        margin-top: 5px !important;
-        margin-bottom: 5px !important;
-    }
     #res-filt iframe
     {
         height: 200px;

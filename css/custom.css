@@ -327,28 +327,22 @@ header .sticky .header-bottom-area .main-menu > li.active a
      font-size: 15px;
 }
 .header-bottom-area .tab-a li:hover a,
-.header-bottom-area .tab-c li:hover a,
-.header-bottom-area .tab-d li:hover a,
-.header-bottom-area .tab-e li:hover a
+.header-bottom-area .tab-b li:hover a
 {
      color: white;
 }
 .header-bottom-area .tab-a li,
-.header-bottom-area .tab-c li,
-.header-bottom-area .tab-d li, 
-.header-bottom-area .tab-e li
+.header-bottom-area .tab-b li
 {
      transition: all 0.3s;
 }
-.header-bottom-area .tab-a li:hover,
-.header-bottom-area .tab-d li:hover,
-.header-bottom-area .tab-e li:hover
+.header-bottom-area .tab-a
+{
+	text-align:center;
+}
+.header-bottom-area .tab-a li:hover
 {
      background: #fb6a00;
-}
-.header-bottom-area .tab-c li:hover
-{
-     background: #0495ff;
 }
 .header-bottom-area .tab-a > li > a {
      display: block;
@@ -382,74 +376,17 @@ header .sticky .header-bottom-area .main-menu > li.active a
      bottom: 15% !important;
      width: 50% !important;
 }
-.header-bottom-area .tab-c > li > a:before
+.header-bottom-area .tab-b li:hover
+{
+     background: #0495ff;
+}
+.header-bottom-area .tab-b > li > a:before
 {
      background: white !important;
      bottom: 5px !important;
      width: 60% !important;
-}
-.header-bottom-area .tab-d > li > a:before
-{
-     background: white !important;
-     bottom: 15% !important;
-     width: 50% !important;
-}
-.header-bottom-area .tab-e > li > a:before
-{
-     background: white !important;
-}
-.header-bottom-area .tab-a
-{
-	text-align:center;
-}
-.header-bottom-area .tab-b
-{
-	text-align:center;
-	padding: 10px;
 }
 .header-bottom-area .tab-b > li > a {
-     display: block;
-     color: #fb6a00;
-     font-size: 15px;
-     text-decoration: none;
-     font-weight: 500;
-     position: relative;
-     text-align:center;
-     padding: 10px 20px;
-}
-.header-bottom-area .tab-b > li.active a {
-     color:   white !important;
-}
-.header-bottom-area .tab-b > li.active
-{
-     background: #fb6a00;
-}
-.header-bottom-area .tab-b > li:hover
-{
-     background: #fb6a00;
-}
-.header-bottom-area .tab-b > li:hover a
-{
-     color: white;
-}
-.header-bottom-area .tab-b > li {
-     display: inline-block;
-     position: relative;
-     border: 1px solid lightgray;
-     border-radius: 5px;
-     margin: 1px;
-     transition: all ease-in 0.3s;
-     padding: 0;
-     background: white;
-}
-.tab-b > li > a::before
-{
-     background:  white !important;
-     bottom: 5px !important;
-     width: 60% !important;
-}
-
-.header-bottom-area .tab-c > li > a {
      display: block;
      color: #0495ff;
      font-size: 17px;
@@ -459,83 +396,119 @@ header .sticky .header-bottom-area .main-menu > li.active a
      text-align:center;
      padding: 10px 20px;
 }
-.header-bottom-area .tab-c > li.active a {
+.header-bottom-area .tab-b > li.active a {
      color: white !important;
+}
+.header-bottom-area .tab-b > li.active
+{
+     background: #0495ff;
+}
+.header-bottom-area .tab-b > li {
+     display: inline-block;
+     position: relative;
+     border: 1px solid lightgray;
+     margin: 1px;
+     border-radius: 5px;
+     padding: 0;
+}
+.header-bottom-area .tab-b
+{
+	text-align:center;
+}
+.header-bottom-area .tab-b li
+{
+     background: white;
+}
+.header-bottom-area .tab-c > li > a {
+     display: block;
+     color: #232323;
+     font-size: 14px;
+     text-decoration: none;
+     font-weight: 500;
+     position: relative;
+     text-align:center;
+     padding: 5px 10px;
+}
+.header-bottom-area .tab-c > li.active a {
+     color: black;
 }
 .header-bottom-area .tab-c > li.active
 {
-     background: #0495ff;
+     background: lightgray;
+}
+.header-bottom-area .tab-c > li:hover
+{
+     background: lightgray;
+}
+.header-bottom-area .tab-c > li:hover a
+{
+     color: black;
 }
 .header-bottom-area .tab-c > li {
      display: inline-block;
      position: relative;
      border: 1px solid lightgray;
-     margin: 1px;
      border-radius: 5px;
+     margin: 1px;
+     transition: all ease-in 0.3s;
      padding: 0;
-}
-.header-bottom-area .tab-c
-{
-	text-align:center;
-}
-.header-bottom-area .tab-c li
-{
      background: white;
 }
-.header-bottom-area .tab-d > li > a {
-     display: block;
-     color: #fb6a00;
-     font-size: 17px;
-     text-decoration: none;
-     font-weight: 500;
-     position: relative;
-     text-align:center;
-     padding: 10px 25px;
-}
-.header-bottom-area .tab-d > li.active a {
-     color:   white !important;
-}
-.header-bottom-area .tab-d > li.active
+.tab-c > li > a::before
 {
-     background: #fb6a00;
+     background:  gray !important;
+     bottom: 5px !important;
+     width: 60% !important;
+     transition: all 0.3s ease-in-out;
 }
-.header-bottom-area .tab-d > li {
-     display: inline-block;
-     padding: 0;
-     position: relative;
-     border: 1px solid lightgray;
-     background: white;
-     margin: 1px;
+.tab-c
+{
+     padding: 10px 0;
+}
+.tab_c_text #adventureint
+{
+     background: cadetblue;
      border-radius: 5px;
 }
-.header-bottom-area .tab-d
+.tab_c_text #gourmetint
 {
-	text-align:center;
+     background: chocolate;
+     border-radius: 5px;
 }
-
-.header-bottom-area .tab-e > li > a {
-     display: block;
+.tab_c_text #wellnessint
+{
+     background: darkgoldenrod;
+     border-radius: 5px;
+}
+.tab_c_text #weddingint
+{
+     background: indianred;
+     border-radius: 5px;
+}
+.tab_c_text #miceint
+{
+     background: royalblue;
+     border-radius: 5px;
+}
+.tab_c_text #heritageint
+{
+     background: peru;
+     border-radius: 5px;
+}
+.tab_c_text #wildlifeint
+{
+     background: olivedrab;
+     border-radius: 5px;
+}
+.tab_c_text #honeymoonint
+{
+     background: hotpink;
+     border-radius: 5px;
+}
+.tab_c_text p
+{
      color: white;
-     font-size: 17px;
-     text-decoration: none;
-     font-weight: 500;
-     position: relative;
-     text-align:center;
-}
-.header-bottom-area .tab-e > li.active a {
-     color:  white !important;
-}
-.header-bottom-area .tab-e > li {
-     display: inline-block;
-     padding: 10px 20px;
-     position: relative;
-     border: 1px solid lightgray;
-     background: #0495ff;
-     margin: 1px 0;
-}
-.header-bottom-area .tab-e
-{
-	text-align:center;
+     padding: 10px;
 }
 .section-title2 h2, .section-title-white h2, .section-title-white-2 h2 {
      background-color: transparent;
@@ -708,7 +681,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
      min-width: 100px !important;
 }
-.tab-content .header-bottom-area
+.tab-bontent .header-bottom-area
 {
      margin-top: 0px;
 }
@@ -1870,7 +1843,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      margin-top: 25px;
 }
-.interest-bg.popular-packages .tab-content
+.interest-bg.popular-packages .tab-bontent
 {
      padding-top: 15px;
 }
@@ -1923,7 +1896,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      margin-top: 0;
      margin-bottom: 50px;
 }
-.tab-content .carousel-inner
+.tab-bontent .carousel-inner
 {
      border-radius: 5px;
 }
@@ -2894,7 +2867,7 @@ h1, h2, h3, h4, h5, h6
      font-style: normal;
      font-weight: bold;
 }
-.leisure-page-area .tab-content
+.leisure-page-area .tab-bontent
 {
      padding-top: 40px;
 }
@@ -3145,7 +3118,7 @@ h1, h2, h3, h4, h5, h6
      display: block;
      width: 100%;
 }
-.tab-content .section-paddings:not(:last-child)
+.tab-bontent .section-paddings:not(:last-child)
 {
      padding-bottom: 0;
 }
@@ -3216,14 +3189,4 @@ h1, h2, h3, h4, h5, h6
 #myModal .btn
 {
      width: 100%;
-}
-.destination-bg .col-md-12 span
-{
-     padding: 5px 10px;
-     border-radius: 5px;
-     margin: 15px 5px 15px 0;
-     display: inline-block;
-     font-size: 14px;
-     border: 1px solid lightgray;
-     color: #232323;
 }
