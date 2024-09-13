@@ -792,6 +792,11 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      padding: 20px;
      padding-bottom: 0;
 }
+ .row.top-destination-area.popular-packages .single-package .package-content,
+ .row.top-destination-area.popular-packages .single-package .package-calto-action
+{
+    padding-left: 0;
+}
  .popular-packages .single-package .package-content h3 {
      font-weight: 600px;
      color: black !important;
@@ -804,7 +809,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: black;
      font-size: 17px;
      font-weight: 400;
-     margin: 0 0 25px;
+     margin: 0 0 20px;
      text-align: left;
      line-height: 25px;
 }
@@ -818,21 +823,14 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .popular-packages .single-package .package-calto-action .ct-action li {
      display: inline-block;
+     padding-top: 10px;
 }
- .popular-packages .single-package .package-calto-action .ct-action li:first-child a {
+ .popular-packages .single-package .package-calto-action .ct-action li a {
      transition: all ease-in-out 0.5s;
      overflow: hidden;
      color: white;
      padding: 5px 10px;
      font-size: 14px;
-}
- .popular-packages .single-package .package-calto-action .ct-action li:last-child {
-     float: right;
-     margin-top: 7px;
-}
- .popular-packages .single-package .package-calto-action .ct-action li:last-child i {
-     font-size: 16px;
-     color: #ffef3b;
 }
  .popular-packages .single-package:hover {
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);

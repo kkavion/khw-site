@@ -1024,8 +1024,12 @@
         height: 700px !important;
         padding: 400px 0 30px 0 !important;
     }
+    .gourmet.active-slider2 .col-md-4
+    {
+        margin: 0;
+    }
     .active-slider2 .col-md-4
     {
-        margin: 20vh 0;
+        margin: 19% 0;
     }
 }
