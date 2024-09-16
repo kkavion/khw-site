@@ -467,42 +467,62 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .tab_c_text #adventureint
 {
-     background: cadetblue;
+     background: #003366;
+     border-radius: 5px;
+}
+.tab_c_text #cruiseint
+{
+     background: #008080;
+     border-radius: 5px;
+}
+.tab_c_text #cultureint
+{
+     background: #b7410e;
      border-radius: 5px;
 }
 .tab_c_text #gourmetint
 {
-     background: chocolate;
-     border-radius: 5px;
-}
-.tab_c_text #wellnessint
-{
-     background: darkgoldenrod;
-     border-radius: 5px;
-}
-.tab_c_text #weddingint
-{
-     background: indianred;
-     border-radius: 5px;
-}
-.tab_c_text #miceint
-{
-     background: royalblue;
+     background: #5d001e;
      border-radius: 5px;
 }
 .tab_c_text #heritageint
 {
-     background: peru;
-     border-radius: 5px;
-}
-.tab_c_text #wildlifeint
-{
-     background: olivedrab;
+     background: #6c541e;
      border-radius: 5px;
 }
 .tab_c_text #honeymoonint
 {
-     background: hotpink;
+     background: #c72c48;
+     border-radius: 5px;
+}
+.tab_c_text #miceint
+{
+     background: #2c3e50;
+     border-radius: 5px;
+}
+.tab_c_text #offbeatint
+{
+     background: #503a1a;
+     border-radius: 5px;
+}
+.tab_c_text #pilgrimageint
+{
+     background: #0077b6;
+     border-radius: 5px;
+}
+.tab_c_text #wellnessint
+{
+     background: #734f96;
+     border-radius: 5px;
+}
+.tab_c_text #weddingint
+{
+     background: #8b0000;
+     border-radius: 5px;
+}
+.tab_c_text #wildlifeint
+{
+     background: #556b2f;
      border-radius: 5px;
 }
 .tab_c_text p
