@@ -1096,13 +1096,13 @@ var dayoutZone =
 	"Ahmedabad":"getaway/ahmedabad/day-out-tab.html",
 	"Bengaluru":"getaway/bengaluru/day-out-tab.html",
 	"Bhopal":"getaway/bhopal/day-out-tab.html",
-	"Bhubaneswar":"getaway/bhubaneswar/day-out-tab.html",
 	"Chandigarh":"getaway/chandigarh/day-out-tab.html",
 	"Chennai":"getaway/chennai/day-out-tab.html",
 	"Indore":"getaway/indore/day-out-tab.html",
 	"Kolkata":"getaway/kolkata/day-out-tab.html",
 	"Mumbai":"getaway/mumbai/day-out-tab.html",
 	"Nagpur":"getaway/nagpur/day-out-tab.html",
+	"Pune":"getaway/pune/day-out-tab.html",
 	"New Delhi":"getaway/newdelhi/day-out-tab.html",
 	"Thiruvananthapuram":"getaway/thiruvananthapuram/day-out-tab.html"
 };
@@ -1480,7 +1480,7 @@ function bidnwinFilt()
 	zoneSelect.onchange = function()
 	{
 		var sel = bidnwinZone[zoneSelect.value];
-		window.location.assign(sel);
+		window.location.assign("../../"+sel);
 	}
 }
 //resort filter

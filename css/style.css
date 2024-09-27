@@ -899,6 +899,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      margin-bottom: 30px;
      background: white;
      border: 1px solid #f4f4f4;
+     border-radius: 5px;
 }
 .destination-slider-active .single-destination img
 {
