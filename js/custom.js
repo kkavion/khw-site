@@ -1466,7 +1466,7 @@ function dayoutFilt()
 	zoneSelect.onchange = function()
 	{
 		var sel = dayoutZone[zoneSelect.value];
-		window.location.assign(sel);
+		window.location.assign("../../"+sel);
 	}
 }
 //bidnwin filter
