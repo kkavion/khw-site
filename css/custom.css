@@ -1772,10 +1772,11 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .bidnwin
 {
-     background-image: url(../images/homepage/zbid1.webp);
-     background-repeat: repeat-x;
-     background-size: contain ;
+     background-image: url(../images/banners/bidnwin.webp);
+     background-repeat: no-repeat;
+     background-size: contain;
      padding-bottom: 185px;
+     background-position: center;
 }
 .bidnwin::before
 {
