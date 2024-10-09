@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Water+Brush&display=swap');
+
+.slider-area-2 h2
+{
+     font-family: "Water Brush";
+     font-style: normal !important;
+     font-size: 120px;
+     font-weight: 400;
+}
 /* Page content */
 .content{
   padding: 0px;
@@ -1854,7 +1863,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .interest-bg .main-timeline::before
 {
      left: 0;
-     height: 80%;
+     height: 82%;
 }
 .interest-bg .tour-description .timeline:hover p::before
 {

@@ -933,11 +933,11 @@
     }
     .tp-parallax-wrap:nth-child(3)
     {
-         top: 38% !important;
+         top: 30% !important;
     }
     .tp-parallax-wrap:nth-child(4)
     {
-         top: 45% !important;
+         top: 48% !important;
     }
     .tp-parallax-wrap:nth-child(5)
     {
@@ -976,10 +976,6 @@
     {
         padding: 20px 0 !important;
     }
-    .rev_slider h2
-    {
-        line-height: 65px !important;
-    }
     .active-slider2 p
     {
         font-size: 18px;
@@ -1006,11 +1002,11 @@
     }
     .tp-parallax-wrap:nth-child(3)
     {
-         top: 35% !important;
+         top: 30% !important;
     }
     .tp-parallax-wrap:nth-child(4)
     {
-         top: 45% !important;
+         top: 55% !important;
     }
     .tp-parallax-wrap:nth-child(6)
     {
