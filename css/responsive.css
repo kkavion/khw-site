@@ -2,18 +2,23 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px)
 {
-    
+    .top-destination-area figure figcaption
+    {
+        opacity: 1;
+        visibility: visible;
+        top: 45%;
+    }
+    .slider-area-2 #filter
+    {
+        bottom: -80%;
+    }
     #filter
     {
         padding: 15px;
         width: max-content;
         margin: auto;
         border-radius: 5px;
-        bottom: -15% !important;
-    }
-    .slider-area-2 #filter
-    {
-        bottom: -80%;
+        bottom: -15%;
     }
     .single-item{margin-bottom: 30px;}
     .single-item:last-child{margin-bottom: 0px;}
@@ -70,15 +75,19 @@
     }
     .tp-parallax-wrap:nth-child(4)
     {
-         top: 50% !important;
+         top: 55% !important;
     }
     .tp-parallax-wrap:nth-child(3)
     {
-         top: 35% !important;
+         top: 20% !important;
     }
     .title-line-4 h2, .title-line-42 h3
     {
-        padding-left: 15px !important;
+        padding-left: 75px !important;
+    }
+    .tp-parallax-wrap a
+    {
+        margin-left: 45px !important;
     }
     .header-btn-4 
     {

@@ -1657,7 +1657,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      margin: 20px auto 0;
      cursor: pointer;
      -webkit-transition: all .1s ease-out;
-     transition: all .1s ease-out;
+     transition: all 1s ease-out;
      position: relative;
      left: 1%;
    }
@@ -1676,7 +1676,8 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      width: 40px;
      height: 40px;
      margin: 20px auto 0;
-     opacity: 0;
+     opacity: 1;
+     display: none;
    }
    .sbutton:not(:last-child) > i {
      font-size: 24px;
@@ -1684,10 +1685,10 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      transition: all .3s ease-in-out;
    }
    .sbuttons:hover .sbutton:not(:last-child) {
-     opacity: 1;
      width: 40px;
      height: 40px;
      margin: 15px auto 0;
+     display: block;
    }
    .sbutton:nth-last-child(1) {
      -webkit-transition-delay: 25ms;
@@ -1781,9 +1782,9 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .bidnwin
 {
-     background-image: url(../images/banners/bidnwin.webp);
+     background-image: url(../images/banners/zbid.webp);
      background-repeat: no-repeat;
-     background-size: contain;
+     background-size: cover;
      padding-bottom: 185px;
      background-position: center;
 }
@@ -1832,6 +1833,11 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .homepage .bidnwin
 {
      background-color: white;
+}
+.homepage .bidnwin .section-title-version-2-black h2,
+.homepage .bidnwin .section-title-version-2-black p
+{
+     color: white;
 }
 .interest-bg .single-package-details p
 {

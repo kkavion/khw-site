@@ -199,7 +199,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .travel-primary-btn, .travel-primary-btn-sm, .read-more, .quick-shop, .thailan-btn, .travel-primary-btn-2 {
      background:   #0495ff;
      display: inline-block;
-     padding: 6px 30% !important;
+     padding: 6px 12px !important;
      border-radius: 5px;
      font-size: 14px;
      color: #fff;
@@ -3504,6 +3504,8 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-image a img {
      transition: all ease-in-out 0.5s;
+     width: -moz-available;
+     width: fill-available;
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-description {
      text-align: center;
