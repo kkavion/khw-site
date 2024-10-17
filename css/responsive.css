@@ -35,10 +35,6 @@
         top: 50% !important;
         transform: matrix(1) !important;
     }
-    #discstick
-    {
-        margin: 5% 30% !important;
-    }
     .footer-title .logo2
     {
         padding: 0 35%;
@@ -335,23 +331,9 @@
     {
         padding-bottom: 0px;
     }
-    #discstick 
-    {
-        width: 85px !important;
-        height: 25px !important;
-        background: red !important;
-        position: relative !important;
-        -moz-border-radius: 10px !important;
-        -webkit-border-radius: 10px !important;
-        border-radius: 5px !important;
-        margin: 10px !important;
-        right: 15px !important;
-    }
     #discstick span, #discstick a
     {
-        margin:  3% !important;
         font-size: 18px !important;
-        margin-left: 15% !important;
     }
     .package-location #discstick
     {
