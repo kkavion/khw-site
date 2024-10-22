@@ -2,6 +2,10 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px)
 {
+    .countdown .single-bredcurms
+    {
+        padding: 100px 0 30px 0 !important;
+    }
     .top-destination-area figure figcaption
     {
         opacity: 1;
@@ -309,7 +313,7 @@
     }
     .tp-parallax-wrap:nth-child(4)
     {
-         top: 30% !important;
+         top: 40% !important;
     }
     .tp-parallax-wrap:nth-child(5)
     {
@@ -317,7 +321,7 @@
     }
     .tp-parallax-wrap:nth-child(6)
     {
-         top: 25% !important;
+         top: 30% !important;
     }
     .sec1 div
     {
@@ -414,6 +418,10 @@
         background-position: top;
         padding: 0;
         height: 600px;
+    }
+    .countdown .single-bredcurms
+    {
+        padding: 100px 0 30px 0 !important;
     }
     .single-bredcurms .bredcrums-content
     {
@@ -635,10 +643,8 @@
     }
     .rev_slider h2
     {
-        line-height: 75px !important;
+        line-height: 140px !important;
     }
-
-
 }
 @media only screen and (max-width: 600px)
 {
@@ -1010,6 +1016,11 @@
     {
         height: 700px !important;
         padding: 400px 0 30px 0 !important;
+    }
+    .countdown .single-bredcurms
+    {
+        height: 700px !important;
+        padding: 320px 0 30px 0 !important;
     }
     .gourmet.active-slider2 .col-md-4
     {

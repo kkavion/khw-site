@@ -6429,7 +6429,8 @@ button.close {
  text-shadow:0 1px 2px rgba(0,0,0,.6);
  background-color:rgba(0,0,0,0);
  filter:alpha(opacity=50);
- opacity:.5
+ opacity:.5;
+ z-index: 6;
 }
 .carousel-control.left {
  background-image:-webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
@@ -6440,7 +6441,7 @@ button.close {
  background-repeat:repeat-x
 }
 .carousel-control.right {
- right:45px;
+ right:30px;
  left:auto;
  background-image:-webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
  background-image:-o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);

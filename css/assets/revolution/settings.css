@@ -2052,8 +2052,7 @@ body.rtl .tp-kbimg {
  }
  .title-line-12 h2,
  .title-line-2 h3,
- .title-line-4 h2,
- .title-line-42 h3 {
+ .title-line-4 h2{
   line-height:75px !important;
  }
  .header-p1 {
@@ -2081,14 +2080,15 @@ body.rtl .tp-kbimg {
   font-size:12px!important
  }
  .title-line-4 h2 {
-  font-size:35px!important;
+  font-size:80px !important;
   margin-top:-20px!important;
   padding-left:15px!important
  }
  .title-line-42 h3 {
-  font-size:14px!important;
-  margin-top:-10px!important;
-  padding-left:15px!important
+  font-size:22px !important;
+  margin-top:-10px !important;
+  padding-left:15px!important;
+  line-height:2.5 !important;
  }
  .header-p24,
  .header-p244,
@@ -2110,7 +2110,7 @@ body.rtl .tp-kbimg {
  .header-p244,
  .header-p4,
  .header-p44 {
-  font-size:12px!important
+  font-size:12px !important;
  }
  .header-p4,
  .header-p44 {
