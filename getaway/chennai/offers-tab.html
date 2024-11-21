@@ -69,7 +69,7 @@
 	</script>
 </head>
 
-<body class="getaway-page" onselectstart="return false">
+<body class="getaway-page">
 	<!-- Preloader -->
 	<div id="preloader">
 		<div id="status">&nbsp;</div>
@@ -100,39 +100,39 @@
 						<div class="col-md-10 col-sm-10">
 							<nav>
 								<ul class="main-menu text-right">
-									<li><a href="../../getaway.html" onselectstart="return false">Destination</a></li>
-									<li>
-										<a onselectstart="return false">Offer</a>
+									<li><a href="../../getaway.html">Destination</a></li>
+									<li class="active">
+										<a>Offer</a>
 										<ul class="dropdown2 main-menu2">
 											<div class="row">
-												<li class="col-md-1 dropdown-text"><a href="../../getaway/kolkata/day-out-tab.html" onselectstart="return false">Day Out</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../offer-tab.html" onselectstart="return false">Domestic Offers</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../getaway/0template/offer-temp.html" onselectstart="return false">International Offers</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../getaway/kolkata/day-out-tab.html">Day Out</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../offer-tab.html">Domestic Offers</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../getaway/0template/offer-temp.html">International Offers</a></li>
 											</div>
 										</ul>
 									</li>
-									<li><a onselectstart="return false" href="../../bidnwin.html">Bid & Win</a></li>
-									<li><a onselectstart="return false" href="../../interest.html">Interest</a></li>
-									<li><a onselectstart="return false" href="../../getaway/kolkata/resorts-tab.html">Resort</a></li>
+									<li><a href="../../bidnwin.html">Bid & Win</a></li>
+									<li><a href="../../interest.html">Interest</a></li>
+									<li><a href="../../getaway/kolkata/resorts-tab.html">Resort</a></li>
 									<li>
-										<a onselectstart="return false">Indulge</a>
+										<a>Indulge</a>
 										<ul class="dropdown2 main-menu2">
 											<div class="row">
-												<li class="col-md-1 dropdown-text"><a href="../../bargain-holiday-tab.html" onselectstart="return false">Bargain Holiday</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../surprise-holiday-tab.html" onselectstart="return false">Surprise Holiday</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../sale-tab.html" onselectstart="return false">Holiday Sale</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../bargain-holiday-tab.html">Bargain Holiday</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../surprise-holiday-tab.html">Surprise Holiday</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../sale-tab.html">Holiday Sale</a></li>
 											</div>
 										</ul>
 									</li>
-									<li><a href="../../encircle.html" onselectstart="return false">Encircle</a></li>
-									<li><a onselectstart="return false" href="../../blog.html">Experience</a></li>
+									<li><a href="../../encircle.html">Encircle</a></li>
+									<li><a href="../../blog.html">Experience</a></li>
 									<li>
-										<a onselectstart="return false">Query</a>
+										<a>Query</a>
 										<ul class="dropdown3 main-menu2">
 											<div class="row">
-												<li class="col-md-1 dropdown-text"><a href="../../form-leisure.html" onselectstart="return false">Leisure</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../form-wedding.html" onselectstart="return false">Wedding</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../form-conference.html" onselectstart="return false">Conference</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../form-leisure.html">Leisure</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../form-wedding.html">Wedding</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../form-conference.html">Conference</a></li>
 											</div>
 										</ul>
 									</li>
@@ -165,7 +165,7 @@
 	<!-- header area end here -->
 
 	<section class="breadcrumb-blog-version-one">
-		<div class="single-bredcurms" style="background-image:url('../../images/banners/offer.webp');">
+		<div class="single-bredcurms" style="background-image:url('../../images/banners/domestic_offers.webp');">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 col-md-12">
@@ -183,13 +183,8 @@
 				<div class="row bg-gradent">
 					<form id="filter">
 						<div class="form-group">
-							<select class="form-control" id="zone-type">
-								<option hidden>Destination Type</option>
-							</select>
-						</div>
-						<div class="form-group">
-							<select class="form-control" id="destination-name">
-								<option hidden>Destination Name</option>
+							<select class="form-control" id="zone-name">
+								<option hidden>Zone Name</option>
 							</select>
 						</div>
 					</form>
@@ -226,6 +221,9 @@
 							<li role="presentation" class=""><a href="#puducherry" aria-controls="puducherry" role="tab"
 									data-toggle="tab">Puducherry</a>
 							</li>
+							<li role="presentation" class=""><a href="#yelagiri" aria-controls="yelagiri" role="tab"
+									data-toggle="tab">Yelagiri</a>
+							</li>
 						</ul>
 					</div><!-- tab menu end -->
 				</div>
@@ -235,67 +233,62 @@
 					<div class="tab-content">
 						<div role="tabpanel" class="tab-pane fade in active" id="outskirts">
 							<section class="discount-package">
-								<div id="ad" class="carousel slide" 
-									style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
+								<div id="ad1" class="carousel slide" style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
 									<!-- Indicators -->
 									<ol class="carousel-indicators">
-										<li data-target="#ad" data-slide-to="0" class="active">
+										<li data-target="#ad1" data-slide-to="0" class="active">
 										</li>
-										<li data-target="#ad" data-slide-to="1" class=""></li>
-										<li data-target="#ad" data-slide-to="2" class=""></li>
-										<li data-target="#ad" data-slide-to="3" class=""></li>
-										<li data-target="#ad" data-slide-to="4" class=""></li>
-										<li data-target="#ad" data-slide-to="5" class=""></li>
+										<li data-target="#ad1" data-slide-to="1" class=""></li>
+										<li data-target="#ad1" data-slide-to="2" class=""></li>
+										<li data-target="#ad1" data-slide-to="3" class=""></li>
+										<li data-target="#ad1" data-slide-to="4" class=""></li>
+										<li data-target="#ad1" data-slide-to="5" class=""></li>
 									</ol>
 
 									<!-- Wrapper for slides -->
 									<div class="carousel-inner">
 										<div class="item active">
-											<a>
-												<img class="img1" src="../../images/poster1/offertfr.webp" style="width:100%; height:100%;">
-												<img class="img2" src="../../images/poster-mobile/restfr.webp" style="width:100%; height:100%;"
-													style="width:100%; height:100%;">
-										</div>
-										<div class="item">
 											<a href="#">
-												<img class="img1" src="../../images/poster1/offervedic1.webp" style="width:100%; height:100%;">
-												<img class="img2" src="../../images/poster-mobile/resvedic.webp" style="width:100%; height:100%;"
-													style="width:100%; height:100%;">
+												<img class="img1" src="../../images/poster1/hassan.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/hassan.webp" style="width:100%; height:100%;">
 											</a>
 										</div>
 										<div class="item">
 											<a href="#">
-												<img class="img1" src="../../images/poster1/offeramaya.webp" style="width:100%; height:100%;">
-												<img class="img2" src="../../images/poster-mobile/resamaya.webp" style="width:100%; height:100%;"
-													style="width:100%; height:100%;">
+												<img class="img1" src="../../images/poster1/mysuru.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/mysuru.webp" style="width:100%; height:100%;">
 											</a>
 										</div>
 										<div class="item">
 											<a href="#">
-												<img class="img1" src="../../images/poster1/offerfortune.webp" style="width:100%; height:100%;">
-												<img class="img2" src="../../images/poster-mobile/resfortune.webp" style="width:100%; height:100%;"
-													style="width:100%; height:100%;">
+												<img class="img1" src="../../images/poster1/nagarhole.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/nagarhole.webp" style="width:100%; height:100%;">
 											</a>
 										</div>
 										<div class="item">
 											<a href="#">
-												<img class="img1" src="../../images/poster1/offerrajbadi.webp" style="width:100%; height:100%;">
-												<img class="img2" src="../../images/poster-mobile/resrajbadi.webp" style="width:100%; height:100%;"
-													style="width:100%; height:100%;">
+												<img class="img1" src="../../images/poster1/yelagiri.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/yelagiri.webp" style="width:100%; height:100%;">
 											</a>
 										</div>
 										<div class="item">
 											<a href="#">
-												<img class="img1" src="../../images/poster1/offeribiza.webp" style="width:100%; height:100%;">
-												<img class="img2" src="../../images/poster-mobile/resibiza.webp" style="width:100%; height:100%;"
-													style="width:100%; height:100%;">
+												<img class="img1" src="../../images/poster1/mahabalipuram.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/mahabalipuram.webp" style="width:100%; height:100%;">
+											</a>
+										</div>
+										<div class="item">
+											<a href="#">
+												<img class="img1" src="../../images/poster1/puducherry.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/puducherry.webp" style="width:100%; height:100%;">
+											</a>
 										</div>
 									</div>
-									<a class="left carousel-control" href="#ad" data-slide="prev">
+									<a class="left carousel-control" href="#ad1" data-slide="prev">
 										<span class="mdi mdi-chevron-left"></span>
 										<span class="sr-only">Previous</span>
 									</a>
-									<a class="right carousel-control" href="#ad" data-slide="next">
+									<a class="right carousel-control" href="#ad1" data-slide="next">
 										<span class="mdi mdi-chevron-right"></span>
 										<span class="sr-only">Next</span>
 									</a>
@@ -325,38 +318,22 @@
 														<li data-target="#outskirts1" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#outskirts1" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#outskirts1" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/out_chennai/taj/1.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Facade</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
+														<div class="item"><a><img src="../../images/out_chennai/taj/2.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Swimming Pool</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/out_chennai/taj/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -391,7 +368,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left" title="5 star">
-												Resort | Luxury
+												Resort | Luxury | Kancheepuram
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												Covelong Beach Kancheepuram, Covelong 603112
@@ -447,7 +424,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://www.tajhotels.com/en-in/bookings/landing-page?hotelId=d5db6d30-9fb4-4605-b748-ff2b05e330da"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -479,39 +456,22 @@
 														</li>
 														<li data-target="#outskirts2" data-slide-to="2"
 															class="">
-														</li>
-														<li data-target="#outskirts2" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#outskirts2" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/out_chennai/mgm/1.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
+																<div class="overlay">Exterior</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
+														<div class="item"><a><img src="../../images/out_chennai/mgm/2.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
+																<div class="overlay">Restaurant</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Swimming Pool</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/out_chennai/mgm/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -547,7 +507,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left" title="5 star">
-												Resort | Premium
+												Resort | Premium | MGM Centre
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												MGM Centre, No: 1, 9th Street, Dr. Radhakrishnan Salai, Mylapore, Chennai 600004
@@ -603,7 +563,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://booking.mgm-hotels.com/inst/#home?propertyId=962MjttBJk6qsLpWjMdPaR7CEqDAxOCIstnIFvk0R4zMSSPtqCpKvE1NjU=&JDRN=Y"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -628,38 +588,22 @@
 														<li data-target="#outskirts3" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#outskirts3" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#outskirts3" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/out_chennai/silver/1.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Facade</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
+														<div class="item"><a><img src="../../images/out_chennai/silver/2.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Swimming Pool</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/out_chennai/silver/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -695,10 +639,10 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left" title="5 star">
-												Boutique | Premium
+												Resort | Premium | Mylapore
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
-												131, East Coast Road devaneri Village, Mahabalipuram 603104
+												MGM Centre, No: 1, 9th Street, Dr. Radhakrishnan Salai, Mylapore, Chennai 600004
 											</p>
 											<div class="amenities-row">
 												<span class="material-icons" title="Infinity Pool">pool</span>
@@ -748,7 +692,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="#"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -781,38 +725,22 @@
 														<li data-target="#outskirts4" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#outskirts4" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#outskirts4" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
+															<a><img src="../../images/out_chennai/jade/1.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Swimming Pool</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
+														<div class="item"><a><img src="../../images/out_chennai/jade/2.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
+																<div class="overlay">Restaurant</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/out_chennai/jade/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -848,7 +776,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left" title="4 star">
-												Resort | Standard
+												Resort | Standard | ECR Road
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												107/211/B, ECR Road, Near Crocodile Bank Vadanemmeli Village, Kelambakkam 603104 
@@ -903,7 +831,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="#"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -928,38 +856,22 @@
 														<li data-target="#outskirts5" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#outskirts5" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#outskirts5" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/out_chennai/ilara/1.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Facade</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
+														<div class="item"><a><img src="../../images/out_chennai/ilara/2.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
+																<div class="overlay">Restaurant</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Swimming Pool</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/out_chennai/ilara/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -995,7 +907,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left" title="4 star">
-												Hotel | Standard
+												Hotel | Standard | OMR
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												1A, 1B, 1/13, Rajiv Gandhi Salai, OMR, Navalur, Tamil Nadu 603103
@@ -1051,7 +963,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://ilarahotelomr.book-onlinenow.net/"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -1076,38 +988,22 @@
 														<li data-target="#outskirts6" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#outskirts6" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#outskirts6" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/out_chennai/park/1.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Facade</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
+														<div class="item"><a><img src="../../images/out_chennai/park/2.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Swimming Pool</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/out_chennai/park/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -1143,7 +1039,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left" title="4 star">
-												Resort | Standard
+												Resort | Standard | Vettuvankeni
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												2/226, Chinnandikuppam Road Vettuvankeni, Chennai (Madras) 600041
@@ -1198,7 +1094,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://www.parkinnbeachresort.com/contact"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -1223,38 +1119,22 @@
 														<li data-target="#outskirts7" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#outskirts7" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#outskirts7" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/out_chennai/pleasant/1.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
+																<div class="overlay">Restaurant</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
+														<div class="item"><a><img src="../../images/out_chennai/pleasant/2.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Swimming Pool</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/out_chennai/pleasant/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -1285,12 +1165,12 @@
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
-														<div class="cover" style="width: 20%;"></div>
+														<div class="cover" style="width: 28.5%;"></div>
 													</div>
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left" title="3 star">
-												Resort | Standard
+												Resort | Standard | Sembarambakkam
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												Chennai Bangalore Highway Palanjur, Sembarambakkam, Chennai (Madras) 600 123
@@ -1345,7 +1225,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://bookings.resavenue.com/resBooking/availsearch?regCode=XEGE1106"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -1370,38 +1250,22 @@
 														<li data-target="#outskirts8" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#outskirts8" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#outskirts8" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/out_chennai/green/1.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
+																<div class="overlay">Overview</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
+														<div class="item"><a><img src="../../images/out_chennai/green/2.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Swimming Pool</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/out_chennai/green/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -1437,7 +1301,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left" title="3 star">
-												Resort | Standard
+												Resort | Standard | E Coast Rd
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												58/1 E Coast Rd, Kanchipuram 603112
@@ -1492,7 +1356,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://www.greencoconutresort.net/contact.html"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -1517,38 +1381,22 @@
 														<li data-target="#outskirts9" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#outskirts9" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#outskirts9" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/out_chennai/vgp/1.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Facade</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
+														<div class="item"><a><img src="../../images/out_chennai/vgp/2.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
+																<div class="overlay">Exterior</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Swimming Pool</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/out_chennai/vgp/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -1584,7 +1432,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left" title="3 star">
-												Resort | Standard
+												Resort | Standard | Injambakkam
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												5/159 East Coast Road Injambakkam, Chennai (Madras) 600119
@@ -1638,7 +1486,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://bookings.resavenue.com/resBooking/availsearch?regCode=IREI0602"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -1671,38 +1519,22 @@
 														<li data-target="#outskirts10" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#outskirts10" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#outskirts10" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/out_chennai/meadows/1.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
+																<div class="overlay">Pool View</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
+														<div class="item"><a><img src="../../images/out_chennai/meadows/2.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
+																<div class="overlay">Restaurant</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Swimming Pool</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/out_chennai/meadows/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -1738,7 +1570,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left">
-												Resort | Economy
+												Resort | Economy | Palavakkam
 											<p style="margin-bottom:20px; text-align:left">
 												4 364 Anna Salai Road Palavakkam, Chennai (Madras) 600041
 											</p>
@@ -1793,7 +1625,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://bookings.greenmeadowsresort.com/?propertyId=7437"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -1805,60 +1637,55 @@
 						</div>
 						<div role="tabpanel" class="tab-pane fade in" id="mahabalipuram">
 							<section class="discount-package">
-								<div id="ad" class="carousel slide" 
-									style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
+								<div id="ad2" class="carousel slide" style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
 									<!-- Indicators -->
 									<ol class="carousel-indicators">
-										<li data-target="#ad" data-slide-to="0" class="active">
+										<li data-target="#ad2" data-slide-to="0" class="active">
 										</li>
-										<li data-target="#ad" data-slide-to="1" class=""></li>
-										<li data-target="#ad" data-slide-to="2" class=""></li>
-										<li data-target="#ad" data-slide-to="3" class=""></li>
-										<li data-target="#ad" data-slide-to="4" class=""></li>
-										<li data-target="#ad" data-slide-to="5" class=""></li>
+										<li data-target="#ad2" data-slide-to="1" class=""></li>
+										<li data-target="#ad2" data-slide-to="2" class=""></li>
+										<li data-target="#ad2" data-slide-to="3" class=""></li>
+										<li data-target="#ad2" data-slide-to="4" class=""></li>
+										<li data-target="#ad2" data-slide-to="5" class=""></li>
 									</ol>
 
 									<!-- Wrapper for slides -->
 									<div class="carousel-inner">
 										<div class="item active">
-											<a>
-												<img class="img1" src="../../images/poster1/offertfr.webp" style="width:100%; height:100%;">
-												<img class="img2" src="../../images/poster-mobile/restfr.webp" style="width:100%; height:100%;"
-													style="width:100%; height:100%;">
-										</div>
-										<div class="item">
 											<a href="#">
-												<img class="img1" src="../../images/poster1/offervedic1.webp" style="width:100%; height:100%;">
-												<img class="img2" src="../../images/poster-mobile/resvedic.webp" style="width:100%; height:100%;"
-													style="width:100%; height:100%;">
+												<img class="img1" src="../../images/poster1/hassan.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/hassan.webp" style="width:100%; height:100%;">
 											</a>
 										</div>
 										<div class="item">
 											<a href="#">
-												<img class="img1" src="../../images/poster1/offeramaya.webp" style="width:100%; height:100%;">
-												<img class="img2" src="../../images/poster-mobile/resamaya.webp" style="width:100%; height:100%;"
-													style="width:100%; height:100%;">
+												<img class="img1" src="../../images/poster1/mysuru.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/mysuru.webp" style="width:100%; height:100%;">
 											</a>
 										</div>
 										<div class="item">
 											<a href="#">
-												<img class="img1" src="../../images/poster1/offerfortune.webp" style="width:100%; height:100%;">
-												<img class="img2" src="../../images/poster-mobile/resfortune.webp" style="width:100%; height:100%;"
-													style="width:100%; height:100%;">
+												<img class="img1" src="../../images/poster1/nagarhole.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/nagarhole.webp" style="width:100%; height:100%;">
 											</a>
 										</div>
 										<div class="item">
 											<a href="#">
-												<img class="img1" src="../../images/poster1/offerrajbadi.webp" style="width:100%; height:100%;">
-												<img class="img2" src="../../images/poster-mobile/resrajbadi.webp" style="width:100%; height:100%;"
-													style="width:100%; height:100%;">
+												<img class="img1" src="../../images/poster1/yelagiri.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/yelagiri.webp" style="width:100%; height:100%;">
 											</a>
 										</div>
 										<div class="item">
 											<a href="#">
-												<img class="img1" src="../../images/poster1/offeribiza.webp" style="width:100%; height:100%;">
-												<img class="img2" src="../../images/poster-mobile/resibiza.webp" style="width:100%; height:100%;"
-													style="width:100%; height:100%;">
+												<img class="img1" src="../../images/poster1/mahabalipuram.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/mahabalipuram.webp" style="width:100%; height:100%;">
+											</a>
+										</div>
+										<div class="item">
+											<a href="#">
+												<img class="img1" src="../../images/poster1/puducherry.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/puducherry.webp" style="width:100%; height:100%;">
+											</a>
 										</div>
 									</div>
 									<a class="left carousel-control" href="#ad" data-slide="prev">
@@ -1906,29 +1733,19 @@
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/mahabalipuram/inter/1.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
+																<div class="overlay">Overview</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
+														<div class="item"><a><img src="../../images/mahabalipuram/inter/2.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Swimming Pool</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
+														<div class="item"><a><img src="../../images/mahabalipuram/inter/3.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Room</div>
+																<div class="overlay">Swimming Pool</div>
 															</a>
 														</div>
 													</div>
@@ -2018,7 +1835,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://www.ihg.com/intercontinental/hotels/us/en/find-hotels/select-roomrate?fromRedirect=true&qSrt=sBR&qDest=InterContinental%20Chennai%20Mahabalipuram%20Resort&qErm=false&qSlH=MAAMR&qRms=1&qAdlt=1&qChld=0&qCiD=04&qCiMy=082024&qCoD=05&qCoMy=082024&qAAR=6CBARC&qRtP=6CBARC&setPMCookies=true&qSHBrC=IC&qpMbw=0&qpMn=0&srb_u=1&qChAge=&qRmFltr="target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -2043,38 +1860,22 @@
 														<li data-target="#mahabalipuram2" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#mahabalipuram2" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#mahabalipuram2" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/mahabalipuram/radisson/1.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
+																<div class="overlay">Overview</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
+														<div class="item"><a><img src="../../images/mahabalipuram/radisson/2.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Swimming Pool</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/mahabalipuram/radisson/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -2110,7 +1911,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left">
-												Resort | Luxury
+												Resort | Luxury| Kovalam Rd
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												57, Kovalam Road , Mamallapuram 603104
@@ -2166,7 +1967,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://www.radissonhotels.com/en-us/booking/room-display?hotelCode=INTNMAMTEM&checkInDate=2024-09-04&checkOutDate=2024-09-05&adults%5B%5D=2&children%5B%5D=0&aoc%5B%5D=&searchType=lowest&promotionCode=&voucher="target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -2191,38 +1992,22 @@
 														<li data-target="#mahabalipuram3" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#mahabalipuram3" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#mahabalipuram3" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/mahabalipuram/welcome/1.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
+																<div class="overlay">Overview</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
+														<div class="item"><a><img src="../../images/mahabalipuram/welcome/2.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
+																<div class="overlay">Beach View</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Swimming Pool</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/mahabalipuram/welcome/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -2258,7 +2043,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left">
-												Hotel | Luxury
+												Hotel | Luxury | 53 ECR
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												No. 53, East Coast Road, Devaneri Village, Mamallapuram 603104
@@ -2314,7 +2099,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://www.itchotels.com/in/en/welcomhotelkencespalmbeach-mamallapuram"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -2347,38 +2132,22 @@
 														<li data-target="#mahabalipuram4" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#mahabalipuram4" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#mahabalipuram4" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/mahabalipuram/chariot/1.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
+																<div class="overlay">Overview</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
+														<div class="item"><a><img src="../../images/mahabalipuram/chariot/2.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
+																<div class="overlay">Swimming Pooln</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Swimming Pool</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/mahabalipuram/chariot/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -2414,7 +2183,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left">
-												Resort | Premium
+												Resort | Premium | 5 Rathas Rd
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												Five Rathas Road, behind Five Rathas Monument, Mamallapuram 603104
@@ -2470,7 +2239,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://bookings.chariotbeachresorts.com/?propertyId=4739&checkIn=2024-09-04&checkOut=2024-09-05&adults=1&children=0&promocode="target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -2495,38 +2264,22 @@
 														<li data-target="#mahabalipuram5" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#mahabalipuram5" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#mahabalipuram5" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/mahabalipuram/four/1.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Facade</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
+														<div class="item"><a><img src="../../images/mahabalipuram/four/2.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Swimming Pool</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/mahabalipuram/four/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -2562,7 +2315,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left">
-												Resort | Premium
+												Resort | Premium | Poonjeri
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												ECR - OMR Junction ECR,  Poonjeri, Mamallapuram 603104
@@ -2618,7 +2371,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://www.marriott.com/reservation/rateListMenu.mi"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -2643,38 +2396,22 @@
 														<li data-target="#mahabalipuram6" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#mahabalipuram6" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#mahabalipuram6" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/mahabalipuram/grande/1.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
+																<div class="overlay">Overview</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
+														<div class="item"><a><img src="../../images/mahabalipuram/grande/2.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Swimming Pool</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/mahabalipuram/grande/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -2710,7 +2447,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left">
-												Resort | Premium
+												Resort | Premium | ECR Rd
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												Kovalam Road (ECR), Mamallapuram 603104
@@ -2765,7 +2502,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://www.swiftbook.io/inst/#home?propertyId=703MjQVuzi0qzVvb711lCylBzqPIUuhXYpFt82pZkzNTY=&JDRN=Y"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -2798,38 +2535,22 @@
 														<li data-target="#mahabalipuram7" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#mahabalipuram7" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#mahabalipuram7" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/mahabalipuram/bay/1.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Facade</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
+														<div class="item"><a><img src="../../images/mahabalipuram/bay/2.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Swimming Pool</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/mahabalipuram/bay/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -2865,7 +2586,7 @@
 												Bay Treassure Hotel
 											</h3>
 											<p style="margin-bottom:0px; text-align:left">
-												Hotel | Standard
+												Hotel | Standard | SH 49
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												No 70/2, SH 49, Mamallapuram, Tamil Nadu 603104
@@ -2919,7 +2640,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://www.baytreasure.in/contact/"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -2944,38 +2665,22 @@
 														<li data-target="#mahabalipuram8" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#mahabalipuram8" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#mahabalipuram8" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/mahabalipuram/ideal/1.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Facade</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
+														<div class="item"><a><img src="../../images/mahabalipuram/ideal/2.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
+																<div class="overlay">Dining</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Swimming Pool</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/mahabalipuram/ideal/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -2987,6 +2692,145 @@
 														<span class="sr-only">Previous</span>
 													</a>
 													<a class="right carousel-control" href="#mahabalipuram8"
+														data-slide="next">
+														<span class="mdi mdi-chevron-right"></span>
+														<span class="sr-only">Next</span>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6" style="padding: 20px 30px;">
+											<h3 style="margin-left: 0px;padding-bottom: 5px; text-align:left">
+												Ideal Beach Resort
+											</h3>
+											<div class="package-places">
+												<div class="stars">
+													<div>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<div class="cover" style="width: 20%;"></div>
+													</div>
+												</div>
+											</div>
+											<p style="margin-bottom:0px; text-align:left">
+												Resort | Standard | Kovalam Rd
+											</p>
+											<p style="margin-bottom:20px; text-align:left">
+												Kovalam Road, Devaneri Village, Mamallapuram 603104
+											</p>
+											<div class="amenities-row">
+												<span class="material-icons" title="Infinity Pool">pool</span>
+												<span class="material-icons" title="Gym">fitness_center</span>
+												<span class="material-icons" title="Indoor Games">games</span>
+												<span class="material-icons" title="Restaurant">restaurant</span>
+												<span class="material-icons" title="Bar">local_bar</span>
+												<span class="material-icons" title="Room Service">room_service</span>
+												<span class="material-icons" title="Wi-Fi">wifi</span>
+												<span class="material-icons" title="Parking">local_parking</span>
+											</div>
+											<div class="resort-table">
+												<div class="row">
+													<div class="col-md-9 col-sm-9 col-xs-8"
+														style="font-size:14px;">
+														
+														<i style="font-weight: bold;font-size:20px;color:red">Package Name</i>
+														<ul>
+															<li><span>Inclusions</span></li><li><span>Room</span><span> : Accommodation in Standard Room for a couple</span></li>
+															<li><span>Meal </span><span> : Complimentary Breakfast</span></li>																
+															<li><span>Activity </span> <span> :  Pool Table, Cycling, Archery, Boating, Swimming</span></li>
+															<li><span>Extra</span> <span> : Redeemable voucher worth &#8377 0,000/- </span></li>
+														</ul>
+													</div>
+													<div class="col-md-3 col-sm-3 col-xs-4">
+														<div id="discstick">
+															<span>0% off</span>
+														</div>
+														<div class="disc-section">
+															<ul>
+																<li>
+																	<span><s>&#8377 0,000/-</s></span>
+																</li>
+																<li>
+																	<span>&#8377 0,000/-</span>
+																</li>
+																<li>
+																	<span>per room</span>
+																</li>
+																<li>
+																	<span>Save &#8377 000/-</span>
+																</li>
+																<li>
+																	<span>Inclusive of GST</span>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="discount-package-4-btn">
+												<a class="travel-primary-btn-2" href="https://www.swiftbook.io/inst/#home?propertyId=702MTU4iduub3LUGh5JvmE0Bj4DP0okjvbAWcXYYQ0OQ==&JDRN=Y"target="_blank" rel="noopener noreferrer">Book Now</a>
+												<span class="availability">Children below 5 years complimentary</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- single timeline -->
+							</div>
+							<!--Standard ends-->
+
+							<!--Economy starts-->
+							<div class="container">
+								<div class="row">
+									<h3>Economy</h3>
+								</div>
+							</div>
+							<div class="timeline">
+								<div class="timeline-content left">
+									<div class="row resort-box">
+										<div class="col-md-6" style="padding: 20px 30px;">
+											<div class="row">
+												<div id="mahabalipuram9" class="carousel slide"
+													data-ride="carousel">
+													<!-- Indicators -->
+													<ol class="carousel-indicators">
+														<li data-target="#mahabalipuram9" data-slide-to="0"
+															class="active"></li>
+														<li data-target="#mahabalipuram9" data-slide-to="1"
+															class="">
+														</li>
+														<li data-target="#mahabalipuram9" data-slide-to="2"
+															class="">
+														</li>
+													</ol>
+
+													<!-- Wrapper for slides -->
+													<div class="carousel-inner">
+														<div class="item active">
+															<a><img src="../../images/mahabalipuram/esthelle/1.webp"
+																	style="width:100%; height:auto;">
+																<div class="overlay">Overview</div>
+															</a>
+														</div>
+														<div class="item"><a><img src="../../images/mahabalipuram/esthelle/2.webp"
+																	style="width:100%; height:auto;">
+																<div class="overlay">Swimming Pool</div>
+															</a>
+														</div>
+														<div class="item"><a><img src="../../images/mahabalipuram/esthelle/3.webp"
+																	style="width:100%; height:auto;">
+																<div class="overlay">Room</div>
+															</a>
+														</div>
+													</div>
+													<a class="left carousel-control" href="#mahabalipuram9"
+														data-slide="prev">
+														<span class="mdi mdi-chevron-left"></span>
+														<span class="sr-only">Previous</span>
+													</a>
+													<a class="right carousel-control" href="#mahabalipuram9"
 														data-slide="next">
 														<span class="mdi mdi-chevron-right"></span>
 														<span class="sr-only">Next</span>
@@ -3011,7 +2855,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left">
-												Resort | Standard
+												Resort | Standard | Dayapur
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												No. 93, 8, Mosque St, Egairathinapuram, Tirukazhukundram, Echur, Mamallapuram 603109
@@ -3067,7 +2911,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://www.swiftbook.io/inst/#home?propertyId=383MjIlKfmrTZHXrzbCwJHWVR5NTU=&JDRN=Y"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -3075,365 +2919,67 @@
 								</div>
 								<!-- single timeline -->
 							</div>
-							<div class="timeline">
-								<div class="timeline-content left">
-									<div class="row resort-box">
-										<div class="col-md-6" style="padding: 20px 30px;">
-											<div class="row">
-												<div id="mahabalipuram9" class="carousel slide"
-													data-ride="carousel">
-													<!-- Indicators -->
-													<ol class="carousel-indicators">
-														<li data-target="#mahabalipuram9" data-slide-to="0"
-															class="active"></li>
-														<li data-target="#mahabalipuram9" data-slide-to="1"
-															class="">
-														</li>
-														<li data-target="#mahabalipuram9" data-slide-to="2"
-															class="">
-														</li>
-														<li data-target="#mahabalipuram9" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#mahabalipuram9" data-slide-to="4"
-															class="">
-														</li>
-													</ol>
-
-													<!-- Wrapper for slides -->
-													<div class="carousel-inner">
-														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Swimming Pool</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Room</div>
-															</a>
-														</div>
-													</div>
-													<a class="left carousel-control" href="#mahabalipuram9"
-														data-slide="prev">
-														<span class="mdi mdi-chevron-left"></span>
-														<span class="sr-only">Previous</span>
-													</a>
-													<a class="right carousel-control" href="#mahabalipuram9"
-														data-slide="next">
-														<span class="mdi mdi-chevron-right"></span>
-														<span class="sr-only">Next</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div class="col-md-6" style="padding: 20px 30px;">
-											<h3 style="margin-left: 0px;padding-bottom: 5px; text-align:left">
-												Ideal Beach Resort
-											</h3>
-											<div class="package-places">
-												<div class="stars">
-													<div>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<div class="cover" style="width: 20%;"></div>
-													</div>
-												</div>
-											</div>
-											<p style="margin-bottom:0px; text-align:left">
-												Resort | Standard
-											</p>
-											<p style="margin-bottom:20px; text-align:left">
-												Kovalam Road, Devaneri Village, Mamallapuram 603104
-											</p>
-											<div class="amenities-row">
-												<span class="material-icons" title="Infinity Pool">pool</span>
-												<span class="material-icons" title="Gym">fitness_center</span>
-												<span class="material-icons" title="Indoor Games">games</span>
-												<span class="material-icons" title="Restaurant">restaurant</span>
-												<span class="material-icons" title="Bar">local_bar</span>
-												<span class="material-icons" title="Room Service">room_service</span>
-												<span class="material-icons" title="Wi-Fi">wifi</span>
-												<span class="material-icons" title="Parking">local_parking</span>
-											</div>
-											<div class="resort-table">
-												<div class="row">
-													<div class="col-md-9 col-sm-9 col-xs-8"
-														style="font-size:14px;">
-														
-														<i style="font-weight: bold;font-size:20px;color:red">Package Name</i>
-														<ul>
-															<li><span>Inclusions</span></li><li><span>Room</span><span> : Accommodation in Standard Room for a couple</span></li>
-															<li><span>Meal </span><span> : Complimentary Breakfast</span></li>																
-															<li><span>Activity </span> <span> :  Pool Table, Cycling, Archery, Boating, Swimming</span></li>
-															<li><span>Extra</span> <span> : Redeemable voucher worth &#8377 0,000/- </span></li>
-														</ul>
-													</div>
-													<div class="col-md-3 col-sm-3 col-xs-4">
-														<div id="discstick">
-															<span>0% off</span>
-														</div>
-														<div class="disc-section">
-															<ul>
-																<li>
-																	<span><s>&#8377 0,000/-</s></span>
-																</li>
-																<li>
-																	<span>&#8377 0,000/-</span>
-																</li>
-																<li>
-																	<span>per room</span>
-																</li>
-																<li>
-																	<span>Save &#8377 000/-</span>
-																</li>
-																<li>
-																	<span>Inclusive of GST</span>
-																</li>
-															</ul>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
-												<span class="availability">Children below 5 years complimentary</span>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- single timeline -->
-							</div>
-							<div class="timeline">
-								<div class="timeline-content left">
-									<div class="row resort-box">
-										<div class="col-md-6" style="padding: 20px 30px;">
-											<div class="row">
-												<div id="mahabalipuram10" class="carousel slide"
-													data-ride="carousel">
-													<!-- Indicators -->
-													<ol class="carousel-indicators">
-														<li data-target="#mahabalipuram10" data-slide-to="0"
-															class="active"></li>
-														<li data-target="#mahabalipuram10" data-slide-to="1"
-															class="">
-														</li>
-														<li data-target="#mahabalipuram10" data-slide-to="2"
-															class="">
-														</li>
-														<li data-target="#mahabalipuram10" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#mahabalipuram10" data-slide-to="4"
-															class="">
-														</li>
-													</ol>
-
-													<!-- Wrapper for slides -->
-													<div class="carousel-inner">
-														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Swimming Pool</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Room</div>
-															</a>
-														</div>
-													</div>
-													<a class="left carousel-control" href="#mahabalipuram10"
-														data-slide="prev">
-														<span class="mdi mdi-chevron-left"></span>
-														<span class="sr-only">Previous</span>
-													</a>
-													<a class="right carousel-control" href="#mahabalipuram10"
-														data-slide="next">
-														<span class="mdi mdi-chevron-right"></span>
-														<span class="sr-only">Next</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div class="col-md-6" style="padding: 20px 30px;">
-											<h3 style="margin-left: 0px;padding-bottom: 5px; text-align:left">
-												The Village Retreat Concept Hotel
-											</h3>
-											<div class="package-places">
-												<div class="stars">
-													<div>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<div class="cover" style="width: 8.5%;"></div>
-													</div>
-												</div>
-											</div>
-											<p style="margin-bottom:0px; text-align:left">
-												Hotel | Standard
-											</p>
-											<p style="margin-bottom:20px; text-align:left">
-												Electro Street, 67km Milestone, ECR Road, Mamallapuram 603102
-											</p>
-											<div class="amenities-row">
-												<span class="material-icons" title="Infinity Pool">pool</span>
-												<span class="material-icons" title="Gym">fitness_center</span>
-												<span class="material-icons" title="Indoor Games">games</span>
-												<span class="material-icons" title="Restaurant">restaurant</span>
-												<span class="material-icons" title="Bar">local_bar</span>
-												<span class="material-icons" title="Room Service">room_service</span>
-												<span class="material-icons" title="Wi-Fi">wifi</span>
-												<span class="material-icons" title="Parking">local_parking</span>
-											</div>
-											<div class="resort-table">
-												<div class="row">
-													<div class="col-md-9 col-sm-9 col-xs-8"
-														style="font-size:14px;">
-														
-														<i style="font-weight: bold;font-size:20px;color:red">Package Name</i>
-														<ul>
-															<li><span>Inclusions</span></li><li><span>Room</span><span> : Accommodation in Standard Room for a couple</span></li>
-															<li><span>Meal </span><span> : Complimentary Breakfast</span></li>																
-															<li><span>Activity </span> <span> :  Pool Table, Cycling, Archery, Boating, Swimming</span></li>
-															<li><span>Extra</span> <span> : Redeemable voucher worth &#8377 0,000/- </span></li>
-														</ul>
-													</div>
-													<div class="col-md-3 col-sm-3 col-xs-4">
-														<div id="discstick">
-															<span>0% off</span>
-														</div>
-														<div class="disc-section">
-															<ul>
-																<li>
-																	<span><s>&#8377 0,000/-</s></span>
-																</li>
-																<li>
-																	<span>&#8377 0,000/-</span>
-																</li>
-																<li>
-																	<span>per room</span>
-																</li>
-																<li>
-																	<span>Save &#8377 000/-</span>
-																</li>
-																<li>
-																	<span>Inclusive of GST</span>
-																</li>
-															</ul>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
-												<span class="availability">Children below 5 years complimentary</span>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- single timeline -->
-							</div>
-							<!--Standard ends-->
+							<!--Economy ends-->
 						</div>
 						<div role="tabpanel" class="tab-pane fade in" id="puducherry">
 							<section class="discount-package">
-								<div id="ad" class="carousel slide" 
+								<div id="ad3" class="carousel slide" 
 									style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
 									<!-- Indicators -->
 									<ol class="carousel-indicators">
-										<li data-target="#ad" data-slide-to="0" class="active">
+										<li data-target="#ad3" data-slide-to="0" class="active">
 										</li>
-										<li data-target="#ad" data-slide-to="1" class=""></li>
-										<li data-target="#ad" data-slide-to="2" class=""></li>
-										<li data-target="#ad" data-slide-to="3" class=""></li>
-										<li data-target="#ad" data-slide-to="4" class=""></li>
-										<li data-target="#ad" data-slide-to="5" class=""></li>
+										<li data-target="#ad3" data-slide-to="1" class=""></li>
+										<li data-target="#ad3" data-slide-to="2" class=""></li>
+										<li data-target="#ad3" data-slide-to="3" class=""></li>
+										<li data-target="#ad3" data-slide-to="4" class=""></li>
+										<li data-target="#ad3" data-slide-to="5" class=""></li>
 									</ol>
 
 									<!-- Wrapper for slides -->
 									<div class="carousel-inner">
 										<div class="item active">
-											<a>
-												<img class="img1" src="../../images/poster1/offertfr.webp" style="width:100%; height:100%;">
-												<img class="img2" src="../../images/poster-mobile/restfr.webp" style="width:100%; height:100%;"
-													style="width:100%; height:100%;">
-										</div>
-										<div class="item">
 											<a href="#">
-												<img class="img1" src="../../images/poster1/offervedic1.webp" style="width:100%; height:100%;">
-												<img class="img2" src="../../images/poster-mobile/resvedic.webp" style="width:100%; height:100%;"
-													style="width:100%; height:100%;">
+												<img class="img1" src="../../images/poster1/hassan.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/hassan.webp" style="width:100%; height:100%;">
 											</a>
 										</div>
 										<div class="item">
 											<a href="#">
-												<img class="img1" src="../../images/poster1/offeramaya.webp" style="width:100%; height:100%;">
-												<img class="img2" src="../../images/poster-mobile/resamaya.webp" style="width:100%; height:100%;"
-													style="width:100%; height:100%;">
+												<img class="img1" src="../../images/poster1/mysuru.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/mysuru.webp" style="width:100%; height:100%;">
 											</a>
 										</div>
 										<div class="item">
 											<a href="#">
-												<img class="img1" src="../../images/poster1/offerfortune.webp" style="width:100%; height:100%;">
-												<img class="img2" src="../../images/poster-mobile/resfortune.webp" style="width:100%; height:100%;"
-													style="width:100%; height:100%;">
+												<img class="img1" src="../../images/poster1/nagarhole.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/nagarhole.webp" style="width:100%; height:100%;">
 											</a>
 										</div>
 										<div class="item">
 											<a href="#">
-												<img class="img1" src="../../images/poster1/offerrajbadi.webp" style="width:100%; height:100%;">
-												<img class="img2" src="../../images/poster-mobile/resrajbadi.webp" style="width:100%; height:100%;"
-													style="width:100%; height:100%;">
+												<img class="img1" src="../../images/poster1/yelagiri.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/yelagiri.webp" style="width:100%; height:100%;">
 											</a>
 										</div>
 										<div class="item">
 											<a href="#">
-												<img class="img1" src="../../images/poster1/offeribiza.webp" style="width:100%; height:100%;">
-												<img class="img2" src="../../images/poster-mobile/resibiza.webp" style="width:100%; height:100%;"
-													style="width:100%; height:100%;">
+												<img class="img1" src="../../images/poster1/mahabalipuram.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/mahabalipuram.webp" style="width:100%; height:100%;">
+											</a>
+										</div>
+										<div class="item">
+											<a href="#">
+												<img class="img1" src="../../images/poster1/puducherry.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/puducherry.webp" style="width:100%; height:100%;">
+											</a>
 										</div>
 									</div>
-									<a class="left carousel-control" href="#ad" data-slide="prev">
+									<a class="left carousel-control" href="#ad3" data-slide="prev">
 										<span class="mdi mdi-chevron-left"></span>
 										<span class="sr-only">Previous</span>
 									</a>
-									<a class="right carousel-control" href="#ad" data-slide="next">
+									<a class="right carousel-control" href="#ad3" data-slide="next">
 										<span class="mdi mdi-chevron-right"></span>
 										<span class="sr-only">Next</span>
 									</a>
@@ -3463,38 +3009,22 @@
 														<li data-target="#puducherry1" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#puducherry1" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#puducherry1" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/puducherry/accord/1.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
+																<div class="overlay">Exterior</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
+														<div class="item"><a><img src="../../images/puducherry/accord/1.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Swimming Pool</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/puducherry/accord/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -3530,7 +3060,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left" title="3 star">
-												Hotel | Premium
+												Hotel | Premium | 1 TN Main Rd
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												1 Thilagar Nagar Main Road, Puducherry 605009
@@ -3586,7 +3116,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://www.swiftbook.io/inst/#home?propertyId=381MZL7ESDjGQUrGMSnRm3STAyMA==&JDRN=Y&checkIn=2024-09-04&checkOut=2024-09-05"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -3611,38 +3141,22 @@
 														<li data-target="#puducherry2" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#puducherry2" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#puducherry2" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/puducherry/bonjour/1.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
+																<div class="overlay">Overview</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
+														<div class="item"><a><img src="../../images/puducherry/bonjour/2.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
+																<div class="overlay">Birds view</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Swimming Pool</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/puducherry/bonjour/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -3678,7 +3192,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left" title="3 star">
-												Hotel | Premium
+												Hotel | Premium | Majakuppam
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												7, 8, 9, East Coast Road, Majakuppam, Puducherry 604303
@@ -3734,7 +3248,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://bookings.oceanspray.in/?checkIn=2024-09-04&checkOut=2024-09-05&adults=1&children=0&promocode=&propertyId=8337&min-room-price="target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -3759,38 +3273,22 @@
 														<li data-target="#puducherry3" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#puducherry3" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#puducherry3" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/puducherry/villa/1.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
+																<div class="overlay">Exterior</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
+														<div class="item"><a><img src="../../images/puducherry/villa/2.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Swimming Pool</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/puducherry/villa/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -3826,7 +3324,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left" title="3 star">
-												Boutique | Premium
+												Boutique | Premium | 11 Surcouf St
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												11 La Villa Rue Surcouf Street, Puducherry 605001
@@ -3882,7 +3380,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://www.simplebooking.it/ibe/hotelbooking/search?hid=3519&cur=EUR&lang=en"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -3907,38 +3405,22 @@
 														<li data-target="#puducherry4" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#puducherry4" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#puducherry4" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/puducherry/pondy/1.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
+																<div class="overlay">Birds View</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
+														<div class="item"><a><img src="../../images/puducherry/pondy/2.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Swimming Pool</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/puducherry/pondy/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -3974,7 +3456,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left" title="3 star">
-												Resort | Premium
+												Resort | Premium | Pudukuppam
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												No.3, Lake View Road ,Pudukuppam, Nallvadu Post, Puducherry 605007
@@ -4030,7 +3512,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://bookings.lepondy.com/onlinebooking1.aspx?hotelcode=2"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -4055,38 +3537,22 @@
 														<li data-target="#puducherry5" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#puducherry5" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#puducherry5" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/puducherry/promenade/1.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Facade</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
+														<div class="item"><a><img src="../../images/puducherry/promenade/2.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
+																<div class="overlay">Dining</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Swimming Pool</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/puducherry/promenade/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -4122,7 +3588,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left">
-												Hotel | Premium
+												Hotel | Premium | 23 Goubert
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												23 Goubert Avenue, Opp. Gandhi Statue on Beach Road, Puducherry 605001
@@ -4177,7 +3643,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://bookings.sarovarhotels.com/?chainId=4212&propertyId=4350&checkIn=2024-09-04&checkOut=2024-09-05&adults=1&children=0&promocode="target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -4210,38 +3676,22 @@
 														<li data-target="#puducherry6" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#puducherry6" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#puducherry6" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/puducherry/mahindra/1.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
+																<div class="overlay">Exterior</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
+														<div class="item"><a><img src="../../images/puducherry/mahindra/2.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Swimming Pool</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/puducherry/mahindra/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -4277,7 +3727,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left">
-												Resort | Standard
+												Resort | Standard | Manapattu
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												200/201, Valluvar Medu, Village Manapattu, Villupuram district, Bahour Commune Panchayat, Puducherry 607402
@@ -4332,7 +3782,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://www.clubmahindra.com/our-resorts/club-mahindra-resort-puducherry-pondicherry-resort-in-tamil-nadu?utm_source=google&utm_medium=maps&utm_campaign=Club-Mahindra-Resorts-Puducherry&campaign=2210WebRegular&refid=LTR-organic-google-maps-Club-Mahindra-Resort-Puducherry"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -4354,41 +3804,18 @@
 														<li data-target="#puducherry7" data-slide-to="1"
 															class="">
 														</li>
-														<li data-target="#puducherry7" data-slide-to="2"
-															class="">
-														</li>
-														<li data-target="#puducherry7" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#puducherry7" data-slide-to="4"
-															class="">
 														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/puducherry/dune/1.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Facade</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Swimming Pool</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/puducherry/dune/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -4424,7 +3851,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left">
-												Boutique | Standard
+												Boutique | Standard | 17 RRR St
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												17 Rue Romain Rolland Street, Puducherry 605001
@@ -4476,7 +3903,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://dunewellnessgroup.com/dune-orient/"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -4501,38 +3928,22 @@
 														<li data-target="#puducherry8" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#puducherry8" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#puducherry8" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/puducherry/eco/1.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
+																<div class="overlay">Exterior</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
+														<div class="item"><a><img src="../../images/puducherry/eco/2.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
+																<div class="overlay">Exterior</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Swimming Pool</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/puducherry/eco/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -4568,7 +3979,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left">
-												Resort | Standard
+												Resort | Standard | 70 ECR
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												70 East Coast Road, Pudhukuppam, Keelputhupet, Ganapathichettikulam, Puducherry 605014
@@ -4624,7 +4035,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://dunewellnessgroup.com/"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -4649,38 +4060,22 @@
 														<li data-target="#puducherry9" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#puducherry9" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#puducherry9" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/puducherry/dupleix/1.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">Facade</div>
+																<div class="overlay">Exterior</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
+														<div class="item"><a><img src="../../images/puducherry/dupleix/2.webp"
 																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
+																<div class="overlay">Room</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Swimming Pool</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/puducherry/dupleix/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -4716,7 +4111,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left">
-												Boutique | Standard
+												Boutique | Standard | 5 RDC St
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												5 Rue Dela Caserne Street, Puducherry 605001
@@ -4769,7 +4164,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://bookings.sarovarhotels.com/?propertyId=4379"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -4794,38 +4189,22 @@
 														<li data-target="#puducherry10" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#puducherry10" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#puducherry10" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/puducherry/mahe/1.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Facade</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
+														<div class="item"><a><img src="../../images/puducherry/mahe/2.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Swimming Pool</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/puducherry/mahe/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -4861,7 +4240,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left">
-												Hotel | Standard
+												Hotel | Standard | 4 Rue Bussy
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												4 Rue Bussy, (Lal Bahadur Sastry Street ), Puducherry 605001
@@ -4916,7 +4295,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://bookings.cghearth.com/?chainId=8850&propertyId=8869"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -4941,38 +4320,22 @@
 														<li data-target="#puducherry11" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#puducherry11" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#puducherry11" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/puducherry/rkn/1.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Facade</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
+														<div class="item"><a><img src="../../images/puducherry/rkn/2.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Swimming Pool</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/puducherry/rkn/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -5008,7 +4371,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left">
-												Resort | Standard
+												Resort | Standard | Pudukuppam
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												No.50/3, Sudalai Street, Poornankuppam Main Road, Pudukuppam, Puducherry 605007
@@ -5063,7 +4426,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://www.swiftbook.io/inst/#home?propertyId=201McNKMv2laUdjE2ODY=&JDRN=Y"target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -5088,38 +4451,22 @@
 														<li data-target="#puducherry12" data-slide-to="2"
 															class="">
 														</li>
-														<li data-target="#puducherry12" data-slide-to="3"
-															class="">
-														</li>
-														<li data-target="#puducherry12" data-slide-to="4"
-															class="">
-														</li>
 													</ol>
 
 													<!-- Wrapper for slides -->
 													<div class="carousel-inner">
 														<div class="item active">
-															<a><img src="../../images/out-tfr/facade1.webp"
+															<a><img src="../../images/puducherry/bay/1.webp"
+																	style="width:100%; height:auto;">
+																<div class="overlay">Birds View</div>
+															</a>
+														</div>
+														<div class="item"><a><img src="../../images/puducherry/bay/2.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Facade</div>
 															</a>
 														</div>
-														<div class="item"><a><img src="../../images/out-tfr/lawn_south.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">South Lawn</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/pool3.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Swimming Pool</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/dining_reflection1.webp"
-																	style="width:100%; height:auto;">
-																<div class="overlay">Refection Multi-cuisine Restaurant</div>
-															</a>
-														</div>
-														<div class="item"><a><img src="../../images/out-tfr/room-srriver.webp"
+														<div class="item"><a><img src="../../images/puducherry/bay/3.webp"
 																	style="width:100%; height:auto;">
 																<div class="overlay">Room</div>
 															</a>
@@ -5155,7 +4502,7 @@
 												</div>
 											</div>
 											<p style="margin-bottom:0px; text-align:left">
-												Resort | Standard
+												Resort | Standard | Ariyankuppam
 											</p>
 											<p style="margin-bottom:20px; text-align:left">
 												Survey No. 198/1,198/2 Maraimalai Adigal Street, Manavely Revenue Village, Chinnaveeram Pattinam, Ariyankuppam Post, Puducherry 605007
@@ -5210,7 +4557,7 @@
 												</div>
 											</div>
 											<div class="discount-package-4-btn">
-												<a class="travel-primary-btn-2" href="https://rzp.io/l/b1Jksp2Ws">Book Now</a>
+												<a class="travel-primary-btn-2" href="https://www.radissonhotels.com/en-us/booking/room-display?hotelCode=INPYPONRSP&checkInDate=2024-09-04&checkOutDate=2024-09-05&adults%5B%5D=2&children%5B%5D=0&aoc%5B%5D=&searchType=lowest&promotionCode=&voucher="target="_blank" rel="noopener noreferrer">Book Now</a>
 												<span class="availability">Children below 5 years complimentary</span>
 											</div>
 										</div>
@@ -5219,6 +4566,819 @@
 								<!-- single timeline -->
 							</div>
 							<!--Standard ends-->
+						</div>
+						<div role="tabpanel" class="tab-pane fade in" id="yelagiri">
+							<section class="discount-package">
+								<div id="ad5" class="carousel slide" 
+									style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
+									<!-- Indicators -->
+									<ol class="carousel-indicators">
+										<li data-target="#ad5" data-slide-to="0" class="active">
+										</li>
+										<li data-target="#ad5" data-slide-to="1" class=""></li>
+										<li data-target="#ad5" data-slide-to="2" class=""></li>
+										<li data-target="#ad5" data-slide-to="3" class=""></li>
+										<li data-target="#ad5" data-slide-to="4" class=""></li>
+										<li data-target="#ad5" data-slide-to="5" class=""></li>
+									</ol>
+
+									<!-- Wrapper for slides -->
+									<div class="carousel-inner">
+										<div class="item active">
+											<a href="#">
+												<img class="img1" src="../../images/poster1/hassan.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/hassan.webp" style="width:100%; height:100%;">
+											</a>
+										</div>
+										<div class="item">
+											<a href="#">
+												<img class="img1" src="../../images/poster1/mysuru.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/mysuru.webp" style="width:100%; height:100%;">
+											</a>
+										</div>
+										<div class="item">
+											<a href="#">
+												<img class="img1" src="../../images/poster1/nagarhole.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/nagarhole.webp" style="width:100%; height:100%;">
+											</a>
+										</div>
+										<div class="item">
+											<a href="#">
+												<img class="img1" src="../../images/poster1/yelagiri.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/yelagiri.webp" style="width:100%; height:100%;">
+											</a>
+										</div>
+										<div class="item">
+											<a href="#">
+												<img class="img1" src="../../images/poster1/mahabalipuram.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/mahabalipuram.webp" style="width:100%; height:100%;">
+											</a>
+										</div>
+										<div class="item">
+											<a href="#">
+												<img class="img1" src="../../images/poster1/puducherry.webp" style="width:100%; height:100%;">
+												<img class="img2" src="../../images/poster-mobile/puducherry.webp" style="width:100%; height:100%;">
+											</a>
+										</div>
+									</div>
+									<a class="left carousel-control" href="#ad5" data-slide="prev">
+										<span class="mdi mdi-chevron-left"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#ad5" data-slide="next">
+										<span class="mdi mdi-chevron-right"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+									
+							</section>
+							<!--Standard starts-->
+							<div class="container">
+								<div class="row">
+									<h3>Standard</h3>
+								</div>
+							</div>
+							<div class="timeline">
+								<div class="timeline-content left">
+									<div class="row resort-box">
+										<div class="col-md-6" style="padding: 20px 30px;">
+											<div class="row">
+												<div id="yelagiri1" class="carousel slide"
+													data-ride="carousel">
+													<!-- Indicators -->
+													<ol class="carousel-indicators">
+														<li data-target="#yelagiri1" data-slide-to="0" class="active"></li>
+														<li data-target="#yelagiri1" data-slide-to="1" class=""></li>
+														<li data-target="#yelagiri1" data-slide-to="2" class=""></li>
+													</ol>
+
+													<!-- Wrapper for slides -->
+													<div class="carousel-inner">
+														<div class="item active">
+															<a><img src="../../images/yelagiri/emerald/1.webp" style="width:100%; height:auto;">
+																<div class="overlay">Facade</div>
+															</a>
+														</div>
+														<div class="item">
+															<a><img src="../../images/yelagiri/emerald/2.webp" style="width:100%; height:auto;">
+																<div class="overlay">Interior</div>
+															</a>
+														</div>
+														<div class="item">
+															<a><img src="../../images/yelagiri/emerald/3.webp" style="width:100%; height:auto;">
+																<div class="overlay">Room</div>
+															</a>
+														</div>
+													</div>
+													<a class="left carousel-control" href="#yelagiri1"
+														data-slide="prev">
+														<span class="mdi mdi-chevron-left"></span>
+														<span class="sr-only">Previous</span>
+													</a>
+													<a class="right carousel-control" href="#yelagiri1"
+														data-slide="next">
+														<span class="mdi mdi-chevron-right"></span>
+														<span class="sr-only">Next</span>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6" style="padding: 20px 30px;">
+											<h3 style="margin-left: 0px;padding-bottom: 5px; text-align:left">
+												Hotel Emerald Dove
+											</h3>
+											<div class="package-places">
+												<div class="stars">
+													<div>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<div class="cover" style="width: 8.5%;"></div>
+													</div>
+												</div>
+											</div>
+											<p style="margin-bottom:0px; text-align:left" title="3 star">
+												Hotel | Standard | Kottaiyur
+											</p>
+											<p style="margin-bottom:20px; text-align:left">
+												Yelagiri Main Road | Kottaiyur | Yelagiri | Tamil Nadu 635853
+											</p>
+											<div class="amenities-row">
+												<span class="material-icons" title="Swimming Pool">pool</span>
+												<span class="material-icons mdi mdi-cricket" title="Games"></span>
+												<span class="material-icons" title="Restaurant">restaurant</span>
+												<span class="material-icons" title="Wi-Fi">wifi</span>
+												<span class="material-icons" title="Parking">local_parking</span>
+											</div>
+											<div class="resort-table">
+												<div class="row">
+													<div class="col-md-9 col-sm-9 col-xs-8"
+														style="font-size:14px;">
+														
+														<i style="font-weight: bold;font-size:20px;color:red">Package Name</i>
+														<ul>
+															<li><span>Inclusions</span></li><li><span>Room</span><span>: Accommodation in Standard Room for a couple</span></li>
+															<li><span>Meal </span><span> : Complimentary Breakfast</span></li>																
+															<li><span>Activity </span> <span> :  Pool Table, Cycling, Archery, Boating, Swimming</span></li>
+															<li><span>Extra</span> <span> : Redeemable voucher worth &#8377 0,000/- </span></li>
+														</ul>
+													</div>
+													<div class="col-md-3 col-sm-3 col-xs-4">
+														<div id="discstick">
+															<span>0% off</span>
+														</div>
+														<div class="disc-section">
+															<ul>
+																<li>
+																	<span><s>&#8377 0,000/-</s></span>
+																</li>
+																<li>
+																	<span>&#8377 0,000/-</span>
+																</li>
+																<li>
+																	<span>per room</span>
+																</li>
+																<li>
+																	<span>Save &#8377 000/-</span>
+																</li>
+																<li>
+																	<span>Inclusive of GST</span>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="discount-package-4-btn">
+												<a class="travel-primary-btn-2" href="https://app.axisrooms.com/beV2/home1.html?bookingEngineId=2791"target="_blank" rel="noopener noreferrer">Book Now</a>
+												<span class="availability">Children below 5 years complimentary</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- single timeline -->
+							</div>
+							<div class="timeline">
+								<div class="timeline-content left">
+									<div class="row resort-box">
+										<div class="col-md-6" style="padding: 20px 30px;">
+											<div class="row">
+												<div id="yelagiri2" class="carousel slide"
+													data-ride="carousel">
+													<!-- Indicators -->
+													<ol class="carousel-indicators">
+														<li data-target="#yelagiri2" data-slide-to="0" class="active"></li>
+														<li data-target="#yelagiri2" data-slide-to="1" class=""></li>
+														<li data-target="#yelagiri2" data-slide-to="2" class=""></li>
+													</ol>
+
+													<!-- Wrapper for slides -->
+													<div class="carousel-inner">
+														<div class="item active">
+															<a><img src="../../images/yelagiri/kumararaja/1.webp" style="width:100%; height:auto;">
+																<div class="overlay">Facade</div>
+															</a>
+														</div>
+														<div class="item">
+															<a><img src="../../images/yelagiri/kumararaja/2.webp" style="width:100%; height:auto;">
+																<div class="overlay">Swimming Pool</div>
+															</a>
+														</div>
+														<div class="item">
+															<a><img src="../../images/yelagiri/kumararaja/3.webp" style="width:100%; height:auto;">
+																<div class="overlay">Room</div>
+															</a>
+														</div>
+													</div>
+													<a class="left carousel-control" href="#yelagiri2"
+														data-slide="prev">
+														<span class="mdi mdi-chevron-left"></span>
+														<span class="sr-only">Previous</span>
+													</a>
+													<a class="right carousel-control" href="#yelagiri2"
+														data-slide="next">
+														<span class="mdi mdi-chevron-right"></span>
+														<span class="sr-only">Next</span>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6" style="padding: 20px 30px;">
+											<h3 style="margin-left: 0px;padding-bottom: 5px; text-align:left">
+												Kumararraja Palace Yelagiri
+											</h3>
+											<div class="package-places">
+												<div class="stars">
+													<div>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<div class="cover" style="width: 28.5%;"></div>
+													</div>
+												</div>
+											</div>
+											<p style="margin-bottom:0px; text-align:left" title="3 star">
+												Resort | Standard | Kottur Rd
+											</p>
+											<p style="margin-bottom:20px; text-align:left">
+												Kottur Road | Athanavoor | Yelagiri | Tamil Nadu 635853
+											</p>
+											<div class="amenities-row">
+												<span class="material-icons" title="Swimming Pool">pool</span>
+												<span class="material-icons mdi mdi-cricket" title="Games"></span>
+												<span class="material-icons" title="Restaurant">restaurant</span>
+												<span class="material-icons" title="Wi-Fi">wifi</span>
+												<span class="material-icons" title="Parking">local_parking</span>
+											</div>
+											<div class="resort-table">
+												<div class="row">
+													<div class="col-md-9 col-sm-9 col-xs-8"
+														style="font-size:14px;">
+														
+														<i style="font-weight: bold;font-size:20px;color:red">Package Name</i>
+														<ul>
+															<li><span>Inclusions</span></li><li><span>Room</span><span>: Accommodation in Standard Room for a couple</span></li>
+															<li><span>Meal </span><span> : Complimentary Breakfast</span></li>																
+															<li><span>Activity </span> <span> :  Pool Table, Cycling, Archery, Boating, Swimming</span></li>
+															<li><span>Extra</span> <span> : Redeemable voucher worth &#8377 0,000/- </span></li>
+														</ul>
+													</div>
+													<div class="col-md-3 col-sm-3 col-xs-4">
+														<div id="discstick">
+															<span>0% off</span>
+														</div>
+														<div class="disc-section">
+															<ul>
+																<li>
+																	<span><s>&#8377 0,000/-</s></span>
+																</li>
+																<li>
+																	<span>&#8377 0,000/-</span>
+																</li>
+																<li>
+																	<span>per room</span>
+																</li>
+																<li>
+																	<span>Save &#8377 000/-</span>
+																</li>
+																<li>
+																	<span>Inclusive of GST</span>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="discount-package-4-btn">
+												<a class="travel-primary-btn-2" href="https://live.ipms247.com/booking/book-rooms-hotelkumararrajapalace"target="_blank" rel="noopener noreferrer">Book Now</a>
+												<span class="availability">Children below 5 years complimentary</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- single timeline -->
+							</div>
+							<div class="timeline">
+								<div class="timeline-content left">
+									<div class="row resort-box">
+										<div class="col-md-6" style="padding: 20px 30px;">
+											<div class="row">
+												<div id="yelagiri3" class="carousel slide"
+													data-ride="carousel">
+													<!-- Indicators -->
+													<ol class="carousel-indicators">
+														<li data-target="#yelagiri3" data-slide-to="0" class="active"></li>
+														<li data-target="#yelagiri3" data-slide-to="1" class=""></li>
+														<li data-target="#yelagiri3" data-slide-to="2" class=""></li>
+													</ol>
+
+													<!-- Wrapper for slides -->
+													<div class="carousel-inner">
+														<div class="item active">
+															<a><img src="../../images/yelagiri/laflora/1.webp" style="width:100%; height:auto;">
+																<div class="overlay">Facade</div>
+															</a>
+														</div>
+														<div class="item">
+															<a><img src="../../images/yelagiri/laflora/2.webp" style="width:100%; height:auto;">
+																<div class="overlay">Restaurant</div>
+															</a>
+														</div>
+														<div class="item">
+															<a><img src="../../images/yelagiri/laflora/3.webp" style="width:100%; height:auto;">
+																<div class="overlay">Room</div>
+															</a>
+														</div>
+													</div>
+													<a class="left carousel-control" href="#yelagiri3"
+														data-slide="prev">
+														<span class="mdi mdi-chevron-left"></span>
+														<span class="sr-only">Previous</span>
+													</a>
+													<a class="right carousel-control" href="#yelagiri3"
+														data-slide="next">
+														<span class="mdi mdi-chevron-right"></span>
+														<span class="sr-only">Next</span>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6" style="padding: 20px 30px;">
+											<h3 style="margin-left: 0px;padding-bottom: 5px; text-align:left">
+												La Flora Cloud 9 Resort
+											</h3>
+											<div class="package-places">
+												<div class="stars">
+													<div>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<div class="cover" style="width: 20%;"></div>
+													</div>
+												</div>
+											</div>
+											<p style="margin-bottom:0px; text-align:left">
+												Resort | Standard | Nilavoor Rd
+											</p>
+											<p style="margin-bottom:20px; text-align:left">
+												Near Indane Gas Agency | Nilavoor Rd | Yelagiri | Tamil Nadu 635853
+											</p>
+											<div class="amenities-row">
+												<span class="material-icons mdi mdi-cricket" title="Games"></span>
+												<span class="material-icons" title="Restaurant">restaurant</span>
+												<span class="material-icons" title="Room Service">room_service</span>
+												<span class="material-icons" title="Wi-Fi">wifi</span>
+												<span class="material-icons" title="Parking">local_parking</span>
+											</div>
+											<div class="resort-table">
+												<div class="row">
+													<div class="col-md-9 col-sm-9 col-xs-8"
+														style="font-size:14px;">
+														
+														<i style="font-weight: bold;font-size:20px;color:red">Package Name</i>
+														<ul>
+															<li><span>Inclusions</span></li><li><span>Room</span><span>: Accommodation in Standard Room for a couple</span></li>
+															<li><span>Meal </span><span> : Complimentary Breakfast</span></li>																
+															<li><span>Activity </span> <span> :  Pool Table, Cycling, Archery, Boating, Swimming</span></li>
+															<li><span>Extra</span> <span> : Redeemable voucher worth &#8377 0,000/- </span></li>
+														</ul>
+													</div>
+													<div class="col-md-3 col-sm-3 col-xs-4">
+														<div id="discstick">
+															<span>0% off</span>
+														</div>
+														<div class="disc-section">
+															<ul>
+																<li>
+																	<span><s>&#8377 0,000/-</s></span>
+																</li>
+																<li>
+																	<span>&#8377 0,000/-</span>
+																</li>
+																<li>
+																	<span>per room</span>
+																</li>
+																<li>
+																	<span>Save &#8377 000/-</span>
+																</li>
+																<li>
+																	<span>Inclusive of GST</span>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="discount-package-4-btn">
+												<a class="travel-primary-btn-2" href="#"target="_blank" rel="noopener noreferrer">Book Now</a>
+												<span class="availability">Children below 5 years complimentary</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- single timeline -->
+							</div>
+							<!--Standard ends-->
+
+							<!--Economy starts-->
+							<div class="container">
+								<div class="row">
+									<h3>Economy</h3>
+								</div>
+							</div>
+							<div class="timeline">
+								<div class="timeline-content left">
+									<div class="row resort-box">
+										<div class="col-md-6" style="padding: 20px 30px;">
+											<div class="row">
+												<div id="yelagiri4" class="carousel slide"
+													data-ride="carousel">
+													<!-- Indicators -->
+													<ol class="carousel-indicators">
+														<li data-target="#yelagiri4" data-slide-to="0" class="active"></li>
+														<li data-target="#yelagiri4" data-slide-to="1" class=""></li>
+														<li data-target="#yelagiri4" data-slide-to="2" class=""></li>
+													</ol>
+
+													<!-- Wrapper for slides -->
+													<div class="carousel-inner">
+														<div class="item active">
+															<a><img src="../../images/yelagiri/hill/1.webp" style="width:100%; height:auto;">
+																<div class="overlay">Facade</div>
+															</a>
+														</div>
+														<div class="item">
+															<a><img src="../../images/yelagiri/hill/2.webp" style="width:100%; height:auto;">
+																<div class="overlay">Lobby</div>
+															</a>
+														</div>
+														<div class="item">
+															<a><img src="../../images/yelagiri/hill/3.webp" style="width:100%; height:auto;">
+																<div class="overlay">Room</div>
+															</a>
+														</div>
+													</div>
+													<a class="left carousel-control" href="#yelagiri4"
+														data-slide="prev">
+														<span class="mdi mdi-chevron-left"></span>
+														<span class="sr-only">Previous</span>
+													</a>
+													<a class="right carousel-control" href="#yelagiri4"
+														data-slide="next">
+														<span class="mdi mdi-chevron-right"></span>
+														<span class="sr-only">Next</span>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6" style="padding: 20px 30px;">
+											<h3 style="margin-left: 0px;padding-bottom: 5px; text-align:left">
+												Hotel Hill Breeze Yelagiri
+											</h3>
+											<div class="package-places">
+												<div class="stars">
+													<div>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<div class="cover" style="width: 28.5%;"></div>
+													</div>
+												</div>
+											</div>
+											<p style="margin-bottom:0px; text-align:left">
+												Hotel | Economy | Kottur Rd
+											</p>
+											<p style="margin-bottom:20px; text-align:left">
+												Kottur Road | B.S.N.L.Tower( near ) | Athanavoor | Yelagiri Hills | Vellore | Tamil Nadu
+											</p>
+											<div class="amenities-row">
+												<span class="material-icons mdi mdi-cricket" title="Games"></span>
+												<span class="material-icons" title="Restaurant">restaurant</span>
+												<span class="material-icons" title="Room Service">room_service</span>
+												<span class="material-icons" title="Wi-Fi">wifi</span>
+												<span class="material-icons" title="Parking">local_parking</span>
+											</div>
+											<div class="resort-table">
+												<div class="row">
+													<div class="col-md-9 col-sm-9 col-xs-8"
+														style="font-size:14px;">
+														
+														<i style="font-weight: bold;font-size:20px;color:red">Package Name</i>
+														<ul>
+															<li><span>Inclusions</span></li><li><span>Room</span><span>: Accommodation in Standard Room for a couple</span></li>
+															<li><span>Meal </span><span> : Complimentary Breakfast</span></li>																
+															<li><span>Activity </span> <span> :  Pool Table, Cycling, Archery, Boating, Swimming</span></li>
+															<li><span>Extra</span> <span> : Redeemable voucher worth &#8377 0,000/- </span></li>
+														</ul>
+													</div>
+													<div class="col-md-3 col-sm-3 col-xs-4">
+														<div id="discstick">
+															<span>0% off</span>
+														</div>
+														<div class="disc-section">
+															<ul>
+																<li>
+																	<span><s>&#8377 0,000/-</s></span>
+																</li>
+																<li>
+																	<span>&#8377 0,000/-</span>
+																</li>
+																<li>
+																	<span>per room</span>
+																</li>
+																<li>
+																	<span>Save &#8377 000/-</span>
+																</li>
+																<li>
+																	<span>Inclusive of GST</span>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="discount-package-4-btn">
+												<a class="travel-primary-btn-2" href="https://hotelhillbreeze.reservehotel.net/hotel?newSearch=true&checkin=2024-09-28&checkout=2024-09-29&occupancies[0][adults]=2&occupancies[0][room][adult]=2&occupancies[0][room][childA]=0&occupancies[0][room][childB]=0&occupancies[0][room][infant]=0&voucherCode=&muid=f9777ef3-f390-432b-8705-8186f6f3c8e8&timezone=Asia/Calcutta"target="_blank" rel="noopener noreferrer">Book Now</a>
+												<span class="availability">Children below 5 years complimentary</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- single timeline -->
+							</div>
+							<div class="timeline">
+								<div class="timeline-content left">
+									<div class="row resort-box">
+										<div class="col-md-6" style="padding: 20px 30px;">
+											<div class="row">
+												<div id="yelagiri5" class="carousel slide"
+													data-ride="carousel">
+													<!-- Indicators -->
+													<ol class="carousel-indicators">
+														<li data-target="#yelagiri5" data-slide-to="0" class="active"></li>
+														<li data-target="#yelagiri5" data-slide-to="1" class=""></li>
+														<li data-target="#yelagiri5" data-slide-to="2" class=""></li>
+													</ol>
+
+													<!-- Wrapper for slides -->
+													<div class="carousel-inner">
+														<div class="item active">
+															<a><img src="../../images/yelagiri/landmark/1.webp" style="width:100%; height:auto;">
+																<div class="overlay">Facade</div>
+															</a>
+														</div>
+														<div class="item">
+															<a><img src="../../images/yelagiri/landmark/2.webp" style="width:100%; height:auto;">
+																<div class="overlay">Swimming Pool</div>
+															</a>
+														</div>
+														<div class="item">
+															<a><img src="../../images/yelagiri/landmark/3.webp" style="width:100%; height:auto;">
+																<div class="overlay">Room</div>
+															</a>
+														</div>
+													</div>
+													<a class="left carousel-control" href="#yelagiri5"
+														data-slide="prev">
+														<span class="mdi mdi-chevron-left"></span>
+														<span class="sr-only">Previous</span>
+													</a>
+													<a class="right carousel-control" href="#yelagiri5"
+														data-slide="next">
+														<span class="mdi mdi-chevron-right"></span>
+														<span class="sr-only">Next</span>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6" style="padding: 20px 30px;">
+											<h3 style="margin-left: 0px;padding-bottom: 5px; text-align:left">
+												Hotel Landmark
+											</h3>
+											<div class="package-places">
+												<div class="stars">
+													<div>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<div class="cover" style="width: 8.5%;"></div>
+													</div>
+												</div>
+											</div>
+											<p style="margin-bottom:0px; text-align:left">
+												Hotel | Economy | Boat House Rd
+											</p>
+											<p style="margin-bottom:20px; text-align:left">
+												Boat House Road | Athanavur |  Opp: Murugan Temple | Yelagiri Hills 635853
+											</p>
+											<div class="amenities-row">
+												<span class="material-icons mdi mdi-cricket" title="Games"></span>
+												<span class="material-icons" title="Restaurant">restaurant</span>
+												<span class="material-icons" title="Room Service">room_service</span>
+												<span class="material-icons" title="Wi-Fi">wifi</span>
+												<span class="material-icons" title="Parking">local_parking</span>
+											</div>
+											<div class="resort-table">
+												<div class="row">
+													<div class="col-md-9 col-sm-9 col-xs-8"
+														style="font-size:14px;">
+														
+														<i style="font-weight: bold;font-size:20px;color:red">Package Name</i>
+														<ul>
+															<li><span>Inclusions</span></li><li><span>Room</span><span>: Accommodation in Standard Room for a couple</span></li>
+															<li><span>Meal </span><span> : Complimentary Breakfast</span></li>																
+															<li><span>Activity </span> <span> :  Pool Table, Cycling, Archery, Boating, Swimming</span></li>
+															<li><span>Extra</span> <span> : Redeemable voucher worth &#8377 0,000/- </span></li>
+														</ul>
+													</div>
+													<div class="col-md-3 col-sm-3 col-xs-4">
+														<div id="discstick">
+															<span>0% off</span>
+														</div>
+														<div class="disc-section">
+															<ul>
+																<li>
+																	<span><s>&#8377 0,000/-</s></span>
+																</li>
+																<li>
+																	<span>&#8377 0,000/-</span>
+																</li>
+																<li>
+																	<span>per room</span>
+																</li>
+																<li>
+																	<span>Save &#8377 000/-</span>
+																</li>
+																<li>
+																	<span>Inclusive of GST</span>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="discount-package-4-btn">
+												<a class="travel-primary-btn-2" href="#"target="_blank" rel="noopener noreferrer">Book Now</a>
+												<span class="availability">Children below 5 years complimentary</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- single timeline -->
+							</div>
+							<div class="timeline">
+								<div class="timeline-content left">
+									<div class="row resort-box">
+										<div class="col-md-6" style="padding: 20px 30px;">
+											<div class="row">
+												<div id="yelagiri6" class="carousel slide"
+													data-ride="carousel">
+													<!-- Indicators -->
+													<ol class="carousel-indicators">
+														<li data-target="#yelagiri6" data-slide-to="0" class="active"></li>
+														<li data-target="#yelagiri6" data-slide-to="1" class=""></li>
+														<li data-target="#yelagiri6" data-slide-to="2" class=""></li>
+													</ol>
+
+													<!-- Wrapper for slides -->
+													<div class="carousel-inner">
+														<div class="item active">
+															<a><img src="../../images/yelagiri/farm/1.webp" style="width:100%; height:auto;">
+																<div class="overlay">Facade</div>
+															</a>
+														</div>
+														<div class="item">
+															<a><img src="../../images/yelagiri/farm/2.webp" style="width:100%; height:auto;">
+																<div class="overlay">Exterior</div>
+															</a>
+														</div>
+														<div class="item">
+															<a><img src="../../images/yelagiri/farm/3.webp" style="width:100%; height:auto;">
+																<div class="overlay">Room</div>
+															</a>
+														</div>
+													</div>
+													<a class="left carousel-control" href="#yelagiri6"
+														data-slide="prev">
+														<span class="mdi mdi-chevron-left"></span>
+														<span class="sr-only">Previous</span>
+													</a>
+													<a class="right carousel-control" href="#yelagiri6"
+														data-slide="next">
+														<span class="mdi mdi-chevron-right"></span>
+														<span class="sr-only">Next</span>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6" style="padding: 20px 30px;">
+											<h3 style="margin-left: 0px;padding-bottom: 5px; text-align:left">
+												Yelagiri Farmhouse
+											</h3>
+											<div class="package-places">
+												<div class="stars">
+													<div>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<div class="cover" style="width: 8.5%;"></div>
+													</div>
+												</div>
+											</div>
+											<p style="margin-bottom:0px; text-align:left">
+												Homestay | Economy | Albert Newman Rd
+											</p>
+											<p style="margin-bottom:20px; text-align:left">
+												Albert Newman Road | Farm House Street  | Kottaiyur Village | Yelagiri | Tamil Nadu
+											</p>
+											<div class="amenities-row">
+												<span class="material-icons mdi mdi-cricket" title="Games"></span>
+												<span class="material-icons" title="Restaurant">restaurant</span>
+												<span class="material-icons" title="Room Service">room_service</span>
+												<span class="material-icons" title="Wi-Fi">wifi</span>
+												<span class="material-icons" title="Parking">local_parking</span>
+											</div>
+											<div class="resort-table">
+												<div class="row">
+													<div class="col-md-9 col-sm-9 col-xs-8"
+														style="font-size:14px;">
+														
+														<i style="font-weight: bold;font-size:20px;color:red">Package Name</i>
+														<ul>
+															<li><span>Inclusions</span></li><li><span>Room</span><span>: Accommodation in Standard Room for a couple</span></li>
+															<li><span>Meal </span><span> : Complimentary Breakfast</span></li>																
+															<li><span>Activity </span> <span> :  Pool Table, Cycling, Archery, Boating, Swimming</span></li>
+															<li><span>Extra</span> <span> : Redeemable voucher worth &#8377 0,000/- </span></li>
+														</ul>
+													</div>
+													<div class="col-md-3 col-sm-3 col-xs-4">
+														<div id="discstick">
+															<span>0% off</span>
+														</div>
+														<div class="disc-section">
+															<ul>
+																<li>
+																	<span><s>&#8377 0,000/-</s></span>
+																</li>
+																<li>
+																	<span>&#8377 0,000/-</span>
+																</li>
+																<li>
+																	<span>per room</span>
+																</li>
+																<li>
+																	<span>Save &#8377 000/-</span>
+																</li>
+																<li>
+																	<span>Inclusive of GST</span>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="discount-package-4-btn">
+												<a class="travel-primary-btn-2" href="#"target="_blank" rel="noopener noreferrer">Book Now</a>
+												<span class="availability">Children below 5 years complimentary</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- single timeline -->
+							</div>
+							<!--Economy ends-->
 						</div>
 					</div><!-- tabs content-->
 				</div><!-- tab content end -->
@@ -5293,8 +5453,6 @@
 										Sale
 									</a> I
 									<a href="../../bidnwin.html">Bid & Win
-									</a> I
-									<a href="../../getaway/kolkata/sale-tab2.html">HS2
 									</a>
 								</li>
 								<li><a href="../../blog.html" target="_blank" rel="noopener noreferrer">Blog
@@ -5480,7 +5638,7 @@
 	<!-- main js -->
 	<script src="../../js/custom.js"></script>
 	<script>
-		window.onload = function (){filterHome(2);};
+		window.onload = function() {offerFilt(2)};
 		// When the user scrolls the page, execute myFunction
 		window.onscroll = function () { myFunction() };
 

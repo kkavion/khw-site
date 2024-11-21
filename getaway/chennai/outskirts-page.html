@@ -72,7 +72,7 @@
 	</script>
 </head>
 
-<body class="getaway-page" onselectstart="return false">
+<body class="getaway-page">
 	<!-- Preloader -->
 	<div id="preloader">
 		<div id="status">&nbsp;</div>
@@ -103,39 +103,39 @@
 						<div class="col-md-10 col-sm-10">
 							<nav>
 								<ul class="main-menu text-right">
-									<li><a href="../../getaway.html" onselectstart="return false">Destination</a></li>
+									<li class="active"><a href="../../getaway.html">Destination</a></li>
 									<li>
-										<a onselectstart="return false">Offer</a>
+										<a>Offer</a>
 										<ul class="dropdown2 main-menu2">
 											<div class="row">
-												<li class="col-md-1 dropdown-text"><a href="../../getaway/kolkata/day-out-tab.html" onselectstart="return false">Day Out</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../offer-tab.html" onselectstart="return false">Domestic Offers</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../getaway/0template/offer-temp.html" onselectstart="return false">International Offers</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../getaway/kolkata/day-out-tab.html">Day Out</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../offer-tab.html">Domestic Offers</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../getaway/0template/offer-temp.html">International Offers</a></li>
 											</div>
 										</ul>
 									</li>
-									<li><a onselectstart="return false" href="../../bidnwin.html">Bid & Win</a></li>
-									<li><a onselectstart="return false" href="../../interest.html">Interest</a></li>
-									<li><a onselectstart="return false" href="../../getaway/kolkata/resorts-tab.html">Resort</a></li>
+									<li><a href="../../bidnwin.html">Bid & Win</a></li>
+									<li><a href="../../interest.html">Interest</a></li>
+									<li><a href="../../getaway/kolkata/resorts-tab.html">Resort</a></li>
 									<li>
-										<a onselectstart="return false">Indulge</a>
+										<a>Indulge</a>
 										<ul class="dropdown2 main-menu2">
 											<div class="row">
-												<li class="col-md-1 dropdown-text"><a href="../../bargain-holiday-tab.html" onselectstart="return false">Bargain Holiday</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../surprise-holiday-tab.html" onselectstart="return false">Surprise Holiday</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../sale-tab.html" onselectstart="return false">Holiday Sale</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../bargain-holiday-tab.html">Bargain Holiday</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../surprise-holiday-tab.html">Surprise Holiday</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../sale-tab.html">Holiday Sale</a></li>
 											</div>
 										</ul>
 									</li>
-									<li><a href="../../encircle.html" onselectstart="return false">Encircle</a></li>
-									<li><a onselectstart="return false" href="../../blog.html">Experience</a></li>
+									<li><a href="../../encircle.html">Encircle</a></li>
+									<li><a href="../../blog.html">Experience</a></li>
 									<li>
-										<a onselectstart="return false">Query</a>
+										<a>Query</a>
 										<ul class="dropdown3 main-menu2">
 											<div class="row">
-												<li class="col-md-1 dropdown-text"><a href="../../form-leisure.html" onselectstart="return false">Leisure</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../form-wedding.html" onselectstart="return false">Wedding</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../form-conference.html" onselectstart="return false">Conference</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../form-leisure.html">Leisure</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../form-wedding.html">Wedding</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../form-conference.html">Conference</a></li>
 											</div>
 										</ul>
 									</li>
@@ -168,15 +168,16 @@
 	<!-- header area end here -->
 
 	<section class="breadcrumb-blog-version-one">
-		<div class="single-bredcurms" style="background-image:url('../../images/banners/destoutskirt.webp');">
+		<div class="single-bredcurms" style="background-image:url('../../images/banners/outskirts.webp');">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 col-md-12">
 						<div class="bredcrums-content">
-							<h2>Getaway</h2>
+							<h2>OUTSKIRTS</h2>
 							<ul>
 								<li><a href="../../index.html">Home</a></li>
-								<li class="active"><a href="outskirts-page.html">OUTSKIRTS</a></li>
+								<li class=""><a href="../../getaway.html">Destination</a></li>
+								<li class=""><a href="">CHENNAI</a></li>
 							</ul>
 						</div>
 					</div>
@@ -186,7 +187,12 @@
 				<div class="row bg-gradent">
 					<form id="filter">
 						<div class="form-group">
-							<select class="form-control" id="zone-name">
+							<select class="form-control" id="zone-type">
+								<option hidden>Destination Type</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<select class="form-control" id="destination-name">
 								<option hidden>Destination Name</option>
 							</select>
 						</div>
@@ -203,7 +209,7 @@
 				<div class="col-md-12 col-sm-12">
 					<div class="single-package-details">
 						<div class="section-title-version-2-black" style="text-align:center; margin-bottom:0px;">
-							<h2>Chennai Outskirts</h2>
+							<h2>Chennai</h2>
 							<p style="font-weight: normal;text-align:center">
 								<i>
 									City Outskirts are the perfect hideout if you seek solitude in the quiet and calm. 
@@ -223,1431 +229,1221 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="section-title-version-2-black">
-							<h3>Popular Attractions</h3>
+							<h3>Indulgence</h3>
 						</div>
 					</div>
-				</div>				
-				<div class="destination-slider-active owl-carousel">				
+				</div>
+				<div class="destination-slider-active owl-carousel">
 					<div class="single-destination">
 						<figure>
-							<a href="#"><img src="../../images/homepage/kol_out.webp" alt="">
+							<a href="#"><img src="../../images/out_chennai/indulgence/1.webp" alt="">
 							</a>
 						</figure>
 						<div class="des-city">
-							<a href="outskirts-page.html">Outskirts</a>
-							<h4>Duration</h4>
+							<a href="#">MGM Dizzee World</a>
 						</div>
 					</div> <!-- single popular destination  end-->
 					<div class="single-destination">
 						<figure>
-							<a href="#"><img src="../../images/homepage/kol_mandar.webp" alt="">
+							<a href="#"><img src="../../images/out_chennai/indulgence/2.webp" alt="">
 							</a>
 						</figure>
 						<div class="des-city">
-							<a href="mandarmani.html">Mandarmani</a>
-							<h4>Duration</h4>
+							<a href="#.html">Queens Land</a>
 						</div>
 					</div> <!-- single popular destination  end-->
 					
 					<div class="single-destination">
 						<figure>
-							<a href="#"><img src="../../images/homepage/kol_shanti.webp" alt="">
+							<a href="#"><img src="../../images/out_chennai/indulgence/3.webp" alt="">
 							</a>
 						</figure>
 						<div class="des-city">
-							<a href="shantiniketan.html">Shantiniketan</a>
-							<h4>Duration</h4>
+							<a href="#.html">VGP Universal Kingdom</a>
 						</div>
 					</div> <!-- single popular destination  end-->
 					
 					<div class="single-destination">
 						<figure>
-							<a href="#"><img src="../../images/homepage/kol_sundar.webp" alt="">
+							<a href="#"><img src="../../images/out_chennai/indulgence/4.webp" alt="">
 							</a>
 						</figure>
 						<div class="des-city">
-							<a href="sundarbans.html">Sundarban</a>
-							<h4>Duration</h4>
+							<a href="#.html">VGP Snow Kingdom</a>
+						</div>
+					</div> <!-- single popular destination  end-->
+					
+					<div class="single-destination">
+						<figure>
+							<a href="#"><img src="../../images/out_chennai/indulgence/5.webp" alt="">
+							</a>
+						</figure>
+						<div class="des-city">
+							<a href="#.html">Sky Jumper Trampoline Park</a>
 						</div>
 					</div> <!-- single popular destination  end-->
 				</div>
 			</div>
 			
-			
-			<!-- tabs content -->
-			<h3>Luxury</h3>
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="luxury1" class="carousel slide" >
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#luxury1" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#luxury1" data-slide-to="1" class=""></li>
-										<li data-target="#luxury1" data-slide-to="2" class=""></li>
-										<li data-target="#luxury1" data-slide-to="3" class=""></li>
-										<li data-target="#luxury1" data-slide-to="4" class=""></li>
-									</ol>
+			<div style="margin-top: 25px">
+				<h3>Luxury</h3>
+				<!-- single timeline -->
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt1" class="carousel slide" >
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt1" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt1" data-slide-to="1" class=""></li>
+											<li data-target="#outskirt1" data-slide-to="2" class=""></li>
+										</ol>
 
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-gk/facade1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Facade</div>
-											</a>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_chennai/taj/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Facade</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/taj/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Swimming Pool</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/taj/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-gk/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Swimming Pool</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-gk/lotuspond.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Lotus Pond</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-gk/dining1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">GK Restaurant</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-gk/room1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Deluxe Room</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt1"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt1"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#luxury1"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#luxury1"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								Taj Fisherman's Cove Resort
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 20%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									Taj Fisherman's Cove Resort
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 20%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Resort | Luxury | 149 Rooms
-							</p>
-							<p>
-								Covelong Beach Kancheepuram, Covelong 603112
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Resort | Luxury | Kancheepuram
+								</p>
+								<p>
+									Covelong Beach, Kancheepuram, Covelong 603112
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Infinity Pool">pool</span>
-								<span class="material-icons" title="Gym">fitness_center</span>
-								<span class="material-icons" title="Indoor Games">games</span>
-								<span class="material-icons" title="Spa">spa</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Bar">local_bar</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Infinity Pool">pool</span>
+									<span class="material-icons" title="Gym">fitness_center</span>
+									<span class="material-icons" title="Indoor Games">games</span>
+									<span class="material-icons" title="Spa">spa</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Bar">local_bar</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								The ideal getaway, Raichak on Ganges nestled on the banks of the Hooghly is the perfect blend of nature and luxurious living. Ganga Kutir along with The Ffort Raichak, Anaya Kutir and Anaya Spa by L’occitane are all a part of this world where you can get lost in nature and yourself! 
-							</p>
-
-							<p>Ganga Kutir melds seamlessly with the Gangetic landscape, velvety green decor and exotic native flowers amidst the peaceful and quiet ambience that exudes an aura of sophistication and warmth.
-							</p>
-							<span class="room-rate">Room starts @ <span>&#8377 0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>
+									The resort offers a secluded coastal escape within a historic Dutch fort. Enjoy luxurious cottages and villas with sea breezes and stunning views. The resort features diverse dining options, including Seagull and Bay View, the rejuvenating J Wellness Circle spa and event spaces perfect for any occasion. It welcomes you to a cocoon of relaxation.
+								</p>
+								<span class="room-rate">Room starts @ <span>&#8377 13,500/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://www.tajhotels.com/en-in/hotels/taj-fishermans-cove-chennai?utm_source=Google&utm_medium=Local&utm_campaign=Taj-Fishermans-Cove-Chennai"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- single timeline -->
+				<!-- single timeline -->
 
-			<h3>Premium</h3>
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="luxury2" class="carousel slide" >
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#luxury2" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#luxury2" data-slide-to="1" class=""></li>
-										<li data-target="#luxury2" data-slide-to="2" class=""></li>
-										<li data-target="#luxury2" data-slide-to="3" class=""></li>
-										<li data-target="#luxury2" data-slide-to="4" class=""></li>
-									</ol>
+				<h3>Premium</h3>
+				<!-- single timeline -->
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt2" class="carousel slide">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt2" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt2" data-slide-to="1" class="">
+											</li>
+											<li data-target="#outskirt2" data-slide-to="2" class="">
+											</li>
+										</ol>
 
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-gk/facade1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Facade</div>
-											</a>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_chennai/mgm/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Exterior</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/mgm/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Restaurant</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/mgm/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-gk/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Swimming Pool</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-gk/lotuspond.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Lotus Pond</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-gk/dining1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">GK Restaurant</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-gk/room1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Deluxe Room</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt2"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt2"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#luxury2"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#luxury2"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								MGM Beach Resort
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 20%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									MGM Beach Resort
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 20%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Resort | Premium | 83 Rooms
-							</p>
-							<p>
-								MGM Centre, No: 1, 9th Street, Dr. Radhakrishnan Salai, Mylapore, Chennai 600004
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Resort | Premium | MGM Centre
+								</p>
+								<p>
+									MGM Centre, No: 1, 9th Street, Dr. Radhakrishnan Salai, Mylapore, Chennai 600004
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Infinity Pool">pool</span>
-								<span class="material-icons" title="Gym">fitness_center</span>
-								<span class="material-icons" title="Indoor Games">games</span>
-								<span class="material-icons" title="Spa">spa</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Bar">local_bar</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Swimming Pool">pool</span>
+									<span class="material-icons" title="Gym">fitness_center</span>
+									<span class="material-icons" title="Indoor Games">games</span>
+									<span class="material-icons" title="Spa">spa</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Bar">local_bar</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								The ideal getaway, Raichak on Ganges nestled on the banks of the Hooghly is the perfect blend of nature and luxurious living. Ganga Kutir along with The Ffort Raichak, Anaya Kutir and Anaya Spa by L’occitane are all a part of this world where you can get lost in nature and yourself! 
-							</p>
-
-							<p>Ganga Kutir melds seamlessly with the Gangetic landscape, velvety green decor and exotic native flowers amidst the peaceful and quiet ambience that exudes an aura of sophistication and warmth.
-							</p>
-							<span class="room-rate">Room starts @ <span>&#8377 0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>
+									A serene coastal escape with lush greenery and splendid beaches is what you will find at this resort in Muthukadu. Relish luxurious rooms with modern amenities and garden views. It features a multi-cuisine restaurant, Sea Crest, serving delectable food, and multiple banquet halls for events. It is a haven for relaxation by the Bay of Bengal.
+								</p>
+								<span class="room-rate">Rooms start @ <span>&#8377  7,200/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://www.mgm-hotels.com/mgm-beach-resort-muthukadu-chennai/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- single timeline -->
+				<!-- single timeline -->
 
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="premium1" class="carousel slide" >
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#premium1" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#premium1" data-slide-to="1" class=""></li>
-										<li data-target="#premium1" data-slide-to="2" class=""></li>
-										<li data-target="#premium1" data-slide-to="3" class=""></li>
-										<li data-target="#premium1" data-slide-to="4" class=""></li>
-									</ol>
+				<!-- single timeline -->
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt3" class="carousel slide">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt3" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt3" data-slide-to="1" class="">
+											</li>
+											<li data-target="#outskirt3" data-slide-to="2" class="">
+											</li>
+										</ol>
 
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-gk/facade1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Facade</div>
-											</a>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_chennai/silver/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Facade</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/silver/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Swimming Pool</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/silver/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-gk/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Swimming Pool</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-gk/lotuspond.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Lotus Pond</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-gk/dining1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">GK Restaurant</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-gk/room1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Deluxe Room</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt3"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt3"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#premium1"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#premium1"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								Silver Sand Beach Resort
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 20%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									Silver Sand Beach Resort
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 20%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Boutique | Premium | 8 Rooms
-							</p>
-							<p>
-								MGM Centre, No: 1, 9th Street, Dr. Radhakrishnan Salai, Mylapore, Chennai 600004
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Resort | Premium | Mylapore
+								</p>
+								<p>
+									MGM Centre, No: 1, 9th Street, Dr. Radhakrishnan Salai, Mylapore, Chennai 600004
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Infinity Pool">pool</span>
-								<span class="material-icons" title="Indoor Games">games</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Swimming Pool">pool</span>
+									<span class="material-icons" title="Indoor Games">games</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								The ideal getaway, Raichak on Ganges nestled on the banks of the Hooghly is the perfect blend of nature and luxurious living. Ganga Kutir along with The Ffort Raichak, Anaya Kutir and Anaya Spa by L’occitane are all a part of this world where you can get lost in nature and yourself! 
-							</p>
+								<p>
+									An urban retreat then that is the perfect fusion of nature and luxury, The Amaya Resort with its avant-garde architecture, verdant gardens, contemporary dining scene and multifarious activities is ideal to break away from the chaos of the city and indulge in yourself. 
+								</p>
 
-							<p>Ganga Kutir melds seamlessly with the Gangetic landscape, velvety green decor and exotic native flowers amidst the peaceful and quiet ambience that exudes an aura of sophistication and warmth.
-							</p>
-							<span class="room-rate">Room starts @ <span>&#8377 0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>Its lavish spa relieves you of stress and imbues the atmosphere with the tranquillity that you seek while its multi-cuisine restaurants proffer you an assortment of delicacies from the world over to keep you relaxed and sated.
+								</p>
+								<span class="room-rate">Rooms start @ <span>&#8377  0,000/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://www.silversandsindia.in/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- single timeline -->
+				<!-- single timeline -->
 
-			<h3>Standard</h3>
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="standard1" class="carousel slide">
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#standard1" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#standard1" data-slide-to="1" class="">
-										</li>
-										<li data-target="#standard1" data-slide-to="2" class="">
-										</li>
-										<li data-target="#standard1" data-slide-to="3" class="">
-										</li>
-										<li data-target="#standard1" data-slide-to="4" class="">
-										</li>
-									</ol>
+				<h3>Standard</h3>
+				<!-- single timeline -->
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt4" class="carousel slide">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt4" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt4" data-slide-to="1" class="">
+											</li>
+											<li data-target="#outskirt4" data-slide-to="2" class="">
+											</li>
+										</ol>
 
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-amaya/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Pool View</div>
-											</a>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_chennai/jade/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Swimming Pool</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/jade/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Restaurant</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/jade/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-amaya/dining_viva.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Viva Restaurant & Bar</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_juniorsuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Junior Suite Room</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_poolaccess.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite pool access</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_executivesuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt4"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt4"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#standard1"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#standard1"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								Country Club Jade Beach Resort
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 28.5%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									Country Club Jade Beach Resort
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 28.5%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Resort | Standard | 32 Rooms
-							</p>
-							<p>
-								107/211/B, ECR Road, Near Crocodile Bank Vadanemmeli Village, Kelambakkam 603104 
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Resort | Standard | ECR Road
+								</p>
+								<p>
+									107/211/B, ECR Road, Near Crocodile Bank Vadanemmeli Village, Kelambakkam 603104 
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Swimming Pool">pool</span>
-								<span class="material-icons" title="Indoor Games">games</span>
-								<span class="material-icons" title="Spa">spa</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Bar">local_bar</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Swimming Pool">pool</span>
+									<span class="material-icons" title="Indoor Games">games</span>
+									<span class="material-icons" title="Spa">spa</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Bar">local_bar</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								An urban retreat then that is the perfect fusion of nature and luxury, The Amaya Resort with its avant-garde architecture, verdant gardens, contemporary dining scene and multifarious activities is ideal to break away from the chaos of the city and indulge in yourself. 
-							</p>
+								<p>
+									Designed to give the look and feel of a heritage fort, The Ffort Raichak will compel you to indulge in a world that integrates nature and history in an extravagant escape to transcend into the extraordinary. 
+								</p>
 
-							<p>Its lavish spa relieves you of stress and imbues the atmosphere with the tranquillity that you seek while its multi-cuisine restaurants proffer you an assortment of delicacies from the world over to keep you relaxed and sated.
-							</p>
-							<span class="room-rate">Rooms start @ <span>&#8377  0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>The ancient fort, riverside club, lively discotheque, luxurious spa and glamorous restaurants accompanied by an impressive view of the Ganges are a welcome change from the usual. Enjoy the pool, the splendid sunsets and luxurious living in the magnificent citadel as you dive in to find yourself in nature!
+								</p>
+								<span class="room-rate">Rooms start @ <span>&#8377  2,999/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://www.facebook.com/jaderesorts/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- single timeline -->
+				<!-- single timeline -->
 
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="standard2" class="carousel slide">
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#standard2" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#standard2" data-slide-to="1" class="">
-										</li>
-										<li data-target="#standard2" data-slide-to="2" class="">
-										</li>
-										<li data-target="#standard2" data-slide-to="3" class="">
-										</li>
-										<li data-target="#standard2" data-slide-to="4" class="">
-										</li>
-									</ol>
+				<!-- single timeline -->
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt5" class="carousel slide">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt5" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt5" data-slide-to="1" class="">
+											</li>
+											<li data-target="#outskirt5" data-slide-to="2" class="">
+											</li>
+										</ol>
 
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-amaya/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Pool View</div>
-											</a>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_chennai/ilara/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Facade</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/ilara/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Restaurant</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/ilara/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-amaya/dining_viva.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Viva Restaurant & Bar</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_juniorsuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Junior Suite Room</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_poolaccess.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite pool access</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_executivesuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt5"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt5"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#standard2"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#standard2"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								Ilara Hotel & Spa
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 9%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									Ilara Hotel & Spa
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 9%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Resort | Standard | 40 Rooms
-							</p>
-							<p>
-								1A, 1B, 1/13, Rajiv Gandhi Salai, OMR, Navalur, Tamil Nadu 603103
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Resort | Standard | OMR
+								</p>
+								<p>
+									1A, 1B, 1/13, Rajiv Gandhi Salai, OMR, Navalur, Tamil Nadu 603103
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Swimming Pool">pool</span>
-								<span class="material-icons" title="Indoor Games">games</span>
-								<span class="material-icons" title="Spa">spa</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Bar">local_bar</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Swimming Pool">pool</span>
+									<span class="material-icons" title="Indoor Games">games</span>
+									<span class="material-icons" title="Spa">spa</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Bar">local_bar</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								An urban retreat then that is the perfect fusion of nature and luxury, The Amaya Resort with its avant-garde architecture, verdant gardens, contemporary dining scene and multifarious activities is ideal to break away from the chaos of the city and indulge in yourself. 
-							</p>
-
-							<p>Its lavish spa relieves you of stress and imbues the atmosphere with the tranquillity that you seek while its multi-cuisine restaurants proffer you an assortment of delicacies from the world over to keep you relaxed and sated.
-							</p>
-							<span class="room-rate">Rooms start @ <span>&#8377  0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>
+									Ilara Hotel & Spa offers luxurious accommodations with modern amenities, a spa, a rooftop pool, and a fine dining restaurant. You can unwind with wellness treatments, enjoy panoramic city views, and relax in stylish, comfortable rooms. Its prime location and top-notch facilities make it an ideal choice for comfort and relaxation.
+								</p>
+								<span class="room-rate">Rooms start @ <span>&#8377  7,000/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://ilarahotels.com/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- single timeline -->
+				<!-- single timeline -->
+				
+				<!-- single timeline -->
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt6" class="carousel slide">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt6" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt6" data-slide-to="1" class="">
+											</li>
+											<li data-target="#outskirt6" data-slide-to="2" class="">
+											</li>
+										</ol>
 
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="standard3" class="carousel slide">
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#standard3" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#standard3" data-slide-to="1" class="">
-										</li>
-										<li data-target="#standard3" data-slide-to="2" class="">
-										</li>
-										<li data-target="#standard3" data-slide-to="3" class="">
-										</li>
-										<li data-target="#standard3" data-slide-to="4" class="">
-										</li>
-									</ol>
-
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-amaya/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Pool View</div>
-											</a>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_chennai/park/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Facade</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/park/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Swimming Pool</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/park/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-amaya/dining_viva.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Viva Restaurant & Bar</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_juniorsuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Junior Suite Room</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_poolaccess.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite pool access</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_executivesuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt6"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt6"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#standard3"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#standard3"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								Park Inn Beach Resort
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 28.5%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									Park Inn Beach Resort
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 28.5%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Resort | Standard | 25 Rooms
-							</p>
-							<p>
-								2/226, Chinnandikuppam Road Vettuvankeni, Chennai (Madras) 600041
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Resort | Standard | Vettuvankeni
+								</p>
+								<p>
+									2/226, Chinnandikuppam Road Vettuvankeni, Chennai (Madras) 600041
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Swimming Pool">pool</span>
-								<span class="material-icons" title="Gym">fitness_center</span>
-								<span class="material-icons" title="Indoor Games">games</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Bar">local_bar</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Swimming Pool">pool</span>
+									<span class="material-icons" title="Gym">fitness_center</span>
+									<span class="material-icons" title="Indoor Games">games</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Bar">local_bar</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								An urban retreat then that is the perfect fusion of nature and luxury, The Amaya Resort with its avant-garde architecture, verdant gardens, contemporary dining scene and multifarious activities is ideal to break away from the chaos of the city and indulge in yourself. 
-							</p>
-
-							<p>Its lavish spa relieves you of stress and imbues the atmosphere with the tranquillity that you seek while its multi-cuisine restaurants proffer you an assortment of delicacies from the world over to keep you relaxed and sated.
-							</p>
-							<span class="room-rate">Rooms start @ <span>&#8377  0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>
+									Park Inn Beach Resort offers a beachfront escape with cozy rooms, an inviting swimming pool, and direct beach access. Guests can savour delicious meals at the on-site restaurant and enjoy outdoor activities like volleyball and beach games. Its convenient location and modern amenities make it the perfect seaside retreat.
+								</p>
+								<span class="room-rate">Rooms start @ <span>&#8377  3,500/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://www.parkinnbeachresort.com/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- single timeline -->
+				<!-- single timeline -->
+				
+				<!-- single timeline -->
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt7" class="carousel slide">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt7" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt7" data-slide-to="1" class="">
+											</li>
+											<li data-target="#outskirt7" data-slide-to="2" class="">
+											</li>
+										</ol>
 
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="standard4" class="carousel slide">
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#standard4" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#standard4" data-slide-to="1" class="">
-										</li>
-										<li data-target="#standard4" data-slide-to="2" class="">
-										</li>
-										<li data-target="#standard4" data-slide-to="3" class="">
-										</li>
-										<li data-target="#standard4" data-slide-to="4" class="">
-										</li>
-									</ol>
-
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-amaya/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Pool View</div>
-											</a>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_chennai/pleasant/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Restaurant</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/pleasant/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Swimming Pool</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/pleasant/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-amaya/dining_viva.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Viva Restaurant & Bar</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_juniorsuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Junior Suite Room</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_poolaccess.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite pool access</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_executivesuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt7"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt7"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#standard4"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#standard4"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								Pleasant Days Resort
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 20%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									Pleasant Days Resort
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 28.5%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Resort | Standard | 100 Rooms
-							</p>
-							<p>
-								Chennai Bangalore Highway Palanjur, Sembarambakkam, Chennai (Madras) 600 123
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Resort | Standard | Sembarambakkam
+								</p>
+								<p>
+									Chennai Bangalore Highway Palanjur, Sembarambakkam, Chennai (Madras) 600 123
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Swimming Pool">pool</span>
-								<span class="material-icons" title="Gym">fitness_center</span>
-								<span class="material-icons" title="Indoor Games">games</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Bar">local_bar</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Swimming Pool">pool</span>
+									<span class="material-icons" title="Gym">fitness_center</span>
+									<span class="material-icons" title="Indoor Games">games</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Bar">local_bar</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								An urban retreat then that is the perfect fusion of nature and luxury, The Amaya Resort with its avant-garde architecture, verdant gardens, contemporary dining scene and multifarious activities is ideal to break away from the chaos of the city and indulge in yourself. 
-							</p>
-
-							<p>Its lavish spa relieves you of stress and imbues the atmosphere with the tranquillity that you seek while its multi-cuisine restaurants proffer you an assortment of delicacies from the world over to keep you relaxed and sated.
-							</p>
-							<span class="room-rate">Rooms start @ <span>&#8377  0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>
+									Experience the luxury in tranquillity! Pleasant Days Resort lures you into an exotic panorama of breathtaking space with luxurious rooms and suites. You can savour international cuisines, a serene pool, and lush gardens. Each room ensures modern comfort. Ze Flavors and Cuppa Zeppole offer a diverse culinary experience, making it an ideal oasis.
+								</p>
+								<span class="room-rate">Rooms start @ <span>&#8377  6,000/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://www.pleasantdays.in/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- single timeline -->
+				<!-- single timeline -->
+				
+				<!-- single timeline -->
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt8" class="carousel slide">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt8" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt8" data-slide-to="1" class="">
+											</li>
+											<li data-target="#outskirt8" data-slide-to="2" class="">
+											</li>
+										</ol>
 
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="standard5" class="carousel slide">
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#standard5" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#standard5" data-slide-to="1" class="">
-										</li>
-										<li data-target="#standard5" data-slide-to="2" class="">
-										</li>
-										<li data-target="#standard5" data-slide-to="3" class="">
-										</li>
-										<li data-target="#standard5" data-slide-to="4" class="">
-										</li>
-									</ol>
-
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-amaya/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Pool View</div>
-											</a>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_chennai/green/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Overview</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/green/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Swimming Pool</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/green/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-amaya/dining_viva.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Viva Restaurant & Bar</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_juniorsuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Junior Suite Room</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_poolaccess.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite pool access</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_executivesuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt8"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt8"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#standard5"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#standard5"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								The Green Coconut Resort
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 40%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									The Green Coconut Resort
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 40%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Resort | Standard | 71 Rooms
-							</p>
-							<p>
-								58/1 E Coast Rd, Kanchipuram 603112
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Resort | Standard | E Coast Rd
+								</p>
+								<p>
+									58/1 E Coast Rd, Kanchipuram 603112
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Swimming Pool">pool</span>
-								<span class="material-icons" title="Gym">fitness_center</span>
-								<span class="material-icons" title="Indoor Games">games</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Bar">local_bar</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Swimming Pool">pool</span>
+									<span class="material-icons" title="Indoor Games">games</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Bar">local_bar</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								An urban retreat then that is the perfect fusion of nature and luxury, The Amaya Resort with its avant-garde architecture, verdant gardens, contemporary dining scene and multifarious activities is ideal to break away from the chaos of the city and indulge in yourself. 
-							</p>
-
-							<p>Its lavish spa relieves you of stress and imbues the atmosphere with the tranquillity that you seek while its multi-cuisine restaurants proffer you an assortment of delicacies from the world over to keep you relaxed and sated.
-							</p>
-							<span class="room-rate">Rooms start @ <span>&#8377  0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>
+									The resort provides a serene getaway with comfortable accommodations, lush gardens, and a tranquil ambience. You can relax by the pool, indulge in delicious cuisine at the restaurant, and enjoy outdoor games like volleyball and badminton. With its scenic surroundings and attentive service, it offers a perfect blend of relaxation and recreation.
+								</p>
+								<span class="room-rate">Rooms start @ <span>&#8377  6,124/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://www.greencoconutresort.net/accommadation.html"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- single timeline -->
-			
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="standard6" class="carousel slide">
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#standard6" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#standard6" data-slide-to="1" class="">
-										</li>
-										<li data-target="#standard6" data-slide-to="2" class="">
-										</li>
-										<li data-target="#standard6" data-slide-to="3" class="">
-										</li>
-										<li data-target="#standard6" data-slide-to="4" class="">
-										</li>
-									</ol>
+				<!-- single timeline -->
+				
+				<!-- single timeline -->
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt9" class="carousel slide">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt9" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt9" data-slide-to="1" class="">
+											</li>
+											<li data-target="#outskirt9" data-slide-to="2" class="">
+											</li>
+										</ol>
 
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-amaya/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Pool View</div>
-											</a>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_chennai/vgp/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Facade</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/vgp/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Exterior</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/vgp/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-amaya/dining_viva.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Viva Restaurant & Bar</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_juniorsuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Junior Suite Room</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_poolaccess.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite pool access</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_executivesuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt9"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt9"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#standard6"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#standard6"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								VGP Golden Beach Resort
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 40%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									VGP Golden Beach Resort
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 40%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Resort | Standard | 44 Rooms
-							</p>
-							<p>
-								5/159 East Coast Road Injambakkam, Chennai (Madras) 600119
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Resort | Standard | Injambakkam
+								</p>
+								<p>
+									5/159 East Coast Road Injambakkam, Chennai (Madras) 600119
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Swimming Pool">pool</span>
-								<span class="material-icons" title="Gym">fitness_center</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Bar">local_bar</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Swimming Pool">pool</span>
+									<span class="material-icons" title="Gym">fitness_center</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Bar">local_bar</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								An urban retreat then that is the perfect fusion of nature and luxury, The Amaya Resort with its avant-garde architecture, verdant gardens, contemporary dining scene and multifarious activities is ideal to break away from the chaos of the city and indulge in yourself. 
-							</p>
-
-							<p>Its lavish spa relieves you of stress and imbues the atmosphere with the tranquillity that you seek while its multi-cuisine restaurants proffer you an assortment of delicacies from the world over to keep you relaxed and sated.
-							</p>
-							<span class="room-rate">Rooms start @ <span>&#8377  0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>
+									The resort offers a delightful beachfront experience with comfortable accommodations, beach access, and water sports. Guests can revel in themed dining options, a swimming pool, and recreational activities like mini-golf and amusement park rides. With its scenic location and attractions, it's perfect for tourists seeking a fun-filled retreat by the sea.
+								</p>
+								<span class="room-rate">Rooms start @ <span>&#8377  4,999/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://www.vgpgoldenbeachresort.co.in/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- single timeline -->
+				<!-- single timeline -->
 
-			<h3>Economy</h3>
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="economy1" class="carousel slide">
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#economy1" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#economy1" data-slide-to="1" class="">
-										</li>
-										<li data-target="#economy1" data-slide-to="2" class="">
-										</li>
-										<li data-target="#economy1" data-slide-to="3" class="">
-										</li>
-										<li data-target="#economy1" data-slide-to="4" class="">
-										</li>
-									</ol>
+				<h3>Economy</h3>
+				<!-- single timeline -->
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt10" class="carousel slide">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt10" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt10" data-slide-to="1" class="">
+											</li>
+											<li data-target="#outskirt10" data-slide-to="2" class="">
+											</li>
+										</ol>
 
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-amaya/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Pool View</div>
-											</a>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_chennai/meadows/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Pool View</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/meadows/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Restaurant</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_chennai/meadows/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-amaya/dining_viva.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Viva Restaurant & Bar</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_juniorsuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Junior Suite Room</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_poolaccess.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite pool access</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_executivesuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt10"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt10"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#economy1"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#economy1"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								Green Meadows Resort
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 20%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									Green Meadows Resort
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 20%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Resort | Economy | 22 Rooms
-							</p>
-							<p>
-								4 364 Anna Salai Road Palavakkam, Chennai (Madras) 600041
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Resort | Economy | Palavakkam
+								</p>
+								<p>
+									4 364 Anna Salai Road Palavakkam, Chennai (Madras) 600041
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Swimming Pool">pool</span>
-								<span class="material-icons" title="Gym">fitness_center</span>
-								<span class="material-icons" title="Indoor Games">games</span>
-								<span class="material-icons" title="Spa">spa</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Bar">local_bar</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Swimming Pool">pool</span>
+									<span class="material-icons" title="Gym">fitness_center</span>
+									<span class="material-icons" title="Indoor Games">games</span>
+									<span class="material-icons" title="Spa">spa</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Bar">local_bar</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								An urban retreat then that is the perfect fusion of nature and luxury, The Amaya Resort with its avant-garde architecture, verdant gardens, contemporary dining scene and multifarious activities is ideal to break away from the chaos of the city and indulge in yourself. 
-							</p>
-
-							<p>Its lavish spa relieves you of stress and imbues the atmosphere with the tranquillity that you seek while its multi-cuisine restaurants proffer you an assortment of delicacies from the world over to keep you relaxed and sated.
-							</p>
-							<span class="room-rate">Rooms start @ <span>&#8377  0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>
+									Green Meadows Resorts on Chennai’s East Coast Road offers a blend of traditional charm and modern amenities. It features aesthetic rooms, spacious banquet halls, a sprawling lawn for events, a global cuisine restaurant, and a cocktail bar, making it an ideal hub for both corporate gatherings and private getaways.
+								</p>
+								<span class="room-rate">Rooms start @ <span>&#8377  7,400/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://greenmeadowsresort.com/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<!-- single timeline -->
 			</div>
-			<!-- single timeline -->
 		</div>
 	</section>
 	<!-- single popular destination  end-->
 
 
-	
-
-	<section class="faq-section turnoff">
+	<section class="related-tour section-paddings popular-packages destination-bg" style="padding-top: 0;">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<div class="section-title-version-2-black">
-						<h3>FAQs</h3>
+					<div class="section-title-3 mbt-100 related-title">
+						<span style="font-size: 24px;">Other Attractions</span>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab" id="headingOne">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-									<span class="mdi mdi-magnify"></span>
-									What is TravelTriangle?
-									<i class="accordion_icon " style="float:right" aria-hidden="true"></i>
-								</a>
-							</h4>
+				<!-- single package start -->
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_chennai/attraction/1.webp"
+									alt="">
+							</a>
 						</div>
-						<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-							<div class="panel-body">
-								TravelTriangle is India’s leading online travel marketplace bringing both the travelers, and trusted
-								&amp; expert travel agents on a common platform. While several other established players in the market
-								have been offering holiday packages, what makes TravelTriangle stand out from the crowd is that it is
-								the only platform which solves the complexity of holiday planning through technology and expertise. On
-								receiving the holiday request, multiple expert travel agents first understand the traveler needs in
-								detail and then provide quote listing the itinerary and price. Each travel agent is personally and
-								methodically verified by us. Their ratings and traveler reviews are also shared with the traveler, so
-								that transparency is maintained. Further, we let the traveler compare the multiple quotes and figure out
-								the best option for himself/herself. The traveler then has the option to customize the holiday package
-								the way he/she wants through call or message on the dashboard itself. We manage the entire fulfilment
-								process ensuring the traveler gets what he/she has been promised. We offer great value prices coupled
-								with convenient payment solutions, such as EMIs and partial payment on arrival.
-							</div>
+						<div class="package-content">
+							<h3>Guindy National Park</h3>
+							<p>An oasis of diverse wildlife, serene trails, and children's park in an urban setting.
+							</p>
 						</div>
 					</div>
-					<div class="panel panel-default" style="border-bottom: 1px solid #e4e4e4;">
-						<div class="panel-heading" role="tab" id="heading2">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true"
-									aria-controls="collapse2">
-									<span class="mdi mdi-magnify"></span>
-									What is TravelTriangle?
-									<i class="accordion_icon " style="float:right" aria-hidden="true"></i>
-								</a>
-							</h4>
+				</div><!-- single package end -->
+
+				<!-- single package start -->
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_chennai/attraction/2.webp"
+									alt="">
+							</a>
 						</div>
-						<div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-							<div class="panel-body">
-								TravelTriangle is India’s leading online travel marketplace bringing both the travelers, and trusted
-								&amp; expert travel agents on a common platform. While several other established players in the market
-								have been offering holiday packages, what makes TravelTriangle stand out from the crowd is that it is
-								the only platform which solves the complexity of holiday planning through technology and expertise. On
-								receiving the holiday request, multiple expert travel agents first understand the traveler needs in
-								detail and then provide quote listing the itinerary and price. Each travel agent is personally and
-								methodically verified by us. Their ratings and traveler reviews are also shared with the traveler, so
-								that transparency is maintained. Further, we let the traveler compare the multiple quotes and figure out
-								the best option for himself/herself. The traveler then has the option to customize the holiday package
-								the way he/she wants through call or message on the dashboard itself. We manage the entire fulfilment
-								process ensuring the traveler gets what he/she has been promised. We offer great value prices coupled
-								with convenient payment solutions, such as EMIs and partial payment on arrival.
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default" style="border-bottom: 1px solid #e4e4e4;">
-						<div class="panel-heading" role="tab" id="heading3">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true"
-									aria-controls="collapse3">
-									<span class="mdi mdi-magnify"></span>
-									What is TravelTriangle?
-									<i class="accordion_icon " style="float:right" aria-hidden="true"></i>
-								</a>
-							</h4>
-						</div>
-						<div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-							<div class="panel-body">
-								TravelTriangle is India’s leading online travel marketplace bringing both the travelers, and trusted
-								&amp; expert travel agents on a common platform. While several other established players in the market
-								have been offering holiday packages, what makes TravelTriangle stand out from the crowd is that it is
-								the only platform which solves the complexity of holiday planning through technology and expertise. On
-								receiving the holiday request, multiple expert travel agents first understand the traveler needs in
-								detail and then provide quote listing the itinerary and price. Each travel agent is personally and
-								methodically verified by us. Their ratings and traveler reviews are also shared with the traveler, so
-								that transparency is maintained. Further, we let the traveler compare the multiple quotes and figure out
-								the best option for himself/herself. The traveler then has the option to customize the holiday package
-								the way he/she wants through call or message on the dashboard itself. We manage the entire fulfilment
-								process ensuring the traveler gets what he/she has been promised. We offer great value prices coupled
-								with convenient payment solutions, such as EMIs and partial payment on arrival.
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default" style="border-bottom: 1px solid #e4e4e4;">
-						<div class="panel-heading" role="tab" id="heading4">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true"
-									aria-controls="collapse4">
-									<span class="mdi mdi-magnify"></span>
-									What is TravelTriangle?
-									<i class="accordion_icon " style="float:right" aria-hidden="true"></i>
-								</a>
-							</h4>
-						</div>
-						<div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
-							<div class="panel-body">
-								TravelTriangle is India’s leading online travel marketplace bringing both the travelers, and trusted
-								&amp; expert travel agents on a common platform. While several other established players in the market
-								have been offering holiday packages, what makes TravelTriangle stand out from the crowd is that it is
-								the only platform which solves the complexity of holiday planning through technology and expertise. On
-								receiving the holiday request, multiple expert travel agents first understand the traveler needs in
-								detail and then provide quote listing the itinerary and price. Each travel agent is personally and
-								methodically verified by us. Their ratings and traveler reviews are also shared with the traveler, so
-								that transparency is maintained. Further, we let the traveler compare the multiple quotes and figure out
-								the best option for himself/herself. The traveler then has the option to customize the holiday package
-								the way he/she wants through call or message on the dashboard itself. We manage the entire fulfilment
-								process ensuring the traveler gets what he/she has been promised. We offer great value prices coupled
-								with convenient payment solutions, such as EMIs and partial payment on arrival.
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default" style="border-bottom: 1px solid #e4e4e4;">
-						<div class="panel-heading" role="tab" id="heading5">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true"
-									aria-controls="collapse5">
-									<span class="mdi mdi-magnify"></span>
-									What is TravelTriangle?
-									<i class="accordion_icon " style="float:right" aria-hidden="true"></i>
-								</a>
-							</h4>
-						</div>
-						<div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
-							<div class="panel-body">
-								TravelTriangle is India’s leading online travel marketplace bringing both the travelers, and trusted
-								&amp; expert travel agents on a common platform. While several other established players in the market
-								have been offering holiday packages, what makes TravelTriangle stand out from the crowd is that it is
-								the only platform which solves the complexity of holiday planning through technology and expertise. On
-								receiving the holiday request, multiple expert travel agents first understand the traveler needs in
-								detail and then provide quote listing the itinerary and price. Each travel agent is personally and
-								methodically verified by us. Their ratings and traveler reviews are also shared with the traveler, so
-								that transparency is maintained. Further, we let the traveler compare the multiple quotes and figure out
-								the best option for himself/herself. The traveler then has the option to customize the holiday package
-								the way he/she wants through call or message on the dashboard itself. We manage the entire fulfilment
-								process ensuring the traveler gets what he/she has been promised. We offer great value prices coupled
-								with convenient payment solutions, such as EMIs and partial payment on arrival.
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default" style="border-bottom: 1px solid #e4e4e4;">
-						<div class="panel-heading" role="tab" id="heading6">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="true"
-									aria-controls="collapse6">
-									<span class="mdi mdi-magnify"></span>
-									What is TravelTriangle?
-									<i class="accordion_icon " style="float:right" aria-hidden="true"></i>
-								</a>
-							</h4>
-						</div>
-						<div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
-							<div class="panel-body">
-								TravelTriangle is India’s leading online travel marketplace bringing both the travelers, and trusted
-								&amp; expert travel agents on a common platform. While several other established players in the market
-								have been offering holiday packages, what makes TravelTriangle stand out from the crowd is that it is
-								the only platform which solves the complexity of holiday planning through technology and expertise. On
-								receiving the holiday request, multiple expert travel agents first understand the traveler needs in
-								detail and then provide quote listing the itinerary and price. Each travel agent is personally and
-								methodically verified by us. Their ratings and traveler reviews are also shared with the traveler, so
-								that transparency is maintained. Further, we let the traveler compare the multiple quotes and figure out
-								the best option for himself/herself. The traveler then has the option to customize the holiday package
-								the way he/she wants through call or message on the dashboard itself. We manage the entire fulfilment
-								process ensuring the traveler gets what he/she has been promised. We offer great value prices coupled
-								with convenient payment solutions, such as EMIs and partial payment on arrival.
-							</div>
+						<div class="package-content">
+							<h3>Arignar Anna Zoological Park</h3>
+							<p>With an offering of safaris, nature walks, and diverse fauna, this is one of India's largest zoos.
+							</p>
 						</div>
 					</div>
 				</div>
+				<!--End single package -->
+
+				<!-- single package start -->
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_chennai/attraction/3.webp"
+									alt="">
+							</a>
+						</div>
+						<div class="package-content">
+							<h3>Marina Beach</h3>
+								<p>Golden sands, bustling stalls and stunning sunrises, this is India’s longest urban beach.
+								</p>
+						</div>
+					</div>
+				</div><!-- single package end -->
 			</div>
-		</div>	
-	</section>
 
-	
-
-	<section class="faq-section destination-bg">
-		<div class="container">
 			<div class="row">
-				<div class="col-sm-12">
-					<div class="section-title-version-2-black">
-						<h3>Other Attractions</h3>
+				<!-- single package start -->
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_chennai/attraction/4.webp"
+									alt="">
+							</a>
+						</div>
+						<div class="package-content">
+							<h3>Elliot’s Beach (Besant Nagar Beach)</h3>
+							<p>Savour the sea breeze and evening walks at this tranquil beach.
+							</p>
+						</div>
+					</div>
+				</div><!-- single package end -->
+
+				<!-- single package start -->
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_chennai/attraction/5.webp"
+									alt="">
+							</a>
+						</div>
+						<div class="package-content">
+							<h3>Fort St. George</h3>
+								<p>A heritage of the British colonial past with a museum, church, and government buildings.
+								</p>
+						</div>
 					</div>
 				</div>
+				<!--End single package -->
+
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_chennai/attraction/6.webp"
+									alt="">
+							</a>
+						</div>
+						<div class="package-content">
+							<h3>Government Museum</h3>
+							<p>A trove of extensive art collections, and a exhibition of archaeology & natural history.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!--End single package -->
 			</div>
-		</div>	
-		<div class="container">
-			<div class="destination-slider-active owl-carousel">
-				<div class="single-destination">
-					<figure>
-						<a href="#"><img src="../../images/homepage/kol_digha.webp" alt="">
-						</a>
-					</figure>
-					<div class="des-city">
-						<a href="digha.html">Digha</a>
-						<h4>Properties</h4>
+
+			<div class="row">
+				<!-- single package start -->
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_chennai/attraction/7.webp"
+									alt="">
+							</a>
+						</div>
+						<div class="package-content">
+							<h3>Kapaleeshwarar Temple</h3>
+							<p>A temple with an exquisite gopuram designed in the Dravidian-style and dedicated to Lord Shiva. 
+							</p>
+						</div>
 					</div>
-				</div> <!-- single popular destination  end-->
+				</div>
+				<!--End single package -->
 				
-				<div class="single-destination">
-					<figure>
-						<a href="#"><img src="../../images/homepage/kol_mandar.webp" alt="">
-						</a>
-					</figure>
-					<div class="des-city">
-						<a href="mandarmani.html">Mandarmani</a>
-						<h4>Properties</h4>
+				<!-- single package start -->
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_chennai/attraction/8.webp"
+									alt="">
+							</a>
+						</div>
+						<div class="package-content">
+							<h3>Santhome Cathedral and Basilica</h3>
+							<p>A sacred pilgrimage site, a Gothic-style church built over the tomb of St. Thomas.
+							</p>
+						</div>
 					</div>
-				</div> <!-- single popular destination  end-->
+				</div><!-- single package end -->
+
 				
-				<div class="single-destination">
-					<figure>
-						<a href="#"><img src="../../images/homepage/kol_shanti.webp" alt="">
-						</a>
-					</figure>
-					<div class="des-city">
-						<a href="shantiniketan.html">Shantiniketan</a>
-						<h4>Properties</h4>
+
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_chennai/attraction/9.webp"
+									alt="">
+							</a>
+						</div>
+						<div class="package-content">
+							<h3>Vivekananda House</h3>
+							<p>The dwelling of Swami Vivekananda, now a museum dedicated to his life and teachings.
+							</p>
+						</div>
 					</div>
-				</div> <!-- single popular destination  end-->
-				
-				<div class="single-destination">
-					<figure>
-						<a href="#"><img src="../../images/homepage/kol_sundar.webp" alt="">
-						</a>
-					</figure>
-					<div class="des-city">
-						<a href="sundarbans.html">Sundarban</a>
-						<h4>Properties</h4>
+				</div>
+				<!--End single package -->
+			</div>
+
+			<div class="row">
+				<!-- single package start -->
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_chennai/attraction/10.webp"
+									alt="">
+							</a>
+						</div>
+						<div class="package-content">
+							<h3>Dakshina Chitra</h3>
+							<p>A montage of South Indian heritage displaying traditional homes, crafts, and cultural exhibits.
+							</p>
+						</div>
 					</div>
-				</div> <!-- single popular destination  end-->
+				</div>
+				<!--End single package -->
 			</div>
 		</div>
 	</section>
 
-	<section class="blog-contents-version-one destination-bg faq-section">
+	<section class="section-margins blog-contents-version-one destination-bg faq-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -1663,63 +1459,19 @@
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<div class="single-travel-blog">
 						<div class="blog-image">
-							<a href="#"><img src="https://placeholder.co/360x265" alt="">
+							<a href="https://blog.kkavionholidayworld.com/how-to-spend-a-day-out-in-chennai/#:~:text=How%20to%20spend%20a%20day%20out%20in%20Chennai"><img src="../../images/blog/outskirts_chennai.webp" alt="">
 							</a>
 						</div>
 						<div class="blog-content">
 							<div class="blog-meta">
 								<div class="post-date">
-									<a href="#"><span>12 July, 2018</span></a>
+									<a href="#"><span>9 October, 2024</span></a>
 								</div>
 							</div>
 							<div class="blog-post-content">
-								<a href="#"><h4>Tips for taking a long-term trip with kids.</h4></a>
-								<p>Lorem ipsum dolor sit amet consepctetur adipiscing elit Etiam at ipsum at ligula vestibulum sodales Sed luctus.</p>
-								<a href="../../blogpost/blog-one.html">Read More <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div><!-- single travel guide & security end-->
-	
-				<!-- single travel blog-->
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="single-travel-blog">
-						<div class="blog-image">
-							<a href="#"><img src="https://placeholder.co/360x265" alt="">
-							</a>
-						</div>
-						<div class="blog-content">
-							<div class="blog-meta">
-								<div class="post-date">
-									<a href="#"><span>12 July, 2018</span></a>
-								</div>
-							</div>
-							<div class="blog-post-content">
-								<a href="#"><h4>Tips for taking a long-term trip with kids.</h4></a>
-								<p>Lorem ipsum dolor sit amet consepctetur adipiscing elit Etiam at ipsum at ligula vestibulum sodales Sed luctus.</p>
-								<a href="../../blogpost/blog-one.html">Read More <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div><!-- single travel guide & security end-->
-	
-				<!-- single travel blog-->
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="single-travel-blog">
-						<div class="blog-image">
-							<a href="#"><img src="https://placeholder.co/360x265" alt="">
-							</a>
-						</div>
-						<div class="blog-content">
-							<div class="blog-meta">
-								<div class="post-date">
-									<a href="#"><span>12 July, 2018</span></a>
-								</div>
-							</div>
-							<div class="blog-post-content">
-								<a href="#"><h4>Tips for taking a long-term trip with kids.</h4></a>
-								<p>Lorem ipsum dolor sit amet consepctetur adipiscing elit Etiam at ipsum at ligula vestibulum sodales Sed luctus.</p>
-								<a href="../../blogpost/blog-one.html">Read More <i class="fa fa-angle-right"></i></a>
+								<a href="#"><h4>How to spend a day out in Chennai</h4></a>
+								<p>Spending the day on the outskirts of Chennai mixes beach pleasure, cultural exploration, and wildlife. Begin your day...</p>
+								<a href="https://blog.kkavionholidayworld.com/how-to-spend-a-day-out-in-chennai/#:~:text=How%20to%20spend%20a%20day%20out%20in%20Chennai">Read More <i class="fa fa-angle-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -1728,7 +1480,7 @@
 		</div>
 	</section>
 
-	<section class="faq-section destination-bg">
+	<section class="section-margins faq-section destination-bg">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -1742,51 +1494,39 @@
 			<div class="destination-slider-active owl-carousel">
 				<div class="single-destination">
 					<figure>
-						<a href="#"><img src="../../images/homepage/kol_digha.webp" alt="">
+						<a href="#"><img src="../../images/homepage/chennai_mahabalipuram.webp" alt="">
 						</a>
 					</figure>
 					<div class="des-city">
-						<a href="digha.html">Digha</a>
-						<h4>Properties</h4>
+						<a href="mahabalipuram.html">Mahabalipuram</a>
+						
 					</div>
 				</div> <!-- single popular destination  end-->
 				
 				<div class="single-destination">
 					<figure>
-						<a href="#"><img src="../../images/homepage/kol_mandar.webp" alt="">
+						<a href="#"><img src="../../images/homepage/chennai_puducherry.webp" alt="">
 						</a>
 					</figure>
 					<div class="des-city">
-						<a href="mandarmani.html">Mandarmani</a>
-						<h4>Properties</h4>
+						<a href="puducherry.html">Puducherry</a>
+						
 					</div>
 				</div> <!-- single popular destination  end-->
 				
 				<div class="single-destination">
 					<figure>
-						<a href="#"><img src="../../images/homepage/kol_shanti.webp" alt="">
+						<a href="#"><img src="../../images/homepage/bengaluru_yelagiri.webp" alt="">
 						</a>
 					</figure>
 					<div class="des-city">
-						<a href="shantiniketan.html">Shantiniketan</a>
-						<h4>Properties</h4>
-					</div>
-				</div> <!-- single popular destination  end-->
-				
-				<div class="single-destination">
-					<figure>
-						<a href="#"><img src="../../images/homepage/kol_sundar.webp" alt="">
-						</a>
-					</figure>
-					<div class="des-city">
-						<a href="sundarbans.html">Sundarban</a>
-						<h4>Properties</h4>
+						<a href="../bengaluru/yelagiri.html">Yelagiri</a>
+						
 					</div>
 				</div> <!-- single popular destination  end-->
 			</div>
 		</div>
 	</section>
-
 
 	<section class="discount-package" style="margin: 0;">
 		<div id="adslide" class="carousel slide" >
@@ -1804,38 +1544,38 @@
 			<div class="carousel-inner">
 				<div class="item active">
 					<a href="#">
-						<img class="img1" src="../../images/poster2/brandtfr.webp" style="width:100%; height:100%;">
-						<img class="img2" src="../../images/poster-mobile/brandtfr.webp" style="width:100%; height:100%;">
+						<img class="img1" src="../../images/poster1/hassan.webp" style="width:100%; height:100%;">
+						<img class="img2" src="../../images/poster-mobile/hassan.webp" style="width:100%; height:100%;">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#">
-						<img class="img1" src="../../images/poster2/brandvedic.webp" style="width:100%; height:100%;">
-						<img class="img2" src="../../images/poster-mobile/brandvedic.webp" style="width:100%; height:100%;">
+						<img class="img1" src="../../images/poster1/mysuru.webp" style="width:100%; height:100%;">
+						<img class="img2" src="../../images/poster-mobile/mysuru.webp" style="width:100%; height:100%;">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#">
-						<img class="img1" src="../../images/poster2/brandamaya.webp" style="width:100%; height:100%;">
-						<img class="img2" src="../../images/poster-mobile/brandamaya.webp" style="width:100%; height:100%;">
+						<img class="img1" src="../../images/poster1/nagarhole.webp" style="width:100%; height:100%;">
+						<img class="img2" src="../../images/poster-mobile/nagarhole.webp" style="width:100%; height:100%;">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#">
-						<img class="img1" src="../../images/poster2/brandfortune.webp" style="width:100%; height:100%;">
-						<img class="img2" src="../../images/poster-mobile/brandfortune.webp" style="width:100%; height:100%;">
+						<img class="img1" src="../../images/poster1/yelagiri.webp" style="width:100%; height:100%;">
+						<img class="img2" src="../../images/poster-mobile/yelagiri.webp" style="width:100%; height:100%;">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#">
-						<img class="img1" src="../../images/poster2/brandibiza.webp" style="width:100%; height:100%;">
-						<img class="img2" src="../../images/poster-mobile/brandibiza.webp" style="width:100%; height:100%;">
+						<img class="img1" src="../../images/poster1/mahabalipuram.webp" style="width:100%; height:100%;">
+						<img class="img2" src="../../images/poster-mobile/mahabalipuram.webp" style="width:100%; height:100%;">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#">
-						<img class="img1" src="../../images/poster2/brandrajbadi.webp" style="width:100%; height:100%;">
-						<img class="img2" src="../../images/poster-mobile/brandrajbadi.webp" style="width:100%; height:100%;">
+						<img class="img1" src="../../images/poster1/puducherry.webp" style="width:100%; height:100%;">
+						<img class="img2" src="../../images/poster-mobile/puducherry.webp" style="width:100%; height:100%;">
 					</a>
 				</div>
 			</div>
@@ -1909,8 +1649,6 @@
 									<a href="../../surprise-holiday-tab.html">Surprise Holiday
 									</a> I
 									<a href="../../sale-tab.html">Holiday Sale
-									</a> I
-									<a href="../../getaway/kolkata/sale-tab2.html">HS2
 									</a>
 								</li>
 								<li>
@@ -2066,7 +1804,7 @@
 	<!-- main js -->
 	<script src="../../js/custom.js"></script>
 	<script>
-		window.onload = function () {outskirtsFilt1()}}};
+		window.onload = function() {filterHome(2)};
 		// When the user scrolls the page, execute myFunction
 		window.onscroll = function () { myFunction() };
 

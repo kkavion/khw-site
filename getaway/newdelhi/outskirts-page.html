@@ -72,7 +72,7 @@
 	</script>
 </head>
 
-<body class="getaway-page" onselectstart="return false">
+<body class="getaway-page">
 	<!-- Preloader -->
 	<div id="preloader">
 		<div id="status">&nbsp;</div>
@@ -103,39 +103,39 @@
 						<div class="col-md-10 col-sm-10">
 							<nav>
 								<ul class="main-menu text-right">
-									<li><a href="../../getaway.html" onselectstart="return false">Destination</a></li>
+									<li class="active"><a href="../../getaway.html">Destination</a></li>
 									<li>
-										<a onselectstart="return false">Offer</a>
+										<a>Offer</a>
 										<ul class="dropdown2 main-menu2">
 											<div class="row">
-												<li class="col-md-1 dropdown-text"><a href="../../getaway/kolkata/day-out-tab.html" onselectstart="return false">Day Out</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../offer-tab.html" onselectstart="return false">Domestic Offers</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../getaway/0template/offer-temp.html" onselectstart="return false">International Offers</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../getaway/kolkata/day-out-tab.html">Day Out</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../offer-tab.html">Domestic Offers</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../getaway/0template/offer-temp.html">International Offers</a></li>
 											</div>
 										</ul>
 									</li>
-									<li><a onselectstart="return false" href="../../bidnwin.html">Bid & Win</a></li>
-									<li><a onselectstart="return false" href="../../interest.html">Interest</a></li>
-									<li><a onselectstart="return false" href="../../getaway/kolkata/resorts-tab.html">Resort</a></li>
+									<li><a href="../../bidnwin.html">Bid & Win</a></li>
+									<li><a href="../../interest.html">Interest</a></li>
+									<li><a href="../../getaway/kolkata/resorts-tab.html">Resort</a></li>
 									<li>
-										<a onselectstart="return false">Indulge</a>
+										<a>Indulge</a>
 										<ul class="dropdown2 main-menu2">
 											<div class="row">
-												<li class="col-md-1 dropdown-text"><a href="../../bargain-holiday-tab.html" onselectstart="return false">Bargain Holiday</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../surprise-holiday-tab.html" onselectstart="return false">Surprise Holiday</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../sale-tab.html" onselectstart="return false">Holiday Sale</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../bargain-holiday-tab.html">Bargain Holiday</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../surprise-holiday-tab.html">Surprise Holiday</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../sale-tab.html">Holiday Sale</a></li>
 											</div>
 										</ul>
 									</li>
-									<li><a href="../../encircle.html" onselectstart="return false">Encircle</a></li>
-									<li><a onselectstart="return false" href="../../blog.html">Experience</a></li>
+									<li><a href="../../encircle.html">Encircle</a></li>
+									<li><a href="../../blog.html">Experience</a></li>
 									<li>
-										<a onselectstart="return false">Query</a>
+										<a>Query</a>
 										<ul class="dropdown3 main-menu2">
 											<div class="row">
-												<li class="col-md-1 dropdown-text"><a href="../../form-leisure.html" onselectstart="return false">Leisure</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../form-wedding.html" onselectstart="return false">Wedding</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../form-conference.html" onselectstart="return false">Conference</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../form-leisure.html">Leisure</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../form-wedding.html">Wedding</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../form-conference.html">Conference</a></li>
 											</div>
 										</ul>
 									</li>
@@ -168,15 +168,16 @@
 	<!-- header area end here -->
 
 	<section class="breadcrumb-blog-version-one">
-		<div class="single-bredcurms" style="background-image:url('../../images/banners/destoutskirt.webp');">
+		<div class="single-bredcurms" style="background-image:url('../../images/banners/outskirts.webp');">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 col-md-12">
 						<div class="bredcrums-content">
-							<h2>Getaway</h2>
+							<h2>OUTSKIRTS</h2>
 							<ul>
 								<li><a href="../../index.html">Home</a></li>
-								<li class="active"><a href="outskirts-page.html">OUTSKIRTS</a></li>
+								<li class=""><a href="../../getaway.html">Destination</a></li>
+								<li class=""><a href="">NEW DELHI</a></li>
 							</ul>
 						</div>
 					</div>
@@ -186,7 +187,12 @@
 				<div class="row bg-gradent">
 					<form id="filter">
 						<div class="form-group">
-							<select class="form-control" id="zone-name">
+							<select class="form-control" id="zone-type">
+								<option hidden>Destination Type</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<select class="form-control" id="destination-name">
 								<option hidden>Destination Name</option>
 							</select>
 						</div>
@@ -203,7 +209,7 @@
 				<div class="col-md-12 col-sm-12">
 					<div class="single-package-details">
 						<div class="section-title-version-2-black" style="text-align:center; margin-bottom:0px;">
-							<h2>New Delhi Outskirts</h2>
+							<h2>New Delhi</h2>
 							<p style="font-weight: normal;text-align:center">
 								<i>
 									City Outskirts are the perfect hideout if you seek solitude in the quiet and calm. 
@@ -223,1539 +229,1094 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="section-title-version-2-black">
-							<h3>Popular Attractions</h3>
+							<h3>Indulgence</h3>
 						</div>
 					</div>
-				</div>				
-				<div class="destination-slider-active owl-carousel">				
+				</div>
+				<div class="destination-slider-active owl-carousel">
 					<div class="single-destination">
 						<figure>
-							<a href="#"><img src="../../images/homepage/kol_out.webp" alt="">
+							<a href="#"><img src="../../images/out_delhi/indulgence/1.webp" alt="">
 							</a>
 						</figure>
 						<div class="des-city">
-							<a href="outskirts-page.html">Outskirts</a>
-							<h4>Duration</h4>
+							<a href="#">Mojoland</a>
 						</div>
 					</div> <!-- single popular destination  end-->
 					<div class="single-destination">
 						<figure>
-							<a href="#"><img src="../../images/homepage/kol_mandar.webp" alt="">
+							<a href="#"><img src="../../images/out_delhi/indulgence/2.webp" alt="">
 							</a>
 						</figure>
 						<div class="des-city">
-							<a href="mandarmani.html">Mandarmani</a>
-							<h4>Duration</h4>
+							<a href="#.html">Worlds of Wonder (WOW)</a>
 						</div>
 					</div> <!-- single popular destination  end-->
 					
 					<div class="single-destination">
 						<figure>
-							<a href="#"><img src="../../images/homepage/kol_shanti.webp" alt="">
+							<a href="#"><img src="../../images/out_delhi/indulgence/3.webp" alt="">
 							</a>
 						</figure>
 						<div class="des-city">
-							<a href="shantiniketan.html">Shantiniketan</a>
-							<h4>Duration</h4>
+							<a href="#.html">Atlantic Water Park</a>
 						</div>
 					</div> <!-- single popular destination  end-->
 					
 					<div class="single-destination">
 						<figure>
-							<a href="#"><img src="../../images/homepage/kol_sundar.webp" alt="">
+							<a href="#"><img src="../../images/out_delhi/indulgence/4.webp" alt="">
 							</a>
 						</figure>
 						<div class="des-city">
-							<a href="sundarbans.html">Sundarban</a>
-							<h4>Duration</h4>
+							<a href="#.html">SMAAASH</a>
+						</div>
+					</div> <!-- single popular destination  end-->
+					
+					<div class="single-destination">
+						<figure>
+							<a href="#"><img src="../../images/out_delhi/indulgence/5.webp" alt="">
+							</a>
+						</figure>
+						<div class="des-city">
+							<a href="#.html">Adventure Island</a>
 						</div>
 					</div> <!-- single popular destination  end-->
 				</div>
 			</div>
 			
-		
-			<!-- tabs content -->
-			<h3>Premium</h3>
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="premium1" class="carousel slide" >
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#premium1" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#premium1" data-slide-to="1" class=""></li>
-										<li data-target="#premium1" data-slide-to="2" class=""></li>
-										<li data-target="#premium1" data-slide-to="3" class=""></li>
-										<li data-target="#premium1" data-slide-to="4" class=""></li>
-									</ol>
+			<div style="margin-top: 25px">
+				<h3>Premium</h3>
+				<!-- single timeline -->
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt1" class="carousel slide" >
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt1" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt1" data-slide-to="1" class=""></li>
+											<li data-target="#outskirt1" data-slide-to="2" class=""></li>
+										</ol>
 
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-gk/facade1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Facade</div>
-											</a>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_delhi/hans/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Facade</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_delhi/hans/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Swimming Pool</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_delhi/hans/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-gk/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Swimming Pool</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-gk/lotuspond.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Lotus Pond</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-gk/dining1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">GK Restaurant</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-gk/room1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Deluxe Room</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt1"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt1"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#premium1"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#premium1"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								Hans Resort
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 28.5%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									Hans Resort
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 28.5%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Resort | Premium | 45 Rooms
-							</p>
-							<p>
-								91 Milestone, NH-8, Rewari 123401 
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Resort | Premium | Rewari
+								</p>
+								<p>
+									91 Milestone, NH-8, Rewari 123401 
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Infinity Pool">pool</span>
-								<span class="material-icons" title="Gym">fitness_center</span>
-								<span class="material-icons" title="Indoor Games">games</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Bar">local_bar</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Infinity Pool">pool</span>
+									<span class="material-icons" title="Gym">fitness_center</span>
+									<span class="material-icons" title="Indoor Games">games</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Bar">local_bar</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								The ideal getaway, Raichak on Ganges nestled on the banks of the Hooghly is the perfect blend of nature and luxurious living. Ganga Kutir along with The Ffort Raichak, Anaya Kutir and Anaya Spa by L’occitane are all a part of this world where you can get lost in nature and yourself! 
-							</p>
-
-							<p>Ganga Kutir melds seamlessly with the Gangetic landscape, velvety green decor and exotic native flowers amidst the peaceful and quiet ambience that exudes an aura of sophistication and warmth.
-							</p>
-							<span class="room-rate">Room starts @ <span>&#8377 0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>
+									The resort offers luxurious rooms, a swimming pool, spa, multi-cuisine restaurant and a fitness centre. You can also enjoy playing tennis. With spacious event venues for weddings and conferences, it’s ideal for both leisure and business travellers. Its blend of comfort, amenities, and scenic surroundings makes it a perfectly relaxing retreat.
+								</p>
+								<span class="room-rate">Room starts @ <span>&#8377 5,299/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://hansresorts.in/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- single timeline -->
+				<!-- single timeline -->
 
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="premium2" class="carousel slide">
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#premium2" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#premium2" data-slide-to="1" class="">
-										</li>
-										<li data-target="#premium2" data-slide-to="2" class="">
-										</li>
-										<li data-target="#premium2" data-slide-to="3" class="">
-										</li>
-										<li data-target="#premium2" data-slide-to="4" class="">
-										</li>
-									</ol>
+				<!-- single timeline -->
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt2" class="carousel slide">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt2" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt2" data-slide-to="1" class="">
+											</li>
+											<li data-target="#outskirt2" data-slide-to="2" class="">
+											</li>
+										</ol>
 
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-amaya/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Pool View</div>
-											</a>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_delhi/heritage/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Facade</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_delhi/heritage/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">interior</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_delhi/heritage/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-amaya/dining_viva.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Viva Restaurant & Bar</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_juniorsuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Junior Suite Room</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_poolaccess.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite pool access</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_executivesuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt2"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt2"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#premium2"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#premium2"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								Heritage Village Resort and Spa
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 8.5%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									Heritage Village Resort and Spa
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 8.5%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Resort | Premium | 154 Rooms
-							</p>
-							<p>
-								NH-8, Manesar, Gurgaon - 122050
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Resort | Premium | Gurgaon
+								</p>
+								<p>
+									NH-8, Manesar, Gurgaon - 122050
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Swimming Pool">pool</span>
-								<span class="material-icons" title="Gym">fitness_center</span>
-								<span class="material-icons" title="Indoor Games">games</span>
-								<span class="material-icons" title="Spa">spa</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Bar">local_bar</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Swimming Pool">pool</span>
+									<span class="material-icons" title="Gym">fitness_center</span>
+									<span class="material-icons" title="Indoor Games">games</span>
+									<span class="material-icons" title="Spa">spa</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Bar">local_bar</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								An urban retreat then that is the perfect fusion of nature and luxury, The Amaya Resort with its avant-garde architecture, verdant gardens, contemporary dining scene and multifarious activities is ideal to break away from the chaos of the city and indulge in yourself. 
-							</p>
-
-							<p>Its lavish spa relieves you of stress and imbues the atmosphere with the tranquillity that you seek while its multi-cuisine restaurants proffer you an assortment of delicacies from the world over to keep you relaxed and sated.
-							</p>
-							<span class="room-rate">Rooms start @ <span>&#8377  0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>
+									A luxury Rajasthani-inspired resort near Delhi, it offers picturesque green lawns, multiple dining options, a pristine pool, bar, wellness spa, and Kids’ Club. Located off NH 8, it's close to Gurgaon and Delhi. Ideal for family getaways, staycations, and destination weddings, it offers activities for all ages.
+								</p>
+								<span class="room-rate">Rooms start @ <span>&#8377  18,901/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://www.heritagevillageresorts.com/heritage-village-resort-spa-manesar/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- single timeline -->
+				<!-- single timeline -->
 
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="premium3" class="carousel slide">
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#premium3" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#premium3" data-slide-to="1" class="">
-										</li>
-										<li data-target="#premium3" data-slide-to="2" class="">
-										</li>
-										<li data-target="#premium3" data-slide-to="3" class="">
-										</li>
-										<li data-target="#premium3" data-slide-to="4" class="">
-										</li>
-									</ol>
+				<!-- single timeline -->
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt3" class="carousel slide">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt3" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt3" data-slide-to="1" class="">
+											</li>
+											<li data-target="#outskirt3" data-slide-to="2" class="">
+											</li>
+										</ol>
 
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-amaya/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Pool View</div>
-											</a>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_delhi/tarudhan/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Facade</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_delhi/tarudhan/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Swimming Pool</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_delhi/tarudhan/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-amaya/dining_viva.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Viva Restaurant & Bar</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_juniorsuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Junior Suite Room</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_poolaccess.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite pool access</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_executivesuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt3"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt3"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#premium3"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#premium3"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								Lemon Tree Hotel, Tarudhan Valley
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 8.5%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									Lemon Tree Hotel, Tarudhan Valley
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 8.5%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Resort | Premium | 70 Rooms
-							</p>
-							<p>
-								Village Dadu, Tehsil Tauru, Manesar District, Mewat, Manesar 122105 
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Resort | Premium | Manesar
+								</p>
+								<p>
+									Village Dadu, Tehsil Tauru, Manesar District, Mewat, Manesar 122105 
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Swimming Pool">pool</span>
-								<span class="material-icons" title="Gym">fitness_center</span>
-								<span class="material-icons" title="Indoor Games">games</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Bar">local_bar</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Swimming Pool">pool</span>
+									<span class="material-icons" title="Gym">fitness_center</span>
+									<span class="material-icons" title="Indoor Games">games</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Bar">local_bar</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								An urban retreat then that is the perfect fusion of nature and luxury, The Amaya Resort with its avant-garde architecture, verdant gardens, contemporary dining scene and multifarious activities is ideal to break away from the chaos of the city and indulge in yourself. 
-							</p>
-
-							<p>Its lavish spa relieves you of stress and imbues the atmosphere with the tranquillity that you seek while its multi-cuisine restaurants proffer you an assortment of delicacies from the world over to keep you relaxed and sated.
-							</p>
-							<span class="room-rate">Rooms start @ <span>&#8377  0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>
+									The resort offers a perfect weekend getaway with scenic surroundings, a 9-hole golf course, and pet-friendly accommodations. The resort features 70 rooms, including studio apartments, a spa, fitness centre, themed bar, kids’ zone, billiards room, and outdoor pool. Ideal for weddings, corporate events, and family trips, it promises a refreshing escape for all.
+								</p>
+								<span class="room-rate">Rooms start @ <span>&#8377  8,505/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://www.lemontreehotels.com/lemon-tree-hotel/manesar/hotel-tarudhan?utm_source=Google&utm_medium=GMB"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- single timeline -->
+				<!-- single timeline -->
 
-			<h3>Standard</h3>
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="standard1" class="carousel slide">
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#standard1" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#standard1" data-slide-to="1" class="">
-										</li>
-										<li data-target="#standard1" data-slide-to="2" class="">
-										</li>
-										<li data-target="#standard1" data-slide-to="3" class="">
-										</li>
-										<li data-target="#standard1" data-slide-to="4" class="">
-										</li>
-									</ol>
+				<h3>Standard</h3>
+				<!-- single timeline -->
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt4" class="carousel slide">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt4" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt4" data-slide-to="1" class="">
+											</li>
+											<li data-target="#outskirt4" data-slide-to="2" class="">
+											</li>
+										</ol>
 
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-amaya/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Pool View</div>
-											</a>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_delhi/baghaan/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Pool View</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_delhi/baghaan/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Swimming Pool</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_delhi/baghaan/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-amaya/dining_viva.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Viva Restaurant & Bar</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_juniorsuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Junior Suite Room</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_poolaccess.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite pool access</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_executivesuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt4"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt4"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#standard1"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#standard1"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								Baghaan Orchard Retreat
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 8.5%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									Baghaan Orchard Retreat
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 8.5%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Hotel | Standard | 25 Rooms
-							</p>
-							<p>
-								Village – Kachrot, Garhmukteshwar, Uttar Pradesh
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Hotel | Standard | Garhmukteshwar
+								</p>
+								<p>
+									Village – Kachrot, Garhmukteshwar, Uttar Pradesh
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Swimming Pool">pool</span>
-								<span class="material-icons" title="Gym">fitness_center</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Swimming Pool">pool</span>
+									<span class="material-icons" title="Gym">fitness_center</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								An urban retreat then that is the perfect fusion of nature and luxury, The Amaya Resort with its avant-garde architecture, verdant gardens, contemporary dining scene and multifarious activities is ideal to break away from the chaos of the city and indulge in yourself. 
-							</p>
-
-							<p>Its lavish spa relieves you of stress and imbues the atmosphere with the tranquillity that you seek while its multi-cuisine restaurants proffer you an assortment of delicacies from the world over to keep you relaxed and sated.
-							</p>
-							<span class="room-rate">Rooms start @ <span>&#8377  0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>
+									Escape to Baghaan Orchard Retreat, just 110 km from Delhi, for a rejuvenating getaway in 15 acres of mango orchards. Enjoy luxury in the guest rooms, a multi-cuisine restaurant, and rustic charm with activities like bullock cart rides and adventure sports. Perfect for family trips, friends' outings, or corporate retreats, it is a tranquil escape!
+								</p>
+								<span class="room-rate">Rooms start @ <span>&#8377  9,000/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://www.baghaan.com/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- single timeline -->
-			
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="standard2" class="carousel slide">
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#standard2" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#standard2" data-slide-to="1" class="">
-										</li>
-										<li data-target="#standard2" data-slide-to="2" class="">
-										</li>
-										<li data-target="#standard2" data-slide-to="3" class="">
-										</li>
-										<li data-target="#standard2" data-slide-to="4" class="">
-										</li>
-									</ol>
+				<!-- single timeline -->
 
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-amaya/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Pool View</div>
-											</a>
+				<!-- single timeline -->
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt5" class="carousel slide">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt5" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt5" data-slide-to="1" class="">
+											</li>
+											<li data-target="#outskirt5" data-slide-to="2" class="">
+											</li>
+										</ol>
+
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_delhi/best/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Facade</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_delhi/baghaan/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Swimming Pool</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_delhi/best/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-amaya/dining_viva.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Viva Restaurant & Bar</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_juniorsuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Junior Suite Room</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_poolaccess.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite pool access</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_executivesuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt5"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt5"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#standard2"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#standard2"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								Best Western Resort Country Club
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 8.5%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									Best Western Resort Country Club
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 8.5%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Resort | Standard | 120 Rooms
-							</p>
-							<p>
-								Pachgaon, Major District Road 132, near Manesar, Gurugram, Haryana 122015
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Resort | Standard | Gurugram
+								</p>
+								<p>
+									Pachgaon, Major District Road 132, near Manesar, Gurugram, Haryana 122015
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Swimming Pool">pool</span>
-								<span class="material-icons" title="Gym">fitness_center</span>
-								<span class="material-icons" title="Indoor Games">games</span>
-								<span class="material-icons" title="Spa">spa</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Bar">local_bar</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Swimming Pool">pool</span>
+									<span class="material-icons" title="Gym">fitness_center</span>
+									<span class="material-icons" title="Indoor Games">games</span>
+									<span class="material-icons" title="Spa">spa</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Bar">local_bar</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								An urban retreat then that is the perfect fusion of nature and luxury, The Amaya Resort with its avant-garde architecture, verdant gardens, contemporary dining scene and multifarious activities is ideal to break away from the chaos of the city and indulge in yourself. 
-							</p>
-
-							<p>Its lavish spa relieves you of stress and imbues the atmosphere with the tranquillity that you seek while its multi-cuisine restaurants proffer you an assortment of delicacies from the world over to keep you relaxed and sated.
-							</p>
-							<span class="room-rate">Rooms start @ <span>&#8377  0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>
+									The resort offers a unique blend of luxury and leisure. Featuring spacious rooms, a sprawling garden, and modern amenities, it’s perfect for both relaxation and corporate events. Unique offerings include a golf course, diverse dining options, and a water park. Its serene environment and extensive facilities create a perfect escape from the city hustle.
+								</p>
+								<span class="room-rate">Rooms start @ <span>&#8377  6,500/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://resortcountryclub.com/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- single timeline -->
+				<!-- single timeline -->
 
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="standard3" class="carousel slide">
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#standard3" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#standard3" data-slide-to="1" class="">
-										</li>
-										<li data-target="#standard3" data-slide-to="2" class="">
-										</li>
-										<li data-target="#standard3" data-slide-to="3" class="">
-										</li>
-										<li data-target="#standard3" data-slide-to="4" class="">
-										</li>
-									</ol>
+				<!-- single timeline -->
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt6" class="carousel slide">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt6" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt6" data-slide-to="1" class="">
+											</li>
+											<li data-target="#outskirt6" data-slide-to="2" class="">
+											</li>
+										</ol>
 
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-amaya/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Pool View</div>
-											</a>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_delhi/botanix/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Entrance</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_delhi/botanix/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Swimming Pool</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_delhi/botanix/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-amaya/dining_viva.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Viva Restaurant & Bar</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_juniorsuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Junior Suite Room</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_poolaccess.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite pool access</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_executivesuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt6"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt6"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#standard3"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#standard3"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								Botanix Nature Resort 
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 18.5%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									Botanix Nature Resort 
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 18.5%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Resort | Standard | 40 Rooms
-							</p>
-							<p>
-								Damdama Village, Near Damdama Lake, Sohna Rd, Damdama, Tehsil, Sohna, Haryana 122102
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Resort | Standard | Sohna
+								</p>
+								<p>
+									Damdama Village, Near Damdama Lake, Sohna Rd, Damdama, Tehsil, Sohna, Haryana 122102
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Swimming Pool">pool</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Swimming Pool">pool</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								An urban retreat then that is the perfect fusion of nature and luxury, The Amaya Resort with its avant-garde architecture, verdant gardens, contemporary dining scene and multifarious activities is ideal to break away from the chaos of the city and indulge in yourself. 
-							</p>
-
-							<p>Its lavish spa relieves you of stress and imbues the atmosphere with the tranquillity that you seek while its multi-cuisine restaurants proffer you an assortment of delicacies from the world over to keep you relaxed and sated.
-							</p>
-							<span class="room-rate">Rooms start @ <span>&#8377  0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>
+									The resort offers a serene retreat with lush gardens and eco-friendly accommodations. Unique features include nature trails, adventure activities, and a zip-lining experience. Guests can enjoy organic dining, a butterfly park, and tranquil spaces perfect for relaxation. Its blend of natural beauty and adventure makes it an ideal escape from city life.
+								</p>
+								<span class="room-rate">Rooms start @ <span>&#8377  6,999/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://botanix.in/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- single timeline -->
+				<!-- single timeline -->
 
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="standard4" class="carousel slide">
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#standard4" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#standard4" data-slide-to="1" class="">
-										</li>
-										<li data-target="#standard4" data-slide-to="2" class="">
-										</li>
-										<li data-target="#standard4" data-slide-to="3" class="">
-										</li>
-										<li data-target="#standard4" data-slide-to="4" class="">
-										</li>
-									</ol>
+				<!-- single timeline -->
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt7" class="carousel slide">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt7" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt7" data-slide-to="1" class="">
+											</li>
+											<li data-target="#outskirt7" data-slide-to="2" class="">
+											</li>
+										</ol>
 
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-amaya/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Pool View</div>
-											</a>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_delhi/downtown/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Night View</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_delhi/downtown/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Exterior</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_delhi/downtown/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-amaya/dining_viva.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Viva Restaurant & Bar</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_juniorsuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Junior Suite Room</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_poolaccess.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite pool access</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_executivesuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt7"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt7"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#standard4"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#standard4"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								Downtown Resorts
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 20%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									Downtown Resorts
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 20%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Hotel | Standard | 45 Rooms
-							</p>
-							<p>
-								Delhi Jaipur Highway, Rewari 123106
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Hotel | Standard | Rewari
+								</p>
+								<p>
+									76th Milestone, Delhi Jaipur Highway, NH – 8, Dharuhera(Rewari), Haryana, India 123401
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Swimming Pool">pool</span>
-								<span class="material-icons" title="Gym">fitness_center</span>
-								<span class="material-icons" title="Indoor Games">games</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Bar">local_bar</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Swimming Pool">pool</span>
+									<span class="material-icons" title="Gym">fitness_center</span>
+									<span class="material-icons" title="Indoor Games">games</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Bar">local_bar</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								An urban retreat then that is the perfect fusion of nature and luxury, The Amaya Resort with its avant-garde architecture, verdant gardens, contemporary dining scene and multifarious activities is ideal to break away from the chaos of the city and indulge in yourself. 
-							</p>
-
-							<p>Its lavish spa relieves you of stress and imbues the atmosphere with the tranquillity that you seek while its multi-cuisine restaurants proffer you an assortment of delicacies from the world over to keep you relaxed and sated.
-							</p>
-							<span class="room-rate">Rooms start @ <span>&#8377  0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>
+									With spacious rooms, a large outdoor pool, and vibrant gardens, the resort caters to leisure and corporate guests offering them both luxury and relaxation. Unique features include a well-equipped spa, a multi-cuisine restaurant, and various recreational activities. Its serene setting and comprehensive amenities make it the perfect getaway!
+								</p>
+								<span class="room-rate">Rooms start @ <span>&#8377  5,500/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://downtownresorts.in/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- single timeline -->
+				<!-- single timeline -->
 
-			<h3>Economy</h3>
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="economy1" class="carousel slide">
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#economy1" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#economy1" data-slide-to="1" class="">
-										</li>
-										<li data-target="#economy1" data-slide-to="2" class="">
-										</li>
-										<li data-target="#economy1" data-slide-to="3" class="">
-										</li>
-										<li data-target="#economy1" data-slide-to="4" class="">
-										</li>
-									</ol>
+				<h3>Economy</h3>
+				
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt8" class="carousel slide">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt8" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt8" data-slide-to="1" class="">
+											</li>
+											<li data-target="#outskirt8" data-slide-to="2" class="">
+											</li>
+										</ol>
 
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-amaya/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Pool View</div>
-											</a>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_delhi/tarudhan/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Entrance</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_delhi/thakran/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Swimming Pool</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_delhi/thakran/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-amaya/dining_viva.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Viva Restaurant & Bar</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_juniorsuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Junior Suite Room</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_poolaccess.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite pool access</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_executivesuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt8"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt8"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#economy1"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#economy1"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								Mud Fort Resort
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 28.5%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									Thakran Farm
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 8.5%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Fort | Economy | 19 Rooms
-							</p>
-							<p>
-								Kuchesar~Siyana Road, Kuchesar, Uttar Pradesh 245402
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Farms | Economy | Gurugram
+								</p>
+								<p>
+									Pataudi Tehsil, Gurugram (Gurgaon) 122414 India
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Indoor Games">games</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Swimming Pool">pool</span>
+									<span class="material-icons" title="Gym">fitness_center</span>
+									<span class="material-icons" title="Indoor Games">games</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								An urban retreat then that is the perfect fusion of nature and luxury, The Amaya Resort with its avant-garde architecture, verdant gardens, contemporary dining scene and multifarious activities is ideal to break away from the chaos of the city and indulge in yourself. 
-							</p>
-
-							<p>Its lavish spa relieves you of stress and imbues the atmosphere with the tranquillity that you seek while its multi-cuisine restaurants proffer you an assortment of delicacies from the world over to keep you relaxed and sated.
-							</p>
-							<span class="room-rate">Rooms start @ <span>&#8377  0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>
+									Thakran Farm provides a delightful rural retreat with a blend of farm life and relaxation. Enjoy organic farm tours, engaging activities like bullock cart rides, and fresh farm-to-table meals. Eco-friendly cottages, serene landscapes, and hands-on farming experiences along with a tranquil setting and authentic rural charm make it a perfect escapade.
+								</p>
+								<span class="room-rate">Rooms start @ <span>&#8377  3,500/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://www.facebook.com/thakranfarm/videos/thakran-farm-overview/512012346999410/
+									"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- single timeline -->
+				<!-- single timeline -->
 
-			<h3>Boutique</h3>
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="boutique1" class="carousel slide">
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#boutique1" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#boutique1" data-slide-to="1" class="">
-										</li>
-										<li data-target="#boutique1" data-slide-to="2" class="">
-										</li>
-										<li data-target="#boutique1" data-slide-to="3" class="">
-										</li>
-										<li data-target="#boutique1" data-slide-to="4" class="">
-										</li>
-									</ol>
+				<!-- single timeline -->
+				<div class="timeline">
+					<div class="timeline-content left">
+						<div class="row box">
+							<div class="col-md-6 col-sm-6" style="padding: 20px 30px;">
+								<div class="row">
+									<div id="outskirt9" class="carousel slide">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#outskirt9" data-slide-to="0"
+												class="active"></li>
+											<li data-target="#outskirt9" data-slide-to="1" class="">
+											</li>
+											<li data-target="#outskirt9" data-slide-to="2" class="">
+											</li>
+										</ol>
 
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-amaya/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Pool View</div>
-											</a>
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<a><img src="../../images/out_delhi/mud/1.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Facade</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_delhi/mud/2.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Swimming Pool</div>
+												</a>
+											</div>
+											<div class="item"><a><img src="../../images/out_delhi/mud/3.webp"
+														style="width:100%; height:auto;">
+													<div class="overlay">Room</div>
+												</a>
+											</div>
 										</div>
-										<div class="item"><a><img src="../../images/out-amaya/dining_viva.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Viva Restaurant & Bar</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_juniorsuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Junior Suite Room</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_poolaccess.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite pool access</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_executivesuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite</div>
-											</a>
-										</div>
+										<a class="left carousel-control" href="#outskirt9"
+											data-slide="prev">
+											<span class="mdi mdi-chevron-left"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#outskirt9"
+											data-slide="next">
+											<span class="mdi mdi-chevron-right"></span>
+											<span class="sr-only">Next</span>
+										</a>
 									</div>
-									<a class="left carousel-control" href="#boutique1"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#boutique1"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								Golden Retreat Farm
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 8.5%;"></div>
+							<div class="col-md-6" style="padding: 20px;">
+								<h3>
+									Mud Fort Resort
+								</h3>
+								<div class="stars">
+									<div>													
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<div class="cover" style="width: 28.5%;"></div>
+									</div>
 								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Resort | Boutique | 5 Rooms
-							</p>
-							<p>
-								C-18 A Near Bilaspur Chowk, Manesar 122413
-							</p>
+								<p title="5 star" style="margin-bottom: 0;">
+									Fort | Economy | Kuchesar
+								</p>
+								<p>
+									Kuchesar~Siyana Road, Kuchesar, Uttar Pradesh 245402
+								</p>
 
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Indoor Games">games</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
+								<!--Insert amenities icons here-->
+								<div class="amenities-row">
+									<span class="material-icons" title="Indoor Games">games</span>
+									<span class="material-icons" title="Restaurant">restaurant</span>
+									<span class="material-icons" title="Room Service">room_service</span>
+									<span class="material-icons" title="Wi-Fi">wifi</span>
+									<span class="material-icons" title="Parking">local_parking</span>
+								</div>
+								<!--end-->
 
-							<p>
-								An urban retreat then that is the perfect fusion of nature and luxury, The Amaya Resort with its avant-garde architecture, verdant gardens, contemporary dining scene and multifarious activities is ideal to break away from the chaos of the city and indulge in yourself. 
-							</p>
-
-							<p>Its lavish spa relieves you of stress and imbues the atmosphere with the tranquillity that you seek while its multi-cuisine restaurants proffer you an assortment of delicacies from the world over to keep you relaxed and sated.
-							</p>
-							<span class="room-rate">Rooms start @ <span>&#8377  0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
+								<p>
+									Housed in a restored 19th-century fort, Mud Fort Resort features elegant rooms, traditional decor, and modern amenities. Guests can enjoy a range of activities including cultural performances, camel rides, and outdoor adventures. Its historic charm and immersive experience make it a distinctive and luxurious escape from city life.
+								</p>
+								<span class="room-rate">Rooms start @ <span>&#8377  6,000/-</span></span>
+								<div class="discount-package-4-btn">
+									<a class="travel-primary-btn-2 right-btn" href="https://www.mudfortkuchesar.com/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<!-- single timeline -->
 			</div>
-			<!-- single timeline -->
-
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="boutique2" class="carousel slide">
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#boutique2" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#boutique2" data-slide-to="1" class="">
-										</li>
-										<li data-target="#boutique2" data-slide-to="2" class="">
-										</li>
-										<li data-target="#boutique2" data-slide-to="3" class="">
-										</li>
-										<li data-target="#boutique2" data-slide-to="4" class="">
-										</li>
-									</ol>
-
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-amaya/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Pool View</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/dining_viva.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Viva Restaurant & Bar</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_juniorsuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Junior Suite Room</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_poolaccess.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite pool access</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_executivesuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite</div>
-											</a>
-										</div>
-									</div>
-									<a class="left carousel-control" href="#boutique2"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#boutique2"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								Pratapgarh Farms
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 20%;"></div>
-								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Resort | Boutique | 28 Rooms
-							</p>
-							<p>
-								Near Railway Station, Gwalison Rd, Jhajjar, Haryana 124103
-							</p>
-
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Indoor Games">games</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
-
-							<p>
-								An urban retreat then that is the perfect fusion of nature and luxury, The Amaya Resort with its avant-garde architecture, verdant gardens, contemporary dining scene and multifarious activities is ideal to break away from the chaos of the city and indulge in yourself. 
-							</p>
-
-							<p>Its lavish spa relieves you of stress and imbues the atmosphere with the tranquillity that you seek while its multi-cuisine restaurants proffer you an assortment of delicacies from the world over to keep you relaxed and sated.
-							</p>
-							<span class="room-rate">Rooms start @ <span>&#8377  0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- single timeline -->
-			
-			<!-- single timeline -->
-			<div class="timeline">
-				<div class="timeline-content left">
-					<div class="row box">
-						<div class="col-md-6" style="padding: 20px 30px;">
-							<div class="row">
-								<div id="boutique3" class="carousel slide">
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#boutique3" data-slide-to="0"
-											class="active"></li>
-										<li data-target="#boutique3" data-slide-to="1" class="">
-										</li>
-										<li data-target="#boutique3" data-slide-to="2" class="">
-										</li>
-										<li data-target="#boutique3" data-slide-to="3" class="">
-										</li>
-										<li data-target="#boutique3" data-slide-to="4" class="">
-										</li>
-									</ol>
-
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner">
-										<div class="item active">
-											<a><img src="../../images/out-amaya/pool1.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Pool View</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/dining_viva.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Viva Restaurant & Bar</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_juniorsuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Junior Suite Room</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_poolaccess.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite pool access</div>
-											</a>
-										</div>
-										<div class="item"><a><img src="../../images/out-amaya/room_executivesuite.webp"
-													style="width:100%; height:auto;">
-												<div class="overlay">Executive Suite</div>
-											</a>
-										</div>
-									</div>
-									<a class="left carousel-control" href="#boutique3"
-										data-slide="prev">
-										<span class="mdi mdi-chevron-left"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="right carousel-control" href="#boutique3"
-										data-slide="next">
-										<span class="mdi mdi-chevron-right"></span>
-										<span class="sr-only">Next</span>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6" style="padding: 20px;">
-							<h3>
-								Thakran Farm
-							</h3>
-							<div class="stars">
-								<div>													
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<div class="cover" style="width: 8.5%;"></div>
-								</div>
-							</div>
-							<p title="5 star" style="margin-bottom: 0;">
-								Resort | Boutique | 5 Rooms
-							</p>
-							<p>
-								State Highway 26, Gurugram (Gurgaon) 123003
-							</p>
-
-							<!--Insert amenities icons here-->
-							<p class="amenities-row">
-								<span class="material-icons" title="Infinity Pool">pool</span>
-								<span class="material-icons" title="Gym">fitness_center</span>
-								<span class="material-icons" title="Indoor Games">games</span>
-								<span class="material-icons" title="Restaurant">restaurant</span>
-								<span class="material-icons" title="Room Service">room_service</span>
-								<span class="material-icons" title="Wi-Fi">wifi</span>
-								<span class="material-icons" title="Parking">local_parking</span>
-							</p>
-							<!--end-->
-
-							<p>
-								An urban retreat then that is the perfect fusion of nature and luxury, The Amaya Resort with its avant-garde architecture, verdant gardens, contemporary dining scene and multifarious activities is ideal to break away from the chaos of the city and indulge in yourself. 
-							</p>
-
-							<p>Its lavish spa relieves you of stress and imbues the atmosphere with the tranquillity that you seek while its multi-cuisine restaurants proffer you an assortment of delicacies from the world over to keep you relaxed and sated.
-							</p>
-							<span class="room-rate">Rooms start @ <span>&#8377  0,000/-</span></span>
-							<div class="discount-package-4-btn">
-								<a class="travel-primary-btn-2 right-btn" href="#">Explore</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- single timeline -->
 		</div>
 	</section>
 	<!-- single popular destination  end-->
 
 
-	
-
-	<section class="faq-section turnoff">
+	<section class="related-tour section-paddings popular-packages destination-bg" style="padding-top: 0;">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<div class="section-title-version-2-black">
-						<h3>FAQs</h3>
+					<div class="section-title-3 mbt-100 related-title">
+						<span style="font-size: 24px;">Other Attractions</span>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab" id="headingOne">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-									<span class="mdi mdi-magnify"></span>
-									What is TravelTriangle?
-									<i class="accordion_icon " style="float:right" aria-hidden="true"></i>
-								</a>
-							</h4>
+				<!-- single package start -->
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_delhi/attraction/1.webp"
+									alt="">
+							</a>
 						</div>
-						<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-							<div class="panel-body">
-								TravelTriangle is India’s leading online travel marketplace bringing both the travelers, and trusted
-								&amp; expert travel agents on a common platform. While several other established players in the market
-								have been offering holiday packages, what makes TravelTriangle stand out from the crowd is that it is
-								the only platform which solves the complexity of holiday planning through technology and expertise. On
-								receiving the holiday request, multiple expert travel agents first understand the traveler needs in
-								detail and then provide quote listing the itinerary and price. Each travel agent is personally and
-								methodically verified by us. Their ratings and traveler reviews are also shared with the traveler, so
-								that transparency is maintained. Further, we let the traveler compare the multiple quotes and figure out
-								the best option for himself/herself. The traveler then has the option to customize the holiday package
-								the way he/she wants through call or message on the dashboard itself. We manage the entire fulfilment
-								process ensuring the traveler gets what he/she has been promised. We offer great value prices coupled
-								with convenient payment solutions, such as EMIs and partial payment on arrival.
-							</div>
+						<div class="package-content">
+							<h3>Yamuna Biodiversity Park</h3>
+							<p>An ideal spot for nature walks and birdwatching, this is a green oasis dedicated to preserving native flora and fauna.
+							</p>
 						</div>
 					</div>
-					<div class="panel panel-default" style="border-bottom: 1px solid #e4e4e4;">
-						<div class="panel-heading" role="tab" id="heading2">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true"
-									aria-controls="collapse2">
-									<span class="mdi mdi-magnify"></span>
-									What is TravelTriangle?
-									<i class="accordion_icon " style="float:right" aria-hidden="true"></i>
-								</a>
-							</h4>
+				</div><!-- single package end -->
+
+				<!-- single package start -->
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_delhi/attraction/2.webp"
+									alt="">
+							</a>
 						</div>
-						<div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-							<div class="panel-body">
-								TravelTriangle is India’s leading online travel marketplace bringing both the travelers, and trusted
-								&amp; expert travel agents on a common platform. While several other established players in the market
-								have been offering holiday packages, what makes TravelTriangle stand out from the crowd is that it is
-								the only platform which solves the complexity of holiday planning through technology and expertise. On
-								receiving the holiday request, multiple expert travel agents first understand the traveler needs in
-								detail and then provide quote listing the itinerary and price. Each travel agent is personally and
-								methodically verified by us. Their ratings and traveler reviews are also shared with the traveler, so
-								that transparency is maintained. Further, we let the traveler compare the multiple quotes and figure out
-								the best option for himself/herself. The traveler then has the option to customize the holiday package
-								the way he/she wants through call or message on the dashboard itself. We manage the entire fulfilment
-								process ensuring the traveler gets what he/she has been promised. We offer great value prices coupled
-								with convenient payment solutions, such as EMIs and partial payment on arrival.
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default" style="border-bottom: 1px solid #e4e4e4;">
-						<div class="panel-heading" role="tab" id="heading3">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true"
-									aria-controls="collapse3">
-									<span class="mdi mdi-magnify"></span>
-									What is TravelTriangle?
-									<i class="accordion_icon " style="float:right" aria-hidden="true"></i>
-								</a>
-							</h4>
-						</div>
-						<div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-							<div class="panel-body">
-								TravelTriangle is India’s leading online travel marketplace bringing both the travelers, and trusted
-								&amp; expert travel agents on a common platform. While several other established players in the market
-								have been offering holiday packages, what makes TravelTriangle stand out from the crowd is that it is
-								the only platform which solves the complexity of holiday planning through technology and expertise. On
-								receiving the holiday request, multiple expert travel agents first understand the traveler needs in
-								detail and then provide quote listing the itinerary and price. Each travel agent is personally and
-								methodically verified by us. Their ratings and traveler reviews are also shared with the traveler, so
-								that transparency is maintained. Further, we let the traveler compare the multiple quotes and figure out
-								the best option for himself/herself. The traveler then has the option to customize the holiday package
-								the way he/she wants through call or message on the dashboard itself. We manage the entire fulfilment
-								process ensuring the traveler gets what he/she has been promised. We offer great value prices coupled
-								with convenient payment solutions, such as EMIs and partial payment on arrival.
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default" style="border-bottom: 1px solid #e4e4e4;">
-						<div class="panel-heading" role="tab" id="heading4">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true"
-									aria-controls="collapse4">
-									<span class="mdi mdi-magnify"></span>
-									What is TravelTriangle?
-									<i class="accordion_icon " style="float:right" aria-hidden="true"></i>
-								</a>
-							</h4>
-						</div>
-						<div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
-							<div class="panel-body">
-								TravelTriangle is India’s leading online travel marketplace bringing both the travelers, and trusted
-								&amp; expert travel agents on a common platform. While several other established players in the market
-								have been offering holiday packages, what makes TravelTriangle stand out from the crowd is that it is
-								the only platform which solves the complexity of holiday planning through technology and expertise. On
-								receiving the holiday request, multiple expert travel agents first understand the traveler needs in
-								detail and then provide quote listing the itinerary and price. Each travel agent is personally and
-								methodically verified by us. Their ratings and traveler reviews are also shared with the traveler, so
-								that transparency is maintained. Further, we let the traveler compare the multiple quotes and figure out
-								the best option for himself/herself. The traveler then has the option to customize the holiday package
-								the way he/she wants through call or message on the dashboard itself. We manage the entire fulfilment
-								process ensuring the traveler gets what he/she has been promised. We offer great value prices coupled
-								with convenient payment solutions, such as EMIs and partial payment on arrival.
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default" style="border-bottom: 1px solid #e4e4e4;">
-						<div class="panel-heading" role="tab" id="heading5">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true"
-									aria-controls="collapse5">
-									<span class="mdi mdi-magnify"></span>
-									What is TravelTriangle?
-									<i class="accordion_icon " style="float:right" aria-hidden="true"></i>
-								</a>
-							</h4>
-						</div>
-						<div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
-							<div class="panel-body">
-								TravelTriangle is India’s leading online travel marketplace bringing both the travelers, and trusted
-								&amp; expert travel agents on a common platform. While several other established players in the market
-								have been offering holiday packages, what makes TravelTriangle stand out from the crowd is that it is
-								the only platform which solves the complexity of holiday planning through technology and expertise. On
-								receiving the holiday request, multiple expert travel agents first understand the traveler needs in
-								detail and then provide quote listing the itinerary and price. Each travel agent is personally and
-								methodically verified by us. Their ratings and traveler reviews are also shared with the traveler, so
-								that transparency is maintained. Further, we let the traveler compare the multiple quotes and figure out
-								the best option for himself/herself. The traveler then has the option to customize the holiday package
-								the way he/she wants through call or message on the dashboard itself. We manage the entire fulfilment
-								process ensuring the traveler gets what he/she has been promised. We offer great value prices coupled
-								with convenient payment solutions, such as EMIs and partial payment on arrival.
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default" style="border-bottom: 1px solid #e4e4e4;">
-						<div class="panel-heading" role="tab" id="heading6">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="true"
-									aria-controls="collapse6">
-									<span class="mdi mdi-magnify"></span>
-									What is TravelTriangle?
-									<i class="accordion_icon " style="float:right" aria-hidden="true"></i>
-								</a>
-							</h4>
-						</div>
-						<div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
-							<div class="panel-body">
-								TravelTriangle is India’s leading online travel marketplace bringing both the travelers, and trusted
-								&amp; expert travel agents on a common platform. While several other established players in the market
-								have been offering holiday packages, what makes TravelTriangle stand out from the crowd is that it is
-								the only platform which solves the complexity of holiday planning through technology and expertise. On
-								receiving the holiday request, multiple expert travel agents first understand the traveler needs in
-								detail and then provide quote listing the itinerary and price. Each travel agent is personally and
-								methodically verified by us. Their ratings and traveler reviews are also shared with the traveler, so
-								that transparency is maintained. Further, we let the traveler compare the multiple quotes and figure out
-								the best option for himself/herself. The traveler then has the option to customize the holiday package
-								the way he/she wants through call or message on the dashboard itself. We manage the entire fulfilment
-								process ensuring the traveler gets what he/she has been promised. We offer great value prices coupled
-								with convenient payment solutions, such as EMIs and partial payment on arrival.
-							</div>
+						<div class="package-content">
+							<h3>India Gate</h3>
+							<p>Set amidst sprawling lawns, this is a magnificent war memorial honouring Indian soldiers.
+							</p>
 						</div>
 					</div>
 				</div>
+				<!--End single package -->
+
+				<!-- single package start -->
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_delhi/attraction/3.webp"
+									alt="">
+							</a>
+						</div>
+						<div class="package-content">
+							<h3>Qutub Minar</h3>
+								<p>A UNESCO World Heritage site, this iconic 12th-century minaret, the tallest in India, showcases exquisite Indo-Islamic architecture.
+								</p>
+						</div>
+					</div>
+				</div><!-- single package end -->
 			</div>
-		</div>	
-	</section>
 
-	
-
-	<section class="faq-section destination-bg">
-		<div class="container">
 			<div class="row">
-				<div class="col-sm-12">
-					<div class="section-title-version-2-black">
-						<h3>Other Attractions</h3>
+				<!-- single package start -->
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_delhi/attraction/4.webp"
+									alt="">
+							</a>
+						</div>
+						<div class="package-content">
+							<h3>Vishwa Shanti Stupa</h3>
+							<p>A beacon of peace, this white-domed stupa set amidst lush gardens promotes global harmony.
+							</p>
+						</div>
+					</div>
+				</div><!-- single package end -->
+
+				<!-- single package start -->
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_delhi/attraction/5.webp"
+									alt="">
+							</a>
+						</div>
+						<div class="package-content">
+							<h3>Red Fort</h3>
+								<p>Massive red sandstone walls and palatial interiors characterise this grand Mughal fort which is a UNESCO World Heritage.
+								</p>
+						</div>
 					</div>
 				</div>
+				<!--End single package -->
+
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_delhi/attraction/6.webp"
+									alt="">
+							</a>
+						</div>
+						<div class="package-content">
+							<h3>Humayun’s Tomb</h3>
+							<p>This stunning Mughal mausoleum with Persian architecture and symmetrical gardens is considered a precursor to the Taj Mahal.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!--End single package -->
 			</div>
-		</div>	
-		<div class="container">
-			<div class="destination-slider-active owl-carousel">
-				<div class="single-destination">
-					<figure>
-						<a href="#"><img src="../../images/homepage/kol_digha.webp" alt="">
-						</a>
-					</figure>
-					<div class="des-city">
-						<a href="digha.html">Digha</a>
-						<h4>Properties</h4>
+
+			<div class="row">
+				<!-- single package start -->
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_delhi/attraction/7.webp"
+									alt="">
+							</a>
+						</div>
+						<div class="package-content">
+							<h3>Swaminarayan Akshardham Temple</h3>
+							<p>The intricate carvings of this grand temple reflect ancient India's culture, spirituality, and architecture. 
+							</p>
+						</div>
 					</div>
-				</div> <!-- single popular destination  end-->
+				</div>
+				<!--End single package -->
 				
-				<div class="single-destination">
-					<figure>
-						<a href="#"><img src="../../images/homepage/kol_mandar.webp" alt="">
-						</a>
-					</figure>
-					<div class="des-city">
-						<a href="mandarmani.html">Mandarmani</a>
-						<h4>Properties</h4>
+				<!-- single package start -->
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_delhi/attraction/8.webp"
+									alt="">
+							</a>
+						</div>
+						<div class="package-content">
+							<h3>Chhatarpur Temple</h3>
+							<p>Dedicated to Goddess Katyayani, this sprawling temple complex in South Delhi blends traditional and modern architecture.
+							</p>
+						</div>
 					</div>
-				</div> <!-- single popular destination  end-->
+				</div><!-- single package end -->
+
 				
-				<div class="single-destination">
-					<figure>
-						<a href="#"><img src="../../images/homepage/kol_shanti.webp" alt="">
-						</a>
-					</figure>
-					<div class="des-city">
-						<a href="shantiniketan.html">Shantiniketan</a>
-						<h4>Properties</h4>
+
+				<div class="col-md-4 col-sm-6">
+					<div class="single-package">
+						<div class="package-image">
+							<a><img src="../../images/out_delhi/attraction/9.webp"
+									alt="">
+							</a>
+						</div>
+						<div class="package-content">
+							<h3>Lotus Temple</h3>
+							<p>A Bahá'í House of Worship with striking lotus-shaped architecture, promoting unity and peace.
+							</p>
+						</div>
 					</div>
-				</div> <!-- single popular destination  end-->
-				
-				<div class="single-destination">
-					<figure>
-						<a href="#"><img src="../../images/homepage/kol_sundar.webp" alt="">
-						</a>
-					</figure>
-					<div class="des-city">
-						<a href="sundarbans.html">Sundarban</a>
-						<h4>Properties</h4>
-					</div>
-				</div> <!-- single popular destination  end-->
+				</div>
+				<!--End single package -->
 			</div>
 		</div>
 	</section>
 
-	<section class="blog-contents-version-one destination-bg faq-section">
+	<section class="section-margins blog-contents-version-one destination-bg faq-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -1771,63 +1332,19 @@
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<div class="single-travel-blog">
 						<div class="blog-image">
-							<a href="#"><img src="https://placeholder.co/360x265" alt="">
+							<a href="https://blog.kkavionholidayworld.com/how-to-spend-a-day-out-in-new-delhi/#:~:text=How%20to%20spend%20a%20day%20out%20in%20New%20Delhi"><img src="../../images/blog//outskirts_delhi.webp" alt="">
 							</a>
 						</div>
 						<div class="blog-content">
 							<div class="blog-meta">
 								<div class="post-date">
-									<a href="#"><span>12 July, 2018</span></a>
+									<a href="#"><span>9 October, 2024</span></a>
 								</div>
 							</div>
 							<div class="blog-post-content">
-								<a href="#"><h4>Tips for taking a long-term trip with kids.</h4></a>
-								<p>Lorem ipsum dolor sit amet consepctetur adipiscing elit Etiam at ipsum at ligula vestibulum sodales Sed luctus.</p>
-								<a href="../../blogpost/blog-one.html">Read More <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div><!-- single travel guide & security end-->
-	
-				<!-- single travel blog-->
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="single-travel-blog">
-						<div class="blog-image">
-							<a href="#"><img src="https://placeholder.co/360x265" alt="">
-							</a>
-						</div>
-						<div class="blog-content">
-							<div class="blog-meta">
-								<div class="post-date">
-									<a href="#"><span>12 July, 2018</span></a>
-								</div>
-							</div>
-							<div class="blog-post-content">
-								<a href="#"><h4>Tips for taking a long-term trip with kids.</h4></a>
-								<p>Lorem ipsum dolor sit amet consepctetur adipiscing elit Etiam at ipsum at ligula vestibulum sodales Sed luctus.</p>
-								<a href="../../blogpost/blog-one.html">Read More <i class="fa fa-angle-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div><!-- single travel guide & security end-->
-	
-				<!-- single travel blog-->
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="single-travel-blog">
-						<div class="blog-image">
-							<a href="#"><img src="https://placeholder.co/360x265" alt="">
-							</a>
-						</div>
-						<div class="blog-content">
-							<div class="blog-meta">
-								<div class="post-date">
-									<a href="#"><span>12 July, 2018</span></a>
-								</div>
-							</div>
-							<div class="blog-post-content">
-								<a href="#"><h4>Tips for taking a long-term trip with kids.</h4></a>
-								<p>Lorem ipsum dolor sit amet consepctetur adipiscing elit Etiam at ipsum at ligula vestibulum sodales Sed luctus.</p>
-								<a href="../../blogpost/blog-one.html">Read More <i class="fa fa-angle-right"></i></a>
+								<a href="#"><h4>How to spend a day out in New Delhi</h4></a>
+								<p>From natural havens to cultural explosions, New Delhi is where you find both the furious energy of life and a serene ...</p>
+								<a href="https://blog.kkavionholidayworld.com/how-to-spend-a-day-out-in-new-delhi/#:~:text=How%20to%20spend%20a%20day%20out%20in%20New%20Delhi">Read More <i class="fa fa-angle-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -1836,7 +1353,7 @@
 		</div>
 	</section>
 
-	<section class="faq-section destination-bg">
+	<section class="section-margins faq-section destination-bg">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -1850,51 +1367,50 @@
 			<div class="destination-slider-active owl-carousel">
 				<div class="single-destination">
 					<figure>
-						<a href="#"><img src="../../images/homepage/kol_digha.webp" alt="">
+						<a href="#"><img src="../../images/homepage/delhi_agra.webp" alt="">
 						</a>
 					</figure>
 					<div class="des-city">
-						<a href="digha.html">Digha</a>
-						<h4>Properties</h4>
+						<a href="agra.html">Agra</a>
+						
 					</div>
 				</div> <!-- single popular destination  end-->
 				
 				<div class="single-destination">
 					<figure>
-						<a href="#"><img src="../../images/homepage/kol_mandar.webp" alt="">
+						<a href="#"><img src="../../images/homepage/delhi_alwar.webp" alt="">
 						</a>
 					</figure>
 					<div class="des-city">
-						<a href="mandarmani.html">Mandarmani</a>
-						<h4>Properties</h4>
+						<a href="alwar.html">Alwar</a>
+						
 					</div>
 				</div> <!-- single popular destination  end-->
 				
 				<div class="single-destination">
 					<figure>
-						<a href="#"><img src="../../images/homepage/kol_shanti.webp" alt="">
+						<a href="#"><img src="../../images/homepage/delhi_bharatpur.webp" alt="">
 						</a>
 					</figure>
 					<div class="des-city">
-						<a href="shantiniketan.html">Shantiniketan</a>
-						<h4>Properties</h4>
+						<a href="bharatpur.html">Bharatpur</a>
+						
 					</div>
 				</div> <!-- single popular destination  end-->
 				
 				<div class="single-destination">
 					<figure>
-						<a href="#"><img src="../../images/homepage/kol_sundar.webp" alt="">
+						<a href="#"><img src="../../images/homepage/delhi_sariska.webp" alt="">
 						</a>
 					</figure>
 					<div class="des-city">
-						<a href="sundarbans.html">Sundarban</a>
-						<h4>Properties</h4>
+						<a href="sariska.html">Sariska</a>
+						
 					</div>
 				</div> <!-- single popular destination  end-->
 			</div>
 		</div>
 	</section>
-
 
 	<section class="discount-package" style="margin: 0;">
 		<div id="adslide" class="carousel slide" >
@@ -1912,38 +1428,38 @@
 			<div class="carousel-inner">
 				<div class="item active">
 					<a href="#">
-						<img class="img1" src="../../images/poster2/brandtfr.webp" style="width:100%; height:100%;">
-						<img class="img2" src="../../images/poster-mobile/brandtfr.webp" style="width:100%; height:100%;">
+						<img class="img1" src="../../images/poster1/mountabu.webp" style="width:100%; height:100%;">
+						<img class="img2" src="../../images/poster-mobile/mountabu.webp" style="width:100%; height:100%;">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#">
-						<img class="img1" src="../../images/poster2/brandvedic.webp" style="width:100%; height:100%;">
-						<img class="img2" src="../../images/poster-mobile/brandvedic.webp" style="width:100%; height:100%;">
+						<img class="img1" src="../../images/poster1/udaipur.webp" style="width:100%; height:100%;">
+						<img class="img2" src="../../images/poster-mobile/udaipur.webp" style="width:100%; height:100%;">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#">
-						<img class="img1" src="../../images/poster2/brandamaya.webp" style="width:100%; height:100%;">
-						<img class="img2" src="../../images/poster-mobile/brandamaya.webp" style="width:100%; height:100%;">
+						<img class="img1" src="../../images/poster1/agra2.webp" style="width:100%; height:100%;">
+						<img class="img2" src="../../images/poster-mobile/agra2.webp" style="width:100%; height:100%;">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#">
-						<img class="img1" src="../../images/poster2/brandfortune.webp" style="width:100%; height:100%;">
-						<img class="img2" src="../../images/poster-mobile/brandfortune.webp" style="width:100%; height:100%;">
+						<img class="img1" src="../../images/poster1/alwar.webp" style="width:100%; height:100%;">
+						<img class="img2" src="../../images/poster-mobile/alwar.webp" style="width:100%; height:100%;">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#">
-						<img class="img1" src="../../images/poster2/brandibiza.webp" style="width:100%; height:100%;">
-						<img class="img2" src="../../images/poster-mobile/brandibiza.webp" style="width:100%; height:100%;">
+						<img class="img1" src="../../images/poster1/bharatpur.webp" style="width:100%; height:100%;">
+						<img class="img2" src="../../images/poster-mobile/bharatpur.webp" style="width:100%; height:100%;">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#">
-						<img class="img1" src="../../images/poster2/brandrajbadi.webp" style="width:100%; height:100%;">
-						<img class="img2" src="../../images/poster-mobile/brandrajbadi.webp" style="width:100%; height:100%;">
+						<img class="img1" src="../../images/poster1/sariska.webp" style="width:100%; height:100%;">
+						<img class="img2" src="../../images/poster-mobile/sariska.webp" style="width:100%; height:100%;">
 					</a>
 				</div>
 			</div>
@@ -2017,8 +1533,6 @@
 									<a href="../../surprise-holiday-tab.html">Surprise Holiday
 									</a> I
 									<a href="../../sale-tab.html">Holiday Sale
-									</a> I
-									<a href="../../getaway/kolkata/sale-tab2.html">HS2
 									</a>
 								</li>
 								<li>
@@ -2174,7 +1688,7 @@
 	<!-- main js -->
 	<script src="../../js/custom.js"></script>
 	<script>
-		window.onload = function () {outskirtsFilt1()}}}}};
+		window.onload = function() {filterHome(2)};
 		// When the user scrolls the page, execute myFunction
 		window.onscroll = function () { myFunction() };
 

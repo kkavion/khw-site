@@ -71,7 +71,7 @@
 	</script>
 </head>
 
-<body class="getaway-page" onselectstart="return false">
+<body class="getaway-page">
 	<!-- Preloader -->
 	<div id="preloader">
 		<div id="status">&nbsp;</div>
@@ -102,39 +102,39 @@
 						<div class="col-md-10 col-sm-10">
 							<nav>
 								<ul class="main-menu text-right">
-									<li><a href="../../getaway.html" onselectstart="return false">Destination</a></li>
+									<li><a href="../../getaway.html">Destination</a></li>
 									<li>
-										<a onselectstart="return false">Offer</a>
+										<a>Offer</a>
 										<ul class="dropdown2 main-menu2">
 											<div class="row">
-												<li class="col-md-1 dropdown-text"><a href="../../getaway/kolkata/day-out-tab.html" onselectstart="return false">Day Out</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../offer-tab.html" onselectstart="return false">Domestic Offers</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../getaway/0template/offer-temp.html" onselectstart="return false">International Offers</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../getaway/kolkata/day-out-tab.html">Day Out</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../offer-tab.html">Domestic Offers</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../getaway/0template/offer-temp.html">International Offers</a></li>
 											</div>
 										</ul>
 									</li>
-									<li><a onselectstart="return false" href="../../bidnwin.html">Bid & Win</a></li>
-									<li><a onselectstart="return false" href="../../interest.html">Interest</a></li>
-									<li><a onselectstart="return false" href="../../getaway/kolkata/resorts-tab.html">Resort</a></li>
+									<li><a href="../../bidnwin.html">Bid & Win</a></li>
+									<li><a href="../../interest.html">Interest</a></li>
+									<li class="active"><a href="../../getaway/kolkata/resorts-tab.html">Resort</a></li>
 									<li>
-										<a onselectstart="return false">Indulge</a>
+										<a>Indulge</a>
 										<ul class="dropdown2 main-menu2">
 											<div class="row">
-												<li class="col-md-1 dropdown-text"><a href="../../bargain-holiday-tab.html" onselectstart="return false">Bargain Holiday</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../surprise-holiday-tab.html" onselectstart="return false">Surprise Holiday</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../sale-tab.html" onselectstart="return false">Holiday Sale</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../bargain-holiday-tab.html">Bargain Holiday</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../surprise-holiday-tab.html">Surprise Holiday</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../sale-tab.html">Holiday Sale</a></li>
 											</div>
 										</ul>
 									</li>
-									<li><a href="../../encircle.html" onselectstart="return false">Encircle</a></li>
-									<li><a onselectstart="return false" href="../../blog.html">Experience</a></li>
+									<li><a href="../../encircle.html">Encircle</a></li>
+									<li><a href="../../blog.html">Experience</a></li>
 									<li>
-										<a onselectstart="return false">Query</a>
+										<a>Query</a>
 										<ul class="dropdown3 main-menu2">
 											<div class="row">
-												<li class="col-md-1 dropdown-text"><a href="../../form-leisure.html" onselectstart="return false">Leisure</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../form-wedding.html" onselectstart="return false">Wedding</a></li>
-												<li class="col-md-1 dropdown-text"><a href="../../form-conference.html" onselectstart="return false">Conference</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../form-leisure.html">Leisure</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../form-wedding.html">Wedding</a></li>
+												<li class="col-md-1 dropdown-text"><a href="../../form-conference.html">Conference</a></li>
 											</div>
 										</ul>
 									</li>
@@ -183,13 +183,8 @@
 				<div class="row bg-gradent">
 					<form id="filter">
 						<div class="form-group">
-							<select class="form-control" id="zone-type">
-								<option hidden>Destination Type</option>
-							</select>
-						</div>
-						<div class="form-group">
-							<select class="form-control" id="destination-name">
-								<option hidden>Destination Name</option>
+							<select class="form-control" id="zone-name">
+								<option hidden>Zone Name</option>
 							</select>
 						</div>
 					</form>
@@ -225,11 +220,11 @@
 						<li role="presentation" class=""><a href="#indore" aria-controls="indore" role="tab"
 								data-toggle="tab">Indore</a>
 						</li>
-						<li role="presentation" class=""><a href="#ujjain" aria-controls="ujjain" role="tab"
-								data-toggle="tab">Ujjain</a>
-						</li>
 						<li role="presentation" class=""><a href="#panchmarhi" aria-controls="panchmarhi" role="tab"
 								data-toggle="tab">Panchmarhi</a>
+						</li>
+						<li role="presentation" class=""><a href="#ujjain" aria-controls="ujjain" role="tab"
+								data-toggle="tab">Ujjain</a>
 						</li>
 					</ul>
 				</div><!-- tab menu end -->
@@ -239,12 +234,10 @@
 			<div class="tab-content">
 				<div role="tabpanel" class="tab-pane fade in active" id="outskirts">
 					<section class="discount-package">
-						<div id="ad1" class="carousel slide" 
-							style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
+						<div id="ad1" class="carousel slide" style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
 							<!-- Indicators -->
 							<ol class="carousel-indicators">
-								<li data-target="#ad" data-slide-to="0" class="active">
-								</li>
+								<li data-target="#ad1" data-slide-to="0" class="active"></li>
 								<li data-target="#ad1" data-slide-to="1" class=""></li>
 								<li data-target="#ad1" data-slide-to="2" class=""></li>
 								<li data-target="#ad1" data-slide-to="3" class=""></li>
@@ -255,44 +248,40 @@
 							<!-- Wrapper for slides -->
 							<div class="carousel-inner">
 								<div class="item active">
-									<a>
-										<img class="img1" src="../../images/poster1/offertfr.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/restfr.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
-								</div>
-								<div class="item">
 									<a href="#">
-										<img class="img1" src="../../images/poster1/offervedic1.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resvedic.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
+										<img class="img1" src="../../images/poster1/indore.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/indore.webp" style="width:100%; height:100%;">
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img class="img1" src="../../images/poster1/offeramaya.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resamaya.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
+										<img class="img1" src="../../images/poster1/ujjain.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/ujjain.webp" style="width:100%; height:100%;">
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img class="img1" src="../../images/poster1/offerfortune.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resfortune.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
+										<img class="img1" src="../../images/poster1/panchmarhi.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/panchmarhi.webp" style="width:100%; height:100%;">
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img class="img1" src="../../images/poster1/offerrajbadi.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resrajbadi.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
+										<img class="img1" src="../../images/poster1/kanha.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/kanha.webp" style="width:100%; height:100%;">
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img class="img1" src="../../images/poster1/offeribiza.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resibiza.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
+										<img class="img1" src="../../images/poster1/pench.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/pench.webp" style="width:100%; height:100%;">
+									</a>
+								</div>
+								<div class="item">
+									<a href="#">
+										<img class="img1" src="../../images/poster1/sariska.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/sariska.webp" style="width:100%; height:100%;">
+									</a>
 								</div>
 							</div>
 							<a class="left carousel-control" href="#ad1" data-slide="prev">
@@ -312,52 +301,20 @@
 							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
 								<div class="single-destionation-5">
 									<div class="destination-5-image">
-										<a href="#"><img src="../../images/out-gk/facade1.webp" alt=""></a>
+										<a href="#"><img src="../../images/out_bhopal/jehanpalace/1.webp" alt=""></a>
 									</div>
 									<div class="destination-5-description">
 										
-										<h3>Royal Orchid Resort</h3>
-										<p title="5 star">Airport Rd | Resort | Premium</span>										
+										<h3>Jehan Numa Palace Hotel</h3>
+										<p title="5 star">Shamla Hills | Hotel | Premium</span>										
 										<div class="amenities-row">
 											<span class="material-icons" title="Swimming Pool">pool</span>
-											<span class="material-icons mdi mdi-cricket" title="Games"></span>
+											<span class="material-icons" title="Gym">fitness_center</span>
 											<span class="material-icons" title="Spa">spa</span>
 											<span class="material-icons" title="Restaurant">restaurant</span>
 											<span class="material-icons" title="Bar">local_bar</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 20%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-										<a href="../../properties/kolkata/outskirts/resort-page-gk.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/out-amaya/pool1.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>The Golden Palm</h3>
-										<p title="5 star">Dasanpura | Resort | Premium</span>										
-										<div class="amenities-row">
-											<span class="material-icons" title="Swimming Pool">pool</span>
-											<span class="material-icons mdi mdi-cricket" title="Games"></span>
-											<span class="material-icons" title="Spa">spa</span>
-											<span class="material-icons" title="Restaurant">restaurant</span>
-											<span class="material-icons" title="Bar">local_bar</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<br>
 											<div class="stars">
 												<div>													
 													<i class="fa fa-star"></i>
@@ -370,51 +327,9 @@
 											</div>
 										</div>
 										<p>Starts @ <span> &#8377
-											0,000/-</span>
+											7,750/-</span>
 										</p>
-											</li>
-										</ul>
-										<a href="../../properties/kolkata/outskirts/resort-page-amaya.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-						</div>
-
-						<!--Standard starts-->
-						<h3>Standard</h3>
-						<div class="row">
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/out-vedic/pool1.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Angsana Oasis</h3>
-										<p title="5 star">NW County | Resort | Standard</span>										
-										<div class="amenities-row">
-											<span class="material-icons" title="Swimming Pool">pool</span>
-											<span class="material-icons mdi mdi-cricket" title="Games"></span>
-											<span class="material-icons" title="Spa">spa</span>
-											<span class="material-icons" title="Restaurant">restaurant</span>
-											<span class="material-icons" title="Bar">local_bar</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 20%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/kolkata/outskirts/resort-page-vv.html" class="travel-primary-btn">Explore</a>
+										<a href="https://www.jehannuma.com/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
 									</div>
 								</div>
 							</div><!--End single destination -->
@@ -422,18 +337,20 @@
 							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
 								<div class="single-destionation-5">
 									<div class="destination-5-image">
-										<a href="#"><img src="../../images/out-fortune/facade1.webp" alt=""></a>
+										<a href="#"><img src="../../images/out_bhopal/jehannuma/1.webp" alt=""></a>
 									</div>
 									<div class="destination-5-description">
 										
-										<h3>Clarks Exotica Resort and Spa</h3>
-										<p title="4 star">Swiss Town | Resort | Standard</span>										
+										<h3>Jehan Numa Retreat</h3>
+										<p title="5 star">Van Vihar | Hotel | Premium</span>										
 										<div class="amenities-row">
 											<span class="material-icons" title="Swimming Pool">pool</span>
-											<span class="material-icons mdi mdi-cricket" title="Games"></span>
+											<span class="material-icons" title="Gym">fitness_center</span>
+											<span class="material-icons" title="Indoor Games">games</span>
 											<span class="material-icons" title="Spa">spa</span>
 											<span class="material-icons" title="Restaurant">restaurant</span>
 											<span class="material-icons" title="Bar">local_bar</span>
+											<br>
 											<div class="stars">
 												<div>													
 													<i class="fa fa-star"></i>
@@ -441,88 +358,16 @@
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 50%;"></div>
+													<div class="cover" style="width: 0%;"></div>
 												</div>
 											</div>
 										</div>
 										<p>Starts @ <span> &#8377
-											0,000/-</span>
+											12,500/-</span>
 										</p>
 											</li>
 										</ul>
-										<a href="../../properties/kolkata/outskirts/resort-page-fpp.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/out-tfr/facade1.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<a href="#"></a><h3>Guhantara Resort</h3></a>
-										<p title="4 star">Guhantara | Resort | Standard</span>										
-										<div class="amenities-row">
-											<span class="material-icons" title="Swimming Pool">pool</span>
-											<span class="material-icons mdi mdi-cricket" title="Games"></span>
-											<span class="material-icons" title="Spa">spa</span>
-											<span class="material-icons" title="Restaurant">restaurant</span>
-											<span class="material-icons" title="Bar">local_bar</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 20%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/kolkata/outskirts/resort-page-tfr.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/out-rajbari/facade1.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Windflower Prakruthi</h3>
-										<p title="4 star">Hegganahalli | Resort | Standard</span>										
-										<div class="amenities-row">
-											<span class="material-icons" title="Swimming Pool">pool</span>
-											<span class="material-icons mdi mdi-cricket" title="Games"></span>
-											<span class="material-icons" title="Spa">spa</span>
-											<span class="material-icons" title="Restaurant">restaurant</span>
-											<span class="material-icons" title="Bar">local_bar</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 8.5%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/kolkata/outskirts/resort-page-rb.html" class="travel-primary-btn">Explore</a>
+										<a href="https://www.jehannuma.com/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
 									</div>
 								</div>
 							</div><!--End single destination -->
@@ -534,18 +379,20 @@
 							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
 								<div class="single-destionation-5">
 									<div class="destination-5-image">
-										<a href="#"><img src="../../images/out-countryroad/pool2.webp" alt=""></a>
+										<a href="#"><img src="../../images/out_bhopal/kerwa/1.webp" alt=""></a>
 									</div>
 									<div class="destination-5-description">
 										
-										<h3>Bheemeshwar Camp</h3>
-										<p title="3 star">Bheemeshwari | Resort | Economy</span>										
+										<h3>Kerwa Jungle Resort</h3>
+										<p title="3 star">Hadbhada Road | Resort | Economy</span>										
 										<div class="amenities-row">
 											<span class="material-icons" title="Swimming Pool">pool</span>
-											<span class="material-icons mdi mdi-cricket" title="Games"></span>
+											<span class="material-icons" title="Gym">fitness_center</span>
+											<span class="material-icons" title="Indoor Games">games</span>
 											<span class="material-icons" title="Spa">spa</span>
 											<span class="material-icons" title="Restaurant">restaurant</span>
 											<span class="material-icons" title="Bar">local_bar</span>
+											<br>
 											<div class="stars">
 												<div>													
 													<i class="fa fa-star"></i>
@@ -558,11 +405,11 @@
 											</div>
 										</div>
 										<p>Starts @ <span> &#8377
-											0,000/-</span>
+											6,149/-</span>
 										</p>
 											</li>
 										</ul>
-										<a href="../../properties/kolkata/outskirts/resort-page-cr.html" class="travel-primary-btn">Explore</a>
+										<a href="https://mpstdc.com/accommodation/Bhopal/MPT-Palash-Residency-Bhopal"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
 									</div>
 								</div>
 							</div><!--End single destination -->
@@ -570,18 +417,20 @@
 							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
 								<div class="single-destionation-5">
 									<div class="destination-5-image">
-										<a href="#"><img src="../../images/out-hotelsonar/facade1.webp" alt=""></a>
+										<a href="#"><img src="../../images/out_bhopal/ratnapani/1.webp" alt=""></a>
 									</div>
 									<div class="destination-5-description">
 										
-										<h3>Galibore Nature Camp</h3>
-										<p title="3 star">Uyamballi Post | Resort | Economy</span>										
+										<h3>Ratapani Jungle Lodge</h3>
+										<p title="3 star">Kolar Dam | Lodge | Economy</span>										
 										<div class="amenities-row">
-											<span class="material-icons" title="Swimming Pool">pool</span>
-											<span class="material-icons mdi mdi-cricket" title="Games"></span>
+											<span class="material-icons" title="Gym">fitness_center</span>
+											<span class="material-icons" title="Indoor Games">games</span>
 											<span class="material-icons" title="Spa">spa</span>
 											<span class="material-icons" title="Restaurant">restaurant</span>
 											<span class="material-icons" title="Bar">local_bar</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<br>
 											<div class="stars">
 												<div>													
 													<i class="fa fa-star"></i>
@@ -589,33 +438,40 @@
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 8.5%;"></div>
+													<div class="cover" style="width: 28.5%;"></div>
 												</div>
 											</div>
 										</div>
 										<p>Starts @ <span> &#8377
-											0,000/-</span>
+											6,300/-</span>
 										</p>
-										<a href="../../properties/kolkata/outskirts/resort-page-hsb.html" class="travel-primary-btn">Explore</a>
+										<a href="https://ratapani.in/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
 									</div>
 								</div>
 							</div><!--End single destination -->
+						</div>
+
+						<!--Economy starts-->
+						<h3>Boutique</h3>
+						<div class="row">
 						
 							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
 								<div class="single-destionation-5">
 									<div class="destination-5-image">
-										<a href="#"><img src="../../images/out-ibiza/facade1.webp" alt=""></a>
+										<a href="#"><img src="../../images/out_bhopal/samardha/1.webp" alt=""></a>
 									</div>
 									<div class="destination-5-description">
 										
-										<h3>Shilhaandara Resort</h3>
-										<p title="3 star">Shilhaandara | Resort | Economy </span>										
+										<h3>Samardha Jungle Resort</h3>
+										<p title="3 star">Raisen Road | Resort | Boutique </span>										
 										<div class="amenities-row">
 											<span class="material-icons" title="Swimming Pool">pool</span>
-											<span class="material-icons mdi mdi-cricket" title="Games"></span>
+											<span class="material-icons" title="Gym">fitness_center</span>
 											<span class="material-icons" title="Spa">spa</span>
 											<span class="material-icons" title="Restaurant">restaurant</span>
 											<span class="material-icons" title="Bar">local_bar</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<br>
 											<div class="stars">
 												<div>													
 													<i class="fa fa-star"></i>
@@ -623,16 +479,16 @@
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 20%;"></div>
+													<div class="cover" style="width: 40%;"></div>
 												</div>
 											</div>
 										</div>
 										<p>Starts @ <span> &#8377
-											0,000/-</span>
+											3,000/-</span>
 										</p>
 											</li>
 										</ul>
-										<a href="../../properties/kolkata/outskirts/resort-page-ibiza.html" class="travel-primary-btn">Explore</a>
+										<a href="https://samardhajungleresort.in/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
 									</div>
 								</div>
 							</div><!--End single destination -->
@@ -642,12 +498,10 @@
 
 				<div role="tabpanel" class="tab-pane fade" id="indore">
 					<section class="discount-package">
-						<div id="ad2" class="carousel slide" 
-							style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
+						<div id="ad2" class="carousel slide" style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
 							<!-- Indicators -->
 							<ol class="carousel-indicators">
-								<li data-target="#ad2" data-slide-to="0" class="active">
-								</li>
+								<li data-target="#ad2" data-slide-to="0" class="active"></li>
 								<li data-target="#ad2" data-slide-to="1" class=""></li>
 								<li data-target="#ad2" data-slide-to="2" class=""></li>
 								<li data-target="#ad2" data-slide-to="3" class=""></li>
@@ -658,44 +512,40 @@
 							<!-- Wrapper for slides -->
 							<div class="carousel-inner">
 								<div class="item active">
-									<a>
-										<img class="img1" src="../../images/poster1/offertfr.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/restfr.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
-								</div>
-								<div class="item">
 									<a href="#">
-										<img class="img1" src="../../images/poster1/offervedic1.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resvedic.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
+										<img class="img1" src="../../images/poster1/indore.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/indore.webp" style="width:100%; height:100%;">
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img class="img1" src="../../images/poster1/offeramaya.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resamaya.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
+										<img class="img1" src="../../images/poster1/ujjain.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/ujjain.webp" style="width:100%; height:100%;">
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img class="img1" src="../../images/poster1/offerfortune.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resfortune.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
+										<img class="img1" src="../../images/poster1/panchmarhi.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/panchmarhi.webp" style="width:100%; height:100%;">
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img class="img1" src="../../images/poster1/offerrajbadi.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resrajbadi.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
+										<img class="img1" src="../../images/poster1/kanha.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/kanha.webp" style="width:100%; height:100%;">
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img class="img1" src="../../images/poster1/offeribiza.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resibiza.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
+										<img class="img1" src="../../images/poster1/pench.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/pench.webp" style="width:100%; height:100%;">
+									</a>
+								</div>
+								<div class="item">
+									<a href="#">
+										<img class="img1" src="../../images/poster1/sariska.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/sariska.webp" style="width:100%; height:100%;">
+									</a>
 								</div>
 							</div>
 							<a class="left carousel-control" href="#ad2" data-slide="prev">
@@ -709,847 +559,406 @@
 						</div>
 					</section>
 					<section class="top-destination-area top-destination-area-5">
-						<!--Luxury starts-->
-						<h3>Luxury</h3>
+						<div>
+							<h3>Luxury</h3>
+						</div>
 						<div class="row">
+							<!-- single destination -->
 							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
 								<div class="single-destionation-5">
 									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-hotelsonar/facade2.webp" alt=""></a>
+										<a href="#"><img src="../../images/indore/radisson/1.webp" alt=""></a>
 									</div>
 									<div class="destination-5-description">
-										
 										<h3>Radisson Blu Hotel</h3>
-										<p title="3 star">12 Scheme | Hotel | Luxury</span>										
+										<p title="3 star">Hotel | Luxury | 12 Scheme</span>
 										<div class="amenities-row">
 											<span class="material-icons" title="Infinity Pool">pool</span>
 											<span class="material-icons" title="Gym">fitness_center</span>
+											<span class="material-icons" title="Indoor Games">games</span>
 											<span class="material-icons" title="Spa">spa</span>
 											<span class="material-icons" title="Restaurant">restaurant</span>
 											<span class="material-icons" title="Bar">local_bar</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 8.5%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Hassan/resort-page-sundarhotelsonar.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-tigercamp/room1.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>WOW Hotel</h3>
-										<p title="3 star">Rasoma | Hotel | Luxury</span>										
-											<div class="amenities-row">
-												<span class="material-icons" title="Restaurant">restaurant</span>
-												<span class="material-icons" title="Room Service">room_service</span>
-												<span class="material-icons" title="Bar">local_bar</span>
-												<span class="material-icons" title="Wi-Fi">wifi</span>
-												<span class="material-icons" title="Parking">local_parking</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 8.5%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-										<a href="../../properties/Hassan/resort-page-tigercamp.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-						</div>
-
-						<!--Premium starts-->
-						<h3>Premium</h3>
-						<div class="row">
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-gramerbari/facade1.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Sayaji Indore</h3>
-										<p>Vijay Nagar | Hotel | Premium</span>										
-										<div class="amenities-row">
-											<span class="material-icons" title="Swimming Pool">pool</span>
-											<span class="material-icons mdi mdi-cricket" title="Games"></span>
-											<span class="material-icons" title="Spa">spa</span>
-											<span class="material-icons" title="Restaurant">restaurant</span>
-											<span class="material-icons" title="Bar">local_bar</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 0%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-										<a href="../../properties/Hassan/resort-page-gramerbari.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-royalwild/facade2.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Best Western Plus</h3>
-										<p>Rasoma | Hotel | Premium</span>										
-											<div class="amenities-row">
-												<span class="material-icons" title="Restaurant">restaurant</span>
-												<span class="material-icons" title="Room Service">room_service</span>
-												<span class="material-icons" title="Bar">local_bar</span>
-												<span class="material-icons" title="Wi-Fi">wifi</span>
-												<span class="material-icons" title="Parking">local_parking</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 20%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Hassan/resort-page-royalwild.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Chokhi Dhani</h3>
-										<p>Khandava | Resort | Premium</span>										
-										<div class="amenities-row">
-											<span class="material-icons" title="Gym">fitness_center</span>
-											<span class="material-icons" title="Spa">spa</span>
-											<span class="material-icons" title="Restaurant">restaurant</span>
-											<span class="material-icons" title="Bar">local_bar</span>
-											<span class="material-icons" title="Room Service">room_service</span>
-											<span class="material-icons" title="Parking">local_parking</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 28.5%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Hassan/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Sheraton Grand Palace </h3>
-										<p>Bypass Rd | Resort | Premium</span>										
-										
-											<div class="amenities-row">
-												<span class="material-icons" title="Infinity Pool">pool</span>
-												<span class="material-icons" title="Gym">fitness_center</span>
-												<span class="material-icons" title="Indoor Games">games</span>
-												<span class="material-icons" title="Spa">spa</span>
-												<span class="material-icons" title="Restaurant">restaurant</span>
-												<span class="material-icons" title="Bar">local_bar</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 0%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Hassan/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-						</div>
-
-						<!--Standard starts-->
-						<h3>Standard</h3>
-						<div class="row">
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Hotel Amrit Residency</h3>
-										<p>Tukoganj | Hotel | Standard</span>										
-										
-											
-										<div class="amenities-row">
-											<span class="material-icons" title="Restaurant">restaurant</span>
 											<span class="material-icons" title="Room Service">room_service</span>
 											<span class="material-icons" title="Wi-Fi">wifi</span>
 											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
 											<div class="stars">
-												<div>													
+												<div>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 20%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Hassan/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>The Red Maple Hill </h3>
-										<p>Rasalpura | Hotel | Standard</span>										
-										
-											<div class="amenities-row">
-												<span class="material-icons" title="Infinity Pool">pool</span>
-												<span class="material-icons" title="Gym">fitness_center</span>
-												<span class="material-icons" title="Indoor Games">games</span>
-												<span class="material-icons" title="Spa">spa</span>
-												<span class="material-icons" title="Restaurant">restaurant</span>
-												<span class="material-icons" title="Bar">local_bar</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 20%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Hassan/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Hotel Shreemaya</h3>
-										<p>RT Marg | Hotel | Standard</span>										
-										
-											<div class="amenities-row">
-												<span class="material-icons" title="Restaurant">restaurant</span>
-												<span class="material-icons" title="Bar">local_bar</span>
-												<span class="material-icons" title="Room Service">room_service</span>
-												<span class="material-icons" title="Wi-Fi">wifi</span>
-												<span class="material-icons" title="Parking">local_parking</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 20%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Hassan/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Hotel Paradise</h3>
-										<p>BCM Heights | Hotel | Standard</span>										
-										
-											<div class="amenities-row">
-												<span class="material-icons" title="Restaurant">restaurant</span>
-												<span class="material-icons" title="Room Service">room_service</span>
-												<span class="material-icons" title="Parking">local_parking</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 8.5%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Hassan/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-						</div>
-						<div class="row">
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Hotel Prashant</h3>
-										<p>Navlakha | Hotel | Standard</span>										
-										
-											<div class="amenities-row">
-												<span class="material-icons" title="Restaurant">restaurant</span>
-												<span class="material-icons" title="Room Service">room_service</span>
-												<span class="material-icons" title="Wi-Fi">wifi</span>
-												<span class="material-icons" title="Parking">local_parking</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 0%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Hassan/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-						</div>
-					</section>
-				</div>
-
-				<div role="tabpanel" class="tab-pane fade" id="ujjain">
-					<section class="discount-package">
-						<div id="ad3" class="carousel slide" 
-							style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
-							<!-- Indicators -->
-							<ol class="carousel-indicators">
-								<li data-target="#ad3" data-slide-to="0" class="active">
-								</li>
-								<li data-target="#ad3" data-slide-to="1" class=""></li>
-								<li data-target="#ad3" data-slide-to="2" class=""></li>
-								<li data-target="#ad3" data-slide-to="3" class=""></li>
-								<li data-target="#ad3" data-slide-to="4" class=""></li>
-								<li data-target="#ad3" data-slide-to="5" class=""></li>
-							</ol>
-
-							<!-- Wrapper for slides -->
-							<div class="carousel-inner">
-								<div class="item active">
-									<a>
-										<img class="img1" src="../../images/poster1/offertfr.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/restfr.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
-								</div>
-								<div class="item">
-									<a href="#">
-										<img class="img1" src="../../images/poster1/offervedic1.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resvedic.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
-									</a>
-								</div>
-								<div class="item">
-									<a href="#">
-										<img class="img1" src="../../images/poster1/offeramaya.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resamaya.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
-									</a>
-								</div>
-								<div class="item">
-									<a href="#">
-										<img class="img1" src="../../images/poster1/offerfortune.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resfortune.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
-									</a>
-								</div>
-								<div class="item">
-									<a href="#">
-										<img class="img1" src="../../images/poster1/offerrajbadi.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resrajbadi.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
-									</a>
-								</div>
-								<div class="item">
-									<a href="#">
-										<img class="img1" src="../../images/poster1/offeribiza.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resibiza.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
-								</div>
-							</div>
-							<a class="left carousel-control" href="#ad3" data-slide="prev">
-								<span class="mdi mdi-chevron-left"></span>
-								<span class="sr-only">Previous</span>
-							</a>
-							<a class="right carousel-control" href="#ad3" data-slide="next">
-								<span class="mdi mdi-chevron-right"></span>
-								<span class="sr-only">Next</span>
-							</a>
-						</div>
-					</section>
-					<section class="top-destination-area top-destination-area-5">
-						<!--Premium starts-->
-						<h3>Premium</h3>
-						<div class="row">
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-hotelsonar/facade2.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Rudraksh Club & Resorts</h3>
-										<p title="3 star">Triveni | Resort | Premium</span>										
-											<div class="amenities-row">
-												<span class="material-icons" title="Infinity Pool">pool</span>
-												<span class="material-icons" title="Gym">fitness_center</span>
-												<span class="material-icons" title="Spa">spa</span>
-												<span class="material-icons" title="Restaurant">restaurant</span>
-												<span class="material-icons" title="Bar">local_bar</span>
-												<div class="stars">
-													<div>													
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<div class="cover" style="width: 8.5%;"></div>
+													<div class="cover" style="width: 18.5%;">
 													</div>
 												</div>
 											</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Mysuru/resort-page-sundarhotelsonar.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-						</div>
-
-						<!--Standard starts-->
-						<h3>Standard</h3>
-						<div class="row">
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-tigercamp/room1.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Hotel Abika Elite</h3>
-										<p title="3 star">NA Marg | Hotel | Standard</span>										
-										<div class="amenities-row">
-											<span class="material-icons" title="Restaurant">restaurant</span>
-											<span class="material-icons" title="Room Service">room_service</span>
-											<span class="material-icons" title="Parking">local_parking</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 0%;"></div>
-												</div>
-											</div>
 										</div>
 										<p>Starts @ <span> &#8377
-											0,000/-</span>
+											15,130/-</span>
 										</p>
-										<a href="../../properties/Mysuru/resort-page-tigercamp.html" class="travel-primary-btn">Explore</a>
+										<a href="https://www.radissonhotels.com/en-us/hotels/radisson-blu-indore?cid=a%3Ase+b%3Agmb+c%3Aapac+i%3Alocal+e%3Ardb+d%3Aind+h%3AINMPIDR2"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
 									</div>
 								</div>
 							</div><!--End single destination -->
-
+							<!-- single destination -->
 							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
 								<div class="single-destionation-5">
 									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-royalwild/facade2.webp" alt=""></a>
+										<a href="#"><img src="../../images/indore/wow/1.webp" alt=""></a>
 									</div>
 									<div class="destination-5-description">
-										
-										<h3>Hotel Imperial</h3>
-										<p>Imperial Sq | Hotel | Standard</span>										
-										<div class="amenities-row">
-											<span class="material-icons" title="Gym">fitness_center</span>
-											<span class="material-icons" title="Restaurant">restaurant</span>
-											<span class="material-icons" title="Bar">local_bar</span>
-											<span class="material-icons" title="Room Service">room_service</span>
-											<span class="material-icons" title="Wi-Fi">wifi</span>
-											<span class="material-icons" title="Parking">local_parking</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 28.5%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Mysuru/resort-page-royalwild.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-gramerbari/facade1.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>MPT Shipra Residency</h3>
-										<p>Nr Madhav Club | Hotel | Standard</span>										
-										<div class="amenities-row">
-											<span class="material-icons" title="Gym">fitness_center</span>
-											<span class="material-icons" title="Indoor Games">games</span>
-											<span class="material-icons" title="Restaurant">restaurant</span>
-											<span class="material-icons" title="Bar">local_bar</span>
-											<span class="material-icons" title="Room Service">room_service</span>
-											<span class="material-icons" title="Parking">local_parking</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 28.5%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-										<a href="../../properties/Mysuru/resort-page-gramerbari.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Meghdoot Resort</h3>
-										<p>Abba Road | Resort | Standard</span>										
+										<h3>WOW Hotel</h3>
+										<p>Hotel | Luxury | Rasoma</span>
 										<div class="amenities-row">
 											<span class="material-icons" title="Infinity Pool">pool</span>
 											<span class="material-icons" title="Restaurant">restaurant</span>
 											<span class="material-icons" title="Room Service">room_service</span>
 											<span class="material-icons" title="Wi-Fi">wifi</span>
 											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
 											<div class="stars">
-												<div>													
+												<div>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 28.5%;"></div>
+													<div class="cover" style="width: 18.5%;">
+													</div>
 												</div>
 											</div>
 										</div>
 										<p>Starts @ <span> &#8377
-											0,000/-</span>
+											7,500/-</span>
 										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Mysuru/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
+										<a href="https://www.seleqtionshotels.com/en-in/wow-crest-indore/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
 									</div>
 								</div>
 							</div><!--End single destination -->
+						</div>
+						<div>
+							<h3>Premium</h3>
 						</div>
 						<div class="row">
 							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
 								<div class="single-destionation-5">
 									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
+										<a href="#"><img src="../../images/indore/sayaji/1.webp" alt=""></a>
 									</div>
 									<div class="destination-5-description">
-										
-										<h3>Hotel Surya Resort</h3>
-										<p>LAgar Road | Resort | Standard</span>										
-										<div class="amenities-row">
-											<span class="material-icons" title="Indoor Games">games</span>
-											<span class="material-icons" title="Restaurant">restaurant</span>
-											<span class="material-icons" title="Room Service">room_service</span>
-											<span class="material-icons" title="Wi-Fi">wifi</span>
-											<span class="material-icons" title="Parking">local_parking</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 0%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Mysuru/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-						</div>
-
-						<!--Economy starts-->
-						<h3>Economy</h3>
-						<div class="row">
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Hotel Shriram</h3>
-										<p>Dewas Gate | Hotel | Economy </span>										
-										<div class="amenities-row">
-											<span class="material-icons" title="Restaurant">restaurant</span>
-											<span class="material-icons" title="Room Service">room_service</span>
-											<span class="material-icons" title="Parking">local_parking</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 0%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Mysuru/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Hotel King Palace</h3>
-										<p>Dewas Road | Hotel | Economy </span>										
-										<div class="amenities-row">
-											
-											<span class="material-icons" title="Room Service">room_service</span>
-											<span class="material-icons" title="Wi-Fi">wifi</span>
-											<span class="material-icons" title="Parking">local_parking</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 18.5%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Mysuru/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Solitaire Hotel and Resorts</h3>
-										<p>Jaisinghpura | Resort | Economy </span>										
+										<h3>Sayaji Indore</h3>
+										<p>Hotel | Premium | Vijay Nagar</span>
 										<div class="amenities-row">
 											<span class="material-icons" title="Infinity Pool">pool</span>
-											<span class="material-icons" title="Gym">fitness_center</span>
 											<span class="material-icons" title="Restaurant">restaurant</span>
-											<span class="material-icons" title="Room Service">room_service</span>
-											<span class="material-icons" title="Parking">local_parking</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 28.5%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Mysuru/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Hotel Poonam Palace</h3>
-										<p> GM Marg | Hotel | Economy </span>										
-										<div class="amenities-row">
 											<span class="material-icons" title="Room Service">room_service</span>
 											<span class="material-icons" title="Wi-Fi">wifi</span>
 											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
 											<div class="stars">
-												<div>													
+												<div>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 28.5%;"></div>
+													<div class="cover" style="width: 0%;">
+													</div>
 												</div>
 											</div>
 										</div>
 										<p>Starts @ <span> &#8377
-											0,000/-</span>
+											9,301/-</span>
 										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Mysuru/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
+										<a href="https://sayajihotels.com/our-hotels/sayaji-indore/?utm_source=gmb&utm_medium=organic&utm_campaign=sayaji-indore"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/indore/best/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>Best Western Plus</h3>
+										<p>Hotel | Premium | Rasoma</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 20%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											4,050/-</span>
+										</p>
+										<a href="https://www.bestwestern.com/en_US/book/indore/hotel-rooms/best-western-plus-indore/propertyCode.76988.html"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/indore/chokhi/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>Chokhi Dhani</h3>
+										<p>Resort | Premium | Khandava</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 20%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											6,999/-</span>
+										</p>
+										<a href="https://chokhidhani.in/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/indore/sheraton/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>Sheraton Grand Palace </h3>
+										<p>Hotel | Premium | Bypass Rd</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 20%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											6,000/-</span>
+										</p>
+										<a href="https://www.marriott.com/en-us/hotels/idrsi-sheraton-grand-palace-indore/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+						</div>
+						<div>
+							<h3>Standard</h3>
+						</div>
+						<div class="row">
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/indore/amrit/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>Hotel Amrit Residency</h3>
+										<p>Hotel | Standard | Tukoganj</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 20%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											6,099/-</span>
+										</p>
+										<a href="#"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/indore/red/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>The Red Maple Hill</h3>
+										<p>Hotel | Standard | Rasalpura</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 20%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											6,164/-</span>
+										</p>
+										<a href="https://www.theredmaple.in/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/indore/shreemaya/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>Hotel Shreemaya</h3>
+										<p>Hotel | Standard | RT Marg</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 18.5%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											6,100/-</span>
+										</p>
+										<a href="https://www.shreemaya.com/pages/hotel-shreemaya-rnt-marg"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/indore/paradise/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>Hotel Paradise</h3>
+										<p>Hotel | Standard | NBCM Heights</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 18.5%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											2,690/-</span>
+										</p>
+										<a href="https://www.hotelparadise.co.in/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+						</div>
+						<div class="row">
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/indore/prashant/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>Hotel Prashant</h3>
+										<p>Hotel | Standard | Navlakha</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 0%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											2,300/-</span>
+										</p>
+										<a href="https://prashanthotel.com/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
 									</div>
 								</div>
 							</div><!--End single destination -->
@@ -1559,60 +968,54 @@
 
 				<div role="tabpanel" class="tab-pane fade" id="panchmarhi">
 					<section class="discount-package">
-						<div id="ad3" class="carousel slide" 
-							style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
+						<div id="ad4" class="carousel slide" style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
 							<!-- Indicators -->
 							<ol class="carousel-indicators">
-								<li data-target="#ad3" data-slide-to="0" class="active">
-								</li>
-								<li data-target="#ad3" data-slide-to="1" class=""></li>
-								<li data-target="#ad3" data-slide-to="2" class=""></li>
-								<li data-target="#ad3" data-slide-to="3" class=""></li>
-								<li data-target="#ad3" data-slide-to="4" class=""></li>
-								<li data-target="#ad3" data-slide-to="5" class=""></li>
+								<li data-target="#ad4" data-slide-to="0" class="active"></li>
+								<li data-target="#ad4" data-slide-to="1" class=""></li>
+								<li data-target="#ad4" data-slide-to="2" class=""></li>
+								<li data-target="#ad4" data-slide-to="3" class=""></li>
+								<li data-target="#ad4" data-slide-to="4" class=""></li>
+								<li data-target="#ad4" data-slide-to="5" class=""></li>
 							</ol>
 
 							<!-- Wrapper for slides -->
 							<div class="carousel-inner">
 								<div class="item active">
-									<a>
-										<img class="img1" src="../../images/poster1/offertfr.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/restfr.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
-								</div>
-								<div class="item">
 									<a href="#">
-										<img class="img1" src="../../images/poster1/offervedic1.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resvedic.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
+										<img class="img1" src="../../images/poster1/indore.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/indore.webp" style="width:100%; height:100%;">
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img class="img1" src="../../images/poster1/offeramaya.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resamaya.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
+										<img class="img1" src="../../images/poster1/ujjain.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/ujjain.webp" style="width:100%; height:100%;">
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img class="img1" src="../../images/poster1/offerfortune.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resfortune.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
+										<img class="img1" src="../../images/poster1/panchmarhi.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/panchmarhi.webp" style="width:100%; height:100%;">
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img class="img1" src="../../images/poster1/offerrajbadi.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resrajbadi.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
+										<img class="img1" src="../../images/poster1/kanha.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/kanha.webp" style="width:100%; height:100%;">
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img class="img1" src="../../images/poster1/offeribiza.webp" style="width:100%; height:100%;">
-										<img class="img2" src="../../images/poster-mobile/resibiza.webp" style="width:100%; height:100%;"
-											style="width:100%; height:100%;">
+										<img class="img1" src="../../images/poster1/pench.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/pench.webp" style="width:100%; height:100%;">
+									</a>
+								</div>
+								<div class="item">
+									<a href="#">
+										<img class="img1" src="../../images/poster1/sariska.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/sariska.webp" style="width:100%; height:100%;">
+									</a>
 								</div>
 							</div>
 							<a class="left carousel-control" href="#ad3" data-slide="prev">
@@ -1626,362 +1029,761 @@
 						</div>
 					</section>
 					<section class="top-destination-area top-destination-area-5">
-						<!--Premium starts-->
-						<h3>Premium</h3>
-						<div class="row">
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Hotel Satpura Safari</h3>
-										<p>AGandhi Chowk | Hotel | Premium</span>										
-										<div class="amenities-row">
-											<span class="material-icons" title="Room Service">room_service</span>
-											<span class="material-icons" title="Wi-Fi">wifi</span>
-											<span class="material-icons" title="Parking">local_parking</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 18.5%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Mysuru/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
+						<div>
+							<h3>Standard</h3>
 						</div>
-
-						<!--Standard starts-->
-						<h3>Standard</h3>
 						<div class="row">
+							<!-- single destination -->
 							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
 								<div class="single-destionation-5">
 									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-hotelsonar/facade2.webp" alt=""></a>
+										<a href="#"><img src="../../images/panchmarhi/welcome/1.webp" alt=""></a>
 									</div>
 									<div class="destination-5-description">
-										
-										<h3>WelcomHeritage Golf View</h3>
-										<p title="3 star">Mahadev Rd | Hotel | Standard</span>										
+										<h3>WelcomHeritage</h3>
+										<p title="3 star">Hotel | Standard | Mahadev Rd</span>
 										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
 											<span class="material-icons" title="Restaurant">restaurant</span>
 											<span class="material-icons" title="Room Service">room_service</span>
 											<span class="material-icons" title="Wi-Fi">wifi</span>
 											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
 											<div class="stars">
-												<div>													
+												<div>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 18.5%;"></div>
+													<div class="cover" style="width: 18.5%;">
+													</div>
 												</div>
 											</div>
 										</div>
 										<p>Starts @ <span> &#8377
-											0,000/-</span>
+											7,500/-</span>
 										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Mysuru/resort-page-sundarhotelsonar.html" class="travel-primary-btn">Explore</a>
+										<a href="https://www.welcomheritagehotels.in/hotel-details/golf-view-pachmarhi/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
 									</div>
 								</div>
 							</div><!--End single destination -->
-
+							<!-- single destination -->
 							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
 								<div class="single-destionation-5">
 									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-tigercamp/room1.webp" alt=""></a>
+										<a href="#"><img src="../../images/panchmarhi/paradise/1.webp" alt=""></a>
 									</div>
 									<div class="destination-5-description">
-										
 										<h3>Hotel Paradise</h3>
-										<p title="3 star">Main Road | Resort | Standard</span>										
+										<p>Hotel | Standard | Main Road</span>
 										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
 											<span class="material-icons" title="Restaurant">restaurant</span>
 											<span class="material-icons" title="Room Service">room_service</span>
 											<span class="material-icons" title="Wi-Fi">wifi</span>
 											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
 											<div class="stars">
-												<div>													
+												<div>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 28.5%;"></div>
+													<div class="cover" style="width: 28.5%;">
+													</div>
 												</div>
 											</div>
 										</div>
 										<p>Starts @ <span> &#8377
-											0,000/-</span>
+											3,148/-</span>
 										</p>
-										<a href="../../properties/Mysuru/resort-page-tigercamp.html" class="travel-primary-btn">Explore</a>
+										<a href="https://www.facebook.com/hotelparadisehp/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
 									</div>
 								</div>
 							</div><!--End single destination -->
-
+							<!-- single destination -->
 							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
 								<div class="single-destionation-5">
 									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-gramerbari/facade1.webp" alt=""></a>
+										<a href="#"><img src="../../images/panchmarhi/vresorts/1.webp" alt=""></a>
 									</div>
 									<div class="destination-5-description">
-										
 										<h3>V Resorts Pachmarhi</h3>
-										<p>Patel Marg | Resort | Standard</span>										
+										<p>Resort | Standard | Patel Marg</span>
 										<div class="amenities-row">
-											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Infinity Pool">pool</span>
 											<span class="material-icons" title="Room Service">room_service</span>
 											<span class="material-icons" title="Wi-Fi">wifi</span>
 											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
 											<div class="stars">
-												<div>													
+												<div>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 28.5%;"></div>
+													<div class="cover" style="width: 28.5%;">
+													</div>
 												</div>
 											</div>
 										</div>
 										<p>Starts @ <span> &#8377
-											0,000/-</span>
+											3,148/-</span>
 										</p>
-										<a href="../../properties/Mysuru/resort-page-gramerbari.html" class="travel-primary-btn">Explore</a>
+										<a href="https://www.facebook.com/hotelparadisehp/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
 									</div>
 								</div>
 							</div><!--End single destination -->
 						</div>
-
-						<!--Economy starts-->
-						<h3>Economy</h3>
+						<div>
+							<h3>Economy</h3>
+						</div>
 						<div class="row">
+							<!-- single destination -->
 							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
 								<div class="single-destionation-5">
 									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-royalwild/facade2.webp" alt=""></a>
+										<a href="#"><img src="../../images/panchmarhi/kachnar/1.webp" alt=""></a>
 									</div>
 									<div class="destination-5-description">
-										
 										<h3>Hotel Kachnar</h3>
-										<p>Arvind Marg | Hotel | Economy</span>										
+										<p>Hotel | Economy | Arvind Marg</span>
 										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
 											<span class="material-icons" title="Restaurant">restaurant</span>
 											<span class="material-icons" title="Room Service">room_service</span>
 											<span class="material-icons" title="Wi-Fi">wifi</span>
 											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
 											<div class="stars">
-												<div>													
+												<div>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 18.5%;"></div>
+													<div class="cover" style="width: 18.5%;">
+													</div>
 												</div>
 											</div>
 										</div>
 										<p>Starts @ <span> &#8377
-											0,000/-</span>
+											5,500/-</span>
 										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Mysuru/resort-page-royalwild.html" class="travel-primary-btn">Explore</a>
+										<a href="https://hotelkachnar.com/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
 									</div>
 								</div>
 							</div><!--End single destination -->
-
+							<!-- single destination -->
 							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
 								<div class="single-destionation-5">
 									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
+										<a href="#"><img src="../../images/panchmarhi/satpura/1.webp" alt=""></a>
 									</div>
 									<div class="destination-5-description">
-										
-										<h3>Hotel Utkarsh</h3>
-										<p>Subhash Rd | Hotel | Economy</span>										
-										<div class="amenities-row">
-											<span class="material-icons" title="Spa">spa</span>
-											<span class="material-icons" title="Restaurant">restaurant</span>
-											<span class="material-icons" title="Room Service">room_service</span>
-											<span class="material-icons" title="Parking">local_parking</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 28.5%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Mysuru/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>The Summer House</h3>
-										<p>Civil Lines | Hotel | Economy </span>										
+										<h3>Hotel Satpura Safari</h3>
+										<p>Hotel | Economy | Gandhi Chowk</span>
 										<div class="amenities-row">
 											<span class="material-icons" title="Infinity Pool">pool</span>
-											<span class="material-icons" title="Indoor Games">games</span>
-											<span class="material-icons" title="Spa">spa</span>
 											<span class="material-icons" title="Restaurant">restaurant</span>
-											<span class="material-icons" title="Bar">local_bar</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
 											<div class="stars">
-												<div>													
+												<div>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 0%;"></div>
+													<div class="cover" style="width: 18.5%;">
+													</div>
 												</div>
 											</div>
 										</div>
 										<p>Starts @ <span> &#8377
-											0,000/-</span>
+											2,799/-</span>
 										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Mysuru/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
+										<a href="https://www.facebook.com/hotel.satpura.safari?mibextid=ZbWKwL"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
 									</div>
 								</div>
 							</div><!--End single destination -->
-
+							<!-- single destination -->
 							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
 								<div class="single-destionation-5">
 									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
+										<a href="#"><img src="../../images/panchmarhi/utkarsh/1.webp" alt=""></a>
 									</div>
 									<div class="destination-5-description">
-										
-										<h3>Pachmarhi Foothill Cottages</h3>
-										<p>Singanama | Lodge | Economy </span>										
+										<h3>Hotel Utkarsh</h3>
+										<p>Hotel | Economy | Subhash Rd</span>
 										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
 											<span class="material-icons" title="Restaurant">restaurant</span>
 											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
 											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
 											<div class="stars">
-												<div>													
+												<div>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 8.5%;"></div>
+													<div class="cover" style="width: 28.5%;">
+													</div>
 												</div>
 											</div>
 										</div>
 										<p>Starts @ <span> &#8377
-											0,000/-</span>
+											3,000/-</span>
 										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Mysuru/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
+										<a href="https://utkarshhotel.com/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/panchmarhi/summer/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>The Summer House</h3>
+										<p>Hotel | Economy | Civil Lines</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 0%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											7,868/-</span>
+										</p>
+										<a href="https://www.amhotelkollection.com/THESUMMERHOUSE"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
 									</div>
 								</div>
 							</div><!--End single destination -->
 						</div>
 						<div class="row">
+							<!-- single destination -->
 							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
 								<div class="single-destionation-5">
 									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
+										<a href="#"><img src="../../images/panchmarhi/foothill/1.webp" alt=""></a>
 									</div>
 									<div class="destination-5-description">
-										
-										<h3>Champak Bungalow</h3>
-										<p>Nr Padmini Lake | Lodgr | Economy </span>										
+										<h3>Panchmarhi Foothill Cottages</h3>
+										<p>Hotel | Economy | Singanama</span>
 										<div class="amenities-row">
 											<span class="material-icons" title="Infinity Pool">pool</span>
-											<span class="material-icons" title="Spa">spa</span>
-											<span class="material-icons" title="Restaurant">restaurant</span>
-											<span class="material-icons" title="Bar">local_bar</span>
-											<span class="material-icons" title="Room Service">room_service</span>
-											<div class="stars">
-												<div>													
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 18.5%;"></div>
-												</div>
-											</div>
-										</div>
-										<p>Starts @ <span> &#8377
-											0,000/-</span>
-										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Mysuru/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
-									</div>
-								</div>
-							</div><!--End single destination -->
-
-							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
-								<div class="single-destionation-5">
-									<div class="destination-5-image">
-										<a href="#"><img src="../../images/sundar-solitary/facade3.webp" alt=""></a>
-									</div>
-									<div class="destination-5-description">
-										
-										<h3>Hotel Misty Meadows</h3>
-										<p> Patel Rd | Hotel | Economy </span>										
-										<div class="amenities-row">
-											<span class="material-icons" title="Indoor Games">games</span>
-											<span class="material-icons" title="Spa">spa</span>
 											<span class="material-icons" title="Restaurant">restaurant</span>
 											<span class="material-icons" title="Room Service">room_service</span>
 											<span class="material-icons" title="Wi-Fi">wifi</span>
 											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
 											<div class="stars">
-												<div>													
+												<div>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
 													<i class="fa fa-star"></i>
-													<div class="cover" style="width: 18.5%;"></div>
+													<div class="cover" style="width: 0%;">
+													</div>
 												</div>
 											</div>
 										</div>
 										<p>Starts @ <span> &#8377
-											0,000/-</span>
+											2,500/-</span>
 										</p>
-											</li>
-										</ul>
-										<a href="../../properties/Mysuru/resort-page-solitary.html" class="travel-primary-btn">Explore</a>
+										<a href="https://wowstayz.fun/pachmarhi-foothill-cottages"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/panchmarhi/champak/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>Champak Bungalow</h3>
+										<p>Lodge | Economy | Nr Padmini Lake</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 18.5%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											5,508/-</span>
+										</p>
+										<a href="https://mpstdc.com/accommodation/Pachmarhi/MPT-Champak-Bungalow-Pachmarhi"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/panchmarhi/misty/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>Hotel Misty Meadows</h3>
+										<p>Hotel | Economy | Patel Rd</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 18.5%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											3,900/-</span>
+										</p>
+										<a href="https://wowstayz.fun/wowstayz-hotel-misty-meadows-pachmarhi"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+						</div>
+					</section>
+				</div>
+
+				<div role="tabpanel" class="tab-pane fade" id="ujjain">
+					<section class="discount-package">
+						<div id="ad3" class="carousel slide" style="box-shadow: 0 0 4px rgba(62, 51, 51, 0.8) !important;">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#ad3" data-slide-to="0" class="active"></li>
+								<li data-target="#ad3" data-slide-to="1" class=""></li>
+								<li data-target="#ad3" data-slide-to="2" class=""></li>
+								<li data-target="#ad3" data-slide-to="3" class=""></li>
+								<li data-target="#ad3" data-slide-to="4" class=""></li>
+								<li data-target="#ad3" data-slide-to="5" class=""></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<a href="#">
+										<img class="img1" src="../../images/poster1/indore.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/indore.webp" style="width:100%; height:100%;">
+									</a>
+								</div>
+								<div class="item">
+									<a href="#">
+										<img class="img1" src="../../images/poster1/ujjain.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/ujjain.webp" style="width:100%; height:100%;">
+									</a>
+								</div>
+								<div class="item">
+									<a href="#">
+										<img class="img1" src="../../images/poster1/panchmarhi.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/panchmarhi.webp" style="width:100%; height:100%;">
+									</a>
+								</div>
+								<div class="item">
+									<a href="#">
+										<img class="img1" src="../../images/poster1/kanha.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/kanha.webp" style="width:100%; height:100%;">
+									</a>
+								</div>
+								<div class="item">
+									<a href="#">
+										<img class="img1" src="../../images/poster1/pench.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/pench.webp" style="width:100%; height:100%;">
+									</a>
+								</div>
+								<div class="item">
+									<a href="#">
+										<img class="img1" src="../../images/poster1/sariska.webp" style="width:100%; height:100%;">
+										<img class="img2" src="../../images/poster-mobile/sariska.webp" style="width:100%; height:100%;">
+									</a>
+								</div>
+							</div>
+							<a class="left carousel-control" href="#ad3" data-slide="prev">
+								<span class="mdi mdi-chevron-left"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#ad3" data-slide="next">
+								<span class="mdi mdi-chevron-right"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</section>
+					<section class="top-destination-area top-destination-area-5">
+						<div>
+							<h3>Premium</h3>
+						</div>
+						<div class="row">
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/ujjain/rudraksh/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>Rudraksh Club & Resorts</h3>
+										<p title="3 star">Resort | Premium | Triveni</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 8.5%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											6,499/-</span>
+										</p>
+										<a href="https://www.rudrakshresorts.com/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+						</div>
+						<div>
+							<h3>Standard</h3>
+						</div>
+						<div class="row">
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/ujjain/abika/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>Hotel Abika Elite</h3>
+										<p>NA Marg | Hotel | Standard | NA Marg</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 8.5%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											11,300/-</span>
+										</p>
+										<a href="https://abikahotels.com/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/ujjain/imperial/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>Hotel Imperial</h3>
+										<p>Hotel | Standard | Imperial Sq</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 28.5%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											5,899/-</span>
+										</p>
+										<a href="https://hotelimperialujjain.com/home/"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/ujjain/shipra/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>MPT Shipra Residency</h3>
+										<p>Hotel | Standard | Nr Madhav Club</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 28.5%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											2,568/-</span>
+										</p>
+										<a href="https://mpstdc.com/accommodation/Ujjain/MPT-Shipra-Residency-Ujjain"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/ujjain/surya/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>Hotel Surya Resort</h3>
+										<p>Resort | Standard | Agar Road</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 0%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											1,899/-</span>
+										</p>
+										<a href="#"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/ujjain/meghdoot/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>Meghdoot Hotel & Resort</h3>
+										<p>Resort | Standard | Indore Road</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 28.5;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											1,899/-</span>
+										</p>
+										<a href="#"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+						</div>
+						<div>
+							<h3>Economy</h3>
+						</div>
+						<div class="row">
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/ujjain/shriram/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>Hotel Shriram</h3>
+										<p>Hotel | Economy | Dewas Gate</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 0%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											3,100/-</span>
+										</p>
+										<a href="#"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/ujjain/king/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>Hotel King Palace</h3>
+										<p>Hotel | Economy | Dewas Road</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 18.5%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											2,850/-</span>
+										</p>
+										<a href="#"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
+									</div>
+								</div>
+							</div><!--End single destination -->
+
+							<!-- single destination -->
+							<div class="col-md-3 col-sm-6 col-xs-6 single-item">
+								<div class="single-destionation-5">
+									<div class="destination-5-image">
+										<a href="#"><img src="../../images/ujjain/solitaire/1.webp" alt=""></a>
+									</div>
+									<div class="destination-5-description">
+										<h3>Solitaire Hotel and Resorts</h3>
+										<p>Resort | Economy | Jaisinghpura</span>
+										<div class="amenities-row">
+											<span class="material-icons" title="Infinity Pool">pool</span>
+											<span class="material-icons" title="Restaurant">restaurant</span>
+											<span class="material-icons" title="Room Service">room_service</span>
+											<span class="material-icons" title="Wi-Fi">wifi</span>
+											<span class="material-icons" title="Parking">local_parking</span>
+											<br>
+											<div class="stars">
+												<div>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<div class="cover" style="width: 20%;">
+													</div>
+												</div>
+											</div>
+										</div>
+										<p>Starts @ <span> &#8377
+											3,699/-</span>
+										</p>
+										<a href="#"target="_blank" rel="noopener noreferrer" class="btn btn-primary">Explore</a>
 									</div>
 								</div>
 							</div><!--End single destination -->
@@ -2051,8 +1853,6 @@
 									<a href="../../surprise-holiday-tab.html">Surprise Holiday
 									</a> I
 									<a href="../../sale-tab.html">Holiday Sale
-									</a> I
-									<a href="../../getaway/kolkata/sale-tab2.html">HS2
 									</a>
 								</li>
 								<li>
@@ -2227,7 +2027,7 @@
 	<!-- main js -->
 	<script src="../../js/custom.js"></script>
 	<script>
-		window.onload = function (){filterHome(2);};
+		window.onload = function() {resFilt(2)};
 		// When the user scrolls the page, execute myFunction
 		window.onscroll = function () { myFunction() };
 

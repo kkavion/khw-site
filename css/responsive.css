@@ -2,18 +2,27 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px)
 {
-    
+    .countdown .single-bredcurms
+    {
+        padding: 100px 0 30px 0 !important;
+    }
+    .top-destination-area figure figcaption
+    {
+        opacity: 1;
+        visibility: visible;
+        top: 45%;
+    }
+    .slider-area-2 #filter
+    {
+        bottom: -80%;
+    }
     #filter
     {
         padding: 15px;
         width: max-content;
         margin: auto;
         border-radius: 5px;
-        bottom: -15% !important;
-    }
-    .slider-area-2 #filter
-    {
-        bottom: -80%;
+        bottom: -15%;
     }
     .single-item{margin-bottom: 30px;}
     .single-item:last-child{margin-bottom: 0px;}
@@ -29,10 +38,6 @@
     {
         top: 50% !important;
         transform: matrix(1) !important;
-    }
-    #discstick
-    {
-        margin: 5% 30% !important;
     }
     .footer-title .logo2
     {
@@ -70,15 +75,19 @@
     }
     .tp-parallax-wrap:nth-child(4)
     {
-         top: 50% !important;
+         top: 55% !important;
     }
     .tp-parallax-wrap:nth-child(3)
     {
-         top: 35% !important;
+         top: 20% !important;
     }
     .title-line-4 h2, .title-line-42 h3
     {
-        padding-left: 15px !important;
+        padding-left: 75px !important;
+    }
+    .tp-parallax-wrap a
+    {
+        margin-left: 45px !important;
     }
     .header-btn-4 
     {
@@ -192,6 +201,14 @@
 /*======================  Mobile Layout: 320px. =======================  */
 
 @media only screen and (max-width: 767px) {
+    .interest-bg .timeline .timeline-content h3
+    {
+        margin: 20px 0;
+    }
+    .modal
+    {
+        top: 0;
+    }
     #res-filt iframe
     {
         height: 200px;
@@ -199,10 +216,6 @@
     .section-margins.faq-section
     {
         margin: 0;
-    }
-    .quick-links .btn img
-    {
-        width: 80px !important;
     }
     .club-area
     {
@@ -300,7 +313,7 @@
     }
     .tp-parallax-wrap:nth-child(4)
     {
-         top: 30% !important;
+         top: 40% !important;
     }
     .tp-parallax-wrap:nth-child(5)
     {
@@ -308,7 +321,7 @@
     }
     .tp-parallax-wrap:nth-child(6)
     {
-         top: 15% !important;
+         top: 30% !important;
     }
     .sec1 div
     {
@@ -322,23 +335,9 @@
     {
         padding-bottom: 0px;
     }
-    #discstick 
-    {
-        width: 85px !important;
-        height: 25px !important;
-        background: red !important;
-        position: relative !important;
-        -moz-border-radius: 10px !important;
-        -webkit-border-radius: 10px !important;
-        border-radius: 5px !important;
-        margin: 10px !important;
-        right: 15px !important;
-    }
     #discstick span, #discstick a
     {
-        margin:  3% !important;
         font-size: 18px !important;
-        margin-left: 15% !important;
     }
     .package-location #discstick
     {
@@ -418,11 +417,15 @@
     {
         background-position: top;
         padding: 0;
-        height: auto;
+        height: 600px;
+    }
+    .countdown .single-bredcurms
+    {
+        padding: 100px 0 30px 0 !important;
     }
     .single-bredcurms .bredcrums-content
     {
-        padding-top: 150px;
+        padding-top: 415px;
         padding-bottom: 30px;
     }  
     .gsc-control-cse
@@ -640,14 +643,11 @@
     }
     .rev_slider h2
     {
-        line-height: 75px !important;
+        line-height: 140px !important;
     }
-
-
 }
 @media only screen and (max-width: 600px)
 {
-    
     .footer-title .logo1
     {
         padding: 0px 35%;
@@ -800,7 +800,7 @@
     #filter
     {
         padding: 5px 0;
-        bottom: -70% !important;
+        bottom: -85% !important;
     }
     .disc-section li span
     {
@@ -834,6 +834,14 @@
 /*  Desktop Layout: 991px    */
 @media screen and (min-width: 991px)
 {    
+    .active-slider2 .col-md-4
+    {
+        margin: 15vh 0;
+    }
+    .active-slider2 h1
+    {
+        font-size: 50px !important;
+    }
     #amenities h3
     {
         margin-left: 20px;
@@ -849,7 +857,7 @@
     }
     .slider-area-2 #filter
     {
-        bottom: -80%;
+        bottom: -90%;
     }
     .filter
     {
@@ -922,7 +930,7 @@
     }
     .tp-parallax-wrap:nth-child(3)
     {
-         top: 35% !important;
+         top: 30% !important;
     }
     .tp-parallax-wrap:nth-child(4)
     {
@@ -965,8 +973,61 @@
     {
         padding: 20px 0 !important;
     }
-    .rev_slider h2
+    .active-slider2 p
     {
-        line-height: 65px !important;
+        font-size: 18px;
+    }
+    .active-slider2 .destination-slider-active
+    {
+        display: grid;
+        width: 55vw;
+    }
+    #myModal .col-md-6:nth-child(1)
+    {
+        padding-right: 0;
+    }
+    #myModal .modal-body form
+    {
+        padding-left: 0 !important;
+    }
+}
+@media only screen and (min-width: 991px) and (max-width: 1600px)
+{
+    .slider-area-2 #filter
+    {
+        bottom: -85%;
+    }
+    .tp-parallax-wrap:nth-child(3)
+    {
+         top: 30% !important;
+    }
+    .tp-parallax-wrap:nth-child(4)
+    {
+         top: 55% !important;
+    }
+    .tp-parallax-wrap:nth-child(6)
+    {
+         top: 65% !important;
+    }
+}
+@media only screen and (min-width: 1601px) and (max-width: 1920px)
+{
+    .single-bredcurms
+    {
+        height: 700px !important;
+        padding: 400px 0 30px 0 !important;
+    }
+    .countdown .single-bredcurms
+    {
+        height: 700px !important;
+        padding: 320px 0 30px 0 !important;
+    }
+    .gourmet.active-slider2 .col-md-4
+    {
+        margin: 0;
+    }
+    .active-slider2 .col-md-4
+    {
+        margin: 19% 0;
     }
 }

@@ -1081,7 +1081,7 @@ html {
 body {
  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
  font-size:14px;
- line-height:1.42857143;
+ line-height:1.5;
  color:#333;
  background-color:#fff
 }
@@ -1122,7 +1122,7 @@ img {
  height:auto
 }
 .img-rounded {
- border-radius:6px
+ border-radius:5px;
 }
 .img-thumbnail {
  display:inline-block;
@@ -1261,11 +1261,11 @@ h6 small {
 }
 .h1,
 h1 {
- font-size:36px
+ font-size:42px;
 }
 .h2,
 h2 {
- font-size:30px
+ font-size:37px;
 }
 .h3,
 h3 {
@@ -1273,7 +1273,7 @@ h3 {
 }
 .h4,
 h4 {
- font-size:18px
+ font-size:16px;
 }
 .h5,
 h5 {
@@ -3127,8 +3127,9 @@ textarea.input-lg {
 .btn.focus,
 .btn:focus,
 .btn:hover {
- color:#333;
- text-decoration:none
+ color:white;
+ text-decoration:none;
+ background: #fb6a00;
 }
 .btn.active,
 .btn:active {
@@ -5962,7 +5963,7 @@ button.close {
 }
 .modal {
  position:fixed;
- top:0;
+ top:0%;
  right:0;
  bottom:0;
  left:0;
@@ -6026,7 +6027,7 @@ button.close {
  opacity:.5
 }
 .modal-header {
- padding:15px 15px 100px 15px;
+ padding:15px;
  border-bottom:1px solid #e5e5e5;
  background: url(../images/homepage/zbid2.webp);
  background-position: center;
@@ -6070,7 +6071,7 @@ button.close {
 }
 @media (min-width:768px) {
  .modal-dialog {
-  width:600px;
+  width:768px;
   margin:100px auto;
  }
  .modal-content {
@@ -6336,6 +6337,7 @@ button.close {
  position:relative;
  width: ;
  border-radius: 5px;
+ z-index: 1;
 }
 .carousel-inner {
  position:relative;
@@ -6427,7 +6429,8 @@ button.close {
  text-shadow:0 1px 2px rgba(0,0,0,.6);
  background-color:rgba(0,0,0,0);
  filter:alpha(opacity=50);
- opacity:.5
+ opacity:.5;
+ z-index: 6;
 }
 .carousel-control.left {
  background-image:-webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
@@ -6438,7 +6441,7 @@ button.close {
  background-repeat:repeat-x
 }
 .carousel-control.right {
- right:45px;
+ right:30px;
  left:auto;
  background-image:-webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
  background-image:-o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);

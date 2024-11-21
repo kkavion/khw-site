@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Water+Brush&display=swap');
+
+.slider-area-2 h2
+{
+     font-family: "Water Brush", sans-serif;
+     font-style: normal !important;
+     font-size: 120px;
+     font-weight: 400;
+     line-height: 150px;
+}
 /* Page content */
 .content{
   padding: 0px;
@@ -236,7 +246,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .fact-file .col-md-6
 {
-     padding-bottom:15px;
+     padding-bottom:10px;
 }
 .fact-file .amenities-row span, .fact-file .amenities-row i
 {
@@ -327,28 +337,22 @@ header .sticky .header-bottom-area .main-menu > li.active a
      font-size: 15px;
 }
 .header-bottom-area .tab-a li:hover a,
-.header-bottom-area .tab-c li:hover a,
-.header-bottom-area .tab-d li:hover a,
-.header-bottom-area .tab-e li:hover a
+.header-bottom-area .tab-b li:hover a
 {
      color: white;
 }
 .header-bottom-area .tab-a li,
-.header-bottom-area .tab-c li,
-.header-bottom-area .tab-d li, 
-.header-bottom-area .tab-e li
+.header-bottom-area .tab-b li
 {
      transition: all 0.3s;
 }
-.header-bottom-area .tab-a li:hover,
-.header-bottom-area .tab-d li:hover,
-.header-bottom-area .tab-e li:hover
+.header-bottom-area .tab-a
+{
+	text-align:center;
+}
+.header-bottom-area .tab-a li:hover
 {
      background: #fb6a00;
-}
-.header-bottom-area .tab-c li:hover
-{
-     background: #0495ff;
 }
 .header-bottom-area .tab-a > li > a {
      display: block;
@@ -382,74 +386,17 @@ header .sticky .header-bottom-area .main-menu > li.active a
      bottom: 15% !important;
      width: 50% !important;
 }
-.header-bottom-area .tab-c > li > a:before
+.header-bottom-area .tab-b li:hover
+{
+     background: #0495ff;
+}
+.header-bottom-area .tab-b > li > a:before
 {
      background: white !important;
      bottom: 5px !important;
      width: 60% !important;
-}
-.header-bottom-area .tab-d > li > a:before
-{
-     background: white !important;
-     bottom: 15% !important;
-     width: 50% !important;
-}
-.header-bottom-area .tab-e > li > a:before
-{
-     background: white !important;
-}
-.header-bottom-area .tab-a
-{
-	text-align:center;
-}
-.header-bottom-area .tab-b
-{
-	text-align:center;
-	padding: 10px;
 }
 .header-bottom-area .tab-b > li > a {
-     display: block;
-     color: #fb6a00;
-     font-size: 15px;
-     text-decoration: none;
-     font-weight: 500;
-     position: relative;
-     text-align:center;
-     padding: 10px 20px;
-}
-.header-bottom-area .tab-b > li.active a {
-     color:   white !important;
-}
-.header-bottom-area .tab-b > li.active
-{
-     background: #fb6a00;
-}
-.header-bottom-area .tab-b > li:hover
-{
-     background: #fb6a00;
-}
-.header-bottom-area .tab-b > li:hover a
-{
-     color: white;
-}
-.header-bottom-area .tab-b > li {
-     display: inline-block;
-     position: relative;
-     border: 1px solid lightgray;
-     border-radius: 5px;
-     margin: 1px;
-     transition: all ease-in 0.3s;
-     padding: 0;
-     background: white;
-}
-.tab-b > li > a::before
-{
-     background:  white !important;
-     bottom: 5px !important;
-     width: 60% !important;
-}
-
-.header-bottom-area .tab-c > li > a {
      display: block;
      color: #0495ff;
      font-size: 17px;
@@ -459,83 +406,139 @@ header .sticky .header-bottom-area .main-menu > li.active a
      text-align:center;
      padding: 10px 20px;
 }
-.header-bottom-area .tab-c > li.active a {
+.header-bottom-area .tab-b > li.active a {
      color: white !important;
+}
+.header-bottom-area .tab-b > li.active
+{
+     background: #0495ff;
+}
+.header-bottom-area .tab-b > li {
+     display: inline-block;
+     position: relative;
+     border: 1px solid lightgray;
+     margin: 1px;
+     border-radius: 5px;
+     padding: 0;
+}
+.header-bottom-area .tab-b
+{
+	text-align:center;
+}
+.header-bottom-area .tab-b li
+{
+     background: white;
+}
+.header-bottom-area .tab-c > li > a {
+     display: block;
+     color: #232323;
+     font-size: 14px;
+     text-decoration: none;
+     font-weight: 500;
+     position: relative;
+     text-align:center;
+     padding: 5px 10px;
+}
+.header-bottom-area .tab-c > li.active a {
+     color: black;
 }
 .header-bottom-area .tab-c > li.active
 {
-     background: #0495ff;
+     background: lightgray;
+}
+.header-bottom-area .tab-c > li:hover
+{
+     background: lightgray;
+}
+.header-bottom-area .tab-c > li:hover a
+{
+     color: black;
 }
 .header-bottom-area .tab-c > li {
      display: inline-block;
      position: relative;
      border: 1px solid lightgray;
-     margin: 1px;
      border-radius: 5px;
+     margin: 1px;
+     transition: all ease-in 0.3s;
      padding: 0;
-}
-.header-bottom-area .tab-c
-{
-	text-align:center;
-}
-.header-bottom-area .tab-c li
-{
      background: white;
 }
-.header-bottom-area .tab-d > li > a {
-     display: block;
-     color: #fb6a00;
-     font-size: 17px;
-     text-decoration: none;
-     font-weight: 500;
-     position: relative;
-     text-align:center;
-     padding: 10px 25px;
-}
-.header-bottom-area .tab-d > li.active a {
-     color:   white !important;
-}
-.header-bottom-area .tab-d > li.active
+.tab-c > li > a::before
 {
-     background: #fb6a00;
+     background:  gray !important;
+     bottom: 5px !important;
+     width: 60% !important;
+     transition: all 0.3s ease-in-out;
 }
-.header-bottom-area .tab-d > li {
-     display: inline-block;
-     padding: 0;
-     position: relative;
-     border: 1px solid lightgray;
-     background: white;
-     margin: 1px;
+.tab-c
+{
+     padding: 10px 0;
+}
+.tab_c_text #adventureint
+{
+     background: #003366;
      border-radius: 5px;
 }
-.header-bottom-area .tab-d
+.tab_c_text #cruiseint
 {
-	text-align:center;
+     background: #008080;
+     border-radius: 5px;
 }
-
-.header-bottom-area .tab-e > li > a {
-     display: block;
+.tab_c_text #cultureint
+{
+     background: #b7410e;
+     border-radius: 5px;
+}
+.tab_c_text #gourmetint
+{
+     background: #5d001e;
+     border-radius: 5px;
+}
+.tab_c_text #heritageint
+{
+     background: #6c541e;
+     border-radius: 5px;
+}
+.tab_c_text #honeymoonint
+{
+     background: #c72c48;
+     border-radius: 5px;
+}
+.tab_c_text #miceint
+{
+     background: #2c3e50;
+     border-radius: 5px;
+}
+.tab_c_text #offbeatint
+{
+     background: #503a1a;
+     border-radius: 5px;
+}
+.tab_c_text #pilgrimageint
+{
+     background: #0077b6;
+     border-radius: 5px;
+}
+.tab_c_text #wellnessint
+{
+     background: #734f96;
+     border-radius: 5px;
+}
+.tab_c_text #weddingint
+{
+     background: #8b0000;
+     border-radius: 5px;
+}
+.tab_c_text #wildlifeint
+{
+     background: #556b2f;
+     border-radius: 5px;
+}
+.tab_c_text p
+{
      color: white;
-     font-size: 17px;
-     text-decoration: none;
-     font-weight: 500;
-     position: relative;
-     text-align:center;
-}
-.header-bottom-area .tab-e > li.active a {
-     color:  white !important;
-}
-.header-bottom-area .tab-e > li {
-     display: inline-block;
-     padding: 10px 20px;
-     position: relative;
-     border: 1px solid lightgray;
-     background: #0495ff;
-     margin: 1px 0;
-}
-.header-bottom-area .tab-e
-{
-	text-align:center;
+     padding: 10px;
 }
 .section-title2 h2, .section-title-white h2, .section-title-white-2 h2 {
      background-color: transparent;
@@ -602,7 +605,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .logo-area img
 {
-     max-width: 61%;
+     max-width: 85%;
 }
 .subscribe-form
 {
@@ -708,7 +711,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
      min-width: 100px !important;
 }
-.tab-content .header-bottom-area
+.tab-bontent .header-bottom-area
 {
      margin-top: 0px;
 }
@@ -1114,7 +1117,7 @@ button
 }
 #discstick 
 {
-     width: max-content;
+     width: 100%;
      height: 30px;
      background: red;
      position: relative;
@@ -1123,12 +1126,12 @@ button
 }
 #discstick span, #discstick a
 {
-     margin: 4px 20px;
+     padding: 4px 0;
      font-size: 20px;
      font-weight: bold;
      color: white;
      text-align: center;
-     display: inline-block;
+     display: block;
 }
 .package-location #discstick 
 {
@@ -1285,7 +1288,7 @@ button
 }
 .tour-description p
 {
-     text-align: justify;
+     text-align: left;
 }
 .tour-description .head h4
 {
@@ -1390,15 +1393,15 @@ button
 }
 .single-package-details p
 {
-     font-size: 17px;
+     font-size: 18px;
      font-weight: normal;
-     line-height: 27px;
+     line-height: 30px;
      text-align: justify;
      margin-bottom: 18px;
 }
 .single-package-details p i
 {
-     font-size: 20px;
+     font-size: 18px;
      color: #fb6a00;
 }
 .gsc-control-cse
@@ -1414,8 +1417,8 @@ button
 }
 .header-bottom-area .main-menu .dropdown2 {
      position: absolute;
-     left: 18px;
-     top: 100% !important;
+     left: 28px;
+     top: 85% !important;
      z-index: 999;
      opacity: 0;
      transition: all ease-in-out 0.2s;
@@ -1474,7 +1477,7 @@ header .sticky .header-bottom-area .main-menu .dropdown2 li a
 .header-bottom-area .main-menu .dropdown2 .row
 {
      position: absolute;
-     left: 13px;
+     left: 0;
      border-left: 2px solid #fb6a00;
 }
 .header-bottom-area .main-menu > li ul.dropdown2 li a:hover
@@ -1490,7 +1493,7 @@ header .sticky .header-bottom-area .main-menu .dropdown2 li a
 .sticky .header-bottom-area .main-menu .dropdown2 .row
 {
      position: absolute;
-     left: 13px;
+     left: 0;
      border-left: 2px solid #0495ff;
 }
 .sticky .header-bottom-area .main-menu > li ul.dropdown2 li a:hover
@@ -1507,8 +1510,8 @@ header .sticky .header-bottom-area .main-menu .dropdown2 li a
 
 .header-bottom-area .main-menu .dropdown3 {
      position: absolute;
-     left: 65px;
-     top: 100% !important;
+     left: 59px;
+     top: 85% !important;
      z-index: 999;
      opacity: 0;
      transition: all ease-in-out 0.2s;
@@ -1655,7 +1658,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      margin: 20px auto 0;
      cursor: pointer;
      -webkit-transition: all .1s ease-out;
-     transition: all .1s ease-out;
+     transition: all 1s ease-out;
      position: relative;
      left: 1%;
    }
@@ -1674,7 +1677,8 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      width: 40px;
      height: 40px;
      margin: 20px auto 0;
-     opacity: 0;
+     opacity: 1;
+     display: none;
    }
    .sbutton:not(:last-child) > i {
      font-size: 24px;
@@ -1682,10 +1686,10 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      transition: all .3s ease-in-out;
    }
    .sbuttons:hover .sbutton:not(:last-child) {
-     opacity: 1;
      width: 40px;
      height: 40px;
      margin: 15px auto 0;
+     display: block;
    }
    .sbutton:nth-last-child(1) {
      -webkit-transition-delay: 25ms;
@@ -1758,6 +1762,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      border-radius: 5px;
      box-shadow: 0 0 3px gray;
+     z-index: 5;
 }
 .top-destination-area .search-btn button
 {
@@ -1779,10 +1784,11 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .bidnwin
 {
-     background-image: url(../images/homepage/zbid1.webp);
-     background-repeat: repeat-x;
-     background-size: contain ;
+     background-image: url(../images/banners/zbid.webp);
+     background-repeat: no-repeat;
+     background-size: cover;
      padding-bottom: 185px;
+     background-position: center;
 }
 .bidnwin::before
 {
@@ -1830,9 +1836,73 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      background-color: white;
 }
-.interest-bg
+.homepage .bidnwin .section-title-version-2-black h2,
+.homepage .bidnwin .section-title-version-2-black p
 {
-     background-image: url("../images/cubes.png") !important;
+     color: white;
+}
+.interest-bg .single-package-details p
+{
+     margin: 40px auto;
+     margin-top: 20px;
+}
+.interest-bg .single-destionation-5 .travel-primary-btn
+{
+     background: #0495ff;
+}
+.interest-bg .timeline .timeline-content h3
+{
+     font-size: 30px;
+}
+.interest-bg .timeline .tour-description
+{
+     padding: 0;
+     padding-left: 20px;
+}
+.interest-bg .main-timeline .timeline .timeline-icon
+{
+     height: 30px;
+     width: 30px;
+     font-size: 15px;
+     left: -15px;
+     line-height: 32px;
+     background: #353535;
+}
+.interest-bg .main-timeline::before
+{
+     left: 0;
+     height: 82%;
+}
+.interest-bg .tour-description .timeline:hover p::before
+{
+     width: 0;
+}
+.interest-bg .main-timeline
+{
+     margin-top: 25px;
+}
+.interest-bg.popular-packages .tab-bontent
+{
+     padding-top: 15px;
+}
+.interest-bg .col-md-3 .single-package
+{
+     box-shadow: none !important;
+     margin-bottom: 50px;
+}
+.single-package-area.interest-bg .col-md-3 .single-package
+{
+     margin-bottom: 0;
+     margin-top: 15px;
+}
+.row.top-destination-area.popular-packages
+{
+     margin-top: 30px;
+}
+.interest-bg .timeline .carousel,
+.interest-bg .timeline .carousel-inner
+{
+     border-radius: 0;
 }
 .rate-pg
 {
@@ -1873,7 +1943,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      margin-top: 0;
      margin-bottom: 50px;
 }
-.tab-content .carousel-inner
+.tab-bontent .carousel-inner
 {
      border-radius: 5px;
 }
@@ -1920,8 +1990,8 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .faq-section .panel-title a, .faq-section .panel-body p
 {
-     font-size: 16px;
-     line-height: 24px;
+     font-size: 17px;
+     line-height: 25px;
 }
 .faq-section
 {
@@ -2462,7 +2532,7 @@ iframe
 }
 .pois-page #mobnav .mean-link:nth-child(2)
 {
-     display: none;
+     display: block;
 }
 .pois-page #mobnav .mean-link:nth-child(3)
 {
@@ -2474,7 +2544,7 @@ iframe
 }
 .pois-page #mobnav .mean-link:nth-child(5)
 {
-     display: block;
+     display: none;
 }
 .getaway-page #mobnav .mean-link:nth-child(1)
 {
@@ -2693,7 +2763,7 @@ iframe
 .leisure-page-area .btn, .resorts-bg .btn
 {
      background: none;
-     border: 1px solid lightgray !important;
+     border: 1px solid none !important;
      transition: all 0.3s ease-in-out;
      background: #0495ff;
 }
@@ -2706,6 +2776,12 @@ iframe
 {     
      font-size: 18px;
 }
+.quick-links .col-md-2,
+.quick-links .col-xs-4
+{
+     padding-left: 10px;
+     padding-right: 10px;
+}
 .resorts-bg .quick-links .btn
 {
      cursor: pointer;
@@ -2713,14 +2789,14 @@ iframe
 .quick-links .btn
 {
      font-size: 15px;
-     padding: 6px 10px;
+     padding: 6px 0;
      color: black;
-     background: white;
+     background: none;
      cursor: default;
 }
 .quick-links .btn img
 {
-     width: 200px;
+     width: 200px
 }
 .resort-table li span:first-child
 {
@@ -2796,6 +2872,7 @@ h1, h2, h3, h4, h5, h6
 .slider-area-2 h3
 {
      font-weight: 400;
+     line-height: 1.4;
 }
 .single-package-details h1
 {
@@ -2823,7 +2900,7 @@ h1, h2, h3, h4, h5, h6
 }
 .rev_slider h2
 {
-     letter-spacing: 2px !important;
+     letter-spacing: 0px !important;
 }
 .info-title h2
 {
@@ -2838,18 +2915,18 @@ h1, h2, h3, h4, h5, h6
      font-style: normal;
      font-weight: bold;
 }
-.leisure-page-area .tab-content
+.leisure-page-area .tab-bontent
 {
      padding-top: 40px;
 }
 .ital-text
 {
      font-weight: 300;
-     font-size: 17px;
+     font-size: 18px;
      width: 80%;
      margin: 20px auto;
      display: block;
-     line-height: 1.5;
+     line-height: 1.6;
      text-align: justify;
 }
 .material-icons
@@ -2927,7 +3004,9 @@ h1, h2, h3, h4, h5, h6
 {
      visibility: hidden;
 }
-.destination-slider-active .owl-nav
+
+.destination-slider-active .owl-nav,
+.destination-slider-active .owl-dots
 {
      display: none !important;
 }
@@ -2983,7 +3062,7 @@ h1, h2, h3, h4, h5, h6
 }
 .offers
 {
-     background: #f4f4f4;
+     background: white;
 }
 .offers .container:not(:first-child)
 {
@@ -3087,7 +3166,83 @@ h1, h2, h3, h4, h5, h6
      display: block;
      width: 100%;
 }
-.tab-content .section-paddings:not(:last-child)
+.tab-bontent .section-paddings:not(:last-child)
 {
      padding-bottom: 0;
+}
+.active-slider2
+{
+     background: #363b53 !important;
+     color: white;
+}
+.active-slider2 p
+{
+     color: white;
+     line-height: 1.8;
+     font-weight: lighter;
+}
+.active-slider2 h1
+{
+     font-size: 37px;
+}
+.active-slider2 h3
+{
+     font-size: 20px;
+}
+.active-slider2 .col-md-4 p
+{
+     margin-top: 20px;
+}
+.active-slider2 .destination-slider-active .single-destination
+{
+     background: none;
+     border: none;
+}
+.active-slider2 .destination-slider-active .single-destination figure
+{
+     border-radius: 0;
+}
+.active-slider2 .destination-slider-active .single-destination .des-city
+{
+     box-shadow: none;
+     padding: 20px 0;
+     padding-right: 15px;
+}
+.active-slider2 .destination-slider-active .single-destination .des-city a span
+{
+     padding-top: 15px;
+     font-family: "Oxygen", sans-serif;
+     font-weight: lighter;
+     display: block;
+     font-size: 15px;
+     color: white;
+}
+.active-slider2 .destination-slider-active .single-destination .des-city a
+{
+     color: white;
+     text-align: left;
+}
+#myModal .modal-body
+{
+     padding: 0;
+}
+#myModal .modal-body form
+{
+     padding: 15px;
+}
+#myModal h3
+{
+     padding-bottom: 10px;
+}
+#myModal .btn
+{
+     width: 100%;
+}
+.historical .single-package-area .timeline:nth-child(2)
+{
+     padding-bottom: 100px;
+}
+.historical .single-package-area .main-timeline .timeline
+{
+     padding-bottom: 0px;
 }
