@@ -896,7 +896,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 /*===================================================== 07.popular destination strat section css goes here =======================================================*/
  .destination-slider-active .single-destination {
      transition: all ease-in-out 0.5s;
-     margin-bottom: 30px;
+     margin-bottom: 10px;
      background: white;
      border: 1px solid #f4f4f4;
      border-radius: 5px;

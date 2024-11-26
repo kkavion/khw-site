@@ -679,6 +679,10 @@ header .sticky .header-bottom-area .main-menu > li.active a
      color: white;
      font-size: 16px;
 }
+.top-destination-area .single-package-area .btn-primary
+{
+     font-size: 14px;
+}
 .top-destination-area .single-hotels:hover a
 {
      color: #71bf44;
