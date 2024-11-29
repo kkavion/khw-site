@@ -2798,6 +2798,10 @@ iframe
      background: none;
      cursor: default;
 }
+.modal .quick-links .btn
+{
+     cursor: pointer;
+}
 .quick-links .btn img
 {
      width: 200px
