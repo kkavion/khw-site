@@ -5956,7 +5956,9 @@ button.close {
  padding:0;
  cursor:pointer;
  background:0 0;
- border:0
+ border:0;
+ position: relative;
+ z-index: 2;
 }
 .modal-open {
  overflow:hidden
