@@ -4,10 +4,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="description" content="Leisure Form">
-	<meta name="keywords" content="Tour, Travel, form, leisure, query, request">
+	<meta name="description" content="Travel Aid">
+	<meta name="keywords" content="Tour, Travel, digha, resorts, hotels">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Your Query Form - Leisure</title>
+	<title>Travel Aid</title>
 	<!-- Google Fonts Includes -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
@@ -52,7 +52,8 @@
 	<!-- custom css -->
 	<link rel="stylesheet" href="css/custom.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/lightslider.css">
+	<link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 	<link rel="stylesheet"
@@ -69,7 +70,6 @@
 		  hitsPerPage: 15,
 		});
 	</script>
-	<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 
 <body>
@@ -115,7 +115,7 @@
 										</ul>
 									</li>
 									<li><a href="bidnwin.html">Bid & Win</a></li>
-									<li><a href="interest.html">Interest</a></li>
+									<li class="active"><a href="interest.html">Interest</a></li>
 									<li><a href="resort-tab.html">Resort</a></li>
 									<li>
 										<a>Indulge</a>
@@ -162,326 +162,80 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> 
 		<!-- header-bottom area end here -->
 	</header>
 	<!-- header area end here -->
 
+
+	<!-- blog breadcrumb version one strat here -->
 	<section class="breadcrumb-blog-version-one">
-		<div class="single-bredcurms" style="background-image:url('images/banners/query_leisure.webp');">
+		<div class="single-bredcurms" style="background-image:url('images/banners/interest.webp');">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12 col-md-12">
+					<div class="col-sm-12">
 						<div class="bredcrums-content">
-							<h2>Query</h2>
+							<h2>Travel Aid</h2>
 							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li class="active"><a href="form-leisure.html">LEISURE</a></li>
+								<li><a href="travelaid.html">Home</a>
+								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
+			<div class="container">
+				<div class="row bg-gradent">				
+					<form id="filter">
+						<div class="form-group">
+							<select class="form-control" id="interest-name">
+								<option hidden>Interest Type</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<select class="form-control" id="des-name1">
+								<option hidden>Destination Name</option>
+							</select>
+						</div>
+					</form>
+				</div>
+			</div>
 		</div>
 	</section><!-- blog breadcrumb version one end here -->
-
-	<!-- popular destination strat -->
-	<section class="section-paddings single-package-area leisure-page-area">
+				
+			
+	<!--popular packages-->
+	<section class="section-paddings top-destination-area popular-packages interest-bg">
 		<div class="container">
-			<div class="col-md-12 col-sm-12">
+			<div class="row">
 				<div class="single-package-details">
 					<div class="section-title-version-2-black" style="text-align:center; margin-bottom:0px;">
-						<h2>Plan Your Holiday</h2>
-						<p style="font-weight: normal;text-align:center">
+						<h2>Travel Aid</h2>
+						<p style="font-weight: normal;">
 							<i>
-								Going round in circles trying to decide on your leisure stay? Fill in your holiday requirements to have us help you find the perfect option for your getaway from home and get ready to pursue the hobbies of your choice!
+								Craving a unique experience? Discover the perfect destinations to dive into your dream holiday!
 							</i>
 						</p>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<form name="leisure-query" method="post" class="your-query-form" data-netlify="true" data-netlify-recaptcha="true">
-					<p class="hidden">
-						<input type="text" id="form-name" class="form-control" value="Leisure Query Form">
-					</p>
-					<p>Holiday Requirement</p>
-					<!--div class="form-group col-md-6 col-sm-6">
-						<input type="text" class="form-control" id="sel-dest-type" placeholder="Select Destination Type*" name="select-destination-type">
-							<select id="sel-dest-type" aria-placeholder="Select Destination Type*" class="form-control" name="select-destination-type">
-								<option value="" hidden>Select Destination Type*</option>
-								<option value="Altius">Altius</option>
-								<option value="Beach">Beach</option>
-								<option value="Backwaters">Backwaters</option>
-								<option value="Cityscape">Cityscape</option>
-								<option value="Outskirts">Outskirts</option>
-								<option value="Heritage">Heritage</option>
-								<option value="Wildlife">Wildlife</option>
-							</select>
-					/div-->
-					<div class="form-group col-md-6 col-sm-6">
-						<input type="text" class="form-control" id="desti-name" placeholder="Destination Name*"
-							name="destination-name" required>
-					</div>
-
-
-
-
-					<div class="form-group col-md-6 col-sm-6">
-						<!--input type="text" class="form-control" id="sel-res-cat" placeholder="Select Resort Category*"
-							name="select-resort-category"-->
-						<select id="sel-res-cat" aria-placeholder="Select Resort Category" class="form-control"
-							name="select-resort-category">
-							<option value="" hidden>Select Resort Category</option>
-							<option value="Luxury">Luxury</option>
-							<option value="Premium">Premium</option>
-							<option value="Standard">Standard</option>
-							<option value="Boutique">Boutique</option>
-							<option value="Economy">Economy</option>
-						</select>
-					</div>
-					<div class="form-group col-md-6 col-sm-6">
-						<input type="text" class="form-control" id="choose-res" placeholder="Resort Name"
-							name="choose-resort">
-					</div>
-
-
-
-
-
-					<!--div class="form-group col-md-6 col-sm-6">
-						<input type="text" class="form-control" id="room-cat" placeholder="Room Category*"
-							name="room-category">
-							<select id="room-cat" aria-placeholder="Room Category" class="form-control" name="room-category">
-								<option value="" hidden>Select Room Category*</option>
-								<option value="Premium">Premium</option>
-								<option value="Luxury">Luxury</option>
-								<option value="Standard">Standard</option>
-								<option value="Boutique">Boutique</option>
-								<option value="Economy">Economy</option>
-							</select>
-					</div-->
-					<div class="form-group col-md-3 col-sm-3">
-						<input type="text" class="form-control" id="datepicker" placeholder="Check-In Date*"
-							name="check-in" required>
-					</div>
-					<div class="form-group col-md-3 col-sm-3">
-						<input type="text" class="form-control" id="datepicker1" placeholder="Check-Out Date*"
-							name="check-out" required>
-					</div>
-
-
-
-
-
-					<div class="form-group col-md-3 col-sm-3">
-						<input type="number" class="form-control" id="room-nos" placeholder="Number of Rooms"
-							name="rooms" min="1">
-					</div>
-					<div class="form-group col-md-3 col-sm-3">
-						<input type="number" class="form-control" id="adult-nos" placeholder="Adults*" name="adults"
-							min="1" required>
-					</div>
-					<div class="form-group col-md-3 col-sm-3">
-						<input type="number" class="form-control" id="child-above11" placeholder="Child (Above11)"
-							name="child-above11" min="0">
-					</div>
-					<div class="form-group col-md-3 col-sm-3">
-						<input type="number" class="form-control chld" id="child-below11" placeholder="Child (Below11)"
-							name="childbelow11" min="0">
-					</div>
-
-
-
-					<div class="form-group col-md-12 col-sm-12">
-						<textarea class="form-control" rows="3" id="comment"
-							placeholder="Let us know about your holiday aspiration." name="comment"></textarea>
-					</div>
-					<!-- holiday box ends -->
-
-					<!-- contact box start -->
-					<p>Your Contact Details</p>
-
-					<div class="form-group col-md-2 col-sm-2">
-						<!--input type="text" class="form-control" id="title" placeholder="Title *" name="title"-->
-						<select id="title" aria-placeholder="Title*" class="form-control" name="title">
-							<option value="" hidden>Title*</option>
-							<option value="Mr.">Mr.</option>
-							<option value="Mrs.">Mrs.</option>
-							<option value="Ms.">Ms.</option>
-							<option value="Dr.">Dr.</option>
-						</select>
-					</div>
-					<div class="form-group col-md-5 col-sm-5">
-						<input type="text" class="form-control" id="firstname" placeholder="First Name *"
-							name="firstname" required>
-					</div>
-					<div class="form-group col-md-5 col-sm-5">
-						<input type="text" class="form-control" id="lastname" placeholder="Surname *" name="lastname"
-							required>
-					</div>
-
-
-
-
-
-					<div class="form-group col-md-7 col-sm-7">
-						<input type="email" class="form-control" id="email" placeholder="Email *" name="email" required>
-					</div>
-					<div class="form-group col-md-5 col-sm-5">
-						<input type="number" class="form-control" id="phone" placeholder="Phone *" name="phone"
-							style="appearance:textfield" required>
-					</div>
-
-					<div class="form-group col-md-12 col-sm-12">
-						<textarea class="form-control" rows="3" id="address" placeholder="Address."
-							name="address"></textarea>
-					</div>
-
-					<div class="form-group col-md-4 col-sm-4">
-						<input type="text" class="form-control" id="city" placeholder="City *" name="city" required>
-					</div>
-					<div class="form-group col-md-4 col-sm-4">
-						<!--input type="text" class="form-control" id="state" placeholder="State *" name="state"-->
-						<select id="state" aria-placeholder="State*" class="form-control" name="state">
-							<option value="" hidden>Select State*</option>
-							<option value="Andhra Pradesh">Andhra Pradesh</option>
-							<option value="Arunachal Pradesh">Arunachal Pradesh</option>
-							<option value="Assam">Assam</option>
-							<option value="Bihar">Bihar</option>
-							<option value="Chhattisgarh">Chhattisgarh</option>
-							<option value="Goa">Goa</option>
-							<option value="Gujarat">Gujarat</option>
-							<option value="Haryana">Haryana</option>
-							<option value="Himachal Pradesh">Himachal Pradesh</option>
-							<option value="Jharkhand">Jharkhand</option>
-							<option value="Karnataka">Karnataka</option>
-							<option value="Kerela">Kerela</option>
-							<option value="Madhya Pradesh">Madhya Pradesh</option>
-							<option value="Maharashtra">Maharashtra</option>
-							<option value="Manipur">Manipur</option>
-							<option value="Meghalaya">Meghalaya</option>
-							<option value="Mizoram">Mizoram</option>
-							<option value="Nagaland">Nagaland</option>
-							<option value="Odisha">Odisha</option>
-							<option value="Punjab">Punjab</option>
-							<option value="Rajasthan">Rajasthan</option>
-							<option value="Sikkim">Sikkim</option>
-							<option value="Tamil Nadu">Tamil Nadu</option>
-							<option value="Telengana">Telengana</option>
-							<option value="Tripura">Tripura</option>
-							<option value="Uttar Pradesh">Uttar Pradesh</option>
-							<option value="Uttrakhand">Uttrakhand</option>
-							<option value="West Bengal">West Bengal</option>
-						</select>
-					</div>
-					<div class="form-group col-md-4 col-sm-4">
-						<input type="number" class="form-control" id="pincode" placeholder="Pincode *" name="pincode"
-							style="appearance:textfield" required>
-					</div>
-					<!-- contact box start -->
-
-					<p>Additional Information </p>
-
-					<!-- additional box start -->
-					<div class="container">
-						<div class="form-group">
-							<p>What is the best way to contact you? Kindly tick appropriately</p>
-							<label class="checkbox-inline col-md-3 col-xs-4">
-								<input type="checkbox" id="phonecheck" name="phonecheck" value="OK">Phone
-							</label>
-							<label class="checkbox-inline col-md-3 col-xs-4">
-								<input type="checkbox" id="emailcheck" name="emailcheck" value="OK">Email
-							</label>
-							<label class="checkbox-inline col-md-3 col-xs-4">
-								<input type="checkbox" id="whatsappcheck" name="whatsappcheck" value="OK">WhatsApp
-							</label>
-						</div>
-
-						<br>
-
-						<div class="form-group">
-							<p>If phone, when is the best time of day for a call-back?</p>
-							<label class="checkbox-inline col-md-3 col-xs-4">
-								<input type="checkbox" id="hour1" name="hour1" value="OK"> 11 &nbsp;-&nbsp; 1pm
-							</label>
-							<label class="checkbox-inline col-md-3 col-xs-4">
-								<input type="checkbox" id="hour2" name="hour2" value="OK"> 2 &nbsp;-&nbsp; 4pm
-							</label>
-							<label class="checkbox-inline col-md-3 col-xs-4">
-								<input type="checkbox" id="hour3" name="hour3" value="OK"> 4 &nbsp;-&nbsp; 6pm
-							</label>
-						</div>
-
-						<br>
-
-						<div class="form-group">
-							<p>And lastly, how did you hear about us?</p>
-							<label class="checkbox-inline col-md-3 col-sm-4 col-xs-12">
-								<input type="checkbox" id="email" name="email" value="OK">E-Mail
-							</label>
-							<label class="checkbox-inline col-md-3 col-sm-4 col-xs-12">
-								<input type="checkbox" id="sms" name="sms" value="OK">SMS
-							</label>
-							<label class="checkbox-inline col-md-3 col-sm-4 col-xs-12">
-								<input type="checkbox" id="whatsapp" name="whatsapp" value="OK">WhatsApp
-							</label>
-							<label class="checkbox-inline col-md-3 col-sm-4 col-xs-12">
-								<input type="checkbox" id="socialmedia" name="socialmedia" value="OK">Social
-								Media(Facebook, Twitter)
-							</label>
-							<br><br>
-							<label class="checkbox-inline col-md-3 col-sm-4 col-xs-12">
-								<input type="checkbox" id="onlinead" name="onlinead" value="OK">Online Ad
-							</label>
-							<label class="checkbox-inline col-md-3 col-sm-4 col-xs-12">
-								<input type="checkbox" id="newspaper" name="newspaper" value="OK">Newspaper
-							</label>
-							<label class="checkbox-inline col-md-3 col-sm-4 col-xs-12">
-								<input type="checkbox" id="wordofmouth" name="word-of-mouth" value="OK">Word of Mouth
-							</label>
-							<label class="checkbox-inline col-md-3 col-sm-4 col-xs-12">
-								<input type="checkbox" id="other" name="other" value="">
-								<input type="text" id="other" name="other" class="form-control" placeholder="Other"
-									style="height: 25px;">
-							</label>
-						</div>
-
-						<div class="form-group">
-							<span>* &nbsp; Mandatory information</span>
-						</div>
-
-						<div class="form-group">
-							<label class="checkbox-inline">
-								<input type="checkbox" id="offer" name="offer" value="OK">
-								Kindly tick the box to know more about our exclusive offers.
-							</label>
-						</div>
-
-						<div class="form-group">
-							<p>Thank you for giving us an opportunity to plan your holiday</p>
-							<div class="cf-turnstile" data-sitekey="0x4AAAAAAADhklWUxP0t0Pvz" data-callback="javascriptCallback" style="padding-bottom: 20px;"></div>
-							<h4 id="response"></h4>
-							<button type="submit" class="btn btn-primary">Submit</button>
-						</div>
-					</div>
-
-
-				</form>
-				<!-- additional box start -->
-
-
-
-
-
+			<div class="header-bottom-area" style="padding-bottom: 50px;">
+				<ul class="main-menu tab-a" role="tablist" id="tab7">
+					<li role="presentation" class="active"><a href="#flight" aria-controls="insta" role="tab" data-toggle="tab">Flights</a>
+					</li>
+					<li role="presentation" class=""><a href="#bus" aria-controls="short" role="tab" data-toggle="tab">Bus</a>
+					</li>
+					<li role="presentation" class=""><a href="#car" aria-controls="incredible" role="tab" data-toggle="tab">Car Rentals</a>
+					</li>
+				</ul>
+			</div><!-- tab menu end -->
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane fade in active" id="leisure">
+				</div>
 			</div>
 		</div>
 	</section>
-	<!-- single popular destination  end-->
-
-
+	<!-- popular packages end-->
 
 
 
@@ -654,8 +408,7 @@
 
 	<div class="to-top pos-rtive">
 		<a><i class="fa fa-angle-up"></i></a>
-	</div>
-	<!--End Scroll to top-->
+	</div> <!-- Scroll to top jump button end-->
 
 	<!-- ============================
             JavaScript Files
@@ -695,9 +448,14 @@
 	<script src="js/colors.js"></script>
 	<!-- Jquery plugin -->
 	<script src="js/jquery-customselect.js"></script>
+	<!-- google map api -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIW0B_E3g-Yg533xy3yF0WHThi-mFvSNQ "></script>
+	<!-- map js -->
+	<script src="js/google-map.js"></script>
 	<!-- main js -->
 	<script src="js/custom.js"></script>
 	<script>
+		window.onload = function (){interest(1)};
 		// When the user scrolls the page, execute myFunction
 		window.onscroll = function () { myFunction() };
 
@@ -726,42 +484,28 @@
 
 		}
 	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/lightslider.js"></script>
 	<script>
-		(() => {
-		const form = document.querySelector('form');
-		const submitResponse = document.querySelector('#response');
-		const formURL = 'https://ap5bobpdue.execute-api.ap-south-1.amazonaws.com/Prod/submitForm';
-
-		form.onsubmit = e => {
-			e.preventDefault();
-
-			// Capture the form data
-			let data = {};
-			Array.from(form).map(input => (data[input.id] = input.value));
-			console.log('Sending: ', JSON.stringify(data));
-			submitResponse.innerHTML = 'Sending...'
-
-			// Create the AJAX request
-			var xhr = new XMLHttpRequest();
-			xhr.open(form.method, formURL, true);
-			xhr.setRequestHeader('Accept', 'application/json; charset=utf-8');
-			xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
-
-			// Send the collected data as JSON
-			xhr.send(JSON.stringify(data));
-
-			xhr.onloadend = response => {
-			if (response.target.status === 200) {
-				form.reset();
-				submitResponse.innerHTML = 'Form submitted. Success!';
-			} else {
-				submitResponse.innerHTML = 'Error! Please try again.';
-				console.error(JSON.parse(response));
-			}
-			};    
-		};
-		})();
-  	</script>
+		$(document).ready(function () {
+			$("#content-slider").lightSlider({
+				loop: true,
+				keyPress: true
+			});
+			$('#image-gallery').lightSlider({
+				gallery: true,
+				item: 1,
+				thumbItem: 9,
+				slideMargin: 0,
+				speed: 500,
+				auto: false,
+				loop: true,
+				onSliderLoad: function () {
+					$('#image-gallery').removeClass('cS-hidden');
+				}
+			});
+		});
+	</script>
 	<!-- popper.js for tooltip-->
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
 </body>
