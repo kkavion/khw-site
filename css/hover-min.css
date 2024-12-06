@@ -1359,7 +1359,7 @@
 .hvr-fade:active,
 .hvr-fade:focus,
 .hvr-fade:hover {
-    background-color: #fb6a00;
+    background-color: #ed1c24;
 }
 
 @-webkit-keyframes hvr-back-pulse {
@@ -1951,7 +1951,7 @@
 
 .hvr-shutter-out-horizontal:before {
     position: absolute;
-    background:#0495ff;
+    background:#034ea2;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 50%;
@@ -2028,7 +2028,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: #fb6a00;
+    background: #ed1c24;
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50%;

@@ -33,27 +33,27 @@
 }
 header .header-bottom-area .main-menu > li:hover > a
 {
-     color: #fb6a00;
+     color: #ed1c24;
 }
 .sticky .header-bottom-area .main-menu > li:hover > a
 {
-     color: #0495ff;
+     color: #034ea2;
 }
 .sticky .header-bottom-area-4 .main-menu > li ul.dropdown
 {
-     border-top: 2px solid #0495ff;
+     border-top: 2px solid #034ea2;
 }
 .sticky .header-bottom-area .main-menu > li ul.dropdown li a:hover
 {
-     color: #0495ff !important;
+     color: #034ea2 !important;
 }
 .sticky .header-bottom-area .main-menu > li > a:before
 {
-     background: #0495ff;
+     background: #034ea2;
 }
 header .sticky .header-bottom-area .main-menu > li.active a
 {
-     color: #0495ff;
+     color: #034ea2;
 }
 .sticky .dropdown li a
 {
@@ -118,7 +118,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .popular-packages-carasoul .owl-nav .owl-prev:hover,.popular-packages-carasoul .owl-nav .owl-next:hover
 {
-     background: #fb6a00 !important;
+     background: #ed1c24 !important;
      box-shadow: 0 0 10px gray;
 }
 .popular-packages-carasoul .owl-dots
@@ -352,11 +352,11 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .header-bottom-area .tab-a li:hover
 {
-     background: #fb6a00;
+     background: #ed1c24;
 }
 .header-bottom-area .tab-a > li > a {
      display: block;
-     color: #fb6a00;
+     color: #ed1c24;
      font-size: 17px;
      text-decoration: none;
      font-weight: 500;
@@ -369,7 +369,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .header-bottom-area .tab-a > li.active
 {
-     background: #fb6a00;
+     background: #ed1c24;
 }
 .header-bottom-area .tab-a > li {
      display: inline-block;
@@ -388,7 +388,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .header-bottom-area .tab-b li:hover
 {
-     background: #0495ff;
+     background: #034ea2;
 }
 .header-bottom-area .tab-b > li > a:before
 {
@@ -398,7 +398,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .header-bottom-area .tab-b > li > a {
      display: block;
-     color: #0495ff;
+     color: #034ea2;
      font-size: 17px;
      text-decoration: none;
      font-weight: 500;
@@ -411,7 +411,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .header-bottom-area .tab-b > li.active
 {
-     background: #0495ff;
+     background: #034ea2;
 }
 .header-bottom-area .tab-b > li {
      display: inline-block;
@@ -659,12 +659,12 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .top-destination-area .hotel-description h4
 {
-     color: #0495ff;
+     color: #034ea2;
      margin-bottom: 0;
 }
 .top-destination-area .hotel-description h4:hover
 {
-     color: #fb6a00;
+     color: #ed1c24;
 	transition: all 1s ease 0s;
 }
 .top-destination-area a
@@ -800,7 +800,7 @@ header a:hover,a:focus
 }
 header .main-menu a:focus
 {
-     color: #0495ff;
+     color: #034ea2;
 }
 #tab7 .main-menu a:focus, a:hover
 {
@@ -808,7 +808,7 @@ header .main-menu a:focus
 }
 .discount-package-4-btn a:hover
 {
-     background: #fb6a00 !important;
+     background: #ed1c24 !important;
 }
 .mean-nav li:last-child
 {
@@ -840,12 +840,12 @@ header .main-menu a:focus
 }
 .box .resort-table .discount-package-4-btn  a
 {
-     background: #0495ff;
+     background: #034ea2;
      transition: 0.3s all ease-in;
 }
 .box .resort-table .discount-package-4-btn a:hover
 {
-     background: #fb6a00;
+     background: #ed1c24;
      color: white;
 }
 .fact-file
@@ -880,7 +880,7 @@ header .main-menu a:focus
 }
 .to-top a:hover
 {
-     background: #0495ff;
+     background: #034ea2;
 }
 i
 {
@@ -969,7 +969,7 @@ button
 }
 .top-destination-area .single-hotels:hover .hotel-description h5
 {
-     color: #fb6a00;
+     color: #ed1c24;
      transition: all ease-in-out 0.3s;
 }
 .testimonial-area-5 .owl-nav
@@ -1052,7 +1052,7 @@ button
 }
 .career-menu .career-bottom-area-hidden-btn
 {
-     background: #0495ff none repeat scroll 0 0;
+     background: #034ea2 none repeat scroll 0 0;
      display: block;
      width: calc(100% - 30px);
      text-align: center;
@@ -1196,7 +1196,7 @@ button
      border-radius: 5px;
      position: relative;
      top: 1px;
-     color: #fb6a00;
+     color: #ed1c24;
      font-style: italic;
 }
 .x-essence
@@ -1229,12 +1229,12 @@ button
 }
 .x-essence .subscribe-form-box .btn-primary
 {
-     background-color: #fb6a00;
+     background-color: #ed1c24;
      border-color: #ff8f00;
 }
 .x-essence .subscribe-form-box .btn-primary:hover
 {
-     background-color: #0495ff;
+     background-color: #034ea2;
      border-color: #08f;
 }
 #climate h4, #transport h4, #wellness h4, #wedding h4, #conference h4, #direction h4
@@ -1249,7 +1249,7 @@ button
 #credits a
 {
      text-decoration: none;
-     color: #0495ff;
+     color: #034ea2;
 }
 .wellness-btn
 {
@@ -1270,7 +1270,7 @@ button
 }
 .ct-action a:hover
 {
-     background: #fb6a00;
+     background: #ed1c24;
 }
 .tour-description
 {
@@ -1296,11 +1296,11 @@ button
 }
 .tour-description .head h4
 {
-     color: #fb6a00;
+     color: #ed1c24;
 }
 .tour-description .tail h4
 {
-     color: #0495ff;
+     color: #034ea2;
 }
 .tour-description .carousel
 {
@@ -1406,7 +1406,7 @@ button
 .single-package-details p i
 {
      font-size: 18px;
-     color: #fb6a00;
+     color: #ed1c24;
 }
 .gsc-control-cse
 {
@@ -1449,11 +1449,11 @@ button
 }
 .header-bottom-area .main-menu .dropdown2
 {
-     border-left: 2px solid #fb6a00;
+     border-left: 2px solid #ed1c24;
 }
 .sticky .header-bottom-area .main-menu .dropdown2
 {
-     border-left: 2px solid #0495ff;
+     border-left: 2px solid #034ea2;
 }
 header .header-bottom-area .main-menu .dropdown2 li
 {
@@ -1482,27 +1482,27 @@ header .sticky .header-bottom-area .main-menu .dropdown2 li a
 {
      position: absolute;
      left: 0;
-     border-left: 2px solid #fb6a00;
+     border-left: 2px solid #ed1c24;
 }
 .header-bottom-area .main-menu > li ul.dropdown2 li a:hover
 {
-     color: #fb6a00;
+     color: #ed1c24;
      margin-left: 5px;
 }
 .header-bottom-area .main-menu > li ul.dropdown3 li a:hover
 {
-     color: #fb6a00;
+     color: #ed1c24;
      margin-left: 5px;
 }
 .sticky .header-bottom-area .main-menu .dropdown2 .row
 {
      position: absolute;
      left: 0;
-     border-left: 2px solid #0495ff;
+     border-left: 2px solid #034ea2;
 }
 .sticky .header-bottom-area .main-menu > li ul.dropdown2 li a:hover
 {
-     color: #0495ff;
+     color: #034ea2;
      margin-left: 5px;
 }
 .mean-nav .dropdown2 li
@@ -1557,11 +1557,11 @@ header .sticky .header-bottom-area .main-menu .dropdown2 li a
 }
 .header-bottom-area .main-menu .dropdown3
 {
-     border-left: 2px solid #fb6a00;
+     border-left: 2px solid #ed1c24;
 }
 .sticky .header-bottom-area .main-menu .dropdown3
 {
-     border-left: 2px solid #0495ff;
+     border-left: 2px solid #034ea2;
 }
 header .header-bottom-area .main-menu .dropdown3 li
 {
@@ -1593,19 +1593,19 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      position: absolute;
      left: 10px;
-     border-left: 2px solid #fb6a00;
+     border-left: 2px solid #ed1c24;
 }
 .header-bottom-area .main-menu .dropdown3 .row
 .header-bottom-area .main-menu > li ul.dropdown3 li a:hover
 {
-     color: #fb6a00;
+     color: #ed1c24;
      margin-left: 5px;
 }
 .sticky .header-bottom-area .main-menu .dropdown3 .row
 {
      position: absolute;
      left: 13px;
-     border-left: 2px solid #0495ff;
+     border-left: 2px solid #034ea2;
 }
 .sticky .header-bottom-area .main-menu .resort-menu .dropdown3 .row
 {
@@ -1613,7 +1613,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .sticky .header-bottom-area .main-menu > li ul.dropdown3 li a:hover
 {
-     color: #0495ff;
+     color: #034ea2;
      margin-left: 5px;
 }
 .mean-nav .dropdown3 li
@@ -1626,7 +1626,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .home-interest-area .single-hotels .ct-action .travel-booking-btn
 {
-     background: #0495ff;
+     background: #034ea2;
 }
 .home-interest-area .single-hotels .ct-action li:nth-child(1)
 {
@@ -1742,7 +1742,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      opacity: 1;
    }
    .sbutton.mainsbutton {
-     background: #0495ff;
+     background: #034ea2;
      border-radius: 5px;
    }
    .sbutton.youtube {
@@ -1772,7 +1772,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      border: medium none;
      position: relative;
-     background: #fb6a00;
+     background: #ed1c24;
      font-size: 14px;
      padding: 7px;
      width: 85%;
@@ -1796,13 +1796,13 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .bidnwin::before
 {
-     background-color: #0495ff;
+     background-color: #034ea2;
 }
 .bidnwin button
 {
      border: medium none;
      position: relative;
-     background: #0495ff !important;
+     background: #034ea2 !important;
      font-size: 14px;
      padding: 10px;
      width: 100%;
@@ -1812,7 +1812,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .bidnwin button:hover
 {
-     background: #fb6a00 !important;
+     background: #ed1c24 !important;
 }
 .top-destination-area-5 .amenities-row span
 {
@@ -1852,7 +1852,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .interest-bg .single-destionation-5 .travel-primary-btn
 {
-     background: #0495ff;
+     background: #034ea2;
 }
 .interest-bg .timeline .timeline-content h3
 {
@@ -1906,7 +1906,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .interest-bg .timeline .carousel,
 .interest-bg .timeline .carousel-inner
 {
-     border-radius: 0;
+     border-radius: 5px;
 }
 .rate-pg
 {
@@ -1970,7 +1970,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .faq-section h3
 {
-     padding-bottom: 10px;
+     padding-bottom: 15px;
      text-align: left;
      font-weight: 700;
      font-style: normal;
@@ -2282,14 +2282,14 @@ iframe
 {
      font-size: 13px;
      padding: 4px;
-     color: #0495ff;
+     color: #034ea2;
      font-style: normal;
      font-weight: 600;
 }
 .blog-post-content .blog-text-coloured
 {
      font-size: 18px !important;
-     color: #fb6a00 !important;
+     color: #ed1c24 !important;
      padding-bottom: 15px;
      display: block;
 }
@@ -2298,7 +2298,7 @@ iframe
      margin-bottom: 25px;
      line-height: 28px;
      font-weight: 500;
-     color: #fb6a00;
+     color: #ed1c24;
      font-size: 19px;
 }
 .resorts-bg .testimonial-area-5 .single-testimonial img
@@ -2331,7 +2331,7 @@ iframe
      width: 0%;
      height: 1px;
      content: "";
-     background: #fb6a00;
+     background: #ed1c24;
      transition: all ease-in-out 1s;
 }
 .tour-description .timeline:hover p::before
@@ -2414,7 +2414,7 @@ iframe
 {
      box-shadow: 0 0 5px gray;
      cursor: pointer;
-     background: #0495ff;
+     background: #034ea2;
      border: 1px solid #ffffff00;
 }
 .compare-btn
@@ -2431,7 +2431,7 @@ iframe
 }
 .compare-btn .buttons
 {
-     background-color: #fb6a00;
+     background-color: #ed1c24;
      color: white;
      display: block;
      text-align: center;
@@ -2477,22 +2477,22 @@ iframe
 }
 #compare-section .comparison-title
 {
-     color: #0495ff;
+     color: #034ea2;
 }
 .comparison-title
 {
-     color: #fb6a00;
+     color: #ed1c24;
      text-align: center;
 }
 .compare-heading
 {
-     background: #fb6a00 !important;
+     background: #ed1c24 !important;
      color: white;
      font-size: 16px;
 }
 .rp-compare-heading
 {
-     background: #0495ff !important; 
+     background: #034ea2 !important; 
      color: white;
      font-size: 16px;
 }
@@ -2611,11 +2611,11 @@ iframe
 }
 .resort-filter:hover .buttons, .calendar-sec:hover .buttons
 {
-     background: #fb6a00;
+     background: #ed1c24;
 }
 .resort-filter .buttons
 {
-     background-color: #0495ff;
+     background-color: #034ea2;
      color: white;
      display: block;
      text-align: center;
@@ -2647,7 +2647,7 @@ iframe
 }
 .calendar-sec .buttons
 {
-     background-color: #0495ff;
+     background-color: #034ea2;
      color: white;
      display: block;
      text-align: center;
@@ -2685,7 +2685,7 @@ iframe
 }
 #calendar .fc-col-header-cell
 {
-     background-color: #0495ff;
+     background-color: #034ea2;
 }
 #calendar .fc-col-header-cell a
 {
@@ -2769,12 +2769,12 @@ iframe
      background: none;
      border: 1px solid none !important;
      transition: all 0.3s ease-in-out;
-     background: #0495ff;
+     background: #034ea2;
 }
 /*.leisure-page-area .btn:hover, .resorts-bg .btn:hover
 {
      color: white;
-     background: #fb6a00;
+     background: #ed1c24;
 }*/
 .quick-links
 {     
@@ -2899,6 +2899,11 @@ h1, h2, h3, h4, h5, h6
      font-weight: 700;
      font-style: normal;
 }
+.resorts h3,
+.offers h3
+{
+     padding-bottom: 10px;
+}
 .related-title span
 {
      font-family: 'Merriweather', sans-serif;
@@ -3001,7 +3006,7 @@ h1, h2, h3, h4, h5, h6
 .getaway .live a:not(:first-child):hover, .getaway .live2:not(:first-child):hover
 {
      padding-left: 5px;
-     color: #fb6a00 !important;
+     color: #ed1c24 !important;
 }
 .getaway a:first-child
 {
@@ -3143,14 +3148,14 @@ h1, h2, h3, h4, h5, h6
 {
      padding: 5px;
      text-align: center;
-     background-color: #0495ff;
+     background-color: #034ea2;
      border-radius: 5px;
      cursor: pointer;
      transition: all 0.3s ease-in-out;
 }
 .query-btn .buttons:hover
 {
-     background-color: #fb6a00;
+     background-color: #ed1c24;
 }
 .query-btn span
 {

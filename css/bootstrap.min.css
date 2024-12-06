@@ -1094,12 +1094,12 @@ textarea {
  line-height:initial;
 }
 a {
- color:#0495ff;
+ color:#034ea2;
  text-decoration:none
 }
 a:focus,
 a:hover {
- background: #fb6a00;
+ background: #ed1c24;
  text-decoration:underline;
 }
 a:focus {
@@ -3097,7 +3097,7 @@ textarea.input-lg {
  display:inline-block;
  padding:6px 12px;
  margin-bottom:5px;
- font-size:14px;
+ font-size:14px !important;
  font-weight:400;
  line-height:1.42857143;
  text-align:center;
@@ -3129,7 +3129,7 @@ textarea.input-lg {
 .btn:hover {
  color:white;
  text-decoration:none;
- background: #fb6a00;
+ background: #ed1c24;
 }
 .btn.active,
 .btn:active {
@@ -3208,7 +3208,7 @@ fieldset[disabled] .btn-default:hover {
 }
 .btn-primary {
  color:#fff;
- background-color:#0495ff;
+ background-color:#034ea2;
  border-color:none;
   font-family: 'Open Sans', sand-serif;
 }
@@ -3220,7 +3220,7 @@ fieldset[disabled] .btn-default:hover {
 }
 .btn-primary:hover {
  color:#fff;
- background-color:#fb6a00;
+ background-color:#ed1c24;
  border-color:#ff8f00;
  transition: all linear 0.3s;
 }
@@ -3241,8 +3241,8 @@ fieldset[disabled] .btn-default:hover {
 .open>.dropdown-toggle.btn-primary:focus,
 .open>.dropdown-toggle.btn-primary:hover {
  color:#fff;
- background-color:#fb6a00;
- border-color:#fb6a00;
+ background-color:#ed1c24;
+ border-color:#ed1c24;
 }
 .btn-primary.active,
 .btn-primary:active,

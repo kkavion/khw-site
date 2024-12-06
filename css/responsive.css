@@ -660,6 +660,10 @@
     {
         text-align: center;
     }
+    #flight .box .col-md-5
+    {
+        padding-top: 0 !important;
+    }
 }
 
 /*  Wide Mobile Layout: 480px    */
@@ -834,6 +838,10 @@
 /*  Desktop Layout: 991px    */
 @media screen and (min-width: 991px)
 {    
+    #flight .box .col-md-5
+    {
+        padding-left: 0 !important;
+    }
     .active-slider2 .col-md-4
     {
         margin: 15vh 0;
@@ -950,11 +958,11 @@
     }
     .popular-packages-carasoul .owl-nav .owl-prev, .popular-packages-carasoul .owl-nav .owl-next
     {
-        background: #0495ff !important;
+        background: #034ea2 !important;
     }
     .popular-packages-carasoul .owl-nav .owl-prev:hover, .popular-packages-carasoul .owl-nav .owl-next:hover
     {
-        background: #0495ff !important;
+        background: #034ea2 !important;
     }
     .header-bottom-area .row
     {
