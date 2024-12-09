@@ -770,29 +770,6 @@ form p
      font-size: 20px;
      font: "Open Sans", sans-serif;
 }
-header .header-bottom-area .main-menu li.phone
-{
-     background: #71bf44 !important;
-     padding: 10px;
-     border-radius: 5px;
-}
-header .header-bottom-area .main-menu .dropdown li:last-child
-{
-     background: none !important;
-     padding: 0;
-     margin: 0;
-}
-header .header-bottom-area .main-menu li:last-child a
-{
-     color: white;
-     font-size: small;
-}
-header .sticky .header-bottom-area .main-menu li:last-child a
-{
-     color: white;
-     font-size: small;
-}
-
 
 header a:hover,a:focus
 {
@@ -1421,8 +1398,8 @@ button
 }
 .header-bottom-area .main-menu .dropdown2 {
      position: absolute;
-     left: 28px;
-     top: 85% !important;
+     left: 23px;
+     top: 83% !important;
      z-index: 999;
      opacity: 0;
      transition: all ease-in-out 0.2s;
@@ -3258,4 +3235,15 @@ h1, h2, h3, h4, h5, h6
 .historical .single-package-area .main-timeline .timeline
 {
      padding-bottom: 0px;
+}
+.enquire
+{
+     padding: 10px !important;
+     background: #ed1c24;
+     color: white;
+     border-radius: 5px;
+}
+.enquire:hover a
+{
+     color: white !important;
 }

@@ -317,7 +317,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .header-bottom-area .main-menu > li {
      display: inline-block;
-     padding: 30px 15px;
+     padding: 30px 10px;
      position: relative;
 }
  .header-bottom-area .main-menu > li > a {
@@ -327,6 +327,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      text-decoration: none;
      font-weight: 500;
      position: relative;
+     text-transform: uppercase;
 }
  .header-bottom-area .main-menu > li > a:before {
      position: absolute;
