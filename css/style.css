@@ -317,13 +317,13 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .header-bottom-area .main-menu > li {
      display: inline-block;
-     padding: 30px 10px;
+     padding: 30px 7px;
      position: relative;
 }
  .header-bottom-area .main-menu > li > a {
      display: block;
      color: white;
-     font-size: 16px;
+     font-size: 15px;
      text-decoration: none;
      font-weight: 500;
      position: relative;
@@ -342,6 +342,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      text-align: center;
      opacity: 0;
      visibility: hidden;
+     transition: 0.3s all ease-in-out;
 }
  .header-bottom-area .main-menu > li > a i {
      margin-left: 6px;
