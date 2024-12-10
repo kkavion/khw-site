@@ -3648,7 +3648,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      width: 14px;
 }
  .testimonial-area-5 .owl-dots .owl-dot.active span {
-     background: #71bf44;
+     background: #034ea2;
 }
  .testimonial-area-5 .owl-stage {
      transition: 0.9s !important;
@@ -4020,12 +4020,17 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      width: 100%;
 }
  aside .booking-form .form-group .booking-confirm {
-     background: #71bf44;
+     background: #034ea2;
      color: #ffffff;
      height: 40px;
      font-size: 17px;
      font-weight: 500;
      text-transform: uppercase;
+     transition: 0.3s all ease-in-out;
+}
+aside .booking-form .form-group .booking-confirm:hover
+{
+    background: #ed1c24;
 }
  .adding-form {
      margin-top: 50px;

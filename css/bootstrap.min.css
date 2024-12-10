@@ -3220,8 +3220,7 @@ fieldset[disabled] .btn-default:hover {
 }
 .btn-primary:hover {
  color:#fff;
- background-color:#ed1c24;
- border-color:#ff8f00;
+ background-color:#ed1c24 !important;
  transition: all linear 0.3s;
 }
 .btn-primary.active,
