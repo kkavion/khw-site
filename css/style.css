@@ -317,17 +317,17 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .header-bottom-area .main-menu > li {
      display: inline-block;
-     padding: 30px 7px;
+     padding: 30px 10px;
      position: relative;
 }
  .header-bottom-area .main-menu > li > a {
      display: block;
      color: white;
-     font-size: 15px;
+     font-size: 17px;
      text-decoration: none;
      font-weight: 500;
      position: relative;
-     text-transform: uppercase;
+     text-transform: capitalize;
 }
  .header-bottom-area .main-menu > li > a:before {
      position: absolute;
