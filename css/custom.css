@@ -695,10 +695,6 @@ header .sticky .header-bottom-area .main-menu > li.active a
      font-weight: 500;
      color: black;
 }
-.main-menu .fa
-{
-     font-size: 19px;
-}
 .main-menu li
 {
      cursor: pointer;
@@ -904,6 +900,7 @@ i
 {
      font-size: 24px;
      font-family: 'Merriweather', sans-serif;
+     font-weight: 300;
 }
 .anutri-logo
 {
@@ -1057,22 +1054,12 @@ button
 .footer-contact li a
 {
      color: #aaa;
-     font-size: 13px;
+     font-size: 14px;
 
 }
 .footer-contact a.ftrr-text
 {
      color: #ddd;
-}
-.footer-contact li a:hover
-{
-     font-weight: bold !important;
-     color: #ccc;
-}
-.footer-contact li .ftrr-txt-ttl-dsc:hover
-{
-     color: black !important;
-     font-weight: 400 !important;
 }
 .section-title2 a
 {
@@ -1388,7 +1375,7 @@ button
 .header-bottom-area .main-menu .dropdown2 {
      position: absolute;
      left: 20px;
-     top: 85% !important;
+     top: 82% !important;
      z-index: 999;
      opacity: 0;
      transition: all ease-in-out 0.2s;
@@ -1440,7 +1427,7 @@ header .sticky .header-bottom-area .main-menu .dropdown2 li a
 {
      color: #034ea2;
      font-size: 14px;
-     padding: 10px 20px 10px 10px;
+     padding: 10px;
      display: inline-block;
 
 }
@@ -3245,4 +3232,11 @@ h1, h2, h3, h4, h5, h6
 .enquire:hover a
 {
      color: white !important;
+}
+.copyright
+{
+     font-size: 11px;
+     color: #aaa;
+     padding-bottom: 10px;
+     text-align: center;
 }

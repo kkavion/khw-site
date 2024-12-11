@@ -509,7 +509,6 @@
     .footer-area .single-footer .single-recent-post .recent-post li { display: inline-flex;}
     .footer-social-media { text-align: center;}
     .footer-area .footer-bottom .payicon{width:100%; text-align: center;}
-    .copyright { text-align: center;}
     .footer-area .footer-bottom .payicon li {
         margin-right: 5px;
         margin-top: -5px;
@@ -655,10 +654,6 @@
     .footer-title .logo2
     {
         display: none;
-    }
-    .copyright
-    {
-        text-align: center;
     }
     #flight .box .col-md-5
     {
