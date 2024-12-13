@@ -583,14 +583,14 @@ function closeSuiteCompare()
 
 var zones = 
 {
-	"Altius": ["Kasauli", "Khandala", "Lavasa", "Lonavala", "Matheran", "Mount Abu", "Mussoorie", "Panchgani", "Panchmarhi", "Parwanoo", "Shimla", "Yelagiri"],
+	"Altius": ["Kasauli", "Khandala", "Lavasa", "Lonavala", "Matheran", "Mount Abu", "Mussoorie", "Panchgani", "Panchmarhi", "Panvel", "Parwanoo", "Shimla", "Yelagiri"],
 	"Backwater":["Alleppey", "Kollam", "Kottayam", "Kumarakom", "Poovar"],
 	"Beach": ["Alibaug", "Digha", "Kanyakumari", "Kovalam", "Mahabalipuram", "Mandarmani", "Puducherry", "Varkala"],
-	"Cityscape": ["Bhopal", "Indore", "Panvel"],
+	"Cityscape": ["Bhopal", "Indore", "Gandhinagar", "Udaipur", "Ujjain", "Vadodara"],
+	"Heritage": ["Agra", "Hassan", "Mahabalipuram", "Mysuru", "Shantiniketan"],
 	"Outskirts": ["Ahmedabad Outskirts", "Bengaluru Outskirts", "Bhopal Outskirts", "Chandigarh Outskirts", "Chennai Outskirts", "Indore Outskirts",
 		"Kolkata Outskirts", "Mumbai Outskirts", "Nagpur Outskirts", "New Delhi Outskirts", "Pune Outskirts", "Thiruvananthapuram Outskirts"],
-	"Heritage": ["Agra", "Gandhinagar", "Hassan", "Mysuru", "Shantiniketan", "Udaipur", "Vadodara"],
-	"Wildlife": ["Alwar", "Bharatpur", "Kanha", "Pench", "Sariska", "Sundarbans"]
+	"Wildlife": ["Alwar", "Bharatpur", "Mount Abu", "Nagarhole", "Kanha", "Pench", "Sariska", "Sundarbans"]
 };
 
 var deszones = 
@@ -1279,38 +1279,42 @@ var interests =
 	}
 }
 
-function filterHome(inner) {
-	var zoneSelect = document.getElementById("zone-type");
+function filter(inner) {
+	var typeSelect = document.getElementById("destination-type");
 	var destinationSelect = document.getElementById("destination-name");
-	for (var x in zones)
+	if (inner == "home" || inner == "destination")
 	{
-		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
-	}
-	zoneSelect.onchange = function ()
-	{
-		var c = zones[this.value];
-		destinationSelect.length = 1;
-		for (var i = 0; i < c.length; i++) {
-			destinationSelect.options[destinationSelect.options.length] = new Option(c[i], c[i]);
-		}
-	}
-	destinationSelect.onchange = function () {
-		var sel = document.getElementById("destination-name");
-		for (var x in desLocs)
+		for (var x in zones)
 		{
-			if (sel.options[sel.selectedIndex].value == x)
+			typeSelect.options[typeSelect.options.length] = new Option (x, x);
+		}
+		typeSelect.onchange = function ()
+		{
+			var c = zones[this.value];
+			destinationSelect.length = 1;
+			for (var i = 0; i < c.length; i++) {
+				destinationSelect.options[destinationSelect.options.length] = new Option(c[i], c[i]);
+			}
+		}
+		destinationSelect.onchange = function () {
+			var sel = document.getElementById("destination-name");
+			for (var x in desLocs)
 			{
-				if (inner == 1)
+				if (sel.options[sel.selectedIndex].value == x)
 				{
-					window.location.assign(desLocs[x]);
-				}
-				else if (inner == 2)
-				{
-					window.location.assign("../../"+desLocs[x]);
+					if (inner == "destination")
+					{
+						window.location.assign("../../"+desLocs[x]);
+					}
+					else
+					{
+						window.location.assign(desLocs[x]);
+					}
 				}
 			}
 		}
 	}
+	
 }
 
 function filterRP() {
@@ -1367,195 +1371,6 @@ function filterRP() {
 			{
 				window.top.location = resLocs[x];
 			}
-		}
-	}
-}
-
-function filterRPs() {
-	var zoneSelect = document.getElementById("zone-name");
-	var destinationSelect = document.getElementById("destination-name");
-	var typeSelect = document.getElementById("resort-type");
-	var resortSelect = document.getElementById("resort-name");
-	for (var x in zones)
-	{
-		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
-	}
-	zoneSelect.onchange = function ()
-	{
-		var c = zones[this.value];
-		destinationSelect.length = 1;
-		resortSelect.length = 1;
-		typeSelect.length = 1;
-		for (var i = 0; i < c.length; i++) {
-			destinationSelect.options[destinationSelect.options.length] = new Option(c[i], c[i]);
-		}
-	}
-	destinationSelect.onchange = function () {
-		//empty Chapters- and Topics- dropdowns
-		resortSelect.length = 1;
-		typeSelect.length = 1;
-		//display correct values
-		var sel = document.getElementById("destination-name");
-		for (var y in allResort) {
-			if (sel.options[sel.selectedIndex].value == y)
-			{
-				for (var z in allResort[this.value])
-				{
-					typeSelect.options[typeSelect.options.length] = new Option(z, z);
-				}
-			}
-				
-		}
-	}
-	typeSelect.onchange = function () {
-		//empty Chapters dropdown
-		resortSelect.length = 1;
-		//display correct values
-		var z = allResort[destinationSelect.value][this.value];
-		for (var i = 0; i < z.length; i++) {
-			resortSelect.options[resortSelect.options.length] = new Option(z[i], z[i]);
-		}
-	}
-	resortSelect.onchange = function ()
-	{
-		var sel = document.getElementById("resort-name");
-		for (var x in resLocs)
-		{
-			if (sel.options[sel.selectedIndex].value == x)
-			{
-				window.location.assign("../../"+resLocs[x]);
-			}
-		}
-	}
-}
-
-function desFilt() {
-	var zoneSelect = document.getElementById("zone-name");
-	var destinationSelect = document.getElementById("destination-name");
-	for (var x in zones)
-	{
-		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
-	}
-	zoneSelect.onchange = function ()
-	{
-		var c = zones[this.value];
-		destinationSelect.length = 1;
-		for (var i = 0; i < c.length; i++) {
-			destinationSelect.options[destinationSelect.options.length] = new Option(c[i], c[i]);
-		}
-	}
-	destinationSelect.onchange = function () {
-		var sel = document.getElementById("destination-name");
-		for (var x in desLocs)
-		{
-			if (sel.options[sel.selectedIndex].value == x)
-			{
-				window.location.assign("../../"+desLocs[x]);
-			}
-		}
-	}
-}
-//dayout filter
-function dayoutFilt()
-{
-	var zoneSelect = document.getElementById("zone-name");
-	for (var x in dayoutZone)
-	{
-		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
-	}
-	zoneSelect.onchange = function()
-	{
-		var sel = dayoutZone[zoneSelect.value];
-		window.location.assign("../../"+sel);
-	}
-}
-//bidnwin filter
-function bidnwinFilt()
-{
-	var zoneSelect = document.getElementById("zone-name");
-	for (var x in bidnwinZone)
-	{
-		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
-	}
-	zoneSelect.onchange = function()
-	{
-		var sel = bidnwinZone[zoneSelect.value];
-		window.location.assign("../../"+sel);
-	}
-}
-//resort filter
-function resFilt(inner)
-{
-	var zoneSelect = document.getElementById("zone-name");
-	for (var x in resortZone)
-	{
-		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
-	}
-	zoneSelect.onchange = function()
-	{		
-		if (inner == 1)
-		{
-			var sel = resortZone[zoneSelect.value];
-			window.location.assign(sel);
-		}
-		else if (inner == 2)
-		{
-			var sel = resortZone[zoneSelect.value];
-			window.location.assign("../../"+sel);
-		}
-	}
-}
-//offer filter
-function offerFilt(inner)
-{
-	var zoneSelect = document.getElementById("zone-name");
-	for (var x in offerZone)
-	{
-		zoneSelect.options[zoneSelect.options.length] = new Option (x, x);
-	}
-	zoneSelect.onchange = function()
-	{		
-		if (inner == 1)
-		{
-			var sel = offerZone[zoneSelect.value];
-			window.location.assign(sel);
-		}
-		else if (inner == 2)
-		{
-			var sel = offerZone[zoneSelect.value];
-			window.location.assign("../../"+sel);
-		}
-	}
-}
-
-function interest(inner)
-{
-	var interestSel = document.getElementById("interest-name");
-	var desSel = document.getElementById("des-name1");
-	
-	for (var x in interests)
-	{
-		interestSel.options[interestSel.options.length] = new Option(x, x);
-	}
-	interestSel.onchange = function()
-	{
-		desSel.length = 1;
-		for (var y in interests[this.value])
-		{
-			desSel.options[desSel.options.length] = new Option(y, y);
-		}
-	}
-	desSel.onchange = function ()
-	{
-		if (inner == 1)
-		{
-			var a = interests[interestSel.value][desSel.value];
-			window.location.assign(a);
-		}
-		else if (inner == 2)
-		{
-			var a = interests[interestSel.value][desSel.value];
-			window.location.assign("../../../../"+a);
 		}
 	}
 }
