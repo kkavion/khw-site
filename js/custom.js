@@ -1077,18 +1077,72 @@ var resLocs =
 
 var offerZone =
 {
-	"Ahmedabad":"getaway/ahmedabad/offers-tab.html",
-	"Bengaluru":"getaway/bengaluru/offers-tab.html",
-	"Bhopal":"getaway/bhopal/offers-tab.html",
-	"Chandigarh":"getaway/chandigarh/offers-tab.html",
-	"Chennai":"getaway/chennai/offers-tab.html",
-	"Indore":"getaway/indore/offers-tab.html",
-	"Kolkata":"getaway/kolkata/offers-tab.html",
-	"Mumbai":"getaway/mumbai/offers-tab.html",
-	"Nagpur":"getaway/nagpur/offers-tab.html",
-	"New Delhi":"getaway/newdelhi/offers-tab.html",
-	"Pune":"getaway/pune/offers-tab.html",
-	"Thiruvananthapuram":"getaway/thiruvananthapuram/offers-tab.html"
+	"Ahmedabad Outskirts" : "getaway/ahmedabad/offer_outskirts.html",
+	"Gandhinagar" : "getaway/ahmedabad/offer_gandhinagar.html",
+	"Mount Abu" : "getaway/ahmedabad/offer_mtabu.html",
+	"Udaipur" : "getaway/ahmedabad/offer_udaipur.html",
+	"Vadodara" : "getaway/ahmedabad/offer_vadodara.html",
+	
+	"Bengaluru Outskirts" : "getaway/bengaluru/offer_outskirts.html",
+	"Hassan" : "getaway/bengaluru/offer_hassan.html",
+	"Mysuru" : "getaway/bengaluru/offer_mysuru.html",
+	"Nagarhole" : "getaway/bengaluru/offer_nagarhole.html",
+	"Yelagiri" : "getaway/bengaluru/offer_yelagiri.html",
+	
+	"Bhopal Outskirts" : "getaway/bhopal/offer_outskirts.html",
+	"Indore" : "getaway/bhopal/offer_indore.html",
+	"Ujjain" : "getaway/bhopal/offer_ujjain.html",
+	"Panchmarhi" : "getaway/bhopal/offer_panchmarhi.html",
+	
+	"Chandigarh Outskirts" : "getaway/chandigarh/offer_outskirts.html",
+	"Kasauli" : "getaway/chandigarh/offer_kasauli.html",
+	"Mussoorie" : "getaway/chandigarh/offer_mussoorie.html",
+	"Parwanoo" : "getaway/chandigarh/offer_parwanoo.html",
+	"Shimla" : "getaway/chandigarh/offer_shimla.html",
+	
+	"Chennai Outskirts" : "getaway/chennai/offer_outskirts.html",
+	"Mahabalipuram" : "getaway/chennai/offer_mahabalipuram.html",
+	"Puducherry" : "getaway/chennai/offer_puducherry.html",
+	
+	"Indore Outskirts" : "getaway/indore/offer_offer_outskirts.html",
+	"Bhopal" : "getaway/indore/offer_bhopal.html",
+	
+	"Kolkata Outskirts" : "getaway/kolkata/offer_offer_outskirts.html",
+	"Digha" : "getaway/kolkata/offer_digha.html",
+	"Mandarmani" : "getaway/kolkata/offer_mandarmani.html",
+	"Shantiniketan" : "getaway/kolkata/offer_shantiniketan.html",
+	"Sundarbans" : "getaway/kolkata/offer_sundarbans.html",
+	
+	"Mumbai Outskirts" : "getaway/mumbai/offer_offer_outskirts.html",
+	"Alibaug" : "getaway/mumbai/offer_alibaug.html",
+	"Khandala" : "getaway/mumbai/offer_khandala.html",
+	"Lavasa" : "getaway/mumbai/offer_lavasa.html",
+	"Lonavala" : "getaway/mumbai/offer_lonavala.html",
+	"Matheran" : "getaway/mumbai/offer_matheran.html",
+	"Panvel" : "getaway/mumbai/offer_panvel.html",
+	
+	"Nagpur Outskirts" : "getaway/nagpur/offer_outskirts.html",
+	"Kanha" : "getaway/nagpur/offer_kanha.html",
+	"Pench" : "getaway/nagpur/offer_pench.html",
+	
+	"New Delhi Outskirts" : "getaway/newdelhi/offer_outskirts.html",
+	"Agra" : "getaway/newdelhi/offer_agra.html",
+	"Alwar" : "getaway/newdelhi/offer_alwar.html",
+	"Bharatpur" : "getaway/newdelhi/offer_bharatpur.html",
+	"Sariska" : "getaway/newdelhi/offer_sariska.html",
+	
+	"Pune Outskirts" : "getaway/pune/offer_outskirts.html",
+	"Panchgani" : "getaway/pune/offer_panchgani.html",
+	
+	"Thiruvananthapuram Outskirts" : "getaway/thiruvananthapuram/offer_outskirts.html",
+	"Alleppey" : "getaway/thiruvananthapuram/offer_alleppey.html",
+	"Kanyakumari" : "getaway/thiruvananthapuram/offer_kanyakumari.html",
+	"Kollam" : "getaway/thiruvananthapuram/offer_kollam.html",
+	"Kottayam" : "getaway/thiruvananthapuram/offer_kottayam.html",
+	"Kovalam" : "getaway/thiruvananthapuram/offer_kovalam.html",
+	"Kumarakom" : "getaway/thiruvananthapuram/offer_kumarakom.html",
+	"Poovar" : "getaway/thiruvananthapuram/offer_poovar.html",
+	"Varkala" : "getaway/thiruvananthapuram/offer_varkala.html"
 };
 
 var dayoutZone =
@@ -1109,18 +1163,72 @@ var dayoutZone =
 
 var resortZone =
 {
-	"Ahmedabad":"getaway/ahmedabad/resorts-tab.html",
-	"Bengaluru":"getaway/bengaluru/resorts-tab.html",
-	"Bhopal":"getaway/bhopal/resorts-tab.html",
-	"Chandigarh":"getaway/chandigarh/resorts-tab.html",
-	"Chennai":"getaway/chennai/resorts-tab.html",
-	"Indore":"getaway/indore/resorts-tab.html",
-	"Kolkata":"getaway/kolkata/resorts-tab.html",
-	"Mumbai":"getaway/mumbai/resorts-tab.html",
-	"Nagpur":"getaway/nagpur/resorts-tab.html",
-	"New Delhi":"getaway/newdelhi/resorts-tab.html",
-	"Pune":"getaway/pune/resorts-tab.html",
-	"Thiruvananthapuram":"getaway/thiruvananthapuram/resorts-tab.html"
+	"Ahmedabad Outskirts" : "getaway/ahmedabad/resort_outskirts.html",
+	"Gandhinagar" : "getaway/ahmedabad/resort_gandhinagar.html",
+	"Mount Abu" : "getaway/ahmedabad/resort_mtabu.html",
+	"Udaipur" : "getaway/ahmedabad/resort_udaipur.html",
+	"Vadodara" : "getaway/ahmedabad/resort_vadodara.html",
+	
+	"Bengaluru Outskirts" : "getaway/bengaluru/resort_outskirts.html",
+	"Hassan" : "getaway/bengaluru/resort_hassan.html",
+	"Mysuru" : "getaway/bengaluru/resort_mysuru.html",
+	"Nagarhole" : "getaway/bengaluru/resort_nagarhole.html",
+	"Yelagiri" : "getaway/bengaluru/resort_yelagiri.html",
+	
+	"Bhopal Outskirts" : "getaway/bhopal/resort_outskirts.html",
+	"Indore" : "getaway/bhopal/resort_indore.html",
+	"Ujjain" : "getaway/bhopal/resort_ujjain.html",
+	"Panchmarhi" : "getaway/bhopal/resort_panchmarhi.html",
+	
+	"Chandigarh Outskirts" : "getaway/chandigarh/resort_outskirts.html",
+	"Kasauli" : "getaway/chandigarh/resort_kasauli.html",
+	"Mussoorie" : "getaway/chandigarh/resort_mussoorie.html",
+	"Parwanoo" : "getaway/chandigarh/resort_parwanoo.html",
+	"Shimla" : "getaway/chandigarh/resort_shimla.html",
+	
+	"Chennai Outskirts" : "getaway/chennai/resort_outskirts.html",
+	"Mahabalipuram" : "getaway/chennai/resort_mahabalipuram.html",
+	"Puducherry" : "getaway/chennai/resort_puducherry.html",
+	
+	"Indore Outskirts" : "getaway/indore/resort_offer_outskirts.html",
+	"Bhopal" : "getaway/indore/resort_bhopal.html",
+	
+	"Kolkata Outskirts" : "getaway/kolkata/resort_offer_outskirts.html",
+	"Digha" : "getaway/kolkata/resort_digha.html",
+	"Mandarmani" : "getaway/kolkata/resort_mandarmani.html",
+	"Shantiniketan" : "getaway/kolkata/resort_shantiniketan.html",
+	"Sundarbans" : "getaway/kolkata/resort_sundarbans.html",
+	
+	"Mumbai Outskirts" : "getaway/mumbai/resort_offer_outskirts.html",
+	"Alibaug" : "getaway/mumbai/resort_alibaug.html",
+	"Khandala" : "getaway/mumbai/resort_khandala.html",
+	"Lavasa" : "getaway/mumbai/resort_lavasa.html",
+	"Lonavala" : "getaway/mumbai/resort_lonavala.html",
+	"Matheran" : "getaway/mumbai/resort_matheran.html",
+	"Panvel" : "getaway/mumbai/resort_panvel.html",
+	
+	"Nagpur Outskirts" : "getaway/nagpur/resort_outskirts.html",
+	"Kanha" : "getaway/nagpur/resort_kanha.html",
+	"Pench" : "getaway/nagpur/resort_pench.html",
+	
+	"New Delhi Outskirts" : "getaway/newdelhi/resort_outskirts.html",
+	"Agra" : "getaway/newdelhi/resort_agra.html",
+	"Alwar" : "getaway/newdelhi/resort_alwar.html",
+	"Bharatpur" : "getaway/newdelhi/resort_bharatpur.html",
+	"Sariska" : "getaway/newdelhi/resort_sariska.html",
+	
+	"Pune Outskirts" : "getaway/pune/resort_outskirts.html",
+	"Panchgani" : "getaway/pune/resort_panchgani.html",
+	
+	"Thiruvananthapuram Outskirts" : "getaway/thiruvananthapuram/resort_outskirts.html",
+	"Alleppey" : "getaway/thiruvananthapuram/resort_alleppey.html",
+	"Kanyakumari" : "getaway/thiruvananthapuram/resort_kanyakumari.html",
+	"Kollam" : "getaway/thiruvananthapuram/resort_kollam.html",
+	"Kottayam" : "getaway/thiruvananthapuram/resort_kottayam.html",
+	"Kovalam" : "getaway/thiruvananthapuram/resort_kovalam.html",
+	"Kumarakom" : "getaway/thiruvananthapuram/resort_kumarakom.html",
+	"Poovar" : "getaway/thiruvananthapuram/resort_poovar.html",
+	"Varkala" : "getaway/thiruvananthapuram/resort_varkala.html"
 };
 
 var outskirtsZone =
@@ -1292,7 +1400,8 @@ function filter(inner) {
 		{
 			var c = zones[this.value];
 			destinationSelect.length = 1;
-			for (var i = 0; i < c.length; i++) {
+			for (var i = 0; i < c.length; i++)
+			{
 				destinationSelect.options[destinationSelect.options.length] = new Option(c[i], c[i]);
 			}
 		}
@@ -1309,6 +1418,45 @@ function filter(inner) {
 					else
 					{
 						window.location.assign(desLocs[x]);
+					}
+				}
+			}
+		}
+	}
+	else if (inner == "offer" || inner == "resort")
+	{
+		for (var x in zones)
+		{
+			typeSelect.options[typeSelect.options.length] = new Option (x, x);
+		}
+		typeSelect.onchange = function ()
+		{
+			var c = zones[this.value];
+			destinationSelect.length = 1;
+			for (var i = 0; i < c.length; i++)
+			{
+				destinationSelect.options[destinationSelect.options.length] = new Option(c[i], c[i]);
+			}
+		}
+		destinationSelect.onchange = function () {
+			var sel = document.getElementById("destination-name");
+			if (inner == "offer")
+			{
+				for (var x in offerZone)
+				{
+					if (sel.options[sel.selectedIndex].value == x)
+					{
+						window.location.assign("../../"+offerZone[x]);
+					}
+				}
+			}
+			else if (inner == "resort")
+			{
+				for (var x in resortZone)
+				{
+					if (sel.options[sel.selectedIndex].value == x)
+					{
+						window.location.assign("../../"+resortZone[x]);
 					}
 				}
 			}
