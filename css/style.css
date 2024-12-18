@@ -835,6 +835,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-size: 14px;
      background: #034ea2;
      border-radius:5px;
+     cursor: pointer;
 }
  .popular-packages .single-package:hover {
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);

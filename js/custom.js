@@ -1163,30 +1163,30 @@ var dayoutZone =
 
 var resortZone =
 {
-	"Ahmedabad Outskirts" : "getaway/ahmedabad/resort_outskirts.html",
+	"Ahmedabad Outskirts" : "getaway/ahmedabad/outskirts-page.html",
 	"Gandhinagar" : "getaway/ahmedabad/resort_gandhinagar.html",
 	"Mount Abu" : "getaway/ahmedabad/resort_mtabu.html",
 	"Udaipur" : "getaway/ahmedabad/resort_udaipur.html",
 	"Vadodara" : "getaway/ahmedabad/resort_vadodara.html",
 	
-	"Bengaluru Outskirts" : "getaway/bengaluru/resort_outskirts.html",
+	"Bengaluru Outskirts" : "getaway/bengaluru/outskirts-page.html",
 	"Hassan" : "getaway/bengaluru/resort_hassan.html",
 	"Mysuru" : "getaway/bengaluru/resort_mysuru.html",
 	"Nagarhole" : "getaway/bengaluru/resort_nagarhole.html",
 	"Yelagiri" : "getaway/bengaluru/resort_yelagiri.html",
 	
-	"Bhopal Outskirts" : "getaway/bhopal/resort_outskirts.html",
+	"Bhopal Outskirts" : "getaway/bhopal/outskirts-page.html",
 	"Indore" : "getaway/bhopal/resort_indore.html",
 	"Ujjain" : "getaway/bhopal/resort_ujjain.html",
 	"Panchmarhi" : "getaway/bhopal/resort_panchmarhi.html",
 	
-	"Chandigarh Outskirts" : "getaway/chandigarh/resort_outskirts.html",
+	"Chandigarh Outskirts" : "getaway/chandigarh/outskirts-page.html",
 	"Kasauli" : "getaway/chandigarh/resort_kasauli.html",
 	"Mussoorie" : "getaway/chandigarh/resort_mussoorie.html",
 	"Parwanoo" : "getaway/chandigarh/resort_parwanoo.html",
 	"Shimla" : "getaway/chandigarh/resort_shimla.html",
 	
-	"Chennai Outskirts" : "getaway/chennai/resort_outskirts.html",
+	"Chennai Outskirts" : "getaway/chennai/outskirts-page.html",
 	"Mahabalipuram" : "getaway/chennai/resort_mahabalipuram.html",
 	"Puducherry" : "getaway/chennai/resort_puducherry.html",
 	
@@ -1207,20 +1207,20 @@ var resortZone =
 	"Matheran" : "getaway/mumbai/resort_matheran.html",
 	"Panvel" : "getaway/mumbai/resort_panvel.html",
 	
-	"Nagpur Outskirts" : "getaway/nagpur/resort_outskirts.html",
+	"Nagpur Outskirts" : "getaway/nagpur/outskirts-page.html",
 	"Kanha" : "getaway/nagpur/resort_kanha.html",
 	"Pench" : "getaway/nagpur/resort_pench.html",
 	
-	"New Delhi Outskirts" : "getaway/newdelhi/resort_outskirts.html",
+	"New Delhi Outskirts" : "getaway/newdelhi/outskirts-page.html",
 	"Agra" : "getaway/newdelhi/resort_agra.html",
 	"Alwar" : "getaway/newdelhi/resort_alwar.html",
 	"Bharatpur" : "getaway/newdelhi/resort_bharatpur.html",
 	"Sariska" : "getaway/newdelhi/resort_sariska.html",
 	
-	"Pune Outskirts" : "getaway/pune/resort_outskirts.html",
+	"Pune Outskirts" : "getaway/pune/outskirts-page.html",
 	"Panchgani" : "getaway/pune/resort_panchgani.html",
 	
-	"Thiruvananthapuram Outskirts" : "getaway/thiruvananthapuram/resort_outskirts.html",
+	"Thiruvananthapuram Outskirts" : "getaway/thiruvananthapuram/outskirts-page.html",
 	"Alleppey" : "getaway/thiruvananthapuram/resort_alleppey.html",
 	"Kanyakumari" : "getaway/thiruvananthapuram/resort_kanyakumari.html",
 	"Kollam" : "getaway/thiruvananthapuram/resort_kollam.html",
@@ -1249,146 +1249,45 @@ var outskirtsZone =
 
 var bidnwinZone =
 {
-	"Ahmedabad":"#",
-	"Bengaluru":"#",
-	"Bhopal":"#",
-	"Bhubaneswar":"#",
-	"Chandigarh":"#",
-	"Chennai":"#",
-	"Indore":"#",
-	"Kolkata":"bidnwin.html",
-	"Mumbai":"#",
-	"Nagpur":"#",
-	"New Delhi":"#",
-	"Thiruvananthapuram":"#"
+	"Ahmedabad":"getaway/ahmedabad/bidnwin.html",
+	"Bengaluru":"getaway/bengaluru/bidnwin.html",
+	"Bhopal":"getaway/bhopal/bidnwin.html",
+	"Chandigarh":"getaway/chandigarh/bidnwin.html",
+	"Chennai":"getaway/chennai/bidnwin.html",
+	"Indore":"getaway/indore/bidnwin.html",
+	"Kolkata":"getaway/kolkata/bidnwin.html",
+	"Mumbai":"getaway/mumbai/bidnwin.html",
+	"Nagpur":"getaway/nagpur/bidnwin.html",
+	"Pune":"getaway/pune/bidnwin.html",
+	"New Delhi":"getaway/newdelhi/bidnwin.html",
+	"Thiruvananthapuram":"getaway/thiruvananthapuram/bidnwin.html"
 };
 
 var interests = 
 {
-	"Conference":
-	{
-		//"Ahmedabad":"#",
-		//"Bengaluru":"#",
-		//"Bhopal":"#",
-		//"Chandigarh":"#",
-		//"Chennai":"#",
-		//"Indore":"#",
-		"Kolkata Outskirts":"properties/kolkata/outskirts/interest/conference.html",
-		//"Mumbai":"#",
-		//"Nagpur":"#",
-		//"New Delhi":"#",
-		//"Pune":"#",
-		//"Thiruvananthapuram":"#"
-	},
+	"Adventure": "adventure.html",
+	"Cruise": "cruise.html",
+	"Culture": "culture.html",
 	"Gourmet":
 	{
-		//"Ahmedabad":"#",
-		//"Bengaluru":"#",
-		//"Bhopal":"#",
-		//"Chandigarh":"#",
-		//"Chennai":"#",
-		//"Indore":"#",
-		"Kolkata Outskirts":"properties/kolkata/outskirts/interest/gourmet.html",
-		//"Mumbai":"#",
-		//"Nagpur":"#",
-		//"New Delhi":"#",
-		//"Pune":"#",
-		//"Thiruvananthapuram":"#"
+		"Indian":"gourmet/indian.html",
+		"Oriental":"gourmet/oriental.html",
+		"Continental":"gourmet/continental.html",
+		"International":"gourmet/international.html",
 	},
-	"Heritage":
-	{
-		//"Ahmedabad":"#",
-		//"Bengaluru":"#",
-		//"Bhopal":"#",
-		//"Chandigarh":"#",
-		//"Chennai":"#",
-		//"Indore":"#",
-		"Kolkata Outskirts":"properties/kolkata/outskirts/interest/heritage.html",
-		//"Mumbai":"#",
-		//"Nagpur":"#",
-		//"New Delhi":"#",
-		//"Pune":"#",
-		//"Thiruvananthapuram":"#"
-	},
-	"Honeymoon":
-	{
-		//"Ahmedabad":"#",
-		//"Bengaluru":"#",
-		//"Bhopal":"#",
-		//"Chandigarh":"#",
-		//"Chennai":"#",
-		//"Indore":"#",
-		"Kolkata Outskirts":"properties/kolkata/outskirts/interest/honeymoon.html",
-		//"Mumbai":"#",
-		//"Nagpur":"#",
-		//"New Delhi":"#",
-		//"Pune":"#",
-		//"Thiruvananthapuram":"#"
-	},
-	"Leisure":
-	{
-		//"Ahmedabad":"#",
-		//"Bengaluru":"#",
-		//"Bhopal":"#",
-		//"Chandigarh":"#",
-		//"Chennai":"#",
-		//"Indore":"#",
-		"Kolkata Outskirts":"properties/kolkata/outskirts/interest/leisure.html",
-		//"Mumbai":"#",
-		//"Nagpur":"#",
-		//"New Delhi":"#",
-		//"Pune":"#",
-		//"Thiruvananthapuram":"#"
-	},
-	"Wedding":
-	{
-		//"Ahmedabad":"#",
-		//"Bengaluru":"#",
-		//"Bhopal":"#",
-		//"Chandigarh":"#",
-		//"Chennai":"#",
-		//"Indore":"#",
-		"Kolkata Outskirts":"properties/kolkata/outskirts/interest/wedding.html",
-		//"Mumbai":"#",
-		//"Nagpur":"#",
-		//"New Delhi":"#",
-		//"Pune":"#",
-		//"Thiruvananthapuram":"#"
-	},
-	"Wellness":
-	{
-		//"Ahmedabad":"#",
-		////"Bengaluru":"#",
-		//"Bhopal":"#",
-		//"Chandigarh":"#",
-		//"Chennai":"#",
-		//"Indore":"#",
-		"Kolkata Outskirts":"properties/kolkata/outskirts/interest/wellness.html",
-		//"Mumbai":"#",
-		//"Nagpur":"#",
-		//"New Delhi":"#",
-		//"Pune":"#",
-		//"Thiruvananthapuram":"#"
-	},
-	"Wildlife":
-	{
-		//"Ahmedabad":"#",
-		//"Bengaluru":"#",
-		//"Bhopal":"#",
-		//"Chandigarh":"#",
-		//"Chennai":"#",
-		//"Indore":"#",
-		"Kolkata Outskirts":"properties/kolkata/outskirts/interest/wildlife.html",
-		//"Mumbai":"#",
-		//"Nagpur":"#",
-		//"New Delhi":"#",
-		//"Pune":"#",
-		//"Thiruvananthapuram":"#"
-	}
+	"Historical": "historical.html",
+	"Honeymoon":"honeymoon.html",
+	"MICE": "mice.html",
+	"Offbeat":"offbeat.html",
+	"Pilgrimage": "pilgrimage.html",
+	"Wedding":"wedding.html",
+	"Wellness":"wellness.html",
+	"Wildlife":"wildlife.html"
 }
 
 function filter(inner) {
 	var typeSelect = document.getElementById("destination-type");
+	var interestSelect = document.getElementById("interest-name");
 	var destinationSelect = document.getElementById("destination-name");
 	if (inner == "home" || inner == "destination")
 	{
@@ -1462,7 +1361,75 @@ function filter(inner) {
 			}
 		}
 	}
-	
+	else if (inner == "dayout" || inner == "bidnwin")
+	{
+		for (var x in dayoutZone)
+		{
+			destinationSelect.options[destinationSelect.options.length] = new Option (x, x);
+		}
+		destinationSelect.onchange = function () {
+			var sel = document.getElementById("destination-name");
+			if (inner == "dayout")
+			{
+				for (var x in dayoutZone)
+				{
+					if (sel.options[sel.selectedIndex].value == x)
+					{
+						window.location.assign("../../"+dayoutZone[x]);
+					}
+				}
+			}
+			else if (inner == "bidnwin")
+			{
+				for (var x in bidnwinZone)
+				{
+					if (sel.options[sel.selectedIndex].value == x)
+					{
+						window.location.assign("../../"+bidnwinZone[x]);
+					}
+				}
+			}
+		}
+	}
+	else if (inner == "interest" || inner == "gourmet")
+	{
+		for (var x in interests)
+		{
+			interestSelect.options[interestSelect.options.length] = new Option (x, x);
+		}
+		interestSelect.onchange = function () {
+			var sel = document.getElementById("destination-name");
+			if (inner == "interest")
+			{
+				for (var x in interests)
+				{
+					if (sel.options[sel.selectedIndex].value == x)
+					{
+						window.location.assign(interests[x]);
+					}
+				}
+			}
+			else if (inner == "gourmet")
+			{
+				var c = interests[this.value];
+				destinationSelect.length = 1;
+				for (var i = 0; i < c.length; i++)
+				{
+					destinationSelect.options[destinationSelect.options.length] = new Option(c[i], c[i]);
+				}
+				destinationSelect.onchange = function () {
+					var sel = document.getElementById("destination-name");
+					for (var x in interests)
+					{
+						if (sel.options[sel.selectedIndex].value == x)
+						{
+							window.location.assign("../"+interests[x]);
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 function filterRP() {
