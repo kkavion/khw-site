@@ -270,7 +270,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 /*===================================== 01. header section css goes here ======================================*/
  header {
      position: absolute;
-     z-index: 99;
+     z-index: 5;
      width: 100%;
      top: 0;
      left: 0;
@@ -317,7 +317,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .header-bottom-area .main-menu > li {
      display: inline-block;
-     padding: 30px 7px;
+     padding: 25px 7px;
      position: relative;
 }
  .header-bottom-area .main-menu > li > a {
@@ -1340,7 +1340,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
 /*===================================================== 14.Footer area section css goes here =======================================================*/
  .footer-area {
-     background: #222;
+     background: #04274e;
 }
  .footer-area .single-footer {
      padding: 80px 0;
@@ -3767,7 +3767,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .single-bredcurms .bredcrums-content {
      padding-top: 150px;
      position: relative;
-     z-index: 9;
+     z-index: 0;
      text-shadow: 0 0 10px black;
 }
  .single-bredcurms .bredcrums-content h2 {
@@ -4548,7 +4548,7 @@ aside .booking-form .form-group .booking-confirm:hover
 	top: 100% !important;
 }
 .header-bottom-area .logo-area {
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 .single-bredcurms .bredcrums-content ul li a {
     font-size: 15px;
@@ -4575,7 +4575,7 @@ aside .booking-form .form-group .booking-confirm:hover
 }
 .single-travel-blog .blog-content .blog-post-content a {
     font-size: 14px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #034ea2;
 }
 

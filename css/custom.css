@@ -49,11 +49,11 @@ header .header-bottom-area .main-menu > li:hover > a
 }
 .sticky .header-bottom-area .main-menu > li > a:before
 {
-     background: #034ea2;
+     background: #ed1c24;
 }
 header .sticky .header-bottom-area .main-menu > li.active a
 {
-     color: #034ea2;
+     color: #ed1c24;
 }
 .sticky .dropdown li a
 {
@@ -869,7 +869,7 @@ i
      text-align: center;
      background: #aaa9;
      position: relative;
-     z-index: 20;
+     z-index: 4;
      bottom: -60%;
 }
 #filter .form-group
@@ -898,7 +898,7 @@ i
 }
 .tagline i
 {
-     font-size: 24px;
+     font-size: 20px;
      font-family: 'Merriweather', sans-serif;
      font-weight: 300;
 }
@@ -1059,7 +1059,7 @@ button
 }
 .footer-contact a.ftrr-text
 {
-     color: #ddd;
+     color: white;
 }
 .section-title2 a
 {
@@ -1375,7 +1375,7 @@ button
 .header-bottom-area .main-menu .dropdown2 {
      position: absolute;
      left: 20px;
-     top: 82% !important;
+     top: 86% !important;
      z-index: 999;
      opacity: 0;
      transition: all ease-in-out 0.2s;
@@ -1419,15 +1419,15 @@ header .sticky .header-bottom-area .main-menu .dropdown2 li
 header .header-bottom-area .main-menu .dropdown2 li a
 {
      color: white;
-     font-size: 14px;
-     padding: 10px;
+     font-size: 17px;
+     padding: 10px 15px;
      display: inline-block;
 }
 header .sticky .header-bottom-area .main-menu .dropdown2 li a
 {
      color: #034ea2;
-     font-size: 14px;
-     padding: 10px;
+     font-size: 17px;
+     padding: 10px 15px;
      display: inline-block;
 
 }
@@ -1713,13 +1713,13 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .footer-contact span, .footer-contact i
 {
      margin-right: 10px;
-     color: #ccc;
+     color: white;
 }
 .timeline .carousel, .timeline .carousel-inner
 {
      border-radius: 5px;
      box-shadow: 0 0 3px gray;
-     z-index: 5;
+     z-index: 4;
 }
 .top-destination-area .search-btn button
 {
@@ -2323,7 +2323,7 @@ iframe
      margin-bottom: 40px;
      border-radius: 5px;
      position: relative;
-     z-index: 2;
+     z-index: 0;
      transition: all ease-in-out 0.5s;
      margin-bottom: 20px;
      border: 1px solid #c0c0c0;
@@ -3239,4 +3239,19 @@ h1, h2, h3, h4, h5, h6
      color: #aaa;
      padding-bottom: 10px;
      text-align: center;
+}
+.blog-post-content .ct-action li
+{
+     display: inline-block;
+     padding-bottom: 5px;
+}
+.blog-post-content .ct-action li a
+{
+     color: black !important;
+     background: lightgray;
+}
+
+.blog-post-content .ct-action li:hover a
+{
+     color: white !important;
 }

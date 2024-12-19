@@ -1398,8 +1398,17 @@ function filter(inner) {
 			interestSelect.options[interestSelect.options.length] = new Option (x, x);
 		}
 		interestSelect.onchange = function () {
-			var sel = document.getElementById("destination-name");
-			if (inner == "interest")
+			var sel = document.getElementById("interest-name");
+			if (sel == "Gourmet")
+			{
+				var c = interests[this.value];
+				destinationSelect.length = 1;
+				for (var i = 0; i < c.length; i++)
+				{
+					destinationSelect.options[destinationSelect.options.length] = new Option(c[i], c[i]);
+				}
+			}
+			else if (sel != "Gourmet")
 			{
 				for (var x in interests)
 				{
@@ -1409,22 +1418,20 @@ function filter(inner) {
 					}
 				}
 			}
-			else if (inner == "gourmet")
+		}
+		destinationSelect.onchange = function () {
+			var sel = document.getElementById("destination-name");
+			for (var x in interests)
 			{
-				var c = interests[this.value];
-				destinationSelect.length = 1;
-				for (var i = 0; i < c.length; i++)
+				if (sel.options[sel.selectedIndex].value == x)
 				{
-					destinationSelect.options[destinationSelect.options.length] = new Option(c[i], c[i]);
-				}
-				destinationSelect.onchange = function () {
-					var sel = document.getElementById("destination-name");
-					for (var x in interests)
+					if (inner == "interest")
 					{
-						if (sel.options[sel.selectedIndex].value == x)
-						{
-							window.location.assign("../"+interests[x]);
-						}
+						window.location.assign(interests[x]);
+					}
+					else if (inner == "gourmet")
+					{
+						window.location.assign("../"+interests[x]);
 					}
 				}
 			}
