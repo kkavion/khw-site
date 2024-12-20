@@ -1399,39 +1399,19 @@ function filter(inner) {
 		}
 		interestSelect.onchange = function () {
 			var sel = document.getElementById("interest-name");
-			if (sel == "Gourmet")
+			if (sel.value == "Gourmet")
 			{
-				var c = interests[this.value];
-				destinationSelect.length = 1;
-				for (var i = 0; i < c.length; i++)
-				{
-					destinationSelect.options[destinationSelect.options.length] = new Option(c[i], c[i]);
-				}
+				const gm = document.getElementById('res-filt1');
+				const gmodal = new bootstrap.Modal(gm);
+				gmodal.show();
 			}
-			else if (sel != "Gourmet")
+			else if (sel.value != "Gourmet")
 			{
 				for (var x in interests)
 				{
 					if (sel.options[sel.selectedIndex].value == x)
 					{
 						window.location.assign(interests[x]);
-					}
-				}
-			}
-		}
-		destinationSelect.onchange = function () {
-			var sel = document.getElementById("destination-name");
-			for (var x in interests)
-			{
-				if (sel.options[sel.selectedIndex].value == x)
-				{
-					if (inner == "interest")
-					{
-						window.location.assign(interests[x]);
-					}
-					else if (inner == "gourmet")
-					{
-						window.location.assign("../"+interests[x]);
 					}
 				}
 			}

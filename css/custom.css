@@ -2022,12 +2022,10 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      padding: 5px 0;
      text-align: left;
-     background: white;
 }
 .terms-sec ol
 {
      list-style-type: decimal;
-     background: white;
      padding-left: 15px;
      padding-bottom: 20px;
      margin: 0;
@@ -2035,7 +2033,6 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .terms-sec ol ol
 {
      list-style-type: lower-alpha;
-     background: white;
      padding-bottom: 0;
 }
 .tour-package-bg .package-location a
