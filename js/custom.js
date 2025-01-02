@@ -1399,20 +1399,28 @@ function filter(inner) {
 		}
 		interestSelect.onchange = function () {
 			var sel = document.getElementById("interest-name");
+			var gm = document.getElementById("res-filt1");
 			if (sel.value == "Gourmet")
 			{
-				const gm = document.getElementById('res-filt1');
-				const gmodal = new bootstrap.Modal(gm);
-				gmodal.show();
+				gm.classList.add("in");
+				gm.style.display = "block";
 			}
 			else if (sel.value != "Gourmet")
 			{
 				for (var x in interests)
 				{
-					if (sel.options[sel.selectedIndex].value == x)
+					if (inner == "gourmet")
 					{
-						window.location.assign(interests[x]);
+						if (sel.options[sel.selectedIndex].value == x) {
+							window.location.assign("../"+interests[x]);
+						}
 					}
+					else if (inner == "interest")
+						{
+							if (sel.options[sel.selectedIndex].value == x) {
+								window.location.assign(interests[x]);
+							}
+						}
 				}
 			}
 		}

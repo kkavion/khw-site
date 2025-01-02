@@ -2777,7 +2777,8 @@ iframe
 {
      font-weight: 400;
 }
-.disc-section li:first-child span
+.disc-section li:first-child span,
+.disc-section li:nth-child(5) span
 {
      font-size: 18px;
 }
