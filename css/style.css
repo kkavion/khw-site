@@ -127,7 +127,8 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      margin: 0 auto 15px;
 }
  a:focus {
-     outline: 0px solid;
+     outline: 0px none;
+     text-decoration: none;
 }
  img {
      max-width: 100%;
@@ -954,7 +955,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .destination-slider-active .single-destination .des-city div
 {
-    margin: 3px 0;
+    margin: 5px 0;
 }
  .destination-slider-active .single-destination .des-city {
      padding: 15px;
@@ -989,7 +990,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      color: black;
      font-weight: 500;
      font-size: 14px;
-     padding-top: 10px;
+     padding: 10px 0;
      font-family: 'Oxygen';
      font-style: normal;
 }

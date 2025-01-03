@@ -1393,6 +1393,8 @@ function filter(inner) {
 	}
 	else if (inner == "interest" || inner == "gourmet")
 	{
+		var close = document.getElementById("close");
+		var bod = document.body;
 		for (var x in interests)
 		{
 			interestSelect.options[interestSelect.options.length] = new Option (x, x);
@@ -1402,6 +1404,11 @@ function filter(inner) {
 			var gm = document.getElementById("res-filt1");
 			if (sel.value == "Gourmet")
 			{
+				
+				bod.classList.add("modal-open");
+				var ndiv = document.createElement("div");
+				ndiv.className = "modal-backdrop fade in";
+				bod.appendChild(ndiv);
 				gm.classList.add("in");
 				gm.style.display = "block";
 			}
@@ -1423,6 +1430,14 @@ function filter(inner) {
 						}
 				}
 			}
+		}
+		close.onclick = function () {
+			var gm = document.getElementById("res-filt1");
+			var ndiv = document.getElementsByClassName("modal-backdrop")[0];
+			bod.classList.remove("modal-open");
+			bod.removeChild(ndiv);
+			gm.style.display = "none";
+			gm.classList.remove("in");
 		}
 	}
 }
