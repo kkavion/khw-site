@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Water+Brush&display=swap');
 
+.bold
+{
+     font-weight: 600;
+}
+
 .slider-area-2 h2
 {
      font-family: "Water Brush", sans-serif;
@@ -869,7 +874,7 @@ i
      text-align: center;
      background: #aaa9;
      position: relative;
-     z-index: 4;
+     z-index: 20;
      bottom: -60%;
 }
 #filter .form-group
@@ -2784,7 +2789,7 @@ iframe
 }
 .disc-section li:nth-child(2) span
 {
-     font-size: 20px;
+     font-size: 20px !important;
      font-weight: bold !important;
 }
 .disc-section li:last-child span
@@ -3260,4 +3265,31 @@ h1, h2, h3, h4, h5, h6
 #itinerary .timeline-content .box h3
 {
      margin-bottom: 10px;
+}
+.itinerary
+{
+     right: -81px;
+}
+.itinerary-sec
+{
+     text-align: left;
+}
+.itinerary-sec .rp-compare-heading div:last-child
+{
+     text-align: right;
+}
+#flight .row.rp-compare-heading,
+#flight .row.heading
+{
+     font-size: 16px;
+}
+#flight .row
+{
+     padding: 5px 0;
+     font-size: 14px;
+     text-align: center;
+}
+#flight .row div:first-child
+{
+     text-align: left;
 }
