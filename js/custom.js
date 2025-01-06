@@ -726,7 +726,7 @@ var allResort =
 		"Standard": ["Bay Treassure Hotel", "Ideal Beach Resort"],
 		"Economy": ["Esthelle Village Resort"]
 	},
-	"Puducherry": {""
+	"Puducherry": {
 		"Premium": ["Accord Puducherry", "Bonjour Ocean Spray", "La Villa", "Le Pondy", "The Promenade"],
 		"Standard": ["Club Mahindra Puducherry", "Dune de l’Orient", "Dune Eco Village & Spa", "Le Dupleix ~ Sarovar", "Palais De Mahe – CGH Earth", "RKN Beach Resort", "Pondicherry Bay"]
 	},
