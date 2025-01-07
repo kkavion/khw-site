@@ -981,7 +981,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
     font-size: 16px;
 }
  .destination-slider-active .single-destination .des-city a i {
-     margin-right: 10px;
+     margin-right: 0;
 }
  .offers .destination-slider-active .single-destination .des-city a i {
      margin-right: 0px;

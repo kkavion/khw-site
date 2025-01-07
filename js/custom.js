@@ -766,161 +766,136 @@ var allResort =
 	},
 	//mumbai
 	"Mumbai Outskirts":{
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Standard": ["Anandvan Resort", "Fort Jadhavgarh", "The Source at Sula", "Golden Swan Beach Resort"],
+		"Economy": ["Prakruti Resort"]
 	},
 	"Alibaug": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Luxury": ["Radisson Blu Resort & Spa Alibaug"],
+		"Standard": ["Tropicana Resort & Spa Alibaug", "Acons Palm Beach", "Maple IVY", "Silvanus Forest Retreat", "Sai-Inn Resort", "Mango Beach Villa", "Nirmal Cottages"],
+		"Economy": ["Sidz Cottage"]
 	},
 	"Khandala": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Standard": ["FabEscape Hillscape Villa", "Hotel Lalit Inn", "Mystica Resort", "Sunrise Hill Resort", "The Dukes Retreat", "Velvet County Resort & Spa", "Zara's Resort"],
+		"Economy": ["360 South", "Girija Hotel", "Mount View Resort"]
 	},
 	"Lavasa": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Premium": ["The Waterfront Shaw"],
+		"Standard": ["Ekaant The Retreat"],
+		"Economy": ["Shanti Resort And Spa"]
 	},
 	"Lonavala": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Luxury": ["Fariyas Resort Lonavala", "Meritas Picaddle Resort", "Rhythm Lonavala"],
+		"Premium": ["7 Apple Resort", "Amanzi Boutique Resort", "Della Adventure Resorts", "Meritas Crystal Resort"],
+		"Standard": ["Rumourss Sky Villa & Resort", "The Dukes Retreat", "The Lagoona Resort", "The Machan"]
 	},
 	"Matheran": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Standard": ["Adamo The Resort", "Anandritz Resort Matheran", "Dune Barr House - Verandah in the Forest", "Hotel Kumar Plaza", "The Byke Brightland", "Usha Ascot", "Westend Hotel"],
+		"Economy": ["Horseland Hotel And Mountain Spa", "The Byke Heritage – Matheran"]
 	},
 	"Panvel": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Standard": ["Atasa Resort", "Hotel Panvel Palace", "Vinamra Residency"],
+		"Economy": ["Visava Amusement Park & Resort Panvel", "Hotel Mari Aai Residency", "Hotel Jai Malhar Residency"]
 	},
 	//nagpur
 	"Nagpur Outskirts":{
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Standard": ["Ambrosia Farm Villas and club"],
+		"Economy": ["Avadale Tadoba", "Matkazari Dam Amazon Farms", "Olive Aqua Resort", "Rajmahal Khindsi Resort", "Tadoba Tiger Valley Resort"]
 	},
 	"Kanha": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Premium": ["Banjaar Tola - A Taj Safari", "Flame of the Forest Safari Lodge", "Soulacia Hotel & Resort", "The Celebration Van Vilas"],
+		"Standard": ["Bagh Tola", "Infinity Resorts Kanha", "Singinawa Jungle Lodge", "Kanha Jungle Lodge", "7 Tigers Resort Kanha"]
 	},
 	"Pench": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Luxury": ["Baghvan, A Taj Safari"],
+		"Standard": ["Pench Jungle Camp", "Tiger 'n' Woods", "Tuli Tiger Corridor", "Tuli Veer Bagh Resort & Spa"],
+		"Economy": ["Baaz Jungle Resort", "Mahua Vann, Pench", "GoFlamingo Resort", "Kohka Wilderness Camp", "Olive Resorts And Villas", "Tathastu Resort"]
 	},
 	//new delhi
 	"New Delhi Outskirts":{
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Premium": ["Hans Resort", "Heritage Village Resort and Spa", "Lemon Tree Hotel-Tarudhan Valley"],
+		"Standard": ["Baghaan Orchard Retreat", "Best Western Resort Country Club", "Botanix Nature Resort", "Downtown Resorts"],
+		"Boutique": ["Golden Retreat Farm"],
+		"Economy": ["Thakran Farm", "Mud Fort Resort"]
 	},
 	"Agra": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Luxury": ["Royal Sarovar Portico", "Hotel Clarks Shiraz"],
+		"Premium": ["Mansingh Palace", "The Grand Imperial", "The PL Palace"],
+		"Standard": ["Hotel Atulyaa Taj", "Bhawna Clarks Inn", "Hotel Alleviate", "Hotel Amar", "Hotel Dasaprakash", "Hotel Maple Grand", "Hotel Panna Paradise"]
 	},
 	"Alwar": {
 		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Premium": ["Neemrana Fort-Palace", "Sariska Tiger Camp Resort"],
+		"Standard": ["The Vanaashrya Resort Sariska", "Cygnett Lite", "Dadhikar Fort", "Hotel Aravali", "Lemon Tree Hotel", "Neemrana's - Hill-Fort, Kesroli", "Sterling Sariska", "Ram Bihari Palace"]
 	},
 	"Bharatpur": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Luxury": ["Royal Farm"],
+		"Premium": ["Laxmi Vilas Palace Hotel", "Regenta Resort Bharatpur"],
+		"Standard": ["Amritara Chandra Mahal Haveli", "Geetanjali Hotel & Motel", "Hotel Bharatpur Ashok (Forest Lodge)", "Pride Kadamb Kunj Resort", "The Bagh", "The Birder's Inn"]
 	},
 	"Sariska": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Luxury": ["Amanbagh"],
+		"Premium": ["Astroport Sariska Treetop by Eight Continents", "Sariska Manor", "Sariska Tiger Heaven", "The Sariska Retreat"],
+		"Standard": ["Vanaashrya Resort and Spa Sariska", "Utsav Camp Sariska"],
+		"Economy": ["Hotel Tiger Den", "Jungle Camp Sariska", "Sariska Safari Lodge"]
+	},
+	//pune
+	"Pune Outskirts":{
+		"Premium": ["The Corinthians Resort and Club", "The Green Gate Resort, Mulshi"],
+		"Standard": ["Deccan Winds Resort", "Encore A Boutique Resort", "Jalsrushti – A Luxury Island Resort", "KARE Ayurveda & Yoga Retreat", "Malhar Machi Resort Mountain Luxury Resort", "Mango Leaf Lake Resort", "Mantra Resort", "Pratikruti The Lakeview Resort", "Wildernest Hilltop Resort"]
+	},
+	"Panchgani":{
+		"Luxury": ["Grand Victoria The Fern Resort & Spa"],
+		"Standard": ["Blue Country Resort", "Elysium Resort Panchgani", "Hotel Millennium Park", "Mountview ExecutiveThe Valley Resort", "Prospect Hotel", "Ravine Hotel", "Sterling Panchgani"],
+		"Economy": ["Mount View Heritage Hotel", "The Cliff Resort & Spa"]
 	},
 	//thiruvananthapuram
 	"Thiruvananthapuram Outskirts":{
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Standard": ["Palmleaves Beach Resort", "Lagoona Beach Resort", "Serene Lake Resort", "Travancore Island Resort", "Suntara Beach Resort"]
 	},
 	"Alleppey": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Luxury": ["Shanthitheeram Lakeside Heritage Resort"],
+		"Premium": ["Ramada by Wyndham", "Sterling Lake Palace", "The World Backwaters"],
+		"Standard": ["Abad Turtle Beach", "Grand Ayur Island", "Punnamada Resort"],
+		"Boutique": ["Bamboo Lagoon Backwater Front Resort"],
+		"Economy": ["Kondai Lip Backwater Heritage Resort"]
 	},
 	"Kanyakumari": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Standard": ["Anantya by the Lake", "Hotel Ocean Heritage", "Hotel Singaar International", "Hotel Skyark"],
+		"Economy": ["Hotel Rajam", "Hotel Seaface", "Palmyra Grand Suites", "New Cape Hotel"]
 	},
 	"Kollam": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Luxury": ["The Leela Ashtamudi, A Raviz Hotel"],
+		"Premium": ["Fragrant Nature Backwater Resort & Ayurveda Spa", "Hotel All Season", "The Quilon Beach Hotel & Convention Centre"],
+		"Standard": ["Chandra Inn", "Global Backwater Resort", "Hotel Sea Pearl"],
+		"Economy": ["All Season’s D’Fort Ayurvedic Resort", "Ashtamudi Villas"]
+	},
+	"Kottayam": {
+		"Luxury": ["The Chrysoberyl Hotel & Convention Centre"],
+		"Premium": ["Hotel Indraprastha", "The Windsor Castle"],
+		"Standard": ["Hotel Arcadia"],
+		"Boutique": ["Rain Forest Ayur County Resort"],
+		"Economy": ["Hotel National Park"]
 	},
 	"Kovalam": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Luxury": ["Taj Green Cove Resort & Spa", "The Leela Kovalam, A Raviz Hotel"],
+		"Premium": ["Niraamaya Retreats Surya Samudra", "Uday Samudra Leisure Beach Hotel & Spa"],
+		"Standard": ["Bethsaida Hermitage", "Gokulam Grand Turtle on the Beach", "Soma Palmshore Beach Resort"]
 	},
 	"Kumarakom": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Luxury": ["Kumarakom Lake Resort", "The Zuri Kumarakom"],
+		"Premium": ["Backwater Ripples", "Niraamaya Retreats Backwaters And Beyond", "Rhythm Kumarakom"],
+		"Standard": ["Abad Whispering Palms", "Coco Bay Resort", "Green Fields Kumarakom", "Gokulam Grand Resort & Spa"],
+		"Economy": ["Lake Palace Family Resort"]
 	},
 	"Poovar": {
-		"Luxury": [],
-		"Premium": [],
-		"Standard": [],
-		"Boutique": [],
-		"Economy": []
+		"Premium": ["Estuary Sarovar Portico"],
+		"Standard": ["Club Mahindra Poovar", "Hotel Geethu International", "Isola Di Cocco", "Poovar Island Resort"],
+		"Economy": ["Kayaloram Resort", "Leela Backwaters Inn", "Nirvaana Boutique Resort"]
+	},
+	"Varkala": {
+		"Premium": ["Gateway Varkala - IHCL SeleQtions", "IndraPrastha Beach Resort"],
+		"Standard": ["Akhil Beach Resort", "Black Beach Resort", "Clafouti Beach Resort", "Hindustan Beach Retreat", "Kshetra Retreat", "Palm Tree Heritage", "Sanctum Spring Beach Resort"],
+		"Economy": ["Blue Water Beach Resort"]
 	}
 };
 
@@ -1475,6 +1450,61 @@ function filterRP() {
 			{
 				window.top.location = resLocs[x];
 			}
+		}
+	}
+}
+
+function filterQ()
+{
+	var destinationSelect, typeSelect, resortSelect;
+	
+	if (document.getElementById("leisure"))
+	{
+		destinationSelect = document.getElementById("desti-name1");
+		typeSelect = document.getElementById("sel-res-cat1");
+		resortSelect = document.getElementById("choose-res1");
+	}
+	else if (document.getElementById("wedding"))
+	{
+		destinationSelect = document.getElementById("desti-name2");
+		typeSelect = document.getElementById("sel-res-cat2");
+		resortSelect = document.getElementById("choose-res2");
+	}
+	else if (document.getElementById("conference"))
+	{
+		destinationSelect = document.getElementById("desti-name3");
+		typeSelect = document.getElementById("sel-res-cat3");
+		resortSelect = document.getElementById("choose-res3");
+	}
+	for (var x in allResort)
+	{
+		destinationSelect.options[destinationSelect.options.length] = new Option (x, x);
+	}
+	destinationSelect.onchange = function ()
+	{
+		//empty Chapters- and Topics- dropdowns
+		resortSelect.length = typeSelect.length = 1;
+		//display correct values
+		var sel = destinationSelect;
+		for (var y in allResort) {
+			if (sel.options[sel.selectedIndex].value == y)
+			{
+				for (var z in allResort[this.value])
+				{
+					typeSelect.options[typeSelect.options.length] = new Option(z, z);
+				}
+			}
+		}
+	}
+	typeSelect.onchange = function ()
+	{
+		//empty Chapters dropdown
+		resortSelect.length = 1;
+		//display correct values
+		var a = allResort[destinationSelect.value][this.value];
+		for (var i = 0; i < a.length; i++)
+		{
+			resortSelect.options[resortSelect.options.length] = new Option(a[i], a[i]);
 		}
 	}
 }
