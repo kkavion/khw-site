@@ -288,7 +288,11 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .resort-table li
 {
 	padding:3px 0 3px 0;
-	display: inline-block;
+	display: block;
+}
+.menurates li
+{
+     display: inline-block;
 }
 .single-country
 {
@@ -336,6 +340,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
      font-size: 16px;
      font-weight: normal;
      line-height: 24px;
+     text-align: left;
 }
 .timeline-content .col-md-8 p:nth-child(1),
 .timeline-content .col-md-8 p:nth-child(2)
@@ -350,7 +355,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .header-bottom-area .tab-a li,
 .header-bottom-area .tab-b li
 {
-     transition: all 0.3s;
+     transition: 0.3s all ease-in-out;
 }
 .header-bottom-area .tab-a
 {
@@ -388,7 +393,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .header-bottom-area .tab-a > li > a:before
 {
-     background: white !important;
+     background:  #ed1c24 !important;
      bottom: 15% !important;
      width: 50% !important;
 }
@@ -410,7 +415,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
      font-weight: 500;
      position: relative;
      text-align:center;
-     padding: 10px 20px;
+     padding: 10px;
 }
 .header-bottom-area .tab-b > li.active a {
      color: white !important;
@@ -497,7 +502,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
      background: #5d001e;
 }
-#heritageint
+#historicalint
 {
      background: #6c541e;
 }
@@ -693,6 +698,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
      font-size: 14px;
      font-weight: 500;
      color: black;
+     float: left;
 }
 .main-menu li
 {
@@ -1048,7 +1054,7 @@ button
 }
 .resort-box .resort-table .row:nth-child(1)
 {
-     background: #8080801a !important;
+     background: #ddd !important;
 }
 .footer-contact li a
 {
@@ -1357,7 +1363,7 @@ button
 }
 .single-package-details p i
 {
-     font-size: 18px;
+     font-size: 20px;
      color: #ed1c24;
 }
 .gsc-control-cse
@@ -1797,11 +1803,6 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      color: white;
 }
-.interest-bg .single-package-details p
-{
-     margin: 40px auto;
-     margin-top: 20px;
-}
 .interest-bg .single-destionation-5 .travel-primary-btn
 {
      background: #034ea2;
@@ -1953,7 +1954,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      padding-bottom: 0px;
 }
-.day-out, .offer-tab
+.day-out, .offer-tab, .resorts
 {
      background: #f5f5f5;
 }
@@ -2206,7 +2207,6 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
      border-radius: 5px;
      border: 1px solid gray;
      display: inline-block;
-     cursor: pointer;
 }
 .room-rate span
 {
@@ -3069,7 +3069,7 @@ h1, h2, h3, h4, h5, h6
 }
 .box .resort-table .row:first-child
 {
-     background: #8080801a;
+     background: #ddd;
 }
 .box .resort-table .row
 {
@@ -3136,6 +3136,7 @@ h1, h2, h3, h4, h5, h6
 .active-slider2
 {
      color: white;
+     background: #034ea2;
 }
 .active-slider2 p
 {
@@ -3231,7 +3232,7 @@ h1, h2, h3, h4, h5, h6
 }
 .copyright
 {
-     font-size: 11px;
+     font-size: 12px;
      color: #aaa;
      padding-bottom: 10px;
      text-align: center;
@@ -3285,4 +3286,8 @@ h1, h2, h3, h4, h5, h6
 #flight .row div:first-child
 {
      text-align: left;
+}
+.gmbtn
+{
+     cursor: pointer;
 }

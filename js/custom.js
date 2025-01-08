@@ -1456,26 +1456,12 @@ function filterRP() {
 
 function filterQ()
 {
-	var destinationSelect, typeSelect, resortSelect;
-	
-	if (document.getElementById("leisure"))
-	{
-		destinationSelect = document.getElementById("desti-name1");
-		typeSelect = document.getElementById("sel-res-cat1");
-		resortSelect = document.getElementById("choose-res1");
-	}
-	else if (document.getElementById("wedding"))
-	{
-		destinationSelect = document.getElementById("desti-name2");
-		typeSelect = document.getElementById("sel-res-cat2");
-		resortSelect = document.getElementById("choose-res2");
-	}
-	else if (document.getElementById("conference"))
-	{
-		destinationSelect = document.getElementById("desti-name3");
-		typeSelect = document.getElementById("sel-res-cat3");
-		resortSelect = document.getElementById("choose-res3");
-	}
+	filters(document.getElementById("desti-name1"), document.getElementById("sel-res-cat1"), document.getElementById("choose-res1"));
+	filters(document.getElementById("desti-name2"), document.getElementById("sel-res-cat2"), document.getElementById("choose-res2"));
+	filters(document.getElementById("desti-name3"), document.getElementById("sel-res-cat3"), document.getElementById("choose-res3"));
+}
+function filters(destinationSelect, typeSelect, resortSelect)
+{
 	for (var x in allResort)
 	{
 		destinationSelect.options[destinationSelect.options.length] = new Option (x, x);
