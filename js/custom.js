@@ -893,6 +893,7 @@ var allResort =
 		"Standard": ["Hotel Emerald Dove & Hotel Nigress", "Kumararraja Palace", "La Flora Cloud 9 Resort"],
 		"Economy": ["Hotel Hill Breeze Yelagiri", "Hotel Landmark"],
 		"Homestay": ["Yelagiri Farmhouse"]
+	}
 };
 
 var desLocs = 
