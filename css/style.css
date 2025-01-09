@@ -735,8 +735,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      background-image: url("../images/line-read.png") !important;
 }
  .section-title-3 {
-     z-index: 33;
-     position: relative;
+     display: block;
      text-align: left;
 }
  .section-title-3 h2 {
@@ -979,6 +978,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .destination-slider-active .single-destination .des-city span
 {
     font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
 }
  .destination-slider-active .single-destination .des-city a i {
      margin-right: 0;
@@ -3531,6 +3531,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-size: 15px;
      font-weight: 400;
      padding-bottom: 5px;
+     float: none;
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-description h3 {
      font-size: 18px;
@@ -3548,7 +3549,8 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-description > p span {
      font-weight: 600;
-     color: red;
+     color: #ed1c24;
+     font-style: normal;
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-description .rating-review-5 {
      padding-bottom: 30px;

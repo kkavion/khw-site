@@ -360,6 +360,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .header-bottom-area .tab-a
 {
 	text-align:center;
+	padding: 20px;
 }
 .header-bottom-area .tab-a li:hover
 {
@@ -373,7 +374,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
      font-weight: 500;
      position: relative;
      text-align:center;
-     padding: 10px 15px;
+     padding: 10px;
 }
 .header-bottom-area .tab-a > li.active a {
      color:  white !important;
@@ -403,7 +404,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .header-bottom-area .tab-b > li > a:before
 {
-     background: white !important;
+     background: #034ea2 !important;
      bottom: 5px !important;
      width: 60% !important;
 }
@@ -626,7 +627,6 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .discount-package
 {
      margin-top: 25px;
-     margin-bottom: 50px;
      padding-bottom: 0;
 }
 .top-destination-area .single-hotels
@@ -694,7 +694,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .top-destination-area span
 {
      font-style: italic;
-     font-family: "Merriweather", sans-serif;
+     font-family: "Oxygen", sans-serif;
      font-size: 14px;
      font-weight: 500;
      color: black;
@@ -748,7 +748,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .mean-container .mean-bar .mean-link
 {
-     color: #ffffff;
+     color: #034ea2;
      font-size: 18px;
      left: 10px;
      position: absolute;
@@ -824,6 +824,7 @@ header .main-menu a:focus
 .amenities-row
 {
      padding: 0;
+     display: contents;
 }
 .amenities-row span
 {
@@ -1054,7 +1055,7 @@ button
 }
 .resort-box .resort-table .row:nth-child(1)
 {
-     background: #ddd !important;
+     background: #eee !important;
 }
 .footer-contact li a
 {
@@ -1216,6 +1217,7 @@ button
 .single-hotels .ct-action, .package-calto-action .ct-action
 {
      margin: 0;
+     margin-top: 10px;
 }
 .ct-action
 {
@@ -1465,7 +1467,7 @@ header .sticky .header-bottom-area .main-menu .dropdown2 li a
 }
 .mean-nav .dropdown2 li
 {
-     background-color: #2c3035 !important;
+     background-color: #034ea2 !important;
 }
 
 
@@ -1580,7 +1582,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .sticky2
 {
-     background: #202124 !important;
+     background: white !important;
 }
 .home-interest-area .single-hotels .ct-action .travel-booking-btn
 {
@@ -1776,6 +1778,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 {
      font-size: 18px !important;
      padding: 0 7px;
+     float: none;
 }
 .turnoff
 {
@@ -1828,7 +1831,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .interest-bg .main-timeline::before
 {
      left: 0;
-     height: 82%;
+     height: 78%;
 }
 .interest-bg .tour-description .timeline:hover p::before
 {
@@ -2210,7 +2213,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 }
 .room-rate span
 {
-     color: red;
+     color: #ed1c24;
      font-weight: 600;
 }
 iframe
@@ -2451,8 +2454,6 @@ iframe
 }
 .room-compare
 {
-     top: -35px;
-     position: relative;
      text-align: center;
      display: inline-block;
      cursor: pointer;
@@ -2701,7 +2702,7 @@ iframe
 }
 .red
 {
-     color: red;
+     color: #ed1c24;
      font-weight: 600 !important;
 }
 .package-5-area .single-package-carasoul
@@ -2779,7 +2780,7 @@ iframe
 .disc-section li:first-child span,
 .disc-section li:nth-child(5) span
 {
-     font-size: 18px;
+     font-size: 20px;
 }
 .disc-section li:nth-child(2) span
 {
@@ -2860,6 +2861,7 @@ h1, h2, h3, h4, h5, h6
      font-weight: 700;
      display: inline-block;
      font-style: normal;
+     float: none;
 }
 .rev_slider h2
 {
@@ -2943,7 +2945,9 @@ h1, h2, h3, h4, h5, h6
 {
      color: black !important;
      transition: all ease-in-out 0.3s;
-     cursor: pointer
+     cursor: pointer;
+     font-size: 17px;
+     line-height: 20px;
 }
 .getaway a:first-child
 {

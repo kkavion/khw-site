@@ -186,6 +186,17 @@
 					</div>
 				</div>
 			</div>
+			<div class="container">
+				<div class="row bg-gradent">
+					<form id="filter">
+						<div class="form-group">
+							<select class="form-control" id="country-name">
+								<option hidden>Country Name</option>
+							</select>
+						</div>
+					</form>
+				</div>
+			</div>
 		</div>
 	</section><!-- blog breadcrumb version one end here -->
 
@@ -2286,6 +2297,7 @@
 	<!-- main js -->
 	<script src="../js/custom.js"></script>
 	<script>
+		window.onload = function() {filterC("package")};
 		// When the user scrolls the page, execute myFunction
 		window.onscroll = function () { myFunction() };
 

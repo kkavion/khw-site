@@ -1287,7 +1287,7 @@ A VERTICAL event
     left: 0;
     right: 0;
     border-style: solid;
-    border-color: red;
+    border-color: #ed1c24;
     border-color: var(--fc-now-indicator-color, red);
     border-width: 1px 0 0;
   }
@@ -1301,7 +1301,7 @@ A VERTICAL event
     z-index: 4;
     margin-top: -5px; /* vertically center on top coordinate */
     border-style: solid;
-    border-color: red;
+    border-color: #ed1c24;
     border-color: var(--fc-now-indicator-color, red);
   }
 .fc-direction-ltr .fc-timegrid-now-indicator-arrow {
