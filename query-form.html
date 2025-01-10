@@ -167,26 +167,8 @@
 	</header>
 	<!-- header area end here -->
 
-	<section class="breadcrumb-blog-version-one">
-		<div class="single-bredcurms" style="background-image:url('images/banners/query_leisure.webp');">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12 col-md-12">
-						<div class="bredcrums-content">
-							<h2>Query</h2>
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li class="active"><a href="form-leisure.html">LEISURE</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section><!-- blog breadcrumb version one end here -->
-
 	<!-- popular destination strat -->
-	<section class="section-paddings single-package-area leisure-page-area">
+	<section class="section-paddings single-package-area leisure-page-area" style="padding-top: 100px;">
 		<div class="container">
 			<div class="header-bottom-area" style="padding-bottom: 50px;">
 				<ul class="main-menu tab-a" role="tablist" id="tab7">
@@ -1172,27 +1154,11 @@
 		// Get the navbar
 		var navbar = document.getElementById("navbar");
 		var mobnav = document.getElementById("mobnav");
-
+		navbar.classList.add("sticky");
+		mobnav.classList.add("sticky2");
 		// Get the offset position of the navbar
-		var sticky = navbar.offsetTop+450;
-		var sticky2 = mobnav.offsetTop+150;
-
-		// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-		function myFunction() {
-			if (window.pageYOffset >= sticky) {
-				navbar.classList.add("sticky");
-			}
-			else {
-				navbar.classList.remove("sticky");
-			}
-			if (window.pageYOffset >= sticky2) {
-				mobnav.classList.add("sticky2");
-			}
-			else {
-				mobnav.classList.remove("sticky2");
-			}
-
-		}
+		var sticky = navbar.offsetTop;
+		var sticky2 = mobnav.offsetTop;
 	</script>
 	<script>
 		(() => {
