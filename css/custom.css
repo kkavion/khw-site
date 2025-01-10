@@ -3176,6 +3176,7 @@ h1, h2, h3, h4, h5, h6
      box-shadow: none;
      padding: 20px 0;
      padding-right: 15px;
+     border: none;
 }
 .active-slider2 .destination-slider-active .single-destination .des-city a span
 {

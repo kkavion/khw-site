@@ -1221,7 +1221,7 @@ var interests =
 		"Continental":"gourmet/continental.html",
 		"International":"gourmet/international.html",
 	},
-	"Historical": "historical.html",
+	"History": "historical.html",
 	"Honeymoon":"honeymoon.html",
 	"MICE": "mice.html",
 	"Offbeat":"offbeat.html",
