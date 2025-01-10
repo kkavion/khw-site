@@ -479,7 +479,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .tab-c > li > a::before
 {
-     background:  gray !important;
+     background:  lightgray !important;
      bottom: 5px !important;
      width: 60% !important;
      transition: all 0.3s ease-in-out;
@@ -2225,6 +2225,7 @@ iframe
 .blog-comments
 {
      padding-bottom: 10px;
+     padding-top: 10px;
 }
 .blog-comments p
 {
