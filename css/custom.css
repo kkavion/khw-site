@@ -29,7 +29,7 @@
 }
 .sticky .main-menu > li > a
 {
-     color: #034ea2;
+     color: #454545;
 }
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content
@@ -627,8 +627,8 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .discount-package
 {
-     margin-top: 25px;
-     padding-bottom: 0;
+     margin-top: 0px;
+     padding-bottom: 0px;
 }
 .top-destination-area .single-hotels
 {
