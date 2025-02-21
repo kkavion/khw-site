@@ -29,7 +29,7 @@
 }
 .sticky .main-menu > li > a
 {
-     color: #454545;
+     color: #232323;
 }
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content
@@ -369,7 +369,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .header-bottom-area .tab-a > li > a {
      display: block;
-     color: #ed1c24;
+     color: #232323;
      font-size: 17px;
      text-decoration: none;
      font-weight: 500;
@@ -411,7 +411,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .header-bottom-area .tab-b > li > a {
      display: block;
-     color: #034ea2;
+     color: #232323;
      font-size: 17px;
      text-decoration: none;
      font-weight: 500;
@@ -1433,7 +1433,7 @@ header .header-bottom-area .main-menu .dropdown2 li a
 }
 header .sticky .header-bottom-area .main-menu .dropdown2 li a
 {
-     color: #454545;
+     color: #232323;
      font-size: 17px;
      padding: 10px 15px;
      display: inline-block;
