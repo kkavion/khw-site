@@ -611,11 +611,18 @@ var deszones =
 
 var country = 
 {
-	"India": "international-offers/india.html",
-	"Maldives": "international-offers/maldives.html",
-	"Nepal": "international-offers/nepal.html",
-	"Sri Lanka": "international-offers/sri-lanka.html",
-	"Thailand": "international-offers/thailand.html"
+	"Cambodia": "cambodia.html",
+	"Indonesia": "indonesia.html",
+	"Malaysia": "malaysia.html",
+	"Maldives": "maldives.html",
+	"Mauritius": "mauritius.html",
+	"Philippines": "philippines.html",
+	"Seychelles": "seychelles.html",
+	"Singapore": "singapore.html",
+	"Sri Lanka": "srilanka.html",
+	"Thailand": "thailand.html",
+	"UAE": "uae.html",
+	"Vietnam": "vietnam.html"
 }
 
 var allResort = 
