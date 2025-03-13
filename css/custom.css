@@ -876,8 +876,12 @@ i
      text-align: center;
      background: #aaa9;
      position: relative;
-     z-index: 20;
+     z-index: 4;
      bottom: -60%;
+}
+.homepage #filter
+{
+     z-index: 20;
 }
 #filter .form-group
 {
@@ -1126,12 +1130,12 @@ button
 }
 .box
 {
-     margin: 20px 0 50px 0;
+     margin: 50px 0;
      border: 1px solid #ccc;
 }
 .resort-box
 {
-     margin: 20px 0 50px 0;
+     margin: 0 0 25px 0;
      border: 1px solid #fff;
 }
 .resort-box h3
@@ -1339,9 +1343,14 @@ button
 {
      padding: 0 0 25px 30px;
 }
+.leisure-page-area .single-package-details .main-timeline::before
+{
+     height: 95%;
+     left: 0;
+}
 .single-package-details .main-timeline::before
 {
-     height: 86%;
+     height: 90%;
      left: 0;
 }
 .single-package-details .timeline-icon
@@ -2850,6 +2859,7 @@ h1, h2, h3, h4, h5, h6
 {
      font-weight: 700;
      font-style: normal;
+     padding: 25px 0;
 }
 .resorts h3,
 .offers h3
@@ -3297,4 +3307,8 @@ h1, h2, h3, h4, h5, h6
 .gmbtn
 {
      cursor: pointer;
+}
+#adslide, #adslide .carousel-inner
+{
+     border-radius: 0 !important;
 }
