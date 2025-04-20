@@ -974,7 +974,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      font-weight: 600;
      display: block;
      transition: all ease-in-out 0.5s;
-     font-size: 16px;
+     font-size: 17px;
      font-family: 'Merriweather';
 }
  .destination-slider-active .single-destination .des-city span
@@ -991,10 +991,14 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .destination-slider-active .single-destination .des-city h4 {
      color: black;
      font-weight: 500;
-     font-size: 14px;
+     font-size: 15px;
      padding: 10px 0;
      font-family: 'Oxygen';
      font-style: normal;
+}
+ .destination-slider-active .single-destination .des-city button
+{
+     font-size: 15px !important;
 }
  .destination-slider-active .single-destination .des-city h4 span {
      float: right;
