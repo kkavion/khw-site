@@ -3529,7 +3529,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .top-destination-area-5 .single-destionation-5 .destination-5-description span {
      color: black;
      display: inline-block;
-     font-size: 15px;
+     font-size: 16px;
      font-weight: 400;
      padding-bottom: 5px;
      float: none;
@@ -3547,6 +3547,11 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      margin-top: 5px;
      text-align: center;
      margin-bottom: 10px;
+     font-size: 17px;
+}
+ .top-destination-area-5 .single-destionation-5 .destination-5-description .prop
+{
+    font-size: 16px;
 }
  .top-destination-area-5 .single-destionation-5 .destination-5-description > p span {
      font-weight: 600;
