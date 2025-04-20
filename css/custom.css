@@ -3061,7 +3061,7 @@ h1, h2, h3, h4, h5, h6
 }
 .must-visit h3
 {
-     margin-bottom: 10px;
+     padding-bottom: 15px;
 }
 #filter .btn-primary
 {
