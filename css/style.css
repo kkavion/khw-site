@@ -1975,7 +1975,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      margin: 0;
 }
  .single-package-carasoul .package-details .package-places .details p span {
-     font-size: 15px;
+     font-size: 16px;
      font-weight: 600;
      color: black;
 }
@@ -3597,7 +3597,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
  .testimonial-area-5 {
      position: relative;
      overflow: hidden;
-     padding: 50px 0 25px 0;
+     padding: 25px 0;
      margin-bottom: 0;
 }
  .testimonial-area-5:before {
@@ -3977,7 +3977,7 @@ Tags: 	hotel, resort, tour, tourism, tourist, tours website, travel, traveler, t
      margin-right: 15px;
 }
  .related-tour {
-     padding-bottom: 25px;
+     padding-bottom: 0;
 }
  .related-tour .single-package {
      border-radius: 5px;
@@ -4684,7 +4684,7 @@ aside .booking-form .form-group .booking-confirm:hover
 .top-destination-area h3
 {
     padding: 5px 0;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
  .top-destination-area-5 .single-destionation-5 {

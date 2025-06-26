@@ -347,7 +347,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 .timeline-content .col-md-8 p:nth-child(1),
 .timeline-content .col-md-8 p:nth-child(2)
 {
-     font-size: 15px;
+     font-size: 16px;
 }
 .header-bottom-area .tab-a li:hover a,
 .header-bottom-area .tab-b li:hover a
@@ -363,6 +363,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 {
 	text-align:center;
 	padding: 20px;
+	padding-top: 0;
 }
 .header-bottom-area .tab-a li:hover
 {
@@ -629,7 +630,7 @@ header .sticky .header-bottom-area .main-menu > li.active a
 }
 .discount-package
 {
-     margin-top: 25px;
+     padding-top: 25px;
      padding-bottom: 0px;
 }
 .top-destination-area .single-hotels
@@ -1139,12 +1140,12 @@ button
 }
 .resort-box
 {
-     margin: 0 0 50px 0;
+     margin: 15px 0 50px 0;
      border: 1px solid #fff;
 }
 .resort-box h3
 {
-     padding-bottom: 10px;
+     padding-bottom: 5px;
 }
 .x-text-center
 {
@@ -1226,7 +1227,6 @@ button
 .single-hotels .ct-action, .package-calto-action .ct-action
 {
      margin: 0;
-     margin-top: 10px;
 }
 .ct-action
 {
@@ -1354,7 +1354,7 @@ button
 }
 .single-package-details .main-timeline::before
 {
-     height: 90%;
+     height: 95%;
      left: 0;
 }
 .single-package-details .timeline-icon
@@ -1844,7 +1844,7 @@ header .sticky .header-bottom-area .main-menu .dropdown3 li a
 .interest-bg .main-timeline::before
 {
      left: 0;
-     height: 78%;
+     height: 85%;
 }
 .interest-bg .tour-description .timeline:hover p::before
 {
@@ -3052,7 +3052,7 @@ h1, h2, h3, h4, h5, h6
 }
 .offers .container:not(:first-child)
 {
-     margin: 20px auto;
+     margin: 50px auto;
 }
 .related-tour .must-visit
 {
@@ -3322,4 +3322,14 @@ h1, h2, h3, h4, h5, h6
 .tab-content .discount-package
 {
     margin-bottom: 50px;
+    padding-top: 0;
+    margin-top: 25px;
+}
+.single-package-area .discount-package .carousel-inner
+{
+     border-radius: 5px;
+}
+.single-package-area .discount-package
+{
+     margin-bottom: 50px;
 }
